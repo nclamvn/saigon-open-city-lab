@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-09-12T01:51:50.861144+00:00",
+  "status": "PASS",
+  "checks": {
+    "three_button_map_first_dock": true,
+    "drawers_are_mutually_exclusive": true,
+    "selection_closes_drawer": true,
+    "intro_views_tools_hidden_by_default": true,
+    "portrait_layout_is_bounded": true,
+    "hud_collapse_expand": true,
+    "keyboard_navigation": true,
+    "restrained_window_emission": true,
+    "continuous_street_light_layer": true,
+    "bitexco_flared_helipad": true,
+    "cinematic_view_18": true,
+    "five_shot_45_second_director": true,
+    "light_trails_220": true,
+    "skyline_glow_one_draw_call": true,
+    "wet_roads_from_mapped_centerlines": true,
+    "four_post_passes": true,
+    "cinematic_render_hook": true,
+    "data_classification_exposed": true,
+    "poc12_header_and_report_link": true
+  },
+  "declared": {
+    "views": 18,
+    "director_seconds": 45,
+    "director_shots": 5,
+    "light_trails": 220,
+    "post_passes": 4,
+    "persistent_ui_buttons": 3,
+    "window_lit_probability_percent": 15,
+    "helipad_top_diameter_m": 44
+  }
+}

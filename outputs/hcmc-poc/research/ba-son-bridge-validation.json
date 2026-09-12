@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "identity": true,
+    "mapped_carriageways": true,
+    "scene_roads": true,
+    "supports": true,
+    "finite_support_positions": true,
+    "published_design_parameters": true,
+    "provenance": true,
+    "honesty_flags": true,
+    "runtime_contract": true
+  },
+  "mappedRoadIds": [
+    321564421,
+    321564423
+  ],
+  "supportCount": 4,
+  "sourceCount": 2,
+  "classification": "illustrative_structure_anchored_to_mapped_centerline",
+  "surveyedGeometry": false,
+  "sha256": "930b54e04c46934fc2b8d0305ba46a964aa44e15e55269804ff0246f622234da"
+}

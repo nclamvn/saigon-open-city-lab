@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "mapped_construction_ways": true,
+    "osm_construction_tags": true,
+    "not_operational": true,
+    "approved_form": true,
+    "published_dimensions": true,
+    "render_separates_fact_and_design": true,
+    "survey_grade_denied": true,
+    "provenance": true
+  },
+  "wayIds": [
+    1504289918,
+    1504289919,
+    1504289920,
+    1504289921
+  ],
+  "operational": false,
+  "statusDate": "2026-08-25",
+  "sha256": "731e0f94d1a4fb953602345566367ca261f1776a8b5b98bbf536cb6270375ed0"
+}

@@ -1,0 +1,11 @@
+{
+  "asset": "Venice Sunset 1K HDR",
+  "creator": "Greg Zaal",
+  "source": "https://polyhaven.com/a/venice_sunset",
+  "download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/venice_sunset_1k.hdr",
+  "license": "CC0",
+  "use": "image-based lighting and material reflections only; not represented as HCMC imagery",
+  "bytes": 1440400,
+  "md5": "a5ec4d30fc3421c214a17b208fb66d5f",
+  "sha256": "92fe2b29b1957828fb8925a57633540bbba5bf380d9285ed553443e834249352"
+}

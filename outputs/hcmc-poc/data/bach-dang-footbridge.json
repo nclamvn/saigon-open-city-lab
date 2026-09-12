@@ -1,0 +1,361 @@
+{
+  "version": "footbridge-correction-1",
+  "name": "Cầu đi bộ qua sông Sài Gòn",
+  "connection": "Công viên Bến Bạch Đằng – Công viên bờ sông Thủ Thiêm",
+  "status": "under_construction_main_span_not_installed",
+  "statusDate": "2026-08-25",
+  "operational": false,
+  "mappedConstructionWayIds": [
+    1504289918,
+    1504289919,
+    1504289920,
+    1504289921
+  ],
+  "mainPath": [
+    [
+      -468.25,
+      552.3
+    ],
+    [
+      -444.18,
+      543.75
+    ],
+    [
+      -432.39,
+      541.67
+    ],
+    [
+      -348.56,
+      541.46
+    ],
+    [
+      -330.45,
+      543.93
+    ],
+    [
+      -305.03,
+      550.32
+    ],
+    [
+      -294.87,
+      551.95
+    ],
+    [
+      -275.29,
+      553.0
+    ],
+    [
+      -265.98,
+      552.41
+    ],
+    [
+      -251.61,
+      550.15
+    ],
+    [
+      -246.64,
+      548.52
+    ],
+    [
+      -238.6,
+      544.25
+    ],
+    [
+      -229.84,
+      538.32
+    ],
+    [
+      -223.68,
+      535.63
+    ],
+    [
+      -217.75,
+      535.16
+    ],
+    [
+      -202.92,
+      538.03
+    ],
+    [
+      -193.46,
+      538.82
+    ]
+  ],
+  "approachPaths": [
+    [
+      [
+        -348.56,
+        541.46
+      ],
+      [
+        -339.55,
+        540.22
+      ],
+      [
+        -303.24,
+        532.43
+      ],
+      [
+        -283.89,
+        531.04
+      ],
+      [
+        -265.7,
+        531.47
+      ],
+      [
+        -254.7,
+        532.79
+      ],
+      [
+        -244.12,
+        536.24
+      ],
+      [
+        -234.4,
+        541.71
+      ],
+      [
+        -227.72,
+        547.85
+      ],
+      [
+        -224.93,
+        551.43
+      ],
+      [
+        -220.16,
+        561.48
+      ],
+      [
+        -219.36,
+        567.11
+      ],
+      [
+        -220.89,
+        572.89
+      ],
+      [
+        -227.99,
+        581.71
+      ],
+      [
+        -230.43,
+        586.1
+      ],
+      [
+        -232.82,
+        594.53
+      ],
+      [
+        -232.68,
+        602.98
+      ],
+      [
+        -230.2,
+        610.72
+      ],
+      [
+        -227.87,
+        614.23
+      ],
+      [
+        -222.22,
+        618.66
+      ],
+      [
+        -216.34,
+        619.89
+      ],
+      [
+        -210.47,
+        618.8
+      ],
+      [
+        -205.21,
+        615.08
+      ],
+      [
+        -201.29,
+        608.81
+      ],
+      [
+        -200.26,
+        605.02
+      ],
+      [
+        -200.03,
+        597.26
+      ],
+      [
+        -201.54,
+        589.74
+      ],
+      [
+        -203.07,
+        585.99
+      ],
+      [
+        -207.54,
+        579.25
+      ],
+      [
+        -209.38,
+        573.79
+      ],
+      [
+        -209.53,
+        570.68
+      ],
+      [
+        -208.21,
+        564.5
+      ],
+      [
+        -204.47,
+        559.3
+      ],
+      [
+        -198.97,
+        556.36
+      ],
+      [
+        -195.86,
+        555.87
+      ],
+      [
+        -187.23,
+        556.55
+      ]
+    ],
+    [
+      [
+        -522.96,
+        729.73
+      ],
+      [
+        -521.78,
+        706.57
+      ],
+      [
+        -520.28,
+        697.19
+      ],
+      [
+        -516.38,
+        687.06
+      ],
+      [
+        -505.02,
+        670.42
+      ],
+      [
+        -501.4,
+        663.38
+      ],
+      [
+        -498.56,
+        655.73
+      ],
+      [
+        -495.75,
+        639.71
+      ],
+      [
+        -495.71,
+        630.02
+      ],
+      [
+        -498.53,
+        610.86
+      ],
+      [
+        -504.47,
+        593.99
+      ],
+      [
+        -513.71,
+        575.61
+      ],
+      [
+        -516.94,
+        562.94
+      ],
+      [
+        -517.24,
+        551.87
+      ],
+      [
+        -514.44,
+        543.34
+      ],
+      [
+        -509.09,
+        536.02
+      ],
+      [
+        -501.68,
+        530.6
+      ],
+      [
+        -496.75,
+        528.52
+      ],
+      [
+        -486.19,
+        527.02
+      ],
+      [
+        -480.86,
+        527.62
+      ],
+      [
+        -448.82,
+        538.0
+      ],
+      [
+        -432.39,
+        541.67
+      ]
+    ]
+  ],
+  "design": {
+    "concept": "nipa_palm_leaf",
+    "structure": "spatial_steel_arch",
+    "routeLengthM": 720,
+    "widthRangeM": [
+      6,
+      11
+    ],
+    "mainSpanM": 187,
+    "navigationClearanceM": {
+      "width": 80,
+      "height": 10
+    },
+    "pedestrianAndCycleUse": true
+  },
+  "renderPolicy": {
+    "builtWork": "solid",
+    "uninstalledMainSpan": "translucent_design_envelope",
+    "classification": "construction_state_plus_illustrative_approved_design",
+    "surveyedGeometry": false
+  },
+  "sources": [
+    {
+      "name": "Ho Chi Minh City Government Portal",
+      "url": "https://tphcm.chinhphu.vn/khoi-cong-xay-dung-cau-di-bo-qua-song-sai-gon-101250329111018964.htm",
+      "claim": "720 m route, 6–11 m width, 187 m main span, 80 x 10 m navigation clearance, spatial steel arch and nipa-palm-leaf form"
+    },
+    {
+      "name": "VOV",
+      "url": "https://vov.gov.vn/cau-di-bo-qua-song-sai-gon-lo-hen-dip-29-dtnew-1161022?keyDevice=true",
+      "claim": "On 25 August 2026 the main span had not been transported or installed and the planned 2 September opening was delayed"
+    }
+  ],
+  "limitations": [
+    "Solid members approximate reported construction state; no site survey was available",
+    "The translucent leaf arch is an illustrative interpretation of the approved architectural concept",
+    "Do not use for navigation, construction or structural analysis"
+  ],
+  "sha256": "731e0f94d1a4fb953602345566367ca261f1776a8b5b98bbf536cb6270375ed0"
+}

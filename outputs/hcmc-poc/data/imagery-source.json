@@ -1,0 +1,7 @@
+{
+  "url": "https://tiles.maps.eox.at/wms?service=WMS&request=GetMap&version=1.1.1&layers=s2cloudless&styles=&format=image%2Fjpeg&srs=EPSG%3A4326&bbox=106.684%2C10.750%2C106.739%2C10.808&width=2048&height=2048",
+  "source": "EOX Sentinel-2 cloudless 2016",
+  "license": "CC-BY-4.0",
+  "date_scope": "2016/2017 historical mosaic, not current imagery",
+  "sha256": "1f8c4871177c3fc7de937fb28b70df4733144ece84c24a14333870747d4f73f3"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": {
+    "deterministic_hash": true,
+    "counts": true,
+    "classification": true,
+    "performance_budget": true,
+    "generic_signage": true,
+    "building_links": true,
+    "upgrade_contract": true
+  },
+  "sha256": "c7e9971d8c2827e212cb62fe843b04c1bd06caefa311176e8defd1d7d4ccbf88"
+}

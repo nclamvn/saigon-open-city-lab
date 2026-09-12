@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "center": [
+      106.7115,
+      10.779
+    ],
+    "bbox": [
+      106.684,
+      10.75,
+      106.739,
+      10.808
+    ],
+    "width": 6015,
+    "depth": 6413,
+    "areaKm2": 38.57,
+    "sourceDate": "2026-05-31T22:37:44Z",
+    "quality": {
+      "estimated": 70017,
+      "podium": 63,
+      "levels": 448,
+      "height": 191
+    },
+    "overture": {
+      "release": "2026-08-19.0",
+      "downloaded": 70699,
+      "added": 60392,
+      "overlappingExcluded": 10093,
+      "tinyExcluded": 222,
+      "heightPresentInDownload": 170,
+      "floorPresentInDownload": 661,
+      "rule": "Reject candidate when >10% area overlaps OSM geometry. No claim of verified identity matching."
+    },
+    "renderedBuildings": 70719,
+    "roads": 12043,
+    "rawFeatures": 23309,
+    "rawBuildingFeatures": 10411,
+    "ground": "flat reference plane; not surveyed terrain",
+    "imagery": "EOX Sentinel-2 2016/2017 CC BY 4.0"
+  },
+  "filterLog": {
+    "parent_podium": 63,
+    "area_below_8m2": 91,
+    "inconsistent_min_height": 1,
+    "landmark_raw_parts_replaced_with_labeled_illustration": 3
+  },
+  "sourceSha256": "3124e5bafe27958e47aa763b88b02fd60b893b56ec0a2329dda439d6d6aaf087",
+  "heightsAreSurveyed": false,
+  "heightRule": "OSM height; else building:levels*3.2m; else footprint-area classes + deterministic <=1.3m variation. Parent footprints with mapped parts are rendered as <=9m podiums. Height raw fields retained.",
+  "geometry": "OSM ways clipped with Shapely; water multipolygon relations assembled; local equirectangular metre projection; not a survey CRS"
+}

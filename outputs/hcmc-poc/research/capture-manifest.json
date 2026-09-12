@@ -1,0 +1,273 @@
+[
+  {
+    "id": "osm",
+    "url": "https://www.openstreetmap.org/copyright",
+    "retrieved_at": "2026-09-10T14:40:30.769977+00:00",
+    "http_status": 200,
+    "final_url": "https://www.openstreetmap.org/copyright",
+    "snapshot": "snapshots/osm.html",
+    "sha256": "96337663307bc6a07dafd648b5d4307d46a4acddac0319eb7c4af5a552fcfbda",
+    "bytes": 21314,
+    "status": "captured"
+  },
+  {
+    "id": "overpass",
+    "url": "https://dev.overpass-api.de/overpass-doc/en/preface/commons.html",
+    "retrieved_at": "2026-09-10T14:40:30.770367+00:00",
+    "http_status": 200,
+    "final_url": "https://dev.overpass-api.de/overpass-doc/en/preface/commons.html",
+    "snapshot": "snapshots/overpass.html",
+    "sha256": "664ae364690159d960ea919539a9e399f773aaa2ada8c751a53795f4d7a54785",
+    "bytes": 12237,
+    "status": "captured"
+  },
+  {
+    "id": "geofabrik",
+    "url": "https://download.geofabrik.de/asia/vietnam.html",
+    "retrieved_at": "2026-09-10T14:40:30.770472+00:00",
+    "http_status": 200,
+    "final_url": "https://download.geofabrik.de/asia/vietnam.html",
+    "snapshot": "snapshots/geofabrik.html",
+    "sha256": "a9c889d57de2c4e020d9369f8dca0205bcb852fbcae5b7fae944d6e98baa6ad3",
+    "bytes": 24684,
+    "status": "captured"
+  },
+  {
+    "id": "overture",
+    "url": "https://docs.overturemaps.org/guides/buildings/",
+    "retrieved_at": "2026-09-10T14:40:30.770534+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.overturemaps.org/guides/buildings/",
+    "snapshot": "snapshots/overture.html",
+    "sha256": "f85bd5c60526d460286fc325de329d4dbb66b751ced6d296d87abf74204c7c57",
+    "bytes": 33192,
+    "status": "captured"
+  },
+  {
+    "id": "overture-license",
+    "url": "https://registry.opendata.aws/overture/",
+    "retrieved_at": "2026-09-10T14:40:32.453474+00:00",
+    "http_status": 200,
+    "final_url": "https://registry.opendata.aws/overture/",
+    "snapshot": "snapshots/overture-license.html",
+    "sha256": "e721c25451a574ae282a496429456ed8e2ca979ae15f2a704038884902a40faf",
+    "bytes": 9390,
+    "status": "captured"
+  },
+  {
+    "id": "microsoft",
+    "url": "https://raw.githubusercontent.com/microsoft/GlobalMLBuildingFootprints/main/README.md",
+    "retrieved_at": "2026-09-10T14:40:32.705230+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/microsoft/GlobalMLBuildingFootprints/main/README.md",
+    "snapshot": "snapshots/microsoft.html",
+    "sha256": "1d0d93f6696611940628e98a79378cc632e72172ff25f412d51dd21553492850",
+    "bytes": 20819,
+    "status": "captured"
+  },
+  {
+    "id": "google-temporal",
+    "url": "https://sites.research.google/gr/open-buildings/temporal/",
+    "retrieved_at": "2026-09-10T14:40:33.367636+00:00",
+    "http_status": 200,
+    "final_url": "https://sites.research.google/gr/open-buildings/temporal/",
+    "snapshot": "snapshots/google-temporal.html",
+    "sha256": "821b930d8a3cc8cc7e37d3ad688b559318196ac0cf23b03b39b0026ed236e5c8",
+    "bytes": 73399,
+    "status": "captured"
+  },
+  {
+    "id": "copernicus",
+    "url": "https://dataspace.copernicus.eu/about",
+    "retrieved_at": "2026-09-10T14:40:33.380354+00:00",
+    "http_status": 200,
+    "final_url": "https://dataspace.copernicus.eu/about",
+    "snapshot": "snapshots/copernicus.html",
+    "sha256": "c6f6ce9ff957037429d89fa13e6a76f7b0284b9d78bd75566516593e94fe8c85",
+    "bytes": 102032,
+    "status": "captured"
+  },
+  {
+    "id": "terrain",
+    "url": "https://registry.opendata.aws/terrain-tiles/",
+    "retrieved_at": "2026-09-10T14:40:33.843739+00:00",
+    "http_status": 200,
+    "final_url": "https://registry.opendata.aws/terrain-tiles/",
+    "snapshot": "snapshots/terrain.html",
+    "sha256": "5ac8eee49fda74a85f32faf347ad88990305ff99f32d482e897e7dfaaa5da896",
+    "bytes": 12673,
+    "status": "captured"
+  },
+  {
+    "id": "terrain-license",
+    "url": "https://raw.githubusercontent.com/tilezen/joerd/master/docs/attribution.md",
+    "retrieved_at": "2026-09-10T14:40:34.496926+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/tilezen/joerd/master/docs/attribution.md",
+    "snapshot": "snapshots/terrain-license.html",
+    "sha256": "2ce4d3414b4592d17ad56a5af57feb480686ddcfb0a3e4ea0b566d28cde13567",
+    "bytes": 12300,
+    "status": "captured"
+  },
+  {
+    "id": "eox-license",
+    "url": "https://cloudless.eox.at/license-non-commercial",
+    "retrieved_at": "2026-09-10T14:40:34.504373+00:00",
+    "http_status": 200,
+    "final_url": "https://cloudless.eox.at/license-non-commercial",
+    "snapshot": "snapshots/eox-license.html",
+    "sha256": "a5b86d3e6d8d09ffe2b0510a97c599deea86ecd500471b87514021ecf2ec6439",
+    "bytes": 39492,
+    "status": "captured"
+  },
+  {
+    "id": "eox-capabilities",
+    "url": "https://tiles.maps.eox.at/wms?service=WMS&request=GetCapabilities",
+    "retrieved_at": "2026-09-10T14:40:34.508798+00:00",
+    "http_status": 200,
+    "final_url": "https://tiles.maps.eox.at/wms?service=WMS&request=GetCapabilities",
+    "snapshot": "snapshots/eox-capabilities.html",
+    "sha256": "1ceecc7020817c95138f3f01b3078d96d220638ae32d376ad10a6a5ee36266ad",
+    "bytes": 70534,
+    "status": "captured"
+  },
+  {
+    "id": "oam",
+    "url": "https://docs.openaerialmap.org/api/api/",
+    "retrieved_at": "2026-09-10T14:40:35.188296+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.openaerialmap.org/api/api/",
+    "snapshot": "snapshots/oam.html",
+    "sha256": "5176a114c669c18719a697ffbb4b79048ca648766bed081eff8b273312a714c8",
+    "bytes": 8588,
+    "status": "captured"
+  },
+  {
+    "id": "oam-query",
+    "url": "https://api.openaerialmap.org/meta?bbox=106.684,10.750,106.739,10.808&limit=100",
+    "retrieved_at": "2026-09-10T14:40:35.261768+00:00",
+    "http_status": 200,
+    "final_url": "https://api.openaerialmap.org/meta?bbox=106.684,10.750,106.739,10.808&limit=100",
+    "snapshot": "snapshots/oam-query.html",
+    "sha256": "282198e8d98233320cac35bd898b15e46eaebccfe7203672019312564b6bd898",
+    "bytes": 148,
+    "status": "captured"
+  },
+  {
+    "id": "gitc",
+    "url": "https://hcmgis.vn/",
+    "retrieved_at": "2026-09-10T14:40:36.451083+00:00",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "hcm-portal",
+    "url": "https://geoportal-stnmt.tphcm.gov.vn/",
+    "retrieved_at": "2026-09-10T14:40:36.671753+00:00",
+    "http_status": 200,
+    "final_url": "https://geoportal-stnmt.tphcm.gov.vn/",
+    "snapshot": "snapshots/hcm-portal.html",
+    "sha256": "8bb23d3542b4f592cc248214d6d32f7fcfc8fc3f2a69d5185d5392f778395e60",
+    "bytes": 394,
+    "status": "captured"
+  },
+  {
+    "id": "odm",
+    "url": "https://docs.opendronemap.org/faq/",
+    "retrieved_at": "2026-09-10T14:40:37.006931+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.opendronemap.org/faq/",
+    "snapshot": "snapshots/odm.html",
+    "sha256": "a4326993b7bbb39bd53ae7b33653178eb8563b72f7ca3c1f215106bd0c03a86d",
+    "bytes": 42684,
+    "status": "captured"
+  },
+  {
+    "id": "webodm",
+    "url": "https://webodm.org/",
+    "retrieved_at": "2026-09-10T14:40:37.098688+00:00",
+    "http_status": 200,
+    "final_url": "https://webodm.org/",
+    "snapshot": "snapshots/webodm.html",
+    "sha256": "666d8e29cff51ea76a7135d728fe52c65ff87048780f4532b5b1ab133a670f72",
+    "bytes": 25189,
+    "status": "captured"
+  },
+  {
+    "id": "colmap",
+    "url": "https://colmap.github.io/",
+    "retrieved_at": "2026-09-10T14:40:37.584367+00:00",
+    "http_status": 200,
+    "final_url": "https://colmap.github.io/",
+    "snapshot": "snapshots/colmap.html",
+    "sha256": "3712ef0ad91a018f2e99cd5da6edb95242552168da5b9ada207facc286046c83",
+    "bytes": 34287,
+    "status": "captured"
+  },
+  {
+    "id": "gsplat",
+    "url": "https://raw.githubusercontent.com/nerfstudio-project/gsplat/main/LICENSE",
+    "retrieved_at": "2026-09-10T14:40:38.099598+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/nerfstudio-project/gsplat/main/LICENSE",
+    "snapshot": "snapshots/gsplat.html",
+    "sha256": "96a4f89293c0df19880da9b0e35f67589f5885ea61b224ef16bb2bd599a8a44d",
+    "bytes": 11345,
+    "status": "captured"
+  },
+  {
+    "id": "cesium",
+    "url": "https://cesium.com/learn/3d-tiling/",
+    "retrieved_at": "2026-09-10T14:40:38.209830+00:00",
+    "http_status": 200,
+    "final_url": "https://cesium.com/learn/3d-tiling/",
+    "snapshot": "snapshots/cesium.html",
+    "sha256": "a7acf87f08d7737b9c160473055d31d28129f6f451523168f00c55591285c9f4",
+    "bytes": 678743,
+    "status": "captured"
+  },
+  {
+    "id": "three-license",
+    "url": "https://raw.githubusercontent.com/mrdoob/three.js/r160/LICENSE",
+    "retrieved_at": "2026-09-10T14:40:38.561786+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/mrdoob/three.js/r160/LICENSE",
+    "snapshot": "snapshots/three-license.html",
+    "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+    "bytes": 1081,
+    "status": "captured"
+  },
+  {
+    "id": "google-tiles-policy",
+    "url": "https://developers.google.com/maps/documentation/tile/policies",
+    "retrieved_at": "2026-09-10T14:40:38.959881+00:00",
+    "http_status": 200,
+    "final_url": "https://developers.google.com/maps/documentation/tile/policies",
+    "snapshot": "snapshots/google-tiles-policy.html",
+    "sha256": "9b59e7db11d35f9ff8e9108a1e3720025fa9b4ab712aba22c0c982a809e65a60",
+    "bytes": 203928,
+    "status": "captured"
+  },
+  {
+    "id": "mapillary",
+    "url": "https://www.mapillary.com/developer/api-documentation/",
+    "retrieved_at": "2026-09-10T14:40:39.212585+00:00",
+    "http_status": 200,
+    "final_url": "https://www.mapillary.com/developer/api-documentation/?locale=vi_VN",
+    "snapshot": "snapshots/mapillary.html",
+    "sha256": "455d13e58a9cb958c48d6a8011031baa912b5a076063c6c9f5f195ca80e01b56",
+    "bytes": 130780,
+    "status": "captured"
+  },
+  {
+    "id": "overture-access",
+    "url": "https://docs.overturemaps.org/getting-data/",
+    "retrieved_at": "2026-09-10T14:40:39.889660+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.overturemaps.org/getting-data/",
+    "snapshot": "snapshots/overture-access.html",
+    "sha256": "69207eb28e068c5713c9df6027613664a88afcbe904f33f57f7eaf38d236411d",
+    "bytes": 30594,
+    "status": "captured"
+  }
+]

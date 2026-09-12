@@ -1,0 +1,123 @@
+{
+  "version": "bridge-fix-1",
+  "name": "Cầu Ba Son",
+  "formerName": "Cầu Thủ Thiêm 2",
+  "classification": "illustrative_structure_anchored_to_mapped_centerline",
+  "surveyedGeometry": false,
+  "mappedRoadIds": [
+    321564421,
+    321564423
+  ],
+  "centerline": [
+    [
+      118.4,
+      80.88
+    ],
+    [
+      -28.27,
+      0.35
+    ],
+    [
+      -323.82,
+      -161.92
+    ],
+    [
+      -344.41,
+      -173.65
+    ],
+    [
+      -366.36,
+      -186.59
+    ],
+    [
+      -384.59,
+      -198.61
+    ],
+    [
+      -402.35,
+      -211.31
+    ],
+    [
+      -418.2,
+      -224.06
+    ],
+    [
+      -434.57,
+      -238.52
+    ],
+    [
+      -704.55,
+      -490.31
+    ]
+  ],
+  "directionToThuThiem": [
+    0.8770197613181064,
+    0.4804543040264409
+  ],
+  "perpendicular": [
+    -0.4804543040264409,
+    0.8770197613181064
+  ],
+  "supports": [
+    {
+      "id": "S1",
+      "position": [
+        -319.0,
+        -159.0
+      ],
+      "kind": "river_pier_west"
+    },
+    {
+      "id": "S2",
+      "position": [
+        -84.0,
+        -30.0
+      ],
+      "kind": "main_pylon_east"
+    },
+    {
+      "id": "S3",
+      "position": [
+        5.0,
+        18.0
+      ],
+      "kind": "approach_pier"
+    },
+    {
+      "id": "S4",
+      "position": [
+        74.0,
+        56.0
+      ],
+      "kind": "approach_pier"
+    }
+  ],
+  "design": {
+    "type": "asymmetric_cable_stayed",
+    "cablePlanes": 2,
+    "mainCableStayedLengthM": 200,
+    "pylonHeightM": 113,
+    "mainBridgeLengthM": 885.7,
+    "totalProjectLengthM": 1465,
+    "lanes": 6,
+    "pylonForm": "stylised dragon-head, inclined toward Thu Thiem"
+  },
+  "sources": [
+    {
+      "name": "Ho Chi Minh City Government Portal",
+      "url": "https://tphcm.chinhphu.vn/khanh-thanh-cau-thu-thiem-2-bieu-tuong-moi-cua-tphcm-10122042811124683.htm",
+      "claim": "200 m cable-stayed main section, two cable planes, one dragon-head pylon offset toward Thu Thiem, six lanes"
+    },
+    {
+      "name": "Dai Quang Minh project page",
+      "url": "https://www.dqmcorp.vn/cau-thu-thiem-2",
+      "claim": "1,465 m total, 885.7 m bridge, six lanes, 113 m dragon-form pylon"
+    }
+  ],
+  "limitations": [
+    "Structural members are stylised, not construction drawings",
+    "Support positions are aligned to the archived map and water edges, not surveyed coordinates",
+    "Navigation clearance is illustrative"
+  ],
+  "sha256": "930b54e04c46934fc2b8d0305ba46a964aa44e15e55269804ff0246f622234da"
+}

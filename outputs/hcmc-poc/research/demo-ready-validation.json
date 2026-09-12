@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-12T02:06:38.964918+00:00",
+  "status": "PASS",
+  "checks": {
+    "static_ids_are_unique": true,
+    "referenced_assets_exist": true,
+    "demo_shell_loads_last": true,
+    "cache_version_is_demo_build": true,
+    "invalid_views_fail_safely": true,
+    "map_keys_pause_behind_overlays": true,
+    "drawers_expose_accessible_state": true,
+    "every_hud_can_collapse": true,
+    "presenter_mode": true,
+    "demo_shortcuts": true,
+    "fullscreen_is_user_triggered": true,
+    "active_view_updates_url": true,
+    "comprehensive_demo_defaults_to_overview": true,
+    "requested_view_applies_without_splash_delay": true,
+    "brand_is_city_lab_only": true,
+    "reduced_motion_supported": true,
+    "touch_targets_supported": true,
+    "presenter_hides_overlays": true,
+    "three_persistent_dock_controls": true
+  },
+  "declared": {
+    "presentation_shortcuts": [
+      "H",
+      "F",
+      "0",
+      "Escape"
+    ],
+    "navigation_shortcuts": [
+      "Arrow/WASD",
+      "Q/E",
+      "+/-"
+    ],
+    "persistent_dock_buttons": 3
+  }
+}

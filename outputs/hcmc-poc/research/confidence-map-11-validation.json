@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checks": {
+    "hash": true,
+    "grid": true,
+    "buildings": true,
+    "confidence_range": true,
+    "priority_queue": true,
+    "no_capture": true,
+    "planning_label": true,
+    "mode": true,
+    "constraints": true
+  },
+  "top": [
+    {
+      "id": "cf-r5c3",
+      "score": 68.8,
+      "mode": "uav_oblique_plus_ground_control"
+    },
+    {
+      "id": "cf-r4c3",
+      "score": 68.4,
+      "mode": "uav_oblique_plus_ground_control"
+    },
+    {
+      "id": "cf-r6c3",
+      "score": 67.5,
+      "mode": "uav_oblique_plus_ground_control"
+    },
+    {
+      "id": "cf-r6c2",
+      "score": 65.5,
+      "mode": "ground_facade_corridors"
+    },
+    {
+      "id": "cf-r4c4",
+      "score": 64.5,
+      "mode": "uav_oblique_plus_ground_control"
+    }
+  ],
+  "sha256": "1252e2f2993d6adbb8be4baf471e468ccf3af5d8ca779423a2ecddd1d62208f3"
+}

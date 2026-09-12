@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-12T01:51:51.575462+00:00",
+  "status": "PASS",
+  "checks": {
+    "plan_only_no_images": true,
+    "station_count_reconciles": true,
+    "planned_frames_reconcile": true,
+    "unique_azimuth_bins": true,
+    "coverage_reconciles": true,
+    "missing_bin_reconciles": true,
+    "stations_reference_mapped_roads": true,
+    "field_access_unverified": true,
+    "coordinates_finite": true
+  },
+  "stations": 23,
+  "plannedFrames": 69,
+  "capturedFrames": 0,
+  "azimuthCoveragePercent": 95.8,
+  "sha256": "f394c7685ad3f393df5c2a23ec4d019c7cc6ab25ff7ac60630dd0105dc3b0d4d"
+}

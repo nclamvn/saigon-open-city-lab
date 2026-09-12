@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-12T01:51:50.894082+00:00",
+  "status": "PASS",
+  "checks": {
+    "valid_glb2_header": true,
+    "glb_declares_193_buildings": true,
+    "glb_is_explicitly_procedural": true,
+    "provenance_hash_matches": true,
+    "provenance_contract_present": true,
+    "quality_is_unverified": true,
+    "content_uri_resolves": true,
+    "tileset_references_glb": true,
+    "tileset_denies_survey_grade": true
+  },
+  "tileId": "rp-r2c3",
+  "bytes": 2411224,
+  "sha256": "163935185c7d257907afb7acb96aab5e817908f7d4ef91cdef9cdfd404ae1a10"
+}

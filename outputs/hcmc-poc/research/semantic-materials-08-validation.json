@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": {
+    "building_count": true,
+    "direct_records_reconcile": true,
+    "tag_counts": true,
+    "coverage_reconciles": true,
+    "classification": true,
+    "no_texture_claim": true,
+    "sources": true
+  },
+  "directTaggedBuildings": 74,
+  "simulatedBuildings": 70645,
+  "sha256": "e4cbf7b212ef634bc10b763fb3c56af5a89fcc7721f68697edf4dd0f401c0644"
+}

@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-12T01:51:50.846889+00:00",
+  "status": "PASS",
+  "checks": {
+    "tile_count_16": true,
+    "unique_tile_ids": true,
+    "building_count_reconciles": true,
+    "reality_is_explicitly_missing": true,
+    "no_fake_3d_tiles_content": true,
+    "future_glb_contract_present": true,
+    "embedded_manifest_matches": true,
+    "source_registry_has_provenance": true
+  },
+  "tileCount": 16,
+  "proxyBuildings": 2006,
+  "realityMeshCoveragePercent": 0,
+  "manifestSha256": "84a0073682d9e685409bdd3e3a896baa6f3c80a965652f8a76910b79643a5f88"
+}

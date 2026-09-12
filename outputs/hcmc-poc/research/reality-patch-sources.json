@@ -1,0 +1,73 @@
+{
+  "registry_version": "07A-1",
+  "checked_at": "2026-09-11",
+  "aoi": "Nguyen Hue - Bach Dang - Bitexco",
+  "sources": [
+    {
+      "id": "osm",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "access": "open",
+      "coverage": "archived_in_poc",
+      "role": "roads, water, building footprints and names",
+      "fitness": "base geometry; not survey-grade height"
+    },
+    {
+      "id": "overture",
+      "name": "Overture Maps Buildings",
+      "url": "https://docs.overturemaps.org/attribution/",
+      "license": "CDLA Permissive 2.0 / source-dependent attribution",
+      "access": "open download",
+      "coverage": "archived_in_poc",
+      "role": "supplementary footprints and source lineage",
+      "fitness": "base geometry; validate overlaps and height semantics"
+    },
+    {
+      "id": "google_open_buildings_temporal",
+      "name": "Google Open Buildings Temporal",
+      "url": "https://sites.research.google/gr/open-buildings/temporal/",
+      "license": "CC BY 4.0",
+      "access": "open download",
+      "coverage": "archived_height_candidates",
+      "role": "experimental height comparison",
+      "fitness": "regional prior; not a surveyed urban DSM"
+    },
+    {
+      "id": "copernicus_dem_glo30",
+      "name": "Copernicus DEM GLO-30",
+      "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+      "license": "Copernicus WorldDEM-30 free licence with attribution and notice",
+      "access": "registration required for current download service",
+      "coverage": "global_candidate_not_downloaded",
+      "role": "regional surface reference and orthorectification prior",
+      "fitness": "30 m sampling is too coarse for low-altitude obstacle clearance"
+    },
+    {
+      "id": "mapillary",
+      "name": "Mapillary imagery",
+      "url": "https://help.mapillary.com/hc/en-us/articles/115001770409-CC-BY-SA-license-for-open-data",
+      "api_url": "https://help.mapillary.com/hc/en-us/articles/360010234680-Accessing-imagery-and-data-through-the-Mapillary-API",
+      "license": "imagery described by Mapillary as CC BY-SA; API and Commercial Terms also apply",
+      "access": "API credentials and per-image provenance required",
+      "coverage": "not_audited",
+      "role": "street-level facade reference and possible reconstruction input",
+      "fitness": "candidate only until coverage, capture geometry and reuse terms are verified"
+    },
+    {
+      "id": "operator_capture",
+      "name": "Operator-owned UAV or terrestrial capture",
+      "url": null,
+      "license": "controlled by project owner",
+      "access": "not yet available",
+      "coverage": "missing",
+      "role": "survey-grade hero mesh, texture and control points",
+      "fitness": "required to move from proxy to verified reality patch"
+    }
+  ],
+  "standard": {
+    "id": "ogc_3d_tiles_1_1",
+    "url": "https://www.ogc.org/standards/3DTiles/",
+    "role": "streaming contract for future photogrammetry, glTF and point-cloud tiles"
+  }
+}
