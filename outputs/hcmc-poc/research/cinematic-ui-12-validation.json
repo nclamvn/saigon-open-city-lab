@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-12T01:51:50.861144+00:00",
+  "checked_at": "2026-09-13T04:04:17.204156+00:00",
   "status": "PASS",
   "checks": {
     "three_button_map_first_dock": true,
@@ -20,10 +20,10 @@
     "four_post_passes": true,
     "cinematic_render_hook": true,
     "data_classification_exposed": true,
-    "poc12_header_and_report_link": true
+    "cinematic_module_retained_in_poc13": true
   },
   "declared": {
-    "views": 18,
+    "views": 19,
     "director_seconds": 45,
     "director_shots": 5,
     "light_trails": 220,

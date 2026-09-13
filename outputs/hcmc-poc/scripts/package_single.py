@@ -29,7 +29,7 @@ s=s.replace('../POC-05-TIEN-DO.md','POC-05-TIEN-DO.md').replace('../POC-06-VISUA
 s=s.replace('../POC-04-TIEN-DO.md','POC-04-TIEN-DO.md')
 s=s.replace('../POC-03-TIEN-DO.md','POC-03-TIEN-DO.md')
 s=s.replace('../POC-02-TIEN-DO.md','POC-02-TIEN-DO.md')
-s=s.replace('../POC-07C1-BA-SON-BRIDGE.md','POC-07C1-BA-SON-BRIDGE.md').replace('../POC-07C2-BACH-DANG-FOOTBRIDGE.md','POC-07C2-BACH-DANG-FOOTBRIDGE.md').replace('../POC-08-SEMANTIC-MATERIALS.md','POC-08-SEMANTIC-MATERIALS.md').replace('../POC-09-COLOR-CALIBRATION-TEXTURE-ATLAS.md','POC-09-COLOR-CALIBRATION-TEXTURE-ATLAS.md').replace('../POC-10-URBAN-DETAIL.md','POC-10-URBAN-DETAIL.md').replace('../POC-11-CONFIDENCE-ACQUISITION.md','POC-11-CONFIDENCE-ACQUISITION.md').replace('../POC-12-CINEMATIC-MAP-UI.md','POC-12-CINEMATIC-MAP-UI.md')
+s=s.replace('../POC-07C1-BA-SON-BRIDGE.md','POC-07C1-BA-SON-BRIDGE.md').replace('../POC-07C2-BACH-DANG-FOOTBRIDGE.md','POC-07C2-BACH-DANG-FOOTBRIDGE.md').replace('../POC-08-SEMANTIC-MATERIALS.md','POC-08-SEMANTIC-MATERIALS.md').replace('../POC-09-COLOR-CALIBRATION-TEXTURE-ATLAS.md','POC-09-COLOR-CALIBRATION-TEXTURE-ATLAS.md').replace('../POC-10-URBAN-DETAIL.md','POC-10-URBAN-DETAIL.md').replace('../POC-11-CONFIDENCE-ACQUISITION.md','POC-11-CONFIDENCE-ACQUISITION.md').replace('../POC-12-CINEMATIC-MAP-UI.md','POC-12-CINEMATIC-MAP-UI.md').replace('../POC-13-REALITY-ENRICHMENT.md','POC-13-REALITY-ENRICHMENT.md')
 s=s.replace('../BAO-CAO-POC.md','BAO-CAO-POC.md').replace('../DEMO-RUNBOOK-POC-12.md','DEMO-RUNBOOK-POC-12.md').replace('href="data/quality-report.json"','href="hcmc-poc/data/quality-report.json"')
 (r.parent/'SAIGON-3D.html').write_text(s)
 print('Single file:',(r.parent/'SAIGON-3D.html').stat().st_size,'bytes')

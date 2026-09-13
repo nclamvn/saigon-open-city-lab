@@ -39,3 +39,12 @@ body.presenter-clean #presenterExit{display:block}
 body.presenter-clean .vignette{background:radial-gradient(circle at 58% 46%,transparent 0 48%,rgba(3,11,17,.22) 100%)}
 @media(max-width:760px),(pointer:coarse){#uiDock button{min-height:44px}.views button,.tools button{min-height:42px}#presenterExit{right:14px;bottom:14px;min-height:42px}#demoToast{bottom:66px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* PoC 13 · compact enrichment status */
+.re13-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:14px 0}
+.re13-kpis span{display:flex;flex-direction:column;padding:9px 10px;border:1px solid rgba(130,207,196,.22);background:rgba(3,19,24,.24);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#9fb2b2}
+.re13-kpis b{font:500 22px/1.1 var(--sans);letter-spacing:-.04em;color:#efd0a7;margin-bottom:3px}
+#reality13Hud{position:absolute;right:30px;top:126px;width:350px;max-width:365px;padding:18px 20px;background:#0d2229ed;border:1px solid rgba(118,203,189,.42);backdrop-filter:blur(18px);font-size:9px;color:#bdcdca}
+#reality13Hud>small{color:#80d3c3;letter-spacing:1.3px}#reality13Hud h3{font-size:17px;font-weight:300;margin:9px 0 14px}#reality13Hud p{line-height:1.65;color:#b9c9c6}#reality13Hud strong{color:#efb181;font-weight:500}
+#reality13Hud label{display:grid;grid-template-columns:1fr auto;gap:6px;color:#b8c5c3;font-size:11px;margin-top:12px}
+#reality13Hud input{grid-column:1/-1;width:100%;accent-color:#76cbbd}
+@media(max-width:700px){.re13-kpis{grid-template-columns:1fr 1fr}.re13-kpis b{font-size:18px}}

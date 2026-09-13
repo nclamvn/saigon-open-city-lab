@@ -1,5 +1,6 @@
 {
-  "created_at": "2026-09-12T02:06:40.021947+00:00",
+  "created_at": "2026-09-13T04:04:25.564961+00:00",
+  "version": "PoC 13 \u00b7 reality-enrichment 13c",
   "files": [
     {
       "path": "BAO-CAO-POC.md",
@@ -92,19 +93,19 @@
       "sha256": "875cf005cad4dbb349dbba9da1b33ba75dc29c31648d9f25262daa0aea8e59c9"
     },
     {
-      "path": "SAIGON-3D.html",
-      "bytes": 39784413,
-      "sha256": "541b458a3b381ff32d7811525ebfb94bcfd7cbbab429e10b87eec783a0bbf0b9"
+      "path": "POC-13-REALITY-ENRICHMENT.md",
+      "bytes": 2740,
+      "sha256": "823361940d802f6d1d1ffcafb7a0891e7a3defc2a52d0e4419dbc3255ad9adcd"
     },
     {
       "path": "hcmc-poc/README.md",
-      "bytes": 3836,
-      "sha256": "527fffdf8cf294730a3991470558d3619bae4c4afd3876bd9ccba92b1f88b038"
+      "bytes": 4052,
+      "sha256": "af331852484ca5bd57b5e1d077b8d9ea392158231a997783b5373b5c83b957d9"
     },
     {
       "path": "hcmc-poc/app.js",
-      "bytes": 28278,
-      "sha256": "215c305cb5ac88b2dfd2f1d1431410d2bc238d650cee28eeefac9c34dbf9bf36"
+      "bytes": 28396,
+      "sha256": "876efe39ffb08bf185db3ad7559411cf52a6ad99fe5585c0cfb7072e82847f36"
     },
     {
       "path": "hcmc-poc/architecture.js",
@@ -123,8 +124,8 @@
     },
     {
       "path": "hcmc-poc/cinematic-night-12.js",
-      "bytes": 15313,
-      "sha256": "83cb98df8c41ad0032d5c30130c365c79b97c813979dd2bd5d915be7fdf052d3"
+      "bytes": 15347,
+      "sha256": "6ec70021633fd8ce73b81937300e0e67fd96b0a3c1dca2603750e27616051dcc"
     },
     {
       "path": "hcmc-poc/confidence-map-11.js",
@@ -398,8 +399,8 @@
     },
     {
       "path": "hcmc-poc/index.html",
-      "bytes": 9317,
-      "sha256": "4401754fc71ec7d90295c75dd5dadd09a315ffa81d1272eca98b32b1417398a4"
+      "bytes": 9460,
+      "sha256": "8952f618ce80657029f8b36df845391e6ec5bbf1f4fd9ad91a26447720913711"
     },
     {
       "path": "hcmc-poc/landmark-detail.js",
@@ -423,8 +424,13 @@
     },
     {
       "path": "hcmc-poc/qa-report.json",
-      "bytes": 9969,
-      "sha256": "b433e1434bf4c5c3bb8519adc2c4f7b7c3bafcfa69485ecce8ceb9065cf4370a"
+      "bytes": 1943,
+      "sha256": "c18151eeb4b245c8cbc1493f6f1453394f648909a325aabe903df02d0aa1e25a"
+    },
+    {
+      "path": "hcmc-poc/reality-enrichment-13.js",
+      "bytes": 12644,
+      "sha256": "50d008c4e29161d465fa67c6bca0e380db1a05aeefeb418ceaabb944492eeab8"
     },
     {
       "path": "hcmc-poc/reality-patch.js",
@@ -473,8 +479,8 @@
     },
     {
       "path": "hcmc-poc/research/cinematic-ui-12-validation.json",
-      "bytes": 1071,
-      "sha256": "4cc5be3b79d2791c56a573f0b17f39cdf23eae91a982f3eab0d1a44b6be2474e"
+      "bytes": 1077,
+      "sha256": "6ec8edba0a73c2af1dec5b21f7cf0e08703736f0fb7f4d9e4a7fb06df906622b"
     },
     {
       "path": "hcmc-poc/research/claims.jsonl",
@@ -489,7 +495,7 @@
     {
       "path": "hcmc-poc/research/demo-ready-validation.json",
       "bytes": 1065,
-      "sha256": "d5735020618cfc48f0c5da11e74d68ed63cf00db78a5113ea1c68e12f8ee5209"
+      "sha256": "9af2064f2a12bf7af7ee260ea225e3667aa25fd6434af0abf7527223733233cf"
     },
     {
       "path": "hcmc-poc/research/domain.yaml",
@@ -499,7 +505,7 @@
     {
       "path": "hcmc-poc/research/ground-capture-07c-validation.json",
       "bytes": 595,
-      "sha256": "b6b767ef9ef982e9ffba8c42d0e1ea9f38635bad7b756e7e6f137cb5856a11a6"
+      "sha256": "1034a743143c43c3dc8325a96f998363e91ff17fde9132b00cbce9ddfc76baef"
     },
     {
       "path": "hcmc-poc/research/reality-patch-readiness.csv",
@@ -514,12 +520,12 @@
     {
       "path": "hcmc-poc/research/reality-patch-validation.json",
       "bytes": 559,
-      "sha256": "e3a4818e255e95ea9292d93b7831ee6f7e3a534208a75b9d37e33abd76ed88d6"
+      "sha256": "2632d10487fb68c267c78c1b767ead10ec6b484eb041b6b4eb546980f0eddd11"
     },
     {
       "path": "hcmc-poc/research/reality-tile-07b-validation.json",
       "bytes": 552,
-      "sha256": "bd4d049473aa727f952716f1edf9294aa7976f23c4d322938b9d725b76f63a42"
+      "sha256": "5f890962ff3f224cd9b490f97e4593a4bb6418f7a7485065667ef9b1a79bad52"
     },
     {
       "path": "hcmc-poc/research/refinery-report.txt",
@@ -778,8 +784,8 @@
     },
     {
       "path": "hcmc-poc/scripts/package_single.py",
-      "bytes": 3493,
-      "sha256": "17c1abf89165ea7ecb0df2169d26202d12fbee8c9a2c8b874d95a3fe6f54e9cc"
+      "bytes": 3567,
+      "sha256": "c6205a55af119bb7629675b0557d49a0db409cf9ea194f7ca828c8c53dcd2741"
     },
     {
       "path": "hcmc-poc/scripts/prepare_scene.py",
@@ -813,8 +819,8 @@
     },
     {
       "path": "hcmc-poc/scripts/validate_cinematic_ui_12.py",
-      "bytes": 3025,
-      "sha256": "6dc5fc1e8516d0875c98c06a1d499b31a7a5fe572d693edfdbe5972d6802815c"
+      "bytes": 3035,
+      "sha256": "d460508fa095fcca4b9ca251151a05404a2bdb00b4a92a359423418f90be13d2"
     },
     {
       "path": "hcmc-poc/scripts/validate_confidence_map_11.py",
@@ -823,13 +829,18 @@
     },
     {
       "path": "hcmc-poc/scripts/validate_demo_ready.py",
-      "bytes": 3638,
-      "sha256": "35fa3c3fccd87eb7c835daf4baea5b3b5320afcf8f8d01112040e6dee4d4d12b"
+      "bytes": 3672,
+      "sha256": "45fd0e864f12893c4c4eca9431d4b7ee540625f370bd0e8b810bb7573df07daf"
     },
     {
       "path": "hcmc-poc/scripts/validate_ground_capture_plan.py",
       "bytes": 1843,
       "sha256": "e533468a8bb68556f6c133371a97c233f1c5ad58b1c09cc9ef03a29c8cb4e930"
+    },
+    {
+      "path": "hcmc-poc/scripts/validate_reality_enrichment_13.py",
+      "bytes": 1104,
+      "sha256": "3c46e4cce21254af0424be2af498d34bef7de7b128df34f1503b21ebf398fe6a"
     },
     {
       "path": "hcmc-poc/scripts/validate_reality_patch.py",
@@ -873,8 +884,8 @@
     },
     {
       "path": "hcmc-poc/style.css",
-      "bytes": 25121,
-      "sha256": "197f4f89c25d2084cf29cce7f928b7bf205c7cf2d381e6083bd3c4ac92ff6fd8"
+      "bytes": 26284,
+      "sha256": "ee1f2270670b73cc25b026b4d7d42d38e2402efc5629024ebb36b207ba5e47ea"
     },
     {
       "path": "hcmc-poc/texture-atlas-09.js",
@@ -1095,6 +1106,21 @@
       "path": "poc-ten-detail.png",
       "bytes": 6292849,
       "sha256": "c1bf45235058bc1264935f1fe641cf15589b8e3cf3f4ae70454404f3a87d879e"
+    },
+    {
+      "path": "poc-thirteen-enrichment-golden.metrics.json",
+      "bytes": 4611,
+      "sha256": "cf742972421237d2af78d8a2d8ed709dd5578e69e3821e17e82d8b9e004340ac"
+    },
+    {
+      "path": "poc-thirteen-enrichment-golden.png",
+      "bytes": 6324970,
+      "sha256": "a895d14205f535c233b33ef14495c3290b0f280f44769e646f6d136d8c5e3edd"
+    },
+    {
+      "path": "poc-thirteen-reality-enrichment.jpg",
+      "bytes": 523301,
+      "sha256": "289e7e73bb6e8b9214671dd842cebe2ef56f286a0c001f6f9c681dbccd31c335"
     },
     {
       "path": "poc-twelve-cinematicnight-golden.metrics.json",
