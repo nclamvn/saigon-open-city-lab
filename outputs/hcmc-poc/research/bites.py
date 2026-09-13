@@ -34,8 +34,9 @@ def _expect_bite(dst, want_gate, env=None):
 
 
 def bite_capture_missing(dst):
-    snaps = list((dst / "snapshots").glob("*.html"))
-    snaps[0].unlink()  # xoá một bản chụp
+    rows = [json.loads(line) for line in (dst / "claims.jsonl").read_text().splitlines() if line.strip()]
+    # Mutate a referenced capture, including JSON/TXT sources, rather than an unused HTML page.
+    (dst / "snapshots" / rows[0]["capture"]["snapshot"]).unlink()
     return _expect_bite(dst, "CAPTURE_MISSING")
 
 

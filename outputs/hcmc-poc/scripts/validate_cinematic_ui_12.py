@@ -28,7 +28,7 @@ checks = {
     "four_post_passes": all(token in js for token in ["brightRT", "blurA", "blurB", "compositeMat", "postPasses=4"]),
     "cinematic_render_hook": "window.renderCinematic&&window.renderCinematic(now)" in app,
     "data_classification_exposed": "illustrative_cinematic_postprocess_not_observed_conditions" in js,
-    "cinematic_module_retained_in_poc13": "DEMO BUILD · POC 13 / REALITY ENRICHMENT" in index and "POC-12-CINEMATIC-MAP-UI.md" in index,
+    "cinematic_module_retained_in_poc15": "DEMO BUILD · POC 15 / PHOTO FACADES" in index and "POC-12-CINEMATIC-MAP-UI.md" in index,
 }
 
 result = {
@@ -36,7 +36,7 @@ result = {
     "status": "PASS" if all(checks.values()) else "FAIL",
     "checks": checks,
     "declared": {
-        "views": 19,
+        "views": 21,
         "director_seconds": 45,
         "director_shots": 5,
         "light_trails": 220,

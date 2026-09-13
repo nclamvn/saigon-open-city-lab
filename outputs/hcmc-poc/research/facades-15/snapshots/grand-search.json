@@ -1,0 +1,700 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "26364700": {
+        "pageid": 26364700,
+        "ns": 6,
+        "title": "File:GRAND HOTEL SAIGON VIETNAM JAN 2012 (6964010089).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg/1280px-GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1709,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f1/GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg/1280px-GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1709,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f1/GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_%286964010089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:GRAND_HOTEL_SAIGON_VIETNAM_JAN_2012_(6964010089).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=26364700",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-05-28 03:13:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "GRAND HOTEL SAIGON VIETNAM JAN 2012 (6964010089)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Grand Hotel, Saigon|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by Stephen Mason",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "GRAND HOTEL SAIGON VIETNAM JAN 2012",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2012-01-19 06:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/calflier001/6964010089/\">GRAND HOTEL SAIGON VIETNAM JAN 2012</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28984065@N04\">calflier001</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149673560": {
+        "pageid": 149673560,
+        "ns": 6,
+        "title": "File:Grand Hotel, Saigon, 2023 (01).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1921,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1921,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grand_Hotel,_Saigon,_2023_(01).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149673560",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-24 12:23:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Grand Hotel, Saigon, 2023 (01)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Leica D-Lux 6|Grand Hotel, Saigon|Self-published work|Vietnam photographs taken on 2023-11-02|Images by Bahnfrend|Buildings in Vietnam photographed in 2023|Files with coordinates missing SDC location of creation|2023 in Ho Chi Minh City|Hotels photographed in 2023",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.773667",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705556",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Grand Hotel, Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 14:38:19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bahnfrend\" title=\"User:Bahnfrend\">Bahnfrend</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Grand Hotel Saigon, former Saigon Palace. Constructed 1929–1930. The architect(s) is/are unknown, and therefore under the 2005 copyright law, any copyright in the design of the building is taken to have expired by no later than 1980 (50 years from date of first publication). See <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Vietnam\" title=\"Commons:Copyright rules by territory/Vietnam\">Commons:Copyright rules by territory/Vietnam</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149673559": {
+        "pageid": 149673559,
+        "ns": 6,
+        "title": "File:Grand Hotel, Saigon, 2023 (02).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1280,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1280,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grand_Hotel,_Saigon,_2023_(02).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149673559",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-24 12:23:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Grand Hotel, Saigon, 2023 (02)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Leica D-Lux 6|Grand Hotel, Saigon|Self-published work|Vietnam photographs taken on 2023-11-02|Images by Bahnfrend|Buildings in Vietnam photographed in 2023|Files with coordinates missing SDC location of creation|2023 in Ho Chi Minh City|Hotels photographed in 2023",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.773556",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705667",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Grand Hotel, Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 14:38:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bahnfrend\" title=\"User:Bahnfrend\">Bahnfrend</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Grand Hotel Saigon, former Saigon Palace. Constructed 1929–1930. The architect(s) is/are unknown, and therefore under the 2005 copyright law, any copyright in the design of the building is taken to have expired by no later than 1980 (50 years from date of first publication). See <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Vietnam\" title=\"Commons:Copyright rules by territory/Vietnam\">Commons:Copyright rules by territory/Vietnam</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "135579440": {
+        "pageid": 135579440,
+        "ns": 6,
+        "title": "File:Grand Hotel, Saigon (2560377747).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Grand_Hotel%2C_Saigon_%282560377747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Grand_Hotel%2C_Saigon_%282560377747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Grand_Hotel%2C_Saigon_%282560377747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grand_Hotel,_Saigon_(2560377747).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=135579440",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-08-05 07:59:07",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Grand Hotel, Saigon (2560377747)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Grand Hotel, Saigon|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files uploaded by Đại Việt quốc/Flickr/Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.762822",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.700935",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Grand Hotel",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2005-07-15 12:34",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/mikecogh/2560377747/\">Grand Hotel</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/89165847@N00\">Michael Coghlan</a> from Adelaide, Australia",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "128457024": {
+        "pageid": 128457024,
+        "ns": 6,
+        "title": "File:Hotel Grand Saigon P1310935.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hotel_Grand_Saigon_P1310935.jpg/1280px-Hotel_Grand_Saigon_P1310935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hotel_Grand_Saigon_P1310935.jpg/3840px-Hotel_Grand_Saigon_P1310935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hotel_Grand_Saigon_P1310935.jpg/1280px-Hotel_Grand_Saigon_P1310935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hotel_Grand_Saigon_P1310935.jpg/3840px-Hotel_Grand_Saigon_P1310935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hotel_Grand_Saigon_P1310935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hotel_Grand_Saigon_P1310935.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128457024",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-06 12:03:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hotel Grand Saigon P1310935",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Panasonic Lumix DMC-GX8|Grand Hotel, Saigon|Self-published work|F-number f/5|Files with coordinates missing SDC location of creation|Lens focal length 14 mm",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.773615",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705710",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hotel Grand Saigon in Ho Chi Minh Stad (Saigon)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-02-01 09:30:20",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:FredTC\" title=\"User:FredTC\">FredTC</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "24667316": {
+        "pageid": 24667316,
+        "ns": 6,
+        "title": "File:Le Grand hôtel (Hô Chi Minh-Ville) (6792029133).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Le_Grand_h%C3%B4tel_%28H%C3%B4_Chi_Minh-Ville%29_%286792029133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1919,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Le_Grand_h%C3%B4tel_%28H%C3%B4_Chi_Minh-Ville%29_%286792029133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1919
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Le_Grand_h%C3%B4tel_%28H%C3%B4_Chi_Minh-Ville%29_%286792029133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Le_Grand_h%C3%B4tel_(H%C3%B4_Chi_Minh-Ville)_(6792029133).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24667316",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-02-15 16:32:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Le Grand hôtel (Hô Chi Minh-Ville) (6792029133)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Sony DSC-H5|Grand Hotel, Saigon|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by Jean-Pierre Dalbéra|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2011-12-05",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774384",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705586",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Le grand hôtel a été ouvert en 1930 à l'époque coloniale française sur l'ancienne rue Catinat, devenue la rue Dong Khoi. Son style architectural rappelle les hôtels de la belle époque sur la Côte d'Azur.\n</p><p>Site du Grand Hôtel\n<a rel=\"nofollow\" class=\"external text\" href=\"http://grandhotel.vn/\">grandhotel.vn/</a>\n</p>\n<a href=\"https://en.wikipedia.org/wiki/fr:Grand_H%C3%B4tel_(H%C3%B4-Chi-Minh-ville)\" class=\"extiw\" title=\"w:fr:Grand Hôtel (Hô-Chi-Minh-ville)\">fr.wikipedia.org/wiki/Grand_H%C3%B4tel_%28H%C3%B4-Chi-Min...</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-12-05 09:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dalbera/6792029133/\">Le Grand hôtel (Hô Chi Minh-Ville)</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72746018@N00\">Jean-Pierre Dalbéra</a> from Paris, France",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Grand+Hotel+Saigon&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:29:44.224345+00:00"
+  }
+}

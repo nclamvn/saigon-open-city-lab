@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "verified_texture_maps": 15,
+  "asset_sets": 5,
+  "registry_entities": 27,
+  "claims": 63,
+  "reference_photo_candidates": 12,
+  "snapshot_hashes": 41,
+  "embedded_byte_identity": true,
+  "source_location_observed": false
+}

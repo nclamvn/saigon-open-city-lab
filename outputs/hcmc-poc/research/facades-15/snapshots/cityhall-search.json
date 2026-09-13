@@ -1,0 +1,728 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "30083148": {
+        "pageid": 30083148,
+        "ns": 6,
+        "title": "File:Ayuntamiento, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 09.JPG",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG/1280px-Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 833,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG/3840px-Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG/1280px-Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 833,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG/3840px-Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ayuntamiento%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ayuntamiento,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_09.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30083148",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2013-12-10 01:41:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ayuntamiento, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 09",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 5D Mark II|People's Committee Building of Ho Chi Minh City|Images by User:Poco a poco|2013 in Ho Chi Minh City|Images of Vietnam by User:Poco a poco|Images by User:Poco a poco taken in 2013",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "City hall, Ho Chi Minh City, Vietnam.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2013-08-14 20:07:44",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Diego Delso",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88886677": {
+        "pageid": 88886677,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-01.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 721,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg/3840px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 721,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg/3840px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88886677",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-03 22:18:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, City Hall, 2020-01 CN-01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|People's Committee Building of Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16|Monument of Ho Chi Minh on Nguyen Hue Boulevard",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775689",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.701913",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Hall\" class=\"extiw\" title=\"w:Ho Chi Minh City Hall\">Ho Chi Minh City Hall</a> (People's Committee Building)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88886678": {
+        "pageid": 88886678,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-02.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 813,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg/3840px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 813,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg/3840px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88886678",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-03 22:19:05",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, City Hall, 2020-01 CN-02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|People's Committee Building of Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16|Monument of Ho Chi Minh on Nguyen Hue Boulevard",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775741",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.701848",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Hall\" class=\"extiw\" title=\"w:Ho Chi Minh City Hall\">Ho Chi Minh City Hall</a> (People's Committee Building)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88886680": {
+        "pageid": 88886680,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-03.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 982,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 982,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88886680",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-03 22:19:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, City Hall, 2020-01 CN-03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|People's Committee Building of Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.776098",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.701469",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Hall\" class=\"extiw\" title=\"w:Ho Chi Minh City Hall\">Ho Chi Minh City Hall</a> (People's Committee Building)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88886684": {
+        "pageid": 88886684,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-04.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 974,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 974,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-04.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88886684",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-03 22:19:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, City Hall, 2020-01 CN-04",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|People's Committee Building of Ho Chi Minh City|Vincom Center Dong Khoi|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.776039",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.701066",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Hall\" class=\"extiw\" title=\"w:Ho Chi Minh City Hall\">Ho Chi Minh City Hall</a> (People's Committee Building) in front of the <i>Vincom Center</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88864963": {
+        "pageid": 88864963,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-01.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1633,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1633,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Ho_Chi_Minh_Statue,_2020-01_CN-01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88864963",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-02 20:52:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|People's Committee Building of Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16|Monument of Ho Chi Minh on Nguyen Hue Boulevard",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775915",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.701637",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – statue of <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh\" class=\"extiw\" title=\"w:Ho Chi Minh\">Ho Chi Minh</a> in front of the <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Hall\" class=\"extiw\" title=\"w:Ho Chi Minh City Hall\">Ho Chi Minh City Hall</a> (People's Committee Building)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Ho+Chi+Minh+City+City+Hall&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:28:53.689031+00:00"
+  }
+}

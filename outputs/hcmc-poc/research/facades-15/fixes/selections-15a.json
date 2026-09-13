@@ -1,0 +1,841 @@
+{
+  "version": "15a",
+  "scope": "20 mặt đứng của 20 công trình trên trục Nguyễn Huệ–Bạch Đằng và các góc phố Đồng Khởi–Lam Sơn liền kề",
+  "entries": [
+    {
+      "key": "cityhall",
+      "name": "UBND TP.HCM",
+      "building_id": 341504305,
+      "source_snapshot": "cityhall-search.json",
+      "source_title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-03.jpg",
+      "source_file": "assets/facades15/cityhall-3.jpg",
+      "edges": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "quad": [
+        [
+          0.025,
+          0.546
+        ],
+        [
+          0.983,
+          0.548
+        ],
+        [
+          0.984,
+          0.708
+        ],
+        [
+          0.025,
+          0.716
+        ]
+      ],
+      "vertical": [
+        0.2,
+        0.97
+      ],
+      "columns": 12,
+      "rows": 1,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "height_override": {
+        "meters": 26,
+        "basis": "visual estimate from rectified photo aspect and mapped frontage; not measured",
+        "url": null
+      },
+      "focus_distance": 100
+    },
+    {
+      "key": "rex",
+      "name": "Rex Hotel · mặt Lê Lợi",
+      "building_id": 39598474,
+      "source_snapshot": "rex-day-search.json",
+      "source_title": "File:The Rex Hotel Is Pictured While Secretary Walked the Streets of Ho Chi Minh City (27237284176).jpg",
+      "source_file": "assets/facades15/rex-day-5.jpg",
+      "edges": [
+        21
+      ],
+      "quad": [
+        [
+          0.18,
+          0.405
+        ],
+        [
+          0.558,
+          0.339
+        ],
+        [
+          0.558,
+          0.622
+        ],
+        [
+          0.17,
+          0.654
+        ]
+      ],
+      "vertical": [
+        0.26,
+        0.87
+      ],
+      "columns": 7,
+      "rows": 3,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice"
+    },
+    {
+      "key": "union",
+      "name": "Union Square",
+      "building_id": 2000032899,
+      "source_snapshot": "union-search.json",
+      "source_title": "File:Vincom Center, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 02.JPG",
+      "source_file": "assets/facades15/union-3.jpg",
+      "edges": [
+        5
+      ],
+      "quad": [
+        [
+          0.626,
+          0.27
+        ],
+        [
+          0.949,
+          0.527
+        ],
+        [
+          0.951,
+          0.893
+        ],
+        [
+          0.624,
+          0.91
+        ]
+      ],
+      "vertical": [
+        0.07,
+        0.97
+      ],
+      "columns": 9,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "focus_distance": 45
+    },
+    {
+      "key": "cafe42",
+      "name": "Chung cư 42 Nguyễn Huệ",
+      "building_id": 187895174,
+      "source_snapshot": "cafe42-search.json",
+      "source_title": "File:42 Nguyen Hue Boulevard, Saigon (53547606514).jpg",
+      "source_file": "assets/facades15/cafe42-0.jpg",
+      "edges": [
+        1,
+        2
+      ],
+      "quad": [
+        [
+          0.401,
+          0.11
+        ],
+        [
+          0.776,
+          0.074
+        ],
+        [
+          0.827,
+          0.542
+        ],
+        [
+          0.386,
+          0.602
+        ]
+      ],
+      "vertical": [
+        0.28,
+        0.99
+      ],
+      "columns": 6,
+      "rows": 7,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "balcony"
+    },
+    {
+      "key": "sunwah",
+      "name": "Sun Wah Tower",
+      "building_id": 138674379,
+      "source_snapshot": "sunwah-search.json",
+      "source_title": "File:Sun Wah Tower, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 01.JPG",
+      "source_file": "assets/facades15/sunwah-4.jpg",
+      "edges": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "quad": [
+        [
+          0.295,
+          0.167
+        ],
+        [
+          0.746,
+          0.166
+        ],
+        [
+          0.798,
+          0.827
+        ],
+        [
+          0.251,
+          0.825
+        ]
+      ],
+      "vertical": [
+        0.18,
+        0.92
+      ],
+      "columns": 9,
+      "rows": 23,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "prince",
+      "name": "Saigon Prince Hotel",
+      "building_id": 187895161,
+      "source_snapshot": "prince-search.json",
+      "source_title": "File:Saigon Prince Hotel.jpg",
+      "source_file": "assets/facades15/prince-3.jpg",
+      "edges": [
+        3
+      ],
+      "quad": [
+        [
+          0.015,
+          0.39
+        ],
+        [
+          0.334,
+          0.332
+        ],
+        [
+          0.338,
+          0.584
+        ],
+        [
+          0.015,
+          0.547
+        ]
+      ],
+      "vertical": [
+        0.3,
+        0.78
+      ],
+      "columns": 6,
+      "rows": 7,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "times",
+      "name": "Saigon Times Square",
+      "building_id": 165491082,
+      "source_snapshot": "times-search.json",
+      "source_title": "File:Ho Chi Minh City, Saigon Times Square, 2020-01 CN-01.jpg",
+      "source_file": "assets/facades15/times-2.jpg",
+      "edges": [
+        6
+      ],
+      "quad": [
+        [
+          0.316,
+          0.217
+        ],
+        [
+          0.616,
+          0.084
+        ],
+        [
+          0.662,
+          0.48
+        ],
+        [
+          0.28,
+          0.477
+        ]
+      ],
+      "vertical": [
+        0.48,
+        0.98
+      ],
+      "columns": 6,
+      "rows": 30,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "vietcombank",
+      "name": "Vietcombank Tower",
+      "building_id": 402859385,
+      "source_snapshot": "vietcombank-search.json",
+      "source_title": "File:Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01.jpg",
+      "source_file": "assets/facades15/vietcombank-1.jpg",
+      "edges": [
+        15
+      ],
+      "quad": [
+        [
+          0.309,
+          0.325
+        ],
+        [
+          0.641,
+          0.333
+        ],
+        [
+          0.608,
+          0.619
+        ],
+        [
+          0.27,
+          0.649
+        ]
+      ],
+      "vertical": [
+        0.35,
+        0.87
+      ],
+      "columns": 14,
+      "rows": 27,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "height_override": {
+        "meters": 206,
+        "basis": "published architectural height; envelope shape remains approximate",
+        "url": "https://www.skyscrapercenter.com/ho-chi-minh-city/vietcombank-tower/10275/",
+        "evidence_span": "206 m / 676 ft"
+      }
+    },
+    {
+      "key": "renaissance",
+      "name": "Renaissance Riverside · khối đế",
+      "building_id": 193142021,
+      "source_snapshot": "renaissance-search.json",
+      "source_title": "File:Công trường Mê Linh-Bến Nghé, Quận 1, TPHCM, Việt Nam Renaissance Riverside Hotel Saigon - panoramio.jpg",
+      "source_file": "assets/facades15/renaissance-1.jpg",
+      "edges": [
+        11,
+        12,
+        0,
+        1
+      ],
+      "quad": [
+        [
+          0.5,
+          0.48
+        ],
+        [
+          0.788,
+          0.342
+        ],
+        [
+          0.825,
+          0.702
+        ],
+        [
+          0.5,
+          0.78
+        ]
+      ],
+      "vertical": [
+        0.05,
+        0.96
+      ],
+      "columns": 3,
+      "rows": 2,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "majestic",
+      "name": "Hotel Majestic · mặt Tôn Đức Thắng",
+      "building_id": 193142038,
+      "source_snapshot": "majestic-search.json",
+      "source_title": "File:Hotel Majestic, Saigon (20230705 1506).jpg",
+      "source_file": "assets/facades15/majestic-2.jpg",
+      "edges": [
+        5
+      ],
+      "quad": [
+        [
+          0.19,
+          0.362
+        ],
+        [
+          0.548,
+          0.411
+        ],
+        [
+          0.557,
+          0.735
+        ],
+        [
+          0.181,
+          0.735
+        ]
+      ],
+      "vertical": [
+        0.04,
+        0.97
+      ],
+      "columns": 8,
+      "rows": 5,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice"
+    },
+    {
+      "key": "grand",
+      "name": "Grand Hotel · cánh Đồng Khởi",
+      "building_id": 193142034,
+      "source_snapshot": "grand-search.json",
+      "source_title": "File:Hotel Grand Saigon P1310935.jpg",
+      "source_file": "assets/facades15/grand-4.jpg",
+      "edges": [
+        12
+      ],
+      "quad": [
+        [
+          0.373,
+          0.413
+        ],
+        [
+          0.507,
+          0.368
+        ],
+        [
+          0.497,
+          0.773
+        ],
+        [
+          0.35,
+          0.755
+        ]
+      ],
+      "vertical": [
+        0.1,
+        0.97
+      ],
+      "columns": 3,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "horizontal": [
+        0.1,
+        0.43
+      ]
+    },
+    {
+      "key": "riverside",
+      "name": "Riverside Hotel",
+      "building_id": 193142022,
+      "source_snapshot": "riverside-search.json",
+      "source_title": "File:Riverside Hotel P1310979.jpg",
+      "source_file": "assets/facades15/riverside-4.jpg",
+      "edges": [
+        9
+      ],
+      "quad": [
+        [
+          0.116,
+          0.289
+        ],
+        [
+          0.858,
+          0.322
+        ],
+        [
+          0.859,
+          0.789
+        ],
+        [
+          0.117,
+          0.789
+        ]
+      ],
+      "vertical": [
+        0.06,
+        0.97
+      ],
+      "columns": 11,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "Manual match: unnamed footprint between Grand and Renaissance, source photo and camera location; not surveyed",
+      "relief": "cornice"
+    },
+    {
+      "key": "hilton",
+      "name": "Hilton Saigon",
+      "building_id": 741084351,
+      "source_snapshot": "hilton-search.json",
+      "source_title": "File:Hilton Saigon Hotel, phường bến nghé, quận 1, tphcm.jpg",
+      "source_file": "assets/facades15/hilton-3.jpg",
+      "edges": [
+        0
+      ],
+      "quad": [
+        [
+          0.344,
+          0.178
+        ],
+        [
+          0.573,
+          0.137
+        ],
+        [
+          0.61,
+          0.599
+        ],
+        [
+          0.336,
+          0.63
+        ]
+      ],
+      "vertical": [
+        0.27,
+        0.86
+      ],
+      "columns": 8,
+      "rows": 25,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "opera",
+      "name": "Nhà hát Thành phố · mặt chính",
+      "building_id": 801710792,
+      "source_snapshot": "opera-search.json",
+      "source_title": "File:Ho Chi Minh City Opera House.jpg",
+      "source_file": "assets/facades15/opera-1.jpg",
+      "edges": [
+        19,
+        20
+      ],
+      "quad": [
+        [
+          0.158,
+          0.313
+        ],
+        [
+          0.415,
+          0.383
+        ],
+        [
+          0.423,
+          0.7
+        ],
+        [
+          0.12,
+          0.696
+        ]
+      ],
+      "vertical": [
+        0.06,
+        0.9
+      ],
+      "columns": 3,
+      "rows": 2,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "caravelle",
+      "name": "Caravelle · cánh thấp Lam Sơn",
+      "building_id": 39598465,
+      "source_snapshot": "caravelle-search.json",
+      "source_title": "File:Caravelle Hotel Saigon 2013-02.jpg",
+      "source_file": "assets/facades15/caravelle-1.jpg",
+      "edges": [
+        10
+      ],
+      "quad": [
+        [
+          0.637,
+          0.482
+        ],
+        [
+          0.934,
+          0.463
+        ],
+        [
+          0.946,
+          0.703
+        ],
+        [
+          0.648,
+          0.735
+        ]
+      ],
+      "vertical": [
+        0.08,
+        0.91
+      ],
+      "columns": 8,
+      "rows": 9,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none"
+    },
+    {
+      "key": "continental",
+      "name": "Hotel Continental Saigon",
+      "building_id": 2000032897,
+      "source_snapshot": "continental-search.json",
+      "source_title": "File:Hotel Continental Saigon (53668610570).jpg",
+      "source_file": "assets/facades15/continental-0.jpg",
+      "edges": [
+        0
+      ],
+      "quad": [
+        [
+          0.431,
+          0.1
+        ],
+        [
+          0.963,
+          0.001
+        ],
+        [
+          0.968,
+          0.605
+        ],
+        [
+          0.432,
+          0.703
+        ]
+      ],
+      "vertical": [
+        0.21,
+        0.98
+      ],
+      "columns": 8,
+      "rows": 3,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice"
+    },
+    {
+      "key": "sheraton",
+      "name": "Sheraton Saigon · mặt Đồng Khởi",
+      "building_id": 165491081,
+      "source_snapshot": "sheraton-search.json",
+      "source_title": "File:Sheraton Saigon Hotel from Coffee - 1 Jan 2025.jpg",
+      "source_file": "assets/facades15/sheraton-2.jpg",
+      "edges": [
+        0
+      ],
+      "quad": [
+        [
+          0.392,
+          0.12
+        ],
+        [
+          0.472,
+          0.18
+        ],
+        [
+          0.568,
+          0.603
+        ],
+        [
+          0.33,
+          0.458
+        ]
+      ],
+      "vertical": [
+        0.32,
+        0.93
+      ],
+      "columns": 3,
+      "rows": 20,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "height_override": {
+        "meters": 73.6,
+        "basis": "23 floors mentioned by Marriott; assumed 3.2m per floor, not measured",
+        "url": "https://www.marriott.com/en-us/hotels/sgnsi-sheraton-saigon-hotel-and-towers/overview/"
+      },
+      "horizontal": [
+        0.25,
+        0.6
+      ]
+    },
+    {
+      "key": "huongsen",
+      "name": "Hương Sen · cánh Đồng Khởi",
+      "building_id": 187895168,
+      "source_snapshot": "huongsen-search.json",
+      "source_title": "File:Huong Sen Hotel (36327771544).jpg",
+      "source_file": "assets/facades15/huongsen-1.jpg",
+      "edges": [
+        2
+      ],
+      "quad": [
+        [
+          0.528,
+          0.063
+        ],
+        [
+          0.797,
+          0.188
+        ],
+        [
+          0.756,
+          0.657
+        ],
+        [
+          0.526,
+          0.694
+        ]
+      ],
+      "vertical": [
+        0.15,
+        0.98
+      ],
+      "columns": 5,
+      "rows": 5,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice"
+    },
+    {
+      "key": "royal",
+      "name": "Royal Hotel Saigon",
+      "building_id": 695895016,
+      "source_snapshot": "royal-search.json",
+      "source_title": "File:Royal Hotel Saigon P1310937.jpg",
+      "source_file": "assets/facades15/royal-3.jpg",
+      "edges": [
+        2
+      ],
+      "quad": [
+        [
+          0.3,
+          0.199
+        ],
+        [
+          0.728,
+          0.204
+        ],
+        [
+          0.739,
+          0.721
+        ],
+        [
+          0.302,
+          0.721
+        ]
+      ],
+      "vertical": [
+        0.2,
+        0.96
+      ],
+      "columns": 5,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice"
+    },
+    {
+      "key": "hyatt",
+      "name": "Park Hyatt Saigon · quảng trường Lam Sơn",
+      "building_id": 287478465,
+      "source_snapshot": "hyatt-search.json",
+      "source_title": "File:Park Hyatt Saigon.jpg",
+      "source_file": "assets/facades15/hyatt-1.jpg",
+      "edges": [
+        7
+      ],
+      "quad": [
+        [
+          0.09,
+          0.302
+        ],
+        [
+          0.66,
+          0.177
+        ],
+        [
+          0.68,
+          0.55
+        ],
+        [
+          0.062,
+          0.604
+        ]
+      ],
+      "vertical": [
+        0.23,
+        0.95
+      ],
+      "columns": 15,
+      "rows": 8,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "height_override": {
+        "meters": 32,
+        "basis": "visual estimate from guest-floor count in photo and assumed floor spacing; not measured",
+        "url": null
+      }
+    }
+  ]
+}

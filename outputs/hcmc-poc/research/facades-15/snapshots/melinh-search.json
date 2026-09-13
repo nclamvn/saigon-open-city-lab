@@ -1,0 +1,636 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "159778618": {
+        "pageid": 159778618,
+        "ns": 6,
+        "title": "File:Góc nhìn từ xa của Bitexco.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg/1280px-G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/1c/G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg/1280px-G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/1c/G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:G%C3%B3c_nh%C3%ACn_t%E1%BB%AB_xa_c%E1%BB%A7a_Bitexco.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=159778618",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-02-15 03:44:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Góc nhìn từ xa của Bitexco",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Saigon|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tòa nhà Bitexco, với dáng hình độc đáo vươn cao giữa lòng Sài Gòn, tượng trưng cho sự phát triển mạnh mẽ và hiện đại của thành phố. Như một cánh hoa thép kiêu hãnh, Bitexco tỏa sáng, phản chiếu nhịp sống năng động và khát vọng vươn xa của người Việt.\nĐịa điểm chụp: Giữa 2 Tòa nhà ( MeLinhPoint và Khách sạn Renaissance)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-02-09",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:L%C3%AA_Uy_L%C3%A2n&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lê Uy Lân (page does not exist)\">Lê Uy Lân</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "151016626": {
+        "pageid": 151016626,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City Skyline at Night.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 675,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_at_Night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151016626",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-31 05:01:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City Skyline at Night",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Skylines of Ho Chi Minh City|Saigon River in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The image captures the vibrant and illuminated skyline of Ho Chi Minh City (formerly known as Saigon) at night. Prominent skyscrapers from left to right, including the <a href=\"https://en.wikipedia.org/wiki/IFC_One_Saigon\" class=\"extiw\" title=\"w:IFC One Saigon\">IFC One Saigon</a>, Ho Chi Minh City Customs Department Building, Bitexco Office Building, Harbour View Tower, Osic Building, <a href=\"https://en.wikipedia.org/wiki/Bitexco_Financial_Tower\" class=\"extiw\" title=\"w:Bitexco Financial Tower\">Bitexco Financial Tower</a>, Liberty Central Saigon Riverside Hotel, Renaissance Riverside Hotel Saigon, Melinh Point Tower, <a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a>, Hilton Saigon Hotel, <a href=\"https://en.wikipedia.org/wiki/Vietcombank_Tower\" class=\"extiw\" title=\"w:Vietcombank Tower\">Vietcombank Tower</a>, <a href=\"https://en.wikipedia.org/wiki/Saigon_Centre\" class=\"extiw\" title=\"w:Saigon Centre\">Saigon Centre</a>, Sheraton Grand Opera Saigon Hotel, The Landmark, Saigon Riverside Office Center, Lotte Hotel Saigon and some significant low-rise buildings <a href=\"https://en.wikipedia.org/wiki/Hotel_Majestic_(Saigon)\" class=\"extiw\" title=\"w:Hotel Majestic (Saigon)\">Hotel Majestic</a>, Seaprodex 2-4-6 Đồng Khởi, Riverside Hotel, <a href=\"https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o\" class=\"extiw\" title=\"w:Trần Hưng Đạo\">Trần Hưng Đạo</a> statue at <a href=\"https://en.wikipedia.org/wiki/M%C3%AA_Linh_Square\" class=\"extiw\" title=\"w:Mê Linh Square\"> Mê Linh Square</a>, IBC Building, Vietnam People's Naval Army Barracks, Tôn Đức Thắng Museum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://banghieuchuyennghiep.vn/\">https://banghieuchuyennghiep.vn/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tran Van Ngoc",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "151235048": {
+        "pageid": 151235048,
+        "ns": 6,
+        "title": "File:Synthesis of cuprous oxide-silver (Cu2O-Ag) hybrid as surface-enhanced Raman scattering probe for trace determination of methyl orange.pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Synthesis_of_cuprous_oxide-silver_%28Cu2O-Ag%29_hybrid_as_surface-enhanced_Raman_scattering_probe_for_trace_determination_of_methyl_orange.pdf/page1-960px-Synthesis_of_cuprous_oxide-silver_%28Cu2O-Ag%29_hybrid_as_surface-enhanced_Raman_scattering_probe_for_trace_determination_of_methyl_orange.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1858,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Synthesis_of_cuprous_oxide-silver_%28Cu2O-Ag%29_hybrid_as_surface-enhanced_Raman_scattering_probe_for_trace_determination_of_methyl_orange.pdf/page1-960px-Synthesis_of_cuprous_oxide-silver_%28Cu2O-Ag%29_hybrid_as_surface-enhanced_Raman_scattering_probe_for_trace_determination_of_methyl_orange.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1858
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Synthesis_of_cuprous_oxide-silver_%28Cu2O-Ag%29_hybrid_as_surface-enhanced_Raman_scattering_probe_for_trace_determination_of_methyl_orange.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Synthesis_of_cuprous_oxide-silver_(Cu2O-Ag)_hybrid_as_surface-enhanced_Raman_scattering_probe_for_trace_determination_of_methyl_orange.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151235048",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-08-06 17:36:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Synthesis of cuprous oxide-silver (Cu2O-Ag) hybrid as surface-enhanced Raman scattering probe for trace determination of methyl orange",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files from PubMed Central uploaded by DaxBot|Files from Royal Society Open Science uploaded by DaxBot|Uploaded by DaxBot needing category review|Research articles|PDF files from the United Kingdom|Royal Society Open Science Journal Volume 10 Issue 5|English-language PDF files",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Pham, Thi Thu Ha; Vu, Xuan Hoa; Dien, Nguyen Dac; Trang, Tran Thu; Van Hao, Nguyen; Toan, Nguyen Duc; Thi Ha Lien, Nghiem; Tien, Tong Sy; Chi, Tran Thi Kim; Hien, Nguyen Thi; Tan, Pham Minh; Linh, Dong Thi (2023). <a rel=\"nofollow\" class=\"external text\" href=\"https://royalsocietypublishing.org/doi/10.1098/rsos.221623\">\"Synthesis of cuprous oxide/silver (Cu<sub>2</sub>O/Ag) hybrid as surface-enhanced Raman scattering probe for trace determination of methyl orange\"</a>. <i>Royal Society Open Science</i>. <b>10</b> (5). <a href=\"https://en.wikipedia.org/wiki/Doi_(identifier)\" class=\"extiw\" title=\"en:Doi (identifier)\">doi</a>:<a href=\"//doi.org/10.1098/rsos.221623\" class=\"extiw\" title=\"doi:10.1098/rsos.221623\">10.1098/rsos.221623</a>. <a href=\"https://en.wikipedia.org/wiki/ISSN_(identifier)\" class=\"extiw\" title=\"en:ISSN (identifier)\">ISSN</a> <a href=\"https://www.worldcat.org/issn/2054-5703\" class=\"extiw\" title=\"issn:2054-5703\">2054-5703</a>. <a href=\"https://en.wikipedia.org/wiki/PMC_(identifier)\" class=\"extiw\" title=\"en:PMC (identifier)\">PMC</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10206471\">10206471</a>. <a href=\"https://en.wikipedia.org/wiki/PMID_(identifier)\" class=\"extiw\" title=\"en:PMID (identifier)\">PMID</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://pubmed.ncbi.nlm.nih.gov/37234497\">37234497</a>. (<a rel=\"nofollow\" class=\"external text\" href=\"https://crossmark.crossref.org/dialog/?doi=10.1098/rsos.221623&amp;domain=pdf\">Check for updates</a>)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-05-24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "via PubMed Central FTP",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Pham, Thi Thu Ha; Vu, Xuan Hoa; Dien, Nguyen Dac; Trang, Tran Thu; Van Hao, Nguyen; Toan, Nguyen Duc; Thi Ha Lien, Nghiem; Tien, Tong Sy; Chi, Tran Thi Kim; Hien, Nguyen Thi; Tan, Pham Minh; Linh, Dong Thi",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "132267787": {
+        "pageid": 132267787,
+        "ns": 6,
+        "title": "File:The Armed Forces of the Republic of Viet Nam.pdf",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_Armed_Forces_of_the_Republic_of_Viet_Nam.pdf/page1-500px-The_Armed_Forces_of_the_Republic_of_Viet_Nam.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1958,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_Armed_Forces_of_the_Republic_of_Viet_Nam.pdf/page1-500px-The_Armed_Forces_of_the_Republic_of_Viet_Nam.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1958
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/The_Armed_Forces_of_the_Republic_of_Viet_Nam.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Armed_Forces_of_the_Republic_of_Viet_Nam.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132267787",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-24 06:03:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Armed Forces of the Republic of Viet Nam",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Nguyễn Ngọc Linh|1969 books from Vietnam|Documents of South Vietnam",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Armed Forces of the Republic of Viet Nam",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Published in <a href=\"https://en.wikipedia.org/wiki/en:1969\" class=\"extiw\" title=\"w:en:1969\"><span title=\"year\">1969</span></a>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"https://books.google.com/books?id=lgm5AAAAIAAJ\">[1]</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li>Nguyễn Ngọc Linh</li>\n<li>Vietnam Council on Foreign Relations</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57999524": {
+        "pageid": 57999524,
+        "ns": 6,
+        "title": "File:Tuong Tran Hung Dao, Cong truong Me Linh, Ben nghe, quan 1, tp. Hcmvn - panoramio.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg/1280px-Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg/1280px-Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tuong_Tran_Hung_Dao%2C_Cong_truong_Me_Linh%2C_Ben_nghe%2C_quan_1%2C_tp._Hcmvn_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tuong_Tran_Hung_Dao,_Cong_truong_Me_Linh,_Ben_nghe,_quan_1,_tp._Hcmvn_-_panoramio.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57999524",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-13 22:19:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tuong Tran Hung Dao, Cong truong Me Linh, Ben nghe, quan 1, tp. Hcmvn - panoramio",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Buildings in Ho Chi Minh City|Panoramio files uploaded by Panoramio upload bot|Me Linh Square|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Statue of Tran Hung Dao at Me Linh Square|Photos from Panoramio ID 5317517",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775897",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.706541",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tuong Tran Hung Dao, Cong truong Me Linh, Ben nghe, quan 1, tp. Hcmvn",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "28 August 2014 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161102213455/http://www.panoramio.com/photo/111054736\">https://web.archive.org/web/20161102213455/http://www.panoramio.com/photo/111054736</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102213458/http://www.panoramio.com/user/5317517?with_photo_id=111054736\">trungydang</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">trungydang</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 13 April 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "trungydang",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126358524": {
+        "pageid": 126358524,
+        "ns": 6,
+        "title": "File:Vietnam Magazine Vol. IV, Nº 6 1971.pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Vietnam_Magazine_Vol._IV%2C_N%C2%BA_6_1971.pdf/page1-960px-Vietnam_Magazine_Vol._IV%2C_N%C2%BA_6_1971.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1803,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Vietnam_Magazine_Vol._IV%2C_N%C2%BA_6_1971.pdf/page1-960px-Vietnam_Magazine_Vol._IV%2C_N%C2%BA_6_1971.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1803
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Vietnam_Magazine_Vol._IV%2C_N%C2%BA_6_1971.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vietnam_Magazine_Vol._IV,_N%C2%BA_6_1971.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126358524",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-06 04:21:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vietnam Magazine Vol. IV, Nº 6 1971",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Images with extracted images|Vietnam Magazine 1971",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vietnam Magazine Vol. IV, Nº 6 1971",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1971",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=tjUWAQAAMAAJ\">Vietnam Magazine, Tập 4-5</a>, Google Books",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Vietnam Council on Foreign Relations",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Me+Linh+Point&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:29:31.118737+00:00"
+  }
+}

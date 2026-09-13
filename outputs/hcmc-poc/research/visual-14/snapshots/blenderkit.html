@@ -1,0 +1,2295 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d95d0042d8","applicationID":"200725562","transactionName":"MgRUbBQHV0BVU0ILCgtOcE0IBU1aW14ZAAkAD1JdFA5MURpRRhIWSwdEVwgSXF1QHlsNAQANRQIuCVRWZFFRB0sXDkNMAw==","queueTime":1,"applicationTime":172,"agent":""};
+(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"d95d0042d8",applicationID:"200725562",browserID:"200725592"};;/*! For license information please see nr-loader-rum-1.321.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.321.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.321.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.321.0.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-auOJN989wXoxmQeiyRE/ZlrR6yqeuq5/WjLH1btsNQ6Iqm/RK+IqmjTuvad7oOBZyozPaWg6y2Uu2qAZy3e0cQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.321.0.PROD"]=self["webpackChunk:NRBA-1.321.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,8391));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+        
+        
+        
+        
+        <link rel="preconnect" href="https://public.blenderkit.com">
+        
+        
+        <link rel="preload" href="/disclaimer/" as="fetch" crossorigin>
+        
+            <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+            <link rel="dns-prefetch" href="https://www.google.com">
+            <link rel="dns-prefetch" href="https://www.google.cz">
+
+            
+            <link rel="preload" as="font" type="font/woff2" href='/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.fbf680e81c5d.woff2' crossorigin>
+            <link rel="preload" as="font" type="font/woff2" href='/static/fonts/poppins/poppins-v15-latin-ext_latin-600.8305c11fdd2e.woff2' crossorigin>
+            <link href="https://www.googletagmanager.com/gtm.js?id=GTM-5Z2VWXQ" rel="preload" as="script">
+            <link href="/static/img/blenderkit_full_logo.0709ce7bde10.svg" rel="preload" as="image">
+            <link href="/static/fontawesome/fa-regular-400-subset.5edf8463b705.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+            <link href="/static/fontawesome/fa-brands-400-subset.926df1a025fb.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+            <link href="/static/fontawesome/fa-solid-900-subset.cabe47515065.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+        
+        <title>
+    Blendkit | Licenses
+</title>
+        
+        <meta name="description"
+              content="Everything important what you need to know about Blendkit licenses.">
+        
+            <script id="Cookiebot"
+                    data-cfasync="false"
+                    src="https://consent.cookiebot.com/uc.js"
+                    data-cbid="01cab849-6981-4476-9a52-c216661976c3"
+                    
+                        
+                    
+                    data-consentmode-defaults="disabled"
+                    type="text/javascript"></script>
+            <!-- Enable Google Consent Mode - GTM is respecting cookie consent-->
+            <script data-cookieconsent="ignore">
+                window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+
+                gtag("consent", "default", {
+                    ad_personalization: "denied",
+                    ad_storage: "denied",
+                    ad_user_data: "denied",
+                    analytics_storage: "denied",
+                    functionality_storage: "denied",
+                    personalization_storage: "denied",
+                    security_storage: "granted",
+                    wait_for_update: 500,
+                });
+                gtag("set", "ads_data_redaction", true);
+                
+            </script>
+        
+        <!-- analytical_head_top -->
+        
+            
+        
+        <!-- analytical_head_top end -->
+        
+        
+        
+        
+        
+        <meta name="keywords"
+              content="
+    3D, Blender 3D, BlenderKit, free 3D models, 3D world, Blendkit
+">
+        
+        
+        
+        <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://www.blendkit.com/#organization", "name": "Blendkit", "alternateName": "BlenderKit", "legalName": "Blender Kit s.r.o.", "url": "https://www.blendkit.com/", "logo": "https://www.blendkit.com/static/img/blenderkit-logo-hexa_512x512.af0834c3e7f5.png"}, {"@type": "WebSite", "@id": "https://www.blendkit.com/#website", "name": "Blendkit", "alternateName": "BlenderKit", "url": "https://www.blendkit.com/", "publisher": {"@id": "https://www.blendkit.com/#organization"}, "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.blendkit.com/?query={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
+        
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="theme-color" content="#ffffff">
+            
+            
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="/static/favicon/apple-touch-icon.a05efb9ccaa5.png">
+            <link rel="icon"
+                  type="image/png"
+                  sizes="512x512"
+                  href="/static/img/blenderkit-logo-hexa_512x512.af0834c3e7f5.png">
+            <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+            <link rel="dns-prefetch" href="https://www.google.com">
+            <link rel="dns-prefetch" href="https://www.google.cz">
+            
+
+<style>
+    /* poppins-regular - latin-ext_latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.f087bfb6d4b1.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.f087bfb6d4b1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.fbf680e81c5d.woff2') format('woff2'), /* Super Modern Browsers */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.9997fb28e5e3.woff') format('woff'), /* Modern Browsers */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.55eda478f259.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-regular.c26cc61af85a.svg#Poppins') format('svg'); /* Legacy iOS */
+    }
+    /* poppins-600 - latin-ext_latin */
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url('/static/fonts/poppins/poppins-v15-latin-ext_latin-600.362bb5fea861.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-600.362bb5fea861.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-600.8305c11fdd2e.woff2') format('woff2'), /* Super Modern Browsers */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-600.dfea30481344.woff') format('woff'), /* Modern Browsers */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-600.f4ea885d97ba.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('/static/fonts/poppins/poppins-v15-latin-ext_latin-600.4b6d70263966.svg#Poppins') format('svg'); /* Legacy iOS */
+    }
+</style>
+
+            <link rel="search"
+                  type="application/opensearchdescription+xml"
+                  href="/search-xml/"
+                  title="Blendkit">
+        
+        
+        
+        
+        
+            <link rel="icon"
+      type="image/svg+xml"
+      href="/static/img/favicons/production/public.2b5674a164bd.svg"
+      id="bk-favicon"
+      data-authenticated="0"
+      data-icon-default="/static/img/favicons/production/public.2b5674a164bd.svg"
+      data-icon-unread="/static/img/favicons/production/public-unread.346e71d897c0.svg"
+      data-icon-signed-out="/static/img/favicons/production/public-signed-out.268492b444fa.svg"
+      >
+
+        
+        
+        
+        <script data-cookieconsent="ignore">/* Record failed subresource loads before any reporter exists.
+ *
+ * Resource `error` events do not bubble, so this listens in the capture phase
+ * from the top of <head>, ahead of the first stylesheet, and keeps the failures
+ * for render-defects-report.js to classify once Sentry is loaded. It is inlined
+ * (see base.html) because a fetched script could itself arrive after the first
+ * failure fires.
+ */
+(function () {
+    "use strict";
+    var failures = (window.bkAssetFailures = window.bkAssetFailures || []);
+    window.addEventListener(
+        "error",
+        function (event) {
+            var el = event.target;
+            if (!el || el === window || !el.tagName) return;
+            var url = el.href || el.src;
+            if (typeof url !== "string" || !url) return;
+            failures.push({ url: url, tag: el.tagName.toLowerCase() });
+        },
+        true
+    );
+})();
+</script>
+        
+        
+        <link rel="stylesheet" href="/static/fontawesome/fa-subset.80ee078bd44f.css">
+        <link rel="stylesheet" href="/static/CACHE/css/style.9405e71989b6.css" type="text/css">
+        
+        <script src="/static/js/script-retry.0bbc96966059.js"></script>
+        <script src="/static/cdn/@popperjs/core/dist/umd/popper.min.5e55723e7f17.js"
+                data-cookieconsent="ignore"
+                onerror="window.bkRetryScript && window.bkRetryScript(this)"></script>
+        
+        
+        
+        
+        <script data-cookieconsent="ignore">(function () {
+    function getCookie(name) {
+        if (typeof Cookies !== "undefined") {
+            return Cookies.get(name);
+        }
+
+        var prefix = name + "=";
+        var match = document.cookie
+            .split(";")
+            .map(function (cookie) {
+                return cookie.trim();
+            })
+            .find(function (cookie) {
+                return cookie.startsWith(prefix);
+            });
+
+        if (!match) {
+            return undefined;
+        }
+
+        return decodeURIComponent(match.slice(prefix.length));
+    }
+
+    function setCookie(name, value, options) {
+        var resolvedOptions = Object.assign({ path: "/" }, options);
+
+        if (typeof Cookies !== "undefined") {
+            Cookies.set(name, value, resolvedOptions);
+            return;
+        }
+
+        var cookie = name + "=" + encodeURIComponent(value);
+        cookie += ";path=" + resolvedOptions.path;
+
+        if (resolvedOptions.expires !== undefined) {
+            var expiry = new Date();
+            expiry.setTime(
+                expiry.getTime() + resolvedOptions.expires * 24 * 60 * 60 * 1000
+            );
+            cookie += ";expires=" + expiry.toUTCString();
+        }
+
+        document.cookie = cookie;
+    }
+
+    function hasCookieValue(name, value) {
+        return getCookie(name) === value;
+    }
+
+    window.blenderKitCookies = {
+        get: getCookie,
+        set: setCookie,
+        hasValue: hasCookieValue,
+    };
+})();
+</script>
+        
+        <script data-cookieconsent="ignore">// Pages served from the Cloudflare edge cache never reach Django, so
+// CacheCookieMiddleWare cannot hand those visitors a cache-cookie — and
+// without one their next navigation still counts as cookie-less for the
+// WAF challenge rule guarding the search surfaces. Mark them
+// anonymous-cacheable client-side. On any origin-rendered page the server
+// already set the cookie, so the includes() guard below leaves it alone and
+// the server-set value wins.
+if (!document.cookie.includes("cache-cookie=")) {
+    document.cookie =
+        "cache-cookie=cache; path=/; max-age=31536000; secure; samesite=lax";
+}
+</script>
+        <script data-cookieconsent="ignore">// Reload a bfcache-restored page whose login state changed while frozen.
+// A restore resumes the exact page this visitor was viewing, so the content
+// is inherently theirs - the one stale risk is logging in or out in another
+// tab in the meantime. cache-cookie flips between "cache" (anonymous) and
+// "no-cache" (authenticated), so a changed value means the chrome (menu,
+// cart) no longer matches reality.
+(function () {
+    function authState() {
+        return document.cookie.indexOf("cache-cookie=no-cache") !== -1;
+    }
+    var loadedState = authState();
+    addEventListener("pageshow", function (event) {
+        if (event.persisted && authState() !== loadedState) {
+            location.reload();
+        }
+    });
+})();
+</script>
+        <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/header_scripts.4313e1d0e6a9.js"
+        ></script>
+
+<link rel="preload" href="/static/CACHE/js/header_scripts.4313e1d0e6a9.js" as="script" />
+
+        <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/submit_once_sync.373fa935046d.js"
+        ></script>
+
+        <script data-cookieconsent="ignore">function onError(){this.onerror=null;if(this.parentNode){const children=this.parentNode.children;if(children[0]&&typeof children[0].srcset!=='undefined'){children[0].srcset=this.srcset;}
+if(children[1]&&typeof children[1].srcset!=='undefined'){children[1].srcset=this.srcset;}}};</script>
+
+        <link rel="canonical"
+              href="https://www.blendkit.com/docs/licenses/">
+        
+        
+        
+        
+    <link rel="stylesheet" href="/static/cdn/swiper/swiper.min.b846f8daa57e.css">
+    
+        
+
+        <!-- analytical_head_bottom -->
+        
+        <!-- analytical_head_bottom end -->
+        
+        
+
+
+<script data-cookieconsent="ignore">/* Google Tag Manager dataLayer helpers.
+ *
+ * Event payloads are rendered by Django as <script type="application/json">
+ * blobs (json_script) and read back here by element id, so no template value
+ * ever reaches JavaScript source.
+ */
+window.dataLayer = window.dataLayer || [];
+
+window.bkDataLayerPayload = function (elementId) {
+    var element = document.getElementById(elementId);
+    if (!element) {
+        return null;
+    }
+    return JSON.parse(element.textContent);
+};
+
+window.bkDataLayerPush = function (elementId) {
+    var payload = window.bkDataLayerPayload(elementId);
+    if (!payload) {
+        return;
+    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(payload);
+};
+
+/* A purchase must reach GA4 once per order: the confirmation page is
+ * reloaded, bookmarked and returned to with the back button. The transaction
+ * identifies the event, so a second render of the same order stays silent. */
+window.bkDataLayerPushOnce = function (elementId) {
+    var payload = window.bkDataLayerPayload(elementId);
+    if (!payload) {
+        return;
+    }
+    var storageKey =
+        "bk-datalayer-" +
+        payload.event +
+        "-" +
+        payload.affiliation +
+        "-" +
+        payload.transaction_id;
+    try {
+        if (window.sessionStorage.getItem(storageKey)) {
+            return;
+        }
+        window.sessionStorage.setItem(storageKey, "1");
+    } catch (error) {
+        // Storage unavailable (private mode, embedded context): a repeated
+        // purchase event beats losing the purchase event.
+    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(payload);
+};
+</script>
+
+
+
+
+
+        <!-- gtm_head -->
+        
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5Z2VWXQ');</script>
+<!-- End Google Tag Manager -->
+
+
+        <!-- gtm_head end -->
+        <!-- analytics_head -->
+        
+        
+        <!-- analytics_head end -->
+    </head>
+    <body class="wagtail_serve template-wagtail">
+        
+        
+            <div id="dpi" style="height: 1in; width: 1in; left: 100%; position: fixed; top: 100%;"></div> 
+        
+            <div class="eiscream"></div>
+        <!-- gtm_body -->
+            
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z2VWXQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+        <!-- gtm_body end -->
+        <!-- analytical_body_top -->
+            
+        <!-- analytical_body_top end -->
+        <!-- Fixed navbar -->
+            
+                <div class="menu-block">
+                    
+                        <div class="menu">
+                            <div class="menu-inner">
+                                <nav class="navbar fixed-top navbar-expand-lg navbar-dark sticky-top navbar-default pb-1 pt-1 d-flex flex-nowrap w-100 d-flex flex-row align-items-center justify-content-between flex-lg-nowrap">
+                                    <a class="navbar-brand with-cart" href="/">
+                                        <img src="/static/img/blenderkit_full_logo.0709ce7bde10.svg"
+                                             class="navbar-brand__hexa"
+                                             alt="Blendkit logo"
+                                             width="170"
+                                             height="30">
+                                    </a>
+                                    <div class="collapse navbar-collapse flex-grow-0 navbarSupportedContent main-navbar"
+                                         id="navbarSupportedContent">
+                                        <div class="flex-column align-items-start w-100">
+                                            
+                                                
+                                                    
+                                                
+                                                
+                                                    
+
+<ul class="navbar-nav ">
+    <li class="nav-item"><a class="btn btn-primary download-kit "
+   href="/get-blendkit/">
+    <i class="fas fa-download d-lg-none d-xl-inline"></i>Download<span class="d-lg-none d-xxl-inline">&nbsp;Blendkit</span>
+</a>
+</li>
+    
+
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/plans/pricing/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-91"
+           
+           >Subscribe</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/our-mission/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-343"
+           
+           >Mission</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               dropdown
+               active
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  active
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-276"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">Users</a>
+        
+            <ul class="
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-276">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/faq-frequently-asked-questions/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-279"
+           
+           >FAQ</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               dropdown
+               
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-284"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">Terms & conditions</a>
+        
+            <ul class="
+                           submenu
+                       
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-284">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/terms-and-conditions-2021/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-285"
+           
+           >Terms and Conditions</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/privacy-policy-2021/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-287"
+           
+           >Privacy Policy</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/refund-policy/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-288"
+           
+           >Refund Policy</a>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/get-blender-add-ons/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-377"
+           
+           >Get Blender add-ons</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               dropdown
+               
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-446"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">Blendkit beyond Blender</a>
+        
+            <ul class="
+                           submenu
+                       
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-446">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/blendkit-in-godot/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-443"
+           
+           >Blendkit for Godot</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/blendkit-for-rhino/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-447"
+           
+           >Blendkit for Rhino</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/blendkit-for-maya/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-448"
+           
+           >Blendkit for Maya</a>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/add-on-troubleshooting/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-450"
+           
+           >Add-on troubleshooting</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               dropdown
+               active
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  active
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-449"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">Licenses</a>
+        
+            <ul class="
+                           submenu
+                       
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-449">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               active
+               ">
+        <a href="/docs/licenses/"
+           class="
+                      nav-link
+                  
+                  active
+                  
+                  profile-menu-link"
+           id="navitem-452"
+           
+           >Lincenses info</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/licenses/licensing-faq/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-451"
+           
+           >Linceses FAQ</a>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="https://status.blenderkit.com/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-289"
+           
+           >Service status</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               dropdown
+               
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-290"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">Cookies</a>
+        
+            <ul class="
+                           submenu
+                       
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-290">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/cookie-policy/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-291"
+           
+           >Cookie Policy</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="javascript:Cookiebot.renew()"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-292"
+           
+           >Cookie settings</a>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               dropdown
+               
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-92"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">Creators</a>
+        
+            <ul class="
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-92">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/faq-creators/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-280"
+           
+           >FAQ</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/become-creator/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-125"
+           
+           >Overview</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/terms-and-conditions-for-creators-2021/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-286"
+           
+           >Terms and Conditions for creators</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/upload-tutorials/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-126"
+           
+           >General Uploading info</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/upload/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-127"
+           
+           >Upload Models</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/uploading-material/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-128"
+           
+           >Upload Materials</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/uploading-brush/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-129"
+           
+           >Upload Brushes</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/add-ons-upload-beta/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-272"
+           
+           >Upload Add-ons</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/guidelines-for-add-on-creators/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-444"
+           
+           >Guidelines for add-on creators</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/uploading-scene/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-130"
+           
+           >Upload Scenes</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/uploading-hdr/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-131"
+           
+           >Upload HDRs</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/upload-printables/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-344"
+           
+           >Upload Printables</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/blender-tutorials/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-187"
+           
+           >Blender Tutorials</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/validation-status/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-132"
+           
+           >Validation Statuses</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/fair-share/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-133"
+           
+           >Fair Share Redistributions</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/blenderkit-affiliate-program/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-150"
+           
+           >Affiliate program</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/docs/tutorials/most-common-upload-problems/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-184"
+           
+           >Most common upload issues</a>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/news/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-94"
+           
+           >News</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               dropdown
+               
+               ">
+        <a href="#"
+           class="
+                      nav-link
+                  
+                  
+                  dropdown-toggle
+                  profile-menu-link"
+           id="navitem-277"
+           data-bs-toggle="dropdown" data-bs-auto-close="outside"
+           role="button" aria-expanded="false">About</a>
+        
+            <ul class="
+                       
+                           dropdown-menu
+                       "
+                aria-labelledby="navitem-277">
+                
+
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/about/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-293"
+           
+           >Our team</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/contact/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-294"
+           
+           >Contact</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/press-kit/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-295"
+           
+           >Press Kit</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/blender-3d-training-from-blenderkit/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-296"
+           
+           >Blender 3D Training</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   dropdown-item
+               
+               
+               
+               ">
+        <a href="/we-are-hiring/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-297"
+           
+           >Job positions</a>
+        
+    </li>
+
+
+            </ul>
+        
+    </li>
+
+
+</ul>
+<div class="asset_menu">
+    
+<ul class="navbar-nav mr-auto ">
+    
+
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:model%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-95"
+           
+           >Models</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:material%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-96"
+           
+           >Materials</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:hdr%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-124"
+           
+           >HDRI</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:scene%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-185"
+           
+           >Scenes</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:brush%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-97"
+           
+           >Brushes</a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:printable%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-309"
+           
+           >Printables<small style="font-size:11px;color:yellow;vertical-align:super">NEW</small></a>
+        
+    </li>
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/asset-gallery?query=category_subtree:addon%20order:-created"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-98"
+           
+           >Add-ons<small style="font-size:11px;color:yellow;vertical-align:super">NEW</small></a>
+        
+    </li>
+
+
+</ul>
+
+</div>
+
+                                                
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-0 d-flex flex-row align-items-center">
+                                        
+                                            
+
+
+
+
+<div class="personal-navbar d-flex flex-column mr-auto
+            gringo">
+    
+        <div class="d-flex flex-row flex-lg-column flex-xxl-row text-nowrap">
+            <ul class="navbar-nav d-sm-flex d-inline-block mini-cart-container">
+                <span class="mini-cart-block d-none">
+    <a href="/marketplace/cart/"
+       class="mini-cart-block__button"
+       aria-expanded="false">
+        <div class="personal-icons">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="dot mini-cart-dot d-block">
+                <strong id="mini-cart-count"></strong>
+            </span>
+        </div>
+    </a>
+</span>
+
+            </ul>
+            <ul class="navbar-nav d-sm-flex d-inline-block login_menu">
+                <li class="nav-item ">
+                    <a href="/accounts/login/"><i class="fas fa-sign-in-alt"></i> <span class="d-none d-sm-inline-block">Log In</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav asset_menu d-sm-flex d-inline-block">
+                <li class="nav-item ">
+                    <a href="/accounts/register/" class="text-white"><i class="fas fa-user-plus"></i> <span class="d-none d-sm-inline-block">Register</span></a>
+                </li>
+            </ul>
+        </div>
+    
+</div>
+
+                                        
+                                        <button class="navbar-toggler"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target=".navbarSupportedContent"
+                                                aria-controls="navbarSupportedContent"
+                                                aria-expanded="false"
+                                                aria-label="Toggle navigation">
+                                            <span class="hamburger-line"></span>
+                                            <span class="hamburger-line"></span>
+                                            <span class="hamburger-line"></span>
+                                        </button>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    
+                </div>
+                
+                <div class="menu-image-container">
+                    <div class="menu-image"
+                         >
+                        
+                        
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter-inner">
+                        
+                        
+                    </div>
+                </div>
+            
+            
+                <div class="page-content l-content jsContent">
+                    <div class="container-lg main">
+                        
+                            
+                                
+
+
+                            
+                            
+                            
+                            
+                                
+    <div></div>
+
+
+                            
+                            
+                            
+                            
+    <div class="wagtail-page">
+        
+            
+
+
+
+    <div class="header row
+                
+                    justify-content-center
+                ">
+        <div class="
+                        col-12 col-sm-8
+                    ">
+            <h1 class="page-header title_left_center">
+                Licenses <a href="#licenses" class="heading-link" id="licenses">🔗</a>
+            </h1>
+            
+        </div>
+    </div>
+
+
+        
+
+        
+
+        
+            <div class="row wblock _richtext justify-content-center">
+    <div class="col-12 col-sm-8"><p data-block-key="fa5e0">Blendkit (formerly BlenderKit) only has 2 available licenses, and these are quite simple. Everything you download is available for commercial use. Both allow you to sell higher-level-derivative works, but royalty free license doesn&#x27;t allow to re-sell 3D models even if modified.</p><h2 data-block-key="f2n2q">Royalty Free</h2><p data-block-key="t8epv"></p><p data-block-key="cz9ao"></p><p data-block-key="vlw3k"></p>
+
+
+
+
+<div class="richtext-image overflow left thumbnail-fill-rectangle">
+    
+        
+        <a href="#"
+           data-gallery="article-image"
+           data-toggle="lightbox"
+           data-src="https://public.blenderkit.com/images/royalty_free_licens.format-webp.webp">
+    
+    <picture>
+        <source type="image/webp"
+                srcset="https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-320x320.format-webp.webp 320w"
+                data-srcset="https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-320x320.format-webp.webp 320w,
+                             https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-640x640.format-webp.webp 640w,
+                             https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-768x768.format-webp.webp 768w,
+                             https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-1024x1024.format-webp.webp 1024w,
+                             https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-1600x1600.format-webp.webp 1600w"
+                
+                    sizes="(min-width: 500px) 500px, 100vw"
+                >
+        <img src="https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-320x320.format-webp.webp"
+             data-src="https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-320x320.format-webp.webp"
+             data-srcset="https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-320x320.png 320w,
+                          https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-640x640.png 640w,
+                          https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-768x768.png 768w,
+                          https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-1024x1024.png 1024w,
+                          https://public.blenderkit.com/images/royalty_free_licens.2e16d0ba.fill-1600x1600.png 1600w"
+             
+                 data-sizes="(min-width: 500px) 500px, 100vw"
+             
+             
+                 width="96" height="96"
+             
+             class="richtext-image lazy"
+             title="royalty free license"
+             alt="royalty free license"
+             >
+    </picture>
+    </a>
+</div>
+<p data-block-key="m1jni">This license protects the work in the way that it allows commercial use without mentioning the author, but doesn&#x27;t allow for re-sale of the asset in the same form (eg. a 3D model sold as a 3D model or part of assetpack or game level on a marketplace).</p><p data-block-key="gm1o3"><br/><br/></p><h2 data-block-key="h8npw">CC0 - No Rights Reserved</h2><p data-block-key="7bzf1"></p><p data-block-key="1hikt"></p><p data-block-key="xkmcx"></p>
+
+
+
+
+<div class="richtext-image overflow left thumbnail-fill-rectangle">
+    
+        
+        <a href="#"
+           data-gallery="article-image"
+           data-toggle="lightbox"
+           data-src="https://public.blenderkit.com/images/cc0.format-webp.webp">
+    
+    <picture>
+        <source type="image/webp"
+                srcset="https://public.blenderkit.com/images/cc0.2e16d0ba.fill-320x320.format-webp.webp 320w"
+                data-srcset="https://public.blenderkit.com/images/cc0.2e16d0ba.fill-320x320.format-webp.webp 320w,
+                             https://public.blenderkit.com/images/cc0.2e16d0ba.fill-640x640.format-webp.webp 640w,
+                             https://public.blenderkit.com/images/cc0.2e16d0ba.fill-768x768.format-webp.webp 768w,
+                             https://public.blenderkit.com/images/cc0.2e16d0ba.fill-1024x1024.format-webp.webp 1024w,
+                             https://public.blenderkit.com/images/cc0.2e16d0ba.fill-1600x1600.format-webp.webp 1600w"
+                
+                    sizes="(min-width: 500px) 500px, 100vw"
+                >
+        <img src="https://public.blenderkit.com/images/cc0.2e16d0ba.fill-320x320.format-webp.webp"
+             data-src="https://public.blenderkit.com/images/cc0.2e16d0ba.fill-320x320.format-webp.webp"
+             data-srcset="https://public.blenderkit.com/images/cc0.2e16d0ba.fill-320x320.png 320w,
+                          https://public.blenderkit.com/images/cc0.2e16d0ba.fill-640x640.png 640w,
+                          https://public.blenderkit.com/images/cc0.2e16d0ba.fill-768x768.png 768w,
+                          https://public.blenderkit.com/images/cc0.2e16d0ba.fill-1024x1024.png 1024w,
+                          https://public.blenderkit.com/images/cc0.2e16d0ba.fill-1600x1600.png 1600w"
+             
+                 data-sizes="(min-width: 500px) 500px, 100vw"
+             
+             
+                 width="96" height="96"
+             
+             class="richtext-image lazy"
+             title="cc0.png"
+             alt="cc0.png"
+             >
+    </picture>
+    </a>
+</div>
+<p data-block-key="bk5zd"><br/><br/>CC0 enables creators and owners of copyright- or database-protected content to waive those interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law.</p><p data-block-key="6ntk0">In contrast to CC’s licenses that allow copyright holders to choose from a range of permissions while retaining their copyright, CC0 empowers yet another choice altogether – the choice to opt out of copyright and database protection, and the exclusive rights automatically granted to creators – the “no rights reserved” alternative to our licenses.</p></div>
+</div>
+
+        
+            <div class="row wblock _richtext justify-content-center">
+    <div class="col-12 col-sm-8"><p data-block-key="24fty">If you haven&#x27;t found the answer to your questions try also checking the <a href="/docs/licenses/licensing-faq/">Licensing FAQ.</a></p></div>
+</div>
+
+        
+            
+
+
+    
+        <div class="row wblock _button">
+            <div class="col-sm-12 text-center">
+                <a href="/docs/licenses/licensing-faq/"
+                   class="btn btn-default btn-lg mt-2"
+                   >Licensing FAQ</a>
+            </div>
+        </div>
+    
+
+
+        
+
+        
+    </div>
+
+                            
+                                
+    <div></div>
+
+
+                            
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+                    
+                        
+                            
+
+
+
+
+<footer class="page-footer">
+    <div class="container-fluid">
+        <div class="row page-footer__links pt-3">
+            <div class="col-12 col-md-7">
+                <div class="in">
+                    <p>
+                        <a href="/">
+                            <img src="/static/img/blenderkit_full_logo.0709ce7bde10.svg"
+                                 alt="Blendkit"
+                                 class="footer-logo img-responsive"
+                                 width="1440"
+                                 height="270">
+                        </a>
+                    </p>
+                    <div class="interests">
+                        <a href="/plans/pricing/" class="badge bg-free">Free Plan</a>
+                        <a href="/plans/pricing/" class="badge bg-full">Full Plan</a>
+                        <a href="/?query=category_subtree:addon%20order:-created"
+                           class="badge bg-sale">Blender
+                            add-ons</a>
+                        <a href="/docs/become-creator/" class="badge bg-grey">Become creator</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-5 d-flex flex-column align-items-md-end justify-content-between text-md-end pt-sm-0">
+                
+                    
+<ul class="navbar-nav mr-auto flex-wrap">
+    
+
+
+    
+    
+    
+    <li class="
+                   nav-item
+               
+               
+               
+               ">
+        <a href="/contact/"
+           class="
+                      nav-link
+                  
+                  
+                  
+                  profile-menu-link"
+           id="navitem-310"
+           
+           >Contact</a>
+        
+    </li>
+
+
+</ul>
+
+                
+                <div class="social-icons">
+
+    
+        <a href="https://www.youtube.com/@blendkit3d"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="YouTube">
+            <i class="fab fa-youtube"></i>
+            <span class="sr-only">YouTube</span>
+        </a>
+    
+        <a href="https://www.facebook.com/blendkit3d/"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="Facebook">
+            <i class="fab fa-facebook"></i>
+            <span class="sr-only">Facebook</span>
+        </a>
+    
+        <a href="https://www.instagram.com/blendkit3d/"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="Instagram">
+            <i class="fab fa-instagram"></i>
+            <span class="sr-only">Instagram</span>
+        </a>
+    
+        <a href="https://github.com/BlenderKit"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="GitHub">
+            <i class="fab fa-github"></i>
+            <span class="sr-only">GitHub</span>
+        </a>
+    
+        <a href="https://www.tiktok.com/@blendkit3d"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="TikTok">
+            <i class="fab fa-tiktok"></i>
+            <span class="sr-only">TikTok</span>
+        </a>
+    
+        <a href="https://bsky.app/profile/blendkit3d.bsky.social"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="BlueSky">
+            <i class="fa-brands fa-bluesky"></i>
+            <span class="sr-only">BlueSky</span>
+        </a>
+    
+        <a href="https://mastodon.art/@blendkit3d"
+           class="nav-link"
+           target="_blank"
+           rel="me noopener noreferrer"
+           title="Mastodon">
+            <i class="fab fa-mastodon"></i>
+            <span class="sr-only">Mastodon</span>
+        </a>
+    
+
+</div>
+                <div class="license">
+                    © 2026 Blendkit (formerly known as BlenderKit) | All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+                        
+                    
+                
+            
+        
+        
+        
+        
+        
+            <script src="/static/cdn/vanilla-lazyload/dist/lazyload.min.b00219cb9580.js"
+                    data-cookieconsent="ignore"
+                    onerror="window.bkRetryScript && window.bkRetryScript(this)"></script>
+            <script src="/static/cdn/dompurify/dist/purify.min.3b74e9cb0dc3.js"
+                    onerror="window.bkRetryScript && window.bkRetryScript(this)"></script>
+        
+        
+            <script src="/static/cdn/web-vitals/dist/web-vitals.attribution.iife.41e8f41d746d.js"
+                    data-cookieconsent="ignore"
+                    defer></script>
+            <script src="/static/js/web-vitals-report.efb962adbbe0.js"
+                    data-cookieconsent="ignore"
+                    defer></script>
+        
+        
+            <script src="/static/js/render-defects-report.819a9ef27d01.js"
+                    data-cookieconsent="ignore"
+                    defer></script>
+        
+        
+        
+            
+                <script data-cookieconsent="ignore">// Report an anonymous landing (path, referrer, utm/click-id params) to the
+// first-touch endpoint. Anonymous HTML is edge-cached, so the page itself
+// must not carry the acq-touch cookie; this beacon fetches it instead.
+// Sent only on entries from outside (or with no referrer), never on
+// internal navigation; the server keeps the first touch and updates the
+// last. Bots without sendBeacon send nothing.
+(function () {
+    if (!navigator.sendBeacon || !window.URLSearchParams) {
+        return;
+    }
+    var referrer = document.referrer || "";
+    if (
+        referrer.indexOf(location.protocol + "//" + location.host + "/") === 0
+    ) {
+        return;
+    }
+    var params = {};
+    new URLSearchParams(location.search).forEach(function (value, name) {
+        if (/^(utm_[a-z]+|bk_cid|gclid|fbclid)$/.test(name)) {
+            params[name] = value;
+        }
+    });
+    navigator.sendBeacon(
+        "/acq/touch/",
+        JSON.stringify({
+            path: location.pathname,
+            referrer: referrer,
+            params: params,
+        })
+    );
+})();
+</script>
+            
+            <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/scripts.4d08b06731c5.js"
+        ></script>
+
+            <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/async_scripts.4c5eff6d7094.js"
+         async></script>
+
+            
+                
+            <!-- analytical_body_bottom -->
+                
+            <!-- analytical_body_bottom end -->
+            
+            
+            
+            
+            
+                <script src="https://browser.sentry-cdn.com/7.64.0/bundle.min.js"
+                        integrity="sha384-pEvtlr6cwBR9vjulYjWOrTk7V5quSXAB+n9IkdKGsMb6C/XfsygGknUmNvEcOBmG"
+                        crossorigin="anonymous"
+                        data-cookieconsent="ignore"></script>
+            
+            <script>
+                Sentry.init({
+                    dsn: 'https://beb9f60879c24ecb881dc1b227c6efd9@sentry.io/1296069',
+                    // The build the page came from: separates a stale cached page from a broken build.
+                    release: 'bbd2c1b8fb3e0cad2517a4368d4a8237e29cd494',
+                    ignoreErrors: [
+                        'ChunkLoadError',
+                        // Benign browser diagnostic, not an exception: the observer
+                        // callback changed layout, so remaining notifications were
+                        // delivered next frame. OverlayScrollbars on the gallery
+                        // emits it constantly (~150/day since 2026-06-25).
+                        'ResizeObserver loop completed with undelivered notifications',
+                        // Older Firefox/Chrome wording of the same diagnostic
+                        'ResizeObserver loop limit exceeded',
+                    ],
+                    beforeSend(event, hint) {
+                    // Filter out jQuery event objects incorrectly captured as exceptions
+                    // These occur when InfiniteScroll's error handling leaks jQuery event objects
+                        const exceptionValue = event.exception?.values?.[0]?.value;
+                        if (exceptionValue &&
+                            exceptionValue.startsWith('Object captured as exception') &&
+                            (exceptionValue.includes('isTrigger') ||
+                                exceptionValue.includes('isDefaultPrevented') ||
+                                /jQuery\d+/.test(exceptionValue))) {
+                                    return null;
+                                }
+
+                    // Filter Chrome 99 bot scraper errors (residential proxy network)
+                        const userAgent = navigator.userAgent;
+                        if (userAgent.includes('Chrome/99.0.4844') || userAgent.includes('Chrome/86.0.4240')) {
+                            return null;
+                        }
+
+                        return event;
+                    }
+                });
+                
+                
+            </script>
+            <script>
+                const urls = {
+                    "cart": {
+                        "detail": "/api/v1/cart/detail/",
+                        "add": "/api/v1/cart/add/",
+                        "remove": "/api/v1/cart/remove-item/",
+                        "request_price": "/api/v1/cart/request-price/",
+                        "request_price_bulk": "/api/v1/cart/request-price-bulk/",
+                        "empty": "/api/v1/cart/empty/",
+                    }
+                };
+            </script>
+            <script id="cookiebot-utils"
+                    src="/static/js/cookiebot-utils.a298cd216d81.js"
+                    data-cbid="01cab849-6981-4476-9a52-c216661976c3"></script>
+            <script src="/static/marketplace/marketplace.a2f8a6666d01.js"></script>
+            <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/footer_init.df26668becd6.js"
+        ></script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+            
+    
+    
+    <script type="module" crossorigin="" src="/static/components/comments-RWzEQ-6N.c18ef269b04a.js"></script>
+<link href="/static/components/runtime-dom.esm-bundler-Bvr_BgAD.cd3654e839c8.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/_commonjsHelpers-D6-XlEtG.54447ac490d8.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/___vite-browser-external_commonjs-proxy-DDYoOVPM.b6f312681f58.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/lib-DS-84qod.4457228f285a.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    <link  rel="stylesheet" href="/static/components/RatingButton-D7Wv6nCN.10e831d0338b.css" />
+<script type="module" crossorigin="" src="/static/components/ratings-C5XJ0S4p.9f858359fddc.js"></script>
+<link href="/static/components/runtime-dom.esm-bundler-Bvr_BgAD.cd3654e839c8.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/RatingButton-DqbS1aMZ.f0f686ae66d7.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/lib-DS-84qod.4457228f285a.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/useFixedPopover-DlESGvjV.f8b685c2e76d.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="/static/components/_plugin-vue_export-helper-DlAUqK2U.b3610c19da54.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+
+    <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/asset-modal.78659b0ac1a6.js"
+        ></script>
+
+
+    <script src="/static/cdn/dompurify/dist/purify.min.3b74e9cb0dc3.js"></script>
+    <script src="/static/cdn/bs5-lightbox/dist/index.bundle.min.0d4f74452b37.js"></script>
+    <script src="/static/cdn/swiper/swiper-bundle.min.42f88ad31dd4.js"></script>
+    <script data-cookieconsent="ignore"
+        src="/static/CACHE/js/swiper.773042f8dc43.js"
+         async></script>
+
+    
+            
+
+            <div id="disclaimer-container"></div>
+        </body>
+</html>

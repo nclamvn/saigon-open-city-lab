@@ -1,0 +1,2533 @@
+{
+  "version": "15b",
+  "scope": "20 mặt đứng của 20 công trình trên trục Nguyễn Huệ–Bạch Đằng và các góc phố Đồng Khởi–Lam Sơn liền kề",
+  "classification": "site_photo_facade_patches_on_approximate_open_map_geometry",
+  "entries": [
+    {
+      "key": "cityhall",
+      "name": "UBND TP.HCM",
+      "building_id": 341504305,
+      "source_snapshot": "cityhall-search.json",
+      "source_title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-03.jpg",
+      "source_file": "assets/facades15/cityhall-3.jpg",
+      "edges": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "quad": [
+        [
+          0.025,
+          0.546
+        ],
+        [
+          0.983,
+          0.548
+        ],
+        [
+          0.984,
+          0.708
+        ],
+        [
+          0.025,
+          0.716
+        ]
+      ],
+      "vertical": [
+        0.2,
+        0.97
+      ],
+      "columns": 12,
+      "rows": 1,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "height_override": {
+        "meters": 26,
+        "basis": "visual estimate from rectified photo aspect and mapped frontage; not measured",
+        "url": null
+      },
+      "focus_distance": 100,
+      "surface_review": {
+        "source_model": "nonplanar",
+        "status": "needs_surface_split",
+        "note": "Mặt bằng có nhiều mặt vuông góc; cần chia ảnh theo từng mặt."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-03.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg/1280px-Ho_Chi_Minh_City%2C_City_Hall%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Steffen Schmitz (more photos)",
+      "photo_date": "2020-01-16",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "e837dad1673ca3f77be6a618eb01892be3776890e9c3f5fab3c964018caca95b",
+      "source_dimensions": [
+        1280,
+        982
+      ],
+      "rectified_sha256": "b6bcb4c35ffe8c6a07787f842af6e091ade4fca69de8394e7cae96b7a1b9d400",
+      "atlas_rect": [
+        0.0029296875,
+        0.80234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -1081.58,
+            203.78
+          ],
+          "b": [
+            -1100.95,
+            225.81
+          ],
+          "normal": [
+            0.7509907158119931,
+            0.6603127628360596
+          ],
+          "u0": 0.0,
+          "u1": 0.15063409804652528
+        },
+        {
+          "a": [
+            -1100.95,
+            225.81
+          ],
+          "b": [
+            -1117.57,
+            246.39
+          ],
+          "normal": [
+            0.7779838209032759,
+            0.6282843101755282
+          ],
+          "u0": 0.15063409804652528,
+          "u1": 0.28647112487612525
+        },
+        {
+          "a": [
+            -1117.57,
+            246.39
+          ],
+          "b": [
+            -1132.0,
+            262.99
+          ],
+          "normal": [
+            0.754713178559328,
+            0.6560548895548877
+          ],
+          "u0": 0.28647112487612525,
+          "u1": 0.3994167768541138
+        },
+        {
+          "a": [
+            -1132.0,
+            262.99
+          ],
+          "b": [
+            -1137.75,
+            268.63
+          ],
+          "normal": [
+            0.7002451758422733,
+            0.7139024399101208
+          ],
+          "u0": 0.3994167768541138,
+          "u1": 0.4407759969448631
+        },
+        {
+          "a": [
+            -1137.75,
+            268.63
+          ],
+          "b": [
+            -1135.78,
+            270.25
+          ],
+          "normal": [
+            0.6351573818331679,
+            -0.7723827421057745
+          ],
+          "u0": 0.4407759969448631,
+          "u1": 0.453873153744856
+        },
+        {
+          "a": [
+            -1135.78,
+            270.25
+          ],
+          "b": [
+            -1144.59,
+            280.35
+          ],
+          "normal": [
+            0.7535926490012427,
+            0.6573417067030586
+          ],
+          "u0": 0.453873153744856,
+          "u1": 0.5226952794624635
+        },
+        {
+          "a": [
+            -1144.59,
+            280.35
+          ],
+          "b": [
+            -1153.62,
+            290.64
+          ],
+          "normal": [
+            0.7516256890704228,
+            0.6595898904087387
+          ],
+          "u0": 0.5226952794624635,
+          "u1": 0.5929955703451046
+        },
+        {
+          "a": [
+            -1153.62,
+            290.64
+          ],
+          "b": [
+            -1155.54,
+            289.17
+          ],
+          "normal": [
+            -0.6079105027168903,
+            0.7940055545690456
+          ],
+          "u0": 0.5929955703451046,
+          "u1": 0.6054126952673621
+        },
+        {
+          "a": [
+            -1155.54,
+            289.17
+          ],
+          "b": [
+            -1205.54,
+            347.52
+          ],
+          "normal": [
+            0.7593484560996765,
+            0.6506841954581636
+          ],
+          "u0": 0.6054126952673621,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.7572895574089015,
+        0.6530792648977841
+      ],
+      "reverse_u": true,
+      "width_m": 194.741,
+      "baseline_height_m": 9.6,
+      "height_m": 26,
+      "mapped_center": [
+        -1152.62,
+        265.92
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0909,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": false,
+        "normal_spread_degrees": 91.343,
+        "maximum_degrees": 5,
+        "reason": "Mặt bằng có nhiều mặt vuông góc; cần chia ảnh theo từng mặt."
+      }
+    },
+    {
+      "key": "rex",
+      "name": "Rex Hotel · mặt Lê Lợi",
+      "building_id": 39598474,
+      "source_snapshot": "rex-day-search.json",
+      "source_title": "File:The Rex Hotel Is Pictured While Secretary Walked the Streets of Ho Chi Minh City (27237284176).jpg",
+      "source_file": "assets/facades15/rex-day-5.jpg",
+      "edges": [
+        21
+      ],
+      "quad": [
+        [
+          0.18,
+          0.405
+        ],
+        [
+          0.558,
+          0.339
+        ],
+        [
+          0.558,
+          0.622
+        ],
+        [
+          0.17,
+          0.654
+        ]
+      ],
+      "vertical": [
+        0.26,
+        0.87
+      ],
+      "columns": 7,
+      "rows": 3,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Rex_Hotel_Is_Pictured_While_Secretary_Walked_the_Streets_of_Ho_Chi_Minh_City_(27237284176).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/The_Rex_Hotel_Is_Pictured_While_Secretary_Walked_the_Streets_of_Ho_Chi_Minh_City_%2827237284176%29.jpg/1280px-The_Rex_Hotel_Is_Pictured_While_Secretary_Walked_the_Streets_of_Ho_Chi_Minh_City_%2827237284176%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "U.S. Department of State from United States",
+      "photo_date": "2016-05-24 04:52",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:The_Rex_Hotel_Is_Pictured_While_Secretary_Walked_the_Streets_of_Ho_Chi_Minh_City_(27237284176).jpg",
+      "source_sha256": "e26c0a66af561161a2d3d6f316dab2a6e451b386b9f8970e7e0f3577633fdd4e",
+      "source_dimensions": [
+        1280,
+        853
+      ],
+      "rectified_sha256": "74dbdbe261f03c7b339b580e8bdcbcdef999d15bcb8869d6d1b3f999fe05a707",
+      "atlas_rect": [
+        0.2529296875,
+        0.80234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -1070.77,
+            394.66
+          ],
+          "b": [
+            -1105.14,
+            429.82
+          ],
+          "normal": [
+            0.7150947737357454,
+            0.6990275134612536
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.7150947737357454,
+        0.6990275134612536
+      ],
+      "reverse_u": true,
+      "width_m": 49.168,
+      "baseline_height_m": 25.3,
+      "height_m": 25.3,
+      "mapped_center": [
+        -1138.88,
+        381.28
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "union",
+      "name": "Union Square",
+      "building_id": 2000032899,
+      "source_snapshot": "union-search.json",
+      "source_title": "File:Vincom Center, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 02.JPG",
+      "source_file": "assets/facades15/union-3.jpg",
+      "edges": [
+        5
+      ],
+      "quad": [
+        [
+          0.626,
+          0.27
+        ],
+        [
+          0.949,
+          0.527
+        ],
+        [
+          0.951,
+          0.893
+        ],
+        [
+          0.624,
+          0.91
+        ]
+      ],
+      "vertical": [
+        0.07,
+        0.97
+      ],
+      "columns": 9,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "Overture named footprint + visual street-side review",
+      "relief": "cornice",
+      "focus_distance": 45,
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vincom_Center,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Vincom_Center%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG/1280px-Vincom_Center%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Diego Delso",
+      "photo_date": "2013-08-14 13:56:53",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_sha256": "91bb52c794940fadd862f67a279c17f577c6ec4c4f6921dcb2b1a1391b097247",
+      "source_dimensions": [
+        1280,
+        932
+      ],
+      "rectified_sha256": "42b25159f556aee2280e930e6d833af4fc9e6991f284f249b1bf6cc2f273a478",
+      "atlas_rect": [
+        0.5029296875,
+        0.80234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -1036.5,
+            339.48
+          ],
+          "b": [
+            -1105.1,
+            275.3
+          ],
+          "normal": [
+            -0.6831900906644582,
+            0.7302405768086907
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.6831900906644582,
+        0.7302405768086907
+      ],
+      "reverse_u": true,
+      "width_m": 93.942,
+      "baseline_height_m": 24,
+      "height_m": 24,
+      "mapped_center": [
+        -1080.25,
+        278.11
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "cafe42",
+      "name": "Chung cư 42 Nguyễn Huệ",
+      "building_id": 187895174,
+      "source_snapshot": "cafe42-search.json",
+      "source_title": "File:42 Nguyen Hue Boulevard, Saigon (53547606514).jpg",
+      "source_file": "assets/facades15/cafe42-0.jpg",
+      "edges": [
+        1,
+        2
+      ],
+      "quad": [
+        [
+          0.401,
+          0.11
+        ],
+        [
+          0.776,
+          0.074
+        ],
+        [
+          0.827,
+          0.542
+        ],
+        [
+          0.386,
+          0.602
+        ]
+      ],
+      "vertical": [
+        0.28,
+        0.99
+      ],
+      "columns": 6,
+      "rows": 7,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "balcony",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:42_Nguyen_Hue_Boulevard,_Saigon_(53547606514).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/42_Nguyen_Hue_Boulevard%2C_Saigon_%2853547606514%29.jpg/1280px-42_Nguyen_Hue_Boulevard%2C_Saigon_%2853547606514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Werner  Bayer",
+      "photo_date": "2023-12-28 10:43:09",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_sha256": "ddbb830a2e3226a65af87f6dd0e981840d85e48885f3feb914459b1d12a13b60",
+      "source_dimensions": [
+        1280,
+        960
+      ],
+      "rectified_sha256": "09d0fa19745cfc88f9de0ef75db684eaecb385d21307005bf7c440587ee16b53",
+      "atlas_rect": [
+        0.7529296875,
+        0.80234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -795.61,
+            558.69
+          ],
+          "b": [
+            -812.37,
+            544.11
+          ],
+          "normal": [
+            -0.6563347308658412,
+            0.75446982779914
+          ],
+          "u0": 0.0,
+          "u1": 0.8230734779494675
+        },
+        {
+          "a": [
+            -812.37,
+            544.11
+          ],
+          "b": [
+            -815.95,
+            540.95
+          ],
+          "normal": [
+            -0.661760151169313,
+            0.7497156142994277
+          ],
+          "u0": 0.8230734779494675,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.6572971220873738,
+        0.7536315368239681
+      ],
+      "reverse_u": true,
+      "width_m": 26.989,
+      "baseline_height_m": 35.0,
+      "height_m": 35.0,
+      "mapped_center": [
+        -795.66,
+        540.24
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0308,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.34,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "sunwah",
+      "name": "Sun Wah Tower",
+      "building_id": 138674379,
+      "source_snapshot": "sunwah-search.json",
+      "source_title": "File:Sun Wah Tower, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 01.JPG",
+      "source_file": "assets/facades15/sunwah-4.jpg",
+      "edges": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "quad": [
+        [
+          0.295,
+          0.167
+        ],
+        [
+          0.746,
+          0.166
+        ],
+        [
+          0.798,
+          0.827
+        ],
+        [
+          0.251,
+          0.825
+        ]
+      ],
+      "vertical": [
+        0.18,
+        0.92
+      ],
+      "columns": 9,
+      "rows": 23,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "nonplanar",
+        "status": "needs_surface_split",
+        "note": "Mặt kính cong; cần hiệu chỉnh theo bề mặt trụ, không dùng một homography."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sun_Wah_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Sun_Wah_Tower%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_01.JPG/1280px-Sun_Wah_Tower%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Diego Delso",
+      "photo_date": "2013-08-14 14:05:47",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_sha256": "aa652294eb99665b487b936f01e5f3ac886ebae05e31c089654e9f32167d4a9b",
+      "source_dimensions": [
+        1280,
+        2810
+      ],
+      "rectified_sha256": "318043022b045fb9afa0af32b02c5efbd510e5eeded71323bf53a028b22f488e",
+      "atlas_rect": [
+        0.0029296875,
+        0.60234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -899.58,
+            561.1
+          ],
+          "b": [
+            -896.02,
+            564.38
+          ],
+          "normal": [
+            0.6775933956530974,
+            -0.735436734306429
+          ],
+          "u0": 0.0,
+          "u1": 0.16294192460216592
+        },
+        {
+          "a": [
+            -896.02,
+            564.38
+          ],
+          "b": [
+            -893.78,
+            565.28
+          ],
+          "normal": [
+            0.37281866082712467,
+            -0.927904222503093
+          ],
+          "u0": 0.16294192460216592,
+          "u1": 0.24420121578341203
+        },
+        {
+          "a": [
+            -893.78,
+            565.28
+          ],
+          "b": [
+            -891.48,
+            566.47
+          ],
+          "normal": [
+            0.45952796801255236,
+            -0.8881632995200008
+          ],
+          "u0": 0.24420121578341203,
+          "u1": 0.3313704388167471
+        },
+        {
+          "a": [
+            -891.48,
+            566.47
+          ],
+          "b": [
+            -890.01,
+            567.37
+          ],
+          "normal": [
+            0.5221538596385131,
+            -0.8528513040762755
+          ],
+          "u0": 0.3313704388167471,
+          "u1": 0.38938969800392753
+        },
+        {
+          "a": [
+            -890.01,
+            567.37
+          ],
+          "b": [
+            -889.41,
+            567.73
+          ],
+          "normal": [
+            0.5144957554275265,
+            -0.8574929257125441
+          ],
+          "u0": 0.38938969800392753,
+          "u1": 0.41294284090034
+        },
+        {
+          "a": [
+            -889.41,
+            567.73
+          ],
+          "b": [
+            -887.44,
+            569.3
+          ],
+          "normal": [
+            0.6232416407554927,
+            -0.782029319928864
+          ],
+          "u0": 0.41294284090034,
+          "u1": 0.49773805724252146
+        },
+        {
+          "a": [
+            -887.44,
+            569.3
+          ],
+          "b": [
+            -885.69,
+            571.14
+          ],
+          "normal": [
+            0.7246060252607053,
+            -0.6891633392425066
+          ],
+          "u0": 0.49773805724252146,
+          "u1": 0.583214028511769
+        },
+        {
+          "a": [
+            -885.69,
+            571.14
+          ],
+          "b": [
+            -885.15,
+            571.88
+          ],
+          "normal": [
+            0.8077909478591723,
+            -0.5894690700594731
+          ],
+          "u0": 0.583214028511769,
+          "u1": 0.6140502317903248
+        },
+        {
+          "a": [
+            -885.15,
+            571.88
+          ],
+          "b": [
+            -884.27,
+            573.06
+          ],
+          "normal": [
+            0.801627475093048,
+            -0.5978238797304309
+          ],
+          "u0": 0.6140502317903248,
+          "u1": 0.6635995377680521
+        },
+        {
+          "a": [
+            -884.27,
+            573.06
+          ],
+          "b": [
+            -882.83,
+            575.36
+          ],
+          "normal": [
+            0.8475839836711625,
+            -0.5306612767332121
+          ],
+          "u0": 0.6635995377680521,
+          "u1": 0.7549421141232023
+        },
+        {
+          "a": [
+            -882.83,
+            575.36
+          ],
+          "b": [
+            -881.74,
+            577.55
+          ],
+          "normal": [
+            0.8952432701134266,
+            -0.44557770065008667
+          ],
+          "u0": 0.7549421141232023,
+          "u1": 0.8372859723957664
+        },
+        {
+          "a": [
+            -881.74,
+            577.55
+          ],
+          "b": [
+            -878.18,
+            580.82
+          ],
+          "normal": [
+            0.6764737049159824,
+            -0.7364667857800815
+          ],
+          "u0": 0.8372859723957664,
+          "u1": 0.9999999999999999
+        }
+      ],
+      "normal": [
+        0.6776518669172161,
+        -0.7353828576079344
+      ],
+      "reverse_u": true,
+      "width_m": 29.708,
+      "baseline_height_m": 92.0,
+      "height_m": 92.0,
+      "mapped_center": [
+        -904.84,
+        588.06
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": false,
+        "normal_spread_degrees": 20.879,
+        "maximum_degrees": 5,
+        "reason": "Mặt kính cong; cần hiệu chỉnh theo bề mặt trụ, không dùng một homography."
+      }
+    },
+    {
+      "key": "prince",
+      "name": "Saigon Prince Hotel",
+      "building_id": 187895161,
+      "source_snapshot": "prince-search.json",
+      "source_title": "File:Saigon Prince Hotel.jpg",
+      "source_file": "assets/facades15/prince-3.jpg",
+      "edges": [
+        3
+      ],
+      "quad": [
+        [
+          0.015,
+          0.39
+        ],
+        [
+          0.334,
+          0.332
+        ],
+        [
+          0.338,
+          0.584
+        ],
+        [
+          0.015,
+          0.547
+        ]
+      ],
+      "vertical": [
+        0.3,
+        0.78
+      ],
+      "columns": 6,
+      "rows": 7,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Saigon_Prince_Hotel.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Saigon_Prince_Hotel.jpg/1280px-Saigon_Prince_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Vano111ru",
+      "photo_date": "Taken on 4 January 2024",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "c8ddb612b2410a231bf667fa75aad1e6cdbb72690be4b2798fc8bb0aa2abae70",
+      "source_dimensions": [
+        1280,
+        1705
+      ],
+      "rectified_sha256": "7524f18ad3dc46f74ecc5070f3341c0eabf996b7b87fd2587eeeff4e37723ecc",
+      "atlas_rect": [
+        0.2529296875,
+        0.60234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -803.26,
+            639.17
+          ],
+          "b": [
+            -780.83,
+            661.14
+          ],
+          "normal": [
+            0.6997433469287021,
+            -0.7143943227861054
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.6997433469287021,
+        -0.7143943227861054
+      ],
+      "reverse_u": true,
+      "width_m": 31.397,
+      "baseline_height_m": 45.0,
+      "height_m": 45.0,
+      "mapped_center": [
+        -812.17,
+        670.43
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "times",
+      "name": "Saigon Times Square",
+      "building_id": 165491082,
+      "source_snapshot": "times-search.json",
+      "source_title": "File:Ho Chi Minh City, Saigon Times Square, 2020-01 CN-01.jpg",
+      "source_file": "assets/facades16d/times-original.jpg",
+      "edges": [
+        6
+      ],
+      "quad": [
+        [
+          0.314070351758794,
+          0.202865329512894
+        ],
+        [
+          0.4949748743718593,
+          0.1315186246418338
+        ],
+        [
+          0.4983249581239531,
+          0.4154727793696275
+        ],
+        [
+          0.27889447236180903,
+          0.46275071633237824
+        ]
+      ],
+      "vertical": [
+        0.4242,
+        0.91
+      ],
+      "columns": 6,
+      "rows": 30,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Ảnh gốc độ phân giải cao chỉ phủ phần mặt chính quan sát được. Toàn bộ vỏ kính còn lại và nhịp thanh mảnh được suy dựng từ màu/vật liệu ảnh; không phải ảnh đầy đủ từng mặt. Cao độ/UV gần đúng, chưa đo kiểm.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng mặt phẳng chính cùng cao độ, chứa trọn chữ Times Square; loại cánh mái cao và phần thân dưới bị nhà phía trước che. UV/cao độ đặt gần đúng."
+      },
+      "horizontal": [
+        0.38,
+        1
+      ],
+      "detail_texture": "assets/facades16d/times-front.jpg",
+      "detail_mask": "assets/facades16d/times-mask.png",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Saigon_Times_Square,_2020-01_CN-01.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Steffen Schmitz (more photos)",
+      "photo_date": "2020-01-16",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "11d7c80e0af75c26774c5db0b75cbadcd552c57a77a7ad9915c758d0afb4f1f3",
+      "source_dimensions": [
+        2388,
+        3490
+      ],
+      "rectified_sha256": "61d774f18a07909b8e6351fa9f36257c3389c6790a33639cdcaabe90162cbf25",
+      "atlas_rect": [
+        0.5029296875,
+        0.60234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -781.19,
+            569.25
+          ],
+          "b": [
+            -732.26,
+            517.4
+          ],
+          "normal": [
+            -0.7272892820004888,
+            -0.6863310427827184
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.7272892820004888,
+        -0.6863310427827184
+      ],
+      "reverse_u": true,
+      "width_m": 71.292,
+      "baseline_height_m": 164.9,
+      "height_m": 164.9,
+      "mapped_center": [
+        -736.86,
+        558.73
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0226,
+      "transform": "Original Commons pixels rectified from the same-height main front; 1024×1856 dedicated texture with sky alpha mask; 500px atlas fallback. No painted text or generative fill.",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng mặt phẳng chính cùng cao độ, chứa trọn chữ Times Square; loại cánh mái cao và phần thân dưới bị nhà phía trước che. UV/cao độ đặt gần đúng."
+      }
+    },
+    {
+      "key": "vietcombank",
+      "name": "Vietcombank Tower",
+      "building_id": 1151203205,
+      "source_snapshot": "vietcombank-search.json",
+      "source_title": "File:Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01.jpg",
+      "source_file": "assets/facades15/vietcombank-1.jpg",
+      "edges": [
+        15
+      ],
+      "quad": [
+        [
+          0.4,
+          0.297
+        ],
+        [
+          0.686,
+          0.317
+        ],
+        [
+          0.692,
+          0.597
+        ],
+        [
+          0.394,
+          0.612
+        ]
+      ],
+      "vertical": [
+        0.075,
+        0.96
+      ],
+      "columns": 14,
+      "rows": 30,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Khối thân/mái dùng footprint bộ phận, cao độ bậc ước lượng. Vật liệu cửa lấy mẫu từ vùng ảnh phẳng rồi lặp trên vỏ; không tuyên bố đúng vị trí từng ô cửa.",
+      "mapping_basis": "Footprint bộ phận OSM 1151203205, thuộc khối đế Vietcombank 402859385; giữ đế 9 m. Tách sáu bậc thân/mái, cao độ trung gian ước lượng.",
+      "relief": "none",
+      "height_override": {
+        "meters": 154,
+        "basis": "Khối thân 154 m ước lượng theo ảnh; mốc đỉnh 206 m có nguồn, không phải chiều cao khối đế.",
+        "url": "https://www.skyscrapercenter.com/ho-chi-minh-city/vietcombank-tower/10275/"
+      },
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Chỉ lấy mặt phẳng bên phải góc ảnh, loại mặt bên trái và nhà SUTRA phía trước. Ảnh được dùng cho thân chính; các bậc mái là hình học ước lượng."
+      },
+      "parent_building_id": 402859385,
+      "envelope_parts": [
+        {
+          "building_id": 1151203205,
+          "meters": 154,
+          "basis": "Cao độ bậc ước lượng theo ảnh và footprint bộ phận; đỉnh tổng thể tham chiếu 206 m."
+        },
+        {
+          "building_id": 1151203206,
+          "meters": 164,
+          "basis": "Cao độ bậc ước lượng theo ảnh và footprint bộ phận; đỉnh tổng thể tham chiếu 206 m."
+        },
+        {
+          "building_id": 1151203207,
+          "meters": 174,
+          "basis": "Cao độ bậc ước lượng theo ảnh và footprint bộ phận; đỉnh tổng thể tham chiếu 206 m."
+        },
+        {
+          "building_id": 1151203208,
+          "meters": 185,
+          "basis": "Cao độ bậc ước lượng theo ảnh và footprint bộ phận; đỉnh tổng thể tham chiếu 206 m."
+        },
+        {
+          "building_id": 1151203209,
+          "meters": 197,
+          "basis": "Cao độ bậc ước lượng theo ảnh và footprint bộ phận; đỉnh tổng thể tham chiếu 206 m."
+        },
+        {
+          "building_id": 1151203210,
+          "meters": 206,
+          "basis": "Cao độ bậc ước lượng theo ảnh và footprint bộ phận; đỉnh tổng thể tham chiếu 206 m."
+        }
+      ],
+      "focus_distance": 255,
+      "render_mode": "sampled_envelope",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Vietcombank_Tower,_2020-01_CN-01.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Steffen Schmitz (more photos)",
+      "photo_date": "2020-01-16",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "292182cd84193cfb5dcda635cebb18ab892e5d32aca33f2c90c45c990a1b5f1e",
+      "source_dimensions": [
+        1280,
+        2523
+      ],
+      "rectified_sha256": "dc79218e6dd9d710737aa4e95f4c8e3a71c82f58dc3add29fbdf82308197f714",
+      "atlas_rect": [
+        0.7529296875,
+        0.60234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -634.38,
+            389.62
+          ],
+          "b": [
+            -671.12,
+            371.67
+          ],
+          "normal": [
+            -0.4389776479638136,
+            0.8984979825175781
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.43897764796381367,
+        0.8984979825175782
+      ],
+      "reverse_u": true,
+      "width_m": 40.89,
+      "baseline_height_m": 22.7,
+      "height_m": 154,
+      "mapped_center": [
+        -647.44,
+        367.39
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Chỉ lấy mặt phẳng bên phải góc ảnh, loại mặt bên trái và nhà SUTRA phía trước. Ảnh được dùng cho thân chính; các bậc mái là hình học ước lượng."
+      }
+    },
+    {
+      "key": "renaissance",
+      "name": "Renaissance Riverside · khối đế",
+      "building_id": 193142021,
+      "source_snapshot": "renaissance-search.json",
+      "source_title": "File:Công trường Mê Linh-Bến Nghé, Quận 1, TPHCM, Việt Nam Renaissance Riverside Hotel Saigon - panoramio.jpg",
+      "source_file": "assets/facades15/renaissance-1.jpg",
+      "edges": [
+        11,
+        12,
+        0,
+        1
+      ],
+      "quad": [
+        [
+          0.5,
+          0.48
+        ],
+        [
+          0.788,
+          0.342
+        ],
+        [
+          0.825,
+          0.702
+        ],
+        [
+          0.5,
+          0.78
+        ]
+      ],
+      "vertical": [
+        0.05,
+        0.96
+      ],
+      "columns": 3,
+      "rows": 2,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "nonplanar",
+        "status": "needs_surface_split",
+        "note": "Ảnh và mặt bằng đi qua góc nhà; cần tách các mặt."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%B4ng_tr%C6%B0%E1%BB%9Dng_M%C3%AA_Linh-B%E1%BA%BFn_Ngh%C3%A9,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_Renaissance_Riverside_Hotel_Saigon_-_panoramio.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/C%C3%B4ng_tr%C6%B0%E1%BB%9Dng_M%C3%AA_Linh-B%E1%BA%BFn_Ngh%C3%A9%2C_Qu%E1%BA%ADn_1%2C_TPHCM%2C_Vi%E1%BB%87t_Nam_Renaissance_Riverside_Hotel_Saigon_-_panoramio.jpg/1280px-C%C3%B4ng_tr%C6%B0%E1%BB%9Dng_M%C3%AA_Linh-B%E1%BA%BFn_Ngh%C3%A9%2C_Qu%E1%BA%ADn_1%2C_TPHCM%2C_Vi%E1%BB%87t_Nam_Renaissance_Riverside_Hotel_Saigon_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "trungydang",
+      "photo_date": "Taken on 12 May 2014",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_sha256": "d89f9b8027f697f6a962648a689ff430edd7bfdb565bbc7845ba8218ea796ea4",
+      "source_dimensions": [
+        1280,
+        960
+      ],
+      "rectified_sha256": "fbb1a27f9495c3431a8dc13a65dac6bb4b660ae9b77e3c12274ea5e4242c7908",
+      "atlas_rect": [
+        0.0029296875,
+        0.40234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -583.09,
+            503.18
+          ],
+          "b": [
+            -575.9,
+            488.78
+          ],
+          "normal": [
+            -0.8946755738870911,
+            -0.44671648446168183
+          ],
+          "u0": 0.0,
+          "u1": 0.44598817153464354
+        },
+        {
+          "a": [
+            -575.9,
+            488.78
+          ],
+          "b": [
+            -569.67,
+            491.38
+          ],
+          "normal": [
+            0.385141231931215,
+            -0.922857644204406
+          ],
+          "u0": 0.44598817153464354,
+          "u1": 0.6330476683370616
+        },
+        {
+          "a": [
+            -569.67,
+            491.38
+          ],
+          "b": [
+            -563.07,
+            493.08
+          ],
+          "normal": [
+            0.24943423603324905,
+            -0.9683917398937836
+          ],
+          "u0": 0.6330476683370616,
+          "u1": 0.8218986680429449
+        },
+        {
+          "a": [
+            -563.07,
+            493.08
+          ],
+          "b": [
+            -556.65,
+            493.39
+          ],
+          "normal": [
+            0.04823041017823347,
+            -0.9988362365943876
+          ],
+          "u0": 0.8218986680429449,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.34723349221372196,
+        -0.9377787062442094
+      ],
+      "reverse_u": true,
+      "width_m": 36.089,
+      "baseline_height_m": 9,
+      "height_m": 9,
+      "mapped_center": [
+        -573.57,
+        516.21
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": false,
+        "normal_spread_degrees": 43.149,
+        "maximum_degrees": 5,
+        "reason": "Ảnh và mặt bằng đi qua góc nhà; cần tách các mặt."
+      }
+    },
+    {
+      "key": "majestic",
+      "name": "Hotel Majestic · mặt Tôn Đức Thắng",
+      "building_id": 193142038,
+      "source_snapshot": "majestic-search.json",
+      "source_title": "File:Hotel Majestic, Saigon (20230705 1506).jpg",
+      "source_file": "assets/facades15/majestic-2.jpg",
+      "edges": [
+        5
+      ],
+      "quad": [
+        [
+          0.19,
+          0.362
+        ],
+        [
+          0.548,
+          0.411
+        ],
+        [
+          0.557,
+          0.735
+        ],
+        [
+          0.181,
+          0.735
+        ]
+      ],
+      "vertical": [
+        0.04,
+        0.97
+      ],
+      "columns": 8,
+      "rows": 5,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hotel_Majestic,_Saigon_(20230705_1506).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Hotel_Majestic%2C_Saigon_%2820230705_1506%29.jpg/1280px-Hotel_Majestic%2C_Saigon_%2820230705_1506%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Syced",
+      "photo_date": "5 July 2023 (according to Exif data)",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source_sha256": "2185948833e84b10890be8d36241a5149c1e09f8cb53a47246ccf43adf273833",
+      "source_dimensions": [
+        1280,
+        964
+      ],
+      "rectified_sha256": "9294e4a9240938e5dfd742b2eb020b38e82eceee02c73758b1a8619bd53cfeb4",
+      "atlas_rect": [
+        0.2529296875,
+        0.40234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -570.73,
+            679.81
+          ],
+          "b": [
+            -574.48,
+            724.46
+          ],
+          "normal": [
+            0.9964916779183173,
+            0.08369191023950016
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.9964916779183173,
+        0.08369191023950016
+      ],
+      "reverse_u": true,
+      "width_m": 44.807,
+      "baseline_height_m": 35.0,
+      "height_m": 35.0,
+      "mapped_center": [
+        -597.26,
+        671.38
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0946,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "grand",
+      "name": "Grand Hotel · cánh Đồng Khởi",
+      "building_id": 193142034,
+      "source_snapshot": "grand-search.json",
+      "source_title": "File:Hotel Grand Saigon P1310935.jpg",
+      "source_file": "assets/facades15/grand-4.jpg",
+      "edges": [
+        12
+      ],
+      "quad": [
+        [
+          0.373,
+          0.413
+        ],
+        [
+          0.507,
+          0.368
+        ],
+        [
+          0.497,
+          0.773
+        ],
+        [
+          0.35,
+          0.755
+        ]
+      ],
+      "vertical": [
+        0.1,
+        0.97
+      ],
+      "columns": 3,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "horizontal": [
+        0.1,
+        0.43
+      ],
+      "surface_review": {
+        "source_model": "nonplanar",
+        "status": "needs_surface_split",
+        "note": "Ảnh chứa mặt cong ở góc nhà; cần dựng cung cong trước khi phủ."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hotel_Grand_Saigon_P1310935.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Hotel_Grand_Saigon_P1310935.jpg/1280px-Hotel_Grand_Saigon_P1310935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "FredTC",
+      "photo_date": "2023-02-01 09:30:20",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "ee1c6df317b243e208ea0bc94938cfcad7329789bce1e2432d0bf8f9f6aa67bb",
+      "source_dimensions": [
+        1280,
+        960
+      ],
+      "rectified_sha256": "da60341be1e80d95747107bf2a475bf1a618c371385721b9de461e2fcad38a6c",
+      "atlas_rect": [
+        0.5029296875,
+        0.40234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -573.19,
+            638.92
+          ],
+          "b": [
+            -624.79,
+            591.48
+          ],
+          "normal": [
+            -0.6768092372085646,
+            0.7361584451931263
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.6768092372085646,
+        0.7361584451931263
+      ],
+      "reverse_u": true,
+      "width_m": 70.094,
+      "baseline_height_m": 25.3,
+      "height_m": 25.3,
+      "mapped_center": [
+        -591.28,
+        607.69
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": false,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Ảnh chứa mặt cong ở góc nhà; cần dựng cung cong trước khi phủ."
+      }
+    },
+    {
+      "key": "riverside",
+      "name": "Riverside Hotel",
+      "building_id": 193142022,
+      "source_snapshot": "riverside-search.json",
+      "source_title": "File:Riverside Hotel P1310979.jpg",
+      "source_file": "assets/facades15/riverside-4.jpg",
+      "edges": [
+        9
+      ],
+      "quad": [
+        [
+          0.116,
+          0.289
+        ],
+        [
+          0.858,
+          0.322
+        ],
+        [
+          0.859,
+          0.789
+        ],
+        [
+          0.117,
+          0.789
+        ]
+      ],
+      "vertical": [
+        0.06,
+        0.97
+      ],
+      "columns": 11,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "Manual match: unnamed footprint between Grand and Renaissance, source photo and camera location; not surveyed",
+      "relief": "cornice",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Riverside_Hotel_P1310979.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Riverside_Hotel_P1310979.jpg/1280px-Riverside_Hotel_P1310979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "FredTC",
+      "photo_date": "2023-02-01 13:22:36",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "9110bd2de41cf0378103781ef83acfc00dc10138d7bd4bdac4e838c0e750394c",
+      "source_dimensions": [
+        1280,
+        806
+      ],
+      "rectified_sha256": "0e57d2f8d31747eb935c741c28df13ed925d073ff2bc9983fff8a950e5c6a4f0",
+      "atlas_rect": [
+        0.7529296875,
+        0.40234375,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -561.18,
+            560.58
+          ],
+          "b": [
+            -563.89,
+            600.81
+          ],
+          "normal": [
+            0.9977388282381497,
+            0.06721034612292888
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.9977388282381497,
+        0.06721034612292888
+      ],
+      "reverse_u": true,
+      "width_m": 40.321,
+      "baseline_height_m": 24.0,
+      "height_m": 24.0,
+      "mapped_center": [
+        -572.11,
+        580.8
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "hilton",
+      "name": "Hilton Saigon",
+      "building_id": 741084351,
+      "source_snapshot": "hilton-search.json",
+      "source_title": "File:Hilton Saigon Hotel, phường bến nghé, quận 1, tphcm.jpg",
+      "source_file": "assets/facades15/hilton-3.jpg",
+      "edges": [
+        0
+      ],
+      "quad": [
+        [
+          0.344,
+          0.178
+        ],
+        [
+          0.573,
+          0.137
+        ],
+        [
+          0.61,
+          0.599
+        ],
+        [
+          0.336,
+          0.63
+        ]
+      ],
+      "vertical": [
+        0.27,
+        0.86
+      ],
+      "columns": 8,
+      "rows": 25,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hilton_Saigon_Hotel,_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9,_qu%E1%BA%ADn_1,_tphcm.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Hilton_Saigon_Hotel%2C_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9%2C_qu%E1%BA%ADn_1%2C_tphcm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Xuanphuocle",
+      "photo_date": "2022-01-30",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "b61b984688bbccfbba3ad09bdb3a8d451ada35f7d118ffa033f45984ea463cf8",
+      "source_dimensions": [
+        540,
+        960
+      ],
+      "rectified_sha256": "5e9d7b8285c3f7616464d8586414503b905f08d67fb09c4b1db4744d0695c546",
+      "atlas_rect": [
+        0.0029296875,
+        0.20234375000000004,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -629.39,
+            412.47
+          ],
+          "b": [
+            -627.19,
+            435.5
+          ],
+          "normal": [
+            0.9954682339760416,
+            -0.09509466412276274
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.9954682339760416,
+        -0.09509466412276274
+      ],
+      "reverse_u": true,
+      "width_m": 23.135,
+      "baseline_height_m": 154.0,
+      "height_m": 154.0,
+      "mapped_center": [
+        -633.84,
+        436.1
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "opera",
+      "name": "Nhà hát Thành phố · mặt chính",
+      "building_id": 801710792,
+      "source_snapshot": "opera-search.json",
+      "source_title": "File:Ho Chi Minh City Opera House.jpg",
+      "source_file": "assets/facades15/opera-1.jpg",
+      "edges": [
+        19,
+        20
+      ],
+      "quad": [
+        [
+          0.158,
+          0.313
+        ],
+        [
+          0.415,
+          0.383
+        ],
+        [
+          0.423,
+          0.7
+        ],
+        [
+          0.12,
+          0.696
+        ]
+      ],
+      "vertical": [
+        0.06,
+        0.9
+      ],
+      "columns": 3,
+      "rows": 2,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Opera_House.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ho_Chi_Minh_City_Opera_House.jpg/1280px-Ho_Chi_Minh_City_Opera_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "HĐ",
+      "photo_date": "2016-11-19 12:37:34",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "62a5b5a5b0bca7e4e77cf4e6e67cba42531be9be8e8e524058e44f5af7ed9c0c",
+      "source_dimensions": [
+        1280,
+        721
+      ],
+      "rectified_sha256": "ef463c147fe4513e7cbcd79ae205b9b66909ecec678956035ed6a2fe736995ee",
+      "atlas_rect": [
+        0.2529296875,
+        0.20234375000000004,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -938.46,
+            265.06
+          ],
+          "b": [
+            -931.84,
+            257.81
+          ],
+          "normal": [
+            -0.7384634420119961,
+            -0.6742935153268163
+          ],
+          "u0": 0.0,
+          "u1": 0.2273855192193331
+        },
+        {
+          "a": [
+            -931.84,
+            257.81
+          ],
+          "b": [
+            -909.32,
+            233.2
+          ],
+          "normal": [
+            -0.7377387021580006,
+            -0.6750863702802987
+          ],
+          "u0": 0.2273855192193331,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.7379035722972822,
+        -0.6749061549511232
+      ],
+      "reverse_u": true,
+      "width_m": 43.176,
+      "baseline_height_m": 26.0,
+      "height_m": 26.0,
+      "mapped_center": [
+        -906.51,
+        254.06
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.048,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "caravelle",
+      "name": "Caravelle · cánh thấp Lam Sơn",
+      "building_id": 39598465,
+      "source_snapshot": "caravelle-search.json",
+      "source_title": "File:Caravelle Hotel Saigon 2013-02.jpg",
+      "source_file": "assets/facades15/caravelle-1.jpg",
+      "edges": [
+        10
+      ],
+      "quad": [
+        [
+          0.637,
+          0.482
+        ],
+        [
+          0.934,
+          0.463
+        ],
+        [
+          0.946,
+          0.703
+        ],
+        [
+          0.648,
+          0.735
+        ]
+      ],
+      "vertical": [
+        0.08,
+        0.91
+      ],
+      "columns": 8,
+      "rows": 9,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Caravelle_Hotel_Saigon_2013-02.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Caravelle_Hotel_Saigon_2013-02.jpg/1280px-Caravelle_Hotel_Saigon_2013-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "BaonguyenCaravelas",
+      "photo_date": "2014-02-18",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "c6ac994d3b77c6b034ce50064aad51feb527015d5f598a28d5800223039bacf9",
+      "source_dimensions": [
+        1280,
+        1891
+      ],
+      "rectified_sha256": "03cd0d06336aa193693dcd87dfaf69f922ce1344e9e15387c92caab70b01348d",
+      "atlas_rect": [
+        0.5029296875,
+        0.20234375000000004,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -901.13,
+            329.88
+          ],
+          "b": [
+            -876.42,
+            302.54
+          ],
+          "normal": [
+            -0.7418892519144377,
+            -0.6705224365327651
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.7418892519144377,
+        -0.6705224365327651
+      ],
+      "reverse_u": true,
+      "width_m": 36.852,
+      "baseline_height_m": 30.0,
+      "height_m": 30.0,
+      "mapped_center": [
+        -858.21,
+        310.32
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "continental",
+      "name": "Hotel Continental Saigon",
+      "building_id": 2000032897,
+      "source_snapshot": "continental-search.json",
+      "source_title": "File:Hotel Continental Saigon (53668610570).jpg",
+      "source_file": "assets/facades15/continental-0.jpg",
+      "edges": [
+        0
+      ],
+      "quad": [
+        [
+          0.431,
+          0.1
+        ],
+        [
+          0.963,
+          0.001
+        ],
+        [
+          0.968,
+          0.605
+        ],
+        [
+          0.432,
+          0.703
+        ]
+      ],
+      "vertical": [
+        0.21,
+        0.98
+      ],
+      "columns": 8,
+      "rows": 3,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "Overture named footprint + visual street-side review",
+      "relief": "cornice",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hotel_Continental_Saigon_(53668610570).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Hotel_Continental_Saigon_%2853668610570%29.jpg/1280px-Hotel_Continental_Saigon_%2853668610570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Hans Brian Brandsberg Berg",
+      "photo_date": "2018-12-30 15:38:18",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_sha256": "d36ee45102922160d9a6d359edbdc9797eafd2872e1dcdc11917e45e7735520f",
+      "source_dimensions": [
+        1280,
+        853
+      ],
+      "rectified_sha256": "1e2609945b09bc54e1258e3599a06b7ac8fdfa44cb4226abff7f238e720c8f45",
+      "atlas_rect": [
+        0.7529296875,
+        0.20234375000000004,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -926.99,
+            209.24
+          ],
+          "b": [
+            -976.97,
+            262.38
+          ],
+          "normal": [
+            0.7284333606204552,
+            0.6851166609674515
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.7284333606204552,
+        0.6851166609674515
+      ],
+      "reverse_u": true,
+      "width_m": 72.951,
+      "baseline_height_m": 24,
+      "height_m": 24,
+      "mapped_center": [
+        -951.04,
+        213.99
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "sheraton",
+      "name": "Sheraton Saigon · mặt Đồng Khởi",
+      "building_id": 165491081,
+      "source_snapshot": "sheraton-search.json",
+      "source_title": "File:Sheraton Saigon Hotel from Coffee - 1 Jan 2025.jpg",
+      "source_file": "assets/facades15/sheraton-2.jpg",
+      "edges": [
+        0
+      ],
+      "quad": [
+        [
+          0.392,
+          0.12
+        ],
+        [
+          0.472,
+          0.18
+        ],
+        [
+          0.568,
+          0.603
+        ],
+        [
+          0.33,
+          0.458
+        ]
+      ],
+      "vertical": [
+        0.32,
+        0.93
+      ],
+      "columns": 3,
+      "rows": 20,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "none",
+      "height_override": {
+        "meters": 73.6,
+        "basis": "23 floors mentioned by Marriott; assumed 3.2m per floor, not measured",
+        "url": "https://www.marriott.com/en-us/hotels/sgnsi-sheraton-saigon-hotel-and-towers/overview/"
+      },
+      "horizontal": [
+        0.25,
+        0.6
+      ],
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg/1280px-Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "MinhKhoi1234",
+      "photo_date": "2025-01-01",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "e029391e874a9a3f8f399c21e911ffccacae1c0cce700424e0af5d55fb4cb4e9",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "rectified_sha256": "51a3f54747fae2f8da0de18e005df1ce0f5dc54424566b91ac13348d79cdac9f",
+      "atlas_rect": [
+        0.0029296875,
+        0.002343749999999978,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -874.14,
+            361.04
+          ],
+          "b": [
+            -821.43,
+            299.53
+          ],
+          "normal": [
+            -0.7593350232988388,
+            -0.6506998712092634
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        -0.7593350232988388,
+        -0.6506998712092634
+      ],
+      "reverse_u": true,
+      "width_m": 81.005,
+      "baseline_height_m": 23.35,
+      "height_m": 73.6,
+      "mapped_center": [
+        -824.06,
+        350.45
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "huongsen",
+      "name": "Hương Sen · cánh Đồng Khởi",
+      "building_id": 187895168,
+      "source_snapshot": "huongsen-search.json",
+      "source_title": "File:Huong Sen Hotel (36327771544).jpg",
+      "source_file": "assets/facades15/huongsen-1.jpg",
+      "edges": [
+        2
+      ],
+      "quad": [
+        [
+          0.528,
+          0.063
+        ],
+        [
+          0.797,
+          0.188
+        ],
+        [
+          0.756,
+          0.657
+        ],
+        [
+          0.526,
+          0.694
+        ]
+      ],
+      "vertical": [
+        0.15,
+        0.98
+      ],
+      "columns": 5,
+      "rows": 5,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "surface_review": {
+        "source_model": "nonplanar",
+        "status": "needs_surface_split",
+        "note": "Ban công vòng qua góc; cần chia các mặt thay vì ép phẳng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huong_Sen_Hotel_(36327771544).jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Huong_Sen_Hotel_%2836327771544%29.jpg/1280px-Huong_Sen_Hotel_%2836327771544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Terrazzo from Vernon Hills, IL, USA",
+      "photo_date": "2017-09-03 23:45",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "source_sha256": "9d17c09522e50c58ec6fd860f5331b3e81533915a4cefea577f4c10fb9a040fb",
+      "source_dimensions": [
+        1280,
+        720
+      ],
+      "rectified_sha256": "ba22efada4c3292b6ea7ea593af59b3931cde0373f3eafe1e8d667401d1de6be",
+      "atlas_rect": [
+        0.2529296875,
+        0.002343749999999978,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -761.37,
+            420.15
+          ],
+          "b": [
+            -784.7,
+            444.72
+          ],
+          "normal": [
+            0.7251688964581643,
+            0.688571035993853
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.7251688964581644,
+        0.6885710359938532
+      ],
+      "reverse_u": true,
+      "width_m": 33.882,
+      "baseline_height_m": 24.65,
+      "height_m": 24.65,
+      "mapped_center": [
+        -770.44,
+        418.3
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": false,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Ban công vòng qua góc; cần chia các mặt thay vì ép phẳng."
+      }
+    },
+    {
+      "key": "royal",
+      "name": "Royal Hotel Saigon",
+      "building_id": 695895016,
+      "source_snapshot": "royal-search.json",
+      "source_title": "File:Royal Hotel Saigon P1310937.jpg",
+      "source_file": "assets/facades15/royal-3.jpg",
+      "edges": [
+        2
+      ],
+      "quad": [
+        [
+          0.3,
+          0.199
+        ],
+        [
+          0.728,
+          0.204
+        ],
+        [
+          0.739,
+          0.721
+        ],
+        [
+          0.302,
+          0.721
+        ]
+      ],
+      "vertical": [
+        0.2,
+        0.96
+      ],
+      "columns": 5,
+      "rows": 4,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Hotel_Saigon_P1310937.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Royal_Hotel_Saigon_P1310937.jpg/1280px-Royal_Hotel_Saigon_P1310937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "FredTC",
+      "photo_date": "2023-02-01 09:54:33",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_sha256": "362a7a14230e8c793e641c66e91f48e7fb5a80e3395e0e94986940f9108bf73b",
+      "source_dimensions": [
+        1280,
+        926
+      ],
+      "rectified_sha256": "2ae2ee47c9ca461d6a924cd9d117b4807afdc04f446c5efd56a8820e825baf48",
+      "atlas_rect": [
+        0.5029296875,
+        0.002343749999999978,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -977.05,
+            473.36
+          ],
+          "b": [
+            -963.26,
+            486.02
+          ],
+          "normal": [
+            0.6762807969043624,
+            -0.7366439328049886
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.6762807969043624,
+        -0.7366439328049886
+      ],
+      "reverse_u": true,
+      "width_m": 18.72,
+      "baseline_height_m": 16.0,
+      "height_m": 16.0,
+      "mapped_center": [
+        -991.87,
+        502.99
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.4175,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    },
+    {
+      "key": "hyatt",
+      "name": "Park Hyatt Saigon · quảng trường Lam Sơn",
+      "building_id": 287478465,
+      "source_snapshot": "hyatt-search.json",
+      "source_title": "File:Park Hyatt Saigon.jpg",
+      "source_file": "assets/facades15/hyatt-1.jpg",
+      "edges": [
+        7
+      ],
+      "quad": [
+        [
+          0.09,
+          0.302
+        ],
+        [
+          0.66,
+          0.177
+        ],
+        [
+          0.68,
+          0.55
+        ],
+        [
+          0.062,
+          0.604
+        ]
+      ],
+      "vertical": [
+        0.23,
+        0.95
+      ],
+      "columns": 15,
+      "rows": 8,
+      "observed": "Màu, nhịp cửa, biển hiệu và vật liệu trong vùng ảnh được chọn.",
+      "inferred": "Vị trí UV, cao độ dải ảnh và chiều sâu gờ cửa ước lượng theo footprint; không phải photogrammetry.",
+      "mapping_basis": "OSM named footprint + visual street-side review",
+      "relief": "cornice",
+      "height_override": {
+        "meters": 32,
+        "basis": "visual estimate from guest-floor count in photo and assumed floor spacing; not measured",
+        "url": null
+      },
+      "surface_review": {
+        "source_model": "planar",
+        "status": "accepted",
+        "note": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Saigon.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Park_Hyatt_Saigon.jpg/1280px-Park_Hyatt_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Joshua Rappeneker from Tokyo, Japan",
+      "photo_date": "2006-09-20 14:58",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_sha256": "b28e36b586e61939aa25e4d89b3cc2123a67817549ee5638c135b663a8d6b95c",
+      "source_dimensions": [
+        1280,
+        960
+      ],
+      "rectified_sha256": "ee8e0370ca8c5583f210ccf747f781a9fb2fffebfaa034dcc3451a2555b10269",
+      "atlas_rect": [
+        0.7529296875,
+        0.002343749999999978,
+        0.244140625,
+        0.1953125
+      ],
+      "strips": [
+        {
+          "a": [
+            -878.77,
+            169.92
+          ],
+          "b": [
+            -917.2,
+            210.12
+          ],
+          "normal": [
+            0.7228409862398253,
+            0.691014405502401
+          ],
+          "u0": 0.0,
+          "u1": 1.0
+        }
+      ],
+      "normal": [
+        0.7228409862398253,
+        0.691014405502401
+      ],
+      "reverse_u": true,
+      "width_m": 55.614,
+      "baseline_height_m": 22.7,
+      "height_m": 32,
+      "mapped_center": [
+        -897.38,
+        162.27
+      ],
+      "observed_site_image": true,
+      "surveyed_geometry": false,
+      "masked_fraction": 0.0,
+      "transform": "Manual 4-corner perspective rectification; no inpainting; 500px atlas tile",
+      "surface_fit": {
+        "eligible": true,
+        "normal_spread_degrees": 0.0,
+        "maximum_degrees": 5,
+        "reason": "Vùng ảnh và cạnh đích đã kiểm tra theo một mặt đứng; độ sâu vẫn ước lượng."
+      }
+    }
+  ],
+  "atlas": {
+    "width": 2048,
+    "height": 2560,
+    "tile_pixels": 500,
+    "color_sha256": "6e9861910f48147724540ea2aea482fd51850260e6b418c160e63251fbe7ccbb",
+    "mask_sha256": "3ac7a7fd9614301b8bb1918c87dc953ca0ac99bc6957958f6b5550c7540d743b"
+  }
+}

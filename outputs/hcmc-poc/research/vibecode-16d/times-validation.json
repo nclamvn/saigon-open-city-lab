@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_immutable": true,
+    "dedicated_texture_hashes": true,
+    "embedded_bytes_identical": true,
+    "sign_free_asset_hashes": true,
+    "same_plane_crop_linked": true,
+    "dedicated_non_square_resolution": true,
+    "display_aspect_within_one_percent": true,
+    "sky_mask_nonempty_bounded": true,
+    "letter_band_mask_preserved": true,
+    "times_only_selector_and_ab_gate": true,
+    "no_sign_repetition": true,
+    "one_material_observed_and_extension": true,
+    "unseen_finish_declared": true
+  },
+  "displayAspect": 0.5517652201853437,
+  "textureAspect": 0.5517241379310345,
+  "limit": "Source/hash/registration contract checks; browser confirms legibility, shader compilation and appearance."
+}

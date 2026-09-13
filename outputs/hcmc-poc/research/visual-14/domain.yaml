@@ -1,0 +1,27 @@
+{
+  "domain": "visual_realism_14",
+  "entity_label": "Thư viện và nguồn hình ảnh đã điều tra",
+  "schema": {
+    "type_field": null,
+    "fields": [
+      "license",
+      "capability",
+      "source_url",
+      "catalog_presence",
+      "access",
+      "condition",
+      "attribution",
+      "hcmc_observed_coverage"
+    ]
+  },
+  "rollup_field": "license",
+  "universe": {
+    "estimate": 27,
+    "basis": "18 thư viện + 9 kho/nguồn chọn lọc trong đợt 14; không phải toàn bộ hệ sinh thái."
+  },
+  "refresh_days": {
+    "default": 30
+  },
+  "alias_map": {},
+  "ambiguous_clusters": []
+}

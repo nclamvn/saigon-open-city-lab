@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-09-13T11:07:52.165250+00:00",
+  "version": "15b",
+  "status": "PASS",
+  "tested": [
+    "Vietcombank whole-envelope screenshot",
+    "Cafe42 view with corrected neighboring tower",
+    "CityHall/SunWah nonplanar photo suppression",
+    "Vietcombank same-camera A/B",
+    "Podium stays 9m",
+    "Height-scaled UV and exact geometry/UV restore"
+  ],
+  "baseline_captures_reused": false,
+  "runtime_errors": [],
+  "limits": [
+    "14 planar photo patches, 1 sampled envelope, 5 surfaces held for geometric splitting.",
+    "Intermediate VCB roof heights are estimates; source-derived repeating material is not individually registered windows."
+  ],
+  "standalone_http": {
+    "version": "15b",
+    "ready": true,
+    "selected": "vietcombank",
+    "podiumHeight": 9,
+    "heightUVAligned": true,
+    "errors": []
+  }
+}

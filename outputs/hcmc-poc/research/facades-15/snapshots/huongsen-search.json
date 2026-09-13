@@ -1,0 +1,520 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "140021282": {
+        "pageid": 140021282,
+        "ns": 6,
+        "title": "File:Huong Sen Hotel (36327702214).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Huong_Sen_Hotel_%2836327702214%29.jpg/1280px-Huong_Sen_Hotel_%2836327702214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Huong_Sen_Hotel_%2836327702214%29.jpg/3840px-Huong_Sen_Hotel_%2836327702214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Huong_Sen_Hotel_%2836327702214%29.jpg/1280px-Huong_Sen_Hotel_%2836327702214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Huong_Sen_Hotel_%2836327702214%29.jpg/3840px-Huong_Sen_Hotel_%2836327702214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Huong_Sen_Hotel_%2836327702214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Huong_Sen_Hotel_(36327702214).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=140021282",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-03 06:22:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Huong Sen Hotel (36327702214)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Dong Khoi Street, Ho Chi Minh City|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files uploaded by Đại Việt quốc/Flickr/Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774772",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.704338",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "At night.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-07 19:54",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/terrazzo/36327702214/\">Huong Sen Hotel</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8249050@N02\">Terrazzo</a> from Vernon Hills, IL, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "140021249": {
+        "pageid": 140021249,
+        "ns": 6,
+        "title": "File:Huong Sen Hotel (36327771544).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Huong_Sen_Hotel_%2836327771544%29.jpg/1280px-Huong_Sen_Hotel_%2836327771544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Huong_Sen_Hotel_%2836327771544%29.jpg/3840px-Huong_Sen_Hotel_%2836327771544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Huong_Sen_Hotel_%2836327771544%29.jpg/1280px-Huong_Sen_Hotel_%2836327771544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Huong_Sen_Hotel_%2836327771544%29.jpg/3840px-Huong_Sen_Hotel_%2836327771544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Huong_Sen_Hotel_%2836327771544%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Huong_Sen_Hotel_(36327771544).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=140021249",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-03 06:22:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Huong Sen Hotel (36327771544)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Dong Khoi Street, Ho Chi Minh City|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files uploaded by Đại Việt quốc/Flickr/Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775125",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.704177",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "This hotel was recommended to me by a good friend. Now I'm happy to recommend it too.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-09-03 23:45",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/terrazzo/36327771544/\">Huong Sen Hotel</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8249050@N02\">Terrazzo</a> from Vernon Hills, IL, USA",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "99783337": {
+        "pageid": 99783337,
+        "ns": 6,
+        "title": "File:Victoria Daily Times (1904-05-09) (IA victoriadailytimes19040509).pdf",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf/page1-1280px-Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1605,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf/page1-1920px-Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf/page1-1280px-Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1605,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf/page1-1920px-Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Victoria_Daily_Times_%281904-05-09%29_%28IA_victoriadailytimes19040509%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Victoria_Daily_Times_(1904-05-09)_(IA_victoriadailytimes19040509).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99783337",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-12 08:17:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nVictoria Daily Times (1904-05-09)</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|PD Canada|Scans from the Internet Archive/unverified|Scans from the Internet Archive|May 1904 in Canada|Books uploaded by Fæ|Books without Wikidata item|PD-old missing SDC copyright status|1904 Victoria Daily Times",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Historic newspaper from British Columbia - Canada\n</p>\n<br>Subjects: British Columbia; Newspapers</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/victoriadailytimes19040509\" class=\"extiw\" title=\"iarchive:victoriadailytimes19040509\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: victoriadailytimes19040509</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/victoriadailytimes19040509/1904_05_09.pdf\">https://archive.org/download/victoriadailytimes19040509/1904_05_09.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "99822305": {
+        "pageid": 99822305,
+        "ns": 6,
+        "title": "File:Victoria Daily Times (1911-07-20) (IA victoriadailytimes19110720).pdf",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf/page1-1280px-Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1615,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf/page1-1920px-Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf/page1-1280px-Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1615,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf/page1-1920px-Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Victoria_Daily_Times_%281911-07-20%29_%28IA_victoriadailytimes19110720%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Victoria_Daily_Times_(1911-07-20)_(IA_victoriadailytimes19110720).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99822305",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-13 13:15:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nVictoria Daily Times (1911-07-20)</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|PD Canada|Scans from the Internet Archive/unverified|Scans from the Internet Archive|July 1911 in Canada|Books uploaded by Fæ|Books without Wikidata item|PD-old missing SDC copyright status|1911 Victoria Daily Times",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Historic newspaper from British Columbia - Canada\n</p>\n<br>Subjects: British Columbia; Newspapers</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/victoriadailytimes19110720\" class=\"extiw\" title=\"iarchive:victoriadailytimes19110720\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: victoriadailytimes19110720</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/victoriadailytimes19110720/1911_07_20.pdf\">https://archive.org/download/victoriadailytimes19110720/1911_07_20.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126433181": {
+        "pageid": 126433181,
+        "ns": 6,
+        "title": "File:Vietnam Magazine Vol. V, Nº 10 1972.pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Vietnam_Magazine_Vol._V%2C_N%C2%BA_10_1972.pdf/page1-960px-Vietnam_Magazine_Vol._V%2C_N%C2%BA_10_1972.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1789,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Vietnam_Magazine_Vol._V%2C_N%C2%BA_10_1972.pdf/page1-960px-Vietnam_Magazine_Vol._V%2C_N%C2%BA_10_1972.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1789
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Vietnam_Magazine_Vol._V%2C_N%C2%BA_10_1972.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vietnam_Magazine_Vol._V,_N%C2%BA_10_1972.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126433181",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-08 13:06:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vietnam Magazine Vol. V, Nº 10 1972",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Images with extracted images|Vietnam Magazine 1972",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vietnam Magazine Vol. V, Nº 10 1972",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1972",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=tjUWAQAAMAAJ\">Vietnam Magazine, Tập 4-5</a>, Google Books",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Vietnam Council on Foreign Relations",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Huong+Sen+Hotel&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:30:17.710726+00:00"
+  }
+}

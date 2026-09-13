@@ -10,7 +10,7 @@ PoC thành phố 3D tương tác cho khu trung tâm Thành phố Hồ Chí Minh,
 python3 outputs/hcmc-poc/serve.py
 ```
 
-Mở http://127.0.0.1:8768/hcmc-poc/?v=13c . Điểm vào demo sử dụng góc **Toàn khu vực** và ánh sáng ban ngày.
+Mở http://127.0.0.1:8768/hcmc-poc/?v=15a . Điểm vào demo sử dụng góc **Toàn khu vực** và ánh sáng ban ngày.
 
 ## Điều khiển
 
@@ -37,3 +37,11 @@ Dữ liệu và thư viện trong dự án có giấy phép riêng, gồm OpenSt
 ## PoC 13 · Reality Enrichment
 
 Góc nhìn 19 bổ sung chi tiết hình học LOD gần cho mặt đứng, đường, cây, tàu và mặt nước. Xem `outputs/POC-13-REALITY-ENRICHMENT.md`.
+
+## PoC 14 · Surface Realism
+
+Góc nhìn 20: năm bộ PBR ambientCG CC0, 15 texture và 1.200 tán cây cutout ở vùng gần. Nút PBR cho phép so sánh bật/tắt. Vật liệu thư viện chưa phải ảnh chụp bề mặt tại TP.HCM. Danh mục 27 giải pháp nằm tại `research/visual-14/index.html` trong ứng dụng; báo cáo tại `outputs/POC-14-VISUAL-RESEARCH.md`.
+
+## PoC 15 · Photo Facade Lab
+
+Góc 21 bổ sung 20 mặt đứng từ 20 ảnh đúng công trình, với lựa chọn công trình, đối chiếu ảnh nguồn và A/B. Xem `outputs/POC-15-PHOTO-FACADES.md` và gallery `research/facades-15/index.html` trong ứng dụng. Phần khuất, vị trí UV và độ sâu vẫn gần đúng; ảnh nguồn có thời điểm 2006–2025.

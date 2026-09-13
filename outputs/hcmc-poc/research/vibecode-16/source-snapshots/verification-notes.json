@@ -1,0 +1,36 @@
+{
+  "method": "Metadata ghi lại sau khi đọc trang bằng web.open/click. Không phải bản sao HTML của nguồn; hash chỉ xác nhận tệp ghi chú cục bộ.",
+  "verifiedAt": "2026-09-13",
+  "sources": [
+    {
+      "id": "hdnd-survey",
+      "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-do-thi/ban-do-thi-hdnd-thanh-pho-khao-sat-cong-tac-lap-quy-hoach-tong-thethanh-pho-ho-chi-minh-tam-nhin-100-nam",
+      "publishedAt": "2026-09-09",
+      "observation": "Đã đọc nội dung bài trên cổng HĐND; bài nêu yêu cầu tiếp tục rà soát, hoàn thiện đồ án."
+    },
+    {
+      "id": "hdnd-workshop",
+      "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/quy-hoach-tong-the-thanh-pho-ho-chi-minh-khat-vong-the-ky-cua-mot-sieu-do-thi",
+      "publishedAt": "2026-06-02",
+      "observation": "Đã đọc nội dung trên cổng HĐND và nhận diện dòng tác giả cùng liên kết Nhân Dân cuối bài."
+    },
+    {
+      "id": "qhkt-metro",
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/mang-luoi-duong-sat-do-thi-du-kien-cua-thanh-pho-ho-chi-minh-theo-nghi-quyet-so-06-nqtu-da-the-hien-tren-ban-do-gis-3628.html",
+      "publishedAt": "2026-05-19",
+      "observation": "Đã đọc ngày và tiêu đề trong danh mục tài liệu họp. Trang chi tiết qua công cụ web chỉ trả danh mục liên quan, chưa đọc được tệp dữ liệu."
+    },
+    {
+      "id": "qhkt-drawings",
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/ban-ve-do-an-dieu-chinh-quy-hoach-chung-tphcm-den-nam-2040-tam-nhin-den-nam-2060-3623.html",
+      "publishedAt": "2026-05-08",
+      "observation": "Đã đọc ngày và tiêu đề trong danh mục tài liệu họp. Trang chi tiết chưa cung cấp nội dung bản vẽ cho công cụ web."
+    }
+  ],
+  "index": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop.html",
+  "portalAttempt": {
+    "url": "https://gisxaydung.tphcm.gov.vn/tracuuttqh",
+    "discoveredFrom": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop.html",
+    "status": "Đã mở liên kết chính thức; ứng dụng động không trả lớp dữ liệu qua công cụ web. Chưa nhập GIS."
+  }
+}

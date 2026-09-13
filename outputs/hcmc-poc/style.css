@@ -48,3 +48,19 @@ body.presenter-clean .vignette{background:radial-gradient(circle at 58% 46%,tran
 #reality13Hud label{display:grid;grid-template-columns:1fr auto;gap:6px;color:#b8c5c3;font-size:11px;margin-top:12px}
 #reality13Hud input{grid-column:1/-1;width:100%;accent-color:#76cbbd}
 @media(max-width:700px){.re13-kpis{grid-template-columns:1fr 1fr}.re13-kpis b{font-size:18px}}
+
+/* Surface lab shares the bounded, collapsible map HUD. */
+#surface14Hud{position:absolute;width:320px;max-width:min(320px,calc(100vw - 32px));padding:18px 20px;background:#0d2229ed;border:1px solid #79baa755;backdrop-filter:blur(16px);color:#becdc6;font-size:11px}
+#surface14Hud h3{font-size:18px;font-weight:400;margin:10px 0}#surface14Hud>small{font-size:9px;letter-spacing:1.5px;color:#8bd6c3}
+#surface14Hud p{line-height:1.6}#surface14Hud details{margin-top:15px}#surface14Hud summary{cursor:pointer;color:#edc395}#surface14Hud a{color:#8bd6c3}
+.surface14-swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.surface14-swatches figure{margin:0;min-width:0}.surface14-swatches img{width:100%;max-height:48px;aspect-ratio:1;object-fit:cover;border-radius:3px}.surface14-swatches figcaption{font-size:8px;overflow-wrap:anywhere;margin-top:5px;color:#b2bcb5}
+#surface14Hud .p12-actions{grid-template-columns:1fr 1fr}
+
+/* Per-building reference images stay behind disclosure; map retains the available space. */
+#facade15Hud{position:absolute;width:320px;max-width:min(320px,calc(100vw - 32px));padding:18px 20px;background:#10262cef;border:1px solid #8ac6af55;color:#becdc6;font-size:11px}
+#facade15Hud h3{font-size:17px;font-weight:400;margin:10px 0}#facade15Hud>small{font-size:9px;letter-spacing:1.3px;color:#8bd6c3}
+#facade15Hud label{display:block;margin:12px 0 6px;color:#b5c5be}#facade15Count{float:right;color:#edc395}#facade15Select{width:100%;min-height:38px;padding:6px;background:#213b40;color:#f0eadd;border:1px solid #77968b66;font:inherit}
+#facade15Hud .p12-actions{margin-top:8px}#facade15AB{width:100%;margin:8px 0 10px;background:#1f393e;color:#e9cfaa;border:1px solid #b8a58166;min-height:36px;font:inherit}
+#facade15Hud summary{color:#bcd5c9;cursor:pointer}#facade15Hud p{line-height:1.6;font-size:10px}#facade15Hud a{color:#9bdbc7}#facade15Reference{width:100%;max-height:145px;object-fit:contain;margin-top:12px;background:#0c1c23}#facade15Load{color:#8cb5aa}.facade15-credits p{font-size:10px;line-height:1.7}
+
+body.facade15-active #labels{display:none}

@@ -1,0 +1,638 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "65466118": {
+        "pageid": 65466118,
+        "ns": 6,
+        "title": "File:Hanoi Hilton (38834683154).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanoi_Hilton_%2838834683154%29.jpg/1280px-Hanoi_Hilton_%2838834683154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanoi_Hilton_%2838834683154%29.jpg/3840px-Hanoi_Hilton_%2838834683154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanoi_Hilton_%2838834683154%29.jpg/1280px-Hanoi_Hilton_%2838834683154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Hanoi_Hilton_%2838834683154%29.jpg/3840px-Hanoi_Hilton_%2838834683154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hanoi_Hilton_%2838834683154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hanoi_Hilton_(38834683154).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65466118",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-01-12 23:28:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hanoi Hilton (38834683154)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hanoi Hilton|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Vietnam photographs taken on 2017-08-01|Files from dronepicr Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "21.025275",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "105.846352",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Hanoi Hilton<br>\n</p>\nVietnam Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-08-01 08:12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/132646954@N02/38834683154/\">Hanoi Hilton</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "65466124": {
+        "pageid": 65466124,
+        "ns": 6,
+        "title": "File:Hanoi Hilton Vietnam (39543728281).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hanoi_Hilton_Vietnam_%2839543728281%29.jpg/1280px-Hanoi_Hilton_Vietnam_%2839543728281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 891,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hanoi_Hilton_Vietnam_%2839543728281%29.jpg/3840px-Hanoi_Hilton_Vietnam_%2839543728281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hanoi_Hilton_Vietnam_%2839543728281%29.jpg/1280px-Hanoi_Hilton_Vietnam_%2839543728281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 891,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Hanoi_Hilton_Vietnam_%2839543728281%29.jpg/3840px-Hanoi_Hilton_Vietnam_%2839543728281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hanoi_Hilton_Vietnam_%2839543728281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hanoi_Hilton_Vietnam_(39543728281).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65466124",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2018-01-12 23:29:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hanoi Hilton Vietnam (39543728281)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hanoi Hilton|Hilton hotels in Vietnam|Flickr images reviewed by FlickreviewR 2|Files from dronepicr Flickr stream",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Hanoi Hilton Vietnam<br>\n</p>\nVietnam Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-08-01 08:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/132646954@N02/39543728281/\">Hanoi Hilton Vietnam</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "136945405": {
+        "pageid": 136945405,
+        "ns": 6,
+        "title": "File:Hilton Saigon Hotel, bến thành, quận 1, thành phố hồ chí minh.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hilton_Saigon_Hotel%2C_b%E1%BA%BFn_th%C3%A0nh%2C_qu%E1%BA%ADn_1%2C_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 2275,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hilton_Saigon_Hotel%2C_b%E1%BA%BFn_th%C3%A0nh%2C_qu%E1%BA%ADn_1%2C_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2275
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hilton_Saigon_Hotel%2C_b%E1%BA%BFn_th%C3%A0nh%2C_qu%E1%BA%ADn_1%2C_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hilton_Saigon_Hotel,_b%E1%BA%BFn_th%C3%A0nh,_qu%E1%BA%ADn_1,_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=136945405",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-09-04 07:14:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hilton Saigon Hotel, bến thành, quận 1, thành phố hồ chí minh",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "District 1, Ho Chi Minh City|Buildings in Ho Chi Minh City|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Khách sạn Hilton Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-09-04 10:03:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xuanphuocle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xuanphuocle (page does not exist)\">Xuanphuocle</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "114851371": {
+        "pageid": 114851371,
+        "ns": 6,
+        "title": "File:Hilton Saigon Hotel, phường bến nghé, quận 1, tphcm.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Hilton_Saigon_Hotel%2C_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9%2C_qu%E1%BA%ADn_1%2C_tphcm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 2276,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Hilton_Saigon_Hotel%2C_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9%2C_qu%E1%BA%ADn_1%2C_tphcm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2276
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Hilton_Saigon_Hotel%2C_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9%2C_qu%E1%BA%ADn_1%2C_tphcm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hilton_Saigon_Hotel,_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9,_qu%E1%BA%ADn_1,_tphcm.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114851371",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-01-31 14:23:52",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hilton Saigon Hotel, phường bến nghé, quận 1, tphcm",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Buildings in Ho Chi Minh City|Hotels in Ho Chi Minh City|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hilton Saigon Hotel",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2022-01-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xuanphuocle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xuanphuocle (page does not exist)\">Xuanphuocle</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "151016626": {
+        "pageid": 151016626,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City Skyline at Night.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 675,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_at_Night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151016626",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-31 05:01:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City Skyline at Night",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Skylines of Ho Chi Minh City|Saigon River in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The image captures the vibrant and illuminated skyline of Ho Chi Minh City (formerly known as Saigon) at night. Prominent skyscrapers from left to right, including the <a href=\"https://en.wikipedia.org/wiki/IFC_One_Saigon\" class=\"extiw\" title=\"w:IFC One Saigon\">IFC One Saigon</a>, Ho Chi Minh City Customs Department Building, Bitexco Office Building, Harbour View Tower, Osic Building, <a href=\"https://en.wikipedia.org/wiki/Bitexco_Financial_Tower\" class=\"extiw\" title=\"w:Bitexco Financial Tower\">Bitexco Financial Tower</a>, Liberty Central Saigon Riverside Hotel, Renaissance Riverside Hotel Saigon, Melinh Point Tower, <a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a>, Hilton Saigon Hotel, <a href=\"https://en.wikipedia.org/wiki/Vietcombank_Tower\" class=\"extiw\" title=\"w:Vietcombank Tower\">Vietcombank Tower</a>, <a href=\"https://en.wikipedia.org/wiki/Saigon_Centre\" class=\"extiw\" title=\"w:Saigon Centre\">Saigon Centre</a>, Sheraton Grand Opera Saigon Hotel, The Landmark, Saigon Riverside Office Center, Lotte Hotel Saigon and some significant low-rise buildings <a href=\"https://en.wikipedia.org/wiki/Hotel_Majestic_(Saigon)\" class=\"extiw\" title=\"w:Hotel Majestic (Saigon)\">Hotel Majestic</a>, Seaprodex 2-4-6 Đồng Khởi, Riverside Hotel, <a href=\"https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o\" class=\"extiw\" title=\"w:Trần Hưng Đạo\">Trần Hưng Đạo</a> statue at <a href=\"https://en.wikipedia.org/wiki/M%C3%AA_Linh_Square\" class=\"extiw\" title=\"w:Mê Linh Square\"> Mê Linh Square</a>, IBC Building, Vietnam People's Naval Army Barracks, Tôn Đức Thắng Museum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://banghieuchuyennghiep.vn/\">https://banghieuchuyennghiep.vn/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tran Van Ngoc",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "60981309": {
+        "pageid": 60981309,
+        "ns": 6,
+        "title": "File:Imperial Theater, Tokyo (1915-05 by Elstner Hilton).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg/1280px-Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1005,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg/1280px-Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1005,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Imperial_Theater%2C_Tokyo_%281915-05_by_Elstner_Hilton%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Imperial_Theater,_Tokyo_(1915-05_by_Elstner_Hilton).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60981309",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-07-13 12:48:19",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Imperial Theater, Tokyo (1915-05 by Elstner Hilton)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Hibiya-bori|Flickr images reviewed by FlickreviewR|1915 in Tokyo|Files from A.Davey Flickr stream|Reflections in rivers|Imperial Theater (Japan, 1911)|Japan 1914 - 1918, by Elstner Hilton",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "My spouse's uncle Elstner Hilton took this photo in Japan between 1914 and 1918.\n<p>According to the Web site <a rel=\"nofollow\" class=\"external text\" href=\"http://www.culturalprofiles.net\">www.culturalprofiles.net</a>,\n</p><p>\"Established in 1911 as the first western-style theatre in Japan, the <a href=\"https://en.wikipedia.org/wiki/Imperial_Theatre_(Japan)\" class=\"extiw\" title=\"w:Imperial Theatre (Japan)\">Imperial Theatre</a> is located in the centre of Tokyo, close to the Imperial Palace and Marunouchi, the major business area of the city. When it originally opened the venue had a great impact on the Japanese theatrical scene, inaugurating a completely new type of theatrical activity. After two and a half years of refurbishment it re-opened in 1966 and has since regularly hosted large-scale musical productions such as <i><a href=\"https://en.wikipedia.org/wiki/Miss_Saigon\" class=\"extiw\" title=\"w:Miss Saigon\">Miss Saigon</a></i> and <i><a href=\"https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_(musical)\" class=\"extiw\" title=\"w:Les Misérables (musical)\">Les Misérables</a></i>. It remains one of the most important large-scale theatres in the country.\"\n</p>\n<a rel=\"nofollow\" class=\"external text\" href=\"http://www.culturalprofiles.net/japan/Units/869.html\">www.culturalprofiles.net/japan/Units/869.html</a><br>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1915-05-01 00:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/adavey/5075680124/\">Imperial Theater, Tokyo</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40595948@N00\">A.Davey</a> from Portland, Oregon, EE UU",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Hilton+Saigon&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:29:56.582762+00:00"
+  }
+}

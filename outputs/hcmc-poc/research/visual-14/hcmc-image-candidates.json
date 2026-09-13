@@ -1,0 +1,113 @@
+{
+  "query_url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Ho+Chi+Minh+City+buildings&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "candidates": [
+    {
+      "title": "File:Ayuntamiento, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 09.JPG",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ayuntamiento,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_09.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-01.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-02.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-02.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-03.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, City Hall, 2020-01 CN-04.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-01.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Ho_Chi_Minh_Statue,_2020-01_CN-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-03.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Ho_Chi_Minh_Statue,_2020-01_CN-03.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-04.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Ho_Chi_Minh_Statue,_2020-01_CN-04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, Nguyen Hue Street, 2020-01 CN-04.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Nguyen_Hue_Street,_2020-01_CN-04.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Vietcombank_Tower,_2020-01_CN-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Puente Mong, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 01.JPG",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Puente_Mong,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    },
+    {
+      "title": "File:Vista de Ciudad Ho Chi Minh desde Bitexco Financial Tower, Vietnam, 2013-08-14, DD 13.JPG",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Vista_de_Ciudad_Ho_Chi_Minh_desde_Bitexco_Financial_Tower,_Vietnam,_2013-08-14,_DD_13.JPG",
+      "license": "CC BY-SA 3.0",
+      "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "use": "reference_candidate_not_texture_or_geometry",
+      "image_downloaded": false
+    }
+  ]
+}

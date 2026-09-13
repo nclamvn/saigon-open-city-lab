@@ -1,0 +1,81 @@
+{
+  "version": "16d",
+  "key": "times",
+  "building_id": 165491082,
+  "source_original": "assets/facades16d/times-original.jpg",
+  "source_sha256": "11d7c80e0af75c26774c5db0b75cbadcd552c57a77a7ad9915c758d0afb4f1f3",
+  "source_dimensions": [
+    2388,
+    3490
+  ],
+  "quad_pixels": [
+    [
+      750,
+      708
+    ],
+    [
+      1182,
+      459
+    ],
+    [
+      1190,
+      1450
+    ],
+    [
+      666,
+      1615
+    ]
+  ],
+  "quad_normalized": [
+    [
+      0.314070351758794,
+      0.202865329512894
+    ],
+    [
+      0.4949748743718593,
+      0.1315186246418338
+    ],
+    [
+      0.4983249581239531,
+      0.4154727793696275
+    ],
+    [
+      0.27889447236180903,
+      0.46275071633237824
+    ]
+  ],
+  "texture_dimensions": [
+    1024,
+    1856
+  ],
+  "sign_free_extension_crop": [
+    0,
+    1344,
+    1024,
+    1856
+  ],
+  "glass_sample_crop": [
+    35,
+    600,
+    150,
+    1080
+  ],
+  "extension_sha256": "f04c8b15b9856d5962a91008f18684d73869a816625303b83ef1c76d8d70ed42",
+  "glass_sha256": "da7f50304dfabe44008f967f9c9c459f3f1cc252d7e9fb65b29c0982dc7bf421",
+  "color_sha256": "be5b7371b3470e92da4ba3a3e6b15ef35c54cdd7d6f9fc83006fde7605902a24",
+  "mask_sha256": "096aae1d72dd2beeb75b22f9f96af620d1476c5b94ca17f720475af0c703aa1d",
+  "glass_srgb": [
+    58,
+    107,
+    133
+  ],
+  "masked_fraction": 0.02656,
+  "source_receipt": "research/vibecode-16d/source-receipt.json",
+  "classification": "high_resolution_observed_upper_front_with_inferred_glass_finish_on_unseen_proxy_surfaces",
+  "physical_sign": "original photograph pixels only; no generated text or repeated logo",
+  "limitations": [
+    "Front below the photographed area is occluded by foreground buildings.",
+    "Photo alignment and vertical placement are approximate; no surveyed control points.",
+    "All-wall blue glass finish and fine mullion spacing are inferred, not independently registered facade imagery."
+  ]
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "hdnd-survey",
+    "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-do-thi/ban-do-thi-hdnd-thanh-pho-khao-sat-cong-tac-lap-quy-hoach-tong-thethanh-pho-ho-chi-minh-tam-nhin-100-nam",
+    "retrievedAt": "2026-09-13",
+    "archive": "source-snapshots/hdnd-survey.html",
+    "sha256": "b9fb2e0803aa6958802273ca4d0af711b41dc0faf9e744a304cf309b4d99784c",
+    "bytes": 135295,
+    "status": 200,
+    "finalUrl": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-do-thi/ban-do-thi-hdnd-thanh-pho-khao-sat-cong-tac-lap-quy-hoach-tong-thethanh-pho-ho-chi-minh-tam-nhin-100-nam"
+  },
+  {
+    "id": "hdnd-workshop",
+    "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/quy-hoach-tong-the-thanh-pho-ho-chi-minh-khat-vong-the-ky-cua-mot-sieu-do-thi",
+    "retrievedAt": "2026-09-13",
+    "archive": "source-snapshots/hdnd-workshop.html",
+    "sha256": "76b3f59d077c31a80ba970437061a8cfef3cc30ecfa4876eecf73b0c7af1bf68",
+    "bytes": 125128,
+    "status": 200,
+    "finalUrl": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/quy-hoach-tong-the-thanh-pho-ho-chi-minh-khat-vong-the-ky-cua-mot-sieu-do-thi"
+  },
+  {
+    "id": "qhkt-index",
+    "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop.html",
+    "retrievedAt": "2026-09-13",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "qhkt-metro",
+    "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/mang-luoi-duong-sat-do-thi-du-kien-cua-thanh-pho-ho-chi-minh-theo-nghi-quyet-so-06-nqtu-da-the-hien-tren-ban-do-gis-3628.html",
+    "retrievedAt": "2026-09-13",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "qhkt-drawings",
+    "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/ban-ve-do-an-dieu-chinh-quy-hoach-chung-tphcm-den-nam-2040-tam-nhin-den-nam-2060-3623.html",
+    "retrievedAt": "2026-09-13",
+    "error": "The read operation timed out"
+  }
+]

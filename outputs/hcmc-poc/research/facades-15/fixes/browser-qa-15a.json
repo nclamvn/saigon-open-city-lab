@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-13T10:55:48.610693+00:00",
+  "status": "PASS",
+  "browser": "Codex in-app Chromium",
+  "viewport": [
+    1280,
+    720
+  ],
+  "facades_captured_and_visually_reviewed": 20,
+  "same_camera_ab": true,
+  "gallery_cards": 20,
+  "gallery_images_loaded": 40,
+  "gallery_deeplink_selected": "cafe42",
+  "standalone_http": {
+    "ready": true,
+    "loaded_atlases": 2,
+    "facades": 20,
+    "selected": "cafe42"
+  },
+  "audit_hides_photos_and_restores_baseline_heights": true,
+  "source_panel_expand_collapse": "visually checked",
+  "runtime_errors": [],
+  "preexisting_console_warnings": [
+    "Legacy Three.js UMD bundle deprecation",
+    "Texture.encoding renamed to colorSpace"
+  ],
+  "limits": [
+    "Single HTML verified through local HTTP; file protocol not separately tested.",
+    "Camera center ray checked; neighboring geometry can still obscure portions of facades.",
+    "Photo patches are partial, historical and not survey-accurate complete buildings."
+  ]
+}

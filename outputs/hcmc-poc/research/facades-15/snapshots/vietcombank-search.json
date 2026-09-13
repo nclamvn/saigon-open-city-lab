@@ -1,0 +1,684 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "59145588": {
+        "pageid": 59145588,
+        "ns": 6,
+        "title": "File:Bến Nghé, District 1, Ho Chi Minh, Vietnam - panoramio (31).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg/1280px-B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 2280,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/4/4b/B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg/1280px-B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2280,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/4b/B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/B%E1%BA%BFn_Ngh%C3%A9%2C_District_1%2C_Ho_Chi_Minh%2C_Vietnam_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:B%E1%BA%BFn_Ngh%C3%A9,_District_1,_Ho_Chi_Minh,_Vietnam_-_panoramio_(31).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59145588",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-05-21 14:01:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bến Nghé, District 1, Ho Chi Minh, Vietnam - panoramio (31)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Vietcombank Tower|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Photos from Panoramio ID 5317517",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775575",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705667",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Bến Nghé, District 1, Ho Chi Minh, Vietnam",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "7 February 2015 (original upload date)",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161102002316/http://www.panoramio.com/photo/116596495\">https://web.archive.org/web/20161102002316/http://www.panoramio.com/photo/116596495</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161102002319/http://www.panoramio.com/user/5317517?with_photo_id=116596495\">trungydang</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">trungydang</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 21 May 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "trungydang",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88859712": {
+        "pageid": 88859712,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 2523,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2523,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Vietcombank_Tower,_2020-01_CN-01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88859712",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-02 16:21:04",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Vietcombank Tower|Self-published work|Supported by Wikimedia Deutschland|Images with extracted images|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774205",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.703701",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – high-rise <i>Vietcombank Tower</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "177379783": {
+        "pageid": 177379783,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01 (cropped).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg/1280px-Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1698,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg/1280px-Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1698,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ho_Chi_Minh_City%2C_Vietcombank_Tower%2C_2020-01_CN-01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Vietcombank_Tower,_2020-01_CN-01_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=177379783",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-10-26 02:48:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Vietcombank Tower, 2020-01 CN-01 (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Vietcombank Tower|Self-published work|Supported by Wikimedia Deutschland|Extracted images|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774205",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.703701",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – high-rise <i>Vietcombank Tower</i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "151016626": {
+        "pageid": 151016626,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City Skyline at Night.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 675,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_at_Night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151016626",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-31 05:01:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City Skyline at Night",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Skylines of Ho Chi Minh City|Saigon River in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The image captures the vibrant and illuminated skyline of Ho Chi Minh City (formerly known as Saigon) at night. Prominent skyscrapers from left to right, including the <a href=\"https://en.wikipedia.org/wiki/IFC_One_Saigon\" class=\"extiw\" title=\"w:IFC One Saigon\">IFC One Saigon</a>, Ho Chi Minh City Customs Department Building, Bitexco Office Building, Harbour View Tower, Osic Building, <a href=\"https://en.wikipedia.org/wiki/Bitexco_Financial_Tower\" class=\"extiw\" title=\"w:Bitexco Financial Tower\">Bitexco Financial Tower</a>, Liberty Central Saigon Riverside Hotel, Renaissance Riverside Hotel Saigon, Melinh Point Tower, <a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a>, Hilton Saigon Hotel, <a href=\"https://en.wikipedia.org/wiki/Vietcombank_Tower\" class=\"extiw\" title=\"w:Vietcombank Tower\">Vietcombank Tower</a>, <a href=\"https://en.wikipedia.org/wiki/Saigon_Centre\" class=\"extiw\" title=\"w:Saigon Centre\">Saigon Centre</a>, Sheraton Grand Opera Saigon Hotel, The Landmark, Saigon Riverside Office Center, Lotte Hotel Saigon and some significant low-rise buildings <a href=\"https://en.wikipedia.org/wiki/Hotel_Majestic_(Saigon)\" class=\"extiw\" title=\"w:Hotel Majestic (Saigon)\">Hotel Majestic</a>, Seaprodex 2-4-6 Đồng Khởi, Riverside Hotel, <a href=\"https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o\" class=\"extiw\" title=\"w:Trần Hưng Đạo\">Trần Hưng Đạo</a> statue at <a href=\"https://en.wikipedia.org/wiki/M%C3%AA_Linh_Square\" class=\"extiw\" title=\"w:Mê Linh Square\"> Mê Linh Square</a>, IBC Building, Vietnam People's Naval Army Barracks, Tôn Đức Thắng Museum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://banghieuchuyennghiep.vn/\">https://banghieuchuyennghiep.vn/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tran Van Ngoc",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "136945398": {
+        "pageid": 136945398,
+        "ns": 6,
+        "title": "File:Vietcombank Tower, bến thành, quận 1, thành phố hồ chí minh.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Vietcombank_Tower%2C_b%E1%BA%BFn_th%C3%A0nh%2C_qu%E1%BA%ADn_1%2C_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 2274,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Vietcombank_Tower%2C_b%E1%BA%BFn_th%C3%A0nh%2C_qu%E1%BA%ADn_1%2C_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2274
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Vietcombank_Tower%2C_b%E1%BA%BFn_th%C3%A0nh%2C_qu%E1%BA%ADn_1%2C_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vietcombank_Tower,_b%E1%BA%BFn_th%C3%A0nh,_qu%E1%BA%ADn_1,_th%C3%A0nh_ph%E1%BB%91_h%E1%BB%93_ch%C3%AD_minh.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=136945398",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-09-04 07:13:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vietcombank Tower, bến thành, quận 1, thành phố hồ chí minh",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Vietcombank Tower|Buildings in Ho Chi Minh City|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vietcombank Tower",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-09-04 10:03:00",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xuanphuocle&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xuanphuocle (page does not exist)\">Xuanphuocle</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "40717885": {
+        "pageid": 40717885,
+        "ns": 6,
+        "title": "File:Vietcombank Tower.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vietcombank_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1706,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vietcombank_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1706
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vietcombank_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vietcombank_Tower.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40717885",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2015-06-04 17:42:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vietcombank Tower",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Vietcombank Tower|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "vietcombank tower Ho Chi Minh from",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-06-04",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nguyentrunghieuhp&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nguyentrunghieuhp (page does not exist)\">Nguyentrunghieuhp</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Vietcombank+Tower+Ho+Chi+Minh&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:29:26.896927+00:00"
+  }
+}

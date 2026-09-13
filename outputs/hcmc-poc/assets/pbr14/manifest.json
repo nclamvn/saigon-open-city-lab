@@ -1,0 +1,257 @@
+{
+  "version": "14a",
+  "acquired_at": "2026-09-13T04:22:37.511855+00:00",
+  "classification": "cc0_library_pbr_materials_not_hcmc_surface_capture",
+  "assets": [
+    {
+      "id": "Asphalt033",
+      "key": "asphalt",
+      "source_url": "https://ambientcg.com/a/Asphalt033",
+      "download_url": "https://ambientcg.com/get?file=Asphalt033_1K-JPG.zip",
+      "license": "CC0-1.0",
+      "license_snapshot": "ambient-license.html",
+      "creation_method": "PBRPhotogrammetry",
+      "site_observed": false,
+      "meters_per_tile": 2.5,
+      "scale_basis": "source_cm",
+      "zip_bytes": 9722569,
+      "zip_sha256": "c71801b342dbea594dbdd0bd2ddc0a6d13f813c923fca408b9f5b9ee5e58aba2",
+      "metadata_snapshot": "Asphalt-catalog.json",
+      "maps": {
+        "color": {
+          "path": "assets/pbr14/asphalt-color.jpg",
+          "bytes": 179988,
+          "sha256": "240453603783b1c9b51f8cf63366a378376b8cc481082dbe32d9cdb7f79f62bf",
+          "source_member": "Asphalt033_1K-JPG_Color.jpg",
+          "source_sha256": "126edfd31019dcc0e108ce6966eb0c23f772f130a3abcc3be6daedc590cbb7f8",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        "normal": {
+          "path": "assets/pbr14/asphalt-normal.jpg",
+          "bytes": 423184,
+          "sha256": "15abfc64d2491015d92febd57e63bf21ddcef9caa156694a049fa148747a9aaa",
+          "source_member": "Asphalt033_1K-JPG_NormalGL.jpg",
+          "source_sha256": "34bf3e95a41a3856c291d2cb039dc75e5a72cc9499343248c6c7e9c1a91a9336",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        },
+        "roughness": {
+          "path": "assets/pbr14/asphalt-roughness.jpg",
+          "bytes": 303102,
+          "sha256": "3079620a62f7dab00b5729f9c9e527af4cd3a9ef60383729f7b3f988adb7f154",
+          "source_member": "Asphalt033_1K-JPG_Roughness.jpg",
+          "source_sha256": "ab1dee12de196e7f1462fd01ebb629e0ae68af9de08c26d38abd2d11dfe2022a",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        }
+      }
+    },
+    {
+      "id": "PaintedPlaster017",
+      "key": "plaster",
+      "source_url": "https://ambientcg.com/a/PaintedPlaster017",
+      "download_url": "https://ambientcg.com/get?file=PaintedPlaster017_1K-JPG.zip",
+      "license": "CC0-1.0",
+      "license_snapshot": "ambient-license.html",
+      "creation_method": "PBRPhotogrammetry",
+      "site_observed": false,
+      "meters_per_tile": 3.0,
+      "scale_basis": "illustrative_assumption",
+      "zip_bytes": 4721132,
+      "zip_sha256": "bae0380d82b6ccac8943b4980417cb3c9de5c896218339c108056f1dfb8e886c",
+      "metadata_snapshot": "Plaster-catalog.json",
+      "maps": {
+        "color": {
+          "path": "assets/pbr14/plaster-color.jpg",
+          "bytes": 69930,
+          "sha256": "9368bbcfb6c7d85d32e97136053b0ce4710ed192e2ed4be99be96916a7abb911",
+          "source_member": "PaintedPlaster017_1K-JPG_Color.jpg",
+          "source_sha256": "ed8a69a6437de9d41d2cf380f7e6a216232fc4754f256c3405985c857547ffef",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 512,
+          "color_space": "sRGB"
+        },
+        "normal": {
+          "path": "assets/pbr14/plaster-normal.jpg",
+          "bytes": 220003,
+          "sha256": "c55449a348f98a9aadc80eb3dbe4fbc46f78e82b14f829e71f70ec264e1a7d2c",
+          "source_member": "PaintedPlaster017_1K-JPG_NormalGL.jpg",
+          "source_sha256": "1bef1887c10e1ce104be1a557e4dbd7634ef6d5ece6e3b4237dab2d0962f57fa",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 512,
+          "color_space": "linear"
+        },
+        "roughness": {
+          "path": "assets/pbr14/plaster-roughness.jpg",
+          "bytes": 45208,
+          "sha256": "27a483ebe93c7f9e6e0c4741e8bca8c70d5e273b15132404a621a64d9f555c61",
+          "source_member": "PaintedPlaster017_1K-JPG_Roughness.jpg",
+          "source_sha256": "a83ecc2ba5b9d80bb9a27381f3389ccdb20c77ef6358b92f3d11455403d651d8",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 512,
+          "color_space": "linear"
+        }
+      }
+    },
+    {
+      "id": "Ground037",
+      "key": "ground",
+      "source_url": "https://ambientcg.com/a/Ground037",
+      "download_url": "https://ambientcg.com/get?file=Ground037_1K-JPG.zip",
+      "license": "CC0-1.0",
+      "license_snapshot": "ambient-license.html",
+      "creation_method": "PBRPhotogrammetry",
+      "site_observed": false,
+      "meters_per_tile": 2.1,
+      "scale_basis": "source_cm",
+      "zip_bytes": 10574958,
+      "zip_sha256": "4e69db2b7251b1736fa70fe6fe4ab80d64bd220117dd5dd4c7caaead51c2574e",
+      "metadata_snapshot": "Grass-catalog.json",
+      "maps": {
+        "color": {
+          "path": "assets/pbr14/ground-color.jpg",
+          "bytes": 556335,
+          "sha256": "86ff24322d6c47c994bc343ea934890ab0f2bf56c280527fa43d542ed77b0e1a",
+          "source_member": "Ground037_1K-JPG_Color.jpg",
+          "source_sha256": "d92bec8a35b9cb16ec79b421ca0f572a7400286eae109beafa266629ef49a6cf",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        "normal": {
+          "path": "assets/pbr14/ground-normal.jpg",
+          "bytes": 573991,
+          "sha256": "3283ddd3cc11a5f7f5371b6d95df5da57fbb1f44617447d092feea9fe9877904",
+          "source_member": "Ground037_1K-JPG_NormalGL.jpg",
+          "source_sha256": "ea59dbdcfa5bf2f28bdd4aa896d4e5f96c4cce5939100dcc6db4bbbcdebfe38d",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        },
+        "roughness": {
+          "path": "assets/pbr14/ground-roughness.jpg",
+          "bytes": 283598,
+          "sha256": "7e58fe846ffeb56097da1ab0734a47f42cf7a33fdfec3261887907b709f82bc5",
+          "source_member": "Ground037_1K-JPG_Roughness.jpg",
+          "source_sha256": "3786b088e981aae562f06b6477972d379cffd09a5cc542ab42f9ffd94f9bcb0e",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        }
+      }
+    },
+    {
+      "id": "Bark014",
+      "key": "bark",
+      "source_url": "https://ambientcg.com/a/Bark014",
+      "download_url": "https://ambientcg.com/get?file=Bark014_1K-JPG.zip",
+      "license": "CC0-1.0",
+      "license_snapshot": "ambient-license.html",
+      "creation_method": "PBRPhotogrammetry",
+      "site_observed": false,
+      "meters_per_tile": 1.2,
+      "scale_basis": "source_cm",
+      "zip_bytes": 8700607,
+      "zip_sha256": "c73728c32d6f0f3610f9db204448eff7e3acc74da0f8c1878920419772397670",
+      "metadata_snapshot": "Bark-catalog.json",
+      "maps": {
+        "color": {
+          "path": "assets/pbr14/bark-color.jpg",
+          "bytes": 362825,
+          "sha256": "bddc8cc59f226d92993de74ab73e879a7df9103dbe64654dfc43177878ae35b9",
+          "source_member": "Bark014_1K-JPG_Color.jpg",
+          "source_sha256": "da297aff93460d294a6a7b2976fbf1029de27127a66ba56a3cf0ef21ac77c493",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        "normal": {
+          "path": "assets/pbr14/bark-normal.jpg",
+          "bytes": 242317,
+          "sha256": "58b4e95d9ecb848ddc716d8c350592eef4103e2736452b9b481580f2c5d3bb73",
+          "source_member": "Bark014_1K-JPG_NormalGL.jpg",
+          "source_sha256": "04c449835e79c8829190ea07af41efec46655e347da4048c49b3b0f0d8538a2e",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        },
+        "roughness": {
+          "path": "assets/pbr14/bark-roughness.jpg",
+          "bytes": 386258,
+          "sha256": "af3fbc8d473a119c50910914693a1a0d0894d23f4e7e867d841f5f579bbf07dc",
+          "source_member": "Bark014_1K-JPG_Roughness.jpg",
+          "source_sha256": "a7e174d0e65de45a397fecf23d0a62a228bf3589fcf79eb0428b231db5e26a05",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        }
+      }
+    },
+    {
+      "id": "PavingStones036",
+      "key": "paving",
+      "source_url": "https://ambientcg.com/a/PavingStones036",
+      "download_url": "https://ambientcg.com/get?file=PavingStones036_1K-JPG.zip",
+      "license": "CC0-1.0",
+      "license_snapshot": "ambient-license.html",
+      "creation_method": "PBRPhotogrammetry",
+      "site_observed": false,
+      "meters_per_tile": 2.0,
+      "scale_basis": "illustrative_assumption",
+      "zip_bytes": 9354813,
+      "zip_sha256": "91223aa46aa4275bb30df310fba788d8bfb740f2b1e9796ac0eb9a14f367e9ce",
+      "metadata_snapshot": "PavingStones-catalog.json",
+      "maps": {
+        "color": {
+          "path": "assets/pbr14/paving-color.jpg",
+          "bytes": 357796,
+          "sha256": "deb4481bbc2be41b67155bea9e31701a5ec87d2916a9b8667f44fdae03a86d46",
+          "source_member": "PavingStones036_1K-JPG_Color.jpg",
+          "source_sha256": "065dad4ad95ee74992a6d3cbeb0efb107d3b18a0a3425487bf41452dce12c533",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "sRGB"
+        },
+        "normal": {
+          "path": "assets/pbr14/paving-normal.jpg",
+          "bytes": 385583,
+          "sha256": "0032c35d96f767d26d4e5d3d828b4c236b864de83563653ff01cf1a1e3dd8057",
+          "source_member": "PavingStones036_1K-JPG_NormalGL.jpg",
+          "source_sha256": "7e86034b299d5628bb072c74ed30364dbab5da21f55e17c675ccbef15b209543",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        },
+        "roughness": {
+          "path": "assets/pbr14/paving-roughness.jpg",
+          "bytes": 272837,
+          "sha256": "744c3f5ca61c189cd68260f83e829e3d0f1f493d4ac2119fcb55d24eeb412d3c",
+          "source_member": "PavingStones036_1K-JPG_Roughness.jpg",
+          "source_sha256": "d97ddc1b344edf9e799d5a63b497c5bafabf3afe189bca565bbd155c79f269a1",
+          "transformation": "JPEG quality 88; dimensions preserved",
+          "width": 1024,
+          "height": 1024,
+          "color_space": "linear"
+        }
+      }
+    }
+  ]
+}

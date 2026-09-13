@@ -1,0 +1,649 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "171438399": {
+        "pageid": 171438399,
+        "ns": 6,
+        "title": "File:Continental Palace hotel, Saigon in April 1974.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg/1280px-Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 896,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/01/Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg/1280px-Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 896,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/01/Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Continental_Palace_hotel%2C_Saigon_in_April_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Continental_Palace_hotel,_Saigon_in_April_1974.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171438399",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-03 09:54:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Continental Palace hotel, Saigon in April 1974",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|PD US Army|Volkswagen Type 1|Hotel Continental Saigon|Template Unknown (author)|CC-PD-Mark|1974 in Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Continental Palace hotel, Saigon (South Vietnam) in April 1974\nNARA 111-CCV-457-90939",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1974-04-11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.fold3.com/image/245099067/90939-page-1-us-photos-vietnam-war-army-1963-1973\">https://www.fold3.com/image/245099067/90939-page-1-us-photos-vietnam-war-army-1963-1973</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149673560": {
+        "pageid": 149673560,
+        "ns": 6,
+        "title": "File:Grand Hotel, Saigon, 2023 (01).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1921,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1921,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Grand_Hotel%2C_Saigon%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grand_Hotel,_Saigon,_2023_(01).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149673560",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-24 12:23:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Grand Hotel, Saigon, 2023 (01)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Leica D-Lux 6|Grand Hotel, Saigon|Self-published work|Vietnam photographs taken on 2023-11-02|Images by Bahnfrend|Buildings in Vietnam photographed in 2023|Files with coordinates missing SDC location of creation|2023 in Ho Chi Minh City|Hotels photographed in 2023",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.773667",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705556",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Grand Hotel, Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 14:38:19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bahnfrend\" title=\"User:Bahnfrend\">Bahnfrend</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Grand Hotel Saigon, former Saigon Palace. Constructed 1929–1930. The architect(s) is/are unknown, and therefore under the 2005 copyright law, any copyright in the design of the building is taken to have expired by no later than 1980 (50 years from date of first publication). See <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Vietnam\" title=\"Commons:Copyright rules by territory/Vietnam\">Commons:Copyright rules by territory/Vietnam</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "149673559": {
+        "pageid": 149673559,
+        "ns": 6,
+        "title": "File:Grand Hotel, Saigon, 2023 (02).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1280,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg/1280px-Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1280,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Grand_Hotel%2C_Saigon%2C_2023_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grand_Hotel,_Saigon,_2023_(02).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149673559",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-06-24 12:23:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Grand Hotel, Saigon, 2023 (02)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Leica D-Lux 6|Grand Hotel, Saigon|Self-published work|Vietnam photographs taken on 2023-11-02|Images by Bahnfrend|Buildings in Vietnam photographed in 2023|Files with coordinates missing SDC location of creation|2023 in Ho Chi Minh City|Hotels photographed in 2023",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.773556",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705667",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Grand Hotel, Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-11-02 14:38:40",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bahnfrend\" title=\"User:Bahnfrend\">Bahnfrend</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Grand Hotel Saigon, former Saigon Palace. Constructed 1929–1930. The architect(s) is/are unknown, and therefore under the 2005 copyright law, any copyright in the design of the building is taken to have expired by no later than 1980 (50 years from date of first publication). See <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Vietnam\" title=\"Commons:Copyright rules by territory/Vietnam\">Commons:Copyright rules by territory/Vietnam</a>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "130472040": {
+        "pageid": 130472040,
+        "ns": 6,
+        "title": "File:SAIGON-PALACE - Entrée Rue Catinat.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 2017,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2017
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=130472040",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-07 23:02:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "SAIGON-PALACE - Entrée Rue Catinat",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|PD Old|Grand Hotel, Saigon|CC-PD-Mark|Postcards of Saigon|PD-old missing SDC copyright status|PD-US missing SDC copyright status|Files uploaded by Đại Việt quốc/Historical images/Saigon|Saigon, French Indochina",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "SAIGON-PALACE - Entrée Rue Catinat",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "early 20<sup>th</sup> century<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P4241,Q40719727</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.delcampe.net/en_US/collectibles/postcards/vietnam/saigon-palace-entree-rue-catinat-1555150111.html\">Old postcard</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "171361349": {
+        "pageid": 171361349,
+        "ns": 6,
+        "title": "File:The Continental Palace hotel in downtown Saigon.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg/1280px-The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 992,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg/1280px-The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 992,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Continental_Palace_hotel_in_downtown_Saigon.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171361349",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-02 15:34:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Continental Palace hotel in downtown Saigon",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|PD US Army|Hotel Continental Saigon|CC-PD-Mark|1967 in Saigon|Volkswagen T1 Kombi in South Vietnam|Road signs in South Vietnam",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Continental Palace hotel in downtown Saigon\nNARA 111-CCV-255-CC46139",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1967-12-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.fold3.com/image/245255892/cc46139-page-1-us-photos-vietnam-war-army-1963-1973\">https://www.fold3.com/image/245255892/cc46139-page-1-us-photos-vietnam-war-army-1963-1973</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "SP4 Melvin Vaughan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "171439973": {
+        "pageid": 171439973,
+        "ns": 6,
+        "title": "File:The Continental Palace hotel in downtown Saigon 1.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg/1280px-The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 991,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg/1280px-The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 991,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Continental_Palace_hotel_in_downtown_Saigon_1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171439973",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-03 10:17:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Continental Palace hotel in downtown Saigon 1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|PD US Army|Hotel Continental Saigon|CC-PD-Mark|1967 in Saigon|Volkswagen T1 Kombi in South Vietnam|Road signs in South Vietnam",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Continental Palace and Restaurant in downtown Saigon\nNARA 111-CCV-457-CC46139",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1967-12-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.fold3.com/image/245100368/cc46139-page-1-us-photos-vietnam-war-army-1963-1973\">https://www.fold3.com/image/245100368/cc46139-page-1-us-photos-vietnam-war-army-1963-1973</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "SP4 Melvin Vaughn",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Palace+Hotel+Saigon&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:28:54.929408+00:00"
+  }
+}

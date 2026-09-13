@@ -1,0 +1,434 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "138529901": {
+        "pageid": 138529901,
+        "ns": 6,
+        "title": "File:Bureaux du gouvernement de la Cochinchine, Saïgon (PV0019640).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg/1280px-Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 901,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg/1280px-Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 901,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bureaux_du_gouvernement_de_la_Cochinchine%2C_Sa%C3%AFgon_%28PV0019640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bureaux_du_gouvernement_de_la_Cochinchine,_Sa%C3%AFgon_(PV0019640).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=138529901",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-05 20:57:28",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bureaux du gouvernement de la Cochinchine, Saïgon (PV0019640)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-70-expired|59-61 Ly Tu Trong Street|CC-PD-Mark|PD-old missing SDC copyright status|Files uploaded by Đại Việt quốc/Historical images/Saigon|Saigon, French Indochina",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "N° de gestion : PV0019640\n<p>Photographe : anonyme\nDonateur : Haut commissariat de France pour l'Indochine\nPrécédente collection : Musée de l'Homme (Photothèque)\nDate(s) : 1920-1929 : date de prise de vue\nMatériaux et Techniques : Négatif au gélatino-bromure d'argent sur plaque de verre\n</p>\nDimensions : Dimensions de la plaque : 18 x 24 cm",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "between 1920 and 1929<div style=\"display: none;\">date QS:P,+1920-00-00T00:00:00Z/8,P1319,+1920-00-00T00:00:00Z/9,P1326,+1929-00-00T00:00:00Z/9</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://collections.quaibranly.fr/?query=objectnumber=PV0019640\">https://collections.quaibranly.fr/?query=objectnumber=PV0019640</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Haut commissariat de France pour l'Indochine",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "127112338": {
+        "pageid": 127112338,
+        "ns": 6,
+        "title": "File:Saïgon. - Bureaux du Gouvernement de la Cochinchine.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg/1280px-Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1036,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg/1280px-Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1036,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sa%C3%AFgon._-_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127112338",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-29 04:39:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Saïgon. - Bureaux du Gouvernement de la Cochinchine",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-70-expired|59-61 Ly Tu Trong Street|Template Unknown (author)|CC-PD-Mark|PD-old missing SDC copyright status|Saigon, French Indochina",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Saïgon. - Bureaux du Gouvernement de la Cochinchine",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1922",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://gallica.bnf.fr/ark:/12148/btv1b531679848/f17.item\">https://gallica.bnf.fr/ark:/12148/btv1b531679848/f17.item</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "127131263": {
+        "pageid": 127131263,
+        "ns": 6,
+        "title": "File:Saïgon -- Bureaux du Gouvernement de la Cochinchine.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg/1280px-Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 517,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg/3840px-Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg/1280px-Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 517,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg/3840px-Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sa%C3%AFgon_--_Bureaux_du_Gouvernement_de_la_Cochinchine.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127131263",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-29 05:17:09",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Saïgon -- Bureaux du Gouvernement de la Cochinchine",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-70-expired|59-61 Ly Tu Trong Street|Template Unknown (author)|CC-PD-Mark|PD-old missing SDC copyright status|Files uploaded by Đại Việt quốc/Historical images/Saigon|Saigon, French Indochina",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Saïgon, bureaux du Gouvernement de la Cochinchine",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1922",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://gallica.bnf.fr/ark:/12148/btv1b531679848/f17.item\">https://gallica.bnf.fr/ark:/12148/btv1b531679848/f17.item</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57541952": {
+        "pageid": 57541952,
+        "ns": 6,
+        "title": "File:Sở Công Thương Thành Phố Hồ Chí Minh - panoramio.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg/1280px-S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/bc/S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg/1280px-S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/bc/S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:S%E1%BB%9F_C%C3%B4ng_Th%C6%B0%C6%A1ng_Th%C3%A0nh_Ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh_-_panoramio.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57541952",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-03-30 06:46:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sở Công Thương Thành Phố Hồ Chí Minh - panoramio",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Panoramio files uploaded by Panoramio upload bot|59-61 Ly Tu Trong Street|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2014-02-26|Photos from Panoramio ID 1496126",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.777633",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.700656",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sở Công Thương Thành Phố Hồ Chí Minh",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 26 February 2014",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161027200104/http://www.panoramio.com/photo/105386766\">https://web.archive.org/web/20161027200104/http://www.panoramio.com/photo/105386766</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161027200049/http://www.panoramio.com/user/1496126?with_photo_id=105386766\">Tuderna</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Tuderna</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 30 March 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Tuderna",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=%22Dinh+Thuong+Tho%22&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:31:04.225262+00:00"
+  }
+}

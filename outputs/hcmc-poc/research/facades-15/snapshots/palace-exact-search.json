@@ -1,0 +1,648 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "146380622": {
+        "pageid": 146380622,
+        "ns": 6,
+        "title": "File:2023-12-10 Independence Palace, Saigon 03.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2023-12-10_Independence_Palace%2C_Saigon_03.jpg/1280px-2023-12-10_Independence_Palace%2C_Saigon_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2023-12-10_Independence_Palace%2C_Saigon_03.jpg/3840px-2023-12-10_Independence_Palace%2C_Saigon_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2023-12-10_Independence_Palace%2C_Saigon_03.jpg/1280px-2023-12-10_Independence_Palace%2C_Saigon_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2023-12-10_Independence_Palace%2C_Saigon_03.jpg/3840px-2023-12-10_Independence_Palace%2C_Saigon_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/2023-12-10_Independence_Palace%2C_Saigon_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023-12-10_Independence_Palace,_Saigon_03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146380622",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-03-14 13:05:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023-12-10 Independence Palace, Saigon 03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Independence Palace|Self-published work|Files with coordinates missing SDC location of creation|2023 in Ho Chi Minh City|Vietnam photographs taken on 2023-12-10|Photographs by 源義信",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.777547",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.697075",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Independence Palace, Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 10 December 2023, 13:03:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%BA%90%E7%BE%A9%E4%BF%A1\" title=\"User:源義信\">源義信</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "148191209": {
+        "pageid": 148191209,
+        "ns": 6,
+        "title": "File:2023-12-10 Interiors of Independence Palace, Saigon 24.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg/1280px-2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/26/2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg/1280px-2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/26/2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/2023-12-10_Interiors_of_Independence_Palace%2C_Saigon_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:2023-12-10_Interiors_of_Independence_Palace,_Saigon_24.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148191209",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-05-09 02:35:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "2023-12-10 Interiors of Independence Palace, Saigon 24",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Files with coordinates missing SDC location of creation|Sculptures in Ho Chi Minh City|2023 in Ho Chi Minh City|Vietnam photographs taken on 2023-12-10|Photographs by 源義信|Interiors of Independence Palace",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.777687",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.691519",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Interiors of Independence Palace, Saigon.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-12-10 13:14:17",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E6%BA%90%E7%BE%A9%E4%BF%A1\" title=\"User:源義信\">源義信</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "138073736": {
+        "pageid": 138073736,
+        "ns": 6,
+        "title": "File:Independence Palace, Saigon (34659743803).jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Independence_Palace%2C_Saigon_%2834659743803%29.jpg/1280px-Independence_Palace%2C_Saigon_%2834659743803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Independence_Palace%2C_Saigon_%2834659743803%29.jpg/3840px-Independence_Palace%2C_Saigon_%2834659743803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Independence_Palace%2C_Saigon_%2834659743803%29.jpg/1280px-Independence_Palace%2C_Saigon_%2834659743803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Independence_Palace%2C_Saigon_%2834659743803%29.jpg/3840px-Independence_Palace%2C_Saigon_%2834659743803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Independence_Palace%2C_Saigon_%2834659743803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Independence_Palace,_Saigon_(34659743803).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=138073736",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-09-24 23:45:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Independence Palace, Saigon (34659743803)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Independence Palace|Flickr images reviewed by FlickreviewR 2|Vietnam photographs taken on 2014-02-20|PD-author-FlickrPDM|Photographs by Mussi Katz|Files uploaded by Đại Việt quốc/Flickr/Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "RED Vietnam",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 20 February 2014, 14:24",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/mussikatz/34659743803/\">RED Vietnam</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/52775988@N00\">Mussi Katz</a> from Israel",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "7306316": {
+        "pageid": 7306316,
+        "ns": 6,
+        "title": "File:Reunification Palace - Saigon - Vietnam.JPG",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Reunification_Palace_-_Saigon_-_Vietnam.JPG/1280px-Reunification_Palace_-_Saigon_-_Vietnam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reunification_Palace_-_Saigon_-_Vietnam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Reunification_Palace_-_Saigon_-_Vietnam.JPG/1280px-Reunification_Palace_-_Saigon_-_Vietnam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reunification_Palace_-_Saigon_-_Vietnam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Reunification_Palace_-_Saigon_-_Vietnam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reunification_Palace_-_Saigon_-_Vietnam.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7306316",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2009-07-15 03:17:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Reunification Palace - Saigon - Vietnam",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Sony DSC-H5|Independence Palace|Self-published work|Photographs by Adam Jones",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Reunification Palace, Saigon/Ho Chi Minh City, Vietnam. July 2009.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-07-14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Adam Jones <a href=\"//commons.wikimedia.org/wiki/User:Adam63\" title=\"User:Adam63\">Adam63</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Please inform author of use. Credit must read: Photo by Adam Jones adamjones.freeservers.com",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "130472040": {
+        "pageid": 130472040,
+        "ns": 6,
+        "title": "File:SAIGON-PALACE - Entrée Rue Catinat.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 2017,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2017
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:SAIGON-PALACE_-_Entr%C3%A9e_Rue_Catinat.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=130472040",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-07 23:02:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "SAIGON-PALACE - Entrée Rue Catinat",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US|PD Old|Grand Hotel, Saigon|CC-PD-Mark|Postcards of Saigon|PD-old missing SDC copyright status|PD-US missing SDC copyright status|Files uploaded by Đại Việt quốc/Historical images/Saigon|Saigon, French Indochina",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "SAIGON-PALACE - Entrée Rue Catinat",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "early 20<sup>th</sup> century<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P4241,Q40719727</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.delcampe.net/en_US/collectibles/postcards/vietnam/saigon-palace-entree-rue-catinat-1555150111.html\">Old postcard</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Unknown author",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "171361349": {
+        "pageid": 171361349,
+        "ns": 6,
+        "title": "File:The Continental Palace hotel in downtown Saigon.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg/1280px-The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 992,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg/1280px-The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 992,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/The_Continental_Palace_hotel_in_downtown_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Continental_Palace_hotel_in_downtown_Saigon.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171361349",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-08-02 15:34:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Continental Palace hotel in downtown Saigon",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|PD US Army|Hotel Continental Saigon|CC-PD-Mark|1967 in Saigon|Volkswagen T1 Kombi in South Vietnam|Road signs in South Vietnam",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Continental Palace hotel in downtown Saigon\nNARA 111-CCV-255-CC46139",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1967-12-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.fold3.com/image/245255892/cc46139-page-1-us-photos-vietnam-war-army-1963-1973\">https://www.fold3.com/image/245255892/cc46139-page-1-us-photos-vietnam-war-army-1963-1973</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "SP4 Melvin Vaughan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=intitle%3A%22Palace%22+intitle%3A%22Saigon%22+-filetype%3Apdf&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:31:00.277767+00:00"
+  }
+}

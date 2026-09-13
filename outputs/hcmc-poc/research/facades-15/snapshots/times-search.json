@@ -1,0 +1,701 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "88864971": {
+        "pageid": 88864971,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-03.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg/1280px-Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1072,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg/1280px-Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1072,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ho_Chi_Minh_City%2C_Ho_Chi_Minh_Statue%2C_2020-01_CN-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Ho_Chi_Minh_Statue,_2020-01_CN-03.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88864971",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-02 20:52:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Ho Chi Minh Statue, 2020-01 CN-03",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Saigon Times Square|Sunwah Tower|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16|Monument of Ho Chi Minh on Nguyen Hue Boulevard",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.776063",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.701513",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – statue of <a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh\" class=\"extiw\" title=\"w:Ho Chi Minh\">Ho Chi Minh</a> – rear side",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88858182": {
+        "pageid": 88858182,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Nguyen Hue Street, 2020-01 CN-02.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg/1280px-Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 780,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg/3840px-Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg/1280px-Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 780,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg/3840px-Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ho_Chi_Minh_City%2C_Nguyen_Hue_Street%2C_2020-01_CN-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Nguyen_Hue_Street,_2020-01_CN-02.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88858182",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-02 15:14:35",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Nguyen Hue Street, 2020-01 CN-02",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Saigon Times Square|Sunwah Tower|Nguyen Hue Boulevard, Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Images with extracted images|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16|Fountains in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775598",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.702005",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – Nguyen Hue Street with a fountain and the high-rises <i><a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a></i> and <i><a href=\"https://en.wikipedia.org/wiki/Sunwah_Tower\" class=\"extiw\" title=\"w:Sunwah Tower\">Sunwah Tower</a></i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88859347": {
+        "pageid": 88859347,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Saigon Times Square, 2020-01 CN-01.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1871,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1871,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ho_Chi_Minh_City%2C_Saigon_Times_Square%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Saigon_Times_Square,_2020-01_CN-01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88859347",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-02 16:06:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Saigon Times Square, 2020-01 CN-01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Saigon Times Square|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774288",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.703491",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – <a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "110833857": {
+        "pageid": 110833857,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, banner 1.jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ho_Chi_Minh_City%2C_banner_1.jpg/1280px-Ho_Chi_Minh_City%2C_banner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 183,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ho_Chi_Minh_City%2C_banner_1.jpg/3840px-Ho_Chi_Minh_City%2C_banner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ho_Chi_Minh_City%2C_banner_1.jpg/1280px-Ho_Chi_Minh_City%2C_banner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 183,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ho_Chi_Minh_City%2C_banner_1.jpg/3840px-Ho_Chi_Minh_City%2C_banner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ho_Chi_Minh_City%2C_banner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_banner_1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=110833857",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-10-08 15:32:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, banner 1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Saigon Times Square|Sunwah Tower|Nguyen Hue Boulevard, Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Extracted images|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16|Fountains in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775598",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.702005",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – Nguyen Hue Street with a fountain and the high-rises <i><a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a></i> and <i><a href=\"https://en.wikipedia.org/wiki/Sunwah_Tower\" class=\"extiw\" title=\"w:Sunwah Tower\">Sunwah Tower</a></i>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "151016626": {
+        "pageid": 151016626,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City Skyline at Night.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 675,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_at_Night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151016626",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-31 05:01:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City Skyline at Night",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Skylines of Ho Chi Minh City|Saigon River in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The image captures the vibrant and illuminated skyline of Ho Chi Minh City (formerly known as Saigon) at night. Prominent skyscrapers from left to right, including the <a href=\"https://en.wikipedia.org/wiki/IFC_One_Saigon\" class=\"extiw\" title=\"w:IFC One Saigon\">IFC One Saigon</a>, Ho Chi Minh City Customs Department Building, Bitexco Office Building, Harbour View Tower, Osic Building, <a href=\"https://en.wikipedia.org/wiki/Bitexco_Financial_Tower\" class=\"extiw\" title=\"w:Bitexco Financial Tower\">Bitexco Financial Tower</a>, Liberty Central Saigon Riverside Hotel, Renaissance Riverside Hotel Saigon, Melinh Point Tower, <a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a>, Hilton Saigon Hotel, <a href=\"https://en.wikipedia.org/wiki/Vietcombank_Tower\" class=\"extiw\" title=\"w:Vietcombank Tower\">Vietcombank Tower</a>, <a href=\"https://en.wikipedia.org/wiki/Saigon_Centre\" class=\"extiw\" title=\"w:Saigon Centre\">Saigon Centre</a>, Sheraton Grand Opera Saigon Hotel, The Landmark, Saigon Riverside Office Center, Lotte Hotel Saigon and some significant low-rise buildings <a href=\"https://en.wikipedia.org/wiki/Hotel_Majestic_(Saigon)\" class=\"extiw\" title=\"w:Hotel Majestic (Saigon)\">Hotel Majestic</a>, Seaprodex 2-4-6 Đồng Khởi, Riverside Hotel, <a href=\"https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o\" class=\"extiw\" title=\"w:Trần Hưng Đạo\">Trần Hưng Đạo</a> statue at <a href=\"https://en.wikipedia.org/wiki/M%C3%AA_Linh_Square\" class=\"extiw\" title=\"w:Mê Linh Square\"> Mê Linh Square</a>, IBC Building, Vietnam People's Naval Army Barracks, Tôn Đức Thắng Museum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://banghieuchuyennghiep.vn/\">https://banghieuchuyennghiep.vn/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tran Van Ngoc",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "16524252": {
+        "pageid": 16524252,
+        "ns": 6,
+        "title": "File:Times Square building (22-36 Nguyễn Huệ).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Times_Square_building_%2822-36_Nguy%E1%BB%85n_Hu%E1%BB%87%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Times_Square_building_%2822-36_Nguy%E1%BB%85n_Hu%E1%BB%87%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Times_Square_building_%2822-36_Nguy%E1%BB%85n_Hu%E1%BB%87%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Times_Square_building_(22-36_Nguy%E1%BB%85n_Hu%E1%BB%87).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16524252",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-09-17 08:06:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Times Square building (22-36 Nguyễn Huệ)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Panasonic Lumix DMC-FS62|Saigon Times Square|Self-published work|Building construction sites in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Tòa nhà Quảng trường Thời đại đang trong giai đoạn cất nóc",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-06-28",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ng%C3%B4_Trung&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ngô Trung (page does not exist)\">Ngô Trung</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Times+Square+Ho+Chi+Minh&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:28:56.002718+00:00"
+  }
+}

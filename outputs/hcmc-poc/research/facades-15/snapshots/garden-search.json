@@ -1,0 +1,583 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "131053666": {
+        "pageid": 131053666,
+        "ns": 6,
+        "title": "File:One Year Later... The Rebirth of Hue.pdf",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/One_Year_Later..._The_Rebirth_of_Hue.pdf/page1-960px-One_Year_Later..._The_Rebirth_of_Hue.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1611,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/One_Year_Later..._The_Rebirth_of_Hue.pdf/page1-960px-One_Year_Later..._The_Rebirth_of_Hue.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1611
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/One_Year_Later..._The_Rebirth_of_Hue.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:One_Year_Later..._The_Rebirth_of_Hue.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131053666",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-23 12:22:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nOne Year Later... The Rebirth of Hue</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Battle of Huế|PD US Government|Files with no machine-readable author|CC-PD-Mark|1969 books from Vietnam|Books without Wikidata item",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.vietnam.ttu.edu/virtualarchive/items.php?item=2131107001\">One Year Later...The Rebirth of Hue</a>, Vietnam Center and Sam Johnson Vietnam Archive (<a rel=\"nofollow\" class=\"external text\" href=\"https://vva.vietnam.ttu.edu/images.php?img=/images/213/2131107001.pdf\">PDF</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20230423122000/https://vva.vietnam.ttu.edu/repositories/2/digital_objects/188152\">Archive</a>)",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This work is in the <b><a href=\"https://en.wikipedia.org/wiki/en:Public_domain\" class=\"extiw\" title=\"w:en:Public domain\">public domain</a></b> in the United States because it is a <a href=\"https://en.wikipedia.org/wiki/en:Copyright_status_of_work_by_the_U.S._government\" class=\"extiw\" title=\"w:en:Copyright status of work by the U.S. government\">work prepared by an officer or employee of the United States Federal Government as part of that person’s official duties</a> under the terms of <i><a href=\"https://en.wikisource.org/wiki/en:United_States_Code/Title_17/Chapter_1/Sections_105_and_106\" class=\"extiw\" title=\"s:en:United States Code/Title 17/Chapter 1/Sections 105 and 106\">Title 17, Chapter 1, Section 105</a> of the <a href=\"https://en.wikipedia.org/wiki/United_States_Code\" class=\"extiw\" title=\"w:United States Code\">US Code</a></i>.\n<small style=\"font-weight:bold\"><u>Note</u>:  This only applies to original works of the Federal Government and not to the work of any individual <a href=\"https://en.wikipedia.org/wiki/U.S._state\" class=\"extiw\" title=\"en:U.S. state\">U.S. state</a>, <a href=\"https://en.wikipedia.org/wiki/United_States_Territory\" class=\"extiw\" title=\"w:United States Territory\">territory</a>, commonwealth, county, municipality, or any other subdivision. This template also does not apply to postage stamp designs published by the <a href=\"https://en.wikipedia.org/wiki/United_States_Postal_Service\" class=\"extiw\" title=\"w:United States Postal Service\">United States Postal Service</a> <a href=\"//commons.wikimedia.org/wiki/Stamps_of_the_United_States#Copyright-Note_up_to_1978\" title=\"Stamps of the United States\">since 1978</a>. (See § <a rel=\"nofollow\" class=\"external text\" href=\"https://copyright.gov/comp3/chap300/ch300-copyrightable-authorship.pdf\">313.6(C)(1)</a> of Compendium of U.S. Copyright Office Practices). It also does not apply to certain US coins; see <a rel=\"nofollow\" class=\"external text\" href=\"https://www.usmint.gov/policies/terms-of-use\">The US Mint Terms of Use</a>.</small>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126543634": {
+        "pageid": 126543634,
+        "ns": 6,
+        "title": "File:Record of Governmental Achievements, July 1955-July 1956.pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Record_of_Governmental_Achievements%2C_July_1955-July_1956.pdf/page1-500px-Record_of_Governmental_Achievements%2C_July_1955-July_1956.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 2166,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Record_of_Governmental_Achievements%2C_July_1955-July_1956.pdf/page1-500px-Record_of_Governmental_Achievements%2C_July_1955-July_1956.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2166
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Record_of_Governmental_Achievements%2C_July_1955-July_1956.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Record_of_Governmental_Achievements,_July_1955-July_1956.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126543634",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-12 04:43:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Record of Governmental Achievements, July 1955-July 1956",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Images with extracted images|Documents of the First Republic of Vietnam",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Record of Governmental Achievements, July 1955-July 1956",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1950s<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/8</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=HEhB1kJE9pAC\">Record of Governmental Achievements, July 1955-July 1956</a>, Google Books",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li>Republic of Vietnam</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126340050": {
+        "pageid": 126340050,
+        "ns": 6,
+        "title": "File:Republic of Vietnam An Introduction to Vietnam.pdf",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Republic_of_Vietnam_An_Introduction_to_Vietnam.pdf/page1-960px-Republic_of_Vietnam_An_Introduction_to_Vietnam.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1700,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Republic_of_Vietnam_An_Introduction_to_Vietnam.pdf/page1-960px-Republic_of_Vietnam_An_Introduction_to_Vietnam.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1700
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Republic_of_Vietnam_An_Introduction_to_Vietnam.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Republic_of_Vietnam_An_Introduction_to_Vietnam.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126340050",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-05 14:51:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Republic of Vietnam An Introduction to Vietnam",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Images with extracted images|Documents of the Second Republic of Vietnam|Documents of the Embassy of the Republic of Vietnam, Washington, D.C.",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Title: An Introduction to Vietnam<br>\nPublisher: Embassy of (the Republic of) Vietnam in Washington D.C.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1969",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=AtEUAQAAIAAJ\">Google Books</a></li>\n<li><a rel=\"nofollow\" class=\"external text\" href=\"https://www.vietnam.ttu.edu/virtualarchive/items.php?item=25590121003\">Booklet, Embassy of Vietnam, Washington, D.C. - Republic of Vietnam, An Introduction to Vietnam - re: History and Culture of Vietnam [2 Copies</a>], Vietnam Center and Sam Johnson Vietnam Archive (<a rel=\"nofollow\" class=\"external text\" href=\"https://vva.vietnam.ttu.edu/images.php?img=/images/2559/25590121003.pdf\">PDF</a>)</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Embassy of Vietnam in Washington D.C.",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126387876": {
+        "pageid": 126387876,
+        "ns": 6,
+        "title": "File:The Viet-Cong «Tet» Offensive (1968).pdf",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/The_Viet-Cong_%C2%ABTet%C2%BB_Offensive_%281968%29.pdf/page1-960px-The_Viet-Cong_%C2%ABTet%C2%BB_Offensive_%281968%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1773,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/The_Viet-Cong_%C2%ABTet%C2%BB_Offensive_%281968%29.pdf/page1-960px-The_Viet-Cong_%C2%ABTet%C2%BB_Offensive_%281968%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1773
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/The_Viet-Cong_%C2%ABTet%C2%BB_Offensive_%281968%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Viet-Cong_%C2%ABTet%C2%BB_Offensive_(1968).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126387876",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-07 02:15:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Viet-Cong «Tet» Offensive (1968)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tet Offensive|PD South Vietnam Government|Phạm Văn Sơn|PD-1996|Images with extracted images|1968 books from Vietnam|PD-US missing SDC copyright status|Documents of the Joint General Staff (South Vietnam)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ttile: The Viet-Cong «Tet» Offensive (1968)<br>\n<p>Language: English<br>\nLocation: Saigon<br>\nYear: 1968<br>\nPublisher: Printing and Publications Center, Joint General Staff of the Armed Forces of the Republic of Vietnam<br>\nSenior Editor: Ltc. Pham Van Son, Chief, Military History Division J5 - Joint General Staff RVNAF<br>\nEditor: Ltc. Le Van Duong<br>\nIllustrator: Major Nguyen Ngoc Hanh<br>\n</p>\nTranslated from the original Vietnamese by J5/JGS Translation Board with the help of Col. RObert J. Parr, Ltc. Karl H. Borcheller, Ltc. Gordon H. Francis and Ltc. George J. Hamilton, Jr.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=Sj8uAQAAIAAJ\">The Viet Cong 'Tet' Offensive (1968)</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Bộ Tổng tham mưu QLVNCH",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "For background information, see the explanations on <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Non-U.S._copyrights\" class=\"extiw\" title=\"w:Wikipedia:Non-U.S. copyrights\">Non-U.S. copyrights</a>.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "130937558": {
+        "pageid": 130937558,
+        "ns": 6,
+        "title": "File:The Viet Cong Tet Offensive 1968.pdf",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/The_Viet_Cong_Tet_Offensive_1968.pdf/page1-960px-The_Viet_Cong_Tet_Offensive_1968.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1666,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/The_Viet_Cong_Tet_Offensive_1968.pdf/page1-960px-The_Viet_Cong_Tet_Offensive_1968.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1666
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/The_Viet_Cong_Tet_Offensive_1968.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Viet_Cong_Tet_Offensive_1968.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=130937558",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-04-21 10:08:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Viet Cong Tet Offensive 1968",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Tet Offensive|PD South Vietnam Government|Phạm Văn Sơn|1968 books from Vietnam|Documents of the Joint General Staff (South Vietnam)",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Ttile: The Viet-Cong «Tet» Offensive (1968)<br>\n<p>Language: English<br>\nLocation: Saigon<br>\nYear: 1968<br>\nPublisher: Printing and Publications Center, Joint General Staff of the Armed Forces of the Republic of Vietnam<br>\nSenior Editor: Ltc. Pham Van Son, Chief, Military History Division J5 - Joint General Staff RVNAF<br>\nEditor: Ltc. Le Van Duong<br>\nIllustrator: Major Nguyen Ngoc Hanh<br>\n</p>\nTranslated from the original Vietnamese by J5/JGS Translation Board with the help of Col. RObert J. Parr, Ltc. Karl H. Borcheller, Ltc. Gordon H. Francis and Ltc. George J. Hamilton, Jr.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1968",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.vietnam.ttu.edu/virtualarchive/items.php?item=1070906001\">The Viet Cong Tet Offensive 1968</a>, Vietnam Center and Sam Johnson Vietnam Archive (<a rel=\"nofollow\" class=\"external text\" href=\"https://vva.vietnam.ttu.edu/images.php?img=/images/107/1070906001.pdf\">PDF</a>)",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Bộ Tổng tham mưu QLVNCH",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126438862": {
+        "pageid": 126438862,
+        "ns": 6,
+        "title": "File:Vietnam Magazine Vol. VII, Nº 9 1974.pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf/page1-960px-Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1730,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf/page1-960px-Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1730
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vietnam_Magazine_Vol._VII,_N%C2%BA_9_1974.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126438862",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-08 16:33:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vietnam Magazine Vol. VII, Nº 9 1974",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Images with extracted images|Vietnam Magazine 1974",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vietnam Magazine Vol. VII, Nº 9 1974",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1974",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=gDYWAQAAMAAJ\">Vietnam Magazine, Tập 7</a>, Google Books</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Vietnam Council on Foreign Relations",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Saigon+Garden+Nguyen+Hue&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:28:56.009624+00:00"
+  }
+}

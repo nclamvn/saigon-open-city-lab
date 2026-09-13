@@ -1,0 +1,620 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "94851046": {
+        "pageid": 94851046,
+        "ns": 6,
+        "title": "File:Henri-Philippe d'Orléans - Autour du Tonkin, 1894 (IA autourdutonkin00orle).pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Henri-Philippe_d%27Orl%C3%A9ans_-_Autour_du_Tonkin%2C_1894_%28IA_autourdutonkin00orle%29.pdf/page1-960px-Henri-Philippe_d%27Orl%C3%A9ans_-_Autour_du_Tonkin%2C_1894_%28IA_autourdutonkin00orle%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1802,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Henri-Philippe_d%27Orl%C3%A9ans_-_Autour_du_Tonkin%2C_1894_%28IA_autourdutonkin00orle%29.pdf/page1-960px-Henri-Philippe_d%27Orl%C3%A9ans_-_Autour_du_Tonkin%2C_1894_%28IA_autourdutonkin00orle%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1802
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Henri-Philippe_d%27Orl%C3%A9ans_-_Autour_du_Tonkin%2C_1894_%28IA_autourdutonkin00orle%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Henri-Philippe_d%27Orl%C3%A9ans_-_Autour_du_Tonkin,_1894_(IA_autourdutonkin00orle).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94851046",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-08 01:09:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nAutour du Tonkin</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by Fæ|Books without Wikidata item|IA books of at least 500 pages|Images from the Getty Research Institute|1894 books from Paris|French-language books",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nOrléans, Henri Philippe Marie, prince d', 1867-1907</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Bibliography: p. 645-650\n</p>\n<br>Subjects:</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/autourdutonkin00orle\" class=\"extiw\" title=\"iarchive:autourdutonkin00orle\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: autourdutonkin00orle</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/autourdutonkin00orle/autourdutonkin00orle.pdf\">https://archive.org/download/autourdutonkin00orle/autourdutonkin00orle.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "88860388": {
+        "pageid": 88860388,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City, Bitexco Financial Tower, 2020-01 CN-01.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 2523,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg/1280px-Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2523,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Ho_Chi_Minh_City%2C_Bitexco_Financial_Tower%2C_2020-01_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Bitexco_Financial_Tower,_2020-01_CN-01.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=88860388",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-04-02 16:59:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City, Bitexco Financial Tower, 2020-01 CN-01",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D7000|Bitexco Financial Tower|Hotels in Ho Chi Minh City|Self-published work|Supported by Wikimedia Deutschland|Photographs by Carschten|User Carschten supported by Wikimedia Deutschland (software scholarship)|Uploaded with LrMediaWiki|2020 in Ho Chi Minh City|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2020-01-16",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774196",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.703479",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/Ho_Chi_Minh_City\" class=\"extiw\" title=\"w:Ho Chi Minh City\">Ho Chi Minh City</a> (<a href=\"https://en.wikipedia.org/wiki/Vietnam\" class=\"extiw\" title=\"w:Vietnam\">Vietnam</a>) – <a href=\"https://en.wikipedia.org/wiki/Bitexco_Financial_Tower\" class=\"extiw\" title=\"w:Bitexco Financial Tower\">Bitexco Financial Tower</a> behind the Saigon Prince Hotel",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2020-01-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "95535484": {
+        "pageid": 95535484,
+        "ns": 6,
+        "title": "File:Promenades dans toutes les rues de Paris par arrondissements; origines des rues, maisons historiques ou curieuses, anciens et nouveaux hotels, enseignes (IA promenadesdansto16roch).pdf",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Promenades_dans_toutes_les_rues_de_Paris_par_arrondissements%3B_origines_des_rues%2C_maisons_historiques_ou_curieuses%2C_anciens_et_nouveaux_hotels%2C_enseignes_%28IA_promenadesdansto16roch%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 2065,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Promenades_dans_toutes_les_rues_de_Paris_par_arrondissements%3B_origines_des_rues%2C_maisons_historiques_ou_curieuses%2C_anciens_et_nouveaux_hotels%2C_enseignes_%28IA_promenadesdansto16roch%29.pdf/page1-500px-thumbnail.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2065
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Promenades_dans_toutes_les_rues_de_Paris_par_arrondissements%3B_origines_des_rues%2C_maisons_historiques_ou_curieuses%2C_anciens_et_nouveaux_hotels%2C_enseignes_%28IA_promenadesdansto16roch%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Promenades_dans_toutes_les_rues_de_Paris_par_arrondissements;_origines_des_rues,_maisons_historiques_ou_curieuses,_anciens_et_nouveaux_hotels,_enseignes_(IA_promenadesdansto16roch).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95535484",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-27 17:42:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nPromenades dans toutes les rues de Paris par arrondissements; origines des rues, maisons historiques ou curieuses, anciens et nouveaux hotels, enseignes</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Félix de Rochegude|Scans from the Internet Archive/unverified|PD US expired|Scans from the Internet Archive|Books uploaded by Fæ|Books without Wikidata item|Images from the Getty Research Institute|French-language books",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nRochegude, Felix, marquis de, 1863-</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<p>Each vol. is numbered to indicate the arrondissement it covers (i. e., v.1 covers the 1st arrondisement, v. 2 covers the 2d, etc.) and each has its own index on street names; there is no general index to all street names in the set\n</p>\n<br>Subjects: Streets</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/promenadesdansto16roch\" class=\"extiw\" title=\"iarchive:promenadesdansto16roch\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: promenadesdansto16roch</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/promenadesdansto16roch/promenadesdansto16roch.pdf\">https://archive.org/download/promenadesdansto16roch/promenadesdansto16roch.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "143507946": {
+        "pageid": 143507946,
+        "ns": 6,
+        "title": "File:Saigon Prince Hotel.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Saigon_Prince_Hotel.jpg/1280px-Saigon_Prince_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1705,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Saigon_Prince_Hotel.jpg/1920px-Saigon_Prince_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Saigon_Prince_Hotel.jpg/1280px-Saigon_Prince_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1705,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Saigon_Prince_Hotel.jpg/1920px-Saigon_Prince_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Saigon_Prince_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Saigon_Prince_Hotel.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143507946",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-01-04 11:51:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Saigon Prince Hotel",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Nguyen Hue Flower Street|Hotels in Ho Chi Minh City|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|2024 in Ho Chi Minh City|Vietnam photographs taken on 2024-01-04",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.772921",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.704133",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Saigon Prince Hotel (hotel in Ho Chi Minh City, Vietnam)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 4 January 2024",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Vano111ru&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Vano111ru (page does not exist)\">Vano111ru</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126483020": {
+        "pageid": 126483020,
+        "ns": 6,
+        "title": "File:The Acceptance of Western Cultures in Viet-Nam (from the XVIth to the XXth Century).pdf",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf/page1-960px-The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1634,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf/page1-960px-The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1634
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Acceptance_of_Western_Cultures_in_Viet-Nam_(from_the_XVIth_to_the_XXth_Century).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126483020",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-10 00:53:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Acceptance of Western Cultures in Viet-Nam (from the XVIth to the XXth Century)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|1966 books from Vietnam|Nguyễn Khắc Kham",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Acceptance of Western Cultures in Viet-Nam: from the XVIth to the XXth Century (Paper Presented to the International Symposium on East Asian Countries' Acceptance of Western Cultures Held in Tokyo from October 3 Through 8, 1966)<br>\n<p>Author: Nguyễn Khắc Kham<br>\nPublisher: Ministry of Culture and Social Affairs Directorate of National Archives and Libraries<br>\nLocation: Saigon<br>\n</p>\nYear: 1966",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1966",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=VMxAO8QYzqkC\">Google Books</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li>Nguyễn Khắc Kham</li>\n<li>Ministry of Culture and Social Affairs Directorate of National Archives and Libraries</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "91679044": {
+        "pageid": 91679044,
+        "ns": 6,
+        "title": "File:The Grog Ration Vol. 4 No. 1, January-February 2009 (IA TheGrogRationVol4Number1JanFeb2009).pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/The_Grog_Ration_Vol._4_No._1%2C_January-February_2009_%28IA_TheGrogRationVol4Number1JanFeb2009%29.pdf/page1-960px-The_Grog_Ration_Vol._4_No._1%2C_January-February_2009_%28IA_TheGrogRationVol4Number1JanFeb2009%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1656,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/The_Grog_Ration_Vol._4_No._1%2C_January-February_2009_%28IA_TheGrogRationVol4Number1JanFeb2009%29.pdf/page1-960px-The_Grog_Ration_Vol._4_No._1%2C_January-February_2009_%28IA_TheGrogRationVol4Number1JanFeb2009%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1656
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/The_Grog_Ration_Vol._4_No._1%2C_January-February_2009_%28IA_TheGrogRationVol4Number1JanFeb2009%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Grog_Ration_Vol._4_No._1,_January-February_2009_(IA_TheGrogRationVol4Number1JanFeb2009).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91679044",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-06-28 22:04:54",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nThe Grog Ration Vol. 4 No. 1, January-February 2009</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|CC-PD-Mark|Books uploaded by Fæ|Books without Wikidata item|The Grog, 2009",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nU.S. Navy. Bureau of Medicine and Surgery</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\nThe Grog Ration Vol. 4 No. 1, January-February 2009<div><br></div><div><div>The National Hotel Disease by Ludwig Deppisch, MD ...page 1</div></div><div><br></div><div><div>A Song for Navy Medicine by Andre Sobocinski ... page 6</div><div><br></div><div>Navy Medical Humor Through the Years ... page 9</div><div><br></div><div>Scuttlebutt ...page 10</div><div><br></div><div>Gordian Knots: History Quiz ...page 12</div></div>\n<br>Subjects: Presidential medicine; Ludwig Deppisch; Jonathan Foltz; Corpsman Up!; music; song; Joe Worley; Brian Dix; Marine Corps Drum and Bugle Corps; Hospital Corps;</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/TheGrogRationVol4Number1JanFeb2009\">https://archive.org/details/TheGrogRationVol4Number1JanFeb2009</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/TheGrogRationVol4Number1JanFeb2009/The%20Grog%20Ration%20-%20Vol%204%20Number%201%20-%20Jan-Feb%202009.pdf\">https://archive.org/download/TheGrogRationVol4Number1JanFeb2009/The%20Grog%20Ration%20-%20Vol%204%20Number%201%20-%20Jan-Feb%202009.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Saigon+Prince+Hotel&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:28:55.958687+00:00"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "bytes": 51222515,
+  "checks": {
+    "times_runtime_inlined": true,
+    "dedicated_data_inlined": true,
+    "zoom_fix_inlined": true,
+    "performance_inlined": true,
+    "no_external_script_src": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "tests": 6,
+  "results": [
+    {
+      "handler": "wheel",
+      "view": "facades",
+      "start": 150,
+      "result": 135.726,
+      "pass": true
+    },
+    {
+      "handler": "wheel",
+      "view": "facades",
+      "start": 35,
+      "result": 35,
+      "pass": true
+    },
+    {
+      "handler": "wheel",
+      "view": "overview",
+      "start": 250,
+      "result": 250,
+      "pass": true
+    },
+    {
+      "handler": "keyboard_plus",
+      "view": "facades",
+      "start": 150,
+      "result": 132,
+      "pass": true
+    },
+    {
+      "handler": "keyboard_plus",
+      "view": "facades",
+      "start": 35,
+      "result": 35,
+      "pass": true
+    },
+    {
+      "handler": "keyboard_plus",
+      "view": "overview",
+      "start": 250,
+      "result": 250,
+      "pass": true
+    }
+  ]
+}

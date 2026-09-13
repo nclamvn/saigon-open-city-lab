@@ -1,0 +1,37 @@
+{
+  "format": "short excerpts manually recorded from web tool retrieval; not full HTML snapshots",
+  "retrieved_at": "2026-09-13T10:49:43.873192+00:00",
+  "claims": [
+    {
+      "entity": "Vietcombank Tower",
+      "field": "architectural_height_m",
+      "value": 206,
+      "evidence_span": "Height 206 m / 676 ft",
+      "url": "https://www.skyscrapercenter.com/ho-chi-minh-city/vietcombank-tower/10275/"
+    },
+    {
+      "entity": "Sheraton Saigon",
+      "field": "floor_23_exists",
+      "value": true,
+      "evidence_span": "Wine Bar on Level 23",
+      "url": "https://www.marriott.com/en-us/hotels/sgnsi-sheraton-saigon-hotel-and-towers/overview/"
+    }
+  ],
+  "inferences": [
+    {
+      "entity": "Sheraton Saigon",
+      "height_m": 73.6,
+      "rule": "23 × assumed 3.2m; not measured"
+    },
+    {
+      "entity": "City Hall",
+      "height_m": 26,
+      "rule": "visual approximation from facade image aspect and mapped frontage"
+    },
+    {
+      "entity": "Park Hyatt",
+      "height_m": 32,
+      "rule": "visual floor-count estimate and assumed spacing"
+    }
+  ]
+}

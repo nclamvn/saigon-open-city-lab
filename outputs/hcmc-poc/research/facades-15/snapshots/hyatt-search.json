@@ -1,0 +1,656 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "49057129": {
+        "pageid": 49057129,
+        "ns": 6,
+        "title": "File:Deputy White House Press Secretary Schultz Introduces Secretary Kerry to Brief the White House Press Corps in Ho Chi Minh City (27237284906).jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg/1280px-Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg/3840px-Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg/1280px-Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg/3840px-Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827237284906%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Deputy_White_House_Press_Secretary_Schultz_Introduces_Secretary_Kerry_to_Brief_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_(27237284906).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49057129",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-05-27 21:40:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Deputy White House Press Secretary Schultz Introduces Secretary Kerry to Brief the White House Press Corps in Ho Chi Minh City (27237284906)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D4S|PD US DOS|Flickr images reviewed by FlickreviewR|Photographs by the U.S. Department of State|Files with coordinates missing SDC location of creation|Photographs taken on 2016-05-24|Park Hyatt Saigon|John Kerry in May 2016",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.793513",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.696815",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Deputy White House Press Secretary Eric Schultz introduces U.S. Secretary of State John Kerry before he briefs the White House press corps on May 24, 2016, at the Park Hyatt Saigon Hotel in Ho Chi Minh City, Vietnam, as he accompanies President Obama during his trip to Vietnam. [State Department photo/ Public Domain]",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-05-24 07:16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/statephotos/27237284906/\">Deputy White House Press Secretary Schultz Introduces Secretary Kerry to Brief the White House Press Corps in Ho Chi Minh City</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9364837@N06\">U.S. Department of State</a> from United States",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "3942706": {
+        "pageid": 3942706,
+        "ns": 6,
+        "title": "File:Park Hyatt Saigon.jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Park_Hyatt_Saigon.jpg/1280px-Park_Hyatt_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/8/83/Park_Hyatt_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Park_Hyatt_Saigon.jpg/1280px-Park_Hyatt_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/83/Park_Hyatt_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Park_Hyatt_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Saigon.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3942706",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2008-04-26 08:15:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Park Hyatt Saigon",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon PowerShot A620|Flickr images reviewed by FlickreviewR|Park Hyatt Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "...looked better without cars and things in front of it",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2006-09-20 14:58",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/41894167210@N01/249429292/\">Our hotel...</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41894167210@N01\">Joshua Rappeneker</a> from Tokyo, Japan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "30754168": {
+        "pageid": 30754168,
+        "ns": 6,
+        "title": "File:Park Hyatt Saigon (5327558470).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Park_Hyatt_Saigon_%285327558470%29.jpg/1280px-Park_Hyatt_Saigon_%285327558470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/28/Park_Hyatt_Saigon_%285327558470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Park_Hyatt_Saigon_%285327558470%29.jpg/1280px-Park_Hyatt_Saigon_%285327558470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/28/Park_Hyatt_Saigon_%285327558470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Park_Hyatt_Saigon_%285327558470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Saigon_(5327558470).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30754168",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-01-23 01:35:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Park Hyatt Saigon (5327558470)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Pentax K-x|Flickr images reviewed by File Upload Bot (Magnus Manske)|Media needing category review as of 14 April 2016|Park Hyatt Saigon|Photographs by Matt Weibo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Park Hyatt Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-07-17 13:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/21065622@N08/5327558470/\">Park Hyatt Saigon</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21065622@N08\">Matt @ PEK</a> from Taipei, Taiwan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "30754167": {
+        "pageid": 30754167,
+        "ns": 6,
+        "title": "File:Park Hyatt Saigon (5327558856).jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Park_Hyatt_Saigon_%285327558856%29.jpg/1280px-Park_Hyatt_Saigon_%285327558856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Park_Hyatt_Saigon_%285327558856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Park_Hyatt_Saigon_%285327558856%29.jpg/1280px-Park_Hyatt_Saigon_%285327558856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Park_Hyatt_Saigon_%285327558856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Park_Hyatt_Saigon_%285327558856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Saigon_(5327558856).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30754167",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2014-01-23 01:35:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Park Hyatt Saigon (5327558856)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Pentax K-x|Flickr images reviewed by File Upload Bot (Magnus Manske)|Media needing category review as of 14 April 2016|Park Hyatt Saigon|Photographs by Matt Weibo",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Park Hyatt Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-07-17 13:11",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/21065622@N08/5327558856/\">Park Hyatt Saigon</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21065622@N08\">Matt @ PEK</a> from Taipei, Taiwan",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "18390893": {
+        "pageid": 18390893,
+        "ns": 6,
+        "title": "File:Park Hyatt hotel and the bombing memorial today.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg/1280px-Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg/1280px-Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_hotel_and_the_bombing_memorial_today.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=18390893",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2012-06-27 22:58:47",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Park Hyatt hotel and the bombing memorial today",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Panasonic Lumix DMC-TZ7|Self-published work|War memorials in Vietnam|Brinks Hotel Bombing|Park Hyatt Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Hotel Brinks Memorial at the side of the contemporary Park Hyatt Hotel in Ho Chi Minh City",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-09-22",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons.</bdi>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Amore_Mio\" class=\"extiw\" title=\"en:User:Amore Mio\">Amore Mio</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Amore_Mio\" class=\"extiw\" title=\"wikipedia:User:Amore Mio\">Amore Mio</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "49057131": {
+        "pageid": 49057131,
+        "ns": 6,
+        "title": "File:Secretary Kerry Briefs the White House Press Corps in Ho Chi Minh City (27200985241).jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg/1280px-Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 853,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg/3840px-Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg/1280px-Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 853,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg/3840px-Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_%2827200985241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Secretary_Kerry_Briefs_the_White_House_Press_Corps_in_Ho_Chi_Minh_City_(27200985241).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49057131",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-05-27 21:40:31",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Secretary Kerry Briefs the White House Press Corps in Ho Chi Minh City (27200985241)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Nikon D4S|PD US DOS|Flickr images reviewed by FlickreviewR|Photographs by the U.S. Department of State|Files with coordinates missing SDC location of creation|Photographs taken on 2016-05-24|Park Hyatt Saigon|John Kerry in May 2016",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.793513",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.696815",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "U.S. Secretary of State John Kerry briefs the White House press corps on May 24, 2016, at the Park Hyatt Saigon Hotel in Ho Chi Minh City, Vietnam, as he accompanies President Obama during his trip to Vietnam. [State Department photo/ Public Domain]",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2016-05-24 07:18",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/statephotos/27200985241/\">Secretary Kerry Briefs the White House Press Corps in Ho Chi Minh City</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9364837@N06\">U.S. Department of State</a> from United States",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=%22Park+Hyatt%22+%22Saigon%22&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:33:08.202934+00:00"
+  }
+}

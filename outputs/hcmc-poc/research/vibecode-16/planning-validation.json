@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sourceRecords": 4,
+  "jsonJsIdentity": true,
+  "invalidFixturesRejected": 6,
+  "archivedHtmlHashChecks": 2,
+  "planningGeometryLayers": 0,
+  "planningStages": 0,
+  "limit": "Validates provenance structure and fail-closed gate, not legal approval or cartographic accuracy."
+}

@@ -1,0 +1,634 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "93268308": {
+        "pageid": 93268308,
+        "ns": 6,
+        "title": "File:Aerztliche Mittheilungen aus Aegypten (IA b22332133).pdf",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Aerztliche_Mittheilungen_aus_Aegypten_%28IA_b22332133%29.pdf/page1-500px-Aerztliche_Mittheilungen_aus_Aegypten_%28IA_b22332133%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 2136,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Aerztliche_Mittheilungen_aus_Aegypten_%28IA_b22332133%29.pdf/page1-500px-Aerztliche_Mittheilungen_aus_Aegypten_%28IA_b22332133%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 2136
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Aerztliche_Mittheilungen_aus_Aegypten_%28IA_b22332133%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aerztliche_Mittheilungen_aus_Aegypten_(IA_b22332133).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93268308",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-08-18 16:03:48",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nAerztliche Mittheilungen aus Aegypten</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD-old-100-expired|Scans from the Internet Archive/unverified|CC-PD-Mark|Scans from the Internet Archive|Books uploaded by Fæ|Books without Wikidata item|Medical Heritage Library",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\n<dl><dd>Flora, Anton</dd>\n<dd>Royal College of Surgeons of England</dd></dl></div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>The Royal College of Surgeons of England</dd>\n<dd>This material has been provided by The Royal College of Surgeons of England. The original may be consulted at The Royal College of Surgeons of England</dd></dl>\n<br>Subjects: Climate; Epidemiology</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/b22332133\" class=\"extiw\" title=\"iarchive:b22332133\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: b22332133</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/b22332133/b22332133.pdf\">https://archive.org/download/b22332133/b22332133.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/publicdomain/mark/1.0/\">PDM</a> This work is available under the Creative Commons, Public Domain Mark",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "92239672": {
+        "pageid": 92239672,
+        "ns": 6,
+        "title": "File:Journal of the Straits Branch of the Royal Asiatic Society (IA journalof192018871889roya).pdf",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Journal_of_the_Straits_Branch_of_the_Royal_Asiatic_Society_%28IA_journalof192018871889roya%29.pdf/page1-500px-Journal_of_the_Straits_Branch_of_the_Royal_Asiatic_Society_%28IA_journalof192018871889roya%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1827,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Journal_of_the_Straits_Branch_of_the_Royal_Asiatic_Society_%28IA_journalof192018871889roya%29.pdf/page1-500px-Journal_of_the_Straits_Branch_of_the_Royal_Asiatic_Society_%28IA_journalof192018871889roya%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1827
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Journal_of_the_Straits_Branch_of_the_Royal_Asiatic_Society_%28IA_journalof192018871889roya%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Journal_of_the_Straits_Branch_of_the_Royal_Asiatic_Society_(IA_journalof192018871889roya).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=92239672",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-07-14 14:58:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "<div class=\"fn\">\nJournal of the Straits Branch of the Royal Asiatic Society</div>",
+                "source": "commons-desc-page"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Journal of the Straits Branch of the Royal Asiatic Society|Scans from the Internet Archive/unverified|PD US expired|Files from the Biodiversity Heritage Library|Scans from the Internet Archive|Books uploaded by Fæ|Books without Wikidata item|Books from the Biodiversity Heritage Library",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<div class=\"fn value\">\nRoyal Asiatic Society of Great Britain and Ireland. Straits Branch</div>",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "<div class=\"description\">\n<dl><dd>Sept. 1921. A bibliographic enumeration of Bornean plants, by E. D. Merrill</dd>\n<dd>No. 1-50, 1878-1908. (Issued as no. 51); No. 1-86, 1878-1922. 1 v</dd>\n<dd>Superseded by Journal of the Malayan (later Malaysian) Branch of the Royal Asiatic Society</dd></dl>\n<br>Subjects: Malayan languages</div>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<dl><dd><a href=\"//archive.org/details/journalof192018871889roya\" class=\"extiw\" title=\"iarchive:journalof192018871889roya\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: journalof192018871889roya</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/journalof192018871889roya/journalof192018871889roya.pdf\">https://archive.org/download/journalof192018871889roya/journalof192018871889roya.pdf</a></dd></dl>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "60336186": {
+        "pageid": 60336186,
+        "ns": 6,
+        "title": "File:NGa Sau Cong Hoa,tp Hồ Chí Minh, Hồ Chí Minh 70000, Việt Nam - panoramio.jpg",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg/1280px-NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/5/56/NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg/1280px-NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/56/NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/NGa_Sau_Cong_Hoa%2Ctp_H%E1%BB%93_Ch%C3%AD_Minh%2C_H%E1%BB%93_Ch%C3%AD_Minh_70000%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:NGa_Sau_Cong_Hoa,tp_H%E1%BB%93_Ch%C3%AD_Minh,_H%E1%BB%93_Ch%C3%AD_Minh_70000,_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60336186",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-06-24 08:22:55",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "NGa Sau Cong Hoa,tp Hồ Chí Minh, Hồ Chí Minh 70000, Việt Nam - panoramio",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "District 5, Ho Chi Minh City|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Vietnam photographs taken on 2016-02-12|Photos from Panoramio ID 5317517",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.765278",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.681389",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "NGa Sau Cong Hoa,tp Hồ Chí Minh, Hồ Chí Minh 70000, Việt Nam",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "Taken on 12 February 2016",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161031141542/http://www.panoramio.com/photo/128189662\">https://web.archive.org/web/20161031141542/http://www.panoramio.com/photo/128189662</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031141550/http://www.panoramio.com/user/5317517?with_photo_id=128189662\">trungydang</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">trungydang</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 24 June 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "trungydang",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "128456796": {
+        "pageid": 128456796,
+        "ns": 6,
+        "title": "File:Royal Hotel Saigon P1310937.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Royal_Hotel_Saigon_P1310937.jpg/1280px-Royal_Hotel_Saigon_P1310937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 926,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Royal_Hotel_Saigon_P1310937.jpg/3840px-Royal_Hotel_Saigon_P1310937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Royal_Hotel_Saigon_P1310937.jpg/1280px-Royal_Hotel_Saigon_P1310937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 926,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Royal_Hotel_Saigon_P1310937.jpg/3840px-Royal_Hotel_Saigon_P1310937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Royal_Hotel_Saigon_P1310937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Royal_Hotel_Saigon_P1310937.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128456796",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-02-06 11:51:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Royal Hotel Saigon P1310937",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Panasonic Lumix DMC-GX8|Hotels in Ho Chi Minh City|Self-published work|F-number f/5.6|Files with coordinates missing SDC location of creation|Lens focal length 14 mm",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774867",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.702818",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Royal Hotel Saigon in Ho Chi Minh Stad (Saigon)",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-02-01 09:54:33",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:FredTC\" title=\"User:FredTC\">FredTC</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126483020": {
+        "pageid": 126483020,
+        "ns": 6,
+        "title": "File:The Acceptance of Western Cultures in Viet-Nam (from the XVIth to the XXth Century).pdf",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf/page1-960px-The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1634,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf/page1-960px-The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1634
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Acceptance_of_Western_Cultures_in_Viet-Nam_%28from_the_XVIth_to_the_XXth_Century%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Acceptance_of_Western_Cultures_in_Viet-Nam_(from_the_XVIth_to_the_XXth_Century).pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126483020",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-10 00:53:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "The Acceptance of Western Cultures in Viet-Nam (from the XVIth to the XXth Century)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|1966 books from Vietnam|Nguyễn Khắc Kham",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Acceptance of Western Cultures in Viet-Nam: from the XVIth to the XXth Century (Paper Presented to the International Symposium on East Asian Countries' Acceptance of Western Cultures Held in Tokyo from October 3 Through 8, 1966)<br>\n<p>Author: Nguyễn Khắc Kham<br>\nPublisher: Ministry of Culture and Social Affairs Directorate of National Archives and Libraries<br>\nLocation: Saigon<br>\n</p>\nYear: 1966",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1966",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=VMxAO8QYzqkC\">Google Books</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li>Nguyễn Khắc Kham</li>\n<li>Ministry of Culture and Social Affairs Directorate of National Archives and Libraries</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "126438862": {
+        "pageid": 126438862,
+        "ns": 6,
+        "title": "File:Vietnam Magazine Vol. VII, Nº 9 1974.pdf",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf/page1-960px-Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1730,
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf/page1-960px-Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1730
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vietnam_Magazine_Vol._VII%2C_N%C2%BA_9_1974.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vietnam_Magazine_Vol._VII,_N%C2%BA_9_1974.pdf",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126438862",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2022-12-08 16:33:45",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Vietnam Magazine Vol. VII, Nº 9 1974",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD South Vietnam Government|Images with extracted images|Vietnam Magazine 1974",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Vietnam Magazine Vol. VII, Nº 9 1974",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1974",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"https://books.google.com/books?id=gDYWAQAAMAAJ\">Vietnam Magazine, Tập 7</a>, Google Books</li></ul>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Vietnam Council on Foreign Relations",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Royal+Hotel+Saigon&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:30:21.904394+00:00"
+  }
+}

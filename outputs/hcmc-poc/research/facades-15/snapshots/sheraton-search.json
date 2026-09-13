@@ -1,0 +1,659 @@
+{
+  "batchcomplete": "",
+  "continue": {
+    "gsroffset": 6,
+    "continue": "gsroffset||"
+  },
+  "query": {
+    "pages": {
+      "151016626": {
+        "pageid": 151016626,
+        "ns": 6,
+        "title": "File:Ho Chi Minh City Skyline at Night.jpg",
+        "index": 6,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 675,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg/1280px-Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 675,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ho_Chi_Minh_City_Skyline_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Skyline_at_Night.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151016626",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-07-31 05:01:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh City Skyline at Night",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Skylines of Ho Chi Minh City|Saigon River in Ho Chi Minh City",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The image captures the vibrant and illuminated skyline of Ho Chi Minh City (formerly known as Saigon) at night. Prominent skyscrapers from left to right, including the <a href=\"https://en.wikipedia.org/wiki/IFC_One_Saigon\" class=\"extiw\" title=\"w:IFC One Saigon\">IFC One Saigon</a>, Ho Chi Minh City Customs Department Building, Bitexco Office Building, Harbour View Tower, Osic Building, <a href=\"https://en.wikipedia.org/wiki/Bitexco_Financial_Tower\" class=\"extiw\" title=\"w:Bitexco Financial Tower\">Bitexco Financial Tower</a>, Liberty Central Saigon Riverside Hotel, Renaissance Riverside Hotel Saigon, Melinh Point Tower, <a href=\"https://en.wikipedia.org/wiki/Saigon_Times_Square\" class=\"extiw\" title=\"w:Saigon Times Square\">Saigon Times Square</a>, Hilton Saigon Hotel, <a href=\"https://en.wikipedia.org/wiki/Vietcombank_Tower\" class=\"extiw\" title=\"w:Vietcombank Tower\">Vietcombank Tower</a>, <a href=\"https://en.wikipedia.org/wiki/Saigon_Centre\" class=\"extiw\" title=\"w:Saigon Centre\">Saigon Centre</a>, Sheraton Grand Opera Saigon Hotel, The Landmark, Saigon Riverside Office Center, Lotte Hotel Saigon and some significant low-rise buildings <a href=\"https://en.wikipedia.org/wiki/Hotel_Majestic_(Saigon)\" class=\"extiw\" title=\"w:Hotel Majestic (Saigon)\">Hotel Majestic</a>, Seaprodex 2-4-6 Đồng Khởi, Riverside Hotel, <a href=\"https://en.wikipedia.org/wiki/Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o\" class=\"extiw\" title=\"w:Trần Hưng Đạo\">Trần Hưng Đạo</a> statue at <a href=\"https://en.wikipedia.org/wiki/M%C3%AA_Linh_Square\" class=\"extiw\" title=\"w:Mê Linh Square\"> Mê Linh Square</a>, IBC Building, Vietnam People's Naval Army Barracks, Tôn Đức Thắng Museum",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2024-07-30",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://banghieuchuyennghiep.vn/\">https://banghieuchuyennghiep.vn/</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Tran Van Ngoc",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139964515": {
+        "pageid": 139964515,
+        "ns": 6,
+        "title": "File:Ho Chi Minh city - view from 23th floor Sheraton hotel (3479552102).jpg",
+        "index": 5,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg/1280px-Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 960,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg/1280px-Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 960,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_%283479552102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_city_-_view_from_23th_floor_Sheraton_hotel_(3479552102).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139964515",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-01 23:34:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ho Chi Minh city - view from 23th floor Sheraton hotel (3479552102)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Rex Hotel|Le Loi Boulevard, Ho Chi Minh City|Flickr images reviewed by FlickreviewR 2|Passage Eden|Files uploaded by Đại Việt quốc/Flickr/Saigon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "đường trục chính vào UBND thành phố (toà nhà ktrúc Pháp, có treo cờ). Đứng đây nhìn toàn cảnh thấy rõ quy hoạch khu trung tâm HCM city tốt hơn HN nhiều. Khu Phú Mỹ Hưng còn even better",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-04-23 13:50",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/8143471@N03/3479552102/\">Ho Chi Minh city - view from 23th floor Sheraton hotel</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8143471@N03\">Mai Lan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "163850088": {
+        "pageid": 163850088,
+        "ns": 6,
+        "title": "File:Sheraton Saigon Hotel from Coffee - 1 Jan 2025.jpg",
+        "index": 2,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg/1280px-Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 720,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg/3840px-Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg/1280px-Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 720,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg/3840px-Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163850088",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-04-20 05:41:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sheraton Saigon Hotel from Coffee - 1 Jan 2025",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Self-published work|Files with coordinates missing SDC location of creation|Tòa nhà",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.775511",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.703781",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Khách sạn Sheraton Saigon có 2 tòa tháp là Main Tower và Grand Tower",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-01-01",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MinhKhoi1234&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MinhKhoi1234 (page does not exist)\">MinhKhoi1234</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "13299236": {
+        "pageid": 13299236,
+        "ns": 6,
+        "title": "File:Sheraton u Caravelle Hotel HChMS.JPG",
+        "index": 3,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Sheraton_u_Caravelle_Hotel_HChMS.JPG/1280px-Sheraton_u_Caravelle_Hotel_HChMS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/1/19/Sheraton_u_Caravelle_Hotel_HChMS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Sheraton_u_Caravelle_Hotel_HChMS.JPG/1280px-Sheraton_u_Caravelle_Hotel_HChMS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/1/19/Sheraton_u_Caravelle_Hotel_HChMS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Sheraton_u_Caravelle_Hotel_HChMS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sheraton_u_Caravelle_Hotel_HChMS.JPG",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13299236",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2011-02-14 13:05:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sheraton u Caravelle Hotel HChMS",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|Taken with Nikon Coolpix P100|License migration redundant|Caravelle Hotel|Le Loi Boulevard, Ho Chi Minh City|Self-published work|Sheraton Saigon Hotel",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Sheraton-Hotel und Caravelle-Hotel in Ho Chi Minh City",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2010-12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hajotthu\" title=\"User:Hajotthu\">Hajotthu</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "46489800": {
+        "pageid": 46489800,
+        "ns": 6,
+        "title": "File:Sheraton und Caravelle Hotel.jpg",
+        "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sheraton_und_Caravelle_Hotel.jpg/1280px-Sheraton_und_Caravelle_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 927,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sheraton_und_Caravelle_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sheraton_und_Caravelle_Hotel.jpg/1280px-Sheraton_und_Caravelle_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 927,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sheraton_und_Caravelle_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sheraton_und_Caravelle_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sheraton_und_Caravelle_Hotel.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46489800",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-01-19 18:26:37",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Sheraton und Caravelle Hotel",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Caravelle Hotel|Self-published work|Files with coordinates missing SDC location of creation|Sheraton Saigon Hotel",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "10.774192",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "106.705318",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "The Sheraton und Caravelle Hotels in Ho Chi Minh City, seen from Grand Hotel Saigon",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-05 06:43:38",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:RThiele&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:RThiele (page does not exist)\">RThiele</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139964506": {
+        "pageid": 139964506,
+        "ns": 6,
+        "title": "File:TP HCM nhìn từ balcony lầu 23 ks Sheraton (3478742989).jpg",
+        "index": 4,
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg/1280px-TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1280,
+            "thumbheight": 1707,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/76/TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg/1280px-TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1280,
+              "height": 1707,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/76/TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_%283478742989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:TP_HCM_nh%C3%ACn_t%E1%BB%AB_balcony_l%E1%BA%A7u_23_ks_Sheraton_(3478742989).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139964506",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-01 23:34:23",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "TP HCM nhìn từ balcony lầu 23 ks Sheraton (3478742989)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Lam Son Square|Flickr images reviewed by FlickreviewR 2|Passage Eden|Files uploaded by Đại Việt quốc/Flickr/Saigon|Dong Khoi Street",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "đường chính dẫn tới Nhà thờ đức bà Notradame",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2009-04-23 13:49",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/8143471@N03/3478742989/\">TP HCM nhìn từ balcony lầu 23 ks Sheraton</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/8143471@N03\">Mai Lan</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "_capture": {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch=Sheraton+Saigon&gsrnamespace=6&gsrlimit=6&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1280",
+    "fetched_at": "2026-09-13T10:30:13.687241+00:00"
+  }
+}

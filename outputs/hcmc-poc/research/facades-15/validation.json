@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "unique_facades": 20,
+    "unique_buildings": 20,
+    "source_files_hashed": 20,
+    "source_license_matches": 20,
+    "convex_photo_quads": 20,
+    "footprint_anchor_matches": 20,
+    "embedded_atlas_byte_identity": true,
+    "eligible_surfaces": 15,
+    "nonplanar_surfaces_held": 5,
+    "podium_height_overrides": 0,
+    "reported_podium_and_corner_regression_removed": true,
+    "runtime_captured_facades": 3,
+    "same_camera_ab_and_geometry_restoration": true
+  },
+  "runtime_captures": [
+    "cityhall",
+    "sunwah",
+    "vietcombank"
+  ],
+  "classification": "site_photo_facade_patches_on_approximate_open_map_geometry",
+  "limit": "Source identity and geometry anchors validated. Metric accuracy, complete building reconstruction and current site condition are not verified."
+}

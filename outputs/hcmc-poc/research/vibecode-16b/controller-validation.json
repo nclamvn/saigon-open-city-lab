@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "tests": 8,
+  "results": [
+    "baseline preserves DPR/shadow/interaction behavior",
+    "baseline telemetry finite and render counters aggregated",
+    "camera change applies bounded temporary quality",
+    "idle restores exact requested DPR/reflection size and records transitions",
+    "shadow caching invalidates on geometry state",
+    "reflection cadence is time based",
+    "optimized telemetry finite and render counters aggregated",
+    "time-based easing matches at 15 and 60 FPS"
+  ],
+  "limit": "Mocked controller behavior; browser/GPU performance requires same-view measurements."
+}

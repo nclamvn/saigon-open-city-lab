@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+
+	<head>
+	
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+		<title>Support &middot; Kenney</title>
+		
+		<meta name='description' content=''>
+		<meta name='keywords' content='Games, Software, Game assets, Assets, Gamedev'>
+		<meta name='author' content='Kenney'>
+		
+		<script>
+		
+			(function(){
+				
+				const savedTheme = localStorage.getItem('theme');
+				const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				
+				if(savedTheme === 'dark' || (!savedTheme && systemDark)){
+					
+					document.documentElement.classList.add('dark');
+					
+				}else{
+					
+					document.documentElement.classList.remove('dark');
+					
+				}
+				
+			})();
+		
+		</script>
+		
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/bootstrap-grid.min.css?1' />
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/fonts.css?1' />
+		
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/kenney.css?1' />
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/kenney-common.css?1' />
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/kenney-dark.css?1' />
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/kenney-forms.css?1' />
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/kenney-sidebar.css?1' />
+		
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/animate.min.css?1' />
+		<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/code-github-dark-dimmed.css' />
+		
+		<!-- OpenGraph !-->
+		
+		<meta property='og:url'	content='https://kenney.nl/support' />
+		<meta property='og:type' content='article' />
+	
+		<meta property='og:title' content='Support &middot; Kenney' />
+		
+		<!-- Meta !-->
+		
+		<meta name='twitter:card' content='summary_large_image'>
+		<meta property='twitter:domain' content='kenney.nl'>
+		<meta property='twitter:url' content='https://kenney.nl/support'>
+		<meta name='twitter:title' content='Support &middot; Kenney'>
+		
+		<meta property='og:image'	content='https://kenney.nl/data/img/kenney-promo.png' />		
+				
+	</head>
+	
+	<body class='wrapper'>
+	
+			
+	<a target='_blank' href='https://kenney.itch.io/kenney-game-assets' class='warning no-select'><img src='https://kenney.nl/data/img/sparkles.svg' height='20px' style='vertical-align: bottom; margin-right:0.25em' /> Get Kenney Game Assets All-in-1 to download <em>everything</em> at once, plus free updates!</a>
+	
+	
+		<div id='header-container'>
+			<div id='header'>
+			
+				<div class='logo-full mobile-show'>
+					<a href='https://kenney.nl'><img src="https://kenney.nl/data/img/logo.png" srcset="https://kenney.nl/data/img/logo@2.png 2x"/></a>
+				</div>
+				
+					<div class="navigation">
+					
+						<ul>
+							<li class='icon mobile-show'><a href='#' onclick="openNavigation()"><span><img width='20' height='20' style='vertical-align: middle;' src='https://kenney.nl/data/img/icons/menu.svg'/></span></a></li>
+						
+							<li class='logo mobile-hide'>
+								<a href='https://kenney.nl'><img src="https://kenney.nl/data/img/logo.png" srcset="https://kenney.nl/data/img/logo@2.png 2x"/></a>
+							</li>
+							
+							<div class='mobile-hide'>
+								<li class='item '><a href='https://kenney.nl/games'><span>Games</span></a></li>
+								<li class='item '><a href='https://kenney.nl/tools'><span>Tools</span></a></li>
+								<li class='item '><a href='https://kenney.nl/assets'><span>Assets</span></a></li>
+								<li class='item '><a href='https://kenney.nl/starter-kits'><span>Starter Kits</span></a></li>
+							</div>
+						</ul>
+						
+					</div>
+					
+					<div class="navigation right">
+					
+						<ul class='mobile-hide'>
+							<li class='icon'><a class='toggle-theme' href='#'><img width='20' height='20' style='vertical-align: middle' src='https://kenney.nl/data/img/icons/icon-mode-dark.svg'/></a></li>
+							<li class='item '><a href='https://kenney.nl/donate'><span>Donate</span></a></li>
+						</ul>
+					
+					</div>
+					
+					<div id="sidebar" class='sidebar' class='no-select'>
+					
+						<a href="javascript:void(0)" class="close" onclick="closeNavigation()">&times;</a>
+						
+						<div class="sidebar-menu">
+							<a href="https://kenney.nl/games">Games</a>
+							<a href="https://kenney.nl/tools">Tools</a>
+							<a href="https://kenney.nl/assets">Assets</a>
+							<a href="https://kenney.nl/starter-kits">Starter Kits</a>
+						</div>
+						
+						<hr>
+						
+						<div class="sidebar-menu small">
+							<a href="https://kenney.nl/support">Support</a>
+							<a href="https://kenney.nl/knowledge-base">Knowledge Base</a>
+							<a href="https://kenney.nl/donate">Donate</a>
+						</div>
+						
+						<hr>
+						
+						<div class="sidebar-menu small">
+							<a class='toggle-theme' href='#'><img width='20' height='20' style='vertical-align: middle; filter: brightness(0) invert(1)' src='https://kenney.nl/data/img/icons/icon-mode-dark.svg'/></a>
+						</div>
+						
+					</div>
+				
+				<div style='clear:both'></div>
+				
+			</div>
+		</div>
+		
+		<!-- Tab !-->
+		
+		<div id='content'>
+
+<section class='mobile-padding'>
+
+	<div class='container text-justify'>
+	
+		<h1 class='text-center'>Common questions</h1>
+		
+		<div class='row gx-5'>
+		
+						
+			<div class='col-md-6'>
+			<p>
+				<h2 class='text-center'>Can I use the game assets in a (commercial) project?</h2>
+				<div class='content text-justify'><p>Yes, all game assets on the <a href="https://kenney.nl/assets">asset pages</a> are public domain licensed (CC0). You’re free to use them, even in commercial projects. For full details, see the included license file or visit the asset page.</p></div>
+			</p>
+			</div>
+			
+						
+			<div class='col-md-6'>
+			<p>
+				<h2 class='text-center'>Is attribution required when using the game assets?</h2>
+				<div class='content text-justify'><p>Attribution is not required, but if you choose to give credit you can do so by mentioning "Kenney". Do not use our logo, as it is reserved for official projects by our studio.</p></div>
+			</p>
+			</div>
+			
+						
+			<div class='col-md-6'>
+			<p>
+				<h2 class='text-center'>How can I use the game assets in my game engine?</h2>
+				<div class='content text-justify'><p>Unfortunately, we’re unable to provide support for importing assets into specific game engines. We recommend consulting the <a href="https://kenney.nl/knowledge-base">knowledge base</a> or the documentation/community of your chosen engine.</p></div>
+			</p>
+			</div>
+			
+						
+			<div class='col-md-6'>
+			<p>
+				<h2 class='text-center'>I have an idea for new game assets, can I share it?</h2>
+				<div class='content text-justify'><p>Absolutely! We're happy to hear suggestions. Feel free to share your idea with us on <a href="https://bsky.app/profile/kenney.nl">social media</a>. Please don't use the contact form or send an email, as those messages won't be read.</p></div>
+			</p>
+			</div>
+			
+						
+			<div class='col-md-6'>
+			<p>
+				<h2 class='text-center'>I've lost the download or e-mail for a purchased product</h2>
+				<div class='content text-justify'><p>You can recover lost downloads or purchases through <a href="https://itch.io/support">Itch.io support</a>, <a href="https://help.steampowered.com/">Steam support</a> or <a href="https://www.epicgames.com/help/en-US/">Epic Games Store support</a>.</p></div>
+			</p>
+			</div>
+			
+						
+			<div class='col-md-6'>
+			<p>
+				<h2 class='text-center'>I have a question that isn’t listed</h2>
+				<div class='content text-justify'><p>Your question might already be answered in the <a href="https://kenney.nl/knowledge-base">knowledge base</a>. If you still need help, feel free to reach out to Kenney using the contact form below.</p></div>
+			</p>
+			</div>
+			
+					
+		</div>
+		
+	</div>
+	
+</section>
+
+<section class='purple large-padding'>
+
+	<span class='wave top'></span>
+
+	<div class='container text-justify'>
+	
+		<h1 id='contact' class='text-center'>Contact</h1>
+		
+				
+		<form autocomplete='off' method="post" action="https://kenney.nl/support#contact">
+		
+			<div class="honeypot">
+				<label for="website">Website <abbr title="required">*</abbr></label>
+				<input type="url" id="website" name="website" tabindex="-1">
+				<input type="text" id="subject" name="subject" placeholder="Subject">
+            </div>
+		
+			<div class="form-row">
+				<p><input type="text" id="name" name="name" placeholder="Your name" value="" required></p>
+								
+				<p><input type="email" id="mail" name="mail" placeholder="Your email address" value="" required></p>
+							</div>
+			
+						
+			<p>
+				<select id="category" name="category" required>
+					<option value="" disabled selected hidden>Subject</option>
+					<option value="Customer service">Customer service</option>
+					<option value="Bug report">Bug report</option>
+					<option value="Game assets">Game asset(s)</option>
+					<option value="Press">Press</option>
+					<option value="Job application">Job/internship applications</option>
+					<option value="Other inquiries">Other inquiries</option>
+				</select>
+			</p>
+			
+			<p><textarea id='text' name='text' type="text" required rows="7" placeholder="Message"></textarea></p>
+						
+			<p class='text-center'>
+				<input type='submit' value='Send message' name='submit' class='button light'>
+			</p>
+			
+		</form>
+		
+	</div>
+	
+</section>
+
+	</div>
+
+<footer class='text-muted'>
+	
+	<div class='row mobile-stack horizontal-list text-center'>
+	
+		<div class='col'>
+		
+			<span>Copyright &copy; 2010 - 2026 &middot; All rights reserved</span>
+		
+		</div>
+	
+	</div>
+	
+	<div class='row mobile-stack text-center'>
+	
+		<div class='col mobile-text-center mobile-margin-top horizontal-list'>
+		
+					
+			<a href='https://kenney.nl/support'>Support</a>
+			<a href='https://kenney.nl/knowledge-base'>Knowledge Base</a>
+			<a href='https://kenney.nl/privacy-policy'>Privacy Policy</a>
+			<a href='https://kenney.nl/terms-of-service'>Terms of Service</a>
+			
+						
+		</div>
+	
+	</div>
+	
+</footer>
+
+
+<link rel='stylesheet' type='text/css' href='https://kenney.nl/data/css/lity.min.css' />
+
+<script type='text/javascript' src='https://kenney.nl/data/js/mobile-menu.js'></script>
+<script type='text/javascript' src='https://kenney.nl/data/js/jquery.slim.min.js'></script>
+<script type='text/javascript' src='https://kenney.nl/data/js/lity.min.js'></script>
+<script type='text/javascript' src='https://kenney.nl/data/js/kenney.js'></script>
+<script type='text/javascript' src='https://kenney.nl/data/js/kenney-theme-switching.js'></script>
+
+<a style='display:none' rel="me" href="https://mastodon.gamedev.place/@kenney">Mastodon</a>
+
+</body>
+</html>
+
+<!-- Rendered at 2026-09-08 10:10:10 -->
+<style>
+
+	/* Content */
+	
+	.content{
+		
+		font-size: 95%;
+		line-height: 1.7em;
+		
+	}
+	
+	.content a{
+		
+		color:#4e82e3;
+		text-decoration: none;
+		
+	}
+	
+	.content a:hover{ color:inherit; text-decoration: underline; }
+
+	/* Alert */
+	
+	.alert{
+		
+		display: inline;
+		border-radius: 0.3em;
+		padding: 0.2em 0.6em;
+		font-size: 90%;
+	
+	}
+	
+	.alert.success{
+		
+		font-weight:bold;
+		
+		display:block;
+		
+		text-align:center;
+		
+		color:white;
+		background-color:#262633;
+	
+	}
+	
+	.alert.error{
+		
+		background-color: #EE0451;
+	
+	}
+	
+	.honeypot{
+		
+		position: absolute;
+		left: -9999px;
+		
+	}
+	
+	/* Row */
+	
+	.form-row {
+		
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+		
+	}
+	
+	.form-row p {
+		
+		flex: 1;
+		margin: 0;
+		
+	}
+	
+	@media (max-width: 600px){
+		
+		.form-row { flex-direction: column; }
+		
+	}
+	
+</style>

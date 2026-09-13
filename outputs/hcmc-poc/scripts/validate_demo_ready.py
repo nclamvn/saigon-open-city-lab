@@ -39,7 +39,7 @@ checks = {
     "referenced_assets_exist": all((ROOT / asset).is_file() for asset in assets),
     "demo_shell_loads_last": audit.scripts[-1] == "demo-shell.js",
     "cache_version_is_demo_build": all(token in index for token in [
-        "style.css?v=13c", "app.js?v=13c", "reality-enrichment-13.js?v=13c", "demo-shell.js?v=13c"
+        "style.css?v=15b", "app.js?v=16d", "reality-enrichment-13.js?v=16c", "demo-shell.js?v=15b"
     ]),
     "invalid_views_fail_safely": "if(!p)return false" in app,
     "map_keys_pause_behind_overlays": all(token in app for token in [
