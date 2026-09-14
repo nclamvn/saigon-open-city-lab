@@ -1,0 +1,57 @@
+test_bilinear_centres (__main__.ScientificTests.test_bilinear_centres) ... ok
+test_bilinear_nodata (__main__.ScientificTests.test_bilinear_nodata) ... ok
+test_bilinear_outside_pixel_centres (__main__.ScientificTests.test_bilinear_outside_pixel_centres) ... ok
+test_bilinear_zero_weight_nodata_ignored (__main__.ScientificTests.test_bilinear_zero_weight_nodata_ignored) ... ok
+test_coarse_spacing_not_advertised_as_high_resolution (__main__.ScientificTests.test_coarse_spacing_not_advertised_as_high_resolution) ... ok
+test_cog_applies_scale_and_preserves_nodata (__main__.ScientificTests.test_cog_applies_scale_and_preserves_nodata) ... ok
+test_dcat_rdf_distribution_join (__main__.ScientificTests.test_dcat_rdf_distribution_join) ... ok
+test_dcat_unresolved_distribution_explicit (__main__.ScientificTests.test_dcat_unresolved_distribution_explicit) ... ok
+test_frame_grid_north_up (__main__.ScientificTests.test_frame_grid_north_up) ... ok
+test_native_window_expands_only_integer_source_pixels (__main__.ScientificTests.test_native_window_expands_only_integer_source_pixels) ... ok
+test_nodata_is_not_zero_ground (__main__.ScientificTests.test_nodata_is_not_zero_ground) ... ok
+test_provider_nonidentity_scale_offset_preserved (__main__.ScientificTests.test_provider_nonidentity_scale_offset_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.116s
+
+OK
+{
+  "checks": [
+    {
+      "id": "imagery",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "ground",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "dsm",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "id": "ground-uncertainty",
+      "hashMatches": true,
+      "bytesMatch": true
+    }
+  ],
+  "referenceHeightM": 3.8793262243270874,
+  "sourceObservedImageryDate": "2026-04-26T03:25:12.458000Z",
+  "valid": true,
+  "notSurveyed": true
+}
+{
+  "dcatDatasets": 102,
+  "spatialCandidates": 5,
+  "existingPhotoHashesMatch": true,
+  "existingReferenceCount": 20,
+  "metadataRecordsAudited": 100,
+  "multiViewLeadSizes": [
+    4,
+    3
+  ],
+  "readyReconstructionAssets": 0
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "S2C_T48PXS_20260720T031436_L2A",
+    "captureDate": "2026-07-20T03:25:17.980000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/7/S2C_T48PXS_20260720T031436_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 27.737826,
+    "localClasses": {
+      "2": 6,
+      "3": 12782,
+      "4": 7620,
+      "5": 22537,
+      "6": 4396,
+      "7": 5664,
+      "8": 23274,
+      "9": 21913
+    },
+    "localCloudShadowPercent": 59.036378,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2C_T48PXS_20260720T031436_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2C_T48PXS_20260501T032327_L2A",
+    "captureDate": "2026-05-01T03:25:17.438000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/5/S2C_T48PXS_20260501T032327_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 7.290363,
+    "localClasses": {
+      "2": 21,
+      "3": 17,
+      "4": 11331,
+      "5": 62442,
+      "6": 5472,
+      "7": 80,
+      "8": 2188,
+      "9": 253,
+      "10": 16388
+    },
+    "localCloudShadowPercent": 19.19301,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2C_T48PXS_20260501T032327_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2C_T48PXS_20260401T031741_L2A",
+    "captureDate": "2026-04-01T03:25:17.166000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/4/S2C_T48PXS_20260401T031741_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 7.769393,
+    "localClasses": {
+      "2": 28,
+      "3": 1543,
+      "4": 12362,
+      "5": 73858,
+      "6": 8660,
+      "7": 433,
+      "8": 1060,
+      "9": 248
+    },
+    "localCloudShadowPercent": 2.903495,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2C_T48PXS_20260401T031741_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2B_T48PXS_20260317T032004_L2A",
+    "captureDate": "2026-03-17T03:25:12.804000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/3/S2B_T48PXS_20260317T032004_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 0.51587,
+    "localClasses": {
+      "2": 136,
+      "4": 15082,
+      "5": 74530,
+      "6": 8301,
+      "7": 143
+    },
+    "localCloudShadowPercent": 0.0,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2B_T48PXS_20260317T032004_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2A_T48PXS_20260403T032317_L2A",
+    "captureDate": "2026-04-03T03:25:36.558000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/4/S2A_T48PXS_20260403T032317_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 22.519486,
+    "localClasses": {
+      "3": 537,
+      "4": 6731,
+      "5": 78688,
+      "6": 8183,
+      "7": 1045,
+      "8": 1452,
+      "9": 1556
+    },
+    "localCloudShadowPercent": 3.610274,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2A_T48PXS_20260403T032317_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2B_T48PXS_20260426T032223_L2A",
+    "captureDate": "2026-04-26T03:25:12.458000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/4/S2B_T48PXS_20260426T032223_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 21.729444,
+    "localClasses": {
+      "2": 26,
+      "4": 12152,
+      "5": 77163,
+      "6": 8797,
+      "7": 54
+    },
+    "localCloudShadowPercent": 0.0,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2B_T48PXS_20260426T032223_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2C_T48PXS_20260325T033123_L2A",
+    "captureDate": "2026-03-25T03:35:13.855000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/3/S2C_T48PXS_20260325T033123_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 8.695676,
+    "localClasses": {
+      "0": 18589,
+      "2": 189,
+      "4": 10075,
+      "5": 67698,
+      "6": 1486,
+      "7": 155
+    },
+    "localCloudShadowPercent": 0.0,
+    "localNodataPercent": 18.931277,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2C_T48PXS_20260325T033123_L2A-scl-native-window.tif"
+  },
+  {
+    "id": "S2C_T48PXS_20260322T032011_L2A",
+    "captureDate": "2026-03-22T03:25:18.875000Z",
+    "sourceUrl": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/48/P/XS/2026/3/S2C_T48PXS_20260322T032011_L2A/SCL.tif",
+    "sourceCRS": "EPSG:32648",
+    "window": [
+      4205,
+      235,
+      304,
+      323
+    ],
+    "sourceTileCloudPercent": 8.608169,
+    "localClasses": {
+      "2": 78,
+      "3": 377,
+      "4": 14328,
+      "5": 52495,
+      "6": 8502,
+      "7": 2771,
+      "8": 12721,
+      "9": 6920
+    },
+    "localCloudShadowPercent": 20.38659,
+    "localNodataPercent": 0.0,
+    "derivedNativeWindow": "research/vibecode-18/evidence-source-owned/S2C_T48PXS_20260322T032011_L2A-scl-native-window.tif"
+  }
+]

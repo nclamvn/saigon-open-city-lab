@@ -1,0 +1,988 @@
+{
+  "admissionPolicy": {
+    "hashVerifiesBytesNotReality": true,
+    "leadMayNotIngest": true,
+    "physicalIdentityReconciliationComplete": false,
+    "surveyClaimsRequireIndependentQC": true,
+    "unknownCaptureDateAllowedForScreening": true
+  },
+  "approvedPlanningGeometry": false,
+  "bbox": [
+    106.684,
+    10.75,
+    106.739,
+    10.808
+  ],
+  "defaultBuildingSource": "osm",
+  "disclosure": [
+    "Polygons and heights may be source model estimates, never independent survey measurements.",
+    "Unique source identities are not verified physical buildings or cadastral parcels.",
+    "No approved future geometry has been added. Scenario A/B/C is an analytical what-if, not approved city planning."
+  ],
+  "frame": {
+    "description": "Adapter reproduces existing render coordinates. It is not a survey projection or evidence of measured positional accuracy.",
+    "geographicCRS": "EPSG:4326",
+    "kind": "local-linear",
+    "metresPerDegreeLat": 110574,
+    "metresPerDegreeLon": 109355.85473456763,
+    "origin": [
+      106.7115,
+      10.779
+    ],
+    "surveyCRS": false,
+    "units": "m",
+    "verticalDatum": null,
+    "xAxis": "east",
+    "zAxis": "south"
+  },
+  "hydrology": {
+    "calibrationVerified": false,
+    "drainageVerified": false,
+    "rainfallVerified": false,
+    "tideOrBoundaryConditionsVerified": false
+  },
+  "id": "hcmc",
+  "input": {
+    "bytes": 30200554,
+    "path": "hcmc-poc/data/scene.json",
+    "role": "native_scene",
+    "sha256": "92c7b70bebbe7c0c35cc9c4cb972a60ee72777558619d675e456ea247f1bb804",
+    "url": "/hcmc-poc/data/scene.json"
+  },
+  "name": "City Lab · Thành phố Hồ Chí Minh",
+  "schema": "rtr-twin-project/1.0",
+  "scope": "Existing central technical sample, 38.57 km²; not all post-merger city territory and not a surveyed boundary.",
+  "sources": [
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "acquired"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [
+        {
+          "bytes": 16417958,
+          "path": "hcmc-poc/data/osm-raw.json",
+          "role": "data",
+          "sha256": "3124e5bafe27958e47aa763b88b02fd60b893b56ec0a2329dda439d6d6aaf087",
+          "url": "/hcmc-poc/data/osm-raw.json"
+        },
+        {
+          "bytes": 1587,
+          "path": "hcmc-poc/data/quality-report.json",
+          "role": "data",
+          "sha256": "1c86d906437055c57759bf06149315225cda18264deacef118f3af5374a038af",
+          "url": "/hcmc-poc/data/quality-report.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "degree",
+      "coverage": [
+        106.684,
+        10.75,
+        106.739,
+        10.808
+      ],
+      "horizontalCRS": "EPSG:4326",
+      "id": "osm",
+      "limitations": [
+        "Snapshot timestamp is not image capture date. Community mapping geometry and height attributes are not survey grade.",
+        "Mapped parts retain source IDs; different way IDs may describe the same physical building."
+      ],
+      "provenance": {
+        "filterLog": {
+          "area_below_8m2": 91,
+          "inconsistent_min_height": 1,
+          "landmark_raw_parts_replaced_with_labeled_illustration": 3,
+          "parent_podium": 63
+        },
+        "geometry": "OSM ways clipped with Shapely; water multipolygon relations assembled; local equirectangular metre projection; not a survey CRS",
+        "heightRule": "OSM height; else building:levels*3.2m; else footprint-area classes + deterministic <=1.3m variation. Parent footprints with mapped parts are rendered as <=9m podiums. Height raw fields retained.",
+        "heightsAreSurveyed": false,
+        "meta": {
+          "areaKm2": 38.57,
+          "bbox": [
+            106.684,
+            10.75,
+            106.739,
+            10.808
+          ],
+          "center": [
+            106.7115,
+            10.779
+          ],
+          "depth": 6413,
+          "ground": "flat reference plane; not surveyed terrain",
+          "imagery": "EOX Sentinel-2 2016/2017 CC BY 4.0",
+          "overture": {
+            "added": 60392,
+            "downloaded": 70699,
+            "floorPresentInDownload": 661,
+            "heightPresentInDownload": 170,
+            "overlappingExcluded": 10093,
+            "release": "2026-08-19.0",
+            "rule": "Reject candidate when >10% area overlaps OSM geometry. No claim of verified identity matching.",
+            "tinyExcluded": 222
+          },
+          "quality": {
+            "estimated": 70017,
+            "height": 191,
+            "levels": 448,
+            "podium": 63
+          },
+          "rawBuildingFeatures": 10411,
+          "rawFeatures": 23309,
+          "renderedBuildings": 70719,
+          "roads": 12043,
+          "sourceDate": "2026-05-31T22:37:44Z",
+          "width": 6015
+        },
+        "sourceSha256": "3124e5bafe27958e47aa763b88b02fd60b893b56ec0a2329dda439d6d6aaf087"
+      },
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "modeled",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": true,
+        "ingestionAllowed": true,
+        "license": "ODbL-1.0",
+        "notes": null
+      },
+      "role": "footprints",
+      "snapshotTimestamp": "2026-05-31T22:37:44Z",
+      "title": "OpenStreetMap retained snapshot",
+      "units": "m",
+      "url": "https://www.openstreetmap.org/copyright",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "metadata_verified"
+      },
+      "valueUnits": {
+        "height": "m"
+      },
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "acquired"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [
+        {
+          "bytes": 40420312,
+          "path": "hcmc-poc/data/overture-region.geojson",
+          "role": "data",
+          "sha256": "4f7c67c4b9d12746ada03d8601005fe62e5b1b194e749b02d5ad2b039c9ba0dc",
+          "url": "/hcmc-poc/data/overture-region.geojson"
+        },
+        {
+          "bytes": 355,
+          "path": "hcmc-poc/data/overture-region.geojson.state",
+          "role": "data",
+          "sha256": "3a7cb11b52358831f813d5b8be9a86f850483fc00281c2dd09b4299081d50429",
+          "url": "/hcmc-poc/data/overture-region.geojson.state"
+        },
+        {
+          "bytes": 1587,
+          "path": "hcmc-poc/data/quality-report.json",
+          "role": "data",
+          "sha256": "1c86d906437055c57759bf06149315225cda18264deacef118f3af5374a038af",
+          "url": "/hcmc-poc/data/quality-report.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "degree",
+      "coverage": [
+        106.684,
+        10.75,
+        106.739,
+        10.808
+      ],
+      "horizontalCRS": "EPSG:4326",
+      "id": "overture",
+      "limitations": [
+        "GERS and original dataset source records retained per representation. Must preserve source attribution and applicable database obligations.",
+        "Existing >10% overlap exclusion is a heuristic, not verified physical identity matching.",
+        "Release date is not capture date. No verified plan/survey geometry."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": "2026-08-19.0",
+      "representation": "modeled",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": true,
+        "ingestionAllowed": true,
+        "license": "mixed open-data terms: ODbL-1.0 / CDLA-Permissive-2.0 / Google Open Buildings producer terms per original dataset",
+        "notes": null
+      },
+      "role": "footprints",
+      "sourceDatasetCounts": {
+        "Google Open Buildings": 37657,
+        "Microsoft ML Buildings": 22584,
+        "OpenStreetMap": 151
+      },
+      "sourceIdentityField": "GERS",
+      "sourceRecordsOriginalAsset": "/hcmc-poc/data/overture-region.geojson",
+      "title": "Overture Buildings 2026-08-19.0",
+      "units": "m",
+      "url": "https://docs.overturemaps.org/guides/buildings/",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "metadata_verified"
+      },
+      "valueUnits": {
+        "height": "m"
+      },
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "acquired"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [
+        {
+          "bytes": 30200554,
+          "path": "hcmc-poc/data/scene.json",
+          "role": "data",
+          "sha256": "92c7b70bebbe7c0c35cc9c4cb972a60ee72777558619d675e456ea247f1bb804",
+          "url": "/hcmc-poc/data/scene.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "degree",
+      "coverage": [
+        106.684,
+        10.75,
+        106.739,
+        10.808
+      ],
+      "horizontalCRS": "EPSG:4326",
+      "id": "illustrative",
+      "limitations": [
+        "Code-built landmark parts and spire; excluded from GIS inventory counts."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "illustrative",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": true,
+        "ingestionAllowed": true,
+        "license": "project-generated illustration",
+        "notes": null
+      },
+      "role": "illustrative",
+      "title": "Existing illustrative landmark representation",
+      "units": "m",
+      "url": "https://github.com/mrdoob/three.js",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "metadata_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "acquired"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [
+        {
+          "bytes": 17697438,
+          "path": "hcmc-poc/data/google-height-region-2023.tif",
+          "role": "data",
+          "sha256": "63f39509071f5d70459e280bb47da25a9a21bc32cfde3462c09db1d041bfe388",
+          "url": "/hcmc-poc/data/google-height-region-2023.tif"
+        },
+        {
+          "bytes": 497,
+          "path": "hcmc-poc/data/google-height-region-provenance.json",
+          "role": "data",
+          "sha256": "8b8df20dd1a9ba48a9a37f851dc639758b3f1761ae8e1ee3b382f57b16089f4a",
+          "url": "/hcmc-poc/data/google-height-region-provenance.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "m",
+      "coverage": null,
+      "horizontalCRS": "EPSG:32648",
+      "id": "google-height",
+      "limitations": [
+        "2023 is a model epoch, not an observed photographic capture. Native 0.5 m file grid has effective resolution about 4 m.",
+        "Shared normalization uses baseline scene heights; later legacy runtime corrections are not source survey."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": "v1",
+      "representation": "modeled",
+      "resolution": {
+        "effective": 4,
+        "native": 0.5,
+        "output": null,
+        "unit": "m"
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": true,
+        "ingestionAllowed": true,
+        "license": "CC-BY-4.0",
+        "notes": null
+      },
+      "role": "height_model",
+      "sourceEpoch": "2023-06-30",
+      "title": "Google Open Buildings temporal model (region)",
+      "units": "m",
+      "url": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings-temporal_v1",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "metadata_verified"
+      },
+      "valueUnits": {
+        "height": "m"
+      },
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "acquired"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [
+        {
+          "bytes": 556754,
+          "path": "hcmc-poc/data/sentinel-2016.jpg",
+          "role": "data",
+          "sha256": "1f8c4871177c3fc7de937fb28b70df4733144ece84c24a14333870747d4f73f3",
+          "url": "/hcmc-poc/data/sentinel-2016.jpg"
+        },
+        {
+          "bytes": 431,
+          "path": "hcmc-poc/data/imagery-source.json",
+          "role": "data",
+          "sha256": "906cd54c435f0a2d7c4bbe1a39747ea0378b0b397ed6ae0ee794635d37317e46",
+          "url": "/hcmc-poc/data/imagery-source.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "degree",
+      "coverage": [
+        106.684,
+        10.75,
+        106.739,
+        10.808
+      ],
+      "horizontalCRS": "EPSG:4326",
+      "id": "eox-historical",
+      "limitations": [
+        "Historical mosaic; not current imagery, facade imagery or survey orthomosaic. WMS image sampling is not native ground resolution."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "observed",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": true,
+        "ingestionAllowed": true,
+        "license": "CC-BY-4.0",
+        "notes": null
+      },
+      "role": "context_imagery",
+      "sourcePeriod": [
+        "2016",
+        "2017"
+      ],
+      "title": "EOX Sentinel 2016/2017 historical mosaic",
+      "units": "m",
+      "url": "https://cloudless.eox.at/license-non-commercial",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "metadata_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "acquired"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [
+        {
+          "bytes": 46907,
+          "path": "hcmc-poc/data/terrain.png",
+          "role": "data",
+          "sha256": "a7292ad4641bd915e852974cd8f3a94b40e5f959114f63f61b7048c7b2f06746",
+          "url": "/hcmc-poc/data/terrain.png"
+        },
+        {
+          "bytes": 204,
+          "path": "hcmc-poc/data/terrain-source.json",
+          "role": "data",
+          "sha256": "08d0647e101740a287233da96127131cfb361f3635759ea12ace785f72f21fde",
+          "url": "/hcmc-poc/data/terrain-source.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "m",
+      "coverage": null,
+      "horizontalCRS": "EPSG:3857",
+      "id": "terrarium-sample",
+      "limitations": [
+        "One retained tile; rights vary by source DEM and not resolved here. Existing City Lab ground remains a flat reference plane. Not admitted as operational terrain."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "modeled",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "terrain",
+      "title": "Retained Mapzen Terrarium sample",
+      "units": "m",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "metadata_verified"
+      },
+      "valueUnits": {
+        "height": "m"
+      },
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "hcm-open-catalog",
+      "limitations": [
+        "Verified directory lead, not 142 acquired GIS datasets. Actual access, licensing and fields require per-dataset verification."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "official_catalog",
+      "title": "Official city open-data directory: 142 datasets",
+      "units": null,
+      "url": "https://shtp.hochiminhcity.gov.vn/danh-muc-du-lieu-mo-cua-thanh-pho-ho-chi-minh-962.htm",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "hcm-planning-gis",
+      "limitations": [
+        "Directory section 105 describes GIS API datasets. No raw geometry, coordinate system, license or approval/version pairing acquired."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "planning_geometry",
+      "title": "Official planning GIS 1/2000 API directory lead",
+      "units": null,
+      "url": "https://shtp.hochiminhcity.gov.vn/Portals/0/UserFiles/63/2026_DANH_MUC_MO.pdf",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "hcm-lidar-2012",
+      "limitations": [
+        "5 m is reported terrain raster cell size, not LiDAR point spacing/density or accuracy. Raw LAS/LAZ not acquired; date/currentness and reuse rights need verification."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": 5,
+        "unit": "m"
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "point_cloud",
+      "sourcePeriod": [
+        "2012-02-28",
+        "2012-05-26"
+      ],
+      "title": "Official report mentioning 2012 LiDAR and 5 m terrain grid",
+      "units": null,
+      "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/1.%2BBCTongHop_KSatvaDanhGiaThietHaiNgapLut.pdf/b72d3dc7-101c-461b-a888-cfc7ba42427c",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "plan-hdnd-survey",
+      "limitations": [
+        "Tin hoạt động không thay thế quyết định phê duyệt hoặc bản vẽ. Không dùng các mốc thảo luận để dựng hình tương lai."
+      ],
+      "planningReference": {
+        "allowedUse": "Giải thích bối cảnh, tiến độ nghiên cứu và đầu mối hồ sơ.",
+        "approvalVerified": false,
+        "geometryReady": false,
+        "id": "hdnd-survey",
+        "limitations": "Tin hoạt động không thay thế quyết định phê duyệt hoặc bản vẽ. Không dùng các mốc thảo luận để dựng hình tương lai.",
+        "originalPublisher": "HĐND Thành phố Hồ Chí Minh",
+        "publishedAt": "2026-09-09",
+        "publisher": "HĐND Thành phố Hồ Chí Minh",
+        "rights": "Trang công khai để tham khảo và dẫn nguồn; chưa xác nhận quyền tái sử dụng dữ liệu hình học.",
+        "scope": "Thành phố Hồ Chí Minh sau hợp nhất; thời kỳ 2025–2050, tầm nhìn 100 năm theo bài viết.",
+        "sourceType": "official_activity_article",
+        "status": "Tin khảo sát · đang hoàn thiện đồ án",
+        "title": "Khảo sát công tác lập quy hoạch tổng thể, tầm nhìn 100 năm",
+        "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-do-thi/ban-do-thi-hdnd-thanh-pho-khao-sat-cong-tac-lap-quy-hoach-tong-thethanh-pho-ho-chi-minh-tam-nhin-100-nam",
+        "verification": "Đã đọc nội dung bài trên cổng HĐND; bài nêu yêu cầu tiếp tục rà soát, hoàn thiện đồ án.",
+        "verifiedAt": "2026-09-13"
+      },
+      "publishedAt": "2026-09-09",
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "planning_geometry",
+      "title": "Khảo sát công tác lập quy hoạch tổng thể, tầm nhìn 100 năm",
+      "units": null,
+      "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-do-thi/ban-do-thi-hdnd-thanh-pho-khao-sat-cong-tac-lap-quy-hoach-tong-thethanh-pho-ho-chi-minh-tam-nhin-100-nam",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "plan-hdnd-workshop",
+      "limitations": [
+        "Cổng HĐND đăng lại bài của Nhân Dân; không phải hồ sơ quy hoạch hoặc quyết định phê duyệt."
+      ],
+      "planningReference": {
+        "allowedUse": "Trình bày chủ đề hội thảo và lần theo tài liệu gốc.",
+        "approvalVerified": false,
+        "geometryReady": false,
+        "id": "hdnd-workshop",
+        "limitations": "Cổng HĐND đăng lại bài của Nhân Dân; không phải hồ sơ quy hoạch hoặc quyết định phê duyệt.",
+        "originalPublisher": "Báo Nhân Dân; tác giả Vương Lê theo nguồn cuối bài",
+        "publishedAt": "2026-06-02",
+        "publisher": "HĐND Thành phố Hồ Chí Minh",
+        "rights": "Trang công khai để tham khảo và dẫn nguồn; chưa xác nhận quyền tái sử dụng dữ liệu hình học.",
+        "scope": "Thành phố Hồ Chí Minh sau hợp nhất; các vấn đề không gian, hạ tầng và môi trường được thảo luận.",
+        "sourceType": "official_portal_republication",
+        "status": "Tin hội thảo · ý kiến định hướng",
+        "title": "Hội thảo về quy hoạch tổng thể và tầm nhìn 100 năm",
+        "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/quy-hoach-tong-the-thanh-pho-ho-chi-minh-khat-vong-the-ky-cua-mot-sieu-do-thi",
+        "verification": "Đã đọc nội dung trên cổng HĐND và nhận diện dòng tác giả cùng liên kết Nhân Dân cuối bài.",
+        "verifiedAt": "2026-09-13"
+      },
+      "publishedAt": "2026-06-02",
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "planning_geometry",
+      "title": "Hội thảo về quy hoạch tổng thể và tầm nhìn 100 năm",
+      "units": null,
+      "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/quy-hoach-tong-the-thanh-pho-ho-chi-minh-khat-vong-the-ky-cua-mot-sieu-do-thi",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "plan-qhkt-metro",
+      "limitations": [
+        "Chưa thu được lớp GIS, siêu dữ liệu hay hồ sơ phê duyệt đối chiếu. Không vẽ tuyến từ tiêu đề hoặc tự xem là đã phê duyệt."
+      ],
+      "planningReference": {
+        "allowedUse": "Mở đầu mối GIS để tra cứu, chuẩn bị yêu cầu dữ liệu có phiên bản.",
+        "approvalVerified": false,
+        "geometryReady": false,
+        "id": "qhkt-metro",
+        "limitations": "Chưa thu được lớp GIS, siêu dữ liệu hay hồ sơ phê duyệt đối chiếu. Không vẽ tuyến từ tiêu đề hoặc tự xem là đã phê duyệt.",
+        "originalPublisher": "Sở Quy hoạch – Kiến trúc Thành phố Hồ Chí Minh",
+        "publishedAt": "2026-05-19",
+        "publisher": "Sở Quy hoạch – Kiến trúc Thành phố Hồ Chí Minh",
+        "rights": "Trang công khai để tham khảo và dẫn nguồn; chưa xác nhận quyền tái sử dụng dữ liệu hình học.",
+        "scope": "Mạng lưới đường sắt đô thị TP.HCM theo tiêu đề; chưa đối chiếu ranh giới và từng tuyến trong dữ liệu.",
+        "sourceType": "official_data_lead",
+        "status": "Dự kiến · mới xác nhận đầu mối",
+        "title": "Mạng lưới đường sắt đô thị dự kiến trên GIS",
+        "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/mang-luoi-duong-sat-do-thi-du-kien-cua-thanh-pho-ho-chi-minh-theo-nghi-quyet-so-06-nqtu-da-the-hien-tren-ban-do-gis-3628.html",
+        "verification": "Đã đọc ngày và tiêu đề trong danh mục tài liệu họp. Trang chi tiết qua công cụ web chỉ trả danh mục liên quan, chưa đọc được tệp dữ liệu.",
+        "verifiedAt": "2026-09-13"
+      },
+      "publishedAt": "2026-05-19",
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "planning_geometry",
+      "title": "Mạng lưới đường sắt đô thị dự kiến trên GIS",
+      "units": null,
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/mang-luoi-duong-sat-do-thi-du-kien-cua-thanh-pho-ho-chi-minh-theo-nghi-quyet-so-06-nqtu-da-the-hien-tren-ban-do-gis-3628.html",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": null,
+        "status": "lead"
+      },
+      "approval": {
+        "decisionId": null,
+        "verified": false,
+        "version": null
+      },
+      "assets": [],
+      "captureDate": null,
+      "coordinateUnits": null,
+      "coverage": null,
+      "horizontalCRS": null,
+      "id": "plan-qhkt-drawings",
+      "limitations": [
+        "Chưa đọc tệp bản vẽ, tỷ lệ, hệ tọa độ, phiên bản và phạm vi. Ngày đăng trang không phải ngày phê duyệt đồ án."
+      ],
+      "planningReference": {
+        "allowedUse": "Lần theo bộ bản vẽ và văn bản phê duyệt tương ứng trước khi nhập.",
+        "approvalVerified": false,
+        "geometryReady": false,
+        "id": "qhkt-drawings",
+        "limitations": "Chưa đọc tệp bản vẽ, tỷ lệ, hệ tọa độ, phiên bản và phạm vi. Ngày đăng trang không phải ngày phê duyệt đồ án.",
+        "originalPublisher": "Sở Quy hoạch – Kiến trúc Thành phố Hồ Chí Minh",
+        "publishedAt": "2026-05-08",
+        "publisher": "Sở Quy hoạch – Kiến trúc Thành phố Hồ Chí Minh",
+        "rights": "Trang công khai để tham khảo và dẫn nguồn; chưa xác nhận quyền tái sử dụng dữ liệu hình học.",
+        "scope": "Tên đồ án 2040/2060; chưa xác nhận phạm vi địa giới của bộ bản vẽ, không gộp với quy hoạch tổng thể sau hợp nhất.",
+        "sourceType": "official_data_lead",
+        "status": "Đầu mối bản vẽ · chưa đối chiếu bộ hồ sơ",
+        "title": "Đầu mối bản vẽ quy hoạch chung 2040, tầm nhìn 2060",
+        "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/ban-ve-do-an-dieu-chinh-quy-hoach-chung-tphcm-den-nam-2040-tam-nhin-den-nam-2060-3623.html",
+        "verification": "Đã đọc ngày và tiêu đề trong danh mục tài liệu họp. Trang chi tiết chưa cung cấp nội dung bản vẽ cho công cụ web.",
+        "verifiedAt": "2026-09-13"
+      },
+      "publishedAt": "2026-05-08",
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "resolution": {
+        "effective": null,
+        "native": null,
+        "output": null,
+        "unit": null
+      },
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": null
+      },
+      "role": "planning_geometry",
+      "title": "Đầu mối bản vẽ quy hoạch chung 2040, tầm nhìn 2060",
+      "units": null,
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/ban-ve-do-an-dieu-chinh-quy-hoach-chung-tphcm-den-nam-2040-tam-nhin-den-nam-2060-3623.html",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "lead_verified"
+      },
+      "valueUnits": null,
+      "verticalDatum": null
+    }
+  ],
+  "surveyDataAvailable": false,
+  "techniquesCatalog": "/shared/digital-twin-core/projects/techniques.json",
+  "version": "17a"
+}

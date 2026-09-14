@@ -1,0 +1,14 @@
+{
+  "name": "geotiff",
+  "version": "3.0.5",
+  "license": "MIT",
+  "upstream": "https://github.com/geotiffjs/geotiff.js/releases/tag/v3.0.5",
+  "downloadUrl": "https://cdn.jsdelivr.net/npm/geotiff@3.0.5/dist-browser/geotiff.js",
+  "file": "geotiff-3.0.5.js",
+  "sha256": "8cfc01ffc945904766d8fb89f19da7afb799e342834454f5592fbcf0bcfe2db5",
+  "licenseFile": "GEOTIFF-3.0.5-LICENSE.txt",
+  "licenseSha256": "da0811089f254e909f69f75fa496ca97e5167a8eaa945d9a6bffdd8499b47a49",
+  "retrievedAt": "2026-09-14",
+  "runtimeRemoteDependencyRequests": false,
+  "subset": "Produced north-up EPSG4326 PixelIsArea tiled COGs: calibrated RGB8 or single-band numerical raster, explicit source admission, HTTP206 strongETag range transport, nearest window resampling and internal overviews. Decoder runs in Worker."
+}

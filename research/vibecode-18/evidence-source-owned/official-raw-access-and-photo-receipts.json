@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://api-gisxaydung.tphcm.gov.vn/arcgis/rest/services?f=pjson",
+    "retrievedAt": "2026-09-14T10:37:24.115776+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-arcgis-services.json",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contentType": "text/html; charset=UTF-8",
+    "finalUrl": "https://api-gisxaydung.tphcm.gov.vn/arcgis/rest/services?f=pjson"
+  },
+  {
+    "url": "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services?f=pjson",
+    "retrievedAt": "2026-09-14T10:37:24.116160+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-arcm-services.json",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contentType": "text/html; charset=UTF-8",
+    "finalUrl": "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services?f=pjson"
+  },
+  {
+    "url": "https://api-gisxaydung.tphcm.gov.vn/arcgis/rest/services/HCM/ThuaDat/FeatureServer/0?f=pjson",
+    "retrievedAt": "2026-09-14T10:37:24.116260+00:00",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services/HCM/RanhThuaDat/MapServer?f=pjson",
+    "retrievedAt": "2026-09-14T10:37:24.116321+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-ranhthuadat-metadata.json",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contentType": "text/html; charset=UTF-8",
+    "finalUrl": "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services/HCM/RanhThuaDat/MapServer?f=pjson"
+  },
+  {
+    "url": "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services/RASTER/RanhDoAn_QHPK/ImageServer?f=pjson",
+    "retrievedAt": "2026-09-14T10:37:24.176307+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-qhpk-imagery-metadata.json",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "contentType": "text/html; charset=UTF-8",
+    "finalUrl": "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services/RASTER/RanhDoAn_QHPK/ImageServer?f=pjson"
+  },
+  {
+    "url": "https://opendata.hochiminhcity.gov.vn/catalog.xml",
+    "retrievedAt": "2026-09-14T10:37:24.186876+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-public-dcat-catalog.xml",
+    "bytes": 541417,
+    "sha256": "a5082d8553d79849f6b4e5c88a627bb3d58e6e44a81a8c8ff8dfba9d7e794355",
+    "contentType": "application/xml",
+    "finalUrl": "https://opendata.hochiminhcity.gov.vn/catalog.xml"
+  },
+  {
+    "url": "https://opendata.hochiminhcity.gov.vn/dataset",
+    "retrievedAt": "2026-09-14T10:37:24.187000+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-public-dataset-page.html",
+    "bytes": 80115,
+    "sha256": "e46f6222f82901f5a2a1408a6a3869f4121d963174d4edc03f0f8eb0f723cc2f",
+    "contentType": "text/html; charset=utf-8",
+    "finalUrl": "https://opendata.hochiminhcity.gov.vn/search/type/dataset"
+  },
+  {
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=geosearch&gscoord=10.7765%7C106.7031&gsradius=1000&gsnamespace=6&gslimit=100",
+    "retrievedAt": "2026-09-14T10:37:24.212989+00:00",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/commons-hcmc-geosearch.json",
+    "bytes": 15627,
+    "sha256": "f25af2f64c1024e221c98ebdb2b51bb4edb34f2873b57374ec6c9bcd88985086",
+    "contentType": "application/json; charset=utf-8",
+    "finalUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&list=geosearch&gscoord=10.7765%7C106.7031&gsradius=1000&gsnamespace=6&gslimit=100"
+  }
+]

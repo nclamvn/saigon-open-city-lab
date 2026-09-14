@@ -1,0 +1,11 @@
+[
+  "https://api-gisxaydung.tphcm.gov.vn",
+  "https://api-gisxaydung.tphcm.gov.vn/arcgis/rest/services",
+  "https://api-gisxaydung.tphcm.gov.vn/arcgis/rest/services/HCM/ThuaDat/FeatureServer/0/query",
+  "https://api-gisxaydung.tphcm.gov.vn/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services",
+  "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services/HCM/RanhThuaDat/MapServer",
+  "https://api-gisxaydung.tphcm.gov.vn/arcm/rest/services/RASTER/RanhDoAn_QHPK/ImageServer",
+  "https://api-gisxaydung.tphcm.gov.vn/rest/tepchung/download/${e",
+  "https://api-gisxaydung.tphcm.gov.vn/rest/tepchung/download/${n"
+]

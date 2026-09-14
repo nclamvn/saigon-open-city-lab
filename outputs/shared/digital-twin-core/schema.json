@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rtr.local/schemas/twin-project-1.0",
+  "title": "RtR Twin project/source contract \u2014 native, not certified STAC",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "name",
+    "bbox",
+    "frame",
+    "sources"
+  ],
+  "properties": {
+    "schema": {
+      "const": "rtr-twin-project/1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bbox": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "number"
+      }
+    },
+    "frame": {
+      "$ref": "#/$defs/frame"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    }
+  },
+  "$defs": {
+    "frame": {
+      "type": "object",
+      "required": [
+        "kind",
+        "geographicCRS",
+        "origin",
+        "units",
+        "xAxis",
+        "zAxis",
+        "metresPerDegreeLon",
+        "metresPerDegreeLat",
+        "surveyCRS"
+      ],
+      "properties": {
+        "kind": {
+          "const": "local-linear"
+        },
+        "geographicCRS": {
+          "const": "EPSG:4326"
+        },
+        "origin": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "number"
+          }
+        },
+        "units": {
+          "const": "m"
+        },
+        "xAxis": {
+          "const": "east"
+        },
+        "zAxis": {
+          "enum": [
+            "north",
+            "south"
+          ]
+        },
+        "metresPerDegreeLon": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "metresPerDegreeLat": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "surveyCRS": {
+          "const": false
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "url",
+        "role",
+        "representation",
+        "release",
+        "captureDate",
+        "horizontalCRS",
+        "verticalDatum",
+        "units",
+        "resolution",
+        "rights",
+        "acquisition",
+        "validation",
+        "quality",
+        "assets",
+        "coordinateUnits",
+        "valueUnits"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "representation": {
+          "enum": [
+            "observed",
+            "modeled",
+            "surveyed",
+            "illustrative",
+            "reference"
+          ]
+        },
+        "release": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "captureDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "horizontalCRS": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verticalDatum": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "units": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "acquisition": {
+          "type": "object",
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "acquired",
+                "lead",
+                "unavailable"
+              ]
+            }
+          }
+        },
+        "rights": {
+          "type": "object",
+          "required": [
+            "license",
+            "ingestionAllowed",
+            "commercialAllowed"
+          ],
+          "properties": {
+            "license": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ingestionAllowed": {
+              "type": "boolean"
+            },
+            "commercialAllowed": {
+              "type": "boolean"
+            }
+          }
+        },
+        "validation": {
+          "type": "object",
+          "required": [
+            "stage"
+          ],
+          "properties": {
+            "stage": {
+              "enum": [
+                "lead_verified",
+                "metadata_verified",
+                "geometry_validated",
+                "survey_validated"
+              ]
+            }
+          }
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "coordinateUnits": {
+          "enum": [
+            "degree",
+            "m",
+            null
+          ]
+        },
+        "valueUnits": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

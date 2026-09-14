@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-dtm-padded-wgs84.tif",
+    "sha256": "9117a55df9c29d3f4753eb625e4414c01abb70404c39ab4b4c598bdcf6260a77",
+    "bytes": 185142
+  },
+  "bbox": [
+    106.68339999999999,
+    10.7494,
+    106.73960000000001,
+    10.8086
+  ],
+  "crs": "EPSG:4326",
+  "width": 198,
+  "height": 212,
+  "bands": 1,
+  "dtype": "float32",
+  "nodata": -9999.0,
+  "transform": [
+    0.00028383838383847594,
+    0.0,
+    106.68339999999999,
+    0.0,
+    -0.00027924528301887067,
+    10.8086
+  ],
+  "blockShapes": [
+    [
+      512,
+      512
+    ]
+  ],
+  "overviews": [
+    2,
+    4
+  ],
+  "imageStructure": {
+    "LAYOUT": "COG",
+    "COMPRESSION": "DEFLATE",
+    "INTERLEAVE": "BAND",
+    "OVERVIEW_RESAMPLING": "BILINEAR",
+    "PREDICTOR": "3"
+  },
+  "validPixels": 41976,
+  "nodataPixels": 0,
+  "min": -0.3561432361602783,
+  "max": 34.49946212768555,
+  "mean": 6.390413761138916,
+  "outputPixelSizeDegrees": [
+    0.00028383838383847594,
+    0.00027924528301887067
+  ],
+  "minimumOutputSpacingM": 31,
+  "sourceWindowSha256": "d542e4ab97ad6b33c58102bbce88c540acef7fa22573bc299c5234f28f81da8e",
+  "reprojectionResampling": "bilinear; derived grid, no effective-resolution gain"
+}

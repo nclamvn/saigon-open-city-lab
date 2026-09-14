@@ -1,0 +1,93 @@
+{
+  "schema": "rtr-source-builder-snapshot/1.0",
+  "runtime": {
+    "python": "3.12.14",
+    "executable": "/Users/os/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "rasterio": "1.5.1",
+    "GDAL": "3.12.4",
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0"
+  },
+  "testsPassed": 12,
+  "ingestionSourceContractsPassed": 3,
+  "admittedRasterAssets": 4,
+  "officialArchiveOperationalUse": "held",
+  "verifiedReconstructionAssets": 0,
+  "files": [
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/manifest.json",
+      "sha256": "3d429eb4ea8539f878406b92d786aafc7d35dbd961e34603921a450efa43b3b5",
+      "bytes": 22035
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/prepare-surfaces-18.py",
+      "sha256": "563038dab18624781278f99ae633388eea304b24b817f20c431c83e72eeb4436",
+      "bytes": 42019
+    },
+    {
+      "path": "research/vibecode-18/TIP-SOURCES.md",
+      "sha256": "c825d55d0affb964a4b4ff9c26bf6250de44be6aecb81d7d148b8ea93a113960",
+      "bytes": 1858
+    },
+    {
+      "path": "research/vibecode-18/COMPLETION-SOURCES.md",
+      "sha256": "1a0abefccbc78ac1e76133fc26e3dfea5099024a39dcd0bdc52a0a23102edac0",
+      "bytes": 11768
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/verification-command.txt",
+      "sha256": "31700fae6526d0660d82f921d33f0348ce739664882c295a2efa15e7786bcd38",
+      "bytes": 2165
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/source-gate-qc.json",
+      "sha256": "95a2f48c4e0dae9e3d9f0ad1adaba16e13e6eaeb3f966ee0514faa58c2fc1b93",
+      "bytes": 1072
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/surface-build-report.json",
+      "sha256": "c5cc07e7224516c1f1d0aa5dc5c33bfe9575f1a9da99c3eb44ee65f331b5724b",
+      "bytes": 9460
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/hcm-dcat-spatial-resolved.json",
+      "sha256": "6a46524d8ece6d6361ee04c6fe98caca65654009eee1c1572f5d338b35ce3555",
+      "bytes": 86523
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/photo-readiness.json",
+      "sha256": "03dbc1b6536d7b12663114715c0cf19342d4c2e06c062e38464cde567f1d0467",
+      "bytes": 18972
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/official-source-leads.json",
+      "sha256": "929cf4e450d0bc26d9af2f2064fe131a2dad337aa8a92ef5907e2e7d78503b77",
+      "bytes": 87109
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/official-forest-quarantine-report.json",
+      "sha256": "a7f00d3301d98b61b1ce2342c4f367d204c03a7df496325040cba54f31044312",
+      "bytes": 2298
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/S2B_T48PXS_20260426T032223_L2A-rgb-wgs84.tif",
+      "sha256": "fdef4f2464b21ec0f71dd0a8d4e2cd7e9f795adc4a6052681f039468e0afe46f",
+      "bytes": 1199280
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-dtm-padded-wgs84.tif",
+      "sha256": "9117a55df9c29d3f4753eb625e4414c01abb70404c39ab4b4c598bdcf6260a77",
+      "bytes": 185142
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/copdem-glo30-dsm-padded-wgs84.tif",
+      "sha256": "17f7c392998d7e3fa309429c03cd1843c895080a228b50584bbdf52dc9753d1a",
+      "bytes": 184603
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-uncertainty-padded-wgs84.tif",
+      "sha256": "ff24f5443f4b16a55fa9f70c45f9fbe10ff67483a52e7dd04b8a652dfa9da951",
+      "bytes": 192320
+    }
+  ]
+}

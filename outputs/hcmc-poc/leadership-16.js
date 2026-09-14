@@ -9,6 +9,7 @@
   const params = new URLSearchParams(location.search);
   const entries = window.FACADES_15?.manifest.entries || [];
   const titles = {explore:'Khám phá thành phố', planning:'Tầm nhìn quy hoạch', compare:'Đối chiếu hình ảnh', tour:'Tham quan có hướng dẫn', sources:'Nguồn & giới hạn'};
+  const panelPlugins = new Map();
   const state = {mode:'leadership', panel:null, tourIndex:-1, fullscreenOutcome:'idle'};
   let fullscreenWatch=0, noticeTimer=0;
   let returnFocus = null;
@@ -54,6 +55,7 @@
     if(q('#followMission')?.getAttribute('aria-pressed')==='true') q('#followMission').click();
   }
   function navigate(id, keepPanel=false){
+    window.dispatchEvent(new CustomEvent('citylab:before-navigate',{detail:{view:id}}));
     stopMotion();
     q('.views [data-view="'+id+'"]')?.click();
     if(id!=='cinematicnight' && typeof illumination==='function') illumination(.18);
@@ -61,6 +63,7 @@
     updateStatus();
   }
   function chooseFacade(key){
+    window.dispatchEvent(new CustomEvent('citylab:before-navigate',{detail:{view:'facades'}}));
     stopMotion();
     const select=q('#facade15Select');if(!select)return;
     select.value=key;select.dispatchEvent(new Event('change',{bubbles:true}));
@@ -86,6 +89,7 @@
     link('Ảnh gốc & giấy phép ↗',e.source_url,card);content.append(card);
   }
   function explore(){
+    if(panelPlugins.has('surface18'))action('Ảnh & địa hình',()=>openPanel('surface18')).id='surface18Explore';
     paragraph('Chọn một điểm đến, rồi kéo để xoay và cuộn để tiến gần. Mũi tên / WASD để di chuyển.','l16-lead');
     const grid=node('div',null,'l16-grid');content.append(grid);
     [['overview','Toàn khu vực'],['river','Bến Bạch Đằng'],['boulevard','Nguyễn Huệ'],['landmark','Landmark 81']].forEach(([id,name])=>action(name,()=>navigate(id),grid));
@@ -180,13 +184,17 @@
   }
   function openPanel(name){
     if(state.panel===name){closePanel();return;}
+    const renderPanel=({explore,planning,compare,tour:tourPanel,sources})[name] || panelPlugins.get(name)?.render;
+    if(typeof renderPanel!=='function')return;
+    window.dispatchEvent(new CustomEvent('citylab:before-panel',{detail:{name}}));
+    panelPlugins.get(state.panel)?.onClose?.();
     returnFocus=document.activeElement;
     window.cityUi?.closePanels();q('#selection').hidden=true;
     state.panel=name;content.replaceChildren();q('#l16Title').textContent=titles[name];
-    ({explore,planning,compare,tour:tourPanel,sources})[name]();
+    renderPanel(content);
     q('#l16Drawer').hidden=false;syncExpanded();q('#l16Close').focus();updateStatus();
   }
-  function closePanel(restore=true){state.panel=null;q('#l16Drawer').hidden=true;syncExpanded();if(restore&&returnFocus?.isConnected)returnFocus.focus();else if(!restore&&q('#l16Drawer').contains(document.activeElement))mapCanvas?.focus({preventScroll:true});updateStatus();}
+  function closePanel(restore=true){panelPlugins.get(state.panel)?.onClose?.();state.panel=null;q('#l16Drawer').hidden=true;syncExpanded();if(restore&&returnFocus?.isConnected)returnFocus.focus();else if(!restore&&q('#l16Drawer').contains(document.activeElement))mapCanvas?.focus({preventScroll:true});updateStatus();}
   function syncExpanded(){root.querySelectorAll('[data-l16-panel]').forEach(b=>attrIfChanged(b,'aria-expanded',b.dataset.l16Panel===state.panel));attrIfChanged(q('#l16Sources'),'aria-expanded',state.panel==='sources');}
   function setMode(mode){
     state.mode=mode;closePanel(false);window.cityUi?.closePanels();q('#research')?.close();
@@ -232,12 +240,21 @@
   });
   function updateStatus(){
     if(q('#loading')?.classList.contains('gone'))attrIfChanged(q('#loading'),'aria-hidden','true');
-    const labels={overview:'Toàn khu vực',river:'Bến Bạch Đằng',boulevard:'Nguyễn Huệ',landmark:'Landmark 81',facades:entry()?.name||'Mặt đứng công trình',cinematicnight:'Cảnh đêm · ánh sáng minh họa'};
+    const labels={surface18:'Ảnh & địa hình · gần đúng',overview:'Toàn khu vực',river:'Bến Bạch Đằng',boulevard:'Nguyễn Huệ',landmark:'Landmark 81',facades:entry()?.name||'Mặt đứng công trình',cinematicnight:'Cảnh đêm · ánh sáng minh họa'};
     textIfChanged(q('#l16Place'),labels[window.currentView]||'Khám phá thành phố');
     const status={version:'16b',fullscreen:{supported:document.fullscreenEnabled===true,active:!!document.fullscreenElement,outcome:state.fullscreenOutcome},mode:state.mode,panel:state.panel,view:window.currentView,daylight:typeof lightValue==='number'?lightValue:null,tourIndex:state.tourIndex,planningGeometryEnabled:false,sourceCount:window.PLANNING_16?.sources?.length||0,facade:entry()?.key||null,comparisonEligible:!!compatible(),photoEnabled:q('#facade15AB')?.getAttribute('aria-pressed')==='true',cameraSettled:q('#facade15Hud')?.dataset.cameraSettled==='true',camera:{position:camera.position.toArray().map(v=>+v.toFixed(4)),target:target.toArray().map(v=>+v.toFixed(4))}};
     attrIfChanged(q('#leadership16Status'),'data-json',JSON.stringify(status));
   }
   root.querySelectorAll('[data-l16-panel]').forEach(b=>b.onclick=()=>openPanel(b.dataset.l16Panel));
+  // Small extension point: the shell owns a single drawer and closes active tools.
+  window.CityLabPanels = Object.freeze({
+    registerPanel(name,title,render,onClose,options={}){
+      if(!/^[a-z][a-z0-9-]*$/.test(name)||titles[name]||typeof render!=='function')throw new Error('Invalid or duplicate City Lab panel');
+      titles[name]=title;panelPlugins.set(name,{render,onClose});
+      const button=node('button',title);button.dataset.l16Panel=name;button.setAttribute('aria-controls','l16Drawer');button.setAttribute('aria-expanded','false');button.onclick=()=>openPanel(name);
+      if(!options.hidden)q('.l16-nav').append(button);return button;
+    },openPanel,closePanel,stopMotion
+  });
   q('#l16Close').onclick=()=>closePanel();q('#l16Sources').onclick=()=>openPanel('sources');
   q('#l16Research').onclick=()=>setMode('research');returnButton.onclick=()=>setMode('leadership');
   q('#l16Reset').onclick=()=>{state.tourIndex=-1;navigate('overview');};
@@ -247,5 +264,6 @@
   q('#scene').addEventListener('pointerdown',()=>{if(state.mode==='leadership'){closePanel(false);mapCanvas?.focus({preventScroll:true});}});
   setMode(params.get('mode')==='research'?'research':'leadership');
   if(!params.has('view'))setTimeout(()=>navigate('overview'),120);
+  else setTimeout(()=>{const requested=params.get('view');if([...document.querySelectorAll('.views [data-view]')].some(b=>b.dataset.view===requested)&&window.currentView!==requested)navigate(requested);},120);
   setInterval(()=>{updateComparison();updateStatus();},400);
 })();

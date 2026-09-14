@@ -1,0 +1,19 @@
+{
+  "dependencies": [
+    {
+      "name": "@turf/turf",
+      "version": "7.4.0",
+      "license": "MIT",
+      "upstream": "https://github.com/Turfjs/turf/releases/tag/v7.4.0",
+      "documentation": "https://turfjs.org/docs/api/intersect",
+      "downloadUrl": "https://cdn.jsdelivr.net/npm/@turf/turf@7.4.0/turf.min.js",
+      "file": "turf-7.4.0.min.js",
+      "sha256": "5db5dda50210fa0f25394672383ba4a2e6fcde3c9e95ae0e21d62d327fc66d05",
+      "licenseFile": "TURF-LICENSE.txt",
+      "licenseSha256": "f9b32b82fd5a1d3a990526d86da97f42fb805d9f4d9f978125c4679b674fce44",
+      "retrievedAt": "2026-09-14",
+      "runtimeRemoteRequests": false,
+      "uses": ["GeoJSON RBush index", "polygon topology", "spherical area and length", "meter buffer", "polygon intersection and union"]
+    }
+  ]
+}

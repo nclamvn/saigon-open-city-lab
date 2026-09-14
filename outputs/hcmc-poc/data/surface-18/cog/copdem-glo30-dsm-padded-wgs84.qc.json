@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "path": "outputs/hcmc-poc/data/surface-18/cog/copdem-glo30-dsm-padded-wgs84.tif",
+    "sha256": "17f7c392998d7e3fa309429c03cd1843c895080a228b50584bbdf52dc9753d1a",
+    "bytes": 184603
+  },
+  "bbox": [
+    106.68339999999999,
+    10.7494,
+    106.73960000000001,
+    10.8086
+  ],
+  "crs": "EPSG:4326",
+  "width": 198,
+  "height": 212,
+  "bands": 1,
+  "dtype": "float32",
+  "nodata": -9999.0,
+  "transform": [
+    0.00028383838383847594,
+    0.0,
+    106.68339999999999,
+    0.0,
+    -0.00027924528301887067,
+    10.8086
+  ],
+  "blockShapes": [
+    [
+      512,
+      512
+    ]
+  ],
+  "overviews": [
+    2,
+    4
+  ],
+  "imageStructure": {
+    "LAYOUT": "COG",
+    "COMPRESSION": "DEFLATE",
+    "INTERLEAVE": "BAND",
+    "OVERVIEW_RESAMPLING": "BILINEAR",
+    "PREDICTOR": "3"
+  },
+  "validPixels": 41976,
+  "nodataPixels": 0,
+  "min": -2.2811532020568848,
+  "max": 38.821266174316406,
+  "mean": 7.363877773284912,
+  "outputPixelSizeDegrees": [
+    0.00028383838383847594,
+    0.00027924528301887067
+  ],
+  "minimumOutputSpacingM": 31,
+  "sourceWindowSha256": "dcf545f6a96566ef01ff5616ec74131997e9d40739f61f6e2eae9ffa5705d64c",
+  "reprojectionResampling": "bilinear; derived grid, no effective-resolution gain"
+}

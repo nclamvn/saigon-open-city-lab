@@ -1,0 +1,58 @@
+{
+  "schema": "rtr-official-archive-quarantine/1.0",
+  "asset": {
+    "path": "outputs/hcmc-poc/data/surface-18/quarantine/official-forest-2024-provider.zip",
+    "sha256": "4e0ba2cfb17a46509639904b3fe4cd0f65a218cdd37e1f341a93d61b2e1470d2",
+    "bytes": 14759558
+  },
+  "acquisition": {
+    "providerUrl": "https://opendata.hochiminhcity.gov.vn/sites/default/files/HI%E1%BB%86N%20TR%E1%BA%A0NG%20R%E1%BB%AANG_2024-20250516T091433Z-1-001.zip",
+    "retrievedAt": "2026-09-14T10:46:04.291307+00:00",
+    "ETag": "\"6827021e-e13686\"",
+    "LastModified": "Fri, 16 May 2025 09:15:10 GMT",
+    "status": 200,
+    "declaredCatalogBytes": "14759558",
+    "captureDate": null,
+    "rights": {
+      "license": null,
+      "ingestionAllowed": false,
+      "commercialAllowed": null
+    },
+    "statusForOperationalUse": "held_pending_raw_geometry_rights_and_QC",
+    "asset": {
+      "path": "outputs/hcmc-poc/data/surface-18/quarantine/official-forest-2024-provider.zip",
+      "sha256": "4e0ba2cfb17a46509639904b3fe4cd0f65a218cdd37e1f341a93d61b2e1470d2",
+      "bytes": 14759558
+    }
+  },
+  "archiveMemberCount": 3,
+  "declaredUncompressedBytes": 15004103,
+  "layers": [],
+  "licenseOrReadmeMembers": [],
+  "ingestionAllowed": false,
+  "status": "held",
+  "sourceYearLabel": "2024 in provider filename; not verified capture date",
+  "scope": "Official archive bytes acquired for audit only. No members extracted, no operational layer generated, no raw-data reuse rights inferred from public access.",
+  "archiveMembers": [
+    {
+      "name": "HIỆN TRẠNG RỪNG_2024/843_QUYET DINH_CONG_BO_HIEN_TRANG_RUNG_2024_signed.pdf",
+      "bytes": 543939,
+      "compressedBytes": 391198
+    },
+    {
+      "name": "HIỆN TRẠNG RỪNG_2024/DU LIEU RUNG PH_ĐD_SX.xlsx",
+      "bytes": 733084,
+      "compressedBytes": 693034
+    },
+    {
+      "name": "HIỆN TRẠNG RỪNG_2024/BAN_DO_HIEN TRANG RUNG TPHCM.pdf",
+      "bytes": 13727080,
+      "compressedBytes": 13673928
+    }
+  ],
+  "nativeVectorMembers": [],
+  "nativeVectorFeatureCount": null,
+  "nativeVectorCRS": null,
+  "centralScopeGeometryOverlap": null,
+  "geometryStatus": "Native vector availability is not established from PDFs or tabular spreadsheets. PDF georegistration and spreadsheet coordinate/geometry columns were not validated."
+}

@@ -1,0 +1,327 @@
+{
+  "aoi": {
+    "id": "gialoc-pilot-01",
+    "requested_bbox_wgs84": [
+      106.3276338,
+      11.0830401,
+      106.3576338,
+      11.1130401
+    ],
+    "official_boundary": false
+  },
+  "reference_epoch": {
+    "item_id": "S2B_T48PXT_20251130T033239_L2A",
+    "datetime": "2025-11-30T03:34:50.914000Z",
+    "source": "Batch02 surface acquired Sentinel-2 L2A derivative",
+    "tci_file": "outputs/tayninh-data-batch-02/derived/surface/sentinel-2-20251130-aoi-tci.tif",
+    "tci_sha256": "75226c2565ec105fca7b2d80859485ba6cc3648cf3400042ba535a7dd54cf56b",
+    "scl_file": "outputs/tayninh-data-batch-02/derived/surface/sentinel-2-20251130-aoi-scl.tif",
+    "scl_sha256": "e3a4bcf82380af044bc3f30cc2aa451dfde6440b714cfb52df130bd83a6412cc",
+    "tci_stats": {
+      "name": "reference_tci",
+      "band_min_rgb": [
+        4,
+        20,
+        0
+      ],
+      "band_max_rgb": [
+        255,
+        255,
+        255
+      ],
+      "band_mean_rgb": [
+        87.632181,
+        90.290673,
+        68.000617
+      ],
+      "all_band_nodata_pixels": 0
+    },
+    "scl_distribution": [
+      {
+        "code": 2,
+        "name": "Dark area pixels",
+        "pixels": 10,
+        "percent_of_all_pixels": 0.036072
+      },
+      {
+        "code": 4,
+        "name": "Vegetation",
+        "pixels": 18470,
+        "percent_of_all_pixels": 66.625785
+      },
+      {
+        "code": 5,
+        "name": "Not vegetated",
+        "pixels": 9070,
+        "percent_of_all_pixels": 32.717697
+      },
+      {
+        "code": 6,
+        "name": "Water",
+        "pixels": 45,
+        "percent_of_all_pixels": 0.162326
+      },
+      {
+        "code": 7,
+        "name": "Unclassified",
+        "pixels": 127,
+        "percent_of_all_pixels": 0.45812
+      }
+    ],
+    "scl_cloud_pixels_codes_8_9_10": 0,
+    "scl_shadow_pixels_code_3": 0
+  },
+  "candidate_epoch": {
+    "item_id": "S2A_T48PXT_20241220T032629_L2A",
+    "datetime": "2024-12-20T03:34:56.687000Z",
+    "tile": "T48PXT",
+    "tci_source_file": "raw/temporal/S2A_T48PXT_20241220T032629_L2A_TCI.tif",
+    "tci_source_sha256": "41e87720ab9670934baf448d6f813a9c9a198bba09f336dbef004700ff6e105a",
+    "scl_source_file": "raw/temporal/S2A_T48PXT_20241220T032629_L2A_SCL.tif",
+    "scl_source_sha256": "38d938a734671c8d8338d841b8d2e6e21b30a14a768cc1dd498b5fddc9c6b514",
+    "tci_stats": {
+      "name": "candidate_tci",
+      "band_min_rgb": [
+        24,
+        32,
+        2
+      ],
+      "band_max_rgb": [
+        255,
+        255,
+        255
+      ],
+      "band_mean_rgb": [
+        80.069906,
+        88.420822,
+        65.468699
+      ],
+      "all_band_nodata_pixels": 0
+    },
+    "scl_distribution": [
+      {
+        "code": 2,
+        "name": "Dark area pixels",
+        "pixels": 8,
+        "percent_of_all_pixels": 0.028858
+      },
+      {
+        "code": 4,
+        "name": "Vegetation",
+        "pixels": 21331,
+        "percent_of_all_pixels": 76.946108
+      },
+      {
+        "code": 5,
+        "name": "Not vegetated",
+        "pixels": 6157,
+        "percent_of_all_pixels": 22.209797
+      },
+      {
+        "code": 6,
+        "name": "Water",
+        "pixels": 14,
+        "percent_of_all_pixels": 0.050501
+      },
+      {
+        "code": 7,
+        "name": "Unclassified",
+        "pixels": 212,
+        "percent_of_all_pixels": 0.764736
+      }
+    ],
+    "scl_cloud_pixels_codes_8_9_10": 0,
+    "scl_shadow_pixels_code_3": 0
+  },
+  "grid_alignment": {
+    "crs": "EPSG:32648",
+    "tci_dimensions": [
+      330,
+      334
+    ],
+    "tci_bounds_epsg32648": [
+      644990.0,
+      1225480.0,
+      648290.0,
+      1228820.0
+    ],
+    "tci_envelope_wgs84": [
+      106.32747646376076,
+      11.08286805681983,
+      106.3578237405214,
+      11.113201106075287
+    ],
+    "tci_pixel_size_m": [
+      10.0,
+      10.0
+    ],
+    "scl_dimensions": [
+      166,
+      167
+    ],
+    "scl_bounds_epsg32648": [
+      644980.0,
+      1225480.0,
+      648300.0,
+      1228820.0
+    ],
+    "scl_envelope_wgs84": [
+      106.327384924434,
+      11.082867644886191,
+      106.35791528806256,
+      11.113201509946908
+    ],
+    "scl_pixel_size_m": [
+      20.0,
+      20.0
+    ],
+    "alignment_check": "PASS: candidate epoch uses the same tile transform, crop windows, dimensions and EPSG:32648 bounds as Batch02 Sentinel derivatives."
+  },
+  "masking": {
+    "bad_scl_codes": [
+      0,
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "bad_scl_code_meanings": {
+      "0": "No data",
+      "1": "Saturated or defective",
+      "3": "Cloud shadows",
+      "7": "Unclassified",
+      "8": "Cloud medium probability",
+      "9": "Cloud high probability",
+      "10": "Thin cirrus",
+      "11": "Snow or ice"
+    },
+    "total_tci_pixels": 110220,
+    "valid_comparison_pixels": 109338,
+    "valid_comparison_percent": 99.199782,
+    "masked_pixels": 882,
+    "masked_percent": 0.800218,
+    "old_tci_nodata_pixels": 0,
+    "new_tci_nodata_pixels": 0,
+    "old_scl_bad_pixels_on_tci_grid": 508,
+    "new_scl_bad_pixels_on_tci_grid": 838
+  },
+  "difference_algorithm": {
+    "name": "masked_rgb_distance",
+    "formula": "sqrt((dR^2+dG^2+dB^2))/(sqrt(3)*255) using TCI uint8 RGB, after combined old/new SCL and all-band nodata masks",
+    "luma_formula": "abs(0.2126*dR + 0.7152*dG + 0.0722*dB)/255 used as a secondary threshold",
+    "moderate_threshold_rgb_distance": 0.217665,
+    "moderate_threshold_luma_delta": 0.05,
+    "strong_threshold_rgb_distance": 0.28901,
+    "strong_threshold_luma_delta": 0.08,
+    "valid_score_min": 0.0,
+    "valid_score_mean": 0.09162,
+    "valid_score_p50": 0.056784,
+    "valid_score_p90": 0.217665,
+    "valid_score_p95": 0.28901,
+    "valid_score_max": 0.840854
+  },
+  "candidate_difference_pixels": {
+    "moderate_or_stronger_pixels": 10922,
+    "moderate_or_stronger_percent_of_valid": 9.989208,
+    "strong_pixels": 5455,
+    "strong_percent_of_valid": 4.989116,
+    "non_claim": "Pixels are candidate Sentinel-resolution spectral differences only; they are not building detections, new construction, violations, or ground truth."
+  },
+  "derived_files": {
+    "derived/temporal/sentinel-2-20241220-aoi-scl.pgw": {
+      "sha256": "e1356b5c48a63fc988c25dbe627744c7bf9c0b5413c58ec73d43f3e71e4d6e09",
+      "bytes": 94
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-scl.png": {
+      "sha256": "71e6ed05437a4ae97274fe528fe389391840ddb08f2868190a0e268110760efb",
+      "bytes": 5386
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-scl.prj": {
+      "sha256": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+      "bytes": 11
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-scl.tif": {
+      "sha256": "281c70cae40fc0fc4fecf3047d223f648017354207fcf16a1f98aa9fe07b636f",
+      "bytes": 4326
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-tci.pgw": {
+      "sha256": "e0ba03bfd7e5eca50cac19dbefaa25b1a823f98946b56b8b7e91abc44ec3b061",
+      "bytes": 94
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-tci.png": {
+      "sha256": "52355f6c3746d77552eb46e18a1ef24e855a76e324abc29fe5efbe9ec6a1b43f",
+      "bytes": 234017
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-tci.prj": {
+      "sha256": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+      "bytes": 11
+    },
+    "derived/temporal/sentinel-2-20241220-aoi-tci.tif": {
+      "sha256": "3c34010c43a7f96fc28d8c03253bc36c33f42b8d1bccbfac2303616f3542fb34",
+      "bytes": 284526
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-change-heatmap.pgw": {
+      "sha256": "e0ba03bfd7e5eca50cac19dbefaa25b1a823f98946b56b8b7e91abc44ec3b061",
+      "bytes": 94
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-change-heatmap.png": {
+      "sha256": "05b163b10f61844e2fda0fec8032109c0029b8d2b40c64a2d51173e3b679893f",
+      "bytes": 157440
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-change-heatmap.prj": {
+      "sha256": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+      "bytes": 11
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-mask-candidates.pgw": {
+      "sha256": "e0ba03bfd7e5eca50cac19dbefaa25b1a823f98946b56b8b7e91abc44ec3b061",
+      "bytes": 94
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-mask-candidates.png": {
+      "sha256": "5d925b795881df015b0176425af69af79a13516171621959d3ae897fe6cede9f",
+      "bytes": 13917
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-mask-candidates.prj": {
+      "sha256": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+      "bytes": 11
+    },
+    "derived/temporal/sentinel-2-20241220-vs-20251130-rgb-distance.tif": {
+      "sha256": "c9d0cb3e4f95040d48dd8ded19d5ad136f1482872560b5cf32ec6e731eacf5b7",
+      "bytes": 82145
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-scl.pgw": {
+      "sha256": "e1356b5c48a63fc988c25dbe627744c7bf9c0b5413c58ec73d43f3e71e4d6e09",
+      "bytes": 94
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-scl.png": {
+      "sha256": "6ca7fdc0cec0496a5bf96fb302f7d9d8e3db15f0ce6bd1f4d37447cbabdfd0ac",
+      "bytes": 5942
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-scl.prj": {
+      "sha256": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+      "bytes": 11
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-scl.tif": {
+      "sha256": "e3a4bcf82380af044bc3f30cc2aa451dfde6440b714cfb52df130bd83a6412cc",
+      "bytes": 4768
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-tci.pgw": {
+      "sha256": "e0ba03bfd7e5eca50cac19dbefaa25b1a823f98946b56b8b7e91abc44ec3b061",
+      "bytes": 94
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-tci.png": {
+      "sha256": "8b5825bc1f7d525eacc70df7c145a8eff805ef600f29fb1c469887d998a66505",
+      "bytes": 244992
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-tci.prj": {
+      "sha256": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+      "bytes": 11
+    },
+    "derived/temporal/sentinel-2-20251130-reference-aoi-tci.tif": {
+      "sha256": "75226c2565ec105fca7b2d80859485ba6cc3648cf3400042ba535a7dd54cf56b",
+      "bytes": 261936
+    }
+  }
+}

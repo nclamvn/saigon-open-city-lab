@@ -1,0 +1,26 @@
+{
+  "comparison": "COPDEM DSM bilinearly registered onto original GEDTM30 DTM grid, 109x109",
+  "method": "Horizontal common CRS and provider EGM2008 datum; no local control points or epoch correction. Difference is between products, never inferred per-building height or site error.",
+  "input_files": [
+    {
+      "path": "outputs/tayninh-data-batch-01/raw/global/copdem-glo30-n11-e106.tif",
+      "sha256": "49cea98dfdc9e721659dacf85b2e9e58334cc753bb94d52d0854681c51fa15bf"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/dtm-provider-window.tif",
+      "sha256": "ca1fa8593cfb71cba44cfde70b33ec1b6c6c71d7ebdbec45f64642354c0f1c20"
+    }
+  ],
+  "paired_valid_pixels": 11881,
+  "dsm_minus_dtm_m": {
+    "min": -1.8999996185302734,
+    "max": 11.12900161743164,
+    "mean": 1.5352596044540405,
+    "median": 1.2019214630126953,
+    "p05": 0.04762744903564453,
+    "p95": 4.358809471130371
+  },
+  "negative_difference_pixels": 497,
+  "gedtm_relief_m": 21.900001525878906,
+  "copdem_resampled_relief_m": 24.145042419433594
+}

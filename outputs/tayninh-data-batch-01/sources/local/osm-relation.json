@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-14T02:32:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "relation",
+  "id": 14929839,
+  "center": {
+    "lat": 11.0980401,
+    "lon": 106.3426338
+  },
+  "members": [
+    {
+      "type": "way",
+      "ref": 1558241444,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1167457084,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1558241428,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1548854058,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1548854066,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1006019490,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1548854064,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1548854065,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1548854063,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1116703804,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1417586733,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1167457083,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1167457081,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 1167457082,
+      "role": "outer"
+    },
+    {
+      "type": "relation",
+      "ref": 21215881,
+      "role": "subarea"
+    },
+    {
+      "type": "node",
+      "ref": 14113977858,
+      "role": "admin_centre"
+    }
+  ],
+  "tags": {
+    "admin_level": "6",
+    "boundary": "administrative",
+    "name": "Phường Gia Lộc",
+    "type": "boundary",
+    "wikidata": "Q10761355",
+    "wikipedia": "vi:Gia Lộc (phường)"
+  }
+}
+
+  ]
+}

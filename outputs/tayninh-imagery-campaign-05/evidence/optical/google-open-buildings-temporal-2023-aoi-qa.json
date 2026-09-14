@@ -1,0 +1,73 @@
+{
+  "actual_bounds_epsg32648": [
+    644992.3672623612,
+    1225485.0065319908,
+    648284.3672623612,
+    1228817.0065319908
+  ],
+  "aoi_bbox_wgs84": [
+    106.3276338,
+    11.0830401,
+    106.3576338,
+    11.1130401
+  ],
+  "aoi_bounds_epsg32648": [
+    644992.3672623612,
+    1225484.2373552984,
+    648284.4023861852,
+    1228817.0065319908
+  ],
+  "bands": [
+    "building_fractional_count",
+    "building_height",
+    "building_presence"
+  ],
+  "coverage_edge_trim_m": {
+    "east": 0.03512382402550429,
+    "north": 0.0,
+    "south": 0.7691766924690455,
+    "west": 0.0
+  },
+  "crs": "EPSG:32648",
+  "derived_resampled_grid_m": 4.0,
+  "dimensions": [
+    823,
+    833
+  ],
+  "effective_resolution_m_approx": 4.0,
+  "height_model_pixels_with_presence_gt_0_5": 40423,
+  "height_stats_presence_gt_0_5": {
+    "max": 17.844974517822266,
+    "mean": 5.4666547775268555,
+    "min": 0.506806492805481
+  },
+  "limitations": [
+    "Not RGB imagery",
+    "Model-derived building rasters from Sentinel-2 stacks",
+    "0.5 m file grid is not 0.5 m effective imagery; effective resolution is approximately 4 m",
+    "Height is not measured field survey height and Global South height accuracy is not independently validated here",
+    "The 4 m derived grid is rounded to whole pixels; it trims a subpixel border and must not be described as exact full-subpixel AOI coverage."
+  ],
+  "nodata": -99.0,
+  "outputs": {
+    "outputs/tayninh-imagery-campaign-05/evidence/optical/google-open-buildings-temporal-2023-aoi-effective4m.tif": "530761d4d1782b4686a8ebefe1cd785e9328ae79abcca321a775871e17d59897",
+    "outputs/tayninh-imagery-campaign-05/evidence/optical/google-open-buildings-temporal-2023-aoi-height.png": "dcb34ceeacfa2df078b57b0ba1400e06ee75e8d8e2bac053be974d202ed4f540",
+    "outputs/tayninh-imagery-campaign-05/evidence/optical/google-open-buildings-temporal-2023-aoi-presence.png": "3731f8e14bbf0b3d088e4cb6733e73b9a8e09957c4659a7434982ae2716b95fb"
+  },
+  "presence_gt_0_5_pixels": 40423,
+  "presence_stats_valid": {
+    "max": 0.9965844750404358,
+    "mean": 0.06423953175544739,
+    "min": 0.0
+  },
+  "source": "Google Open Buildings 2.5D Temporal v1",
+  "source_raster_grid_m": 0.5,
+  "source_tile_urls": [
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_fpGpfdF5luU.tif",
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_DU-Fxbi3ckY.tif",
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_rMNDnDjmb_Q.tif",
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_FiQf8RCd7-0.tif"
+  ],
+  "valid_pixels": 685559,
+  "year": 2023
+}

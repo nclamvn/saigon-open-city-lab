@@ -1,0 +1,121 @@
+{
+  "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+  "totalBytes": 11026432,
+  "ranges": [
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "HEAD",
+      "range": null,
+      "status": 200,
+      "bytes": 0,
+      "headers": {
+        "Content-Length": "432405638563",
+        "Content-Range": null,
+        "ETag": "\"8bf9b35f45e9befaa9b91d877bf230d7-3104\"",
+        "Last-Modified": "Fri, 12 Sep 2025 10:40:17 GMT"
+      },
+      "retrievedAt": "2026-09-14T10:37:02.423477+00:00"
+    },
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "GET",
+      "range": "bytes=0-16383",
+      "status": 206,
+      "bytes": 16384,
+      "headers": {
+        "Content-Length": "16384",
+        "Content-Range": "bytes 0-16383/432405638563",
+        "ETag": "\"8bf9b35f45e9befaa9b91d877bf230d7-3104\"",
+        "Last-Modified": "Fri, 12 Sep 2025 10:40:17 GMT"
+      },
+      "retrievedAt": "2026-09-14T10:37:04.914249+00:00",
+      "asset": {
+        "path": "outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/gedtm-v1.2-dtm/08173407c0fb587eec40d640b68d7593b4b220abdbab9df8c70359e4354c518b.bin",
+        "sha256": "08173407c0fb587eec40d640b68d7593b4b220abdbab9df8c70359e4354c518b",
+        "bytes": 16384
+      }
+    },
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "GET",
+      "range": "bytes=655360-671743",
+      "status": 206,
+      "bytes": 16384,
+      "headers": {
+        "Content-Length": "16384",
+        "Content-Range": "bytes 655360-671743/432405638563",
+        "ETag": "\"8bf9b35f45e9befaa9b91d877bf230d7-3104\"",
+        "Last-Modified": "Fri, 12 Sep 2025 10:40:17 GMT"
+      },
+      "retrievedAt": "2026-09-14T10:37:06.519035+00:00",
+      "asset": {
+        "path": "outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/gedtm-v1.2-dtm/0fbe988d70fa9b04b5babe6ea326572a3f2a06b035892014391faef1cb9e0499.bin",
+        "sha256": "0fbe988d70fa9b04b5babe6ea326572a3f2a06b035892014391faef1cb9e0499",
+        "bytes": 16384
+      }
+    },
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "GET",
+      "range": "bytes=1671168-1687551",
+      "status": 206,
+      "bytes": 16384,
+      "headers": {
+        "Content-Length": "16384",
+        "Content-Range": "bytes 1671168-1687551/432405638563",
+        "ETag": "\"8bf9b35f45e9befaa9b91d877bf230d7-3104\"",
+        "Last-Modified": "Fri, 12 Sep 2025 10:40:17 GMT"
+      },
+      "retrievedAt": "2026-09-14T10:38:37.783685+00:00",
+      "asset": {
+        "path": "outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/gedtm-v1.2-dtm/cbbc0221c2de396895eec6be83e9b2bf195cf8c4e65033e3b0c191dc139e26ff.bin",
+        "sha256": "cbbc0221c2de396895eec6be83e9b2bf195cf8c4e65033e3b0c191dc139e26ff",
+        "bytes": 16384
+      }
+    },
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "GET",
+      "range": "bytes=368753737728-368763650047",
+      "status": 206,
+      "bytes": 9912320,
+      "headers": {
+        "Content-Length": "9912320",
+        "Content-Range": "bytes 368753737728-368763650047/432405638563",
+        "ETag": "\"8bf9b35f45e9befaa9b91d877bf230d7-3104\"",
+        "Last-Modified": "Fri, 12 Sep 2025 10:40:17 GMT"
+      },
+      "retrievedAt": "2026-09-14T10:38:44.408548+00:00",
+      "asset": {
+        "path": "outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/gedtm-v1.2-dtm/c77bad0e1b884d02fe1ed488df76d532e9f9a4ada9d6e213712c674df6e47579.bin",
+        "sha256": "c77bad0e1b884d02fe1ed488df76d532e9f9a4ada9d6e213712c674df6e47579",
+        "bytes": 9912320
+      }
+    },
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "GET",
+      "range": "bytes=368753737728-368763650047",
+      "error": "[Errno 32] Broken pipe"
+    },
+    {
+      "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+      "method": "GET",
+      "range": "bytes=368753737728-368754802687",
+      "status": 206,
+      "bytes": 1064960,
+      "headers": {
+        "Content-Length": "1064960",
+        "Content-Range": "bytes 368753737728-368754802687/432405638563",
+        "ETag": "\"8bf9b35f45e9befaa9b91d877bf230d7-3104\"",
+        "Last-Modified": "Fri, 12 Sep 2025 10:40:17 GMT"
+      },
+      "retrievedAt": "2026-09-14T10:39:01.491785+00:00",
+      "asset": {
+        "path": "outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/gedtm-v1.2-dtm/3e2f948c3277d8ef79fe7a096c8763f05ac04f1c7301f575d94c4308a9413b16.bin",
+        "sha256": "3e2f948c3277d8ef79fe7a096c8763f05ac04f1c7301f575d94c4308a9413b16",
+        "bytes": 1064960
+      }
+    }
+  ]
+}

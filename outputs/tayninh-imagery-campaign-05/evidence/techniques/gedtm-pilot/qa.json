@@ -1,0 +1,253 @@
+{
+  "schema": "c05.gedtm-bounded-pilot.v1",
+  "provider_urls": {
+    "dtm": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+    "uncertainty": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_std_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif"
+  },
+  "aoi_bbox_wgs84": [
+    106.3276338,
+    11.0830401,
+    106.3576338,
+    11.1130401
+  ],
+  "input_files": [
+    {
+      "path": "outputs/tayninh-data-batch-01/sources/aoi.json",
+      "sha256": "0a9e702effae63f147537b9ebf823e690c27b0a8989b15bc367fd28da53a2c0b"
+    }
+  ],
+  "layers": {
+    "dtm": {
+      "provider_dimensions": [
+        1296009,
+        540009
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        0.00027777777777799305,
+        0.0,
+        -180.00125,
+        0.0,
+        -0.00027777777777799305,
+        85.00125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pixel_size_deg": [
+        0.00027777777777799305,
+        0.00027777777777799305
+      ],
+      "dtype": "float32",
+      "nodata": 3.4028234663852886e+38,
+      "scale": 1.0,
+      "offset": 0.0,
+      "band_tags": {},
+      "dataset_tags": {
+        "VERTICAL_DATUM": "EGM2008/EPSG:3855",
+        "AREA_OR_POINT": "Area"
+      },
+      "window": [
+        1030783,
+        265997,
+        109,
+        109
+      ],
+      "dimensions": [
+        109,
+        109
+      ],
+      "bounds": [
+        106.32736111133303,
+        11.082916666609378,
+        106.3576388891108,
+        11.113194444387176
+      ],
+      "valid_pixels": 11881,
+      "nodata_pixels": 0,
+      "raw_min": 3.799999952316284,
+      "raw_max": 25.700000762939453,
+      "scaled_min_m": 3.799999952316284,
+      "scaled_max_m": 25.700000762939453,
+      "scaled_mean_m": 12.95023146172122,
+      "scaled_std_m": 2.423593842896173,
+      "files": [
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/dtm-provider-window.tif",
+          "sha256": "ca1fa8593cfb71cba44cfde70b33ec1b6c6c71d7ebdbec45f64642354c0f1c20",
+          "role": "original_grid_AOI_covering_provider_window"
+        },
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/dtm-aoi.png",
+          "sha256": "0e332789295aeecfec29bd9d475ae3c1564f6029d0397cae5be17206ddf3b7bb",
+          "role": "browser_preview_center_masked_exact_AOI"
+        },
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/dtm-aoi.world.json",
+          "sha256": "5cc269c72e3fdc6024ee2b4f4b4f99edf54c038146c462ea9c3ae96025a97e6a",
+          "role": "world_metadata"
+        },
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/dtm-exact-aoi-resampled.tif",
+          "sha256": "6f3eb5129e37629ef77d6d039cd551cecb7e282d22af3ff01479f0ccb4ebc614",
+          "role": "exact_AOI_bounds_bilinear_derived_GeoTIFF"
+        }
+      ],
+      "exact_aoi_resampled": {
+        "dimensions": [
+          108,
+          108
+        ],
+        "bounds": [
+          106.3276338,
+          11.0830401,
+          106.3576338,
+          11.1130401
+        ],
+        "transform": [
+          0.0002777777777777883,
+          0.0,
+          106.3276338,
+          0.0,
+          -0.00027777777777777187,
+          11.1130401,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "pixel_size_deg": [
+          0.0002777777777777883,
+          0.00027777777777777187
+        ],
+        "resampling": "bilinear; grid shifted to exact AOI, not additional resolution",
+        "valid_pixels": 11664,
+        "min_m": 4.144638538360596,
+        "max_m": 25.3869686126709,
+        "mean_m": 12.9586820602417
+      }
+    },
+    "uncertainty": {
+      "provider_dimensions": [
+        1296009,
+        540009
+      ],
+      "crs": "EPSG:4326",
+      "transform": [
+        0.00027777777777799305,
+        0.0,
+        -180.00125,
+        0.0,
+        -0.00027777777777799305,
+        85.00125,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "pixel_size_deg": [
+        0.00027777777777799305,
+        0.00027777777777799305
+      ],
+      "dtype": "float32",
+      "nodata": 3.4028234663852886e+38,
+      "scale": 1.0,
+      "offset": 0.0,
+      "band_tags": {},
+      "dataset_tags": {
+        "VERTICAL_DATUM": "EGM2008/EPSG:3855",
+        "AREA_OR_POINT": "Area"
+      },
+      "window": [
+        1030783,
+        265997,
+        109,
+        109
+      ],
+      "dimensions": [
+        109,
+        109
+      ],
+      "bounds": [
+        106.32736111133303,
+        11.082916666609378,
+        106.3576388891108,
+        11.113194444387176
+      ],
+      "valid_pixels": 11881,
+      "nodata_pixels": 0,
+      "raw_min": 0.17000000178813934,
+      "raw_max": 4.420000076293945,
+      "scaled_min_m": 0.17000000178813934,
+      "scaled_max_m": 4.420000076293945,
+      "scaled_mean_m": 0.7288317474230964,
+      "scaled_std_m": 0.5513874577330358,
+      "files": [
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/uncertainty-provider-window.tif",
+          "sha256": "59f00cb80ad82921b217538fb3c0c356db2e44f7c4d87bfda6a7e6bcf6885727",
+          "role": "original_grid_AOI_covering_provider_window"
+        },
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/uncertainty-aoi.png",
+          "sha256": "4fbc8b836a76bfcdbe9221ba40b7935c03144dfd558e433ff7edfa8ecce30173",
+          "role": "browser_preview_center_masked_exact_AOI"
+        },
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/uncertainty-aoi.world.json",
+          "sha256": "0cca72086cbd2c0b94a204723f3eebeff6ee42154068ddb9f445536ff507bc8c",
+          "role": "world_metadata"
+        },
+        {
+          "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/uncertainty-exact-aoi-resampled.tif",
+          "sha256": "b1b912886b04fdf46a05cce14b14e8cd3bcdb59b4422a193372ca904807293e1",
+          "role": "exact_AOI_bounds_bilinear_derived_GeoTIFF"
+        }
+      ],
+      "exact_aoi_resampled": {
+        "dimensions": [
+          108,
+          108
+        ],
+        "bounds": [
+          106.3276338,
+          11.0830401,
+          106.3576338,
+          11.1130401
+        ],
+        "transform": [
+          0.0002777777777777883,
+          0.0,
+          106.3276338,
+          0.0,
+          -0.00027777777777777187,
+          11.1130401,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "pixel_size_deg": [
+          0.0002777777777777883,
+          0.00027777777777777187
+        ],
+        "resampling": "bilinear; grid shifted to exact AOI, not additional resolution",
+        "valid_pixels": 11664,
+        "min_m": 0.1847291886806488,
+        "max_m": 4.0523505210876465,
+        "mean_m": 0.7267221808433533
+      }
+    }
+  },
+  "status": "acquired_bounded_pilot_not_integrated",
+  "provider_bytes_downloaded": 13238272,
+  "range_receipts": {
+    "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/range-receipts.json",
+    "sha256": "77e9e8e0fcdcab557cf7310ee2c1071e0608f4e1ce7661abef3ebc02057708db"
+  },
+  "limitations": [
+    "Machine-learning predicted 30m DTM, not local surveyed bare ground. Zenodo release states testing-only. RF tree standard deviation is model spread, not a site error guarantee. Do not subtract from COPDEM for house height without coregistration, vertical datum, epoch and checkpoints.",
+    "Provider window retains native grid and covers AOI; PNG alpha uses pixel-center inclusion, not geometric subpixel coverage. No global raster downloaded, no live product modified."
+  ],
+  "comparison": {
+    "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/copdem-comparison.json",
+    "sha256": "25286f7f5f66a9f61fd07ae20b147116b7a6ca10e784d6e572bc6638d0d75117"
+  }
+}

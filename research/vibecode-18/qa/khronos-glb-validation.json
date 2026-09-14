@@ -1,0 +1,3035 @@
+{
+  "status": "PASS",
+  "validatorVersion": "2.0.0-dev.3.10",
+  "files": 378,
+  "errors": 0,
+  "warnings": 0,
+  "source": "https://github.com/KhronosGroup/glTF-Validator",
+  "limits": "glTF validation only; not OGC 3D Tiles conformance or source survey accuracy.",
+  "results": [
+    {
+      "tile": "-1_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-1_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-2_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-3_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-4_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-5_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-6_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "-7_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "0_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "1_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "2_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "3_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "4_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_0",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_0",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "5_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-2",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-2",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-7",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_-7",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_1",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_1",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_3",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_3",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_4",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_4",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_5",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_5",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_6",
+      "level": "fine",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    },
+    {
+      "tile": "6_6",
+      "level": "coarse",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "messages": []
+    }
+  ]
+}

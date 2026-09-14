@@ -1,0 +1,139 @@
+{
+  "schema": "rtr-core17-release-fingerprints/1.0",
+  "createdAt": "2026-09-14T10:22:28.676558+00:00",
+  "semanticCatalogueVersion": "17a",
+  "uiAssetCacheVersion": "17b",
+  "assets": [
+    {
+      "path": "outputs/hcmc-poc/data/scene.json",
+      "bytes": 30200554,
+      "sha256": "92c7b70bebbe7c0c35cc9c4cb972a60ee72777558619d675e456ea247f1bb804"
+    },
+    {
+      "path": "outputs/hcmc-poc/index.html",
+      "bytes": 10741,
+      "sha256": "8c3e42116db592f67a258576f0f911af95f3b6c3d35c9219d017a541f798f0da"
+    },
+    {
+      "path": "outputs/hcmc-poc/leadership-16.js",
+      "bytes": 21762,
+      "sha256": "d0edf8d8488db0e2981bd2234286a43aa5e570029718eb895493b1a5d71c937a"
+    },
+    {
+      "path": "outputs/hcmc-poc/scripts/qa-twin-17-regression.cjs",
+      "bytes": 6025,
+      "sha256": "c344e7e63ff1446bf1f1d4624d87053e83d9cf6fe16acb57c48e0b24dc341493"
+    },
+    {
+      "path": "outputs/hcmc-poc/scripts/qa-twin-17-ui.cjs",
+      "bytes": 5141,
+      "sha256": "acd7ffd05c9376e450a96f0322fdc210a865fbe4f62ae27ec40531e6d97e4bfb"
+    },
+    {
+      "path": "outputs/hcmc-poc/twin-analysis-17.css",
+      "bytes": 3168,
+      "sha256": "054133c36004084599e7462992502bd2d4ce1217227096279fb78b433e5770bc"
+    },
+    {
+      "path": "outputs/hcmc-poc/twin-analysis-17.js",
+      "bytes": 30287,
+      "sha256": "418ea2517eced42ec24e1d32889bb64b23eb23d47c8bbd596598ed379efff5d0"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/analysis-client.js",
+      "bytes": 9464,
+      "sha256": "134d69930fa698105862f959b38ebee77edcde04cc80dc41c6724719e3b3d322"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/analysis-worker.js",
+      "bytes": 3442,
+      "sha256": "cff7410cb81d88561cc9f7b656fa8a983e9625a1836985a57d11b67f1be02718"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/gis.js",
+      "bytes": 12827,
+      "sha256": "0f08931479153d123704c46184dd211da867359778c2b327eec7e661f735340f"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/projects/gia-loc.json",
+      "bytes": 18879,
+      "sha256": "b24e2a784fe1a356a85a8420f5845c5d4ae3385c5139d76bb8d6a0f17f4ab845"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/projects/hcmc.json",
+      "bytes": 34097,
+      "sha256": "8a1b5ddb2f9688b96cd8985d6f744e8e684fb1d51f7b5d9fe9f3eea61a02e00b"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/projects/techniques.json",
+      "bytes": 3297,
+      "sha256": "31cd91a857a8778a49de7df3c788d6c1e0d9f2965e742dfb34f8759a063f7515"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/schema.json",
+      "bytes": 5281,
+      "sha256": "9ba54a9588f31bccd57a8b001fe67e07eb7908c74f1957ae3d839971f6553eb4"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/prepare-project.py",
+      "bytes": 16456,
+      "sha256": "e2ba0e1668076ecf36b3fc00201b04f3d1077d6f42f6ae68ad742ab22e77d8ef"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/project-data.cjs",
+      "bytes": 7257,
+      "sha256": "bf823d6d1a0636b56e8e269295f0ec846fba1b0ed6e8db57ebe0d341ebb14b64"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/source-core.js",
+      "bytes": 18859,
+      "sha256": "8e9715e686552125b3047d2ec7afd03012a5c7e0da662455343beaad93a5c1a7"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-client.cjs",
+      "bytes": 7696,
+      "sha256": "06d998322a59562bc64661313d4afdd4648f48edd042c3185af8f151ad09638a"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-kernel.cjs",
+      "bytes": 9340,
+      "sha256": "da8bbaaedfd4a7d705e667c49d7a8b25aeec88fab59fe16cc50c77956e64194a"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-projects.cjs",
+      "bytes": 2561,
+      "sha256": "590103571ed025c9e82be3ae118233b2eaf111143c0863216930e2cb64c45adc"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-worker.cjs",
+      "bytes": 5858,
+      "sha256": "db02fb872cd5af8bad0e8012f533b642b5725b65c526d845776e4132cb346a95"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/source-core.cjs",
+      "bytes": 13445,
+      "sha256": "bfda24030fe9ffdde78884b7445ece903367457c6c5f2fc9fc52c97f78e76ce3"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/TURF-LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "f9b32b82fd5a1d3a990526d86da97f42fb805d9f4d9f978125c4679b674fce44"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/dependencies.json",
+      "bytes": 797,
+      "sha256": "0f2ca4fd8f7323d8bbd61f4ee50054dcddf0b1b2708d3d23751a1a4d15d77842"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/turf-7.4.0.min.js",
+      "bytes": 547400,
+      "sha256": "5db5dda50210fa0f25394672383ba4a2e6fcde3c9e95ae0e21d62d327fc66d05"
+    },
+    {
+      "path": "outputs/tayninh-data-batch-04/derived/solution/solution-data.json",
+      "bytes": 2584269,
+      "sha256": "caeb26c240090d7d18b864fc67805ae63859988670df78dd019391690e1fd6d3"
+    }
+  ],
+  "disclosure": "Fingerprints identify inspected files; not source truth or signed attestation."
+}

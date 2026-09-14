@@ -1,0 +1,112 @@
+[
+  {
+    "id": "hcm-open-catalog",
+    "url": "https://shtp.hochiminhcity.gov.vn/danh-muc-du-lieu-mo-cua-thanh-pho-ho-chi-minh-962.htm",
+    "finalUrl": "https://shtp.hochiminhcity.gov.vn/danh-muc-du-lieu-mo-cua-thanh-pho-ho-chi-minh-962.htm",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-open-catalog.html",
+    "sha256": "5d99d07ce4c17f8baedac46cd770046d52a93bed60cf02a93ca7819bfe91ed02",
+    "bytes": 99461,
+    "contentType": "text/html; charset=utf-8"
+  },
+  {
+    "id": "hcm-open-directory",
+    "url": "https://shtp.hochiminhcity.gov.vn/Portals/0/UserFiles/63/2026_DANH_MUC_MO.pdf",
+    "finalUrl": "https://shtp.hochiminhcity.gov.vn/Portals/0/UserFiles/63/2026_DANH_MUC_MO.pdf",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-open-directory.pdf",
+    "sha256": "f0af02bf9fc1e5f3e084d764081e3841a228f22817fa541d46e6bafe5ef83473",
+    "bytes": 1776096,
+    "contentType": "application/pdf"
+  },
+  {
+    "id": "hcm-gis-page",
+    "url": "https://gisxaydung.tphcm.gov.vn/tracuuttqh",
+    "finalUrl": "https://gisxaydung.tphcm.gov.vn/tracuuttqh",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-gis-page.html",
+    "sha256": "1199d43cb5c53a6012528d1571682ebaad18b86e9b68a78c9e15e6e5bd8c132d",
+    "bytes": 944,
+    "contentType": "text/html"
+  },
+  {
+    "id": "hcm-gis-api-home",
+    "url": "https://api-gisxaydung.tphcm.gov.vn/",
+    "finalUrl": "https://api-gisxaydung.tphcm.gov.vn/",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-gis-api-home.html",
+    "sha256": "93942106d873364f07b287a98fd2e8410e9e55492409a82fb9c5e40922fe4683",
+    "bytes": 16,
+    "contentType": "text/html; charset=utf-8"
+  },
+  {
+    "id": "hcm-gis-guide",
+    "url": "https://api-gisxaydung.tphcm.gov.vn/resources/LuuTruQuyHoach/document/Tai%20lieu%20HDSD%20ung%20dung_Tra%20cuu%20thong%20tin%20QH.pdf",
+    "finalUrl": "https://api-gisxaydung.tphcm.gov.vn/resources/LuuTruQuyHoach/document/Tai%20lieu%20HDSD%20ung%20dung_Tra%20cuu%20thong%20tin%20QH.pdf",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-gis-guide.pdf",
+    "sha256": "6c0a6af906a2106c9dbf31c77e74868f4440d78d2f03b76f32a2314bdf3d72df",
+    "bytes": 3026470,
+    "contentType": "application/pdf"
+  },
+  {
+    "id": "hcm-data-home",
+    "url": "https://data.hochiminhcity.gov.vn/",
+    "finalUrl": "https://data.hochiminhcity.gov.vn/",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-data-home.html",
+    "sha256": "e21fdde81df2189a14ebbee4caf38f4aa8372cf6d2f6c04b1b05ffc29397ee10",
+    "bytes": 14962,
+    "contentType": "text/html; charset=utf-8"
+  },
+  {
+    "id": "sentinel-license",
+    "url": "https://dataspace.copernicus.eu/terms-and-conditions",
+    "finalUrl": "https://dataspace.copernicus.eu/terms-and-conditions",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/sentinel-license.html",
+    "sha256": "f1a4cc4213777ca472643e08644a7c4eebd9ddf838cd30dd8fcfa50ed215dca9",
+    "bytes": 77856,
+    "contentType": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "sentinel-aws-registry",
+    "url": "https://registry.opendata.aws/sentinel-2-l2a-cogs/",
+    "finalUrl": "https://registry.opendata.aws/sentinel-2-l2a-cogs/",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/sentinel-aws-registry.html",
+    "sha256": "32222d95831f2b9637d6771b0ef3acb278fd36600d1b28206120eeace0f8b3f0",
+    "bytes": 19925,
+    "contentType": "text/html"
+  },
+  {
+    "id": "gedtm-record",
+    "url": "https://zenodo.org/api/records/18887460",
+    "finalUrl": "https://zenodo.org/api/records/18887460",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/gedtm-record.json",
+    "sha256": "76c5370fb231a29338bd3dd40d0ab52442fdbfddacfa658d01375b4a2c1cead6",
+    "bytes": 17681,
+    "contentType": "application/json"
+  },
+  {
+    "id": "copdem-registry",
+    "url": "https://registry.opendata.aws/copernicus-dem/",
+    "finalUrl": "https://registry.opendata.aws/copernicus-dem/",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/copdem-registry.html",
+    "sha256": "c9215f2e18745ffcb33a2ed16c3f2ef5fab4dce70babace9132afe402c149320",
+    "bytes": 9202,
+    "contentType": "text/html"
+  },
+  {
+    "id": "copdem-provider-readme",
+    "url": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
+    "finalUrl": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/copdem-provider-readme.html",
+    "sha256": "922461d55070e3c7e0cf2903ec54190d69e3773da2dc9e776a3f03566cfd56d2",
+    "bytes": 8536,
+    "contentType": "text/html"
+  }
+]

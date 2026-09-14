@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hcm-gis-public-bundle",
+    "url": "https://gisxaydung.tphcm.gov.vn/tracuuttqh/assets/pYQOOAj7.js",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-gis-public-bundle.js",
+    "sha256": "3ffd3a383ec6c5b568fee3ddc5b4358e5aeb22eb3d3594fafb88f329cb92a542",
+    "bytes": 5672732,
+    "finalUrl": "https://gisxaydung.tphcm.gov.vn/tracuuttqh/assets/pYQOOAj7.js"
+  },
+  {
+    "id": "hcm-open-data-home",
+    "url": "https://opendata.hochiminhcity.gov.vn/",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/hcm-open-data-home.html",
+    "sha256": "ca5e2ef037e83917ff16ad9c6505be3186eb561081db23d305c9fa487ea3bfbc",
+    "bytes": 48990,
+    "finalUrl": "https://opendata.hochiminhcity.gov.vn/"
+  },
+  {
+    "id": "copdem-producer-specification",
+    "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/copdem-producer-specification.html",
+    "sha256": "84c980f937bf244a5296157e64953b5a7db5171bb903ab7ca444d7a5c203418a",
+    "bytes": 110773,
+    "finalUrl": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM"
+  },
+  {
+    "id": "copdem-license-2025",
+    "url": "https://dataspace.copernicus.eu/sites/default/files/media/files/2025-06/copernicus_contributing_mission_data_access_v2_cop_dem_licenses.pdf",
+    "status": 200,
+    "path": "research/vibecode-18/evidence-source-owned/copdem-license-2025.pdf",
+    "sha256": "bb4a01dcd7f61acefa81c9ccd76af975e12096158169acf0d7b5c44c26c8701f",
+    "bytes": 499914,
+    "finalUrl": "https://dataspace.copernicus.eu/sites/default/files/media/files/2025-06/copernicus_contributing_mission_data_access_v2_cop_dem_licenses.pdf"
+  }
+]

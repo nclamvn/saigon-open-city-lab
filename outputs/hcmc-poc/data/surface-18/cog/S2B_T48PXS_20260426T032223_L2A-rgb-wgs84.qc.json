@@ -1,0 +1,63 @@
+{
+  "asset": {
+    "path": "outputs/hcmc-poc/data/surface-18/cog/S2B_T48PXS_20260426T032223_L2A-rgb-wgs84.tif",
+    "sha256": "fdef4f2464b21ec0f71dd0a8d4e2cd7e9f795adc4a6052681f039468e0afe46f",
+    "bytes": 1199280
+  },
+  "bbox": [
+    106.684,
+    10.75,
+    106.739,
+    10.808
+  ],
+  "crs": "EPSG:4326",
+  "width": 601,
+  "height": 645,
+  "bands": 3,
+  "dtype": "uint8",
+  "nodata": 0.0,
+  "transform": [
+    9.151414309485329e-05,
+    0.0,
+    106.684,
+    0.0,
+    -8.992248062015477e-05,
+    10.808
+  ],
+  "blockShapes": [
+    [
+      512,
+      512
+    ],
+    [
+      512,
+      512
+    ],
+    [
+      512,
+      512
+    ]
+  ],
+  "overviews": [
+    2
+  ],
+  "imageStructure": {
+    "LAYOUT": "COG",
+    "COMPRESSION": "DEFLATE",
+    "INTERLEAVE": "PIXEL",
+    "OVERVIEW_RESAMPLING": "AVERAGE",
+    "PREDICTOR": "2"
+  },
+  "validPixels": 387645,
+  "nodataPixels": 0,
+  "min": 35.0,
+  "max": 255.0,
+  "mean": 149.10795186317378,
+  "outputPixelSizeDegrees": [
+    9.151414309485329e-05,
+    8.992248062015477e-05
+  ],
+  "minimumOutputSpacingM": 10,
+  "sourceWindowSha256": "44e4302e497aebf902429d9e9782be39e8e4d50f148fc34c15a2c4a0803d6fd1",
+  "reprojectionResampling": "bilinear; derived grid, no effective-resolution gain"
+}

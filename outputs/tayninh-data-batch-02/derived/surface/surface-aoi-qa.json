@@ -1,0 +1,260 @@
+{
+  "aoi": {
+    "id": "gialoc-pilot-01",
+    "requested_bbox_wgs84": [
+      106.3276338,
+      11.0830401,
+      106.3576338,
+      11.1130401
+    ],
+    "crs": "EPSG:4326",
+    "official_boundary": false
+  },
+  "worldcover": {
+    "source_file": "raw/surface/ESA_WorldCover_10m_2021_v200_N09E105_Map.tif",
+    "source_sha256": "7e9c655b7eefe460f92f0a15122295d33b33c3e1493afd56a463fb973dcc1cbc",
+    "source_crs": "EPSG:4326",
+    "source_bounds": [
+      105.0,
+      9.0,
+      108.0,
+      12.0
+    ],
+    "source_dimensions": [
+      36000,
+      36000
+    ],
+    "source_pixel_size_degrees": [
+      8.333333333333333e-05,
+      8.333333333333333e-05
+    ],
+    "source_nodata": 0,
+    "crop_window_col0_row0_col1_row1": [
+      15931,
+      10643,
+      16292,
+      11004
+    ],
+    "derived_crs": "EPSG:4326",
+    "derived_pixel_aligned_bounds": [
+      106.32758333333334,
+      11.083,
+      106.35766666666666,
+      11.113083333333334
+    ],
+    "derived_dimensions": [
+      361,
+      361
+    ],
+    "valid_pixels": 130321,
+    "nodata_pixels": 0,
+    "class_distribution": [
+      {
+        "code": 10,
+        "name": "Tree cover",
+        "pixels": 67935,
+        "percent_of_all_pixels": 52.128974
+      },
+      {
+        "code": 30,
+        "name": "Grassland",
+        "pixels": 28936,
+        "percent_of_all_pixels": 22.203636
+      },
+      {
+        "code": 40,
+        "name": "Cropland",
+        "pixels": 18513,
+        "percent_of_all_pixels": 14.205692
+      },
+      {
+        "code": 50,
+        "name": "Built-up",
+        "pixels": 13903,
+        "percent_of_all_pixels": 10.668273
+      },
+      {
+        "code": 60,
+        "name": "Bare / sparse vegetation",
+        "pixels": 529,
+        "percent_of_all_pixels": 0.405921
+      },
+      {
+        "code": 80,
+        "name": "Permanent water bodies",
+        "pixels": 449,
+        "percent_of_all_pixels": 0.344534
+      },
+      {
+        "code": 90,
+        "name": "Herbaceous wetland",
+        "pixels": 56,
+        "percent_of_all_pixels": 0.042971
+      }
+    ],
+    "derived_files": [
+      "derived/surface/worldcover-2021-aoi.tif",
+      "derived/surface/worldcover-2021-aoi.png",
+      "derived/surface/worldcover-2021-aoi.pgw",
+      "derived/surface/worldcover-2021-aoi.prj"
+    ]
+  },
+  "sentinel_2": {
+    "item_id": "S2B_T48PXT_20251130T033239_L2A",
+    "acquisition_datetime": "2025-11-30T03:34:50.914000Z",
+    "platform": "sentinel-2b",
+    "product_type": "S2MSI2A",
+    "processing_baseline": "05.11",
+    "scene_cloud_cover_percent": 0.017494,
+    "scene_nodata_percent": 6.57384,
+    "source_crs": "EPSG:32648",
+    "source_origin": [
+      600000.0,
+      1300020.0
+    ],
+    "tci_source_file": "raw/surface/S2B_T48PXT_20251130T033239_L2A_TCI.tif",
+    "tci_source_sha256": "a55484db6427772adcb994d6b25b1b0fe5dce76356dc971376a97a115196c617",
+    "tci_source_dimensions": [
+      10980,
+      10980
+    ],
+    "tci_source_pixel_size_m": [
+      10.0,
+      10.0
+    ],
+    "tci_source_nodata": 0,
+    "tci_crop_window_col0_row0_col1_row1": [
+      4499,
+      7120,
+      4829,
+      7454
+    ],
+    "tci_derived_bounds_epsg32648": [
+      644990.0,
+      1225480.0,
+      648290.0,
+      1228820.0
+    ],
+    "tci_derived_envelope_wgs84": [
+      106.32747646376076,
+      11.08286805681983,
+      106.3578237405214,
+      11.113201106075287
+    ],
+    "tci_derived_dimensions": [
+      330,
+      334
+    ],
+    "tci_all_band_nodata_pixels": 0,
+    "tci_band_min_rgb": [
+      4,
+      20,
+      0
+    ],
+    "tci_band_max_rgb": [
+      255,
+      255,
+      255
+    ],
+    "tci_band_mean_rgb": [
+      87.632181,
+      90.290673,
+      68.000617
+    ],
+    "scl_source_file": "raw/surface/S2B_T48PXT_20251130T033239_L2A_SCL.tif",
+    "scl_source_sha256": "dbef89cd29fa907b6093e5fb718bcdb9270767db0070001b5c568f41f839a16f",
+    "scl_source_dimensions": [
+      5490,
+      5490
+    ],
+    "scl_source_pixel_size_m": [
+      20.0,
+      20.0
+    ],
+    "scl_source_nodata": 0,
+    "scl_crop_window_col0_row0_col1_row1": [
+      2249,
+      3560,
+      2415,
+      3727
+    ],
+    "scl_derived_bounds_epsg32648": [
+      644980.0,
+      1225480.0,
+      648300.0,
+      1228820.0
+    ],
+    "scl_derived_envelope_wgs84": [
+      106.327384924434,
+      11.082867644886191,
+      106.35791528806256,
+      11.113201509946908
+    ],
+    "scl_derived_dimensions": [
+      166,
+      167
+    ],
+    "scl_valid_pixels": 27722,
+    "scl_nodata_pixels": 0,
+    "scl_cloud_pixels_codes_8_9_10": 0,
+    "scl_cloud_percent_of_valid_pixels": 0.0,
+    "scl_cloud_shadow_pixels_code_3": 0,
+    "scl_cloud_shadow_percent_of_valid_pixels": 0.0,
+    "scl_class_distribution": [
+      {
+        "code": 2,
+        "name": "Dark area pixels",
+        "pixels": 10,
+        "percent_of_all_pixels": 0.036072
+      },
+      {
+        "code": 4,
+        "name": "Vegetation",
+        "pixels": 18470,
+        "percent_of_all_pixels": 66.625785
+      },
+      {
+        "code": 5,
+        "name": "Not vegetated",
+        "pixels": 9070,
+        "percent_of_all_pixels": 32.717697
+      },
+      {
+        "code": 6,
+        "name": "Water",
+        "pixels": 45,
+        "percent_of_all_pixels": 0.162326
+      },
+      {
+        "code": 7,
+        "name": "Unclassified",
+        "pixels": 127,
+        "percent_of_all_pixels": 0.45812
+      }
+    ],
+    "derived_files": [
+      "derived/surface/sentinel-2-20251130-aoi-tci.tif",
+      "derived/surface/sentinel-2-20251130-aoi-tci.png",
+      "derived/surface/sentinel-2-20251130-aoi-tci.pgw",
+      "derived/surface/sentinel-2-20251130-aoi-tci.prj",
+      "derived/surface/sentinel-2-20251130-aoi-scl.tif",
+      "derived/surface/sentinel-2-20251130-aoi-scl.png",
+      "derived/surface/sentinel-2-20251130-aoi-scl.pgw",
+      "derived/surface/sentinel-2-20251130-aoi-scl.prj"
+    ]
+  },
+  "derived_sha256": {
+    "derived/surface/worldcover-2021-aoi.tif": "9a1ae8db660946a7499ce49733066c9916038cc76531b223e24bc46147ceae15",
+    "derived/surface/worldcover-2021-aoi.png": "35efaaf8e59c2ec5b695455f7a73ee1060a61a0c9161cbcabbea2b0e3204f3f1",
+    "derived/surface/worldcover-2021-aoi.pgw": "a70ddac27b60f345ff40915e25e06aa001c87089f833d6e774de5ae31a22f8f0",
+    "derived/surface/worldcover-2021-aoi.prj": "61c46f4323db2c2355b97b7c53579b5e45ecc238503da26e9b1295048b38a72f",
+    "derived/surface/sentinel-2-20251130-aoi-tci.tif": "75226c2565ec105fca7b2d80859485ba6cc3648cf3400042ba535a7dd54cf56b",
+    "derived/surface/sentinel-2-20251130-aoi-tci.png": "8b5825bc1f7d525eacc70df7c145a8eff805ef600f29fb1c469887d998a66505",
+    "derived/surface/sentinel-2-20251130-aoi-tci.pgw": "e0ba03bfd7e5eca50cac19dbefaa25b1a823f98946b56b8b7e91abc44ec3b061",
+    "derived/surface/sentinel-2-20251130-aoi-tci.prj": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a",
+    "derived/surface/sentinel-2-20251130-aoi-scl.tif": "e3a4bcf82380af044bc3f30cc2aa451dfde6440b714cfb52df130bd83a6412cc",
+    "derived/surface/sentinel-2-20251130-aoi-scl.png": "6ca7fdc0cec0496a5bf96fb302f7d9d8e3db15f0ce6bd1f4d37447cbabdfd0ac",
+    "derived/surface/sentinel-2-20251130-aoi-scl.pgw": "e1356b5c48a63fc988c25dbe627744c7bf9c0b5413c58ec73d43f3e71e4d6e09",
+    "derived/surface/sentinel-2-20251130-aoi-scl.prj": "733ec90c56f903cb905670ec4615fbbde71add87918154e85f48ce9d8a4e569a"
+  }
+}

@@ -17,3 +17,17 @@ outputs/SAIGON-3D.html
 outputs/poc-*.png
 outputs/poc-*.metrics.json
 !outputs/poc-twelve-demo-overview.png
+
+# Re-downloadable provider full tiles; cropped operational assets remain in Git.
+outputs/tayninh-data-batch-02/raw/buildings/microsoft-vietnam-132230111.csv.gz
+outputs/tayninh-data-batch-02/raw/surface/*_TCI.tif
+outputs/tayninh-data-batch-02/raw/surface/ESA_WorldCover_10m_2021_v200_N09E105_Map.tif
+outputs/tayninh-data-batch-03/raw/temporal/*_TCI.tif
+outputs/tayninh-data-batch-03/raw/ecosystem/ETH_GlobalCanopyHeight_10m_2020_N09E105_*.tif
+outputs/tayninh-data-batch-03/raw/ecosystem/jrc-*.tif
+
+# Download buffers and unused source material archives; retain receipts/maps.
+outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/**/*.bin
+outputs/tayninh-imagery-campaign-05/evidence/techniques/gedtm-pilot/raw-ranges/*.bin
+outputs/tayninh-imagery-campaign-05/evidence/techniques/ogc-tiles.html
+outputs/tayninh-data-batch-04/derived/s07/materials/original/*.zip

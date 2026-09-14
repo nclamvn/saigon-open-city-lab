@@ -1,0 +1,856 @@
+                                        PHỤ LỤC 1
+Bảng mô tả dữ liệu thuộc Cổng thông tin điện tử công bố dữ liệu thuộc Sở Quy hoạch - Kiến trúc
+
+                               Dự án nhà ở xã hội (NhaOXaHoi)
+     STT            Tên cột                         Mô tả              Kiểu dữ liệu   Độ dài
+       1 MaDuAn                        Mã dự án                          String                   254
+       2 TenDuAn                       Tên dự án                         String                   254
+       3 ChuDauTu                      Chủ đầu tư                        String                   254
+       4 SoNha                         Số nhà                            String                   254
+       5 TenDuong                      Tên đường                         String                   254
+       6 Phuong                        Phường                            String                   254
+       7 Quan_Huyen                    Quận huyện                        String                   254
+       8 DienTich_M                    Diện tích                         Double                      8
+       9 SoCanHo_Du                    Số căn hộ                         Double                      8
+      10 WGS84_Lat                     Y_WGS84                           Double                      8
+      11 WGS84_Long                    X_WGS84                           Double                      8
+      12 Y_VN2000                      Y_VN2000                          Double                      8
+      13 X_VN2000                      X_VN2000                          Double                      8
+      14 SoQĐ                          Số quyết định                     String                   254
+      15 NgayKy                        Ngày ký                           String                   254
+      16 DuocCongKh                    Được công khai                    String                   254
+      17 KhongCongK                    Không công khai                   String                   254
+      18 DT_San_M2                     Diện tích sàn (m2)                Double                      8
+      19 MucDTu_Ty                     Mức đầu tư (tỷ)                   String                     10
+      20 NganSach                      Ngân sách                         String                     50
+      21 TT_PhapLy                     Thông tin pháp lý                 String                   250
+      22 GhiChu                        Ghi chú                           String                   254
+      23 CQBanHanh                     Cơ quan ban hành                  String                   100
+      24 MĐXD                          Mật độ xây dựng                   String                     20
+      25 HSSDD                         Hệ số sử dụng đất                 String                     10
+      26 GiaiPhapTH                    Giải pháp thực hiện               String                   250
+      27 NamPD                         Năm phê duyệt                     String                      4
+      28 NamHT                         Năm HT                            String                      4
+      29 NNhan_DGQH                    Nhìn nhận đánh giá QH             String                   250
+      30 NNhan_SDD                     Nhìn nhận SDĐ                     String                   250
+      31 DanhGiaQH                     Đánh giá QH                       String                   250
+      32 DanSo                         Dân số                            String                     50
+      33 TangCao                       Tầng cao                          String                   250
+      34 CT_QHKT_DS                    Chỉ tiêu QHKT dân số              String                   254
+      35 ChNangSDD                     Chức năng SDĐ                     String                     30
+      36 DTich_Ha                      Diện tích (ha)                    Double                      8
+      37 MaPhuongXaMoi                 Mã phường xã mới                  String                     50
+      38 TenPhuongXaMoi                Tên phường xã mới                 String                   100
+      39 KV                            Khu vực                           String                     50
+                     Công trình biệt thự_P(CongTrinhBietThu_point)
+     STT            Tên cột                         Mô tả              Kiểu dữ liệu   Độ dài
+       1 MaBT                          Mã biệt thự                       String                    30
+       2 So_Nha                        Số nhà                            String                   254
+          3 TenDuong                 Tên đường                       String                    254
+          4 TenPhuong                Tên phường                      String                    254
+          5 TenQuan                  Tên quận                        String                    254
+          6 ChuSoHuu                 Chủ sở hữu                      String                    254
+          7 DienTich                 Diện tích                       Double                      8
+          8 Nguon                    Nguồn                           String                    254
+          9 TinhTrangB               Tình trạng biệt thự             String                    254
+         10 HinhThucSH               Hình thức sinh hoạt             String                    254
+         11 PhanLoai                 Phân loại                       String                    254
+         12 Dot                      Đợt                             String                    254
+         13 SoQD                     Số QĐ                           String                    254
+         14 NgayPheDuy               Ngày phê duyệt                  String                    254
+         15 GhiChu                   Ghi chú                         String                    254
+         17 MaPhuongXaMoi            Mã phường xã mới                String                     50
+         18 TenPhuongXaMoi           Tên phường xã mới               String                    100
+         19 KV                       Khu vực                         String                     50
+                        Công trình biệt thự_A(CongTrinhBietThu_area)
+        STT            Tên cột                    Mô tả            Kiểu dữ liệu    Độ dài
+          1 MaBT                     Mã biệt thự                     String                     30
+          2 So_Nha                   Số nhà                          String                    254
+          3 TenDuong                 Tên đường                       String                    254
+          4 TenPhuong                Tên phường                      String                    254
+          5 TenQuan                  Tên quận                        String                    254
+          6 ChuSoHuu                 Chủ sở hữu                      String                    254
+          7 DienTich                 Diện tích                       Double                      8
+          8 Nguon                    Nguồn                           String                    254
+          9 TinhTrangB               Tình trạng biệt thự             String                    254
+         10 HinhThucSH               Hình thức sinh hoạt             String                    254
+         11 PhanLoai                 Phân loại                       String                    254
+         12 Dot                      Đợt                             String                    254
+         13 SoQD                     Số quyết định                   String                    254
+         14 NgayPheDuy               Ngày phê duyệt                  String                    254
+         15 GhiChu1                  Ghi chú                         String                    254
+         16 MaPhuongXaMoi            Mã phường xã mới                String                     50
+         17 TenPhuongXaMoi           Tên phường xã mới               String                    100
+         18 KV                       Khu vực                         String                     50
+                           Dự án đầu tư công(DuAnDauTuCong) điểm
+        STT            Tên cột                    Mô tả             Kiểu dữ liệu   Độ dài
+          1 STT                      STT                             Integer                     4
+          2 MaDuAn                   Mã dự án                        String                     50
+          3 TenDuAn                  Tên dự án                       String                    500
+          4 TenChuDauTu              Tên chủ đầu tư                  String                    500
+Công      5 SoNha                    Số nhà                          String                    250
+          6 TenDuong                 Tên đường                       String                    250
+trình     7 MaXa                     Mã xã                           String                      5
+ nhà      8 TenPhuongXa              Tên phường, xã sau sáp nhập     String                    250
+          9 ThongTinCu               Tên phường, xã trước sáp nhập   String                    500
+         10 SoQDNV                   Số quyết định giao nhiệm vụ     String                    100
+ 11 NgayDKNV                     Ngày tháng năm ký QĐ giao nhiệm   String                    100
+ 12 NamKyNV                      Năm ký QĐ giao nhiệm vụ           String                    100
+ 13 SoQDTT                       Số QĐ tờ trình CTDT               String                    100
+ 14 NgayDKTT                     Ngày tháng năm ký tờ trình CTDT   String                    100
+ 15 NamKyTT                      Năm ký tờ trình CTDT              String                    100
+ 16 SoQDCTCT                     Số Quyết định CTDT                String                    100
+ 17 NgayDKCTCT                   Ngày tháng năm ký QĐ CTDT         String                    100
+ 18 NamKyCTCT                    Năm ký QĐ CTDT                    String                    100
+ 19 SoQDDA                       Số Quyết định PDDA                String                    100
+ 20 NgayDKDA                     Ngày tháng năm ký QĐ PDDA         String                    100
+ 21 NamKyDA                      Năm ký QĐ PDDA                    String                    100
+ 22 SoQDPDQH                     Số Quyết định PDQH                String                    100
+ 23 NgayDKPDQH                   Ngày tháng năm ký PDQH            String                    100
+ 24 NamKyPDQH                    Năm ký PDQH                       String                    100
+ 25 LinhVucDauTu                 Lĩnh vực đầu tư (Theo NQ          String                    255
+ 26 TongMucDauTu                 Tổng mức đầu tư (tỷ đồng)         String                    100
+ 27 TinhTrangDuAn                Tình trạng dự án                  String                    250
+ 28 NgayKhoiCong                 Ngày khởi công                    String                     50
+ 29 NgayHTDK                     Ngày hoàn thành dự kiến           String                     50
+ 30 NgayHTTT                     Ngày hoàn thành thực tế           String                     50
+ 31 ChucNangSDD                  Chức năng sử dụng đất             String                    255
+ 32 ChucNangCT                   Chức năng công trình              String                    255
+ 33 TongDienTich                 Tổng diện tích đất dự án (m2)     Double                      8
+ 34 CapCongTrinh                 Cấp công trình                    String                     50
+ 35 PhanLoaiDA                   Phân loại dự án                   String                    255
+ 36 TangCao                      Tầng cao                          String                     50
+ 37 ChieuCaoCT                   Chiều cao công trình (m)          Double                      8
+ 38 MDXD                         Mật độ xây dựng (%)               Double                      8
+ 39 HSSDD                        Hệ số sử dụng đất                 String                    255
+ 40 QuyMoCT                      Quy mô sử dụng công trình         String                    255
+ 41 ChieuDaiDA                   Chiều dài dự án (m)               Double                      8
+ 42 LoGioi                       Lộ giới                           Double                      8
+ 43 ViaHe                        Vỉa hè                            Double                      8
+ 44 LongDuong                    Lòng đường                        Double                      8
+ 45 BanQuanLy                    Ban quản lý                       String                    255
+ 46 GhiChu                       Ghi chú                           String                    255
+ 47 ToaDoX                       Tọa độ X                          Double                      8
+ 48 ToaDoY                       Tọa độ Y                          Double                      8
+                          Lớp đầu tư công(DauTuCong): vùng
+STT            Tên cột                       Mô tả                Kiểu dữ liệu   Độ dài
+  1 STT                          STT                               Integer                     4
+  2 MaDuAn                       Mã dự án                          String                     50
+  3 TenDuAn                      Tên dự án                         String                    500
+  4 TenChuDauTu                  Tên chủ đầu tư                    String                    500
+  5 SoNha                        Số nhà                            String                    250
+  6 TenDuong                     Tên đường                         String                    250
+  7 MaXa                         Mã xã                             String                      5
+  8 TenPhuongXa                  Tên phường, xã sau sáp nhập       String                    250
+  9 ThongTinCu                   Tên phường, xã trước sáp nhập     String                    500
+        10 SoQDNV                   Số quyết định giao nhiệm vụ       String                   100
+        11 NgayDKNV                 Ngày tháng năm ký QĐ giao nhiệm   String                   100
+        12 NamKyNV                  Năm ký QĐ giao nhiệm vụ           String                   100
+        13 SoQDTT                   Số QĐ tờ trình CTDT               String                   100
+        14 NgayDKTT                 Ngày tháng năm ký tờ trình CTDT   String                   100
+        15 NamKyTT                  Năm ký tờ trình CTDT              String                   100
+        16 SoQDCTCT                 Số Quyết định CTDT                String                   100
+        17 NgayDKCTCT               Ngày tháng năm ký QĐ CTDT         String                   100
+        18 NamKyCTCT                Năm ký QĐ CTDT                    String                   100
+        19 SoQDDA                   Số Quyết định PDDA                String                   100
+        20 NgayDKDA                 Ngày tháng năm ký QĐ PDDA         String                   100
+        21 NamKyDA                  Năm ký QĐ PDDA                    String                   100
+        22 SoQDPDQH                 Số Quyết định PDQH                String                   100
+        23 NgayDKPDQH               Ngày tháng năm ký PDQH            String                   100
+        24 NamKyPDQH                Năm ký PDQH                       String                   100
+        25 LinhVucDauTu             Lĩnh vực đầu tư (Theo NQ          String                   255
+        26 TongMucDauTu             Tổng mức đầu tư (tỷ đồng)         String                   100
+        27 TinhTrangDuAn            Tình trạng dự án                  String                   250
+        28 NgayKhoiCong             Ngày khởi công                    String                    50
+        29 NgayHTDK                 Ngày hoàn thành dự kiến           String                    50
+        30 NgayHTTT                 Ngày hoàn thành thực tế           String                    50
+        31 ChucNangSDD              Chức năng sử dụng đất             String                   255
+        32 ChucNangCT               Chức năng công trình              String                   255
+        33 TongDienTich             Tổng diện tích đất dự án (m2)     Double                     8
+        34 CapCongTrinh             Cấp công trình                    String                    50
+        35 PhanLoaiDA               Phân loại dự án                   String                   255
+        36 TangCao                  Tầng cao                          String                    50
+        37 ChieuCaoCT               Chiều cao công trình (m)          Double                     8
+        38 MDXD                     Mật độ xây dựng (%)               Double                     8
+        39 HSSDD                    Hệ số sử dụng đất                 String                   255
+        40 QuyMoCT                  Quy mô sử dụng công trình         String                   255
+        41 ChieuDaiDA               Chiều dài dự án (m)               Double                     8
+        42 LoGioi                   Lộ giới                           Double                     8
+        43 ViaHe                    Vỉa hè                            Double                     8
+        44 LongDuong                Lòng đường                        Double                     8
+        45 BanQuanLy                Ban quản lý                       String                   255
+        46 GhiChu                   Ghi chú                           String                   255
+                                Lớp Giao thông (GiaoThong)
+       STT           Tên cột                      Mô tả              Kiểu dữ liệu   Độ dài
+         1 TenConDuong              Tên con đường                     String                    100
+         2 MaConDuong               Mã con đường                      String                      20
+         3 LoaiMatGThong            Loại mặt giao thông               Integer                      4
+         4 VatLieu                  Vật liệu                          Integer                      4
+         5 ChieuRong                Chiều rộng                        Double                       8
+         6 Cap                      Cấp                               Integer                      4
+         7 DienTich                 Diện tích                         Double                       8
+         8 MaDoiTuong               Mã giao thông                     String                      10
+Lớp     9 ChieuDai                 Chiều dài                         Double                       8
+Giao    10 NgayCapNhat              Ngày cập nhật                     DateTime                     8
+          11 NguoiCapNhat               Người cập nhật                    String                   50
+thông     12 DonViQuanLy                Đơn vị quản lý                    Small Int                 2
+          13 DonViCapNhat               Đơn vị cập nhật                   Small Int                 2
+          14 GhiChu                     Ghi chú                           String                  250
+          15 MaPhuongXa                 Mã phường xã                      String                   50
+          16 MaQuanHuyen                Mã quận huyện                     String                   50
+          17 CheckTool                  CheckTool                         String                   50
+          18 GiaiDoanQuyHoach           Giai đoạn quy hoạch               Small Int                 2
+          19 ThoiGianSuaChua            Thời gian sửa chữa                DateTime                  8
+          20 Shape_Length               Shape_Length                      Double                    8
+          21 Shape_Area                 Shape_Area                        Double                    8
+                              Lớp Ranh quy hoạch(RanhQuyHoach)
+     STT           Tên cột                           Mô tả              Kiểu dữ liệu   Độ dài
+       1 MaDuAn                         Mã dự án                          String                   255
+       2 TenDuAn                        Tên dự án                         String                   500
+       3 SoQD                           Số quyết định phê duyệt (Gốc)     String                     50
+       4 NgayKy                         Ngày ký quyết định (Gốc)          DateTime                    8
+ Lớp   5 SoQD_DC                        Số quyết định phê duyệt (Điều     String                     50
+Ranh   6 NgayKy_DC                      Ngày ký quyết định (Điều chỉnh)   DateTime                    8
+ quy   7 QuyMoDanSo                     Quy mô dân số                     String                     50
+       8 TyLe                           Tỷ lệ bản vẽ                      String                     50
+hoạch 9 DienTich                        Diện tích (km2)                   Double                      8
+      10 ChuDauTu                       Chủ đầu tư                        String                   200
+      11 GhiChu                         Ghi chú                           String                   100
+      12 KV                             Khu vực                           String                     50
+      13 CoQuanPheDuyet                 Cơ quan phê duyệt                 String                   250
+      14 PhanLoaiDoThi                  Phân loại quy hoạch               String                     50
+                                  Lớp Thông tin dự án 3D(DuAn3D)
+         STT           Tên cột                       Mô tả              Kiểu dữ liệu   Độ dài
+           1 MaDuAn                     Mã dự án                          String                   255
+           2 TenDuAn                    Tên dự án                         String                   500
+           3 SoQD                       Quyết định QHPK                   String                     50
+           4 NgayKy                     Ngày ký quyết định                DateTime                    8
+           5 QuyMoDanSo                 Quy mô dân số                     String                     50
+           6 TyLe                       Tỷ lệ                             String                     50
+           7 TienDoDuAn                 Tiến độ dự án                     String                   255
+           8 DienTich                   Diện tích (m2)                    Double                      8
+           9 PhanLoaiDA                 Phân loại dự án                   String                     20
+          10 ChuDauTu                   Chủ đầu tư                        String                   200
+  Lớp    11 GhiChu                     Ghi chú                           String                   500
+          12 MaPhuongXaCu               MaPhuongXaCu                      String                     50
+Thông
+          13 MaQuanHuyenCu              MaQuanHuyenCu                     String                     50
+tin dự    14 KV                         Khu vực                           String                     50
+   án     15 CoQuanPheDuyet             Cơ quan phê duyệt                 String                   250
+          16 MaPhuongXaMoi              Mã phường xã mới                  String                     50
+          17 TenPhuongXaMoi             Tên phường xã mới                 String                   100
+          18 DiaChiCu                   Địa chỉ (cũ)                      String                   255
+          19 PhanNhom                   Phân nhóm                         String                   255
+          20 ChucNang                   Chức năng                         String                   255
+         21 SoTang                      Số tầng                           Double                     8
+         22 ThongTinTang1               Thông tin tầng 1                  String                   255
+         23 ThongTinTang2               Thông tin tầng 2                  String                   255
+         24 ThongTinTang3               Thông tin tầng 3                  String                   255
+         25 ThongTinKhac                QĐ phê duyệt CT có giá trị Kiến   String                   255
+         26 DiaChiMoi                   Địa chỉ (mới)                     String                   255
+         27 HinhAnh                     Hình ảnh                                                     0
+                              DS1_NHAGA_19TuyenDSDT_NQ06TU
+        STT          Tên cột                        Mô tả               Kiểu dữ liệu   Độ dài
+          1 TenTuyen                    Tuyến đi qua                      String                    50
+          2 PhanLoai                    Phân loại                         String                   254
+          3 NgamNoi                     Ga ngầm nổi                       String                    50
+          4 QDPDuyet                    Quyết định phê duyệt              String                   254
+                                     DS2_ViTri_GaDSQG_Depot
+        STT          Tên cột                        Mô tả               Kiểu dữ liệu   Độ dài
+          1 TenGaDepot                  Tên Ga Depot                      String                   254
+          2 PhanLoai                    Phân loại                         String                   254
+          3 QDPDuyet                    Quyết định phê duyệt              String                   254
+                                  DS1_TUYEN_19TuyenDSDT_NQ06TU
+        STT           Tên cột                         Mô tả             Kiểu dữ liệu   Độ dài
+          1 KyHieu                      Ký hiệu                           String                     8
+          2 TenTuyen                    Tên tuyến                         String                   254
+          3 TenDuAn                     Tên dự án                         String                   254
+          4 ChieuDaiKm                  Chiều dài tuyến (km)              Double                     8
+          5 TienDoHT                    Tiến độ dự kiến                   String                    50
+          6 Ten_Eng                     Tên tiếng Anh                     String                    20
+          7 KhuVuc                      Khu vực                           String                    50
+          8 TinhTrang                   Tình trạng                        String                    50
+          9 QDPDuyet                    Quyết định phê duyệt              String                   254
+         10 Shape_Length                Shape_Length                      Double                     8
+                                    DS2_TuyenDuongSatQuocGia
+        STT           Tên cột                         Mô tả             Kiểu dữ liệu   Độ dài
+          1 TenTuyen                    Tên tuyến                         String                   254
+          2 TinhTrang                   Tình trạng                        String                     50
+          3 QDPDuyet                    Quyết định phê duyệt              String                   254
+          4 Shape_Length                Shape_Length                      Double                      8
+                                       Lớp DS3_RanhTPHCM
+        STT            Tên cột                        Mô tả             Kiểu dữ liệu   Độ dài
+          1 GhiChu                      GhiChu                            String                   254
+          2 Shape_Length                Shape_Length                      Double                       8
+          3 Shape_Area                  Shape_Area                        Double                       8
+GTCC                                    Lớp DS4_SBLT_Vien
+ Giao STT           Tên cột                           Mô tả             Kiểu dữ liệu   Độ dài
+Thông 1 Id                              Id                                Integer                      4
+ Công   2 Shape_Length                  Shape_Length                      Double                       8
+Cộng     3 Shape_Area                     Shape_Area                   Double                        8
+
+
+                                   Lớp Đường bình độ(DuongBinhDo)
+       STT              Tên cột                          Mô tả       Kiểu dữ liệu   Độ dài
+         1 maNhanDang                     Mã nhận dạng                 String                   255
+         2 ngayThuNhan                    Ngày thu nhận                DateTime                      8
+         3 ngayCapNhat                    Ngày cập nhật                DateTime                      8
+         4 maDoiTuong                     Mã đối tượng                 String                   255
+         5 loaiDuongBinhDo                Loại đường bình độ           Small Int                     2
+         6 loaiKhoangCaoDeu               Loại khoảng cao đều          Small Int                     2
+         7 doCaoH                         Độ cao H                     Double                        8
+         8 Shape_Length                   Shape_Length                 Double                        8
+                                    Lớp DHPTKG_KhongGianNgam
+       STT              Tên cột                          Mô tả       Kiểu dữ liệu   Độ dài
+         1 MaDoiTuong                     MaDoiTuong                   String                       50
+         2 MaGiaiDoan                     MaGiaiDoan                   String                       10
+         3 MaChucNang                     MaChucNang                   String                       50
+         4 MaPhu                          MaPhu                        String                       50
+         5 Layer                          Layer                        String                       50
+         6 RefName                        RefName                      String                       50
+         7 BlockAngle                     BlockAngle                   Double                        8
+         8 ChucNang                       ChucNang                     String                   100
+         9 TenDoiTuong                    TenDoiTuong                  String                       50
+        10 GhiChu                         GhiChu                       String                   100
+        11 MaCN                           MaCN                         String                       20
+        12 MaGD                           MaGD                         Small Int                     2
+        13 text                           text                         String                       50
+             Quy hoạch chung đô thị - Sử dụng đất(QHC_SuDungDat_NEW)
+
+       STT            Tên cột                           Mô tả        Kiểu dữ liệu   Độ dài
+         1 KyHieuLoaiDat                  ký hiệu loại đất             String                    20
+         2 MucDichSuDung                  mục đích sử dụng             String                   200
+         3 TangCaoXayDung                 tầng cao xây dựng            String                    10
+         4 MatDoXayDungTrungBinh          mật độ xây dựng trung bình   String                    10
+         5 HeSoSuDungDat                  Hệ số sử dụng đất            String                    10
+         6 QuyMoDanSo                     quy mô dân số                String                    20
+         7 DienTich                       diện tích (m2)               Double                     8
+         8 MaQuanHuyen                    mã quận huyện                String                    10
+          9 MaPhuongXa                 mã phường xã                      String                    10
+         10 TenKhuChucNang             tên khu chức năng                 String                   100
+         11 TenCongTrinhXayDung        tên công trình xây dựng           String                   100
+QHC
+         12 GiaiDoanQuyHoach           giai đoạn quy hoạch               Small Int                  2
+ Sử      13 MaDoiTuong                 mã sử dụng đất                    String                    20
+Dụng     14 NgayCapNhat                ngày cập nhật                     DateTime                   8
+         15 DonViQuanLy                đơn vị quản lý                    Small Int                  2
+ Đất
+         16 DonViCapNhat               đơn vị cập nhật                   Small Int                  2
+         17 NguoiCapNhat               người cập nhật                    String                    50
+         18 GhiChu                     ghi chú                           String                   250
+         19 MaDuAn                     mã dự án                          String                   255
+         20 KyHieuODat                 ký hiệu ô đất                     String                    20
+         21 KyHieuLoDat                ký hiệu lô đất                    String                    30
+         22 KV                         Khu vực                           String                    50
+         23 KyHieuTT12                 Ký hiệu loại đất theo TT12        String                    50
+
+         24 MucDichSDDTT12             Chức năng sử dụng đất theo TT12   String                       50
+         25 KyHieuTT16                 Ký hiệu loại đất theo TT16        String                       50
+
+         26 MucDichSDDTT16             Chức năng sử dụng đất theo TT16   String                       50
+         27 MaPhuongXaMoi              Mã phường/xã                      String                       50
+                                  Lớp QHC_Tinh_SuDungDat_NEW
+        STT            Tên cột                         Mô tả           Kiểu dữ liệu   Độ dài
+          1 KyHieuLoaiDat              Kí hiệu loại đất                  String                       50
+          2 MucDichSuDung              Mục đích sử dụng                  String                   100
+          3 TangCaoXayDung             Tầng cao xây dựng                 String                       50
+          4 MatDoXayDungTrungBinh      Mật độ xây dựng trung bình        String                       50
+          5 HeSoSuDungDat              Hệ số sử dụng đất                 String                       20
+          6 QuyMoDanSo                 Quy mô dân số                     String                       50
+          7 DienTich                   Diện tich                         Double                        8
+          8 MaQuanHuyen                Mã quận huyện                     String                       10
+          9 TenQuanHuyen               Tên quận huyện                    String                       50
+         10 TenKhuChucNang             Tên khu chức năng                 String                       50
+         11 TenCongTrinhXayDung        Tên công trình xây dựng           String                       50
+ Quy     12 MaPhuongXa                 Mã phường xã                      String                       10
+hoạch    13 TenPhuongXa                Tên phường xã                     String                       50
+chung    14 GiaiDoanQuyHoach           Giai đoạn quy hoạch               Small Int                     2
+ tỉnh    15 MaDoiTuong                 Mã sử dụng đất                    String                       20
+         16 KiHieuKhuVuc               Tên khu vực                       String                       10
+         17 DonViQuanLy                Đơn vị quản lý                    Small Int                     2
+        18 DonViCapNhat            Đơn vị cập nhật                   Small Int                     2
+        19 NguoiCapNhat            Người cập nhật                    String                       50
+        20 NgayCapNhat             Ngày cập nhật                     DateTime                      8
+        21 GhiChu                  Ghi chú                           String                   250
+        22 CheckTool               CheckTool                         String                       50
+        23 MaDuAn                  Mã dự án                          String                   255
+        24 MaDuong                 Mã đường                          String                        4
+        25 KV                      Khu vực                           String                       50
+        26 KyHieuTT04              Ký hiệu loại đất theo TT04        String                       50
+        27 MucDichSDDTT04          Chức năng sử dụng đất theo TT04   String                       50
+        28 MaPhuongXaMoi           Mã phường/xã                      String                       50
+            Lớp Quy hoạch chi tiết - Sử dụng đất (QHCT_SuDungDat_NEW)
+       STT            Tên cột                    Mô tả             Kiểu dữ liệu   Độ dài
+         1 KyHieuLoaiDat           ký hiệu loại đất                  String                    20
+         2 MucDichSuDung           mục đích sử dụng                  String                   200
+         3 TangCaoXayDung          tầng cao xây dựng                 String                    50
+         4 MatDoXayDungTrungBinh   mật độ xây dựng trung bình        String                    10
+         5 HeSoSuDungDat           hệ số sử dụng đất                 String                    10
+         6 QuyMoDanSo              quy mô dân số                     String                    20
+         7 DienTich                diện tích                         Double                     8
+         8 MaQuanHuyen             mã quận huyện                     String                    10
+         9 MaPhuongXa              mã phường xã                      String                    10
+        10 TenDuAn                 tên dự án                         String                   300
+        11 TenKhuChucNang          tên khu chức năng                 String                   100
+        12 TenCongTrinhXayDung     tên công trình xây dựng           String                   100
+QHCT    13 GiaiDoanQuyHoach        giai đoạn quy hoạch               Small Int                  2
+        14 MaDoiTuong              mã sử dụng đất                    String                    20
+ Sử     15 DonViQuanLy             đơn vị quản lý                    Small Int                  2
+Dụng    16 NgayCapNhat             ngày cập nhật                     DateTime                   8
+        17 DonViCapNhat            đơn vị cập nhật                   Small Int                  2
+ Đất    18 GhiChu                  ghi chú                           String                   250
+        19 NguoiCapNhat            người cập nhật                    String                    50
+        20 Chieucaothapnhat        chiều cao thấp nhất               String                    50
+        21 ChieuCaoCaoNhat         chiều cao cao nhất                String                    50
+        22 MaDuAn                  mã dự án                          String                   255
+        23 KyHieuODat              ký hiệu ô đất                     String                    20
+        24 KyHieuLoDat             ký hiệu lô đất                    String                    30
+        25 DienTichXayDung         diện tích xây dựng                Double                     8
+        26 NguonDuLieu             Nguồn dữ liệu                     String                   255
+        27 KV                      Khu vực                           String                    50
+        28 KyHieuTT12              Ký hiệu loại đất theo TT12        String                    50
+        29 MucDichSDDTT12          Chức năng sử dụng đất theo TT12   String                    50
+        30 KyHieuTT16              Ký hiệu loại đất theo TT16        String                    50
+        31 MucDichSDDTT16          Chức năng sử dụng đất theo TT16   String                    50
+         32 MaPhuongXaMoi                 Mã phường/xã               String                       50
+                                   L01_DVO---> L17_NN_Khac_ConLai
+QHCTP STT           Tên cột                             Mô tả      Kiểu dữ liệu   Độ dài
+  Sử    1 MaQuyUoc                        Mã quy ước                 String                    10
+Dụng    2 ChucNang                        Chức năng sử dụng đất      String                   254
+        3 GiaiDoan                        Giai đoạn QH               String                    50
+ Đất    4 KhuVuc                          Khu vực                    String                   100
+Quyết 5 LayerName                         LayerName                  String                   100
+ Định   6 MauRGB                          Màu RGB                    String                    20
+        7 DTShapeHa                       Diện tích (ha)             Double                     8
+ 1125   8 Shape_Length                    Shape_Length               Double                     8
+          9 Shape_Area                    Shape_Area                 Double                     8
+                                     GiaiPhapBaoVeMoiTruong_P
+      STT           Tên cột                          Mô tả         Kiểu dữ liệu   Độ dài
+        1 phanLoai                        Phân loại                  String                   250
+QHCTP 2 tacDongMoiTruong                  tacDongMoiTruong           String                   255
+ Giai   3 bienPhapBVMT                    bienPhapBVMT               String                   255
+
+Pháp                                 GiaiPhapBaoVeMoiTruong_L
+      STT           Tên cột                             Mô tả      Kiểu dữ liệu   Độ dài
+ Bảo    1 phanLoai                        Phân loại                  String                   250
+  Vệ    2 Shape_Length                    Shape_Length               Double                     8
+ Môi                                 GiaiPhapBaoVeMoiTruong_A
+                    Tên cột                           Mô tả        Kiểu dữ liệu   Độ dài
+Trườn STT
+        1 phanLoai                        Phân loại                  String                   250
+   g    2 giaiDoanQuyHoach                giaiDoanQuyHoach           String                   255
+          3 nguonONhiem                   nguonONhiem                String                   255
+          4 Shape_Length                  Shape_Length               Double                     8
+          5 Shape_Area                    Shape_Area                 Double                     8
+                                     Công trình cấp điện dạng điểm
+        STT             Tên cột                         Mô tả      Kiểu dữ liệu   Độ dài
+          1 tenDoiTuong                   Tên đối tượng              String                   100
+          2 phanLoai                      Phân loại                  String                   250
+          3 CongSuatHT                    Công suất hiện trạng       String                   254
+QHCTP
+          4 CSuat2030                     Công suất QH đến 2030      String                   100
+ Quy      5 CSuat2040                     Công suất QH đến 2040      String                   100
+Hoạch     6 CSuat2050                     Công suất QH đến 2050      String                   100
+          7 GiaiDoan                      Giai đoạn quy hoạch        String                   100
+ Cấp
+                                       Mạng lưới phân phối điện
+ Điện
+        STT             Tên cột                         Mô tả      Kiểu dữ liệu   Độ dài
+          1 phanLoai                      Phân loại                  String                   250
+          2 TinhTrang                     Tình trạng                 String                   100
+          3 ChieuDai                      Chiều dài m                Double                     8
+          4 GiaiDoan                      Giai đoạn quy hoạch        String                   100
+                                CongtrinhCapNuocPCCC_P
+      STT            Tên cột                   Mô tả      Kiểu dữ liệu   Độ dài
+        1 maThongTinQH             Mã thông tin quy hoạch   String                    15
+        2 maHoSoQH                 Mã hồ sơ quy hoạch       String                    15
+        3 maDoiTuong               Mã đối tượng             String                   100
+        4 tenDoiTuong              Tên đối tượng            String                   100
+        5 phanLoai                 Phân loại                String                   250
+        6 ghiChu                   Ghi chú                  String                   250
+        7 Layer                    Layer                    String                   255
+        8 Refname                  Refname                  String                   255
+        9 giaiDoanQuyHoach         Giai đoạn quy hoạch      String                   255
+       10 congSuatHT               Công suất hiện trạng     String                   255
+       11 quyMo                    Quy mô                   Double                     8
+QHCTP  12 congSuat2040             Công suất QH đến 2040    String                   255
+ Quy   13 congSuat2060             Công suất QH đến 2060    String                   255
+       14 congSuat2030             Công suất QH đến 2030    String                   255
+Hoạch                           Lớp MangLuoiCapNuoc_L
+ Cấp
+      STT            Tên cột                   Mô tả      Kiểu dữ liệu   Độ dài
+Nước
+        1 maThongTinQH             Mã thông tin quy hoạch   String                    15
+        2 maHoSoQH                 Mã hồ sơ quy hoạch       String                    15
+        3 maDoiTuong               Mã đối tượng             String                   100
+        4 tenDoiTuong              Tên đối tượng            String                   100
+        5 phanLoai                 Phân loại                String                   250
+        6 ghiChu                   Ghi chú                  String                   250
+        7 kichThuoc                Kích thước               String                   255
+        8 Layer                    Layer                    String                   255
+        9 Linetype                 Linetype                 String                   255
+       10 tinhChat                 Tính chất                String                   255
+       11 giaiDoanQuyHoach         Giai đoạn quy hoạch      String                   255
+       12 ChieuDai                 Chiều dài                Double                     8
+       13 NhomKThuoc               Nhóm kích thước          String                    50
+       14 Shape_Length             Shape_Length             Double                     8
+                                 Lớp Cao_Do_Nen_Anno
+      STT            Tên cột                   Mô tả      Kiểu dữ liệu   Độ dài
+        1 FeatureID                FeatureID                Integer                    4
+        2 ZOrder                   ZOrder                   Integer                    4
+        3 AnnotationClassID        AnnotationClassID        Integer                    4
+        4 Element                  Element                                             0
+        5 SymbolID                 SymbolID                 Integer                    4
+        6 Status                   Status                   Small Int                  2
+        7 TextString               TextString               String                   255
+        8 FontName                 FontName                 String                   255
+        9 FontSize                 FontSize                 Double                     8
+          10 Bold                       Bold                      Small Int                     2
+          11 Italic                     Italic                    Small Int                     2
+          12 Underline                  Underline                 Small Int                     2
+          13 VerticalAlignment          VerticalAlignment         Small Int                     2
+          14 HorizontalAlignment        HorizontalAlignment       Small Int                     2
+          15 XOffset                    XOffset                   Double                        8
+          16 YOffset                    YOffset                   Double                        8
+          17 Angle                      Angle                     Double                        8
+          18 FontLeading                FontLeading               Double                        8
+          19 WordSpacing                WordSpacing               Double                        8
+          20 CharacterWidth             CharacterWidth            Double                        8
+          21 CharacterSpacing           CharacterSpacing          Double                        8
+          22 FlipAngle                  FlipAngle                 Double                        8
+          23 Override                   Override                  Integer                       4
+                                        Lớp HoDieuTiet_P
+        STT             Tên cột                      Mô tả      Kiểu dữ liệu   Độ dài
+           1 luuVuc                     Lưu vực                   String                   255
+           2 maHo                       Mã hồ                     String                   255
+           3 dienTichMatHo              Diện tích mặt hồ          Double                     8
+           4 caoDoTruNgap               Cao độ trữ ngập           Double                     8
+           5 caoDoDayHoToiThieu         Cao độ đáy hồ tối thiểu   Double                     8
+           6 viTriHo                    Vị trí hồ                 String                   255
+                                       Lớp CongTrinhCBKT_P
+        STT             Tên cột                      Mô tả      Kiểu dữ liệu   Độ dài
+
+QHCTP 1 tenDoiTuong                     Tên đối tượng             String                   100
+         2 phanLoai                     Phân loại                 String                   250
+  Quy    3 giaiDoanQuyHoach             giaiDoanQuyHoach          String                   255
+Hoạch                                    Lớp CaoDoNen_P
+Chuẩn
+       STT           Tên cột                         Mô tả      Kiểu dữ liệu   Độ dài
+ Bị Kỹ
+         1 CTN                          CTN                       String                   255
+Thuật 2 CTK                             CTK                       String                   255
+                                   Lớp MangLuoiThoatNuocMua_L
+        STT             Tên cột                      Mô tả      Kiểu dữ liệu   Độ dài
+           1 phanLoai                   Phân loại                 String                   250
+           2 giaiDoanQuyHoach           Giai đoạn QH              String                   255
+           3 kichThuocCong              Kích thước cống           String                   255
+           4 Shape_Length               Shape_Length              Double                     8
+                                    Lớp HuongThoatNuocMua_L
+        STT             Tên cột                      Mô tả      Kiểu dữ liệu   Độ dài
+           1 maThongTinQH               Mã thông tin quy hoạch    String                       15
+  2 maHoSoQH                 Mã hồ sơ quy hoạch       String                    15
+  3 maDoiTuong               Mã đối tượng             String                   100
+  4 tenDoiTuong              Tên đối tượng            String                   100
+  5 phanLoai                 Phân loại                String                   250
+  6 ghiChu                   Ghi chú                  String                   250
+  7 Shape_Length             Shape_Length             Double                     8
+                            Lớp CongTrinhCBKT_L
+STT           Tên cột                       Mô tả   Kiểu dữ liệu   Độ dài
+  1 phanLoai                 Phân loại                String                   250
+  2 Shape_Length             Shape_Length             Double                     8
+                           Lớp PhanVungLuuVuc_A
+STT           Tên cột                       Mô tả   Kiểu dữ liệu   Độ dài
+  1 tenDoiTuong              Tên đối tượng            String                   100
+  2 caoDoXayDung             caoDoXayDung             Double                     8
+  3 caoDoChongNgap           caoDoChongNgap           String                   255
+  4 DTShapeHa                DTShapeHa                Double                     8
+  5 Shape_Length             Shape_Length             Double                     8
+  6 Shape_Area               Shape_Area               Double                     8
+                              Lớp MatNuoc_A
+STT           Tên cột                       Mô tả   Kiểu dữ liệu   Độ dài
+  1 phanLoai                 Phân loại                String                   250
+  2 Shape_Length             Shape_Length             Double                     8
+  3 Shape_Area               Shape_Area               Double                     8
+                         Lớp CongTrinhGiaoThong_P
+STT           Tên cột                       Mô tả   Kiểu dữ liệu   Độ dài
+  1 tenDoiTuong              Tên đối tượng            String                   100
+  2 phanLoai                 Phân loại                String                   250
+  3 chucNang                 chucNang                 String                   255
+  4 loaiHinhGiaoThong        loaiHinhGiaoThong        String                   255
+  5 quyMo                    quyMo                    String                   255
+  6 giaiDoanQuyHoach         giaiDoanQuyHoach         String                   255
+                     Lớp MangLuoiGiaoThongDuongThuy_L
+STT           Tên cột                       Mô tả   Kiểu dữ liệu   Độ dài
+  1 tenDoiTuong              Tên đối tượng            String                   100
+  2 phanLoai                 Phân loại                String                   250
+  3 capKyThuat               capKyThuat               String                   255
+  4 LShapeKm                 LShapeKm                 Double                     8
+  5 Shape_Length             Shape_Length             Double                     8
+                         Lớp CongTrinhGiaoThong_L
+        STT           Tên cột                       Mô tả      Kiểu dữ liệu   Độ dài
+
+QHCTP 1 phanLoai                     Phân loại              String                        250
+        2 Shape_Length               Shape_Length           Double                          8
+ Quy
+                             Lớp MangLuoiGiaoThongDuongBo_L
+Hoạch
+                    Tên cột                       Mô tả   Kiểu dữ liệu        Độ dài
+ Giao STT
+Thông 1 maThongTinQH                 Mã thông tin quy hoạch String                         15
+          2 maHoSoQH                    Mã hồ sơ quy hoạch       String                    15
+          3 maDoiTuong                  Mã đối tượng             String                   100
+          4 tenDoiTuong                 Tên đối tượng            String                   100
+          5 phanLoai                    Phân loại                String                   250
+          6 ghiChu                      Ghi chú                  String                   250
+          7 TenDuong                    TenDuong                 String                   255
+          8 CapDuong                    CapDuong                 String                   255
+          9 LoGioi                      LoGioi                   String                   255
+         10 ChieuDai                    ChieuDai                 Double                     8
+         11 Shape_Length                Shape_Length             Double                     8
+                                 Lớp MangLuoiGiaoThongDuongBo_A
+        STT           Tên cột                       Mô tả      Kiểu dữ liệu   Độ dài
+          1 maThongTinQH                Mã thông tin quy hoạch   String                    15
+          2 maHoSoQH                    Mã hồ sơ quy hoạch       String                    15
+          3 maDoiTuong                  Mã đối tượng             String                   100
+          4 tenDoiTuong                 Tên đối tượng            String                   100
+          5 phanLoai                    Phân loại                String                   250
+          6 ghiChu                      Ghi chú                  String                   250
+          7 Shape_Length                Shape_Length             Double                     8
+          8 Shape_Area                  Shape_Area               Double                     8
+                                    Lớp ChucNangKhongGian_P
+        STT           Tên cột                       Mô tả      Kiểu dữ liệu   Độ dài
+          1 phanLoai                    Phân loại                String                   250
+          2 maChuThich                  maChuThich               String                   255
+                                  Lớp PhanVungTrungTamDoThi_A
+        STT           Tên cột                       Mô tả      Kiểu dữ liệu   Độ dài
+          1 maThongTinQH                Mã thông tin quy hoạch   String                    15
+          2 maHoSoQH                    Mã hồ sơ quy hoạch       String                    15
+          3 maDoiTuong                  Mã đối tượng             String                   100
+          4 tenDoiTuong                 Tên đối tượng            String                   100
+QHCTP     5 phanLoai                    Phân loại                String                   250
+ Quy      6 ghiChu                      Ghi chú                  String                   250
+          7 Shape_Length                Shape_Length             Double                     8
+Hoạch
+          8 Shape_Area                  Shape_Area               Double                     8
+Không
+Không                              Lớp PhanVungDoThi_A
+ Gian
+      STT           Tên cột                      Mô tả      Kiểu dữ liệu   Độ dài
+ Kiến
+        1 maThongTinQH               Mã thông tin quy hoạch   String                    15
+ Trúc
+        2 maHoSoQH                   Mã hồ sơ quy hoạch       String                    15
+Cảnh    3 maDoiTuong                 Mã đối tượng             String                   100
+ Quan 4 tenDoiTuong                  Tên đối tượng            String                   100
+          5 phanLoai                 Phân loại                String                   250
+          6 ghiChu                   Ghi chú                  String                   250
+          7 Shape_Length             Shape_Length             Double                     8
+          8 Shape_Area               Shape_Area               Double                     8
+                                   Lớp KhongGianDoThi_A
+        STT           Tên cột                    Mô tả      Kiểu dữ liệu   Độ dài
+          1 dinhHuongKhongGian       dinhHuongKhongGian       String                   255
+          2 DTShapeHa                DTShapeHa                Double                     8
+          3 PhanNhom                 PhanNhom                 String                   254
+          4 Shape_Length             Shape_Length             Double                     8
+          5 Shape_Area               Shape_Area               Double                     8
+                                 Lớp CongTrinhNangLuong_P
+        STT           Tên cột                    Mô tả      Kiểu dữ liệu   Độ dài
+          1 tenDoiTuong              Tên đối tượng            String                   100
+QHCTP 2 phanLoai                     Phân loại                String                   250
+ Quy   3 giaiDoanQuyHoach            Giai đoạn quy hoạch      String                   255
+
+Hoạch                            Lớp MangLuoiNangLuong_L
+Năng STT           Tên cột                       Mô tả      Kiểu dữ liệu   Độ dài
+Lượng 1 tenDoiTuong                  Tên đối tượng            String                   100
+          2 phanLoai                 Phân loại                String                   250
+          3 giaiDoanQuyHoach         Giai đoạn quy hoạch      String                   255
+          4 LShapeKm                 LShapeKm                 Double                     8
+          5 Shape_Length             Shape_Length             Double                     8
+                                 Lớp CongTrinhTNTvaVSMT_P
+        STT           Tên cột                    Mô tả      Kiểu dữ liệu   Độ dài
+          1 maThongTinQH             Mã thông tin quy hoạch   String                    15
+          2 maHoSoQH                 Mã hồ sơ quy hoạch       String                    15
+          3 maDoiTuong               Mã đối tượng             String                   100
+          4 tenDoiTuong              Tên đối tượng            String                   100
+          5 phanLoai                 Phân loại                String                   250
+          6 ghiChu                   Ghi chú                  String                   250
+          7 Layer                    Layer                    String                   255
+          8 Refname                  Refname                  String                   255
+          9 giaiDoanQuyHoach         Giai đoạn quy hoạch      String                   255
+         10 quyMo                     Quy mô                    String                   255
+         11 congSuatHT                Công suất hiện trạng      String                   255
+         12 congSuat2040              Công suất QH đến 2040     String                   255
+         13 congSuat2060              Công suất QH đến 2060     String                   255
+         14 khoangCachAnToanMT        Khoảng cách an toàn MT    String                   255
+                                  Lớp HuongThoatNuocThai_L
+        STT          Tên cột                      Mô tả       Kiểu dữ liệu   Độ dài
+          1 maThongTinQH              Mã thông tin quy hoạch    String                    15
+          2 maHoSoQH                  Mã hồ sơ quy hoạch        String                    15
+          3 maDoiTuong                Mã đối tượng              String                   100
+          4 tenDoiTuong               Tên đối tượng             String                   100
+          5 phanLoai                  Phân loại                 String                   250
+          6 ghiChu                    Ghi chú                   String                   250
+          7 CHIEUDAI                  Chiều dài                 String                   255
+          8 DUONGKINH                 Đường kính                String                   255
+          9 DODOC                     Độ dốc                    String                   255
+         10 t_                        t_                        String                   255
+         11 D                         D                         String                   255
+QHCTP    12 Shape_Length              Shape_Length              Double                     8
+
+ Quy                             Lớp MangLuoiThoatNuocThai_L
+Hoạch STT           Tên cột                       Mô tả       Kiểu dữ liệu   Độ dài
+Thoát 1 maThongTinQH                  Mã thông tin quy hoạch    String                    15
+Nước    2 maHoSoQH                    Mã hồ sơ quy hoạch        String                    15
+        3 maDoiTuong                  Mã đối tượng              String                   100
+ Thải   4 tenDoiTuong                 Tên đối tượng             String                   100
+VSMT 5 phanLoai                       Phân loại                 String                   250
+          6 ghiChu                    Ghi chú                   String                   250
+          7 Layer                     Layer                     String                   255
+          8 Linetype                  Linetype                  String                   255
+          9 giaiDoanQuyHoach          Giai đoạn quy hoạch       String                   255
+         10 chieuDai                  Chiều dài                 Double                     8
+         11 kichThuocCong             Kích thước cống           String                   255
+         12 doDoc                     Độ dốc                    Double                     8
+         13 NhomKThuoc                Nhóm kích thước           String                   100
+         14 Shape_Length              Shape_Length              Double                     8
+                                 Lớp PhanLuuThoatNuocThai_L
+        STT          Tên cột                      Mô tả       Kiểu dữ liệu   Độ dài
+          1 maThongTinQH              Mã thông tin quy hoạch    String                    15
+          2 maHoSoQH                  Mã hồ sơ quy hoạch        String                    15
+          3 maDoiTuong                Mã đối tượng              String                   100
+          4 tenDoiTuong               Tên đối tượng             String                   100
+          5 phanLoai                  Phân loại                 String                   250
+          6 ghiChu                    Ghi chú                   String                   250
+          7 Shape_Length               Shape_Length                 Double                       8
+                                 Lớp PhanLuuThoatNuocThai_A
+        STT           Tên cột                         Mô tả       Kiểu dữ liệu   Độ dài
+          1 maThongTinQH               Mã thông tin quy hoạch       String                    15
+          2 maHoSoQH                   Mã hồ sơ quy hoạch           String                    15
+          3 maDoiTuong                 Mã đối tượng                 String                   100
+          4 tenDoiTuong                Tên đối tượng                String                   100
+          5 phanLoai                   Phân loại                    String                   250
+          6 ghiChu                     Ghi chú                      String                   250
+          7 DTShapeHa                  Diện tích (ha)               Double                     8
+          8 Shape_Length               Shape_Length                 Double                     8
+          9 Shape_Area                 Shape_Area                   Double                     8
+                                    Lớp CongTrinhThongTin_P
+        STT           Tên cột                         Mô tả       Kiểu dữ liệu   Độ dài
+QHCTP
+        1 tenDoiTuong                  Tên đối tượng                String                   100
+ Quy
+        2 phanLoai                     Phân loại                    String                   250
+Hoạch 3 GiaiDoanQH                     GiaiDoanQH                   String                   254
+Thông                            Lớp MangLuoiCapThongTin_L
+  Tin STT           Tên cột                           Mô tả       Kiểu dữ liệu   Độ dài
+ Liên
+        1 phanLoai                     Phân loại                    String                   250
+  Lạc   2 giaiDoanQuyHoach             giaiDoanQuyHoach             String                   255
+          3 LShapeKm                   LShapeKm                     Double                     8
+          4 Shape_Length               Shape_Length                 Double                     8
+                                     Lớp QHPK_SuDungDat
+        STT           Tên cột                         Mô tả       Kiểu dữ liệu   Độ dài
+          1 KyHieuLoaiDat              ký hiệu loại đất             String                    20
+          2 MucDichSuDung              mục đích sử dụng             String                   200
+          3 TangCaoXayDung             tầng cao xây dựng            String                    50
+          4 MatDoXayDungTrungBinh      mật độ xây dựng trung bình   String                    50
+          5 HeSoSuDungDat              Hệ số sử dụng đất            String                    50
+          6 QuyMoDanSo                 quy mô dân số                String                    50
+          7 DienTich                   diện tích (m2)               Double                     8
+          8 MaQuanHuyen                mã quận huyện                String                    10
+          9 MaPhuongXa                 mã phường xã                 String                    10
+         10 TenKhuChucNang             tên khu chức năng            String                   250
+         11 TenCongTrinhXayDung        tên công trình xây dựng      String                   250
+         12 GiaiDoanQuyHoach           giai đoạn quy hoạch          Small Int                  2
+         13 MaDoiTuong                 mã sử dụng đất               String                    20
+         14 NgayCapNhat                ngày cập nhật                DateTime                   8
+         15 DonViQuanLy                đơn vị quản lý               Small Int                  2
+         16 DonViCapNhat               đơn vị cập nhật              Small Int                  2
+        17 NguoiCapNhat                    người cập nhật                    String                    50
+        18 GhiChu                          ghi chú                           String                   250
+        19 MaDuAn                          mã dự án                          String                   255
+        20 KyHieuODat                      ký hiệu ô đất                     String                    20
+        21 KyHieuLoDat                     ký hiệu lô đất                    String                    30
+        22 PhanLoaiQuyHoach                Phân loại quy hoạch               String                    50
+        23 KV                              Khu vực                           String                    50
+        24 KyHieuTT12                      Ký hiệu loại đất theo TT12        String                    50
+        25 MucDichSDDTT12                  Chức năng sử dụng đất theo TT12   String                       50
+
+QHPK    26 KyHieuTT16                      Ký hiệu loại đất theo TT16        String                       50
+ Sử     27 MucDichSDDTT16                  Chức năng sử dụng đất theo TT16   String                       50
+dụng    28 PhanLoaiQHPK                    Phân loại QHPK                    String                    50
+ đất    29 MaSo                            Mã số                             String                    50
+        30 MaQuyUoc                        Mã quy ước                        String                   100
+        31 MaPhuongXaMoi                   Mã phường/xã                      String                    50
+                             Cấu trúc dữ liệu lớp QHPK_ChiTieuOPho
+       STT              Tên cột                         Mô tả              Kiểu dữ liệu   Độ dài
+         1 TangCaoXayDung                  Tầng cao xây dựng                 String                    50
+         2 MatDoXayDung                    Mật độ xây dựng                   String                    50
+         3 HeSoSuDungDat                   Hệ số sử dụng đất                 String                    50
+         4 DanSo                           Dân số                            String                    50
+         5 DienTich                        Diện tích (m2)                    Double                     8
+         6 MaQuanHuyen                     Mã quận huyện                     String                    10
+         7 MaPhuongXa                      Mã phường xã cũ                   String                    10
+         8 ChucNangCongTrinh               Chức năng công trình              String                   250
+         9 MaChucNangCongTrinh             Mã chức năng công trình           String                   250
+        10 GhiChu                          Ghi chú                           String                   250
+        11 MaDuAn                          Mã dự án                          String                   255
+        12 KyHieuOPho                      Ký hiệu ô phố                     String                    30
+        13 PhanLoaiQuyHoach                Phân loại quy hoạch               String                    50
+        14 KV                              Khu vực                           String                    50
+        15 KyHieuTT12                      Ký hiệu loại đất theo TT12        String                    50
+        16 MucDichSDDTT12                  Chức năng sử dụng đất theo TT12   String                       50
+        17 KyHieuTT16                      Ký hiệu loại đất theo TT16        String                       50
+        18 MucDichSDDTT16                  Chức năng sử dụng đất theo TT16   String                       50
+        19 PhanLoaiQHPK                    Phân loại QHPK                    String                    50
+        20 ChieuCao                        Chiều cao (m)                     String                    50
+        21 TenPhuongXaMoi                  Tên phường xã                     String                   100
+        22 MaPhuongXaMoi                   Mã phường/xã                      String                    50
+                                   Cấu trúc dữ liệu lớp ThongTinDoAn
+         STT             Tên cột                      Mô tả                Kiểu dữ liệu   Độ dài
+           1 MaDuAn                      Mã dự án                            String                   255
+           2 TenDuAn                     Tên dự án                           String                   500
+           3 TinhTrangPheDuyet           Tình trạng phê duyệt                Small Int                  2
+           4 TrangThaiPheDuyetQuyHoach Tình trạng phê duyệt quy hoạch        String                        5
+           5 SoQD                        Số quyết định phê duyệt (Gốc)       String                       50
+           6 NgayKy                      Ngày ký quyết định (Gốc)            DateTime                      8
+                                         Số quyết định phê duyệt (Điều
+           7 SoQD_DC                                                         String                       50
+                                         chỉnh)
+           8 NgayKy_DC                   Ngày ký quyết định (Điều chỉnh)     DateTime                      8
+           9 QuyMoDanSo                  Quy mô dân số                       String                   50
+          10 TyLe                        Tỷ lệ bản vẽ                        String                   50
+          11 TienDoDuAn                  Tiến độ dự án                       String                    5
+          12 DienTich                    Diện tích (m2)                      Double                    8
+          13 MaQuanHuyen                 Huyện/Thị xã/Thành phố với          String                   20
+          14 MaPhuongXa                  Mã phường xã                        String                   20
+          15 PhanLoaiDA                  Phân loại dự án                     String                   20
+          16 ChuDauTu                    Chủ đầu tư                          String                  200
+Thông     17 NoiDungKinhDoanhBDS         Nội dung kinh doanh BĐS             String                 1000
+          18 NoiDungChuTruong            Nội dung chủ trương                 String                 1000
+Tin Đồ
+          19 TGDangKyCDT                 Thời gian đăng ký CDT               DateTime                  8
+  Án      20 TGQHXinPheDuyet             Thời gian xin phê duyệt             DateTime                  8
+                                         Thời gian quy hoạch thông tin quy
+          21 TGQHThongTinQH                                                  DateTime                      8
+                                         hoạch
+          22 TGQHLayYKien                Thời gian lấy ý kiến                DateTime                   8
+          23 TGQHCongBo                  Thời gian công bố                   DateTime                   8
+          24 TGChuTruong                 Thời gian chủ trương                DateTime                   8
+          25 TGThamDinhThietKe           Thời gian thẩm định thiết kế        DateTime                   8
+          26 TGCapPhepXayDung            Thời gian cấp phép xây dựng         DateTime                   8
+          27 TGNghiemThu                 Thời gian nghiệm thu                DateTime                   8
+          28 TGKinhDoanhBDS              Thời gian kinh doanh BĐS            DateTime                   8
+          29 DonViQuanLy                 Đơn vị quản lý                      Small Int                  2
+          30 DonViCapNhat                Đơn vị cập nhật                     Small Int                  2
+          31 GhiChu                      Ghi chú                             String                   100
+          32 LoaiQuyHoach                Loại quy hoạch                      Small Int                  2
+          33 MaPhuongXaCu                MaPhuongXaCu                        String                    50
+          34 MaQuanHuyenCu               MaQuanHuyenCu                       String                    50
+          35 KV                          Khu vực                             String                    50
+          36 CoQuanPheDuyet              Cơ quan phê duyệt                   String                   250
+          37 MaPhuongXaMoi               Mã phường xã mới                    String                    50
+          38 TenPhuongXaMoi              Tên phường xã mới                   String                   100
+          39 PhanLoaiDoThi               Phân loại đô thị                    String                    50
+          40 PhanLoaiQHCT                Phân loại QHCT                      String                    50
+          41 LoaiQHPK                    Loại quy hoạch phân khu             String                    50
+

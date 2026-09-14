@@ -1,0 +1,14 @@
+{
+  "range": "bytes=477161078784-477161340927",
+  "status": 206,
+  "bytes": 262144,
+  "asset": {
+    "path": "outputs/hcmc-poc/data/surface-18/quarantine/raw-ranges/gedtm-v1.2-uncertainty-padded/c9251691fb97627455607b6b5abd7c70bfa7b131ef751d424f841a37c2a5234f.bin",
+    "sha256": "c9251691fb97627455607b6b5abd7c70bfa7b131ef751d424f841a37c2a5234f",
+    "bytes": 262144
+  },
+  "ETag": "\"8865102a2c05c0f1d50ae3bdd947a425-4976\"",
+  "Content-Range": "bytes 477161078784-477161340927/566074296766",
+  "providerUrl": "https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_std_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif",
+  "retrievedAt": "2026-09-14T10:43:09.080926+00:00"
+}

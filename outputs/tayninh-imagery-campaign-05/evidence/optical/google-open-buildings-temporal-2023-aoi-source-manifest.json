@@ -1,0 +1,81 @@
+{
+  "id": "google-open-buildings-temporal-2023-aoi-reproduction-manifest",
+  "dataset": "Google Open Buildings 2.5D Temporal v1",
+  "dataset_primary_url": "https://sites.research.google/gr/open-buildings/temporal/",
+  "download_notebook_url": "https://raw.githubusercontent.com/google-research/google-research/master/building_detection/open_buildings_temporal_download_region_geotiffs.ipynb",
+  "aoi_bbox_wgs84": [
+    106.3276338,
+    11.0830401,
+    106.3576338,
+    11.1130401
+  ],
+  "year": 2023,
+  "manifest_s2_level": 2,
+  "s2_token": "31",
+  "crs": "EPSG:32648",
+  "source_raster_grid_m": 0.5,
+  "derived_resampled_grid_m": 4.0,
+  "effective_resolution_m_approx": 4.0,
+  "bands": [
+    "building_fractional_count",
+    "building_height",
+    "building_presence"
+  ],
+  "nodata": -99.0,
+  "source_manifests": [
+    {
+      "path": "evidence/optical/google-open-buildings-temporal-token31-epsg32648-2023-manifest.json",
+      "sha256": "pending-local-hash-recorded-in-qa-run",
+      "url": "https://storage.googleapis.com/open-buildings-temporal-data/v1/manifests/31_EPSG_32648_2023_06_30.json"
+    }
+  ],
+  "source_cog_urls": [
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_fpGpfdF5luU.tif",
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_DU-Fxbi3ckY.tif",
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_rMNDnDjmb_Q.tif",
+    "https://storage.googleapis.com/open-buildings-temporal-data/v1/geotiffs/310b4_2023_06_30/tile_FiQf8RCd7-0.tif"
+  ],
+  "aoi_bounds_epsg32648": [
+    644992.3672623612,
+    1225484.2373552984,
+    648284.4023861852,
+    1228817.0065319908
+  ],
+  "actual_derived_bounds_epsg32648": [
+    644992.3672623612,
+    1225485.0065319908,
+    648284.3672623612,
+    1228817.0065319908
+  ],
+  "coverage_edge_trim_m": {
+    "west": 0.0,
+    "south": 0.7691766924690455,
+    "east": 0.03512382402550429,
+    "north": 0.0
+  },
+  "expected_outputs": [
+    {
+      "path": "evidence/optical/google-open-buildings-temporal-2023-aoi-effective4m.tif",
+      "sha256": "530761d4d1782b4686a8ebefe1cd785e9328ae79abcca321a775871e17d59897"
+    },
+    {
+      "path": "evidence/optical/google-open-buildings-temporal-2023-aoi-presence.png",
+      "sha256": "3731f8e14bbf0b3d088e4cb6733e73b9a8e09957c4659a7434982ae2716b95fb"
+    },
+    {
+      "path": "evidence/optical/google-open-buildings-temporal-2023-aoi-height.png",
+      "sha256": "dcb34ceeacfa2df078b57b0ba1400e06ee75e8d8e2bac053be974d202ed4f540"
+    },
+    {
+      "path": "evidence/optical/google-open-buildings-temporal-2023-aoi-qa.json",
+      "sha256": "09bd21c5b70f68e67912841e5a2eb6358c379d9d1daf01791e05e30372280db6"
+    }
+  ],
+  "limits": [
+    "This is not RGB imagery.",
+    "The 0.5 m source file grid is not 0.5 m effective optical imagery.",
+    "Building height is model-derived, not measured survey height.",
+    "The high-resolution training imagery is not publicly released.",
+    "The 4 m derived grid is rounded to whole pixels; it trims a subpixel border and must not be described as exact full-subpixel AOI coverage."
+  ]
+}

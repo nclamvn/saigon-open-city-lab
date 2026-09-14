@@ -1,0 +1,36 @@
+{
+  "id": "gialoc-pilot-01",
+  "label": "Vùng mẫu quanh vị trí tham chiếu Gia Lộc từ OSM — không phải ranh phường",
+  "bboxWGS84": [
+    106.3276338,
+    11.0830401,
+    106.3576338,
+    11.1130401
+  ],
+  "crs": "EPSG:4326",
+  "axisOrder": "west,south,east,north",
+  "centerWGS84": [
+    106.3426338,
+    11.0980401
+  ],
+  "basis": "Chọn hộp ±0.015 độ quanh tâm hộp bao relation OSM 14929839 tên Phường Gia Lộc. Đây là vùng mẫu kỹ thuật do nhóm chọn, không phải ranh hành chính; tâm hộp bao không phải trụ sở hay trọng tâm dân cư.",
+  "snapshot": "sources/local/osm-relation.json",
+  "snapshotSha256": "e2cc313f127bf3c81380c48f056c5ccd7bdaa22c69de17badffaa08d63d17b8e",
+  "sourceUrl": "https://www.openstreetmap.org/relation/14929839",
+  "retrievedAt": "2026-09-14",
+  "sourceDataTimestamp": "2026-09-14T02:32:50Z",
+  "officialBoundary": null,
+  "officialIdentity": {
+    "name": "Phường Gia Lộc, tỉnh Tây Ninh",
+    "basis": "Điều 1 khoản 96 Nghị quyết 1682/NQ-UBTVQH15: xã Phước Đông (huyện Gò Dầu) và phường Gia Lộc thành phường Gia Lộc.",
+    "sourceUrl": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2025/6/45138/56874-1-2025805-8061682-nq-ubtvqh15.pdf",
+    "snapshot": "raw/local/nq1682-2025.pdf",
+    "pagePrinted": 45,
+    "pdfPage": 8
+  },
+  "limitations": [
+    "Chưa tải được ranh hành chính được cơ quan có thẩm quyền xác nhận.",
+    "Tọa độ cộng đồng OSM có sai số chưa xác định; không là điểm khống chế đo đạc.",
+    "Vùng mẫu có thể cắt qua khu vực lân cận; không tính tỷ lệ bao phủ toàn phường."
+  ]
+}

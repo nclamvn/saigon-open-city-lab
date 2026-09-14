@@ -1,0 +1,1241 @@
+{
+  "aoi": {
+    "id": "gialoc-pilot-01",
+    "requested_bbox_wgs84": [
+      106.3276338,
+      11.0830401,
+      106.3576338,
+      11.1130401
+    ],
+    "crs": "EPSG:4326",
+    "official_boundary": false
+  },
+  "eth_canopy_height_2020": {
+    "source_tile": "N09E105",
+    "source_bounds": [
+      105.0,
+      9.0,
+      108.0,
+      12.0
+    ],
+    "source_dimensions": [
+      36000,
+      36000
+    ],
+    "source_crs": "EPSG:4326",
+    "source_pixel_size_degrees": [
+      8.333333333333333e-05,
+      8.333333333333333e-05
+    ],
+    "nominal_ground_sampling_distance_m": 10,
+    "source_nodata": 255,
+    "crop_window_col0_row0_col1_row1": [
+      15931,
+      10643,
+      16292,
+      11004
+    ],
+    "derived_pixel_aligned_bounds": [
+      106.32758333333334,
+      11.083,
+      106.35766666666666,
+      11.113083333333334
+    ],
+    "derived_dimensions": [
+      361,
+      361
+    ],
+    "height_unit": "metres (integer raster values)",
+    "height_valid_pixels": 119438,
+    "height_nodata_pixels": 10883,
+    "height_positive_pixels": 119418,
+    "height_positive_percent_of_valid": 99.983255,
+    "height_statistics": {
+      "count": 119438,
+      "min": 0,
+      "max": 27,
+      "mean": 10.244989,
+      "median": 10.0,
+      "std": 2.986692
+    },
+    "height_distribution": [
+      {
+        "value": 0,
+        "pixels": 20,
+        "percent_of_all_pixels": 0.015347
+      },
+      {
+        "value": 1,
+        "pixels": 138,
+        "percent_of_all_pixels": 0.105892
+      },
+      {
+        "value": 2,
+        "pixels": 341,
+        "percent_of_all_pixels": 0.261662
+      },
+      {
+        "value": 3,
+        "pixels": 845,
+        "percent_of_all_pixels": 0.648399
+      },
+      {
+        "value": 4,
+        "pixels": 1690,
+        "percent_of_all_pixels": 1.296798
+      },
+      {
+        "value": 5,
+        "pixels": 3052,
+        "percent_of_all_pixels": 2.34191
+      },
+      {
+        "value": 6,
+        "pixels": 5773,
+        "percent_of_all_pixels": 4.429831
+      },
+      {
+        "value": 7,
+        "pixels": 9738,
+        "percent_of_all_pixels": 7.472318
+      },
+      {
+        "value": 8,
+        "pixels": 13157,
+        "percent_of_all_pixels": 10.09584
+      },
+      {
+        "value": 9,
+        "pixels": 15106,
+        "percent_of_all_pixels": 11.591378
+      },
+      {
+        "value": 10,
+        "pixels": 14548,
+        "percent_of_all_pixels": 11.163205
+      },
+      {
+        "value": 11,
+        "pixels": 13899,
+        "percent_of_all_pixels": 10.665204
+      },
+      {
+        "value": 12,
+        "pixels": 12810,
+        "percent_of_all_pixels": 9.829575
+      },
+      {
+        "value": 13,
+        "pixels": 10226,
+        "percent_of_all_pixels": 7.846778
+      },
+      {
+        "value": 14,
+        "pixels": 8466,
+        "percent_of_all_pixels": 6.496267
+      },
+      {
+        "value": 15,
+        "pixels": 5726,
+        "percent_of_all_pixels": 4.393766
+      },
+      {
+        "value": 16,
+        "pixels": 2546,
+        "percent_of_all_pixels": 1.953638
+      },
+      {
+        "value": 17,
+        "pixels": 848,
+        "percent_of_all_pixels": 0.650701
+      },
+      {
+        "value": 18,
+        "pixels": 296,
+        "percent_of_all_pixels": 0.227131
+      },
+      {
+        "value": 19,
+        "pixels": 103,
+        "percent_of_all_pixels": 0.079036
+      },
+      {
+        "value": 20,
+        "pixels": 32,
+        "percent_of_all_pixels": 0.024555
+      },
+      {
+        "value": 21,
+        "pixels": 30,
+        "percent_of_all_pixels": 0.02302
+      },
+      {
+        "value": 22,
+        "pixels": 22,
+        "percent_of_all_pixels": 0.016881
+      },
+      {
+        "value": 23,
+        "pixels": 17,
+        "percent_of_all_pixels": 0.013045
+      },
+      {
+        "value": 24,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 25,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 27,
+        "pixels": 3,
+        "percent_of_all_pixels": 0.002302
+      },
+      {
+        "value": 255,
+        "pixels": 10883,
+        "percent_of_all_pixels": 8.350918
+      }
+    ],
+    "uncertainty_measure": "predictive standard deviation",
+    "uncertainty_unit": "metres (integer raster values)",
+    "uncertainty_valid_pixels": 119438,
+    "uncertainty_nodata_pixels": 10883,
+    "uncertainty_statistics": {
+      "count": 119438,
+      "min": 0,
+      "max": 199,
+      "mean": 5.96903,
+      "median": 6.0,
+      "std": 3.435591
+    },
+    "uncertainty_distribution": [
+      {
+        "value": 0,
+        "pixels": 161,
+        "percent_of_all_pixels": 0.123541
+      },
+      {
+        "value": 1,
+        "pixels": 95,
+        "percent_of_all_pixels": 0.072897
+      },
+      {
+        "value": 2,
+        "pixels": 123,
+        "percent_of_all_pixels": 0.094382
+      },
+      {
+        "value": 3,
+        "pixels": 917,
+        "percent_of_all_pixels": 0.703647
+      },
+      {
+        "value": 4,
+        "pixels": 8665,
+        "percent_of_all_pixels": 6.648967
+      },
+      {
+        "value": 5,
+        "pixels": 36936,
+        "percent_of_all_pixels": 28.342324
+      },
+      {
+        "value": 6,
+        "pixels": 43476,
+        "percent_of_all_pixels": 33.360702
+      },
+      {
+        "value": 7,
+        "pixels": 20333,
+        "percent_of_all_pixels": 15.602244
+      },
+      {
+        "value": 8,
+        "pixels": 6060,
+        "percent_of_all_pixels": 4.650056
+      },
+      {
+        "value": 9,
+        "pixels": 1411,
+        "percent_of_all_pixels": 1.082711
+      },
+      {
+        "value": 10,
+        "pixels": 478,
+        "percent_of_all_pixels": 0.366787
+      },
+      {
+        "value": 11,
+        "pixels": 174,
+        "percent_of_all_pixels": 0.133516
+      },
+      {
+        "value": 12,
+        "pixels": 107,
+        "percent_of_all_pixels": 0.082105
+      },
+      {
+        "value": 13,
+        "pixels": 75,
+        "percent_of_all_pixels": 0.05755
+      },
+      {
+        "value": 14,
+        "pixels": 62,
+        "percent_of_all_pixels": 0.047575
+      },
+      {
+        "value": 15,
+        "pixels": 51,
+        "percent_of_all_pixels": 0.039134
+      },
+      {
+        "value": 16,
+        "pixels": 46,
+        "percent_of_all_pixels": 0.035297
+      },
+      {
+        "value": 17,
+        "pixels": 17,
+        "percent_of_all_pixels": 0.013045
+      },
+      {
+        "value": 18,
+        "pixels": 10,
+        "percent_of_all_pixels": 0.007673
+      },
+      {
+        "value": 19,
+        "pixels": 9,
+        "percent_of_all_pixels": 0.006906
+      },
+      {
+        "value": 20,
+        "pixels": 17,
+        "percent_of_all_pixels": 0.013045
+      },
+      {
+        "value": 21,
+        "pixels": 10,
+        "percent_of_all_pixels": 0.007673
+      },
+      {
+        "value": 22,
+        "pixels": 5,
+        "percent_of_all_pixels": 0.003837
+      },
+      {
+        "value": 23,
+        "pixels": 6,
+        "percent_of_all_pixels": 0.004604
+      },
+      {
+        "value": 24,
+        "pixels": 1,
+        "percent_of_all_pixels": 0.000767
+      },
+      {
+        "value": 25,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 26,
+        "pixels": 5,
+        "percent_of_all_pixels": 0.003837
+      },
+      {
+        "value": 27,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 28,
+        "pixels": 29,
+        "percent_of_all_pixels": 0.022253
+      },
+      {
+        "value": 29,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 30,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 31,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 33,
+        "pixels": 8,
+        "percent_of_all_pixels": 0.006139
+      },
+      {
+        "value": 34,
+        "pixels": 5,
+        "percent_of_all_pixels": 0.003837
+      },
+      {
+        "value": 35,
+        "pixels": 1,
+        "percent_of_all_pixels": 0.000767
+      },
+      {
+        "value": 36,
+        "pixels": 1,
+        "percent_of_all_pixels": 0.000767
+      },
+      {
+        "value": 37,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 38,
+        "pixels": 6,
+        "percent_of_all_pixels": 0.004604
+      },
+      {
+        "value": 39,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 42,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 43,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 46,
+        "pixels": 6,
+        "percent_of_all_pixels": 0.004604
+      },
+      {
+        "value": 47,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 48,
+        "pixels": 3,
+        "percent_of_all_pixels": 0.002302
+      },
+      {
+        "value": 49,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 51,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 53,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 59,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 60,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 67,
+        "pixels": 5,
+        "percent_of_all_pixels": 0.003837
+      },
+      {
+        "value": 73,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 75,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 78,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 79,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 80,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 83,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 93,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 96,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 113,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 115,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 117,
+        "pixels": 3,
+        "percent_of_all_pixels": 0.002302
+      },
+      {
+        "value": 129,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 131,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 132,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 142,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 147,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 149,
+        "pixels": 6,
+        "percent_of_all_pixels": 0.004604
+      },
+      {
+        "value": 155,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 156,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 167,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 182,
+        "pixels": 3,
+        "percent_of_all_pixels": 0.002302
+      },
+      {
+        "value": 188,
+        "pixels": 2,
+        "percent_of_all_pixels": 0.001535
+      },
+      {
+        "value": 199,
+        "pixels": 4,
+        "percent_of_all_pixels": 0.003069
+      },
+      {
+        "value": 255,
+        "pixels": 10883,
+        "percent_of_all_pixels": 8.350918
+      }
+    ]
+  },
+  "jrc_global_surface_water_v1_5_2024": {
+    "source_tile": "100E_20N",
+    "source_bounds": [
+      100.0,
+      10.0,
+      110.0,
+      20.0
+    ],
+    "source_dimensions": [
+      40000,
+      40000
+    ],
+    "source_crs": "EPSG:4326",
+    "source_pixel_size_degrees": [
+      0.00025,
+      0.00025
+    ],
+    "nominal_resolution_m": 30,
+    "crop_window_col0_row0_col1_row1": [
+      25310,
+      35547,
+      25431,
+      35668
+    ],
+    "derived_pixel_aligned_bounds": [
+      106.3275,
+      11.083,
+      106.35775,
+      11.113249999999999
+    ],
+    "derived_dimensions": [
+      121,
+      121
+    ],
+    "occurrence": {
+      "period": "1984-03 to 2024-12",
+      "semantics": "0 not water; 1-100 percent occurrence; 255 no data",
+      "valid_pixels": 14641,
+      "nodata_pixels": 0,
+      "water_pixels_value_1_to_100": 114,
+      "statistics_including_valid_not_water_zero": {
+        "count": 14641,
+        "min": 0,
+        "max": 60,
+        "mean": 0.157844,
+        "median": 0.0,
+        "std": 2.370478
+      },
+      "value_distribution": [
+        {
+          "value": 0,
+          "pixels": 14527,
+          "percent_of_all_pixels": 99.221365
+        },
+        {
+          "value": 1,
+          "pixels": 15,
+          "percent_of_all_pixels": 0.102452
+        },
+        {
+          "value": 2,
+          "pixels": 8,
+          "percent_of_all_pixels": 0.054641
+        },
+        {
+          "value": 3,
+          "pixels": 8,
+          "percent_of_all_pixels": 0.054641
+        },
+        {
+          "value": 4,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 5,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 6,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 7,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 8,
+          "pixels": 8,
+          "percent_of_all_pixels": 0.054641
+        },
+        {
+          "value": 9,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 10,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 12,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 13,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 14,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 15,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 16,
+          "pixels": 4,
+          "percent_of_all_pixels": 0.027321
+        },
+        {
+          "value": 18,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 19,
+          "pixels": 4,
+          "percent_of_all_pixels": 0.027321
+        },
+        {
+          "value": 20,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 21,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 22,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 23,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 24,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 25,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 26,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 27,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 28,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 30,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 31,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 32,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 33,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 34,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 35,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 39,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 41,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 42,
+          "pixels": 4,
+          "percent_of_all_pixels": 0.027321
+        },
+        {
+          "value": 43,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 44,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 45,
+          "pixels": 4,
+          "percent_of_all_pixels": 0.027321
+        },
+        {
+          "value": 46,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 49,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 52,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 53,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 54,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 55,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 56,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 57,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 59,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 60,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        }
+      ]
+    },
+    "seasonality": {
+      "year": 2024,
+      "semantics": "0 not water; 1-12 number of months water was present; 255 no data",
+      "valid_pixels": 14641,
+      "nodata_pixels": 0,
+      "water_pixels_value_1_to_12": 63,
+      "permanent_water_pixels_value_12": 33,
+      "statistics_including_valid_not_water_zero": {
+        "count": 14641,
+        "min": 0,
+        "max": 12,
+        "mean": 0.03497,
+        "median": 0.0,
+        "std": 0.601327
+      },
+      "value_distribution": [
+        {
+          "value": 0,
+          "pixels": 14578,
+          "percent_of_all_pixels": 99.569702
+        },
+        {
+          "value": 1,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 2,
+          "pixels": 7,
+          "percent_of_all_pixels": 0.047811
+        },
+        {
+          "value": 3,
+          "pixels": 4,
+          "percent_of_all_pixels": 0.027321
+        },
+        {
+          "value": 4,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 5,
+          "pixels": 7,
+          "percent_of_all_pixels": 0.047811
+        },
+        {
+          "value": 6,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 7,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 8,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 12,
+          "pixels": 33,
+          "percent_of_all_pixels": 0.225394
+        }
+      ]
+    },
+    "normalized_occurrence_change": {
+      "epochs": [
+        "1984-03-16/1999-12-31",
+        "2000-01-01/2024-12-31"
+      ],
+      "semantics": "TIFF 0-200 maps to -100 to +100 percent; 100 no change; 253 not water; 254 no homologous months; 255 no data",
+      "comparable_pixels_value_0_to_200": 131,
+      "not_water_pixels_value_253": 14510,
+      "no_homologous_months_pixels_value_254": 0,
+      "nodata_pixels_value_255": 0,
+      "statistics_tiff_scale_0_to_200": {
+        "count": 131,
+        "min": 0,
+        "max": 200,
+        "mean": 112.748092,
+        "median": 128.0,
+        "std": 77.210562
+      },
+      "value_distribution": [
+        {
+          "value": 0,
+          "pixels": 37,
+          "percent_of_all_pixels": 0.252715
+        },
+        {
+          "value": 67,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 89,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 102,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 103,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 104,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 108,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 109,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 110,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 111,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 114,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 115,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 121,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 123,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 124,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 125,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 127,
+          "pixels": 4,
+          "percent_of_all_pixels": 0.027321
+        },
+        {
+          "value": 128,
+          "pixels": 5,
+          "percent_of_all_pixels": 0.034151
+        },
+        {
+          "value": 130,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 132,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 133,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 134,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 136,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 139,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 142,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 144,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 145,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 149,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 152,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 157,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 159,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 163,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 167,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 173,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 175,
+          "pixels": 3,
+          "percent_of_all_pixels": 0.02049
+        },
+        {
+          "value": 176,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 177,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 178,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 179,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 180,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 181,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 183,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 185,
+          "pixels": 2,
+          "percent_of_all_pixels": 0.01366
+        },
+        {
+          "value": 186,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 187,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 189,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 192,
+          "pixels": 1,
+          "percent_of_all_pixels": 0.00683
+        },
+        {
+          "value": 200,
+          "pixels": 26,
+          "percent_of_all_pixels": 0.177583
+        },
+        {
+          "value": 253,
+          "pixels": 14510,
+          "percent_of_all_pixels": 99.105252
+        }
+      ]
+    }
+  },
+  "derived_sha256": {
+    "derived/ecosystem/eth-canopy-height-2020-aoi.tif": "013c5720ec4ce9c5b982cfd4cda98b7e586e901c942524af738132e04e576e31",
+    "derived/ecosystem/eth-canopy-height-2020-aoi.png": "fcce89217fdc49063d4479467f84a85af6b5b2a9c64608338fdfde16cc8da3cf",
+    "derived/ecosystem/eth-canopy-height-2020-aoi.pgw": "a70ddac27b60f345ff40915e25e06aa001c87089f833d6e774de5ae31a22f8f0",
+    "derived/ecosystem/eth-canopy-height-2020-aoi.prj": "c48fa0a08c78aa3bd747695ddd13b31c38fee66db41b76510c43428465d41dcb",
+    "derived/ecosystem/eth-canopy-height-2020-uncertainty-aoi.tif": "c8f00a8c2a28e622d8f734cfab69ebe6054f3b5f221647a325b07df55d9b1301",
+    "derived/ecosystem/eth-canopy-height-2020-uncertainty-aoi.png": "4b67d1f9f59d84d9cdaf630b0d08082cd438f4582c903fdb24fe03b730e245b8",
+    "derived/ecosystem/eth-canopy-height-2020-uncertainty-aoi.pgw": "a70ddac27b60f345ff40915e25e06aa001c87089f833d6e774de5ae31a22f8f0",
+    "derived/ecosystem/eth-canopy-height-2020-uncertainty-aoi.prj": "c48fa0a08c78aa3bd747695ddd13b31c38fee66db41b76510c43428465d41dcb",
+    "derived/ecosystem/jrc-water-occurrence-1984-2024-aoi.tif": "24c90e1a6f1a554f7fb50b50ace101bdc0ef56c876b46864bf077944eb7b7a27",
+    "derived/ecosystem/jrc-water-occurrence-1984-2024-aoi.png": "bc02f0ca5f8ee01209b3dd4a527bd32c8fdb9727a121ed17b0e41334b2c283e8",
+    "derived/ecosystem/jrc-water-occurrence-1984-2024-aoi.pgw": "dff5ffe297d3d74f811c7d8c5ccbb1cbbd054417923e32a6d79b4696d14beec0",
+    "derived/ecosystem/jrc-water-occurrence-1984-2024-aoi.prj": "c48fa0a08c78aa3bd747695ddd13b31c38fee66db41b76510c43428465d41dcb",
+    "derived/ecosystem/jrc-water-seasonality-2024-aoi.tif": "a7094d939a87d775ef0e7b1586edad260c96eb79e095543adacbf9087f8e66d7",
+    "derived/ecosystem/jrc-water-seasonality-2024-aoi.png": "44a869677efe6fed9734a62e6b0b4a5792438a2346fc438748124a6e0633e81e",
+    "derived/ecosystem/jrc-water-seasonality-2024-aoi.pgw": "dff5ffe297d3d74f811c7d8c5ccbb1cbbd054417923e32a6d79b4696d14beec0",
+    "derived/ecosystem/jrc-water-seasonality-2024-aoi.prj": "c48fa0a08c78aa3bd747695ddd13b31c38fee66db41b76510c43428465d41dcb",
+    "derived/ecosystem/jrc-water-change-1984-1999-vs-2000-2024-aoi.tif": "4fee27f9e2f083ca195b47f08cd112283a49ca270b817af24ef45a03abc24b6b",
+    "derived/ecosystem/jrc-water-change-1984-1999-vs-2000-2024-aoi.png": "23ce47b9064286ffd9ba23a1c2020019c178dd61c01518ff3d464b9a489f99f6",
+    "derived/ecosystem/jrc-water-change-1984-1999-vs-2000-2024-aoi.pgw": "dff5ffe297d3d74f811c7d8c5ccbb1cbbd054417923e32a6d79b4696d14beec0",
+    "derived/ecosystem/jrc-water-change-1984-1999-vs-2000-2024-aoi.prj": "c48fa0a08c78aa3bd747695ddd13b31c38fee66db41b76510c43428465d41dcb"
+  }
+}

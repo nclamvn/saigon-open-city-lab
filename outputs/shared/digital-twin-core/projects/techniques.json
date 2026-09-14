@@ -1,0 +1,78 @@
+{
+  "claim": "Architecture choices and prerequisites; not certification or a claim of universal best technique.",
+  "schema": "rtr-twin-techniques/1.0",
+  "techniques": [
+    {
+      "conditions": [
+        "Hash establishes byte identity, not correctness. Native core catalog is not advertised as a certified STAC catalog."
+      ],
+      "id": "source-qc",
+      "name": "Immutable byte fingerprints, source contracts and purpose-specific admission",
+      "status": "implemented",
+      "url": "https://stacspec.org/en/about/stac-spec/"
+    },
+    {
+      "conditions": [
+        "Explicit render-frame adapter and source semantics required. Source positional accuracy stays unknown unless surveyed."
+      ],
+      "id": "geojson",
+      "name": "WGS84 GeoJSON normalized geographic features",
+      "status": "implemented",
+      "url": "https://www.rfc-editor.org/rfc/rfc7946"
+    },
+    {
+      "conditions": [
+        "Current batch fingerprints retained raster assets; it does not decode them as a new raster service. Source effective resolution cannot be improved by resampling."
+      ],
+      "id": "cog",
+      "name": "Cloud Optimized GeoTIFF range reads, masks and overviews",
+      "status": "planned_production_adapter",
+      "url": "https://www.ogc.org/standard/cog/"
+    },
+    {
+      "conditions": [
+        "Actual georeferenced meshes/point clouds, tiling bounds/errors and independently tested coordinate registration required."
+      ],
+      "id": "3d-tiles",
+      "name": "OGC 3D Tiles 1.1 spatial hierarchy and semantic metadata",
+      "status": "planned_production_adapter",
+      "url": "https://docs.ogc.org/cs/22-025r4/22-025r4.html"
+    },
+    {
+      "conditions": [
+        "Building identity, parts, surfaces, source version and geometry validation required; current render parts are not CityGML compliance."
+      ],
+      "id": "citygml",
+      "name": "CityGML 3.0 / CityJSON semantic LoD and physical asset identity",
+      "status": "planned_semantic_adapter",
+      "url": "https://www.ogc.org/standard/citygml/"
+    },
+    {
+      "conditions": [
+        "Real overlapping multi-angle photographs, pose/scale registration, licensing and checkpoint QA required. Appearance representation is not a measurement substitute."
+      ],
+      "id": "gaussian-splat",
+      "name": "COLMAP camera registration plus Gaussian splats for close visual inspection",
+      "status": "planned_capture_branch",
+      "url": "https://github.com/nerfstudio-project/gsplat"
+    },
+    {
+      "conditions": [
+        "This static local batch normalizes JSON; it does not operate a production GeoParquet data warehouse."
+      ],
+      "id": "geoparquet",
+      "name": "GeoParquet/Arrow analytical tables and indexed source ingestion",
+      "status": "planned_storage_adapter",
+      "url": "https://geoparquet.org/releases/v1.1.0/"
+    },
+    {
+      "conditions": [
+        "Producer distinguishes polygon ODbL from additional polygons, heights and LoD1 under CC BY-NC 4.0. Additional NC assets are not integrated into commercial RtR solution."
+      ],
+      "id": "globalbuildingatlas",
+      "name": "GlobalBuildingAtlas candidate",
+      "status": "blocked_commercial_additional_assets",
+      "url": "https://github.com/zhu-xlab/GlobalBuildingAtlas"
+    }
+  ]
+}

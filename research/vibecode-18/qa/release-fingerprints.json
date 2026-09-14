@@ -1,0 +1,4384 @@
+{
+  "schema": "rtr-contractor-release-fingerprints/1.0",
+  "release": "18b",
+  "manifestVersion": "18a",
+  "createdAt": "2026-09-14T10:58:37.706592+00:00",
+  "scope": "Core contracts/extensions; 18 UI/server; all catalog-referenced GLBs/sidecars; four COGs/QC; 20 retained photos; release docs and QA. Excludes unreferenced copies, full quarantine transfer bodies and historical standalone packages.",
+  "files": [
+    {
+      "path": "outputs/DEMO-18-HUONG-DAN.md",
+      "bytes": 3542,
+      "sha256": "9d25db17413f4dd38ade6f0b95cf0a3b99f6cc63941627f6aaf36fe1f75780ab"
+    },
+    {
+      "path": "outputs/hcmc-poc/README.md",
+      "bytes": 10077,
+      "sha256": "ec91298ad5d4a9a7802bf5ae877502e02d50b8fa09ec3d093b4d3a0c8f247f11"
+    },
+    {
+      "path": "outputs/hcmc-poc/app.js",
+      "bytes": 30131,
+      "sha256": "29eab0077459eb231308f4638799aeb6825852a17dd038d8f12657fc94488bbd"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/cafe42-0.jpg",
+      "bytes": 540553,
+      "sha256": "ddbb830a2e3226a65af87f6dd0e981840d85e48885f3feb914459b1d12a13b60"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/caravelle-1.jpg",
+      "bytes": 524821,
+      "sha256": "c6ac994d3b77c6b034ce50064aad51feb527015d5f598a28d5800223039bacf9"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/cityhall-3.jpg",
+      "bytes": 385355,
+      "sha256": "e837dad1673ca3f77be6a618eb01892be3776890e9c3f5fab3c964018caca95b"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/continental-0.jpg",
+      "bytes": 359310,
+      "sha256": "d36ee45102922160d9a6d359edbdc9797eafd2872e1dcdc11917e45e7735520f"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/grand-4.jpg",
+      "bytes": 415893,
+      "sha256": "ee1c6df317b243e208ea0bc94938cfcad7329789bce1e2432d0bf8f9f6aa67bb"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/hilton-3.jpg",
+      "bytes": 314130,
+      "sha256": "b61b984688bbccfbba3ad09bdb3a8d451ada35f7d118ffa033f45984ea463cf8"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/huongsen-1.jpg",
+      "bytes": 289448,
+      "sha256": "9d17c09522e50c58ec6fd860f5331b3e81533915a4cefea577f4c10fb9a040fb"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/hyatt-1.jpg",
+      "bytes": 396407,
+      "sha256": "b28e36b586e61939aa25e4d89b3cc2123a67817549ee5638c135b663a8d6b95c"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/majestic-2.jpg",
+      "bytes": 399132,
+      "sha256": "2185948833e84b10890be8d36241a5149c1e09f8cb53a47246ccf43adf273833"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/opera-1.jpg",
+      "bytes": 250668,
+      "sha256": "62a5b5a5b0bca7e4e77cf4e6e67cba42531be9be8e8e524058e44f5af7ed9c0c"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/prince-3.jpg",
+      "bytes": 367144,
+      "sha256": "c8ddb612b2410a231bf667fa75aad1e6cdbb72690be4b2798fc8bb0aa2abae70"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/renaissance-1.jpg",
+      "bytes": 527769,
+      "sha256": "d89f9b8027f697f6a962648a689ff430edd7bfdb565bbc7845ba8218ea796ea4"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/rex-day-5.jpg",
+      "bytes": 248142,
+      "sha256": "e26c0a66af561161a2d3d6f316dab2a6e451b386b9f8970e7e0f3577633fdd4e"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/riverside-4.jpg",
+      "bytes": 298565,
+      "sha256": "9110bd2de41cf0378103781ef83acfc00dc10138d7bd4bdac4e838c0e750394c"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/royal-3.jpg",
+      "bytes": 347130,
+      "sha256": "362a7a14230e8c793e641c66e91f48e7fb5a80e3395e0e94986940f9108bf73b"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/sheraton-2.jpg",
+      "bytes": 224469,
+      "sha256": "e029391e874a9a3f8f399c21e911ffccacae1c0cce700424e0af5d55fb4cb4e9"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/sunwah-4.jpg",
+      "bytes": 559748,
+      "sha256": "aa652294eb99665b487b936f01e5f3ac886ebae05e31c089654e9f32167d4a9b"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/union-3.jpg",
+      "bytes": 333466,
+      "sha256": "91bb52c794940fadd862f67a279c17f577c6ec4c4f6921dcb2b1a1391b097247"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades15/vietcombank-1.jpg",
+      "bytes": 925384,
+      "sha256": "292182cd84193cfb5dcda635cebb18ab892e5d32aca33f2c90c45c990a1b5f1e"
+    },
+    {
+      "path": "outputs/hcmc-poc/assets/facades16d/times-original.jpg",
+      "bytes": 5321241,
+      "sha256": "11d7c80e0af75c26774c5db0b75cbadcd552c57a77a7ad9915c758d0afb4f1f3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/facades-15.js",
+      "bytes": 4191287,
+      "sha256": "4b442740e329a222fde0021cc28da9c280a75e672652c4e948116fe2659eba1c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/scene.json",
+      "bytes": 30200554,
+      "sha256": "92c7b70bebbe7c0c35cc9c4cb972a60ee72777558619d675e456ea247f1bb804"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/S2B_T48PXS_20260426T032223_L2A-rgb-wgs84.qc.json",
+      "bytes": 1230,
+      "sha256": "55a86e0581f1a877585c417b95f29b117a160ef3e9ea927cb08a7c4b319169df"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/S2B_T48PXS_20260426T032223_L2A-rgb-wgs84.tif",
+      "bytes": 1199280,
+      "sha256": "fdef4f2464b21ec0f71dd0a8d4e2cd7e9f795adc4a6052681f039468e0afe46f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/copdem-glo30-dsm-padded-wgs84.qc.json",
+      "bytes": 1230,
+      "sha256": "8f50cf3e2e247c4e2bbbe828f0ef26e40a3821f85c55458b950e9a6c18e61bf6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/copdem-glo30-dsm-padded-wgs84.tif",
+      "bytes": 184603,
+      "sha256": "17f7c392998d7e3fa309429c03cd1843c895080a228b50584bbdf52dc9753d1a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-dtm-padded-wgs84.qc.json",
+      "bytes": 1227,
+      "sha256": "13823ebb0d5eb9e9f0f429517141902dc0189738a44342990bd8f58c6e6ebd56"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-dtm-padded-wgs84.tif",
+      "bytes": 185142,
+      "sha256": "9117a55df9c29d3f4753eb625e4414c01abb70404c39ab4b4c598bdcf6260a77"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-uncertainty-padded-wgs84.qc.json",
+      "bytes": 1238,
+      "sha256": "5202b6cc3ba6be1df982bbd2adc19d186ad914293d0084c260b5bdbeccac8608"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/cog/gedtm-v1.2-uncertainty-padded-wgs84.tif",
+      "bytes": 192320,
+      "sha256": "ff24f5443f4b16a55fa9f70c45f9fbe10ff67483a52e7dd04b8a652dfa9da951"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/manifest.json",
+      "bytes": 22035,
+      "sha256": "3d429eb4ea8539f878406b92d786aafc7d35dbd961e34603921a450efa43b3b5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/official-forest-quarantine-report.json",
+      "bytes": 2298,
+      "sha256": "a7f00d3301d98b61b1ce2342c4f367d204c03a7df496325040cba54f31044312"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/official-source-leads.json",
+      "bytes": 87109,
+      "sha256": "929cf4e450d0bc26d9af2f2064fe131a2dad337aa8a92ef5907e2e7d78503b77"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/surface-18/photo-readiness.json",
+      "bytes": 18972,
+      "sha256": "03dbc1b6536d7b12663114715c0cf19342d4c2e06c062e38464cde567f1d0467"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-1-coarse-27c39d0e5e56-features.json",
+      "bytes": 28724,
+      "sha256": "27c39d0e5e5696a63860ea6469cc82c2c63d3339bc61c7ea5e7d855a716cc6b8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-1-coarse-44e391237bbc.glb",
+      "bytes": 67652,
+      "sha256": "44e391237bbc0ce689c3cdb34bc550f1ff3fb231772825c6a79e0fee41978daf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-1-fine-711fba01238a-features.json",
+      "bytes": 28754,
+      "sha256": "711fba01238a327a08c5f9154cb4e9ac3ba095db510627981c71d53b28e40eeb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-1-fine-7d4e3caca7f1.glb",
+      "bytes": 80176,
+      "sha256": "7d4e3caca7f1707ea309571bd44b81a4e7faff6f694d8581cd447f7236784fc0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-2-coarse-4644316e1b0e-features.json",
+      "bytes": 36850,
+      "sha256": "4644316e1b0e9f4c253fe8764f9b767cd44976b79435376ba0d18c5f5914d17c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-2-coarse-b3716fa49cc6.glb",
+      "bytes": 84452,
+      "sha256": "b3716fa49cc6699e10b0d698824e85c34fe8618cc59376db042a589911a532e6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-2-fine-773218445cba-features.json",
+      "bytes": 36891,
+      "sha256": "773218445cbad11800d1914fc03149118a56819fd04076f3293d782fa92d4acf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-2-fine-e8ff688bb39c.glb",
+      "bytes": 115988,
+      "sha256": "e8ff688bb39c0980a93ca23289d74daca768235de1cbfca90e99b231dc9bfd4d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-3-coarse-889d7d84ae08-features.json",
+      "bytes": 289565,
+      "sha256": "889d7d84ae0816a770bcf46e662c71a0779da5155c4d17518c1783fa3ea4d4b5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-3-coarse-acf5a2618026.glb",
+      "bytes": 655664,
+      "sha256": "acf5a261802696c06378ef183dc85667ea49750e2d593aa925f41692ae9cf7fa"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-3-fine-88d2388aaf1e.glb",
+      "bytes": 731048,
+      "sha256": "88d2388aaf1e636e7f765dbd897dda1764d97de62621c5b9ea8c48dfb83094c6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-3-fine-a715b377bcf3-features.json",
+      "bytes": 289652,
+      "sha256": "a715b377bcf3b7f179687a78fbc91caafeeeb632273ae1c330b7f8b909e1d1be"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-4-coarse-dce2fc2fb264.glb",
+      "bytes": 725388,
+      "sha256": "dce2fc2fb264a6272ca8e81c28ba00c903fd716000a24352fb4d238c5438530d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-4-coarse-f0ed23a46078-features.json",
+      "bytes": 323264,
+      "sha256": "f0ed23a4607834b65e3404adc6b9ab6253e0fe8808526957a138c52e4f3ce547"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-4-fine-15d89ac85658.glb",
+      "bytes": 844404,
+      "sha256": "15d89ac85658c2f16f53de5558a86a695040f9a41a33e525dfacc0a603ffe048"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-4-fine-888356591a4f-features.json",
+      "bytes": 323441,
+      "sha256": "888356591a4f525d359a8ca03b956eed7c2237bb0b9c122e9bf69bce003e2000"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-5-coarse-c8a99b9ab957-features.json",
+      "bytes": 289434,
+      "sha256": "c8a99b9ab957da1425d9f3596bc842293ed1b048b0961cbf7009e9f53899067b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-5-coarse-f3b458d7f132.glb",
+      "bytes": 645584,
+      "sha256": "f3b458d7f13236a435cd5008dc6f5b666df66adcbb74a2d007b4c5806f28ea56"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-5-fine-103e8120ae18-features.json",
+      "bytes": 289579,
+      "sha256": "103e8120ae18d4b8a8c4baabea01c4ee5654c8bfad146d6692fc68c3ed4d2cd4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-5-fine-176c378e048e.glb",
+      "bytes": 755312,
+      "sha256": "176c378e048e1698d247ba0b2cb29de23c8d835d9465f88ea531b0ee3180843c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-6-coarse-6fcd306ca2cb-features.json",
+      "bytes": 347793,
+      "sha256": "6fcd306ca2cb01e4f1a76ae486b8a2bcfaa3739a7f158b6558c9f178fdbec2d6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-6-coarse-d58841d560b4.glb",
+      "bytes": 775784,
+      "sha256": "d58841d560b4fd9254796ab399701bd8c7aa4371cb60111ed3dcdc6ebe310f02"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-6-fine-437b66df576e-features.json",
+      "bytes": 347976,
+      "sha256": "437b66df576e260846845332f97255a8342244e91854922a9a24bdee271cccc0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-6-fine-edd2c4f680c9.glb",
+      "bytes": 914024,
+      "sha256": "edd2c4f680c9d3a3517f2ef543ff81fd3a0364940621058f98cab58ffb14249d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-7-coarse-21ebe2200873-features.json",
+      "bytes": 135305,
+      "sha256": "21ebe2200873dac2a39305625a537522d9b715dc973ac076e6be9f62c103929e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-7-coarse-481656395649.glb",
+      "bytes": 298656,
+      "sha256": "48165639564962318966355aa3875a3fc7108046c57091dd68730b75ccfac598"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-7-fine-726c86aa47c4.glb",
+      "bytes": 351572,
+      "sha256": "726c86aa47c4161be7f8814d55627235fe0343c5912c0b9d336d41d79da20706"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_-7-fine-a43899f97709-features.json",
+      "bytes": 135385,
+      "sha256": "a43899f97709d54dd184b06727a4a4134826154af37aea23a3d70a16ed7cc718"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_0-coarse-b8b382ff46d2.glb",
+      "bytes": 32364,
+      "sha256": "b8b382ff46d21ef2b88bb1c5256f8706cb08bebe39f9a35ef4633addb7edadbe"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_0-coarse-d2addaa31a3b-features.json",
+      "bytes": 13414,
+      "sha256": "d2addaa31a3be15b63e0739d3e747288c17aed67220e5106083e2cb1e6590949"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_0-fine-26c75263efae-features.json",
+      "bytes": 13440,
+      "sha256": "26c75263efaecade608f1a528fc8e3658b39650650efd004addf0e98d0d3dda8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_0-fine-77a035a00a24.glb",
+      "bytes": 46840,
+      "sha256": "77a035a00a24a84a4538e4f844579d21abd880409bd9d9b3daeb08f2758be2fd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_1-coarse-0019438869e1-features.json",
+      "bytes": 22183,
+      "sha256": "0019438869e11fa6805826834f956e7a9f6d650e1284571c5c5d48c99327be83"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_1-coarse-a58dab5a8421.glb",
+      "bytes": 53368,
+      "sha256": "a58dab5a8421c9e409578ad59b45a92e6f712dabc87838440c3106f47d7b99e7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_1-fine-4dd63a10a3e6.glb",
+      "bytes": 66108,
+      "sha256": "4dd63a10a3e6e48cffea73f5320454e0d3c7ab8e9c059fd23b1ce32958773912"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_1-fine-ee5af53154cf-features.json",
+      "bytes": 22214,
+      "sha256": "ee5af53154cfcc01a12d8a696727f4d639c8fd94c7d39dc71d4b73b94ce06178"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_2-coarse-7e7be8d3a940-features.json",
+      "bytes": 11723,
+      "sha256": "7e7be8d3a940e27208aea7f92dde3b882516488d39b091590ffae2c14937894a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_2-coarse-ccee42d47377.glb",
+      "bytes": 29840,
+      "sha256": "ccee42d473772e8781039f3a0a899a15d3e5c4cad2be43705a02923505cce63a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_2-fine-33d8ab6b152b.glb",
+      "bytes": 37188,
+      "sha256": "33d8ab6b152be4424b6e97aed8d56c5edd56f259545e9a7c7b8393b9f190e47a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_2-fine-50d9cf675d0f-features.json",
+      "bytes": 11734,
+      "sha256": "50d9cf675d0fc8859b00320329d7d071cd940ca9ddee3235aece421669c3fe56"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_3-coarse-66c60a4dd809.glb",
+      "bytes": 482620,
+      "sha256": "66c60a4dd80942458351f43a69160b44e2d79673fe5e90ea8f894f600c7cc586"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_3-coarse-7495bf503a50-features.json",
+      "bytes": 198647,
+      "sha256": "7495bf503a50dcf54b3f09862908dfd42e7ec5886891913a2cb9e81468afde88"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_3-fine-7da48b9565e4.glb",
+      "bytes": 554548,
+      "sha256": "7da48b9565e458c6d8ecd5f98198d17b6f3715024b75376aece0a10cce45f392"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_3-fine-d3fdd7315dd9-features.json",
+      "bytes": 198836,
+      "sha256": "d3fdd7315dd95aac46253b53c0db639985c5c4b09cdb5b9c0697826bfe2dc5d8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_4-coarse-18c8720f1ba4-features.json",
+      "bytes": 353661,
+      "sha256": "18c8720f1ba40ca22226dff3f36ae6d7bf4ea76715680d234209dc8105243ae9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_4-coarse-61623752753d.glb",
+      "bytes": 776624,
+      "sha256": "61623752753deee1331f5e61c4ea93677d981f096ccdbed7a78d59e8ca8cd856"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_4-fine-7523e822ce3e.glb",
+      "bytes": 892612,
+      "sha256": "7523e822ce3edf3f296932017f0fdb890fe9f1385dbbad7deb84d528f425ca70"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_4-fine-afb506a306f2-features.json",
+      "bytes": 353829,
+      "sha256": "afb506a306f23e7591bea1d1b92ae375ba877384186c1618f10664ecc755f03e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_5-coarse-6e52a40ad098-features.json",
+      "bytes": 269869,
+      "sha256": "6e52a40ad09855c654f29eee9a90fd5426c3640caed92151e0d8f9991948a4e7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_5-coarse-cda363f99996.glb",
+      "bytes": 597700,
+      "sha256": "cda363f99996a1fa1a6aa270f99e9000180f2ca3b5641b3a30f98227c0c7e585"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_5-fine-1d5deb09b10b-features.json",
+      "bytes": 270025,
+      "sha256": "1d5deb09b10bde774007a3495afd277bab050a001a9e39c25fda460d91962ac9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_5-fine-a34d151e7f29.glb",
+      "bytes": 702028,
+      "sha256": "a34d151e7f29234a19058202aa5e5ad3fae200bcfdf3d262ab6d8abf80cc85a0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_6-coarse-eede829103d7-features.json",
+      "bytes": 88808,
+      "sha256": "eede829103d77bc20924eb5982981963ae06f6de1a5b680255878c8625ba8cd2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_6-coarse-ff59e3812a50.glb",
+      "bytes": 201200,
+      "sha256": "ff59e3812a50ed3fc0e29cd16fe6e46162bd37df420aa7c0c50eb463bb7f7502"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_6-fine-1d961c1d3303-features.json",
+      "bytes": 88825,
+      "sha256": "1d961c1d3303f1fc70d4f4162aaba13cd997fd107d55538201e1c6db29042ea1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-1_6-fine-5fef5301a92a.glb",
+      "bytes": 237920,
+      "sha256": "5fef5301a92a3a590002545925c68b37b33396c9ccdddc8960c2cb9c01049bf4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-1-coarse-8b085fcb3f75.glb",
+      "bytes": 293612,
+      "sha256": "8b085fcb3f75e4263289f2b83c96177e664834478f192232a9e91749ae05627a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-1-coarse-f2d2712ca907-features.json",
+      "bytes": 126696,
+      "sha256": "f2d2712ca907636d098f6244254070bfb80bb09405cb386be1da2d15bbddb09a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-1-fine-01834e385043.glb",
+      "bytes": 387192,
+      "sha256": "01834e385043291ab8d98c0d523c3b4c4bf477b80a38f71b5e133fbbb68fba51"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-1-fine-3d2b4882d6c3-features.json",
+      "bytes": 126866,
+      "sha256": "3d2b4882d6c3e423f760c0a4108f0ac43e013c0c8d532d2b58d691f542292b55"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-2-coarse-7a4c77dd1776-features.json",
+      "bytes": 95634,
+      "sha256": "7a4c77dd177694308d71708b55ef719b3e0de0869a76427b2301aed2ece8bf01"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-2-coarse-d7cb62e2d1ff.glb",
+      "bytes": 226416,
+      "sha256": "d7cb62e2d1ff6d1f7e6abd68249ef2732440c7d37a9d0e536cce752d699c9293"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-2-fine-28459484c7bb.glb",
+      "bytes": 360652,
+      "sha256": "28459484c7bb6f7cc73ed38b1175f21b60e081bb12426bc802071df7e24426d6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-2-fine-9d9a54261b0b-features.json",
+      "bytes": 95832,
+      "sha256": "9d9a54261b0b82cdb48ec6de8381a0b613d127998e90583c70e2df487a9191e6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-3-coarse-23c397c422d0-features.json",
+      "bytes": 91184,
+      "sha256": "23c397c422d07bdb79c2b5282664402dddd91d670888db35b09060426d838bae"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-3-coarse-b873c2709304.glb",
+      "bytes": 206256,
+      "sha256": "b873c27093040d168052b3839a6904492c821c94f3a064f87a24231a26c331f8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-3-fine-88af443848b1-features.json",
+      "bytes": 91227,
+      "sha256": "88af443848b1e3aaaccfaac4132b5cd4d270eb9e97a823cd98621cdd310b67c3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-3-fine-f720efba0de9.glb",
+      "bytes": 257708,
+      "sha256": "f720efba0de923cd929a10471140f8d9d69a2728e66e1b456110a081b6f3fd8b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-4-coarse-3b395eaad198.glb",
+      "bytes": 818616,
+      "sha256": "3b395eaad198a9d6f86268c33207ae8f69f1687530bc86a4ca00ce88ac959640"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-4-coarse-88693b124584-features.json",
+      "bytes": 370795,
+      "sha256": "88693b1245844437355cc4523ca84310d7150f0d120e7d1ebc4f27def3f51044"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-4-fine-0258d2c3bfe9-features.json",
+      "bytes": 370990,
+      "sha256": "0258d2c3bfe94a55b5d49741ce66af89b3d2155869690c6c2dd9da20ce22037a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-4-fine-56976400e0ec.glb",
+      "bytes": 962904,
+      "sha256": "56976400e0ecc2d113f33ef686ab8164e0fbd110a7a9ee48a89799d3ef9a1e5c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-5-coarse-22e46a0e5a4f-features.json",
+      "bytes": 258263,
+      "sha256": "22e46a0e5a4fd6c4ec4980b32b551d37196d46a7a8f76872ae36b446132c2dad"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-5-coarse-a4570bcd94df.glb",
+      "bytes": 574184,
+      "sha256": "a4570bcd94dfdec418ca758685f7713646ca3b4cc3ee478034bab83ba211bdee"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-5-fine-6aebd728ae77-features.json",
+      "bytes": 258422,
+      "sha256": "6aebd728ae77ec8aae95a96e4980fab02bf51fbbcba8829de9b9bd409a37db24"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-5-fine-bbaeca6911c1.glb",
+      "bytes": 667496,
+      "sha256": "bbaeca6911c18328b363e16403251d6ba9ba15775432a285f9979b3299c59908"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-6-coarse-2b1739b180b7-features.json",
+      "bytes": 373928,
+      "sha256": "2b1739b180b70943184fadd07a1c54f3df7a14ff344c99bf140d431582c86ad6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-6-coarse-6b6e6a98d908.glb",
+      "bytes": 832060,
+      "sha256": "6b6e6a98d908390a16a77fb185c1322a800b2de37717557c4470a4ca8c010db6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-6-fine-b399f7434255.glb",
+      "bytes": 964036,
+      "sha256": "b399f74342551823112a53555e85f9f8cd8502bf7b0873f9081c151d839ec716"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-6-fine-ff1fc2464d24-features.json",
+      "bytes": 374057,
+      "sha256": "ff1fc2464d249fd272d56da4a38a16d09df2f73d3ff58b3f2578f05057ccf057"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-7-coarse-68bcf6be534c-features.json",
+      "bytes": 158662,
+      "sha256": "68bcf6be534c71ce4ddeb1d7a317f159316377d9921cff991783e2f47eb50b2a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-7-coarse-b45c624d1150.glb",
+      "bytes": 349896,
+      "sha256": "b45c624d11501b692ba8d32c300890df2982ac9d8f233b958d8b19d65b55faec"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-7-fine-cc589c781f78-features.json",
+      "bytes": 158766,
+      "sha256": "cc589c781f7833e18b10e8f40694ffd467259fe6095012a5144c9fe05d6984da"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_-7-fine-d5ce356e7472.glb",
+      "bytes": 431980,
+      "sha256": "d5ce356e7472ede3af964d70e1248101d1d752a6be5f8b1c31115cb77a2679d2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_0-coarse-a5fa78bc49fa-features.json",
+      "bytes": 104781,
+      "sha256": "a5fa78bc49fa074a731f7fd9e3cd83c6a5ccbc65a96f40b2b4bb08494c0f855c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_0-coarse-d38ecf222902.glb",
+      "bytes": 241536,
+      "sha256": "d38ecf222902d669f8a8acaf64a2b6fe45e1e2503548e94afa191e3262e10595"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_0-fine-7388b5243905-features.json",
+      "bytes": 104928,
+      "sha256": "7388b5243905049f1d598f89570593b1f6425247740fde0e503575f44e34f300"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_0-fine-f9efef0f6e33.glb",
+      "bytes": 339836,
+      "sha256": "f9efef0f6e331b0c257bb4b1ca89470337a05d367e67721513634fd95f575336"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_1-coarse-570b4f0b3d20-features.json",
+      "bytes": 153962,
+      "sha256": "570b4f0b3d208ec519682e37fc5fda221915f3f94e095764e558c5c28935bf4b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_1-coarse-96a281612639.glb",
+      "bytes": 350736,
+      "sha256": "96a2816126395bc1c87a20f0ea59205fcd950851e689ea3b786872655fb53878"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_1-fine-b59c23f9804c.glb",
+      "bytes": 455068,
+      "sha256": "b59c23f9804cc271db17e1e497b250ef92a1fc06afd2624f67b87e15ab270f8b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_1-fine-d128dc171351-features.json",
+      "bytes": 154203,
+      "sha256": "d128dc1713510a9f9400e7dc98f1b8fe8e9c0262ce9335790648d8a7ae078222"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_2-coarse-c8ebe3c969aa-features.json",
+      "bytes": 104828,
+      "sha256": "c8ebe3c969aa610e3b02fe4fa24e1d432b11b6e265c8f6c7feebcbf0470e4a6c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_2-coarse-f53a5bf5077c.glb",
+      "bytes": 254136,
+      "sha256": "f53a5bf5077c6e483d6745d482ab9040b0e6141d7a7aa8756c12e68b6a3eb626"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_2-fine-6f3d254cfa1d-features.json",
+      "bytes": 104907,
+      "sha256": "6f3d254cfa1dd76e840e9b7f5f64e1921108a192b10dfc2975dcb6f3a1dc6449"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_2-fine-b3b13e5ef454.glb",
+      "bytes": 310532,
+      "sha256": "b3b13e5ef45465c009372a1d43a9460f5baee0a85ce7c8db440018f679950837"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_3-coarse-93fcf87b6a58-features.json",
+      "bytes": 533720,
+      "sha256": "93fcf87b6a589c66ee7b96a3c27878ee4a0e4fea2077e4eb52de9f5ffc50a16b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_3-coarse-ef85482e0ca1.glb",
+      "bytes": 1278104,
+      "sha256": "ef85482e0ca11038663f7df605091a04d4452a8f147268b1f4134bc159e959e9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_3-fine-d8c047c79c21-features.json",
+      "bytes": 533833,
+      "sha256": "d8c047c79c2196028e2f4a8d290504fd3326455b3dda8880bf9f1391f65a5003"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_3-fine-e6c8c641fefd.glb",
+      "bytes": 1359532,
+      "sha256": "e6c8c641fefd8cba77a91824d5376558fcd7ee497147fec7c15e558a1d714e6b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_4-coarse-3d02b5c5604c-features.json",
+      "bytes": 374041,
+      "sha256": "3d02b5c5604c2d511eeb6decc5ea69cd004709b5fdfbbee1a413b13c9129d14d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_4-coarse-aefcc8aece60.glb",
+      "bytes": 819464,
+      "sha256": "aefcc8aece609417608ba1e137673feba640abeabd968f63c773868a56535699"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_4-fine-2e12b642d53e.glb",
+      "bytes": 906292,
+      "sha256": "2e12b642d53e40359beaa2bdd0e02371328d23b38997d491855ecd6a8f711b86"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_4-fine-55c6a660199f-features.json",
+      "bytes": 374144,
+      "sha256": "55c6a660199fcee1d2966bc6e179d49f46b82f74d1b336a41d5bcedd97e88d16"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_5-coarse-af2236ad3719-features.json",
+      "bytes": 182097,
+      "sha256": "af2236ad3719268c5f2e22d1cef019e5c94d1c1bae78be18aca47b790a926aab"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_5-coarse-e387eb6c52eb.glb",
+      "bytes": 402820,
+      "sha256": "e387eb6c52ebe91aba08870da2ae409b9f12f082701701929f39897f432032f7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_5-fine-d4894b6ac4ab.glb",
+      "bytes": 468916,
+      "sha256": "d4894b6ac4abae2aec0abefb21b56b0a8dcd7928f302a3ff61b83a70b3f782d5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_5-fine-e2e4dad7a566-features.json",
+      "bytes": 182239,
+      "sha256": "e2e4dad7a56681a1be64338c8c500567c5aa5848a2a172877152df8294b45e6b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_6-coarse-5ae2aaa80a31-features.json",
+      "bytes": 163947,
+      "sha256": "5ae2aaa80a31461021bcc1887f1c970ad2c43bb3918e648fcc26d16bd9a26f9d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_6-coarse-c91f6a816e8e.glb",
+      "bytes": 359980,
+      "sha256": "c91f6a816e8e8bb433ac4f3f51ecc54762dec9d8cffe616b55250940f020001d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_6-fine-0de273b7597a-features.json",
+      "bytes": 164003,
+      "sha256": "0de273b7597a4b60c2fcc3daea275b92b518f24b230a344963552d6f31152dff"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-2_6-fine-a63a98dae5e1.glb",
+      "bytes": 405768,
+      "sha256": "a63a98dae5e176470c8d5e753aff5e7fa09d57a72a4791babca99c80f2312af2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-1-coarse-768f62c9dd4a.glb",
+      "bytes": 169280,
+      "sha256": "768f62c9dd4aafeed260849a779f2240747dcb3e20c200e612cf05ad09656c9a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-1-coarse-d7080a6f4060-features.json",
+      "bytes": 70386,
+      "sha256": "d7080a6f40605c2d802d9f7af9fa4ac706c45d95b24da3310417ff1ddef4861d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-1-fine-437be5806815.glb",
+      "bytes": 272960,
+      "sha256": "437be58068157285639999a395626815c1102fc25bbfd81789988a74054caedf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-1-fine-7ab92431df39-features.json",
+      "bytes": 70468,
+      "sha256": "7ab92431df3986d367f8953078f9f734f6f211457547353a37b15ba94e990d50"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-2-coarse-ab4361413134-features.json",
+      "bytes": 158894,
+      "sha256": "ab436141313423e49bda10229878c6765f4741871193e2b10ddf249b4775f0f8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-2-coarse-bcad39312fbe.glb",
+      "bytes": 356620,
+      "sha256": "bcad39312fbea59afe7b7edb8b4804075407b58d61376476ee7398011c7150ba"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-2-fine-528a471e689c.glb",
+      "bytes": 419904,
+      "sha256": "528a471e689c23145d7020c50bdb5499cb5885aa37b1a54dcaff1e6f9606c4d2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-2-fine-ae34857c8d08-features.json",
+      "bytes": 159010,
+      "sha256": "ae34857c8d0817c5d992fa5794fa217713e062e7b85d1a9d581d4c6aae078f5a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-3-coarse-39cc654732d6.glb",
+      "bytes": 575860,
+      "sha256": "39cc654732d6d43c8e3785fc565061fc1343a72edbe25f6bf4edc3eb1a87a780"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-3-coarse-aa1b543ad1c0-features.json",
+      "bytes": 260840,
+      "sha256": "aa1b543ad1c08ef65edb890a10fad0c439fd622881281fb71edc850eac0b151f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-3-fine-5c7d364ac1c5.glb",
+      "bytes": 660768,
+      "sha256": "5c7d364ac1c58ff2119c5e2493e9972cbd10f9da75b21a98f04de30048b0e80d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-3-fine-9864fa3ab293-features.json",
+      "bytes": 261014,
+      "sha256": "9864fa3ab2935ac21a681f7aa78e35d294a1ce278112b492effc0f0260e79ffa"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-4-coarse-45528b97e53c.glb",
+      "bytes": 541424,
+      "sha256": "45528b97e53c5b9f8006f2d1960b59b0701b81346f3778b46988614cfca484a2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-4-coarse-9f10a7325abb-features.json",
+      "bytes": 244457,
+      "sha256": "9f10a7325abb2dd1aba24843a56b02a7e0a8d2f52a849294f3ee281594726171"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-4-fine-3a06b802e6ad.glb",
+      "bytes": 599096,
+      "sha256": "3a06b802e6ad889a2c9ae2739d0e90224478982c9a8564acba0c506480550adf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-4-fine-555504255f40-features.json",
+      "bytes": 244562,
+      "sha256": "555504255f40545457f7513049ca0f54adc8fdcc0e32b59b2f679eb557d4f216"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-5-coarse-9ca88998bb2a.glb",
+      "bytes": 664052,
+      "sha256": "9ca88998bb2a855e81c20a93802951c4f65fd40bd92d488aed5ade89b60dc276"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-5-coarse-eb3a8e0fddcd-features.json",
+      "bytes": 301710,
+      "sha256": "eb3a8e0fddcdc37e325d8707529714eb6aca939c963da16f380c8337e4b82cd6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-5-fine-04bef6166099.glb",
+      "bytes": 757148,
+      "sha256": "04bef61660993413cb31e265ab32bd36d747f760c36ab7404cc3f9f10fcdcea0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-5-fine-fb4336017b7b-features.json",
+      "bytes": 301805,
+      "sha256": "fb4336017b7b39a783b8377e9b12adef11f8984e9b1108123bdd7f01d0e08467"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-6-coarse-b383aec81a7a-features.json",
+      "bytes": 282839,
+      "sha256": "b383aec81a7a58e3d3fcf158d9c5743b9738b299b860589751270e85642a1858"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-6-coarse-ff5dd00aca46.glb",
+      "bytes": 623740,
+      "sha256": "ff5dd00aca4662b61ee1caa1b2ba0ed0c31e0d24dd61d7973d7a51b5a4351f5a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-6-fine-5128991f9193.glb",
+      "bytes": 728500,
+      "sha256": "5128991f91936ddb11cc59fa73e51f25155421c85510d77c5cfd8d0bf9ed8b0b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-6-fine-ddd9c8beba61-features.json",
+      "bytes": 282983,
+      "sha256": "ddd9c8beba615fe87da7cdec4b32b58122ca8a3dd17ebab4a179f0539fa6be8d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-7-coarse-3ff8ff954c43-features.json",
+      "bytes": 182332,
+      "sha256": "3ff8ff954c438a16cb9a059dd4eee4ccaa92e46c4bff01075d137d60505e3abf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-7-coarse-a28edf123ff5.glb",
+      "bytes": 400296,
+      "sha256": "a28edf123ff5d07dc3f333c0d6900d2dcf89fbf6e34017d826799ee7bce25116"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-7-fine-2fecdb794888-features.json",
+      "bytes": 182408,
+      "sha256": "2fecdb7948889c6774d1b95c7b5c128e5bbf9208c0b3cf4eeef5807bf0cc6ce8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_-7-fine-c9058cffd270.glb",
+      "bytes": 449760,
+      "sha256": "c9058cffd27086d89ba1dbf15c502af4933a0e3126b2c09b0fde9f5c879d4d44"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_0-coarse-2e68575b4129.glb",
+      "bytes": 241532,
+      "sha256": "2e68575b4129a8d262bebaf20443a709c0f0ed2ce007e27701771e6e71a66785"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_0-coarse-44cac9c8ed10-features.json",
+      "bytes": 100064,
+      "sha256": "44cac9c8ed10330a49d1bf38de5540f26d1e1550b607b3920554293aaa525f19"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_0-fine-148dafbad49a.glb",
+      "bytes": 364248,
+      "sha256": "148dafbad49ac3b0790ff005520866d5fecc7c9b5a3ac507b2baaa9edd4f9a82"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_0-fine-def4426d520f-features.json",
+      "bytes": 100254,
+      "sha256": "def4426d520f2db4332feff314eef3a4fa1f14378bb68bcdeeb1e3f4644130ad"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_1-coarse-3c096e752b02-features.json",
+      "bytes": 158414,
+      "sha256": "3c096e752b02ff2d36464f464095ea48562bdda01c0cf280d163ac091ec8e7f7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_1-coarse-8b6c4699585e.glb",
+      "bytes": 364176,
+      "sha256": "8b6c4699585efc1edb0435d437cc7d2735308218f61202dc1fcccf429237ba91"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_1-fine-3582abc8a295.glb",
+      "bytes": 433296,
+      "sha256": "3582abc8a295f4c6409ab0407fd751aa0844dcde3fb54386d48f0cda0d76e1f2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_1-fine-c9c4f97a8577-features.json",
+      "bytes": 158565,
+      "sha256": "c9c4f97a85770f5ec4b8475605797623f5a89dbba73c73916edc007c97e59bb2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_2-coarse-2510d8605387-features.json",
+      "bytes": 186581,
+      "sha256": "2510d8605387590b197705c632973f69054aa12073764061a837052e064c6ae3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_2-coarse-fcd8f1a281f9.glb",
+      "bytes": 417932,
+      "sha256": "fcd8f1a281f99e11c9633ec6dcbb22d7ec5e73fae446100e8e21224401976f94"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_2-fine-59a189f936e7-features.json",
+      "bytes": 186805,
+      "sha256": "59a189f936e72c55fa6e39f57fd1435f88f6b5623d0f8736ec7dbe472fc125d2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_2-fine-b7053fe2ff2d.glb",
+      "bytes": 495500,
+      "sha256": "b7053fe2ff2dcae8b54bfb81624428ca6ec6168d9e4b73e861e259489bdd6856"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_3-coarse-57ac75cac550-features.json",
+      "bytes": 126882,
+      "sha256": "57ac75cac550552484c11bd42227eb989364450616aab40612cc5a8aba0859eb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_3-coarse-e93fdb44ccb2.glb",
+      "bytes": 288576,
+      "sha256": "e93fdb44ccb230925e936c7bbb74f6e9639934075ebcae8650fd80df658b56ce"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_3-fine-3e86ec3b499d.glb",
+      "bytes": 337388,
+      "sha256": "3e86ec3b499d22af66cb1eba86d271eaa6035116b3b58911e2f5781ea506caff"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_3-fine-5f726f045e0b-features.json",
+      "bytes": 126992,
+      "sha256": "5f726f045e0b48fdaf2357666d017e2abe1a2f31a70c1ab9cfd71577b812d981"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_4-coarse-0d3eb63b64d8-features.json",
+      "bytes": 161020,
+      "sha256": "0d3eb63b64d8eaae4efe2fa35784235588a1adbab05ad000b6201889197558c2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_4-coarse-2cbf380b06fe.glb",
+      "bytes": 369220,
+      "sha256": "2cbf380b06fe7b77d5e56cf16a016369ceccfd6963d0ef12a75302706e38ab51"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_4-fine-6d0d2893dc54-features.json",
+      "bytes": 161104,
+      "sha256": "6d0d2893dc548e592d93a4099ea68897531300a2662706abada9623f042f6ef0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_4-fine-811f84414fe6.glb",
+      "bytes": 408532,
+      "sha256": "811f84414fe696aef446c68454d46e3a48d50ee00434c3601e7efd38050429f9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_5-coarse-003eeb225262-features.json",
+      "bytes": 146808,
+      "sha256": "003eeb225262d8f65d2ded3f49a8635af7f4eb352b927d757bce6d77fa608c13"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_5-coarse-4462767fbb0f.glb",
+      "bytes": 326376,
+      "sha256": "4462767fbb0f20874cdf3b820149d7128aa3220ad984981ee433bb2ac5f98443"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_5-fine-66801d8f05e0-features.json",
+      "bytes": 146898,
+      "sha256": "66801d8f05e0b463c61c70ba1dc32a18af80fec9c714648858e74e4cb4ce5292"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_5-fine-b1ce3e46b0f7.glb",
+      "bytes": 370656,
+      "sha256": "b1ce3e46b0f70368d2b83f371c280fc7b2c9cd82cb8e16f8cf6d88c77a834596"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_6-coarse-64c42e6773ac.glb",
+      "bytes": 273452,
+      "sha256": "64c42e6773ac23ba3db3c5308bb2c4351b8c57733182f3cacc39d6128608ea01"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_6-coarse-9dbe4917df44-features.json",
+      "bytes": 123323,
+      "sha256": "9dbe4917df44d9ba112c4951feb4e147bbaf1e67df73ff8e068044e73e79e76e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_6-fine-33aaf7be05c5-features.json",
+      "bytes": 123338,
+      "sha256": "33aaf7be05c5badf170025e38551b9f30c33133751bd748c7160ade506596942"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-3_6-fine-bfc40ab5b73a.glb",
+      "bytes": 289220,
+      "sha256": "bfc40ab5b73a1bf4b8e015166c10cb6d1b8808238291a6b09b5f6a55033b5276"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-1-coarse-7651932d96ba.glb",
+      "bytes": 263364,
+      "sha256": "7651932d96baedb7c9dcd3133df50178f533b9affd2388a4125f277ecd7fc3b5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-1-coarse-a686c9eeea82-features.json",
+      "bytes": 109257,
+      "sha256": "a686c9eeea82bba3a79743faad65376795368e8a983bd886dbe4c32269330783"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-1-fine-6f4791b50e0b-features.json",
+      "bytes": 109407,
+      "sha256": "6f4791b50e0bfe668e86425b3e399d3e0dd492cb3d958fa6baee943f22671bc7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-1-fine-f997e0c3eeaf.glb",
+      "bytes": 351132,
+      "sha256": "f997e0c3eeafa1666feba782835d809932b08b9bcc732ee5ed028993c19b81fb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-2-coarse-9b72899340b1-features.json",
+      "bytes": 186117,
+      "sha256": "9b72899340b17ef066aabc11a320aeec20368d0a13e95f71e398d04c22f8c79d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-2-coarse-ea26760f4826.glb",
+      "bytes": 417940,
+      "sha256": "ea26760f4826a55a13fa518d6e6782be1842b1eab87a713b2f0eb0bd34cf69a5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-2-fine-4d0bd62dd80e.glb",
+      "bytes": 506980,
+      "sha256": "4d0bd62dd80e4698a2430d379661c33c93a6b1c3f4a5e6f8c93a8b71e3d8051a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-2-fine-a74f2879b18f-features.json",
+      "bytes": 186329,
+      "sha256": "a74f2879b18f28540faed3cc2f1f0f0773f66c80a877781fd9ba2d3929ffc684"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-3-coarse-2090924f1327-features.json",
+      "bytes": 340027,
+      "sha256": "2090924f132708ac11892037e201b8b18b930f8ebec364cf7dde84494b4669c1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-3-coarse-cdef8f951c78.glb",
+      "bytes": 750588,
+      "sha256": "cdef8f951c78157604aca25472e3a7189b1c51496636a5bda8a41497d6360456"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-3-fine-9054d4827711-features.json",
+      "bytes": 340144,
+      "sha256": "9054d4827711942a9ff35f6a2d6c58b9a84a44e0fa21a52e0a2cac496cd4594a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-3-fine-fd6097407cdc.glb",
+      "bytes": 836144,
+      "sha256": "fd6097407cdce44fb89623eff0e9415c09f23dd22878c7ea855f04f7c0fc71db"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-4-coarse-39215485d323.glb",
+      "bytes": 567464,
+      "sha256": "39215485d3231d0920d29cd9c24b0f1404bde5b9bf70fd14ae2c90bc09c516ee"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-4-coarse-c3912e698838-features.json",
+      "bytes": 256140,
+      "sha256": "c3912e698838970349f01c7b8d6ee8789ba9ff72827f1287bd889f729431d801"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-4-fine-46469a1c240f-features.json",
+      "bytes": 256220,
+      "sha256": "46469a1c240faeb1cda434711e8ebe0265161640e41af1ae2503bf69a0e3b1e0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-4-fine-89b219bdda37.glb",
+      "bytes": 614764,
+      "sha256": "89b219bdda37c4993f6939e6314271ec2779d99ebb3eabf52206c3fbabd13a36"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-5-coarse-149be8337749-features.json",
+      "bytes": 384014,
+      "sha256": "149be833774960e33b88ca0064869db0bb3a5c652ce25b071f3ba7e1c074eb8e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-5-coarse-1878f13742eb.glb",
+      "bytes": 843824,
+      "sha256": "1878f13742eb86120759231c53b3f71eb158ad23d69548546358392734b5a8cd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-5-fine-343615103a70-features.json",
+      "bytes": 384103,
+      "sha256": "343615103a702e9029ebe37c8211bdf76ecb56344b9592981ad96e1745e7730b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-5-fine-e157bee01920.glb",
+      "bytes": 919712,
+      "sha256": "e157bee0192012e6aa7018134b8b4c5baaac68342a8f1c987e0c105475b5517d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-6-coarse-8c1d1d7fd73a-features.json",
+      "bytes": 217085,
+      "sha256": "8c1d1d7fd73a27adf06612bd83bfce795114eff991c490b294ac1195661c6cea"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-6-coarse-93a7ea9bc3a0.glb",
+      "bytes": 482620,
+      "sha256": "93a7ea9bc3a0cad86c11e1205ac35f756928f5655448ffe8019a24ecb19b68d7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-6-fine-0271ad11cde2.glb",
+      "bytes": 540936,
+      "sha256": "0271ad11cde2a72841bf67cec878a4391c8490334f18916829f73873a1413141"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-6-fine-735f3700aa83-features.json",
+      "bytes": 217247,
+      "sha256": "735f3700aa837cc683492ae114bd843255527c8c986224525ff695ac7d6c924e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-7-coarse-0ecbc632f04a-features.json",
+      "bytes": 153347,
+      "sha256": "0ecbc632f04af08e82aec2631872b6474f2eea4d2ea81e3626b5365d70ab6047"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-7-coarse-e50474d3b3ec.glb",
+      "bytes": 339816,
+      "sha256": "e50474d3b3ec1a09895540f4c4ddbaedfcf965d7af756dbacfb43be0ba8f7395"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-7-fine-036f09b686e3-features.json",
+      "bytes": 153388,
+      "sha256": "036f09b686e36012aee46cec64519c3e96d755251e679702d0a57e691894ba0e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_-7-fine-08c8544c43b9.glb",
+      "bytes": 367248,
+      "sha256": "08c8544c43b952278bfffcd47b1e14f8ab1e5fb7acd2f5661fd85a281cdbe377"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_0-coarse-a3b3198319bc-features.json",
+      "bytes": 37555,
+      "sha256": "a3b3198319bc1c77ec52a3850b48b75d7787fa478d624571e7cc3658ddd99728"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_0-coarse-d92aa1bf184b.glb",
+      "bytes": 89492,
+      "sha256": "d92aa1bf184be3ae36e2e9ced25aa7a6be31a815e7b25a122825b48d7a52be71"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_0-fine-4f01ce5200f4-features.json",
+      "bytes": 37596,
+      "sha256": "4f01ce5200f4e91575635094e0d3c2065b20bd5e60866a5fe877df2d5b6160d1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_0-fine-707d580e8979.glb",
+      "bytes": 111304,
+      "sha256": "707d580e89790a823889454b9def7b3ad934ec08e1176dcbe20462928537a431"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_1-coarse-515884aa375e-features.json",
+      "bytes": 161285,
+      "sha256": "515884aa375e14fd146cfdc4f46ddd9f98d9cc3477254ef98d3b558d05d078a7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_1-coarse-938e22af9b30.glb",
+      "bytes": 375940,
+      "sha256": "938e22af9b30c4deb85172323e4e3883766359e0f46f8ca3796129ff4abef40d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_1-fine-6027bc8009e7.glb",
+      "bytes": 449404,
+      "sha256": "6027bc8009e7f0e98885493077d067c0474adf8869b91be26ccfd3f9f27e7ca6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_1-fine-8ec52adcb036-features.json",
+      "bytes": 161423,
+      "sha256": "8ec52adcb036a8c01920b83f5a0e0d4c0534ffb902f8659adc47dbba8aca5324"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_2-coarse-3a335f6d4fdb.glb",
+      "bytes": 584260,
+      "sha256": "3a335f6d4fdb7010da0005fa5044da0fe335386c75c6d6ca25b2ff14e81a04ab"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_2-coarse-6c00a69c6279-features.json",
+      "bytes": 261430,
+      "sha256": "6c00a69c62798bfc10ba315ccccfbf5ca236e2f11aaa363073757e326191ac92"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_2-fine-6a236bf9c0b3-features.json",
+      "bytes": 261598,
+      "sha256": "6a236bf9c0b3068892123006bc651191543b6040a2e2d9193ee1b7d4125d9dad"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_2-fine-df0eaa0f7a01.glb",
+      "bytes": 655156,
+      "sha256": "df0eaa0f7a0150af7b0c8e9902391c62ea4440dc03d8c44b475ad6b62fcc01ec"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_3-coarse-661fe2ec0bab-features.json",
+      "bytes": 356786,
+      "sha256": "661fe2ec0babea0d644dd247067ad7fbb6aadfa238913bd20a41ddf11faa1924"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_3-coarse-f8698776a200.glb",
+      "bytes": 784180,
+      "sha256": "f8698776a200427190b23ec4d4ea2982d395aac3d0d8f620a4e1ccbe0aeaad06"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_3-fine-5112e590221f-features.json",
+      "bytes": 356986,
+      "sha256": "5112e590221fb85044e94a636c98070878fb2de8d2c4fb3b624abf9a68531e1e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_3-fine-c5ca28d6c4bd.glb",
+      "bytes": 870816,
+      "sha256": "c5ca28d6c4bdcaea3288fa8f8461561ac8d7e53ec33f4d74071073140c58e399"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_4-coarse-30479faf74fb-features.json",
+      "bytes": 343353,
+      "sha256": "30479faf74fb3746484608e648d607c1edfcf7f8d8f727a5c9eed90d4b223d3b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_4-coarse-b73bea6195c5.glb",
+      "bytes": 758976,
+      "sha256": "b73bea6195c547ff15c21940d0206c91e84161c24888741dff7d5db9dac8709b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_4-fine-7e7e5f12a92d-features.json",
+      "bytes": 343467,
+      "sha256": "7e7e5f12a92d7c6474c7f679f42dea8761a8f48ab61c0a18c5f6f400069eb4a3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_4-fine-e3e22fce70aa.glb",
+      "bytes": 827444,
+      "sha256": "e3e22fce70aa4d4d88cf62ff35297a9e8e5a8e3d89928af59c5ea9a987641b17"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_5-coarse-14efaa45d762.glb",
+      "bytes": 706060,
+      "sha256": "14efaa45d762c43db92b4c9dae0c615d85eec5fd06b21aba7a38d112a6661dde"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_5-coarse-981d1eaf3f32-features.json",
+      "bytes": 316075,
+      "sha256": "981d1eaf3f3272cdf189d7b2807ff1cd5e14754e35478d69ff568ba46b9be95e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_5-fine-73db1696071e-features.json",
+      "bytes": 316145,
+      "sha256": "73db1696071eb6534a9377b6968d76105acfe9ac5dea2daf73985fd0a22e137e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_5-fine-a06a9bb33c63.glb",
+      "bytes": 747748,
+      "sha256": "a06a9bb33c63054ca0324ce107d1fb4947ac35d645ebb162f5cf0de5de7a73ca"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_6-coarse-044780fc1217.glb",
+      "bytes": 330572,
+      "sha256": "044780fc121723ad92488c969b27b8290a9333d459389a4f1d68411d89d979ae"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_6-coarse-116439f54f8c-features.json",
+      "bytes": 148112,
+      "sha256": "116439f54f8ccf29245206354f936009f3b61f5e8829be28f47562f1c61fa40c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_6-fine-c8db58415b38.glb",
+      "bytes": 356496,
+      "sha256": "c8db58415b38b78a7a6c4b407ae3227282f3e25307d7d137998193de9fbd313f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-4_6-fine-fa5308afc712-features.json",
+      "bytes": 148138,
+      "sha256": "fa5308afc7127f397a5b9d314b99ec485c8ebe23ccf0e7667d337dd45973aaf7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-1-coarse-26ce26c84c48.glb",
+      "bytes": 491864,
+      "sha256": "26ce26c84c486675b6558ebf09651b4276ba76a988bab021f579a883e5e1b0c8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-1-coarse-a1d028ff6bff-features.json",
+      "bytes": 203228,
+      "sha256": "a1d028ff6bffd64cee09dc1d268751919da7038b8c53d54ebbc58b265d847a42"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-1-fine-314634a52d2b.glb",
+      "bytes": 597964,
+      "sha256": "314634a52d2b8435f84577b2c1dc0f495e9f2c93278e3e6dea9c99c21f66e262"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-1-fine-de3a0fe3430d-features.json",
+      "bytes": 203462,
+      "sha256": "de3a0fe3430dfc6e69002c4e7d3470d42213c0cb68aba1c9bd93d6db06652da6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-2-coarse-6fa3fa909a20.glb",
+      "bytes": 549820,
+      "sha256": "6fa3fa909a20f9e40e5e98c90d53a81b532dbb523155c024785e52598a08f48c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-2-coarse-b16eef67d353-features.json",
+      "bytes": 242029,
+      "sha256": "b16eef67d3533c4ca10d3517ef19611ae2d0d8bdd2cd578c8978e1958477cafa"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-2-fine-6d64243aee2f-features.json",
+      "bytes": 242246,
+      "sha256": "6d64243aee2f6af22986258012fadbaad3ec9245fe67438249fbf3d711cfbb9a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-2-fine-ecc57c1df20d.glb",
+      "bytes": 646152,
+      "sha256": "ecc57c1df20ddc6d4a82f4f83fa2cf264d20b9d63c425f2373f9fa58980fb874"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-3-coarse-3a0d0b3bfcdb.glb",
+      "bytes": 701016,
+      "sha256": "3a0d0b3bfcdbf0eefa4016d74967eb5624f7972b1b5788bdc519dff17d5b546f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-3-coarse-68e754ac69cc-features.json",
+      "bytes": 317089,
+      "sha256": "68e754ac69ccefd4cc70801806ed96f187794571ee8939d3c205b32950627a57"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-3-fine-27f6a9b70cb9-features.json",
+      "bytes": 317206,
+      "sha256": "27f6a9b70cb9b841457c767f60e426c212af754d3d552df7266e3b74fb8d6d89"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-3-fine-89cfd1dc9cd3.glb",
+      "bytes": 769536,
+      "sha256": "89cfd1dc9cd3bc4f5f8ff57bded4eff105deac0d899a5103d289e6fe1b8ed1ff"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-4-coarse-497d18fb2820-features.json",
+      "bytes": 307901,
+      "sha256": "497d18fb2820a4144b9f02f0bee2f0f3f51a8d72bbc8fde5ce6a6e0e238d7e01"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-4-coarse-e3e3cb26a286.glb",
+      "bytes": 680860,
+      "sha256": "e3e3cb26a286586d538999c1ed3c0a272247ed97950e6bd0f91a7501731b5fc8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-4-fine-3685260b58ec.glb",
+      "bytes": 739636,
+      "sha256": "3685260b58ec98a7bb525b879228efeda7d3614c9ac2ac8bde9d8f79b76ced28"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-4-fine-e07502dcec4c-features.json",
+      "bytes": 308005,
+      "sha256": "e07502dcec4c03b31362370ecb9044b0d37ec08056a384ef36778ea2623e15fb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-5-coarse-ad600a5e137b-features.json",
+      "bytes": 266532,
+      "sha256": "ad600a5e137b40f77bf51465ca8ae0f576e825899d4101c012dc865bad1dbd4c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-5-coarse-b446f27b4cf6.glb",
+      "bytes": 587620,
+      "sha256": "b446f27b4cf670f0f657d94a33bab2dded475ced8c526627dc81f557f7b9ef0e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-5-fine-409fe10c3a18-features.json",
+      "bytes": 266632,
+      "sha256": "409fe10c3a18798e1dc42c4ea98e8265a1749f4b9d3712a6a8662e326ed0c612"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-5-fine-e505675dc1ee.glb",
+      "bytes": 639244,
+      "sha256": "e505675dc1eee8a8aa0fa7aa0214006b32d0a0dd84483dba3169e7585d39f33c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-6-coarse-03fac97ba258-features.json",
+      "bytes": 208361,
+      "sha256": "03fac97ba2584cca6204aa53fba71c0db5c5fa912a0787c2f675bce2a84662a9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-6-coarse-48077907daf0.glb",
+      "bytes": 461608,
+      "sha256": "48077907daf027e9df9c1443a6592e5c82fedc394f3007ee3140e00143ce9f5a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-6-fine-22910ad64164.glb",
+      "bytes": 523384,
+      "sha256": "22910ad64164d0a5885fad1b37d53c61c37b70bea89af34791b6c24024ecd44e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-6-fine-8ab105bf6a79-features.json",
+      "bytes": 208513,
+      "sha256": "8ab105bf6a79200570eee3a24be4d4d7b24c9bca64550016dba5cd7ceec4134a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-7-coarse-8074bef217fe-features.json",
+      "bytes": 186543,
+      "sha256": "8074bef217fec3e70eada4bc129a5c4b2393549ffeff744161d098c9d763d468"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-7-coarse-ed750e9fa97d.glb",
+      "bytes": 414576,
+      "sha256": "ed750e9fa97d4763ab5d92385337890a160e1f1533c0a1ca7a037ced9deea3d0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-7-fine-7c400ea6c1bd.glb",
+      "bytes": 457776,
+      "sha256": "7c400ea6c1bd911b11f6f3386f524a55260403e23bdd69abef32adfbd6a1e414"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_-7-fine-d0ddef85b1a9-features.json",
+      "bytes": 186652,
+      "sha256": "d0ddef85b1a90f6b1800a8b1cd1afb065455fb5d5d4c77c8559b346d1e41ac99"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_0-coarse-45ef64ba067e-features.json",
+      "bytes": 198413,
+      "sha256": "45ef64ba067e6a2a682364991ef6bcef58438e74fb2cb6914d53e895c54c05fb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_0-coarse-c003feda355e.glb",
+      "bytes": 463304,
+      "sha256": "c003feda355e23d9571a287ac0f31f2b9631c753c9880ffd9e43a37cebc5b1bf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_0-fine-26e686236b22-features.json",
+      "bytes": 198649,
+      "sha256": "26e686236b22b618b9f5b82a0eee8a9c33b680c1867203e844c9e4ccf0be8a56"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_0-fine-3df15f344644.glb",
+      "bytes": 556396,
+      "sha256": "3df15f3446440cfe625ad227b835b456d28017cfd7745d779439e89c5437ef27"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_1-coarse-5d5048b4f5ef-features.json",
+      "bytes": 184962,
+      "sha256": "5d5048b4f5ef6d7ac94752519bfd3bba5578f343145119091d0337da0f7efdd0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_1-coarse-97678c672947.glb",
+      "bytes": 412900,
+      "sha256": "97678c67294710edce49d643bc0b102355976dd7d4601169a80430e1a8a60e05"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_1-fine-746dd8b303c0-features.json",
+      "bytes": 185126,
+      "sha256": "746dd8b303c0d0224d09fe8232f4b8514cc23e2d77e5920b55a460b870d165cd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_1-fine-e9c3ca5d0032.glb",
+      "bytes": 487468,
+      "sha256": "e9c3ca5d003261b8b1dd41643c3996db13c03925abdf5b63238a4256e42fe49e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_2-coarse-899d673960fc.glb",
+      "bytes": 870696,
+      "sha256": "899d673960fcdaeeec662b55991551617380fc50bef0695699effdb1dfbb0ab9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_2-coarse-db2bb9e83682-features.json",
+      "bytes": 389193,
+      "sha256": "db2bb9e83682a0f3a255bae25badbd1d4dc6d3b96c4982606b45ad06a7dc0919"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_2-fine-b652c1ed6223.glb",
+      "bytes": 942408,
+      "sha256": "b652c1ed622377658fa72c57e7d28fb7c3fac941434427fd42837238c16e1ed3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_2-fine-d3002b227292-features.json",
+      "bytes": 389304,
+      "sha256": "d3002b2272926030e49f80be0191ffca50952df6d80de89ecd1919589f879d83"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_3-coarse-08386aaf17bb-features.json",
+      "bytes": 556477,
+      "sha256": "08386aaf17bb417d7458b7bf523e56202f5b84f97344ea02b423a1a02dad0087"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_3-coarse-3771e08ddccb.glb",
+      "bytes": 1222664,
+      "sha256": "3771e08ddccbad1ab59098cd5fa13ecc927f9780c1439a269f96ff05d3b9aa0e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_3-fine-3d2107083950.glb",
+      "bytes": 1336924,
+      "sha256": "3d2107083950ec96ae8e94eaadee81b52ac8150a03ad91613bf9681403eba486"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_3-fine-7e6d7a680e5e-features.json",
+      "bytes": 556629,
+      "sha256": "7e6d7a680e5e57cddba7ed5e1832e205513d212eded6872bde7793a480a1b5a0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_4-coarse-862a33143fa1-features.json",
+      "bytes": 366407,
+      "sha256": "862a33143fa1ca2cb0358a9d56d7625481ffb8868beec6237d7ac4adecc1e263"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_4-coarse-a21460640931.glb",
+      "bytes": 806860,
+      "sha256": "a21460640931126964dab0256a6cf5e843640a210c491d5cdb1c52c720e1a522"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_4-fine-556c501f6983-features.json",
+      "bytes": 366499,
+      "sha256": "556c501f69833e006b60a8dca3822058262dc72f4dd18117606ef214d2236ae8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_4-fine-c7c6fb6ba1c1.glb",
+      "bytes": 865180,
+      "sha256": "c7c6fb6ba1c118f59f2577b84d629011c401c6fbdfba46e4ec1371239544e897"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_5-coarse-30ab45cf8778.glb",
+      "bytes": 266732,
+      "sha256": "30ab45cf8778eaf4272fdaefa288421c314218379ecf529018591ba62888320f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_5-coarse-c94489f77284-features.json",
+      "bytes": 117984,
+      "sha256": "c94489f77284e7b663a10f16094bf002bf998d18ffb0b6720cb7bd60f8739728"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_5-fine-908278b88622.glb",
+      "bytes": 325484,
+      "sha256": "908278b88622d4a73e15e09776f354267ef65bf616ec3c25f226c66904aa3265"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_5-fine-9cfdbf654d70-features.json",
+      "bytes": 118087,
+      "sha256": "9cfdbf654d70f54c5cba707060c72a7c65304fb7090838797e77be5b40770c68"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_6-coarse-343626e1f408-features.json",
+      "bytes": 78370,
+      "sha256": "343626e1f40861b1b130dd84a5d0e8665620a198ca092d2570e9a5c05b30a6fe"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_6-coarse-e6f4d6f4676b.glb",
+      "bytes": 179372,
+      "sha256": "e6f4d6f4676b4cb5d6be548215929345313d6d4497cac0a1fb1944a18b83c310"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_6-fine-35bb429d7c7d.glb",
+      "bytes": 196216,
+      "sha256": "35bb429d7c7df9b3255f99d116d70593340e01cbe4904227922ba19bc3cfb539"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-5_6-fine-4fd0cae54207-features.json",
+      "bytes": 78393,
+      "sha256": "4fd0cae542079681ad195bb38f5703162e8b1546b21a045af6933019d01827df"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-1-coarse-9b7abd5b9fbf-features.json",
+      "bytes": 235198,
+      "sha256": "9b7abd5b9fbf393c6130cfe991c317b4b0cb50a235add23400ee68a63cc9f532"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-1-coarse-f8ad8f67597c.glb",
+      "bytes": 537220,
+      "sha256": "f8ad8f67597c63cb4b062faa12d93166354af782daf7f8964ea8da1eda87dae3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-1-fine-bafc6d34e293-features.json",
+      "bytes": 235424,
+      "sha256": "bafc6d34e29368046859491c4f8fe3f7e7b1f77ef7ded890750599ebe7a28de7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-1-fine-c7ef17148970.glb",
+      "bytes": 640704,
+      "sha256": "c7ef17148970c4d43195484796e6a90895217c25b8ab59a8b5e5965d61e086ca"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-2-coarse-36e1a852910b.glb",
+      "bytes": 611128,
+      "sha256": "36e1a852910b149f357fcc434150ebdb8cfb0aa3fe8881d1038d24b3b8c5742c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-2-coarse-b9c60bf2d495-features.json",
+      "bytes": 271237,
+      "sha256": "b9c60bf2d49567452ac04a10d16303b8598af4da897a0e54cf290f0ce5c58544"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-2-fine-857c137b604d-features.json",
+      "bytes": 271437,
+      "sha256": "857c137b604d3caa7b6cf20cc8a2becf4970f381a4ee84e53297b4a849cd467b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-2-fine-cf004860bccc.glb",
+      "bytes": 698388,
+      "sha256": "cf004860bccce9eef207e79da68acdc65f17eab9fab08506ab25b49ad8aa606a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-3-coarse-c6ffcab677fe.glb",
+      "bytes": 552344,
+      "sha256": "c6ffcab677fe95e557ae0b5a88759a4ec8d71d01cdc94e7604d5a623bf2be793"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-3-coarse-f78adae11e92-features.json",
+      "bytes": 250803,
+      "sha256": "f78adae11e928fde6b44f440c304a04a9d5bf32e8ce0db16a739b2e1c2776bf8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-3-fine-e7a29522f6da-features.json",
+      "bytes": 250954,
+      "sha256": "e7a29522f6da337e68c04cba68fa9a2e580ccbea31efe4a7dbbdd750f388dbb5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-3-fine-f4a5fd53c6f2.glb",
+      "bytes": 613468,
+      "sha256": "f4a5fd53c6f256d5788077f7d18eafede48c5f38871f11a1d265512a855ac048"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-4-coarse-6ad6f9c55480-features.json",
+      "bytes": 226747,
+      "sha256": "6ad6f9c554806b3d74ee0a4db6bb1127c401d69eeee46909b3e74ee69e09879a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-4-coarse-f808a345ff18.glb",
+      "bytes": 499420,
+      "sha256": "f808a345ff1851cf02e91da684e516e51396ed5f7528ccc411dd7de36d6c245c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-4-fine-2dc82d43672b-features.json",
+      "bytes": 226822,
+      "sha256": "2dc82d43672b97d93987a1203ed011d39193a7624dbd877f64fc3b86ef7b8d00"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-4-fine-5aab4d4e0a58.glb",
+      "bytes": 538516,
+      "sha256": "5aab4d4e0a585604278818959aee1d0884a7352e6492b31902b29b793475cf39"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-5-coarse-c0b0964d7eb6-features.json",
+      "bytes": 379014,
+      "sha256": "c0b0964d7eb61db6bd7f9264e0f92199b915fe90e2c8ba9c732f2cb719ee647a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-5-coarse-f54bab41450a.glb",
+      "bytes": 843820,
+      "sha256": "f54bab41450af99e1b5fd738ec85719ce8a729dcc48328a586185f81d7cdb296"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-5-fine-11202308812b-features.json",
+      "bytes": 379083,
+      "sha256": "11202308812bba190eb921dbe09638fd79ccc988d1bdf81729f5134689acfaed"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-5-fine-d1a8fb7eafda.glb",
+      "bytes": 888748,
+      "sha256": "d1a8fb7eafda31d7602ca252d9e515f67f1be21d69bb0fd518a0d1e573b39074"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-6-coarse-26f1886e42f1.glb",
+      "bytes": 674124,
+      "sha256": "26f1886e42f115583052ffc4692ca26525e7a4ba7dfdb3caba0c793324ae2a18"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-6-coarse-aed78a8885dd-features.json",
+      "bytes": 301474,
+      "sha256": "aed78a8885dd9c6bcd333c8ca468589b25ff7f745cc91d885260efa6ef745991"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-6-fine-4a82c0076264.glb",
+      "bytes": 750156,
+      "sha256": "4a82c0076264c26928036dc1109f54fd608d219f5c7e40f5b797806531eb86e2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-6-fine-8ab695a588cf-features.json",
+      "bytes": 301605,
+      "sha256": "8ab695a588cfdef057fd8bd0bfd852cd67d21b98b8d30a686931d27261abd2bc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-7-coarse-270c77c1e049.glb",
+      "bytes": 218852,
+      "sha256": "270c77c1e04927c37924204e81a296bbbad268d6ba8d4b6231b024cb973f06db"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-7-coarse-978e3e80bd5d-features.json",
+      "bytes": 99102,
+      "sha256": "978e3e80bd5d8957acbd5e48988510aa0b79754742d0480a6a9cb342f6e98c26"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-7-fine-2056a2ddfc9b-features.json",
+      "bytes": 99121,
+      "sha256": "2056a2ddfc9b4b0741974e21f1172c8d04a260a3ddf2b6eb2c73c78458af9386"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_-7-fine-fdd663c58b35.glb",
+      "bytes": 260320,
+      "sha256": "fdd663c58b355b5e9c5d8e98c648870b838cddb14bd38bab44450fcf2e0232ce"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_0-coarse-075258e335c6.glb",
+      "bytes": 639700,
+      "sha256": "075258e335c6e18f5f50fd65663d5116336d1a87516fac59dfae34aed9969d1f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_0-coarse-827a44ab773e-features.json",
+      "bytes": 281340,
+      "sha256": "827a44ab773ee9f605f99e18cca880f256139028f7313f45ff128234bbdb18bc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_0-fine-7b0450b66af4.glb",
+      "bytes": 749428,
+      "sha256": "7b0450b66af4afcb0b1e6f432a8086049adf49e5c3ca11539e5486743e8008a2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_0-fine-bf60b36c0bf7-features.json",
+      "bytes": 281602,
+      "sha256": "bf60b36c0bf7c0cf36631f056746dc95e11b5dfef152846a77617fe88bf8d6b8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_1-coarse-509539b0a2e7.glb",
+      "bytes": 1093292,
+      "sha256": "509539b0a2e73ef111fd503e3f4bd7791f06131f28fd7596e953d56c59d909ca"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_1-coarse-e77e401ea8bb-features.json",
+      "bytes": 497858,
+      "sha256": "e77e401ea8bb41c58a8c45e0fd3b6448e2a56141a127bc9ad33ec25078649f83"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_1-fine-07a28c81f199.glb",
+      "bytes": 1184008,
+      "sha256": "07a28c81f19943a9bd376e2431943e4003a7d3f8332c5fc8c87d65d1fc51d46f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_1-fine-95481c4f7cc6-features.json",
+      "bytes": 497912,
+      "sha256": "95481c4f7cc61b1caaf5b91e16e23e028fe58257e4bf43d70399a4e99c959fea"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_2-coarse-0ab3cca964f1-features.json",
+      "bytes": 229955,
+      "sha256": "0ab3cca964f120c4d9279b2ec33eaeb7bb0b188b79c93e989a9d9f114fcd47d1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_2-coarse-f7d3eb422dc1.glb",
+      "bytes": 524616,
+      "sha256": "f7d3eb422dc1c40034108e5f9d8f3f87cd798d9fbe9582d749fbfc77a5a5cfcf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_2-fine-31f0ea1bd53a.glb",
+      "bytes": 588552,
+      "sha256": "31f0ea1bd53a7493e6f12119c62cf8621547a3266d860c10857281d35276eb7f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_2-fine-ac3f23456e9b-features.json",
+      "bytes": 230096,
+      "sha256": "ac3f23456e9b47c6d135d9c82f4b86aeaf32f3bfa4b5e458cacd60e9ec6da17a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_3-coarse-67773a857577-features.json",
+      "bytes": 424168,
+      "sha256": "67773a857577c74335ff42269fc239ec08a49ea1f0b7c68414f2d9e85fe29b2e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_3-coarse-bbb74f964c01.glb",
+      "bytes": 932860,
+      "sha256": "bbb74f964c0156490c7a4fa89e06483f59e0446ffb617fd0506746c1554f0c32"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_3-fine-5fbfb2c6668a.glb",
+      "bytes": 1005220,
+      "sha256": "5fbfb2c6668a5ef2a3b00d0cd81778dbb173aa12d69aafc7faa50b78c95414b4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_3-fine-6a47c3c58b35-features.json",
+      "bytes": 424309,
+      "sha256": "6a47c3c58b35d432a3c65b658d8f4a192ebdd1f9d9d4d8a279eeabae89f91add"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_4-coarse-78f2da6e8aed-features.json",
+      "bytes": 345612,
+      "sha256": "78f2da6e8aed083018da81ce515ab05d017ba0f3e419243fde24f8e48c5a28ce"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_4-coarse-d2c8cfa914e2.glb",
+      "bytes": 763172,
+      "sha256": "d2c8cfa914e2b6bcf5cc3b51f3e57c162a25c3cbf43de2879f60ddb95f172f5b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_4-fine-0afef868e57d-features.json",
+      "bytes": 345712,
+      "sha256": "0afef868e57da07f9195ecce6ab52e789e68650dda1cc8f454d283b94464e77d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_4-fine-d139d87a7cc1.glb",
+      "bytes": 834452,
+      "sha256": "d139d87a7cc1d22e88abb9583686cc6ae85b58bc121137c78e9f7d5ec22214cb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_5-coarse-15c63fd31e1e-features.json",
+      "bytes": 165513,
+      "sha256": "15c63fd31e1e328530ed6531d9f75ab245e68b97b3338b3d38cddadf62d3fcdb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_5-coarse-fcb9dd80a3cb.glb",
+      "bytes": 375092,
+      "sha256": "fcb9dd80a3cb07b0a0dd84f00f73382fc44a1a1937bdc1cf116aefe192857f94"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_5-fine-41d9434ffdc0.glb",
+      "bytes": 416348,
+      "sha256": "41d9434ffdc040928e3ab45fdcaaa2d07a9b69e6759cf3a9680206b8b5c132a9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_5-fine-41db81c8f8cb-features.json",
+      "bytes": 165562,
+      "sha256": "41db81c8f8cb5bd5a7988d861bf1d87910acd56fa3ad83609e034308eae2b280"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_6-coarse-692d070f56b1-features.json",
+      "bytes": 70584,
+      "sha256": "692d070f56b1256c5196bf1db19d907b983a1ba20e087c681a9bb4c8cffa14b8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_6-coarse-77c7faff5f56.glb",
+      "bytes": 158372,
+      "sha256": "77c7faff5f564dadf092b30c3195a8f5c2cde82a145d90670fbfa5fa61d8b858"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_6-fine-22d83f5b7dc4-features.json",
+      "bytes": 70589,
+      "sha256": "22d83f5b7dc493fdfbf629d4430a33b20b78c2c9458616e5f9999741f7dc4471"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-6_6-fine-32258d54f7ab.glb",
+      "bytes": 167872,
+      "sha256": "32258d54f7ab070b11bdd8b65650aec9510de004d9bf36d0380d75b4f0e3bf8c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-1-coarse-c791b37e824a-features.json",
+      "bytes": 2247,
+      "sha256": "c791b37e824aef5c793aa5dce5b9e3f8c2274c58244b86075a2678c825d9ded6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-1-coarse-ee396eb78c85.glb",
+      "bytes": 6316,
+      "sha256": "ee396eb78c85fe7cdd818d36812c25bd36eebb390ad261437e21cac7873f95cc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-1-fine-9b3bbbd07fd2.glb",
+      "bytes": 7176,
+      "sha256": "9b3bbbd07fd2a1dae7f52bcd1732ad0b8ea2e847ad2f891b3b76deec946664eb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-1-fine-a5e88596651f-features.json",
+      "bytes": 2247,
+      "sha256": "a5e88596651fe68ec5d07d2225e0c5515654057d98635a3f232955b518d6001e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-2-coarse-006c2aaa47ca-features.json",
+      "bytes": 7730,
+      "sha256": "006c2aaa47ca180769bb04e0c6714e7ad0c9ff6440e2ba707221d1d8d1777dd7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-2-coarse-549614075983.glb",
+      "bytes": 18072,
+      "sha256": "5496140759835cadd58f22a32b4764880d3b735beaeefa8f9b955062b07e77d8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-2-fine-48eeb858396b-features.json",
+      "bytes": 7728,
+      "sha256": "48eeb858396b5a7d856ab9d2b016776ef9332608086dcccf8e6df34fa2fd8066"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-2-fine-deac1e4a49e1.glb",
+      "bytes": 19800,
+      "sha256": "deac1e4a49e124e3138ffd58d35600db8c926dcc701063e230e4ddc3d7662dbc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-3-coarse-6c17c5c2f282.glb",
+      "bytes": 12196,
+      "sha256": "6c17c5c2f282253831dc6dc41c2d1970fbffd2cd91c66cef3dff7130d9de7ef5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-3-coarse-ee9911c5e506-features.json",
+      "bytes": 5055,
+      "sha256": "ee9911c5e506ed9028fe5bc81386e138f0cf8fce31fe145936667e107a1d29f1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-3-fine-38ecf7c969f5.glb",
+      "bytes": 13924,
+      "sha256": "38ecf7c969f5f358f1e0a33232d53adde8c2e45d5dd0c96fb3959e082a0e0ed8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-3-fine-b955d171f074-features.json",
+      "bytes": 5053,
+      "sha256": "b955d171f074807cfa95a1920f30c718b50eb855372d3497de60746f91ae9e4c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-4-coarse-728c2b907f20.glb",
+      "bytes": 16400,
+      "sha256": "728c2b907f2013c441a76c39b96b23f2f4c905d794b4adaa4fef03754bcd3793"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-4-coarse-95146dbe7f2a-features.json",
+      "bytes": 6833,
+      "sha256": "95146dbe7f2a896213d57d1aa9897189b1e731a7976e2a1e594e92a2973152f6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-4-fine-8cd6d35890f2.glb",
+      "bytes": 18340,
+      "sha256": "8cd6d35890f2c55bf0cb0c1b4190424c771dfa843111863d875d17b6c825b422"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-4-fine-9cef51d6e4bb-features.json",
+      "bytes": 6831,
+      "sha256": "9cef51d6e4bb9ab0bcb5f1af0bd6a728690460c0434b05f83220699773fdfe99"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-5-coarse-04d1f7d4d620.glb",
+      "bytes": 11356,
+      "sha256": "04d1f7d4d6205c132691c6d728712fc6f27eb3d626f2e85756cb558b2af5a678"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-5-coarse-8a2832481ae7-features.json",
+      "bytes": 4542,
+      "sha256": "8a2832481ae7a67c035db91ed77adad04350c916b6f650465b79a0b29ed5e238"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-5-fine-9ccc3c112a1e.glb",
+      "bytes": 12004,
+      "sha256": "9ccc3c112a1ef379045d3494a643ad7e4864bdab86d234855c0acdb65f93b2a5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-5-fine-a720a483aab3-features.json",
+      "bytes": 4540,
+      "sha256": "a720a483aab3388eb4488bf605b40d68e8f0620e57e9899456169184ba39cc98"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-6-coarse-ad5b4dbd1cfc-features.json",
+      "bytes": 7705,
+      "sha256": "ad5b4dbd1cfc9a7417b890032434d7c7072a9c97e2c92f991fca2b3d1c0e82fe"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-6-coarse-c7e4793b1ce9.glb",
+      "bytes": 18912,
+      "sha256": "c7e4793b1ce97acc8201a8fbfd9808222c47984420f526b363cfc479f4b5c68a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-6-fine-4e8c2b9ff12a-features.json",
+      "bytes": 7703,
+      "sha256": "4e8c2b9ff12a7f159225499363f88350e8c3dae5092c7d345c6489d569a68592"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-6-fine-8d93786c8967.glb",
+      "bytes": 19556,
+      "sha256": "8d93786c8967974b7ead77d0b5bf6f3892d0a1116642eca94b9cee88d32e2c67"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-7-coarse-08fa63ca7d2b-features.json",
+      "bytes": 4684,
+      "sha256": "08fa63ca7d2ba091d652416edef89e7fe34213912de788070d1ef12dbb3ffc28"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-7-coarse-c7482bf04c4b.glb",
+      "bytes": 11356,
+      "sha256": "c7482bf04c4b8369424c8f5eeb06fe25c226f5e7a866cb7c63a225504194964e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-7-fine-a9bfac07fcb0.glb",
+      "bytes": 12864,
+      "sha256": "a9bfac07fcb0908db1e3d718f095516129d9ac409b86c3b270be0d12732b2901"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_-7-fine-d4e63d71134b-features.json",
+      "bytes": 4682,
+      "sha256": "d4e63d71134b41ec38228ed31d44a2ec3431722f8dd647be5d27505d51e1f465"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_0-coarse-4865d9e659ae-features.json",
+      "bytes": 2625,
+      "sha256": "4865d9e659ae22a32c977fe50d4b032585ac6e08719f697e66196f0ad0802b99"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_0-coarse-c72aa8116fba.glb",
+      "bytes": 7152,
+      "sha256": "c72aa8116fbae566e4992d7f04188a599e11aa6bc669d03822e375993c778c47"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_0-fine-7e37088564db-features.json",
+      "bytes": 2623,
+      "sha256": "7e37088564dbe4468295583f616494659bd5c92bc22229ff2edddf320df44afa"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_0-fine-a8687f3f768e.glb",
+      "bytes": 8016,
+      "sha256": "a8687f3f768ede25c375c3abd3632ee07d14bcd3f88504fc292735dcd7c5dba6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_1-coarse-8e9a392fc8cd-features.json",
+      "bytes": 10029,
+      "sha256": "8e9a392fc8cd32caf53c89521bf7fbf98ee83829839c0e483138f2cb46be66d5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_1-coarse-c30359b21a81.glb",
+      "bytes": 23116,
+      "sha256": "c30359b21a811926e898520bbadb6bc2d193c0a321f35595174b2920b0f730a9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_1-fine-80cabab1d845.glb",
+      "bytes": 25924,
+      "sha256": "80cabab1d84523e7e0e8a860a4877654831c3e54b7f3f019abe889a382beb529"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_1-fine-b132753aadce-features.json",
+      "bytes": 10028,
+      "sha256": "b132753aadce4ec15a3663dbfe4f39bb4ca72391dc91376c20f722ec14015aaa"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_2-coarse-8b3a98c4933a-features.json",
+      "bytes": 4160,
+      "sha256": "8b3a98c4933a36eae55394515df5fc3914f6688ab519c4e593ec747be36efcee"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_2-coarse-990f503b173c.glb",
+      "bytes": 10512,
+      "sha256": "990f503b173c941a60543355c1e16647c79edc470a44a6dc426d6a55bd98d945"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_2-fine-280bdd95f34d.glb",
+      "bytes": 11160,
+      "sha256": "280bdd95f34d989b693af824b05ddaaef7893fee5c558bef83da312dc128896b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_2-fine-73ca7dcb39a7-features.json",
+      "bytes": 4158,
+      "sha256": "73ca7dcb39a7becc49fb89c55364eda8fccce397cd5a89b69376c4f7f8c4daf8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_3-coarse-0479e10928fd-features.json",
+      "bytes": 4091,
+      "sha256": "0479e10928fde4d5eae36e9d2bccf7ebd4cac8bcba0e2471644099ce27d8261a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_3-coarse-1b659e32841c.glb",
+      "bytes": 10512,
+      "sha256": "1b659e32841c4328b96dd7ec76af0fc204fd6e71decbbccb39190a68a3cfbbdd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_3-fine-519c29823266-features.json",
+      "bytes": 4089,
+      "sha256": "519c298232660eb8b76171060e5547500adc774ff7f6070e0485a420c1587f5c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_3-fine-fa6510ad2f55.glb",
+      "bytes": 10944,
+      "sha256": "fa6510ad2f553ae0d0b9d910ddab5fa7a8b25c9fcd7da3f8db345036723cff22"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_4-coarse-13b15f3c91a3-features.json",
+      "bytes": 4920,
+      "sha256": "13b15f3c91a3a5900a28236c42b4d447f45fc9190cd603d5764ae9dffd9137dd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_4-coarse-97f1dee70fc3.glb",
+      "bytes": 12196,
+      "sha256": "97f1dee70fc3bfcf17b2225efabcba9cb7095ec689a7b76ab9bf7421e2728ec7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_4-fine-508f5072a8b8.glb",
+      "bytes": 13704,
+      "sha256": "508f5072a8b8a49d826e44350cf4718fac6b58acaa2d66f79f90166ad334d2df"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_4-fine-f2cd11d863e2-features.json",
+      "bytes": 4918,
+      "sha256": "f2cd11d863e237e7aa1fe7d8a45b16ed42413468c6b4b08a8c9667dd9bf986f8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_5-coarse-15938a71b6f1-features.json",
+      "bytes": 8830,
+      "sha256": "15938a71b6f1599064ae1597d7b2e1403c4e82ae33ec999fb81746c5dcd7c17d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_5-coarse-b5167c3cb865.glb",
+      "bytes": 22276,
+      "sha256": "b5167c3cb865d6df6f592a2e149fd932e1ed6aa7f1886172a77c1dea7459348f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_5-fine-5fdbd2189752-features.json",
+      "bytes": 8828,
+      "sha256": "5fdbd2189752da383b5e5ab1ebd8f78e979b859174e0a72fcc54cf589bbf41cf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/-7_5-fine-af02a328ba4a.glb",
+      "bytes": 23352,
+      "sha256": "af02a328ba4a1acd134cf0e47eca9497e45585b7891d1248865c18f7069c97b1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-1-coarse-25ba7f08e610.glb",
+      "bytes": 13036,
+      "sha256": "25ba7f08e610c2c6e6476af39d800a2c8ba325422feff7117a1fa9b94d67d3b2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-1-coarse-54862f504053-features.json",
+      "bytes": 5200,
+      "sha256": "54862f5040534694b091d263e3fae4c9093b755c628f1644e6e1b4ab50c0353f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-1-fine-12be61a04885.glb",
+      "bytes": 29668,
+      "sha256": "12be61a048853a7ce29d2ae765c92ccf5901d2b1da00f4a851eaab6910da0bf0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-1-fine-2699d3669b8b-features.json",
+      "bytes": 5212,
+      "sha256": "2699d3669b8bc7870c94008172b1b169c12549becff91b62da2a3cef8af8d164"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-2-coarse-2c0d71ac79c4.glb",
+      "bytes": 65960,
+      "sha256": "2c0d71ac79c41881c0de1f638f84ffcd40106e89226e59811e1758ab7f5e08a6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-2-coarse-40b1a0f69ca5-features.json",
+      "bytes": 29354,
+      "sha256": "40b1a0f69ca5c6efcda0a77f565cee72503665e3bfbf467b08c1c8af5fd1e8c4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-2-fine-1df98d8de307-features.json",
+      "bytes": 29376,
+      "sha256": "1df98d8de3072b061f415c3e52b5cc089b54b73a5566609ea09e3af310b16d48"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-2-fine-1eb2d757d461.glb",
+      "bytes": 82592,
+      "sha256": "1eb2d757d461a6c98c5ba7fe48820755d4d84970f29d7c42fbedaa02d7549ac0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-3-coarse-16c7e655a36f-features.json",
+      "bytes": 286342,
+      "sha256": "16c7e655a36fbfa8b33b4200f285d34e6809e0357ffa89c266f0fae0d5106176"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-3-coarse-3735d56b1c46.glb",
+      "bytes": 642220,
+      "sha256": "3735d56b1c46890cd50399b2f03bc6da6012b91aaffbd91140273e87372d2223"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-3-fine-d8ccce77569c.glb",
+      "bytes": 749356,
+      "sha256": "d8ccce77569cec444241132bbd5e6b469075d2621e58c7e4a6984ec14c9cc4d4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-3-fine-dc5f839f49fe-features.json",
+      "bytes": 286473,
+      "sha256": "dc5f839f49fec84260515bb6d08ba060ce674e4672e0816d1917d767b1217c75"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-4-coarse-6a3d917c29e1-features.json",
+      "bytes": 287195,
+      "sha256": "6a3d917c29e12ad92c5a53b51c25ce2a116b95e8681723d5994af4180ab79de9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-4-coarse-ee35a549aa1d.glb",
+      "bytes": 641380,
+      "sha256": "ee35a549aa1dee41106bee7776db5b0bc2dcf579dfd9698ff6f404fb2c75c97f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-4-fine-20cf460acbb6.glb",
+      "bytes": 747004,
+      "sha256": "20cf460acbb68d71bb27d55d19b2d0d23fa51b509f948e82971ad0730b1924bf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-4-fine-6a34b0c6ceb0-features.json",
+      "bytes": 287398,
+      "sha256": "6a34b0c6ceb031063b3ab7b23e2765a6061e61075fcb1b35fb4f70d0911831a9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-5-coarse-5b7d6a4529a7.glb",
+      "bytes": 610292,
+      "sha256": "5b7d6a4529a744abf994a04aed178e480b6d0e6d803cb98cff3ffa5a7f67cfca"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-5-coarse-b33c6d651656-features.json",
+      "bytes": 267090,
+      "sha256": "b33c6d65165680f91f82306d514af66580c7cb901a53fdc8a1e5f0dd4e6ba301"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-5-fine-219f6d8d1b3d.glb",
+      "bytes": 686536,
+      "sha256": "219f6d8d1b3d8165e2f2f196cf9f01275b4c8f497755a97a3c773d0829605956"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-5-fine-f49f72fff375-features.json",
+      "bytes": 267193,
+      "sha256": "f49f72fff375f3fce9e89901277afe47a703b716f99535a4cee8c851521ed98c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-6-coarse-9eaacb58839f-features.json",
+      "bytes": 385699,
+      "sha256": "9eaacb58839fb6d1934cf3898113093dcd0eb58839f1e7456f1715637844fb01"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-6-coarse-de04b76a6fa0.glb",
+      "bytes": 867344,
+      "sha256": "de04b76a6fa0234ec3ef6ada85e8a303858b34b3856d49d4209f620746d28591"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-6-fine-27a753652853.glb",
+      "bytes": 984628,
+      "sha256": "27a753652853dec35c7b51d1b744e569f98625e6e2d29441dcc400947dee7293"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-6-fine-f4d7ef06069f-features.json",
+      "bytes": 385856,
+      "sha256": "f4d7ef06069f96daf702dcb9d57ce41a46c0659a2be6aaf0e2f899abad2422d1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-7-coarse-02a83ed03828-features.json",
+      "bytes": 136432,
+      "sha256": "02a83ed038281cfe364fa289aa580827b948d5fa5521924bfc6873cebbf485b6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-7-coarse-ddc2da63f9b5.glb",
+      "bytes": 302856,
+      "sha256": "ddc2da63f9b593fa6a191a36d23e4bd57ac79eb87ab17b1a480d405661b575d9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-7-fine-8e1139fda398.glb",
+      "bytes": 352968,
+      "sha256": "8e1139fda398523e2901ebeebbdbf4ca6ab3560e9a85d01f8c38b248124832ac"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_-7-fine-d6a03285be09-features.json",
+      "bytes": 136505,
+      "sha256": "d6a03285be092180efba92a71afc23a801d124a42e8f355186485eda06db35db"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_0-coarse-2c2a5d0d34b6-features.json",
+      "bytes": 16069,
+      "sha256": "2c2a5d0d34b62fd743533632d5edc07fe645c3704ca32852ae08db19099ac155"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_0-coarse-dcfbcc7a8428.glb",
+      "bytes": 38244,
+      "sha256": "dcfbcc7a842875cfdebc830674034624bafcc0faf9b5ac097c065d9f9b519128"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_0-fine-51b5abaecc29.glb",
+      "bytes": 66324,
+      "sha256": "51b5abaecc29a3c8da1bce339d42e01b3f4e56aaf539d3daff9671ba2fbe264f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_0-fine-8e197b031eee-features.json",
+      "bytes": 16129,
+      "sha256": "8e197b031eee69fdb9a5b52649f8590c9e600480c66b1b3e7c454055af8205b7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_1-coarse-b012aed0524d-features.json",
+      "bytes": 9250,
+      "sha256": "b012aed0524d57429bf6ccbdd9a54dd8ceb660b0f63d0dea1f3f36d8980d0ec8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_1-coarse-bc115358854d.glb",
+      "bytes": 22284,
+      "sha256": "bc115358854d03e5298500b1002126505e442419018ab79ddfb5a0cd9efbb76d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_1-fine-181ad665a601-features.json",
+      "bytes": 9251,
+      "sha256": "181ad665a60123a63e191e53d7aae8ee09688e1f520df93b03600f947504e653"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_1-fine-330e631f107b.glb",
+      "bytes": 24872,
+      "sha256": "330e631f107ba16a11131c25215b947249232c35740e1f4753558f21752f4322"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_2-coarse-5b8256e9d789.glb",
+      "bytes": 47484,
+      "sha256": "5b8256e9d78936aa460e4018fc60c87a3821c6cd1aec59c4296411b60ec08ad8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_2-coarse-652d2d657130-features.json",
+      "bytes": 20912,
+      "sha256": "652d2d6571300d8bd51017dae89935d8151d62bd4973003993e698f4c19cd825"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_2-fine-59bb47546ea4-features.json",
+      "bytes": 20923,
+      "sha256": "59bb47546ea4e86ebece00db31f35a15420787717ae93566bf0a47a6a709a829"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_2-fine-7edbf04f50ee.glb",
+      "bytes": 53748,
+      "sha256": "7edbf04f50ee6f15924a91ae67e7d356eb32621ae0f82ea68fd770b8d76e44a0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_3-coarse-a0dea05552d3-features.json",
+      "bytes": 3256,
+      "sha256": "a0dea05552d3e72487cf57494d5adf4f52bea6c1c8e0375ad366c8d9730cfe14"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_3-coarse-fefd1a7fa2dd.glb",
+      "bytes": 8836,
+      "sha256": "fefd1a7fa2dd2fafdd82a51e140233f40be250faf13f170abfee11b281fea4fb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_3-fine-2bd5258f57f4-features.json",
+      "bytes": 3254,
+      "sha256": "2bd5258f57f4f1a0fd2651d5bfb81a73d5973720831e3a51a628718d22f68a0b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_3-fine-720c8570095e.glb",
+      "bytes": 8836,
+      "sha256": "720c8570095edd45e3c8e0486064d323174fc2de137027c6cc660f021c01eb85"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_4-coarse-6accc6142541.glb",
+      "bytes": 390216,
+      "sha256": "6accc61425411b54041b4c43d06dea94869bcce049b1f2720511090d1a547a94"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_4-coarse-fc7dd44f5eb4-features.json",
+      "bytes": 175050,
+      "sha256": "fc7dd44f5eb4abf89f6188564b4ffc286a6110bc408ae948e1aacbff15b8fd57"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_4-fine-329d00b7ba3b-features.json",
+      "bytes": 175175,
+      "sha256": "329d00b7ba3b4b1b154b7651b2f0b76475172e0da72016b24de12fcaf70ac101"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_4-fine-c5dd35a3a3f6.glb",
+      "bytes": 458476,
+      "sha256": "c5dd35a3a3f68a6c42a26776414b0d86038feee500434812cc2d8fec9a8eefd3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_5-coarse-d6f682563ea2-features.json",
+      "bytes": 208580,
+      "sha256": "d6f682563ea232f41ba38899494db3b9da862bcea0e1813fdf05b089a28a92c0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_5-coarse-f1ca5a6937dc.glb",
+      "bytes": 457420,
+      "sha256": "f1ca5a6937dcdb3b24314b89e1738f555621d2d757628d5bedbfd72fffc87218"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_5-fine-5a1135f590ae-features.json",
+      "bytes": 208773,
+      "sha256": "5a1135f590ae08bc98368f77c100129d7d505eead0effa642410082ddf6465d8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_5-fine-a1ab49f4dbf6.glb",
+      "bytes": 547056,
+      "sha256": "a1ab49f4dbf6c1fd03fd2d161cda16ff32e4f0c1031aaed9b92f3d2a6967353c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_6-coarse-abbef11ad093.glb",
+      "bytes": 322172,
+      "sha256": "abbef11ad093a09e0f814e983bc3f724d7c62888267c13d9cbb28370287223da"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_6-coarse-dd7568df5377-features.json",
+      "bytes": 146602,
+      "sha256": "dd7568df5377c2db9b5c689f48f5ff4b27fc10c439c7ea6ea5a721569e5ad953"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_6-fine-3af1d5dd3299-features.json",
+      "bytes": 146659,
+      "sha256": "3af1d5dd3299ffcf63ac2e096f3a71ad3236c9b6531e63004733e73dd67f5202"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/0_6-fine-7ad23e4ccdb0.glb",
+      "bytes": 368184,
+      "sha256": "7ad23e4ccdb0d33f75a23a147bcfa38a93cc191fad2e5bd4c8f354554ffeebda"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-1-coarse-b1409837874a-features.json",
+      "bytes": 17156,
+      "sha256": "b1409837874ab106e7a8e69a49bfd1878d99587e48d5c94e3bbc730110865919"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-1-coarse-bfe398877c06.glb",
+      "bytes": 39088,
+      "sha256": "bfe398877c06d7054447b9c9b2c5256d354a6fd1c8e24a2d407036e6057a40d4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-1-fine-8cd083051592.glb",
+      "bytes": 50536,
+      "sha256": "8cd08305159200d5236b83eefa40090b6fcdd70b901cee3921dbfedf15beedf9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-1-fine-bd6faed63e3c-features.json",
+      "bytes": 17175,
+      "sha256": "bd6faed63e3c450226b628e73969e06a5d043a1db18144b463cae265428430dd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-2-coarse-9e058f946b68-features.json",
+      "bytes": 6089,
+      "sha256": "9e058f946b68d683218e4122600a578e01902070f9ad92d67159b46ec724774d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-2-coarse-fdd9a099257f.glb",
+      "bytes": 14724,
+      "sha256": "fdd9a099257f120fcb516fa3e52efc6ea454342712c6774d2eb99850af510262"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-2-fine-45f999aee64b-features.json",
+      "bytes": 6091,
+      "sha256": "45f999aee64b74dabbd93a6769b05223fac443a42b5681f11e86a9d2e5bfa032"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-2-fine-be81b07c49cd.glb",
+      "bytes": 22496,
+      "sha256": "be81b07c49cdd1f345d80a392f70f4a49e23133ff76890fde2a8aeb6757da357"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-3-coarse-7cfb3913a2b7.glb",
+      "bytes": 384340,
+      "sha256": "7cfb3913a2b73b4533407ab9050838982aaa7e570b98b5cc2184235502a2a43f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-3-coarse-a6e529d2e96d-features.json",
+      "bytes": 169257,
+      "sha256": "a6e529d2e96dc69439ea2eea2ea79e5f0bd4950a11cb67ddcfe838948ca2787a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-3-fine-c9dff3219e51.glb",
+      "bytes": 464260,
+      "sha256": "c9dff3219e51753f0da20fb1c1242dee01e75162c9c51c4fd8383bac6a9dddc8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-3-fine-e52f34ccbad7-features.json",
+      "bytes": 169404,
+      "sha256": "e52f34ccbad7c18c84e1e3ffeb0958de046e98234322d934ac971d77062e4035"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-4-coarse-65ab5fa61621-features.json",
+      "bytes": 230657,
+      "sha256": "65ab5fa61621c782d04daeb7737248537cd2dd506c18172548bc30583ea093bd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-4-coarse-d9563e625466.glb",
+      "bytes": 556544,
+      "sha256": "d9563e62546681c3590a7279e3561a21db1af4c2df2f31aa702145e13a84764a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-4-fine-8aaac6e5ac7f-features.json",
+      "bytes": 230766,
+      "sha256": "8aaac6e5ac7ffa14b01e50929957c4eb3ebbf395a1db4d2ea8428070e3a53593"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-4-fine-97a7182969a0.glb",
+      "bytes": 636896,
+      "sha256": "97a7182969a04eefe1fdf44a6be992639c378eb6a0ba10d823b706a4ccf18f0a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-5-coarse-1294ea94b7fc.glb",
+      "bytes": 449024,
+      "sha256": "1294ea94b7fc7f99e0ff42273513a4386946366b465ab1b69083277a9aa8c42f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-5-coarse-9b533014c6c9-features.json",
+      "bytes": 194279,
+      "sha256": "9b533014c6c9b66fb614033f565d33c9bee1df7a5ab85f221a4cc084f149fa1e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-5-fine-4d660e8fe5e3-features.json",
+      "bytes": 194435,
+      "sha256": "4d660e8fe5e30b3e00de24807df66f1c430c7985106728fa94b69d2f0ab2358b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-5-fine-965a5fb396b3.glb",
+      "bytes": 533908,
+      "sha256": "965a5fb396b3858a1d7e6d2ad093922382dd93ecf65a6a5efbc93d1752f5f652"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-6-coarse-4afe8070c04c-features.json",
+      "bytes": 261279,
+      "sha256": "4afe8070c04ce41279798d37ff87a86d2832da66bb5cdc7b1484a9522abb2d52"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-6-coarse-7237079be633.glb",
+      "bytes": 590144,
+      "sha256": "7237079be6337809ca0b97b4cce1e3b779b52d04e47ef366756dbc78e33af07e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-6-fine-37d27ef17ba7-features.json",
+      "bytes": 261435,
+      "sha256": "37d27ef17ba765bd8ba83bb7858259f464c456b67d8da35f84ec2e9a1b50bd07"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-6-fine-3dc401039198.glb",
+      "bytes": 681796,
+      "sha256": "3dc4010391985babf9404f70759c083571ec02cff3febaf3f828c294d5bdcaf3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-7-coarse-64338a45044e.glb",
+      "bytes": 315456,
+      "sha256": "64338a45044e0362704b75f0bc16cd5d41b6a4e5568abf64e0dbf47b77156c90"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-7-coarse-8ecc34a8b1b6-features.json",
+      "bytes": 142485,
+      "sha256": "8ecc34a8b1b66c07f99d961380a3b0253b45570eee961068b124c32f7989bc3b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-7-fine-9727dd6942fe-features.json",
+      "bytes": 142532,
+      "sha256": "9727dd6942fe9d48ad8115c914921a3b50e62d5f422960b4603a025e6a7c5b3d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_-7-fine-f0f9a68464ad.glb",
+      "bytes": 351092,
+      "sha256": "f0f9a68464ad56c550b83606cd296241f3eb0c4b73137e82328f441413576cbd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_0-coarse-32b2626d329f-features.json",
+      "bytes": 6611,
+      "sha256": "32b2626d329f660434ef6075e6201bf0b1179980bda7f81f1272cb9f862e8e39"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_0-coarse-58099817af14.glb",
+      "bytes": 15556,
+      "sha256": "58099817af149bb7a0e9716c88b85bc27763303ed52730357a11df5ff69caf02"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_0-fine-6b6bfd008784-features.json",
+      "bytes": 6609,
+      "sha256": "6b6bfd008784f8aa0f602d053ee4b642c072f4f499ece6c6606fae69b7a5350b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_0-fine-959909bc6142.glb",
+      "bytes": 15556,
+      "sha256": "959909bc6142a6ee75276439e6b0ac816c408856b536162256be14afb1426156"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_1-coarse-24330325a32d.glb",
+      "bytes": 2100,
+      "sha256": "24330325a32dc34087b615201560b84866903127b23490bc9fa7e7ad92e4f425"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_1-coarse-7b1b1b553e24-features.json",
+      "bytes": 482,
+      "sha256": "7b1b1b553e24efbb055cb0f30c073bcf4173e1d9575b002fdbe4e80195785624"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_1-fine-1462aaf18548-features.json",
+      "bytes": 480,
+      "sha256": "1462aaf1854834d87b82a8d2147e25c26d749625ae73d0f56551e61e297cef96"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_1-fine-74c807b267e0.glb",
+      "bytes": 2096,
+      "sha256": "74c807b267e01e97b3eb81d1fdb87c48baa72d76f18d85090b3cf7cc57560b58"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_4-coarse-cbdad29461e9.glb",
+      "bytes": 99568,
+      "sha256": "cbdad29461e9f1fc3ab8ac6cc2a5806de603e58223e7be4453026d9b715f3984"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_4-coarse-f774c0187d1d-features.json",
+      "bytes": 44147,
+      "sha256": "f774c0187d1de4f2cd33c4cedcbbc12ccc034633e43a74dbe62b6fbf1833253f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_4-fine-a8f906f93f1a.glb",
+      "bytes": 118576,
+      "sha256": "a8f906f93f1a4d5251453d48a6c2d4864d884154bb2af902e17461e1be687c04"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_4-fine-d8a7cc88bbeb-features.json",
+      "bytes": 44171,
+      "sha256": "d8a7cc88bbebd48ada34edce17a233e80f5363c1d5a038730280c4c03f38dd16"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_5-coarse-6fa5fbf6eecd-features.json",
+      "bytes": 122543,
+      "sha256": "6fa5fbf6eecdffb5f151ef64d70e7d7183909d40f919cdbe95b88a823d81fb41"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_5-coarse-c1fe5816bfe1.glb",
+      "bytes": 271772,
+      "sha256": "c1fe5816bfe10aeaf5e1f808164cd79a027a07b6df262fb0f35ea2b3e210f936"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_5-fine-3829daa73e6b-features.json",
+      "bytes": 122616,
+      "sha256": "3829daa73e6b8ca2dfa038a1bc1690113d4f570c99b230cb030c070cae5c958f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_5-fine-600bdd9846e3.glb",
+      "bytes": 323852,
+      "sha256": "600bdd9846e3ba14102239a5d9824e5893c5032a155fa60cad895641358b3f44"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_6-coarse-6fa2f6df2c87.glb",
+      "bytes": 259172,
+      "sha256": "6fa2f6df2c87de75bd78b23f1e6e3eb34857aa509fdeda1c0370679b9a3c4820"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_6-coarse-a82b2fcbba57-features.json",
+      "bytes": 117067,
+      "sha256": "a82b2fcbba574aa2504f53994a3f8c35f7668a5c4085c839f8f038ee267d9477"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_6-fine-05e4ccee7fb5.glb",
+      "bytes": 302156,
+      "sha256": "05e4ccee7fb56d811c8c16a03af53b8580e7c4ba61bc453839ba42bbd49c84d4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/1_6-fine-e551e4d79c4f-features.json",
+      "bytes": 117113,
+      "sha256": "e551e4d79c4ff5629d5238125d13122b188cf1b31234be009548d0790fedc3b4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-1-coarse-04f3b50ad529.glb",
+      "bytes": 74368,
+      "sha256": "04f3b50ad5299262b5c66b542f4d4660bff161c0c3d37136422437f70a3c446c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-1-coarse-17e487d9d442-features.json",
+      "bytes": 32757,
+      "sha256": "17e487d9d442f27c4a5365483c711695010a9dcd962d2a04e86e1a643a68bb54"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-1-fine-377cc91cb5b8.glb",
+      "bytes": 89052,
+      "sha256": "377cc91cb5b8f853f59f7977a10a17d0f1c309e33abad34e0a30fd609aad3dd0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-1-fine-574f8884c675-features.json",
+      "bytes": 32771,
+      "sha256": "574f8884c675f5b3d1bee2aafb41f0ed1be9cc017b8e2bec577a66378fa5746c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-2-coarse-4e6951eafac5.glb",
+      "bytes": 81932,
+      "sha256": "4e6951eafac5337b319e07970535f168d578022f380b71993a43b883fc8db2ec"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-2-coarse-750c79f39203-features.json",
+      "bytes": 36890,
+      "sha256": "750c79f39203b97cc1be867f73b1e0f514a8dc8f4caa3eb1a71b052a1b862940"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-2-fine-8b82699e7aff-features.json",
+      "bytes": 36913,
+      "sha256": "8b82699e7affa4e08aefe4e47fece144a1e805b58c5ba344dac5925e9f481e4c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-2-fine-9c62d5371c2f.glb",
+      "bytes": 97264,
+      "sha256": "9c62d5371c2fe3c68591b09c4448f07d674d87b237e3278d79649d5b12162fda"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-3-coarse-d38163cfb488-features.json",
+      "bytes": 17303,
+      "sha256": "d38163cfb4880296a20aa11513df224bcce6a55d2acd3dbd11427b6abbbe534b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-3-coarse-d92b1e964e7a.glb",
+      "bytes": 43288,
+      "sha256": "d92b1e964e7a0704e9496a46c3688c3414511106d00a0813a8c9c67633a29d9d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-3-fine-0e590ff63317-features.json",
+      "bytes": 17326,
+      "sha256": "0e590ff633173b4ab3c81efa517b8fbd6a40500610746dd3003ee76fa1169795"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-3-fine-2eea08051358.glb",
+      "bytes": 53440,
+      "sha256": "2eea080513581e30c7e8e3c9dac051c17de0567f994b3071faabd98b63b3f65d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-4-coarse-a2e64a60794f.glb",
+      "bytes": 127296,
+      "sha256": "a2e64a60794f317832fc51b5c59899f01971f80859c77a83844c18ca9ffc1f84"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-4-coarse-df4e0fe1be04-features.json",
+      "bytes": 49508,
+      "sha256": "df4e0fe1be046e0140831a2ea8306e9329ecd1c5aaccc65a93052cae005cc440"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-4-fine-bef1b669bbce-features.json",
+      "bytes": 49534,
+      "sha256": "bef1b669bbce0b2fb36756a0dfb07d697ff9adf1761122008ced6d28b9375559"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-4-fine-faebcfed2293.glb",
+      "bytes": 142628,
+      "sha256": "faebcfed2293ac4017938c946c263e8ef122b4322f023221f5b1619c8d7957db"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-5-coarse-75a8490122b3-features.json",
+      "bytes": 147302,
+      "sha256": "75a8490122b34c4f32a1ea5a49d4ceeccc0253f20671b446dde58ed41dc768d0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-5-coarse-f4a2aeef6446.glb",
+      "bytes": 333092,
+      "sha256": "f4a2aeef644667f0778fccc5f44262c2b93769cb41c218816817656252d8528b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-5-fine-53e8c6b58161.glb",
+      "bytes": 392496,
+      "sha256": "53e8c6b58161c420637d595ad6ab708a1f2c8240f649d33fbef398d6aea2388f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-5-fine-9f26fa1d1101-features.json",
+      "bytes": 147376,
+      "sha256": "9f26fa1d1101a989a59831ce535f2ef335cda09037e4622283e2f91fe7949b99"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-6-coarse-b8ec0b674c02.glb",
+      "bytes": 298652,
+      "sha256": "b8ec0b674c02102b230f4fe235d24899f2a0431df96b685efdc433dbac68bffb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-6-coarse-e8cdc0fdb735-features.json",
+      "bytes": 134972,
+      "sha256": "e8cdc0fdb735a6aa6cc3960bcb47b4cd9924b13f0864ac78f2728e91dad68cab"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-6-fine-428823f0f617-features.json",
+      "bytes": 135048,
+      "sha256": "428823f0f617739eab408cc2495905a6c305a3b7de389eca41402547e314e356"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-6-fine-76526b4f8ad3.glb",
+      "bytes": 356976,
+      "sha256": "76526b4f8ad3c95f35db40d67c86c7a547af2f5a4594c1717803ac5fc4cfaac5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-7-coarse-655ed0491866.glb",
+      "bytes": 27320,
+      "sha256": "655ed0491866ff056cc1ef0f1bdded08f99ecfb077ae73c17da8ca66abf66414"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-7-coarse-7df8597d9da7-features.json",
+      "bytes": 11981,
+      "sha256": "7df8597d9da70d3cea81bb3ff3bb7c1bde14cdbc77af4c73957480e1487f4a3a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-7-fine-206d191bf48c-features.json",
+      "bytes": 11983,
+      "sha256": "206d191bf48c3da7d5419faa7efc373a52dae3122a1ca907711227a7d8fc3f50"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_-7-fine-de57395addba.glb",
+      "bytes": 31204,
+      "sha256": "de57395addba033744fc4b8e09c0d695d15204312fe6cbd4c24483defb7e91e1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_0-coarse-6e3606d21574-features.json",
+      "bytes": 9161,
+      "sha256": "6e3606d21574f657ff2661b632d6cf02e20885b1d70982fa682d55190b56b37c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_0-coarse-f9647bfbf26e.glb",
+      "bytes": 21428,
+      "sha256": "f9647bfbf26eae6a9dee55c687cc799d54844f724dadb709de2274a1519ca8be"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_0-fine-4116b6d3fcdc.glb",
+      "bytes": 30500,
+      "sha256": "4116b6d3fcdc2b1170f7b3fd9a1df99f8d319a824f9a3dd9e86ebb520c49fec2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_0-fine-8f66d2e38a96-features.json",
+      "bytes": 9173,
+      "sha256": "8f66d2e38a96c6351edb80a64977f5bb15fcd1a76eead8d339e6e902ee7b424c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_1-coarse-c6fc705d53f4.glb",
+      "bytes": 30684,
+      "sha256": "c6fc705d53f493fef5dd78b854683ba982fdc1f1bdea4a3f4d203cb76b3fa352"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_1-coarse-e890307bdb83-features.json",
+      "bytes": 12378,
+      "sha256": "e890307bdb830bd17fa4f3ec2684e09c516bb8c90a2455563187abbdab11e96c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_1-fine-016d4861e041-features.json",
+      "bytes": 12421,
+      "sha256": "016d4861e0419325ff0dbbed172b1479198c5de499aaa01205729c25ccc06273"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_1-fine-b8a6dab3de14.glb",
+      "bytes": 57256,
+      "sha256": "b8a6dab3de14c865e0e2305fa9e7608818426504d8ce530c58331ffbca89d5d2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_2-coarse-b52aab24a5ff.glb",
+      "bytes": 186092,
+      "sha256": "b52aab24a5ffeaf9e784f6b2598ac1952f837c4f4cdc5fa0fa492ec52f68b121"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_2-coarse-e9189e4badd9-features.json",
+      "bytes": 74046,
+      "sha256": "e9189e4badd98af6e9921d6f33b6bbe0ce292ba0380cbd2352ede8c65dd8e325"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_2-fine-7b2f2960757a.glb",
+      "bytes": 388920,
+      "sha256": "7b2f2960757aafaaf53f60088aa1a26bdd914cf80ba84da5d2b917ead6741c94"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_2-fine-c301bad44985-features.json",
+      "bytes": 74245,
+      "sha256": "c301bad449856a1be713667ebd607e10116501e4426c089761a86731f6b76b2d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_3-coarse-22efff27082e-features.json",
+      "bytes": 3637,
+      "sha256": "22efff27082e78cf68e15d281f3b4f9cef48ae479539e73c5b19d5e29e7f2a43"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_3-coarse-7120d7b60300.glb",
+      "bytes": 10520,
+      "sha256": "7120d7b6030060b08d81707b4e0cff0df6d4f99f938df4f21f54ece7e15abceb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_3-fine-34ec654a4563.glb",
+      "bytes": 12464,
+      "sha256": "34ec654a456312495cde2ca8444eb63fabaf29a18026bb9c8d024ec406ad7c49"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_3-fine-44958155667d-features.json",
+      "bytes": 3637,
+      "sha256": "44958155667d325f3683e8c9d002987905603df3e6f3627e9e0a4d8c6318ba79"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_4-coarse-3e3261464f20-features.json",
+      "bytes": 29086,
+      "sha256": "3e3261464f20d2bd74ddc911bc5de91218782b82b4f08dd99db6f824b46b2eb8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_4-coarse-7ca163526ad6.glb",
+      "bytes": 65128,
+      "sha256": "7ca163526ad6a76da958d2bc76640f31ac110911f072f84dba7011d1a18ecc59"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_4-fine-994535fc1f7b.glb",
+      "bytes": 72688,
+      "sha256": "994535fc1f7b8a444fadc01963f882ce214fce70bcf49091f80c30b98d3122a7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_4-fine-ce5bea926f77-features.json",
+      "bytes": 29096,
+      "sha256": "ce5bea926f77a980f4644c1cc2a049beea6462954705214e0c3692b64add2d45"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_5-coarse-4b454b20a28c-features.json",
+      "bytes": 307750,
+      "sha256": "4b454b20a28ceb8299aab27d38d01087f7376e3f7299e369fb1d47686a5a539f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_5-coarse-f92452951c69.glb",
+      "bytes": 672452,
+      "sha256": "f92452951c69fa6e10780c0387bc52f92cec5fd98bd2bee840c55af0504fab50"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_5-fine-35ac1bacc93a.glb",
+      "bytes": 788012,
+      "sha256": "35ac1bacc93a3befb84f25b26c7de0277ee74fda8e1ba7fb62d7bc05d43ec50e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_5-fine-70ab8e7cd67d-features.json",
+      "bytes": 307899,
+      "sha256": "70ab8e7cd67d36c8a2426c459b4e5a1f4a2e7b92e91b1bf28ce04c66cdee0921"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_6-coarse-54dc0a3dca5a.glb",
+      "bytes": 134836,
+      "sha256": "54dc0a3dca5a17390541729ec81ee0b69b647ac5dcf2deece17ea43126da0edd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_6-coarse-63c89496cb88-features.json",
+      "bytes": 61136,
+      "sha256": "63c89496cb88f569ec5130d7c5f84997d824cdb162720a602abf80ac4d8cf117"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_6-fine-9451191b3f79.glb",
+      "bytes": 149740,
+      "sha256": "9451191b3f79e9a508c01fcf312989f7a0b2b431e53d12434ec110fd7475c9c8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/2_6-fine-e0ad4bca7692-features.json",
+      "bytes": 61137,
+      "sha256": "e0ad4bca7692cfe15e64ed4d33a0862a0e7e8e16c2c1df43cc14e04b3985667c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-1-coarse-3cee42649af2.glb",
+      "bytes": 45812,
+      "sha256": "3cee42649af2b33b448181763b1c1424d53a7bcb5aea0e069509934713f1e933"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-1-coarse-7cc7240876f4-features.json",
+      "bytes": 20313,
+      "sha256": "7cc7240876f4e52498021bf8e9fabddafbfa83588d1123cabc5b4bc9d3f33421"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-1-fine-5f2cc10ad2cc-features.json",
+      "bytes": 20329,
+      "sha256": "5f2cc10ad2cc72a789965922e6081c713d57eaabd0f5da2a066ebf49aadeb1eb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-1-fine-7dcc1426f96b.glb",
+      "bytes": 52720,
+      "sha256": "7dcc1426f96b53c1596233da9efe9098966269119129f17eb70fb3d558b7d937"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-2-coarse-1fd8263596cd-features.json",
+      "bytes": 84094,
+      "sha256": "1fd8263596cde286df7cf545a0c4ff2fa3dc9f4a3fb658b1af41334cdc180fe2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-2-coarse-f1d5dad1c781.glb",
+      "bytes": 186092,
+      "sha256": "f1d5dad1c7819faa4c622e590e366233b3e4022ce75bc5bb11e75dbf0bb3e4d5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-2-fine-10502a853686.glb",
+      "bytes": 201640,
+      "sha256": "10502a85368608bbb44fa047f8c9f44bcba1a192e46b1ebe4d8a8b1c8df5adf5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-2-fine-9ecb6190fa08-features.json",
+      "bytes": 84104,
+      "sha256": "9ecb6190fa08de19a561681aa9db8126c129e72ab781db34993dcd370dcc71b2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-3-coarse-8db6ca76817e-features.json",
+      "bytes": 158057,
+      "sha256": "8db6ca76817ea00efbc72439ad53d83f7fb025eebdb2ec588b231ab427b038b8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-3-coarse-e4feb3ceb8ec.glb",
+      "bytes": 379296,
+      "sha256": "e4feb3ceb8ec9ef707d4a276c2c415e0ba8285478e3a50306a9992eb66aa109b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-3-fine-4487f86f5633.glb",
+      "bytes": 422304,
+      "sha256": "4487f86f5633ed5766f0b6cdb7dbb3270edec8321add75d01c18716e05a863c3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-3-fine-8f297ee64e4d-features.json",
+      "bytes": 158113,
+      "sha256": "8f297ee64e4d57eeca42ddaf487fd34dc704474c5bb82cd57fef8587328a4dd0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-4-coarse-82b9c9ab92e0-features.json",
+      "bytes": 99423,
+      "sha256": "82b9c9ab92e010c3efdd1fde71e367eba0f81439d3fac7b8681451c093bec667"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-4-coarse-bac9714d5b05.glb",
+      "bytes": 232292,
+      "sha256": "bac9714d5b05d7f18d92d3ce0af0986966b16b3c03ad6d68cbad02715ab4e7ff"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-4-fine-02066ada6c1c-features.json",
+      "bytes": 99454,
+      "sha256": "02066ada6c1c8c62d7be157d6885b875695a7a7e887fa61355880d2cb4a0be9d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-4-fine-8aee5ba7603a.glb",
+      "bytes": 265552,
+      "sha256": "8aee5ba7603a20865a745197379985266bb4a2c62678f44005f7f64549497236"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-5-coarse-3eefcfd4db64-features.json",
+      "bytes": 27913,
+      "sha256": "3eefcfd4db645c85c16b5a884ac560b7d2f00d3049b33f3fba351912b4727e6e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-5-coarse-4c0c0972cd09.glb",
+      "bytes": 64276,
+      "sha256": "4c0c0972cd09a7780155cea0b03c78072a99bb7fbf135623e4aaf2683f0c3652"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-5-fine-211bb4cf2f51-features.json",
+      "bytes": 27929,
+      "sha256": "211bb4cf2f513168c0ddcd63b5a9c32f4fe71fca3bd0ce3dabdae760ce58d7ea"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-5-fine-4b7155eff770.glb",
+      "bytes": 79396,
+      "sha256": "4b7155eff7700ac3bb100955885ee7e377445a7effaf85338aa49a8986e74914"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-6-coarse-00232a5ba0e5.glb",
+      "bytes": 331400,
+      "sha256": "00232a5ba0e5c839c44027c6566b0fe954923538c9681de2a1b88e4931f5890a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-6-coarse-8d99d4bc8bd8-features.json",
+      "bytes": 148952,
+      "sha256": "8d99d4bc8bd8a532618f232202cb4581c8c33ec7bbd86f789fb76d2bcf0688c8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-6-fine-c3c45b21c7b2-features.json",
+      "bytes": 149052,
+      "sha256": "c3c45b21c7b270b6bb8b19046cbb85f8ad252fd656e760517aa2ea34aeffb58e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-6-fine-e6ad9f4eb297.glb",
+      "bytes": 406356,
+      "sha256": "e6ad9f4eb2970d3172e60bbb6c4ab9c53555ae27300df2f885737bedba85a721"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-7-coarse-3b0a6f75b47d.glb",
+      "bytes": 197004,
+      "sha256": "3b0a6f75b47df91014c6431f38a345414470df5e355b74e6ed9d83e09690a921"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-7-coarse-f6112da49c5b-features.json",
+      "bytes": 89351,
+      "sha256": "f6112da49c5bf027158f18ca07090fd2e66aeeae1f03a2c01fe5b1ee2d603570"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-7-fine-b2895d2b1a20.glb",
+      "bytes": 236964,
+      "sha256": "b2895d2b1a2046c5eb825651bbe57d7ad86f517a860512a82962fdbd69c0a769"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_-7-fine-d95ba4f8d866-features.json",
+      "bytes": 89375,
+      "sha256": "d95ba4f8d8664d2e2ac0b0dd219b0938fe23c4e6e1d78897909eda8b50e63272"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_0-coarse-9bd0fb307361-features.json",
+      "bytes": 3480,
+      "sha256": "9bd0fb3073611af1f317827541c3e5e8a0cd1e8138831ab7fa7009ea2f02d851"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_0-coarse-e43ab2abd60b.glb",
+      "bytes": 8824,
+      "sha256": "e43ab2abd60b926bfaba5effff70d32d2fe01037a3a180080653a4eaf4259910"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_0-fine-b44028e5fc37-features.json",
+      "bytes": 3478,
+      "sha256": "b44028e5fc37ba5f1c47f0ce8bba34ad18565016724532117284f01722952b6d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_0-fine-df2f6d800618.glb",
+      "bytes": 9036,
+      "sha256": "df2f6d800618e5476e0c667a67c64f80ad046777163731010de781b0260b9925"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_1-coarse-9b47c6c28c35-features.json",
+      "bytes": 31386,
+      "sha256": "9b47c6c28c354f671b64193566178744e44f99d8805e935d3cbaa10a45705dc4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_1-coarse-a7b9b0afae4a.glb",
+      "bytes": 73524,
+      "sha256": "a7b9b0afae4a8588e2c8a86e426ec9c54090d8fa16fb1f2393496da2473bc1b5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_1-fine-7a825f243b94.glb",
+      "bytes": 109380,
+      "sha256": "7a825f243b94346fecdfb42f22954c37cbcce193b29cba163f8b356001563702"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_1-fine-ffca78361a3e-features.json",
+      "bytes": 31437,
+      "sha256": "ffca78361a3e8bc1824dc2f39b670f5628efdd90b90c7d8143d55eae2ebfa9ea"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_2-coarse-2d0ee4b62ccc-features.json",
+      "bytes": 8395,
+      "sha256": "2d0ee4b62ccccf0254acf46edb00ad52b13aaca27fb1bacc667e1e71f60ebf16"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_2-coarse-ea1456127f95.glb",
+      "bytes": 22280,
+      "sha256": "ea1456127f95e066ad74d7b0b3de5da965ce31fcf6951f61f3c0bd42d6a43ace"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_2-fine-25480cd4e6c5.glb",
+      "bytes": 34376,
+      "sha256": "25480cd4e6c58d89cb57cff8e6a86de20aa617aa7f1143d509fab490152279fa"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_2-fine-d1d5ebdf9412-features.json",
+      "bytes": 8410,
+      "sha256": "d1d5ebdf941254b0c64ac3bda0a5e4c7f7db389ea2640eaa35a04c64b39ec87f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_3-coarse-5aa0a4ffe8c0.glb",
+      "bytes": 8000,
+      "sha256": "5aa0a4ffe8c0526798cc6365d5e8e6bf91bba033b2a24a400a50ba26105e7641"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_3-coarse-ebb22c81d75f-features.json",
+      "bytes": 3159,
+      "sha256": "ebb22c81d75f988e32f3cdf54eb13ffcb3f55f6f9f3750826fe4257e012bb15f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_3-fine-897b4b4323e6.glb",
+      "bytes": 9292,
+      "sha256": "897b4b4323e6ad25fd7c7f41303ec1d019a980e13447f432cb4a7feeafc435a4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_3-fine-c388e81edee4-features.json",
+      "bytes": 3159,
+      "sha256": "c388e81edee47e1ed375af74236defd70936f61daa840f3b5ec7046bbc3433e1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_4-coarse-7dc289ac1049.glb",
+      "bytes": 35704,
+      "sha256": "7dc289ac104923593dc6c64397f0951639b4f87b67ea4ce3ffeee521e9961985"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_4-coarse-b15d24a3285c-features.json",
+      "bytes": 15814,
+      "sha256": "b15d24a3285c473064603a1c398992daf19dcf123f04d48c377e713f1dffbd3a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_4-fine-2475b723a2d4-features.json",
+      "bytes": 15816,
+      "sha256": "2475b723a2d41f25d55a515cad846e5f37716e31b9c640a507a92071dac3cfa3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_4-fine-85014d821e7c.glb",
+      "bytes": 37000,
+      "sha256": "85014d821e7c749f351ae62962b706137ca0332d3ef5f8d4a20d347a98134e89"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_5-coarse-32e7a342ba78-features.json",
+      "bytes": 275933,
+      "sha256": "32e7a342ba78373455a1374e25473c40c9f67e71948ed5abb0c2e504bb18cdef"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_5-coarse-3caa82537cfe.glb",
+      "bytes": 603580,
+      "sha256": "3caa82537cfe9eeb9827c8db7909cffc7885686edc0cdedb0fd0fe2ea239fd65"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_5-fine-0243c9e260df-features.json",
+      "bytes": 276055,
+      "sha256": "0243c9e260df35d551d7383e6d207bf8274daf78914effed91c4c2cb0d90b0b7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_5-fine-1b72daf953ed.glb",
+      "bytes": 680040,
+      "sha256": "1b72daf953ed9bbae5c60b35f013ef6a184df36a69103f3ed0754b824f1cb800"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_6-coarse-43888646d194-features.json",
+      "bytes": 177272,
+      "sha256": "43888646d1941277f9d5734f0db8f3ef7f7f52648ec4dd0d658ecf853c733524"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_6-coarse-fc0c16d98c2a.glb",
+      "bytes": 388536,
+      "sha256": "fc0c16d98c2a4428fbbd19aa74250189d92aae570f24af033f6d5eb3e8314197"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_6-fine-3072e67cdf9e.glb",
+      "bytes": 432168,
+      "sha256": "3072e67cdf9e5f14baafa41149e9c557a54e14655f1cc8f626212b11c0844bd8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/3_6-fine-4fa0c82f893c-features.json",
+      "bytes": 177326,
+      "sha256": "4fa0c82f893c67ca798efd6cbbf1379eade06ded8abf1cfa9b93dc3749774b58"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-1-coarse-068412df69d9.glb",
+      "bytes": 43280,
+      "sha256": "068412df69d9e774784ab8b331f00f2a71504022997bebda99bc7d6a91ceb113"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-1-coarse-3afba99e497a-features.json",
+      "bytes": 19289,
+      "sha256": "3afba99e497ab913f3344733fe4c8cca2fc19772f18d2d3bd93c7b5b73b25e22"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-1-fine-2da1e15f400c-features.json",
+      "bytes": 19290,
+      "sha256": "2da1e15f400cabf94ec94f16a2e39c7d25ebcf25fbe74c2551efeea719fa25cf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-1-fine-f67636a73896.glb",
+      "bytes": 45004,
+      "sha256": "f67636a73896f38d08c31ed944c40e61e0ef79fab7e69425900d067b21329725"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-2-coarse-4e13d9db7492.glb",
+      "bytes": 293616,
+      "sha256": "4e13d9db74929f3cf5c884388daf5c3c2b55ffd3bab1b1aefd573b10243d155d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-2-coarse-fdb87f056a9f-features.json",
+      "bytes": 132794,
+      "sha256": "fdb87f056a9f6194f7e54871c0c4894562a561def7eb270b493c974a8e6f273a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-2-fine-5f2fd2e7ee52-features.json",
+      "bytes": 132885,
+      "sha256": "5f2fd2e7ee5293b412fe37bd84fb6bf6b9602e8457270d24bc422af0a058c751"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-2-fine-9ae863d3f7e9.glb",
+      "bytes": 347180,
+      "sha256": "9ae863d3f7e9c85c6e770a7a465b47adb013b19a83a8168df8992ddcf279bb52"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-3-coarse-24d9b6a12177-features.json",
+      "bytes": 192446,
+      "sha256": "24d9b6a1217707b541f536e6137334825ac0f3270d26691e1b374d667769cc30"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-3-coarse-806e795f6abf.glb",
+      "bytes": 440620,
+      "sha256": "806e795f6abfa16d5bb07275bbe304d80c41691f916f8c783029a7a212e24d22"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-3-fine-04b7fe7e745a.glb",
+      "bytes": 512980,
+      "sha256": "04b7fe7e745a92dce399c3e2cc21f03d64c14632be1eb88b9079d31ac1ed87cb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-3-fine-5a8d83283db6-features.json",
+      "bytes": 192598,
+      "sha256": "5a8d83283db6a09f8a8b732a9bd6b33c808aa123f264fc74e27eefb5fd050393"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-4-coarse-f0c17f0ac7f6.glb",
+      "bytes": 669944,
+      "sha256": "f0c17f0ac7f6643a7b4867aedd0e3c7e825120711ee79c015800095e944701b8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-4-coarse-f1ac0f39d512-features.json",
+      "bytes": 289530,
+      "sha256": "f1ac0f39d512abf43212679eac52182e97ae9671ee1941cb78a53daeb18d80f9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-4-fine-1becbc9c8e08.glb",
+      "bytes": 773404,
+      "sha256": "1becbc9c8e08f7d1be6cf67ce3922fcf08486bfc7899e29194f029cb66c56bae"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-4-fine-1c90d0ffe093-features.json",
+      "bytes": 289677,
+      "sha256": "1c90d0ffe093a4224ee541545126dc07fd58a1c1a2990b853a370bc5aa2a77d3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-5-coarse-3d9d7af75d3f.glb",
+      "bytes": 230612,
+      "sha256": "3d9d7af75d3f812b907fd25443ad5691a9767ed93f1cef8da5055bc8438778a3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-5-coarse-a6c6e655b22c-features.json",
+      "bytes": 99471,
+      "sha256": "a6c6e655b22ca9f450a0f06228d57c71572eb95abeec4c83d16df67976b31b12"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-5-fine-49a9ec020368-features.json",
+      "bytes": 99490,
+      "sha256": "49a9ec02036849bcb0659fd9690f568e4a248f52a0d2746fcb564712930495e7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-5-fine-edb0d596b607.glb",
+      "bytes": 273164,
+      "sha256": "edb0d596b607fc2d8bc80992964122c0bcc7e787c41bd5e3eeda0118bf48c9cc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-6-coarse-0d4b5823faa8.glb",
+      "bytes": 501940,
+      "sha256": "0d4b5823faa840ad0208dfd2da4b2ec03342c90183486a37efa51b086e603204"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-6-coarse-ab8e6476588e-features.json",
+      "bytes": 217601,
+      "sha256": "ab8e6476588e903c8024075d6be308646862e183400049b55ed7d1db48cfb576"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-6-fine-878c60cb15a1.glb",
+      "bytes": 613612,
+      "sha256": "878c60cb15a1bfed1d2483da6a577e39bc5de8186f77368473a1b2e8ce1ea641"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-6-fine-a0ae1abc79f8-features.json",
+      "bytes": 217817,
+      "sha256": "a0ae1abc79f8d3990373c37bba7c55d45d16d8bc57a3663e4245bea4155a1736"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-7-coarse-23ff3bc01999.glb",
+      "bytes": 210452,
+      "sha256": "23ff3bc0199910d50f49d13838b1907ce37501b23ea02967b20588d75189af90"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-7-coarse-aedfaae232bf-features.json",
+      "bytes": 94662,
+      "sha256": "aedfaae232bfa8df12acf8df0c34a0dd6faceffc1a5db9e130fe6d4126b89a37"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-7-fine-35a2fa9a457c.glb",
+      "bytes": 245872,
+      "sha256": "35a2fa9a457c38b980aaecf0c1cd5c1c1109824f6a02978f8e66385888c50e31"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_-7-fine-754acbbad1d0-features.json",
+      "bytes": 94685,
+      "sha256": "754acbbad1d0ba3c33240c48550f188ef99fbed7e65d3bc797d7114dfc831608"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_0-coarse-6b375eaed1f6.glb",
+      "bytes": 41604,
+      "sha256": "6b375eaed1f698e9edb6e31ff298de10d9d5136529dc69707fdd144778a9372b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_0-coarse-dcb13ada9314-features.json",
+      "bytes": 18456,
+      "sha256": "dcb13ada931457ea9476190132af102586687fa54830bbc30f18152716db7206"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_0-fine-7dbed671461b-features.json",
+      "bytes": 18456,
+      "sha256": "7dbed671461ba1c4f08a818e02dbde796530903ec576aa5c68f6f19937331106"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_0-fine-ffcb209674b3.glb",
+      "bytes": 43116,
+      "sha256": "ffcb209674b33489d1495a45a49b89447646976bde8f4c9ce64e8decd2e2a736"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_2-coarse-d02c08b0dfe3-features.json",
+      "bytes": 2769,
+      "sha256": "d02c08b0dfe3e986e7bf02330ac1ef5f17b027b4858ce703c4ffc1bbc67e717f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_2-coarse-ead8bb7a06a7.glb",
+      "bytes": 7156,
+      "sha256": "ead8bb7a06a70decb081661f46f966dc0d875c28c814e76bc860471ccf61c86e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_2-fine-4670ad9ba297-features.json",
+      "bytes": 2767,
+      "sha256": "4670ad9ba297f915553bc7491cfbbd4d9ab03467e0393bb519d88bf28b519ea5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_2-fine-912263f807ab.glb",
+      "bytes": 7152,
+      "sha256": "912263f807ab265b9040d0f576706c8af377c14f1fa4d785190939fa758196b9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_3-coarse-3fbdd24b80c1-features.json",
+      "bytes": 2776,
+      "sha256": "3fbdd24b80c16f31f2ca1f8d1c1ad5b5daee3cc2a99aa68b4a92580649b88a8c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_3-coarse-a9e3e23011b1.glb",
+      "bytes": 7152,
+      "sha256": "a9e3e23011b14c33df456ba6f5fe3caefd76fcd867bd5526fc948e137d802b55"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_3-fine-24c1428ddac4-features.json",
+      "bytes": 2774,
+      "sha256": "24c1428ddac4c769bd31c01aa764c0e3ceb10031e84949817cf459c25852ead0"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_3-fine-6b0164b09a4e.glb",
+      "bytes": 8012,
+      "sha256": "6b0164b09a4e5ef9809235340ae147f23fa4a74fc8469aa788ae4180e89888d2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_4-coarse-406ac056a423.glb",
+      "bytes": 102928,
+      "sha256": "406ac056a423414add97b0d2afdd7ea68e9fc99d889a9640d98d74187c8bc8a7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_4-coarse-687fab856516-features.json",
+      "bytes": 46589,
+      "sha256": "687fab8565168b44e5b36d2951ab7d1abe324a31ecd913029b96bb0ac21c8ce4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_4-fine-2599e051b493-features.json",
+      "bytes": 46601,
+      "sha256": "2599e051b493b8adf4a2c97670db7387f341ec5cc44adfba36bfa0d9206b701d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_4-fine-95a699d6fae8.glb",
+      "bytes": 115020,
+      "sha256": "95a699d6fae8b65c03eb62abd0dd8ef7af1e64f44d73d1dae1f7be5b570ce13e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_5-coarse-05d01e7f3ca5.glb",
+      "bytes": 121412,
+      "sha256": "05d01e7f3ca5aa94b7f7c230d2573e96bbabea69eb317c67a36e78f97c1effdd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_5-coarse-68b69a703526-features.json",
+      "bytes": 54677,
+      "sha256": "68b69a7035263a34d385ac0bd9aff8cad388c31c399ed169f4775165132d37ae"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_5-fine-4a3989c219df-features.json",
+      "bytes": 54718,
+      "sha256": "4a3989c219dfb55a54fb027300276f2f96169a964153e2cbf85c1b2ac5e9b1bb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_5-fine-9b9ab98e50c4.glb",
+      "bytes": 146248,
+      "sha256": "9b9ab98e50c48a9a9beaee608a052094bf7f897bde851c1fe0b2a4f41d676fc6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_6-coarse-64d5eb0b5184-features.json",
+      "bytes": 77942,
+      "sha256": "64d5eb0b5184bbd50e6271f011f3b684da8712d40e5969bf96ff625d702b763a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_6-coarse-ae282ccc326e.glb",
+      "bytes": 172652,
+      "sha256": "ae282ccc326eadba32149059d5a4c46e8dcd440c7f168097193d925ff15030c8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_6-fine-825c1b4efa96.glb",
+      "bytes": 214988,
+      "sha256": "825c1b4efa96fc9bf2ed13489a443d4e3a9d92bc5d47c12f3d5fc4c61eb4e5cb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/4_6-fine-ae02ab851707-features.json",
+      "bytes": 77968,
+      "sha256": "ae02ab851707a2cf4a91d2f79eafffee985c3dfd977dee5d85f1cc47c3708453"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-1-coarse-42449463180c-features.json",
+      "bytes": 20777,
+      "sha256": "42449463180cb5605b29ebff6fb2a17a4fb4aeb9d12e424bb6933b33adf09447"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-1-coarse-9d7133f01c47.glb",
+      "bytes": 48328,
+      "sha256": "9d7133f01c47fa4ca8e93e415cfc999dc1373497596825bc2cdca6dd982312c7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-1-fine-2886bfa94f46-features.json",
+      "bytes": 20818,
+      "sha256": "2886bfa94f46fa49a3442cab83ef7258f7dd1e31f1907fa7f05ad586680390e6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-1-fine-eb32625a35b9.glb",
+      "bytes": 66252,
+      "sha256": "eb32625a35b9c4d0c419396d779988d13a729ddf93cd13fc8c943a5073fc863b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-2-coarse-1bccd88f82c7-features.json",
+      "bytes": 51198,
+      "sha256": "1bccd88f82c7982c485a6e0335f5782522a408c41ab373f7c2e8c5ac0b811ffc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-2-coarse-f0579b51517f.glb",
+      "bytes": 116368,
+      "sha256": "f0579b51517f3cd94440d57b8b1727bfbfb3dcb28c831d4079603466c783bf25"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-2-fine-2fe3791b2dd0.glb",
+      "bytes": 169336,
+      "sha256": "2fe3791b2dd08590bb359feb41d240e4cccba10eaf1786da60b3a114df32226b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-2-fine-85181358f601-features.json",
+      "bytes": 51267,
+      "sha256": "85181358f601db829af092da383414f5d08887e3f8c13ecc3f6b9c4f5a14fc4a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-3-coarse-351096e72bde-features.json",
+      "bytes": 100010,
+      "sha256": "351096e72bde3d81a9c5681a271c4fc1602e58a14236ec55f1bb28d2653c6320"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-3-coarse-3f0349852bd7.glb",
+      "bytes": 224732,
+      "sha256": "3f0349852bd746b7f2c25cb9875eca93ac4c1e804e2e25ab70af5a945d5127c1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-3-fine-41dbe91c1a78.glb",
+      "bytes": 276184,
+      "sha256": "41dbe91c1a78ba57b98cb1787bae54fca07e65ef33d8a914bf83bc3f7b9e217c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-3-fine-fbbab1e4ada9-features.json",
+      "bytes": 100036,
+      "sha256": "fbbab1e4ada9e57da842d9bedb38e125455ce3a08fa686faf10da60c0f6a9d5d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-4-coarse-8543963cf53c.glb",
+      "bytes": 455740,
+      "sha256": "8543963cf53c12207a9cc139b5bc5475a004b3e1da3ac2b5e7d9f06aa5447d6d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-4-coarse-a2a1ed583ca9-features.json",
+      "bytes": 205337,
+      "sha256": "a2a1ed583ca9714f57833729d5f1e12f4f463f2afc1269d09c80c0e7a967542c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-4-fine-127a098c1068-features.json",
+      "bytes": 205524,
+      "sha256": "127a098c1068205c7a6c57b6bbcc7073a307eababbedae12be69e54af6060e10"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-4-fine-abaa51c620d3.glb",
+      "bytes": 553392,
+      "sha256": "abaa51c620d3f8c384e67206978342be69d67a07b920dc0c3591ea9bf6392c7d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-5-coarse-10644681923e.glb",
+      "bytes": 309576,
+      "sha256": "10644681923e9956d63e7fb54657d78873d4664d23f8137cf46853831e0d71f9"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-5-coarse-2cb6c8b9f24a-features.json",
+      "bytes": 133952,
+      "sha256": "2cb6c8b9f24a77bd5504327d1b703cea417edfa9948507d34c7dd72f8887eb66"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-5-fine-ad8f00aff5d2.glb",
+      "bytes": 346292,
+      "sha256": "ad8f00aff5d24bed0551c26956db360b823c080de83a4a1062920b37202cff0f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-5-fine-db260bda27da-features.json",
+      "bytes": 134019,
+      "sha256": "db260bda27da1d672bb7a9721feeddb1f7e9939d7c8b9017b1ab55da083e6e67"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-6-coarse-927fb550c5ed-features.json",
+      "bytes": 224116,
+      "sha256": "927fb550c5ed93de1d9a06d3bc3936a6d35a521ca7f68747818804a9cacb65cf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-6-coarse-f5c253be09bd.glb",
+      "bytes": 542256,
+      "sha256": "f5c253be09bd7e7fa40a1b2923d891041189b4828920f7d8d55489847b15771d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-6-fine-7d38fa9e993a.glb",
+      "bytes": 637512,
+      "sha256": "7d38fa9e993a9ff00cf05277906029bf8186e5c6e883a5e5c08b5208b2db6387"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-6-fine-afa5db534a8e-features.json",
+      "bytes": 224332,
+      "sha256": "afa5db534a8e7c2fcac2846ba4675543d210c08d2dc517a5f01906950dae0811"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-7-coarse-bc13e343673a.glb",
+      "bytes": 139048,
+      "sha256": "bc13e343673a22fcff400294ff9596f555b949980af996daa8efcd9840521baf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-7-coarse-d9b44f979778-features.json",
+      "bytes": 58209,
+      "sha256": "d9b44f979778f9f1976dcf6a422706dfb211abb1e2905aae4d865d7ceb9e01f6"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-7-fine-224fb5b93cf4-features.json",
+      "bytes": 58238,
+      "sha256": "224fb5b93cf41e4ebe456bbc5bda8dc2f8f9e97210ce2eba1d1fa2807052cdfb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_-7-fine-9a8949c9d8b1.glb",
+      "bytes": 169504,
+      "sha256": "9a8949c9d8b1743efaa5a86e9207883736dce4670fc11334a841ca7b386b4b4f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_0-coarse-9214068caf2e-features.json",
+      "bytes": 482,
+      "sha256": "9214068caf2e76ec18cf27bed0811d92e268d9241c6c5b7580f31e08a501db02"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_0-coarse-a54493afb767.glb",
+      "bytes": 2100,
+      "sha256": "a54493afb767ca7d6af151840affd3afa4c4d11e2fa64be3db66fe082ee242ad"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_0-fine-4e2c237b7366.glb",
+      "bytes": 2100,
+      "sha256": "4e2c237b736677d190c2a88a0aec82f6eb19d7f579dcda6db5b44b3e1318e8cb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_0-fine-de974885b62b-features.json",
+      "bytes": 480,
+      "sha256": "de974885b62b26b84e336acde51a6672bdc4031162d39d92ae72d03e4cec425e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_1-coarse-0298f2773ecc.glb",
+      "bytes": 51684,
+      "sha256": "0298f2773eccc76fcbe37cdf0bb7ef6178418dce4914b4cd4c589008eb7f7b6a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_1-coarse-d4b46144624d-features.json",
+      "bytes": 23070,
+      "sha256": "d4b46144624dc3157385c79b637f11ef5fbd3d70785d7150e3c2650c1827ab8b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_1-fine-4ef1b5ab00fc-features.json",
+      "bytes": 23081,
+      "sha256": "4ef1b5ab00fca61c50e532b9d7811527109b1320527939150c8f3889cfb7a908"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_1-fine-818b7149fd92.glb",
+      "bytes": 58380,
+      "sha256": "818b7149fd9264d2e10928526a545a85279a2ed161eede508620b0953915f13e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_2-coarse-94373c8678a3-features.json",
+      "bytes": 14148,
+      "sha256": "94373c8678a368531ef5f2577f7cf780a4da8132d944b7c9dbd6fc4dab9064e8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_2-coarse-b32f76dfe448.glb",
+      "bytes": 32356,
+      "sha256": "b32f76dfe44881ee9253902f1a56867773d14b31fb565375dc0841e48d52b565"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_2-fine-83fdcf4ceedf.glb",
+      "bytes": 32788,
+      "sha256": "83fdcf4ceedf69d372f6d849ecca05fc0b6ef819a3e765717567d938415e63ff"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_2-fine-e05808158d02-features.json",
+      "bytes": 14148,
+      "sha256": "e05808158d026ce703e4d755d75122fb92a7e1c5baadf8be7c0e3718de6c85dc"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_3-coarse-46e442565eae-features.json",
+      "bytes": 31232,
+      "sha256": "46e442565eae979ed89a8a52a84dcd0ca0eb6eb8b7ed521889c216398a94bd8d"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_3-coarse-ddbaf142468c.glb",
+      "bytes": 69320,
+      "sha256": "ddbaf142468c491ff89af6c157ce0d1f5457cb22fd30e35c3a49f7757ea9704e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_3-fine-1b973c305a8d.glb",
+      "bytes": 79256,
+      "sha256": "1b973c305a8dd8c57003678e378d8970cbdb7b82b450d68a4afa2a170f26ce0b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_3-fine-4e835832d48c-features.json",
+      "bytes": 31241,
+      "sha256": "4e835832d48c4af38476fdddb8dece77a9b32cf850fb3f48108846bbb2ee2c40"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_4-coarse-04b79c27ff6e.glb",
+      "bytes": 303688,
+      "sha256": "04b79c27ff6eae8cc652a20cd4b550fec3084eb243abc8495b3965a0998b442a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_4-coarse-1edaf0b44741-features.json",
+      "bytes": 138734,
+      "sha256": "1edaf0b4474147684c9fbca3b2cd7f520bb47871a389577c475c2eb047800a1f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_4-fine-11f20b98a164-features.json",
+      "bytes": 138788,
+      "sha256": "11f20b98a1642a3b84acd8beb7b99fcf3fbc9b8174c285eca4f2798d00428dcd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_4-fine-6408e311454e.glb",
+      "bytes": 341272,
+      "sha256": "6408e311454ed161592a9b56af6624f01b2f4521fd72797729e593d9b529277a"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_5-coarse-53561303b529.glb",
+      "bytes": 170956,
+      "sha256": "53561303b529b18f0d7036f99a88792995afa0a27bcb9afaa92cb6128b0651bb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_5-coarse-63727fceb91d-features.json",
+      "bytes": 77196,
+      "sha256": "63727fceb91da1f4b6020727cb6c904b7cbf1e51eb773bd8776aad78e82e3e69"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_5-fine-74db25dd3dce-features.json",
+      "bytes": 77213,
+      "sha256": "74db25dd3dce1ad41cf9791d2c4aae3f90fd87dfbf3f1e4db3d7b1817718ed9c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_5-fine-a2a01a7b2276.glb",
+      "bytes": 205944,
+      "sha256": "a2a01a7b2276838f66f5aaab7de638893b16aacf6dd8713a6f13e3bfe3dcabe3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_6-coarse-10b7d0af6573.glb",
+      "bytes": 107124,
+      "sha256": "10b7d0af6573e11f624411b59260410467c4c12918fad69a3579b06c07fb69ae"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_6-coarse-6f47e504f0db-features.json",
+      "bytes": 47990,
+      "sha256": "6f47e504f0db7c0193fb1d85001a7ade15fcd3dc40ef1ae176bead5984985266"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_6-fine-20d24b596aad-features.json",
+      "bytes": 48008,
+      "sha256": "20d24b596aadeebea3152d6fb7c83281d37532e71d527b6f54bc39d1be27e486"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/5_6-fine-a1a9dac5f140.glb",
+      "bytes": 123324,
+      "sha256": "a1a9dac5f14045993bdffb60d6e700c93c38928bf4a73adb70e24960900e5074"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-2-coarse-555581dc5374-features.json",
+      "bytes": 482,
+      "sha256": "555581dc53742b05ef2344279c9aea82790ececeb205d422c8a8bde0818dc440"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-2-coarse-cf3e60577bef.glb",
+      "bytes": 2104,
+      "sha256": "cf3e60577befd92616c7b7b978a472da4ee594e0ad311509665f3a2539eccec7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-2-fine-6f42760d854f.glb",
+      "bytes": 2100,
+      "sha256": "6f42760d854f990bcbf00aed665daeafc1fe916f9b1a03475573f1c06759c829"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-2-fine-9fbe13cf2c4d-features.json",
+      "bytes": 480,
+      "sha256": "9fbe13cf2c4da5dd663d8132df82836c5ed6b3d8616fa113a9a93b8984d7ef56"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-3-coarse-0ac7edc723ec.glb",
+      "bytes": 2948,
+      "sha256": "0ac7edc723ec99d00e8f919ac3405640db51f9a9a7a02964b411822bdc6e9d01"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-3-coarse-d1b5c323f820-features.json",
+      "bytes": 864,
+      "sha256": "d1b5c323f820538d13ca194aa9a39622fc899d51b0860eacf7909bc03b839d82"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-3-fine-6a46d815e5fe-features.json",
+      "bytes": 862,
+      "sha256": "6a46d815e5fe8081010532eb3ea3d61fdc79a3e42dbe162f2b9c3960fc2d0718"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-3-fine-f188c485af30.glb",
+      "bytes": 2944,
+      "sha256": "f188c485af30a8d341fce1bd82304258b95a683e342b6f5f85049d325347ac16"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-4-coarse-6e9b8d78eba8-features.json",
+      "bytes": 1625,
+      "sha256": "6e9b8d78eba8e13423bce27915813a7158408715ceaf47f1f8bed03aa5688da7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-4-coarse-f64a22db77e4.glb",
+      "bytes": 4628,
+      "sha256": "f64a22db77e41155d4029a26f074e51c0fb5ca342894852bdaaf6dc2ccc7ce33"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-4-fine-c27bdc9db3d6.glb",
+      "bytes": 5280,
+      "sha256": "c27bdc9db3d6799de8f19e7cba91275568ab93eb9c3c97ae9b79886b07ec4352"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-4-fine-db2777d2f766-features.json",
+      "bytes": 1624,
+      "sha256": "db2777d2f7669e403765c44c8892101701cd8f7fb02c16fd3bd20c2fa0ae6956"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-5-coarse-2461b91bb20a.glb",
+      "bytes": 7980,
+      "sha256": "2461b91bb20a723aaf05f1a2794420c7d5cdc43a50ba8f8b04ee568fc4d0fdb5"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-5-coarse-e7b887c76bdb-features.json",
+      "bytes": 3076,
+      "sha256": "e7b887c76bdbf2bd96ff7c32b37812f72616e0ca006e956cb4bfcdec99b88162"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-5-fine-27d01ce1a255-features.json",
+      "bytes": 3073,
+      "sha256": "27d01ce1a255ceb6ed7c4b79bfcec4643e8095e4719901ac002efcfbded7e639"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-5-fine-c261c3fc4753.glb",
+      "bytes": 7764,
+      "sha256": "c261c3fc47539394d89049c6e29fa61e111e87617efa243449ddc1754dda3e99"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-6-coarse-16596c728ec8.glb",
+      "bytes": 16396,
+      "sha256": "16596c728ec8924b75f40880c7da6b7cf77d22275effe8f5e393624e6fcab3b1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-6-coarse-649cff5df5bf-features.json",
+      "bytes": 6226,
+      "sha256": "649cff5df5bf0d7742e50609ce7dc917825c544b4bfef0f09034daa3492b3185"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-6-fine-4d819898dc81.glb",
+      "bytes": 17908,
+      "sha256": "4d819898dc810342ee6d83896eac531e5e1154b86458908561ca1f5307e20adb"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-6-fine-6b30a7ce075a-features.json",
+      "bytes": 6224,
+      "sha256": "6b30a7ce075a5691b391e31abeae2f3dfe987a6c5c195e3bac54f88d983f0808"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-7-coarse-07f5a00f3b43.glb",
+      "bytes": 3780,
+      "sha256": "07f5a00f3b439a5a0c73af45068710197dbdb68e34ac1dc2c9cffbfc872a8154"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-7-coarse-74270019d889-features.json",
+      "bytes": 1242,
+      "sha256": "74270019d889696052ea634174abd38829e3f5f259dcd56d9216c97dc759da9c"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-7-fine-1edec36e5fab-features.json",
+      "bytes": 1240,
+      "sha256": "1edec36e5fab8c012138c16668efbfb7f3efe5b35d13f054370918028017916f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_-7-fine-eec6ac3d30a1.glb",
+      "bytes": 3560,
+      "sha256": "eec6ac3d30a1e8a9fb3c4d7dee4edac866b5ca150fb3f49020fd8693be2ccbbf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_1-coarse-3b5594430f24.glb",
+      "bytes": 2940,
+      "sha256": "3b5594430f24930864463072bd0d1d250e870a6a162cf9a6656bca0d3c011603"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_1-coarse-ff0df04dd539-features.json",
+      "bytes": 862,
+      "sha256": "ff0df04dd539fb6833dd74a74219ffbe265a97c4ebe56525617f9a95b49938da"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_1-fine-7b81f99cd308-features.json",
+      "bytes": 860,
+      "sha256": "7b81f99cd308d81dac1508d0dd7f2e8d8213cf40b726233b2a38fd7ee6a982e2"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_1-fine-c32713d706be.glb",
+      "bytes": 2724,
+      "sha256": "c32713d706be4a8be7b20db9ca5fdea054c437199bca0dc8eae1a1a44bad58f7"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_3-coarse-0de9f522a7d1-features.json",
+      "bytes": 859,
+      "sha256": "0de9f522a7d1786007be0ade430da0402d46495b78dc04b0af06849b31b5acab"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_3-coarse-6b874f3e8a9f.glb",
+      "bytes": 2940,
+      "sha256": "6b874f3e8a9f54551a84901eaa7bfed2bf0e25868f00f1d89cc2f81789d52ef1"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_3-fine-9bb1e32b4515-features.json",
+      "bytes": 857,
+      "sha256": "9bb1e32b451530442649729a574af034ab9345b80d9423f3c94bd74ec767c65f"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_3-fine-ee152566b43a.glb",
+      "bytes": 2936,
+      "sha256": "ee152566b43ad236e8d0898a36671f6c042f011f7b14b695fc41a3e6d28540d3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_4-coarse-021e83b7b76b-features.json",
+      "bytes": 1622,
+      "sha256": "021e83b7b76bb16062444b6e84fd97f4e9afa7729e0538e7407d5ca9d171ae59"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_4-coarse-6736c9dc3149.glb",
+      "bytes": 4620,
+      "sha256": "6736c9dc3149f2adfd4fc58b21d358bcb0f16e1be726df34539d08fb10124c6e"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_4-fine-4e56e94d7b0f-features.json",
+      "bytes": 1620,
+      "sha256": "4e56e94d7b0f1060f096516c038e1f60774cc1cd9b8142a1eb00b68d0be027bd"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_4-fine-b5a61b3f65ce.glb",
+      "bytes": 4188,
+      "sha256": "b5a61b3f65ce29e42c7ffcea7f660553434301ea5295c1c92fc416bc42e7c055"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_5-coarse-3ce7bd0a2f24.glb",
+      "bytes": 2940,
+      "sha256": "3ce7bd0a2f24b0c2c5be60432281e8c598ebeff9a6a5715a475bc84a20266a57"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_5-coarse-4ea86d94b67e-features.json",
+      "bytes": 857,
+      "sha256": "4ea86d94b67e72f8b28b4ee9f0cd8992e4d4adfbe638e210210bb57a1b46d887"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_5-fine-c9063596ec56-features.json",
+      "bytes": 855,
+      "sha256": "c9063596ec56d7965c5b5fd400074b2b2baa05561efc0f5a8cd717d5a1569661"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_5-fine-ca238a576fbc.glb",
+      "bytes": 2936,
+      "sha256": "ca238a576fbc54105efeef0494c6cba3b2ca3d14fea1e53ab2d22c8a67ec9ff3"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_6-coarse-9aff7be8c246.glb",
+      "bytes": 3784,
+      "sha256": "9aff7be8c2460caa4dac185cc501395b8dcc2672cb64014cf9ed2f15579c2bbf"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_6-coarse-c3558f6ddecf-features.json",
+      "bytes": 1240,
+      "sha256": "c3558f6ddecf527474f0485eeba70cc204cb03c7acba8707c3b6e4877c364bd4"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_6-fine-4ccf65859264.glb",
+      "bytes": 3780,
+      "sha256": "4ccf658592640c8ad97e2cbee2b3641b43cc2f295f0230ad2c1b3627f36cd18b"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/6_6-fine-72623b6e81a3-features.json",
+      "bytes": 1238,
+      "sha256": "72623b6e81a379c3029bd84f1de77dae53dd06a217ba7f93bef3dd70d624fb44"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/catalog.json",
+      "bytes": 288389,
+      "sha256": "e4a3f163e126145c4cd6ec6ac145550b6039f542a409f61e35963c508a0773f8"
+    },
+    {
+      "path": "outputs/hcmc-poc/data/tiles-18/tileset.json",
+      "bytes": 221173,
+      "sha256": "8c70d6aa0f23a667c5bffc8057690b5318cf39fe5d2c1ecf3a4531a1d7e65f17"
+    },
+    {
+      "path": "outputs/hcmc-poc/index.html",
+      "bytes": 11038,
+      "sha256": "2a1de94d8f62fbdf07b33dd22829a7d3878284671c4d70366f098a46e9bd89a0"
+    },
+    {
+      "path": "outputs/hcmc-poc/leadership-16.css",
+      "bytes": 8999,
+      "sha256": "ed89ae775a94319f27a62d62f21c8b686d3c3be1cf369bad0c79e2137ddbac98"
+    },
+    {
+      "path": "outputs/hcmc-poc/leadership-16.js",
+      "bytes": 22227,
+      "sha256": "711cc0aff3586fab440ad46f1c9d0f4f85d0d7a8318f26ae89fbc9cb11b55d2d"
+    },
+    {
+      "path": "outputs/hcmc-poc/photo-facades-15.js",
+      "bytes": 15447,
+      "sha256": "fffa762425c7fdc38191e5304454f0ae14f966b7b9063dd86e9e5233602795e6"
+    },
+    {
+      "path": "outputs/hcmc-poc/research/facades-15/manifest.json",
+      "bytes": 76448,
+      "sha256": "f70d0d6024bc3421382bdcd2c52b7175fe56f161ce438874a297671001e95dfc"
+    },
+    {
+      "path": "outputs/hcmc-poc/scripts/qa-surface-18-integrity.cjs",
+      "bytes": 2588,
+      "sha256": "e341ff0f2bb2497bab250427ad12b18597b9f41b36f0b8b26a89493b9b4c53fc"
+    },
+    {
+      "path": "outputs/hcmc-poc/scripts/qa-surface-18.cjs",
+      "bytes": 8257,
+      "sha256": "06b7d47c1a3a85e011707b60e0cd5246ea6e7e0567d17feb638690d9a5f193ca"
+    },
+    {
+      "path": "outputs/hcmc-poc/scripts/test_server_18.py",
+      "bytes": 2603,
+      "sha256": "c429d2d0ba3977e029c93ccfdab40f425db539455d048687b0404fae4f2be507"
+    },
+    {
+      "path": "outputs/hcmc-poc/serve.py",
+      "bytes": 3363,
+      "sha256": "16a545092e1cf76dc0f3ca6fd8a0f7715a9579a7f3ddf3454fcfc18d3cf5456e"
+    },
+    {
+      "path": "outputs/hcmc-poc/twin-analysis-17.css",
+      "bytes": 3168,
+      "sha256": "054133c36004084599e7462992502bd2d4ce1217227096279fb78b433e5770bc"
+    },
+    {
+      "path": "outputs/hcmc-poc/twin-analysis-17.js",
+      "bytes": 30287,
+      "sha256": "418ea2517eced42ec24e1d32889bb64b23eb23d47c8bbd596598ed379efff5d0"
+    },
+    {
+      "path": "outputs/hcmc-poc/twin-surface-18.css",
+      "bytes": 3648,
+      "sha256": "fced769a1e10d102b506ccf5ac73b176da7eb26cd69575cdb28a6ec83edfd999"
+    },
+    {
+      "path": "outputs/hcmc-poc/twin-surface-18.js",
+      "bytes": 25813,
+      "sha256": "5f047b445328219fd6f75e7d7216ba7fd0914d6a877519156c1dc07a49ea21db"
+    },
+    {
+      "path": "outputs/hcmc-poc/vendor/GLTFLoader-r128.LICENSE",
+      "bytes": 1081,
+      "sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f"
+    },
+    {
+      "path": "outputs/hcmc-poc/vendor/GLTFLoader-r128.SOURCE.md",
+      "bytes": 551,
+      "sha256": "47793bbcf2a6e54000885e1311368f45c6d17bbada9a7ac9e7c183595d8973f8"
+    },
+    {
+      "path": "outputs/hcmc-poc/vendor/GLTFLoader-r128.js",
+      "bytes": 96550,
+      "sha256": "5c15967ba830918a9caea6338712c994c354bccd4edc4569bde411c3ec06a3e6"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/README.md",
+      "bytes": 12957,
+      "sha256": "c25bff0a0901c4f2691d8aaf676da803ab09e3560c856c0e69ab30daefe16d5a"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/analysis-client.js",
+      "bytes": 9464,
+      "sha256": "134d69930fa698105862f959b38ebee77edcde04cc80dc41c6724719e3b3d322"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/analysis-worker.js",
+      "bytes": 3442,
+      "sha256": "cff7410cb81d88561cc9f7b656fa8a983e9625a1836985a57d11b67f1be02718"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/gis.js",
+      "bytes": 12827,
+      "sha256": "0f08931479153d123704c46184dd211da867359778c2b327eec7e661f735340f"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/lod-18.js",
+      "bytes": 3334,
+      "sha256": "f2cbbb23e9bfc89d4c682b0a02a20001a17baccfd55dbcdb580593cf93c0757c"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/prepared/gia-loc-17a/project.json",
+      "bytes": 18879,
+      "sha256": "b24e2a784fe1a356a85a8420f5845c5d4ae3385c5139d76bb8d6a0f17f4ab845"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/prepared/gia-loc-17a/qc.json",
+      "bytes": 6900,
+      "sha256": "862b9a0fcf23051d6fc636f5570a4793e3b96a69f4417c60d5806f1920969d2e"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/projects/gia-loc.json",
+      "bytes": 18879,
+      "sha256": "b24e2a784fe1a356a85a8420f5845c5d4ae3385c5139d76bb8d6a0f17f4ab845"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/projects/hcmc.json",
+      "bytes": 34097,
+      "sha256": "8a1b5ddb2f9688b96cd8985d6f744e8e684fb1d51f7b5d9fe9f3eea61a02e00b"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/projects/techniques.json",
+      "bytes": 3297,
+      "sha256": "31cd91a857a8778a49de7df3c788d6c1e0d9f2965e742dfb34f8759a063f7515"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/raster-client-18.js",
+      "bytes": 4165,
+      "sha256": "769c8144b80fd696599fdd2c7bc5e0cbb8787223b83631f867e486fd5bd82dde"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/raster-worker-18.js",
+      "bytes": 17345,
+      "sha256": "cae954b247b4b3cf61bacb36e83f231280d5b9a8029330bc18dc1fb7f982cfc7"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/schema.json",
+      "bytes": 5281,
+      "sha256": "9ba54a9588f31bccd57a8b001fe67e07eb7908c74f1957ae3d839971f6553eb4"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/build-tiles-18.cjs",
+      "bytes": 15925,
+      "sha256": "609110e9c288782b5d2e6af480f8775a5a5b530108679959c48e5c092ad1628c"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/prepare-project.py",
+      "bytes": 16456,
+      "sha256": "e2ba0e1668076ecf36b3fc00201b04f3d1077d6f42f6ae68ad742ab22e77d8ef"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/prepare-surfaces-18.py",
+      "bytes": 42019,
+      "sha256": "563038dab18624781278f99ae633388eea304b24b817f20c431c83e72eeb4436"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/scripts/project-data.cjs",
+      "bytes": 7257,
+      "sha256": "bf823d6d1a0636b56e8e269295f0ec846fba1b0ed6e8db57ebe0d341ebb14b64"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/source-core.js",
+      "bytes": 18859,
+      "sha256": "8e9715e686552125b3047d2ec7afd03012a5c7e0da662455343beaad93a5c1a7"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/cog-18.cjs",
+      "bytes": 6818,
+      "sha256": "dd1068cd2def936d1e67097458412c04d36719b36fe0304cec9fc822639ecd79"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-client.cjs",
+      "bytes": 7696,
+      "sha256": "06d998322a59562bc64661313d4afdd4648f48edd042c3185af8f151ad09638a"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-kernel.cjs",
+      "bytes": 9340,
+      "sha256": "da8bbaaedfd4a7d705e667c49d7a8b25aeec88fab59fe16cc50c77956e64194a"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-projects.cjs",
+      "bytes": 2561,
+      "sha256": "590103571ed025c9e82be3ae118233b2eaf111143c0863216930e2cb64c45adc"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/gis-worker.cjs",
+      "bytes": 5858,
+      "sha256": "db02fb872cd5af8bad0e8012f533b642b5725b65c526d845776e4132cb346a95"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/source-core.cjs",
+      "bytes": 13445,
+      "sha256": "bfda24030fe9ffdde78884b7445ece903367457c6c5f2fc9fc52c97f78e76ce3"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/streaming-18.cjs",
+      "bytes": 9378,
+      "sha256": "547dc6486797d0ef98a9bd62e57bfc90815399b095ae72c1031b92c9e867303d"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/tests/tiles-18.cjs",
+      "bytes": 3139,
+      "sha256": "41de3474639f53e5f02a21f58630a1e7a56cdabe9be859185e0e028070df0ede"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/GEOTIFF-3.0.5-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da0811089f254e909f69f75fa496ca97e5167a8eaa945d9a6bffdd8499b47a49"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/TURF-LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "f9b32b82fd5a1d3a990526d86da97f42fb805d9f4d9f978125c4679b674fce44"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/dependencies.json",
+      "bytes": 797,
+      "sha256": "0f2ca4fd8f7323d8bbd61f4ee50054dcddf0b1b2708d3d23751a1a4d15d77842"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/geotiff-18-dependency.json",
+      "bytes": 800,
+      "sha256": "3f44401d6e8caee04761d9842c21c742e58d57edc6a50ef185e59e7a2da45f3d"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/geotiff-3.0.5.js",
+      "bytes": 550900,
+      "sha256": "8cfc01ffc945904766d8fb89f19da7afb799e342834454f5592fbcf0bcfe2db5"
+    },
+    {
+      "path": "outputs/shared/digital-twin-core/vendor/turf-7.4.0.min.js",
+      "bytes": 547400,
+      "sha256": "5db5dda50210fa0f25394672383ba4a2e6fcde3c9e95ae0e21d62d327fc66d05"
+    },
+    {
+      "path": "research/vibecode-18/ARCHITECTURE-AND-SOURCES.md",
+      "bytes": 8394,
+      "sha256": "f26bec1640652db71e2b6b5929b4ee966979a1af15a2e9eee2dcf77800a2b46d"
+    },
+    {
+      "path": "research/vibecode-18/BLUEPRINT.md",
+      "bytes": 7498,
+      "sha256": "6c99b507a6234f7e13c2cd404f4aea9f89ff07247f8f4e26040977f3cbbdbd3f"
+    },
+    {
+      "path": "research/vibecode-18/COMPLETION-GIS18.md",
+      "bytes": 9683,
+      "sha256": "8528251be0d6c230d7eddc68f881dcd54d06824de4a9ab0240bf19ef66967f42"
+    },
+    {
+      "path": "research/vibecode-18/COMPLETION-SOURCES.md",
+      "bytes": 11768,
+      "sha256": "1a0abefccbc78ac1e76133fc26e3dfea5099024a39dcd0bdc52a0a23102edac0"
+    },
+    {
+      "path": "research/vibecode-18/COMPLETION-UI.md",
+      "bytes": 7182,
+      "sha256": "e6f4fd67ba4849dd7c7981e7b97e21ed7de4be3e0da047c9796a5603a96163e4"
+    },
+    {
+      "path": "research/vibecode-18/COMPLETION.md",
+      "bytes": 2992,
+      "sha256": "61ff408b87fae9b2084f8fe04778d3f295413626a54f41ce29748b5f157aa2e5"
+    },
+    {
+      "path": "research/vibecode-18/DECISIONS.md",
+      "bytes": 3959,
+      "sha256": "57fea4d527a762cb6e78aa7c8c2591fcf41a07e51af4f3e40ec6d9aa9bed2ac3"
+    },
+    {
+      "path": "research/vibecode-18/TIP-GIS18.md",
+      "bytes": 1719,
+      "sha256": "fd96477f8ead323954123a5e104e805b50676a17f1b42e2ea0a18ff180919948"
+    },
+    {
+      "path": "research/vibecode-18/TIP-SOURCES.md",
+      "bytes": 1858,
+      "sha256": "c825d55d0affb964a4b4ff9c26bf6250de44be6aecb81d7d148b8ea93a113960"
+    },
+    {
+      "path": "research/vibecode-18/TIP-UI.md",
+      "bytes": 1666,
+      "sha256": "c741001712203a655f581ffa1a2ab583868aa73e0d5a5f8763dec190fadacd95"
+    },
+    {
+      "path": "research/vibecode-18/VERIFY.md",
+      "bytes": 8696,
+      "sha256": "cdd4468191ee8edc90358c98eaedd31a31c1a376ff6814498f6ef07ce6f5d21a"
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/final-source-builder-snapshot.json",
+      "bytes": 3454,
+      "sha256": "809690bcf8862ae18d937d216d8c92448cb37886f69a324a834f4e947ae73803"
+    },
+    {
+      "path": "research/vibecode-18/qa/check-cog-browser.cjs",
+      "bytes": 3980,
+      "sha256": "f75653aa21f4037a839a658bec70e674c6ad541101fe800d39522a6aa04f7687"
+    },
+    {
+      "path": "research/vibecode-18/qa/check-ground-alignment.py",
+      "bytes": 4991,
+      "sha256": "82f33050912e997dce140717852e92694e67d401931a4d84434a3974aeb90a56"
+    },
+    {
+      "path": "research/vibecode-18/qa/check-produced-tiles.py",
+      "bytes": 6185,
+      "sha256": "0b7228fcf4d82e17aababe8ac4367bef3ce0050dbb150252364af5bd301bc545"
+    },
+    {
+      "path": "research/vibecode-18/qa/check-real-photos.py",
+      "bytes": 1381,
+      "sha256": "4464a74a987ab1c4baede83108fc879cca7138ab73051adf297ccabf017a9f96"
+    },
+    {
+      "path": "research/vibecode-18/qa/cog-browser-results.json",
+      "bytes": 10192,
+      "sha256": "be7ff56fb49fad03b65af5d10f1dd6bd61b5cb22933e02aeaa40adefc8c0bd37"
+    },
+    {
+      "path": "research/vibecode-18/qa/create-release-snapshot.py",
+      "bytes": 4793,
+      "sha256": "5a90508ef2024f260811b37499a0afd6b5cd7df467d57fcd35f535356abd24d6"
+    },
+    {
+      "path": "research/vibecode-18/qa/ground-alignment-oracle.json",
+      "bytes": 1432,
+      "sha256": "9923e77f47def375b465ecaa1500e9e27e2378ce09dc4a808659da058ef44538"
+    },
+    {
+      "path": "research/vibecode-18/qa/khronos-glb-validation.json",
+      "bytes": 52459,
+      "sha256": "06afb76ee271a88ab815c3069314756689c7c107b38156a1a7771d02257cbd10"
+    },
+    {
+      "path": "research/vibecode-18/qa/make-cog-fixtures.py",
+      "bytes": 1015,
+      "sha256": "f7d1921295f9a30448d8424120e82ca110bb0e9bfe4234d0ec76a3e6c3434b84"
+    },
+    {
+      "path": "research/vibecode-18/qa/night-restored.png",
+      "bytes": 1805336,
+      "sha256": "83e8af71103b827bce7dbc5b7dc6aef25f40fd9b05b91ae77c9931d16b09ceb8"
+    },
+    {
+      "path": "research/vibecode-18/qa/produced-tiles-oracle.json",
+      "bytes": 555,
+      "sha256": "340f6174987efbc2da1dc5e49e69b510d81ac6b3c178ac2cf35c30c52fd439b1"
+    },
+    {
+      "path": "research/vibecode-18/qa/real-photo-audit.json",
+      "bytes": 6045,
+      "sha256": "f55f28747df8a8043fa3adda1f01fee18c82e69f5add5e225a2368e7757a9fd6"
+    },
+    {
+      "path": "research/vibecode-18/qa/surface-desktop.png",
+      "bytes": 1053744,
+      "sha256": "84293b6f03a66d9ca8d4d2dd8b3f820788d214227b99005e0e2678597153db01"
+    },
+    {
+      "path": "research/vibecode-18/qa/surface-mobile-collapsed.png",
+      "bytes": 449547,
+      "sha256": "424b04db34a90b76a97e9dadcedb4f93fe9dee59fff1b4bb3a03399c6e0147fb"
+    },
+    {
+      "path": "research/vibecode-18/qa/surface-mobile.png",
+      "bytes": 298881,
+      "sha256": "e46ae49dab80be3dc484133302b2389fd7b01b9b354968315a5de423057dc339"
+    },
+    {
+      "path": "research/vibecode-18/qa/surface-overview.png",
+      "bytes": 1317193,
+      "sha256": "755ee1daaf604a075418c9fd1e3aeed7541cbf6a1508f7fb27073624be6b620c"
+    },
+    {
+      "path": "research/vibecode-18/qa/ui-integrity-results.json",
+      "bytes": 4817,
+      "sha256": "a316b7c97d188da36f19e490a7e218a4e552a268488ea93df0645eb098ed2bb3"
+    },
+    {
+      "path": "research/vibecode-18/qa/ui-results.json",
+      "bytes": 16482,
+      "sha256": "f41a448de3b2173d80799f5552d76218cadadb6b73543add86f46d614f32be42"
+    },
+    {
+      "path": "research/vibecode-18/qa/validate-glb.cjs",
+      "bytes": 1650,
+      "sha256": "46e5d42e18f9fa4f141c797c47f74bc0944949e247bf5ed9471899b937c96367"
+    },
+    {
+      "path": "research/vibecode-18/qa/verify-release.py",
+      "bytes": 845,
+      "sha256": "706b8da800f3a4d92412eeb778bd2081234699b02ca13091aaa45bb2a5d07b83"
+    }
+  ]
+}

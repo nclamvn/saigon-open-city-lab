@@ -1,0 +1,432 @@
+{
+  "schema": "rtr-photo-readiness/1.0",
+  "existingReferenceCount": 20,
+  "existingReferences": [
+    {
+      "id": "cityhall",
+      "name": "UBND TP.HCM",
+      "url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_City_Hall,_2020-01_CN-03.jpg",
+      "sourceFile": "assets/facades15/cityhall-3.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2020-01-16",
+      "sha256": "e837dad1673ca3f77be6a618eb01892be3776890e9c3f5fab3c964018caca95b",
+      "declaredSha256": "e837dad1673ca3f77be6a618eb01892be3776890e9c3f5fab3c964018caca95b",
+      "hashMatches": true,
+      "bytes": 385355,
+      "facadeEligible": false,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "rex",
+      "name": "Rex Hotel · mặt Lê Lợi",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Rex_Hotel_Is_Pictured_While_Secretary_Walked_the_Streets_of_Ho_Chi_Minh_City_(27237284176).jpg",
+      "sourceFile": "assets/facades15/rex-day-5.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Rex_Hotel_Is_Pictured_While_Secretary_Walked_the_Streets_of_Ho_Chi_Minh_City_(27237284176).jpg",
+      "captureDateRaw": "2016-05-24 04:52",
+      "sha256": "e26c0a66af561161a2d3d6f316dab2a6e451b386b9f8970e7e0f3577633fdd4e",
+      "declaredSha256": "e26c0a66af561161a2d3d6f316dab2a6e451b386b9f8970e7e0f3577633fdd4e",
+      "hashMatches": true,
+      "bytes": 248142,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "union",
+      "name": "Union Square",
+      "url": "https://commons.wikimedia.org/wiki/File:Vincom_Center,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.JPG",
+      "sourceFile": "assets/facades15/union-3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "captureDateRaw": "2013-08-14 13:56:53",
+      "sha256": "91bb52c794940fadd862f67a279c17f577c6ec4c4f6921dcb2b1a1391b097247",
+      "declaredSha256": "91bb52c794940fadd862f67a279c17f577c6ec4c4f6921dcb2b1a1391b097247",
+      "hashMatches": true,
+      "bytes": 333466,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "cafe42",
+      "name": "Chung cư 42 Nguyễn Huệ",
+      "url": "https://commons.wikimedia.org/wiki/File:42_Nguyen_Hue_Boulevard,_Saigon_(53547606514).jpg",
+      "sourceFile": "assets/facades15/cafe42-0.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "captureDateRaw": "2023-12-28 10:43:09",
+      "sha256": "ddbb830a2e3226a65af87f6dd0e981840d85e48885f3feb914459b1d12a13b60",
+      "declaredSha256": "ddbb830a2e3226a65af87f6dd0e981840d85e48885f3feb914459b1d12a13b60",
+      "hashMatches": true,
+      "bytes": 540553,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "sunwah",
+      "name": "Sun Wah Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Sun_Wah_Tower,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.JPG",
+      "sourceFile": "assets/facades15/sunwah-4.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "captureDateRaw": "2013-08-14 14:05:47",
+      "sha256": "aa652294eb99665b487b936f01e5f3ac886ebae05e31c089654e9f32167d4a9b",
+      "declaredSha256": "aa652294eb99665b487b936f01e5f3ac886ebae05e31c089654e9f32167d4a9b",
+      "hashMatches": true,
+      "bytes": 559748,
+      "facadeEligible": false,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "prince",
+      "name": "Saigon Prince Hotel",
+      "url": "https://commons.wikimedia.org/wiki/File:Saigon_Prince_Hotel.jpg",
+      "sourceFile": "assets/facades15/prince-3.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "Taken on 4 January 2024",
+      "sha256": "c8ddb612b2410a231bf667fa75aad1e6cdbb72690be4b2798fc8bb0aa2abae70",
+      "declaredSha256": "c8ddb612b2410a231bf667fa75aad1e6cdbb72690be4b2798fc8bb0aa2abae70",
+      "hashMatches": true,
+      "bytes": 367144,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "times",
+      "name": "Saigon Times Square",
+      "url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Saigon_Times_Square,_2020-01_CN-01.jpg",
+      "sourceFile": "assets/facades16d/times-original.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2020-01-16",
+      "sha256": "11d7c80e0af75c26774c5db0b75cbadcd552c57a77a7ad9915c758d0afb4f1f3",
+      "declaredSha256": "11d7c80e0af75c26774c5db0b75cbadcd552c57a77a7ad9915c758d0afb4f1f3",
+      "hashMatches": true,
+      "bytes": 5321241,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "vietcombank",
+      "name": "Vietcombank Tower",
+      "url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City,_Vietcombank_Tower,_2020-01_CN-01.jpg",
+      "sourceFile": "assets/facades15/vietcombank-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2020-01-16",
+      "sha256": "292182cd84193cfb5dcda635cebb18ab892e5d32aca33f2c90c45c990a1b5f1e",
+      "declaredSha256": "292182cd84193cfb5dcda635cebb18ab892e5d32aca33f2c90c45c990a1b5f1e",
+      "hashMatches": true,
+      "bytes": 925384,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "renaissance",
+      "name": "Renaissance Riverside · khối đế",
+      "url": "https://commons.wikimedia.org/wiki/File:C%C3%B4ng_tr%C6%B0%E1%BB%9Dng_M%C3%AA_Linh-B%E1%BA%BFn_Ngh%C3%A9,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_Renaissance_Riverside_Hotel_Saigon_-_panoramio.jpg",
+      "sourceFile": "assets/facades15/renaissance-1.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "captureDateRaw": "Taken on 12 May 2014",
+      "sha256": "d89f9b8027f697f6a962648a689ff430edd7bfdb565bbc7845ba8218ea796ea4",
+      "declaredSha256": "d89f9b8027f697f6a962648a689ff430edd7bfdb565bbc7845ba8218ea796ea4",
+      "hashMatches": true,
+      "bytes": 527769,
+      "facadeEligible": false,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "majestic",
+      "name": "Hotel Majestic · mặt Tôn Đức Thắng",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Majestic,_Saigon_(20230705_1506).jpg",
+      "sourceFile": "assets/facades15/majestic-2.jpg",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "captureDateRaw": "5 July 2023 (according to Exif data)",
+      "sha256": "2185948833e84b10890be8d36241a5149c1e09f8cb53a47246ccf43adf273833",
+      "declaredSha256": "2185948833e84b10890be8d36241a5149c1e09f8cb53a47246ccf43adf273833",
+      "hashMatches": true,
+      "bytes": 399132,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "grand",
+      "name": "Grand Hotel · cánh Đồng Khởi",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Grand_Saigon_P1310935.jpg",
+      "sourceFile": "assets/facades15/grand-4.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2023-02-01 09:30:20",
+      "sha256": "ee1c6df317b243e208ea0bc94938cfcad7329789bce1e2432d0bf8f9f6aa67bb",
+      "declaredSha256": "ee1c6df317b243e208ea0bc94938cfcad7329789bce1e2432d0bf8f9f6aa67bb",
+      "hashMatches": true,
+      "bytes": 415893,
+      "facadeEligible": false,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside Hotel",
+      "url": "https://commons.wikimedia.org/wiki/File:Riverside_Hotel_P1310979.jpg",
+      "sourceFile": "assets/facades15/riverside-4.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2023-02-01 13:22:36",
+      "sha256": "9110bd2de41cf0378103781ef83acfc00dc10138d7bd4bdac4e838c0e750394c",
+      "declaredSha256": "9110bd2de41cf0378103781ef83acfc00dc10138d7bd4bdac4e838c0e750394c",
+      "hashMatches": true,
+      "bytes": 298565,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "hilton",
+      "name": "Hilton Saigon",
+      "url": "https://commons.wikimedia.org/wiki/File:Hilton_Saigon_Hotel,_ph%C6%B0%E1%BB%9Dng_b%E1%BA%BFn_ngh%C3%A9,_qu%E1%BA%ADn_1,_tphcm.jpg",
+      "sourceFile": "assets/facades15/hilton-3.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2022-01-30",
+      "sha256": "b61b984688bbccfbba3ad09bdb3a8d451ada35f7d118ffa033f45984ea463cf8",
+      "declaredSha256": "b61b984688bbccfbba3ad09bdb3a8d451ada35f7d118ffa033f45984ea463cf8",
+      "hashMatches": true,
+      "bytes": 314130,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "opera",
+      "name": "Nhà hát Thành phố · mặt chính",
+      "url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Opera_House.jpg",
+      "sourceFile": "assets/facades15/opera-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2016-11-19 12:37:34",
+      "sha256": "62a5b5a5b0bca7e4e77cf4e6e67cba42531be9be8e8e524058e44f5af7ed9c0c",
+      "declaredSha256": "62a5b5a5b0bca7e4e77cf4e6e67cba42531be9be8e8e524058e44f5af7ed9c0c",
+      "hashMatches": true,
+      "bytes": 250668,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "caravelle",
+      "name": "Caravelle · cánh thấp Lam Sơn",
+      "url": "https://commons.wikimedia.org/wiki/File:Caravelle_Hotel_Saigon_2013-02.jpg",
+      "sourceFile": "assets/facades15/caravelle-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2014-02-18",
+      "sha256": "c6ac994d3b77c6b034ce50064aad51feb527015d5f598a28d5800223039bacf9",
+      "declaredSha256": "c6ac994d3b77c6b034ce50064aad51feb527015d5f598a28d5800223039bacf9",
+      "hashMatches": true,
+      "bytes": 524821,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "continental",
+      "name": "Hotel Continental Saigon",
+      "url": "https://commons.wikimedia.org/wiki/File:Hotel_Continental_Saigon_(53668610570).jpg",
+      "sourceFile": "assets/facades15/continental-0.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "captureDateRaw": "2018-12-30 15:38:18",
+      "sha256": "d36ee45102922160d9a6d359edbdc9797eafd2872e1dcdc11917e45e7735520f",
+      "declaredSha256": "d36ee45102922160d9a6d359edbdc9797eafd2872e1dcdc11917e45e7735520f",
+      "hashMatches": true,
+      "bytes": 359310,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "sheraton",
+      "name": "Sheraton Saigon · mặt Đồng Khởi",
+      "url": "https://commons.wikimedia.org/wiki/File:Sheraton_Saigon_Hotel_from_Coffee_-_1_Jan_2025.jpg",
+      "sourceFile": "assets/facades15/sheraton-2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2025-01-01",
+      "sha256": "e029391e874a9a3f8f399c21e911ffccacae1c0cce700424e0af5d55fb4cb4e9",
+      "declaredSha256": "e029391e874a9a3f8f399c21e911ffccacae1c0cce700424e0af5d55fb4cb4e9",
+      "hashMatches": true,
+      "bytes": 224469,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "huongsen",
+      "name": "Hương Sen · cánh Đồng Khởi",
+      "url": "https://commons.wikimedia.org/wiki/File:Huong_Sen_Hotel_(36327771544).jpg",
+      "sourceFile": "assets/facades15/huongsen-1.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "captureDateRaw": "2017-09-03 23:45",
+      "sha256": "9d17c09522e50c58ec6fd860f5331b3e81533915a4cefea577f4c10fb9a040fb",
+      "declaredSha256": "9d17c09522e50c58ec6fd860f5331b3e81533915a4cefea577f4c10fb9a040fb",
+      "hashMatches": true,
+      "bytes": 289448,
+      "facadeEligible": false,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "royal",
+      "name": "Royal Hotel Saigon",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Hotel_Saigon_P1310937.jpg",
+      "sourceFile": "assets/facades15/royal-3.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "captureDateRaw": "2023-02-01 09:54:33",
+      "sha256": "362a7a14230e8c793e641c66e91f48e7fb5a80e3395e0e94986940f9108bf73b",
+      "declaredSha256": "362a7a14230e8c793e641c66e91f48e7fb5a80e3395e0e94986940f9108bf73b",
+      "hashMatches": true,
+      "bytes": 347130,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    },
+    {
+      "id": "hyatt",
+      "name": "Park Hyatt Saigon · quảng trường Lam Sơn",
+      "url": "https://commons.wikimedia.org/wiki/File:Park_Hyatt_Saigon.jpg",
+      "sourceFile": "assets/facades15/hyatt-1.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "captureDateRaw": "2006-09-20 14:58",
+      "sha256": "b28e36b586e61939aa25e4d89b3cc2123a67817549ee5638c135b663a8d6b95c",
+      "declaredSha256": "b28e36b586e61939aa25e4d89b3cc2123a67817549ee5638c135b663a8d6b95c",
+      "hashMatches": true,
+      "bytes": 396407,
+      "facadeEligible": true,
+      "surveyedGeometry": false
+    }
+  ],
+  "metadataRecordsAudited": 100,
+  "newMultiViewLeads": [
+    {
+      "name": "Nhà hát Thành phố, 2023-11-02",
+      "photos": [
+        {
+          "title": "File:Municipal Theatre of Ho Chi Minh City, 2023 (01).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_Theatre_of_Ho_Chi_Minh_City,_2023_(01).jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-11-02 14:25:01",
+          "dimensions": [
+            3654,
+            2435
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": false,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        },
+        {
+          "title": "File:Municipal Theatre of Ho Chi Minh City, 2023 (03).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_Theatre_of_Ho_Chi_Minh_City,_2023_(03).jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-11-02 14:29:36",
+          "dimensions": [
+            3441,
+            2293
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": false,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        },
+        {
+          "title": "File:Municipal Theatre of Ho Chi Minh City, 2023 (04).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_Theatre_of_Ho_Chi_Minh_City,_2023_(04).jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-11-02 14:30:42",
+          "dimensions": [
+            3434,
+            2288
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": false,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        },
+        {
+          "title": "File:Municipal Theatre of Ho Chi Minh City, 2023 (02).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Municipal_Theatre_of_Ho_Chi_Minh_City,_2023_(02).jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-11-02 14:25:10",
+          "dimensions": [
+            3248,
+            2167
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": false,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        }
+      ]
+    },
+    {
+      "name": "Nhà hát Thành phố, 2023-12-10",
+      "photos": [
+        {
+          "title": "File:2023-12-10 Saigon Opera House (Nhà hát Thành phố, Sài Gòn) 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2023-12-10_Saigon_Opera_House_(Nh%C3%A0_h%C3%A1t_Th%C3%A0nh_ph%E1%BB%91,_S%C3%A0i_G%C3%B2n)_02.jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-12-10 06:55:48",
+          "dimensions": [
+            4096,
+            3072
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": true,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        },
+        {
+          "title": "File:2023-12-10 Saigon Opera House (Nhà hát Thành phố, Sài Gòn) 03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2023-12-10_Saigon_Opera_House_(Nh%C3%A0_h%C3%A1t_Th%C3%A0nh_ph%E1%BB%91,_S%C3%A0i_G%C3%B2n)_03.jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-12-10 06:56:17",
+          "dimensions": [
+            4096,
+            3072
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": true,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        },
+        {
+          "title": "File:2023-12-10 Saigon Opera House (Nhà hát Thành phố, Sài Gòn) 04.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2023-12-10_Saigon_Opera_House_(Nh%C3%A0_h%C3%A1t_Th%C3%A0nh_ph%E1%BB%91,_S%C3%A0i_G%C3%B2n)_04.jpg",
+          "license": "CC BY-SA 4.0",
+          "captureDateRaw": "2023-12-10 06:56:23",
+          "dimensions": [
+            4096,
+            3072
+          ],
+          "focalExifPresent": true,
+          "gpsExifPresent": true,
+          "verifiedCameraPose": false,
+          "verifiedCalibration": false,
+          "verifiedGroundControl": false
+        }
+      ]
+    }
+  ],
+  "readyReconstructionAssets": 0,
+  "sfmStatus": "unavailable_verified_capture_set",
+  "gaussianSplatStatus": "unavailable_verified_capture_set",
+  "notes": [
+    "Two licensed same-day Opera House candidate sets found: four photos in November and three in December 2023. Camera make/focal EXIF are present; GPS EXIF is present in the December candidate. These are leads, not verified calibrated complete overlapping capture sets or reconstructed assets.",
+    "No image bytes from these new leads were ingested, no COLMAP/3DGS training was executed, no camera poses/control/checkpoint accuracy was invented.",
+    "20 existing real building reference photographs retained; per-file hashes checked. They support reference/photo textures, not surveyed 3D reconstruction."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sourceContracts": [
+    {
+      "allowed": true,
+      "valid": true,
+      "purpose": "ingestion",
+      "sourceId": "sentinel-2026",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "allowed": true,
+      "valid": true,
+      "purpose": "ingestion",
+      "sourceId": "gedtm-ground",
+      "errors": [],
+      "warnings": [
+        "capture_date_unknown",
+        "modeled_not_surveyed"
+      ]
+    },
+    {
+      "allowed": true,
+      "valid": true,
+      "purpose": "ingestion",
+      "sourceId": "copdem-dsm",
+      "errors": [],
+      "warnings": [
+        "capture_date_unknown",
+        "modeled_not_surveyed"
+      ]
+    }
+  ],
+  "rightsGateRegression": {
+    "allowed": false,
+    "valid": false,
+    "purpose": "ingestion",
+    "sourceId": "sentinel-2026",
+    "errors": [
+      "rights_not_verified"
+    ],
+    "warnings": []
+  },
+  "acquisitionGateRegression": {
+    "allowed": false,
+    "valid": false,
+    "purpose": "ingestion",
+    "sourceId": "sentinel-2026",
+    "errors": [
+      "source_not_acquired"
+    ],
+    "warnings": []
+  }
+}

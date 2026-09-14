@@ -1,0 +1,38 @@
+{
+  "source_file": "raw/global/copdem-glo30-n11-e106.tif",
+  "source_sha256": "49cea98dfdc9e721659dacf85b2e9e58334cc753bb94d52d0854681c51fa15bf",
+  "inspected_at": "2026-09-14T02:38:11Z",
+  "reader": "Pillow TIFF tags plus numpy AOI pixel sample; GDAL/rasterio unavailable in this workspace",
+  "format": "TIFF",
+  "mode": "F",
+  "frames": 4,
+  "width": 3600,
+  "height": 3600,
+  "crs": "EPSG:4326 / WGS 84",
+  "geo_ascii_params": "WGS 84|",
+  "model_tiepoint": [0.0, 0.0, 0.0, 106.0, 12.0, 0.0],
+  "model_pixel_scale": [0.0002777777777777778, 0.0002777777777777778, 0.0],
+  "bounds_wgs84": [106.0, 11.0, 107.0, 12.0],
+  "aoi_bbox_wgs84": [106.3276338, 11.0830401, 106.3576338, 11.1130401],
+  "aoi_window_pixels": [1179, 3193, 1288, 3302],
+  "aoi_window_width": 109,
+  "aoi_window_height": 109,
+  "aoi_window_bounds_wgs84": [106.3275, 11.082777777777778, 106.35777777777778, 11.113055555555556],
+  "nodata_tag": null,
+  "finite_pixel_count": 11881,
+  "nan_pixel_count": 0,
+  "min": 5.430793285369873,
+  "max": 29.575841903686523,
+  "mean": 14.485491035301852,
+  "std": 2.898682851274801,
+  "sample_top_left_3x3": [
+    [16.75, 15.33, 18.25],
+    [16.42, 20.28, 19.55],
+    [19.52, 20.64, 18.47]
+  ],
+  "interpretation_limits": [
+    "This is a public 30 m-class DSM/DEM context layer, not LiDAR and not centimetre orthophoto data.",
+    "The vertical datum was not independently confirmed from the local TIFF tags in this inspection.",
+    "AOI is an OSM-derived pilot bbox, not an official ward boundary."
+  ]
+}

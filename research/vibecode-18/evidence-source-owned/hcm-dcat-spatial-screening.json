@@ -1,0 +1,42 @@
+{
+  "datasetCount": 102,
+  "spatialCandidateCount": 5,
+  "keywords": [
+    "quy hoạch",
+    "bản đồ",
+    "lidar",
+    "địa hình",
+    "không gian",
+    "đất đai",
+    "geospatial",
+    "orthophoto"
+  ],
+  "spatialCandidates": [
+    {
+      "title": "Dữ liệu quy hoạch phân khu tỉ lệ 1/2000",
+      "description": "",
+      "links": []
+    },
+    {
+      "title": "Dữ liệu Hiện trạng rừng Thành phố Hồ Chí Minh",
+      "description": "<p>-Dữ liệu rừng đặc dụng trên địa bàn;<br />\n-Dữ liệu rừng phòng hộ trên địa bàn;<br />\n-Dữ liệu rừng sản xuất trên địa bàn.<br />\nDữ liệu bao gồm:<br />\n-&nbsp; Quyết định của UBND Thành phố về Công bố số liệu hiện trạng rừng Thành phố Hồ Chí Minh<br />\n-&nbsp; Bản đồ hiện trạng rừng Thành phố Hồ Chí Minh bao gồm các thông tin theo quy định về quản lý, phân loại rừng: huyện, xã, tiểu khu, Lô, diện tích, trạng thái….)</p>\n",
+      "links": []
+    },
+    {
+      "title": "Dữ liệu về công trình thủy lợi trên địa bàn Thành phố",
+      "description": "<p>Cung cấp thông tin dữ liệu không gian và thuộc tính &nbsp;của các lớp dữ liệu chuyên đề (trạm bơm, cống đập, kênh mương bờ bao, đê bao kè biển, diện tích tưới, diện tích tiêu, sông rạch tự nhiên, chất lượng nước mặn, chất lượng nước xả thải, cấp phép, thỏa thuận, mốc cảnh báo triều cường, mốc chỉ giới).</p>\n<p>&nbsp;</p>\n",
+      "links": []
+    },
+    {
+      "title": "Dữ liệu về phòng chống thiên tai trên địa bàn Thành phố",
+      "description": "<p>Cung cấp thông tin dữ liệu không gian và thuộc tính của các lớp dữ liệu về thiên tai, công trình phòng chống thiên tai, số liệu thiệt hại do thiên tai gây ra, kế hoạch, phương án phòng chống thiên tai, tư liệu hình ảnh, video… về công tác phòng chống thiên tai.</p>\n<p>&nbsp;</p>\n",
+      "links": []
+    },
+    {
+      "title": "Dữ liệu về danh sách cụm công nghiệp trên địa bàn",
+      "description": "<p>Danh sách cụm công nghiệp, bao gồm Tên cụm công nghiệp, chủ đầu tư, vị trí, diện tích, ngành nghề, quy hoạch.</p>\n<p>&nbsp;</p>\n",
+      "links": []
+    }
+  ],
+  "notes": "Keyword screen of one public DCAT snapshot, not proof of source completeness, precision, access rights or available GIS bytes."
+}
