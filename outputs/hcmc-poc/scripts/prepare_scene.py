@@ -84,6 +84,33 @@ if overture_file.exists():
    added.append({'id':2000000000+index,'gers':f['id'],'origin':'Overture','sourceRecords':[{'dataset':v.get('dataset'),'confidence':v.get('confidence')} for v in pr.get('sources',[])],'name':name,'r':rings(world),'h':round(ht,2),'min':0,'q':q,'levels':lv,'rawHeight':h,'glass':ht>70,'type':pr.get('class','yes'),'roof':None,'roofHeight':None,'center':[round(cp.x,2),round(cp.y,2)]})
  B.extend(added)
  over_stats={'release':'2026-08-19.0','downloaded':len(ob),'added':len(added),'overlappingExcluded':matched,'tinyExcluded':invalid,'heightPresentInDownload':sum(f['properties'].get('height') is not None for f in ob),'floorPresentInDownload':sum(f['properties'].get('num_floors') is not None for f in ob),'rule':'Reject candidate when >10% area overlaps OSM geometry. No claim of verified identity matching.'}
+# Apply the separately reviewed live-building delta. The patch is deliberately
+# fail-closed: stale locators or newly overlapping footprints are skipped.
+gap_file=r/'data/building-gap-22.json';gap_stats={}
+if gap_file.exists():
+ gap=json.loads(gap_file.read_text());height_applied=0;height_skipped=0
+ for correction in gap.get('heightCorrections',[]):
+  candidates=[]
+  for index,b in enumerate(B):
+   if correction.get('gers') and b.get('gers')==correction['gers']:candidates.append((index,b))
+   elif not correction.get('gers') and b.get('id')==correction.get('modelId'):candidates.append((index,b))
+  candidates=[(index,b) for index,b in candidates if math.dist(b['center'],correction['center'])<.5 and abs(b['h']-correction['baselineHeightM'])<.05]
+  if len(candidates)!=1:height_skipped+=1;continue
+  index,b=candidates[0];b['baselineHeight']=b['h'];b['h']=correction['heightM'];b['q']='crosschecked';b['heightEvidence']={'method':'HCMGIS point-in-footprint + footprint-area compatibility + Google Temporal height agreement','googleHeightM':correction['googleHeightM'],'records':correction['evidence']};height_applied+=1
+ geom=[Polygon(b['r'][0],b['r'][1:]).buffer(0) for b in B];tree=STRtree(geom);footprints_added=0;footprints_skipped=0
+ for addition in gap.get('additions',[]):
+  if any(b.get('id')==addition['osmId'] for b in B):footprints_skipped+=1;continue
+  world=make_valid(Polygon(addition['coordinates'])).intersection(clip)
+  for world_part in polys(world):
+   p=transform(lambda x,y:((x-lon0)*sx,(lat0-y)*sy),world_part).buffer(0)
+   if p.is_empty or p.area<8:footprints_skipped+=1;continue
+   ids=tree.query(p,predicate='intersects');overlap=unary_union([p.intersection(geom[i]) for i in ids]).area/p.area if len(ids) else 0
+   if overlap>.1:footprints_skipped+=1;continue
+   height=num(addition.get('height'));levels=num(addition.get('levels'));q='height' if height else 'levels' if levels else 'estimated'
+   h=height or (levels*3.2 if levels else (7.5 if p.area<55 else 12 if p.area<180 else 17 if p.area<700 else 24))
+   if q=='estimated':h+=((addition['osmId']%5)-2)*.65
+   cp=p.representative_point();B.append({'id':addition['osmId'],'origin':'OpenStreetMap-live','editTime':addition.get('editTime'),'name':addition.get('name') or '','r':rings(world_part),'h':round(h,2),'min':0,'q':q,'levels':levels,'rawHeight':height,'glass':h>70,'type':addition.get('building','yes'),'roof':None,'roofHeight':None,'roofDirection':None,'center':[round(cp.x,2),round(cp.y,2)]});geom.append(p);tree=STRtree(geom);footprints_added+=1
+ gap_stats={'version':gap.get('version'),'osmChangesReviewed':gap.get('summary',{}).get('osmChangesReviewed'),'alreadyCovered':gap.get('summary',{}).get('alreadyCovered'),'geometryReviewQueue':gap.get('summary',{}).get('geometryReviewQueue'),'heightCorrectionsApplied':height_applied,'heightCorrectionsSkipped':height_skipped,'footprintsAdded':footprints_added,'footprintsSkipped':footprints_skipped,'status':gap.get('status')}
 quality=collections.Counter(b['q'] for b in B)
 skips['landmark_raw_parts_replaced_with_labeled_illustration']=3
 W=[];G=[];R=[]
@@ -111,8 +138,8 @@ for e in es:
    for l in ([ln] if ln.geom_type=='LineString' else getattr(ln,'geoms',[])):
     if l.geom_type=='LineString':R.append({'id':e['id'],'name':t.get('name',''),'type':t['highway'],'bridge':t.get('bridge') in ['yes','viaduct'],'tunnel':t.get('tunnel')=='yes','lanes':num(t.get('lanes')),'c':[[round(v,2) for v in xy(*c)]for c in l.coords]})
 water=unary_union(W);greens=unary_union(G)
-data={'meta':{'center':[lon0,lat0],'bbox':bbox,'width':round((bbox[2]-bbox[0])*sx),'depth':round((bbox[3]-bbox[1])*sy),'areaKm2':round((bbox[2]-bbox[0])*sx*(bbox[3]-bbox[1])*sy/1e6,2),'sourceDate':raw['osm3s']['timestamp_osm_base'],'quality':dict(quality),'overture':over_stats,'renderedBuildings':len(B),'roads':len(R),'rawFeatures':len(es),'rawBuildingFeatures':sum('building' in e.get('tags',{}) or 'building:part' in e.get('tags',{}) for e in es),'ground':'flat reference plane; not surveyed terrain','imagery':'EOX Sentinel-2 2016/2017 CC BY 4.0'},'buildings':B,'roads':R,'water':[rings(p)for p in polys(water)],'green':[rings(p) for p in polys(greens)]}
+data={'meta':{'center':[lon0,lat0],'bbox':bbox,'width':round((bbox[2]-bbox[0])*sx),'depth':round((bbox[3]-bbox[1])*sy),'areaKm2':round((bbox[2]-bbox[0])*sx*(bbox[3]-bbox[1])*sy/1e6,2),'sourceDate':raw['osm3s']['timestamp_osm_base'],'quality':dict(quality),'overture':over_stats,'buildingGap22':gap_stats,'renderedBuildings':len(B),'roads':len(R),'rawFeatures':len(es),'rawBuildingFeatures':sum('building' in e.get('tags',{}) or 'building:part' in e.get('tags',{}) for e in es),'ground':'flat reference plane; not surveyed terrain','imagery':'EOX Sentinel-2 2016/2017 CC BY 4.0'},'buildings':B,'roads':R,'water':[rings(p)for p in polys(water)],'green':[rings(p) for p in polys(greens)]}
 (r/'data/scene.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))
 (r/'data/scene.js').write_text('window.CITY_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';')
-(r/'data/quality-report.json').write_text(json.dumps({'meta':data['meta'],'filterLog':dict(skips),'sourceSha256':hashlib.sha256((r/'data/osm-raw.json').read_bytes()).hexdigest(),'heightsAreSurveyed':False,'heightRule':'OSM height; else building:levels*3.2m; else footprint-area classes + deterministic <=1.3m variation. Parent footprints with mapped parts are rendered as <=9m podiums. Height raw fields retained.','geometry':'OSM ways clipped with Shapely; water multipolygon relations assembled; local equirectangular metre projection; not a survey CRS'},ensure_ascii=False,indent=2))
+(r/'data/quality-report.json').write_text(json.dumps({'meta':data['meta'],'filterLog':dict(skips),'sourceSha256':hashlib.sha256((r/'data/osm-raw.json').read_bytes()).hexdigest(),'heightsAreSurveyed':False,'heightRule':'OSM height; else building:levels*3.2m; else footprint-area classes + deterministic <=1.3m variation. Parent footprints with mapped parts are rendered as <=9m podiums. Batch 22 corrections require an HCMGIS point inside the footprint, compatible area, and an independent Google Temporal 2023 height within the declared tolerance; they remain non-surveyed.','geometry':'OSM ways clipped with Shapely; water multipolygon relations assembled; local equirectangular metre projection; not a survey CRS'},ensure_ascii=False,indent=2))
 print(json.dumps(data['meta'],ensure_ascii=False,indent=2));print('water rings',len(data['water']),'greens',len(data['green']),'bytes',(r/'data/scene.json').stat().st_size)

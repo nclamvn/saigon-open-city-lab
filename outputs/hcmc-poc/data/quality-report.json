@@ -15,10 +15,11 @@
     "areaKm2": 38.57,
     "sourceDate": "2026-05-31T22:37:44Z",
     "quality": {
-      "estimated": 70017,
+      "estimated": 69937,
       "podium": 63,
       "levels": 448,
-      "height": 191
+      "height": 191,
+      "crosschecked": 87
     },
     "overture": {
       "release": "2026-08-19.0",
@@ -30,7 +31,18 @@
       "floorPresentInDownload": 661,
       "rule": "Reject candidate when >10% area overlaps OSM geometry. No claim of verified identity matching."
     },
-    "renderedBuildings": 70719,
+    "buildingGap22": {
+      "version": "22a",
+      "osmChangesReviewed": 353,
+      "alreadyCovered": 219,
+      "geometryReviewQueue": 127,
+      "heightCorrectionsApplied": 87,
+      "heightCorrectionsSkipped": 0,
+      "footprintsAdded": 7,
+      "footprintsSkipped": 0,
+      "status": "reviewed public-data delta; not an as-built survey"
+    },
+    "renderedBuildings": 70726,
     "roads": 12043,
     "rawFeatures": 23309,
     "rawBuildingFeatures": 10411,
@@ -45,6 +57,6 @@
   },
   "sourceSha256": "3124e5bafe27958e47aa763b88b02fd60b893b56ec0a2329dda439d6d6aaf087",
   "heightsAreSurveyed": false,
-  "heightRule": "OSM height; else building:levels*3.2m; else footprint-area classes + deterministic <=1.3m variation. Parent footprints with mapped parts are rendered as <=9m podiums. Height raw fields retained.",
+  "heightRule": "OSM height; else building:levels*3.2m; else footprint-area classes + deterministic <=1.3m variation. Parent footprints with mapped parts are rendered as <=9m podiums. Batch 22 corrections require an HCMGIS point inside the footprint, compatible area, and an independent Google Temporal 2023 height within the declared tolerance; they remain non-surveyed.",
   "geometry": "OSM ways clipped with Shapely; water multipolygon relations assembled; local equirectangular metre projection; not a survey CRS"
 }

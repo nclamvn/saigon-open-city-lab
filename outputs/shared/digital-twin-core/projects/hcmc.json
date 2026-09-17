@@ -43,10 +43,10 @@
   },
   "id": "hcmc",
   "input": {
-    "bytes": 30200554,
+    "bytes": 30245943,
     "path": "hcmc-poc/data/scene.json",
     "role": "native_scene",
-    "sha256": "92c7b70bebbe7c0c35cc9c4cb972a60ee72777558619d675e456ea247f1bb804",
+    "sha256": "50b89a3b8035ddc23c81ce20590f1274737d7443657fc791f3a6c069cf96dfa2",
     "url": "/hcmc-poc/data/scene.json"
   },
   "name": "City Lab · Thành phố Hồ Chí Minh",
@@ -72,10 +72,10 @@
           "url": "/hcmc-poc/data/osm-raw.json"
         },
         {
-          "bytes": 1587,
+          "bytes": 2125,
           "path": "hcmc-poc/data/quality-report.json",
           "role": "data",
-          "sha256": "1c86d906437055c57759bf06149315225cda18264deacef118f3af5374a038af",
+          "sha256": "862967e8884aec4146fdcabd3686b13aca5b130c4f4e42ec45e3079476b150e9",
           "url": "/hcmc-poc/data/quality-report.json"
         }
       ],
@@ -204,10 +204,10 @@
           "url": "/hcmc-poc/data/overture-region.geojson.state"
         },
         {
-          "bytes": 1587,
+          "bytes": 2125,
           "path": "hcmc-poc/data/quality-report.json",
           "role": "data",
-          "sha256": "1c86d906437055c57759bf06149315225cda18264deacef118f3af5374a038af",
+          "sha256": "862967e8884aec4146fdcabd3686b13aca5b130c4f4e42ec45e3079476b150e9",
           "url": "/hcmc-poc/data/quality-report.json"
         }
       ],
@@ -279,10 +279,10 @@
       },
       "assets": [
         {
-          "bytes": 30200554,
+          "bytes": 30245943,
           "path": "hcmc-poc/data/scene.json",
           "role": "data",
-          "sha256": "92c7b70bebbe7c0c35cc9c4cb972a60ee72777558619d675e456ea247f1bb804",
+          "sha256": "50b89a3b8035ddc23c81ce20590f1274737d7443657fc791f3a6c069cf96dfa2",
           "url": "/hcmc-poc/data/scene.json"
         }
       ],
@@ -980,9 +980,66 @@
       },
       "valueUnits": null,
       "verticalDatum": null
+    },
+    {
+      "acquisition": {
+        "retrievedAt": "2026-09-17",
+        "status": "acquired"
+      },
+      "assets": [
+        {
+          "bytes": 70669,
+          "path": "hcmc-poc/data/building-gap-22.json",
+          "role": "screening_manifest",
+          "sha256": "e52f8e9aab716db88f4b427281928448f5c9a7a5d3d5456ef46bd0fcf9e29eca",
+          "url": "/hcmc-poc/data/building-gap-22.json"
+        }
+      ],
+      "captureDate": null,
+      "coordinateUnits": "degree",
+      "coverage": [
+        106.684,
+        10.75,
+        106.739,
+        10.808
+      ],
+      "horizontalCRS": "EPSG:4326",
+      "id": "hcmgis-building-gap-screening",
+      "limitations": [
+        "Contains planned and erroneous records; no record is accepted alone.",
+        "87 height corrections require footprint containment, area agreement and Google Temporal 2023 height agreement.",
+        "Not evidence of as-built status or survey accuracy."
+      ],
+      "quality": {
+        "horizontalAccuracyM": null,
+        "independentCheckpointsVerified": false,
+        "surveyed": false,
+        "verticalAccuracyM": null
+      },
+      "release": null,
+      "representation": "reference",
+      "rights": {
+        "attributionRequired": true,
+        "commercialAllowed": false,
+        "ingestionAllowed": false,
+        "license": null,
+        "notes": "Publicly readable official layer; reuse terms were not found. Batch 22 is internal screening pending written reuse permission."
+      },
+      "role": "height_crosscheck",
+      "title": "HCMGIS public high-rise layer cross-check (Batch 22)",
+      "units": "m",
+      "url": "https://maps.hcmgis.vn/layertree",
+      "validation": {
+        "spatialRegistrationVerified": false,
+        "stage": "crosschecked"
+      },
+      "valueUnits": {
+        "height": "m"
+      },
+      "verticalDatum": null
     }
   ],
   "surveyDataAvailable": false,
   "techniquesCatalog": "/shared/digital-twin-core/projects/techniques.json",
-  "version": "17a"
+  "version": "22a"
 }

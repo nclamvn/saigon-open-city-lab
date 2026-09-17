@@ -94,7 +94,8 @@ for tile, child in zip(cat['tiles'], tileset['root']['children']):
     # Box convention: standard ENU center vs local East-Up-South.
     center = tile['centerLocal']; b = child['boundingVolume']['box']
     assert max(abs(a-b) for a,b in zip(b[:3], [center[0],-center[2],center[1]])) < 1e-8
-assert len(seen) == cat['featureCount'] == 70709
+expected = sum(not str(b.get('type', '')).startswith('illustrative') for b in scene['buildings'])
+assert len(seen) == cat['featureCount'] == expected
 assert len(cat['tiles']) == len(tileset['root']['children']) == cat['tileCount']
 print(json.dumps({'status':'PASS','glbs':glbs,'tiles':cat['tileCount'],'stableRepresentations':len(seen),
  'vertices':vertices,'triangles':triangles,'maxRoofAreaDifferenceM2':max_roof_error,

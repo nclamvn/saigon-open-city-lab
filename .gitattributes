@@ -1,0 +1,2 @@
+# Preserve downloaded source snapshots byte-for-byte; whitespace is source evidence.
+research/vibecode-22-building-gap/snapshots/*.html -whitespace

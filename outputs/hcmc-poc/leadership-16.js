@@ -90,6 +90,7 @@
   }
   function explore(){
     if(panelPlugins.has('surface18'))action('Ảnh & địa hình',()=>openPanel('surface18')).id='surface18Explore';
+    if(panelPlugins.has('changes23'))action('Biến động xây dựng',()=>openPanel('changes23')).id='changes23Explore';
     paragraph('Chọn một điểm đến, rồi kéo để xoay và cuộn để tiến gần. Mũi tên / WASD để di chuyển.','l16-lead');
     if(q('.views [data-view="district20"]'))action('Mở cụm Nhà hát · Lam Sơn',()=>navigate('district20')).id='hero20bExplore';
     if(q('.views [data-view="hero20"]'))action('Cận cảnh · Nhà hát',()=>navigate('hero20')).id='hero20Explore';
@@ -242,7 +243,7 @@
   });
   function updateStatus(){
     if(q('#loading')?.classList.contains('gone'))attrIfChanged(q('#loading'),'aria-hidden','true');
-    const labels={surface18:'Ảnh & địa hình · gần đúng',overview:'Toàn khu vực',river:'Bến Bạch Đằng',boulevard:'Nguyễn Huệ',landmark:'Landmark 81',facades:entry()?.name||'Mặt đứng công trình',cinematicnight:'Cảnh đêm · ánh sáng minh họa'};
+    const labels={changes23:'Biến động xây dựng · snapshot',surface18:'Ảnh & địa hình · gần đúng',overview:'Toàn khu vực',river:'Bến Bạch Đằng',boulevard:'Nguyễn Huệ',landmark:'Landmark 81',facades:entry()?.name||'Mặt đứng công trình',cinematicnight:'Cảnh đêm · ánh sáng minh họa'};
     textIfChanged(q('#l16Place'),labels[window.currentView]||'Khám phá thành phố');
     const status={version:'16b',fullscreen:{supported:document.fullscreenEnabled===true,active:!!document.fullscreenElement,outcome:state.fullscreenOutcome},mode:state.mode,panel:state.panel,view:window.currentView,daylight:typeof lightValue==='number'?lightValue:null,tourIndex:state.tourIndex,planningGeometryEnabled:false,sourceCount:window.PLANNING_16?.sources?.length||0,facade:entry()?.key||null,comparisonEligible:!!compatible(),photoEnabled:q('#facade15AB')?.getAttribute('aria-pressed')==='true',cameraSettled:q('#facade15Hud')?.dataset.cameraSettled==='true',camera:{position:camera.position.toArray().map(v=>+v.toFixed(4)),target:target.toArray().map(v=>+v.toFixed(4))}};
     attrIfChanged(q('#leadership16Status'),'data-json',JSON.stringify(status));

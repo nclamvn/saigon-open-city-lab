@@ -1,0 +1,13 @@
+{
+  "url": "https://lz4.overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:60];way(newer:\"2026-05-31T22:37:44Z\")[\"building\"](10.750,106.684,10.808,106.739);out meta geom qt;",
+  "retrieved_at": "20260917T115353Z",
+  "bytes": 352805,
+  "sha256": "5c411e0a63f4f7e64e235c3c761ba05142bc60ad9e3461b5da631628e499ddbf",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-17T11:52:46Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "element_count": 354,
+  "file": "research/vibecode-22-building-gap/snapshots/osm-building-changes-meta-since-20260531-20260917T115353Z.json"
+}

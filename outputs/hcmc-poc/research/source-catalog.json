@@ -38,8 +38,8 @@
     "name": "Google Open Buildings 2.5D",
     "url": "https://sites.research.google/gr/open-buildings/temporal/",
     "license": "CC BY 4.0 hoặc ODbL",
-    "use": "Có Việt Nam. Dữ liệu chiều cao dự đoán 2016–2023; trần 100 m, độ phân giải hiệu dụng khoảng 4 m. Có lối tải GCS; chưa tải raster cho PoC.",
-    "status": "Ưu tiên kế tiếp"
+    "use": "Đã tải raster chiều cao 2023 cho toàn bbox. Batch 22 chỉ dùng khi điểm HCMGIS nằm trong footprint, diện tích tương thích và chiều cao hai nguồn đồng thuận trong ngưỡng công bố.",
+    "status": "Đã tích hợp đối chiếu"
   },
   {
     "name": "Copernicus Data Space",
@@ -145,5 +145,12 @@
     "license": "Cho dự án/đào tạo; kiểm tra phân phối lại",
     "use": "Phát hiện trang mô hình mô phỏng gió Bitexco tải được theo nhà cung cấp. Chưa tải model hoặc xác nhận quyền nhúng/phân phối lại.",
     "status": "Đầu mối asset chi tiết"
+  },
+  {
+    "name": "HCMGIS · Nhà cao tầng",
+    "url": "https://maps.hcmgis.vn/",
+    "license": "Chưa thấy điều khoản tái sử dụng trong metadata lớp",
+    "use": "WFS công khai trả 871/3.805 bản ghi trong bbox, có tên dự án, chiều cao và địa chỉ. Chỉ dùng đối chiếu nội bộ; loại số phi lý, dự án chưa được nguồn thời gian xác nhận và điểm lệch footprint.",
+    "status": "87 khối đối chiếu kép"
   }
 ]

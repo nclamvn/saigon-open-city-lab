@@ -46,7 +46,7 @@ test('actual HCMC 30MB file passes expected SHA256 and mapped-road query through
  const c=JSON.parse(fs.readFileSync(path.join(root,'projects/hcmc.json'))),source=fs.readFileSync(path.resolve(root,'../..',c.input.path));
  const input={type:'rtr-raw-json/1.0',bytes:source.buffer.slice(source.byteOffset,source.byteOffset+source.byteLength)},w=loadWorker();
  await w.send({type:'init',token:1,sceneData:input,config:c});const ready=w.messages.at(-1);
- assert.equal(ready.type,'ready');assert.equal(ready.inputIntegrity.verified,true);assert.equal(ready.inputIntegrity.sha256,c.input.sha256);assert.equal(ready.inputIntegrity.bytes,c.input.bytes);assert.equal(ready.info.eligibleRepresentations,70709);
+ assert.equal(ready.type,'ready');assert.equal(ready.inputIntegrity.verified,true);assert.equal(ready.inputIntegrity.sha256,c.input.sha256);assert.equal(ready.inputIntegrity.bytes,c.input.bytes);assert.equal(ready.info.eligibleRepresentations,70716);
  const original=JSON.parse(source.toString('utf8')),road=original.roads.find(r=>String(r.id)==='341504312');
  const geometry={type:'LineString',coordinates:road.c.map(p=>w.context.RTRTwin.SourceCore.inverseLocal(p,c.frame))};
  await w.send({type:'query',token:2,request:{mode:'corridor',geometry,distances:[25,50,100]}});

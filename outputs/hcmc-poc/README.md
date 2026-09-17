@@ -1,4 +1,18 @@
-# Sài Gòn City Lab — Hero Cluster 20B
+# Sài Gòn City Lab - PoC 23 Construction Change Lens
+
+## Bản hiện hành 23A - biến động xây dựng có kiểm soát
+
+Mở [Construction Change Lens](http://127.0.0.1:8768/hcmc-poc/?v=23a&view=changes23). Chế độ này trình bày 7 footprint mới đã áp dụng, 87 chiều cao đã đối chiếu và 127 hình học đang chờ con người kiểm chứng. Nút **Trước snapshot / Sau đối chiếu** thay đổi hình học thật trong bộ nhớ; ba lớp màu, bộ lọc ưu tiên/thời gian và hành trình bốn điểm giúp trình bày nhanh cho lãnh đạo.
+
+127 hình học màu đỏ chỉ là tín hiệu rà soát và không được nhập vào scene chính. Bộ dữ liệu máy đọc được, bảng CSV 127 đối tượng, phương pháp tái lập, cơ chế kiểm tra bản Overture và dự thảo công văn xin xác nhận GITC nằm trong [hồ sơ PoC 23](../../research/vibecode-23-change-lens/README.md).
+
+```sh
+python3 scripts/build_change_lens_23.py
+python3 scripts/check_overture_release_23.py
+node scripts/qa-construction-change-23.cjs
+```
+
+## Lịch sử - Hero Cluster 20B
 
 ## Bản hiện hành 20B — Nhà hát, Continental, Caravelle, Lam Sơn và Đồng Khởi
 
@@ -92,6 +106,13 @@ python -m overturemaps download --bbox=106.684,10.750,106.739,10.808 -f geojson 
 ```
 
 Client chọn release theo catalog khi tải mới; file `.state` ghi release thực tế. Đợt bàn giao sử dụng 2026-08-19.0. Không coi “latest” là cố định.
+
+Batch 22 bổ sung lớp delta công trình mà không thay nguồn nền. `scripts/build_building_gap_22.py` tạo hồ sơ đã lọc từ snapshot OSM trực tiếp, lớp Nhà cao tầng HCMGIS và chiều cao Google Temporal 2023. `scripts/prepare_scene.py` chỉ thêm footprint có độ phủ hiện hành không quá 10%; hiệu chỉnh chiều cao chỉ khi điểm HCMGIS nằm trong footprint, diện tích tương thích và nguồn Google độc lập đồng thuận trong ngưỡng đã khai báo. Bản ghi HCMGIS không có điều khoản tái sử dụng rõ trong metadata chỉ được dùng để đối chiếu nội bộ.
+
+```sh
+python scripts/build_building_gap_22.py
+python scripts/prepare_scene.py
+```
 
 ## Nguồn và quyền
 

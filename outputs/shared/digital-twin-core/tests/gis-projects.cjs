@@ -3,10 +3,10 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const Source=require('../source-core.js'),Gis=require('../gis.js');
 const outputs=path.resolve(__dirname,'../../..');
 function load(id){const config=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../projects/'+id+'.json')));const data=JSON.parse(fs.readFileSync(path.join(outputs,config.input.path)));const normalized=Source.normalizeScene(data,config);return {config,normalized,engine:Gis.createEngine(normalized)};}
-test('HCMC actual sample normalizes 70719 representations and excludes 10 illustrations',()=>{
+test('HCMC actual sample normalizes 70726 representations and excludes 10 illustrations',()=>{
  const {normalized,engine}=load('hcmc');
- assert.equal(normalized.features.length,70719);assert.equal(normalized.normalization.excludedCount,0);
- assert.equal(engine.info().eligibleRepresentations,70709);assert.equal(engine.info().excludedRepresentations,10);assert.equal(engine.info().invalidRepresentations,0);
+ assert.equal(normalized.features.length,70726);assert.equal(normalized.normalization.excludedCount,0);
+ assert.equal(engine.info().eligibleRepresentations,70716);assert.equal(engine.info().excludedRepresentations,10);assert.equal(engine.info().invalidRepresentations,0);
  const r=engine.query({mode:'corridor',geometry:{type:'LineString',coordinates:[[106.70057,10.77681],[106.70605,10.77247]]},distances:[25,50,100]});
  assert.deepEqual(r.scenarios.map(s=>s.summary.identityCount),[47,114,218]);
  assert.deepEqual(r.scenarios.map(s=>s.coverage.status),['within','within','within']);
