@@ -1,4 +1,28 @@
-# Sài Gòn City Lab — Digital Twin Core 18
+# Sài Gòn City Lab — Hero Cluster 20B
+
+## Bản hiện hành 20B — Nhà hát, Continental, Caravelle, Lam Sơn và Đồng Khởi
+
+Mở [cụm Nhà hát–Lam Sơn](http://127.0.0.1:8768/hcmc-poc/?v=20b&view=district20) hoặc [trình diễn lãnh đạo 62 giây](http://127.0.0.1:8768/hcmc-poc/?v=20b&view=executive19). Năm điểm nhìn nối cảnh Nhà hát 20A với Hotel Continental, Caravelle Saigon, công trường Lam Sơn và trục Đồng Khởi. Continental và cánh thấp Caravelle dùng ảnh đúng địa điểm đã hiệu chỉnh phối cảnh; đường, xe, đèn và cây bám các đoạn đường OSM lưu trữ nhưng kích thước đồ đường phố vẫn là minh họa.
+
+Caravelle tách rõ hai mức bằng chứng: cánh thấp bám bao hình 30 m đã lưu, tháp dùng thông tin **24 tầng** từ lịch sử chính thức và quy tắc hiển thị 3,2 m/tầng; chiều cao và vị trí tháp chưa khảo sát. Góc Continental và Đồng Khởi dùng camera theo hành lang phố để không xuyên khối công trình. Mọi cảnh 20B đều giữ `planningGeometryEnabled: false`.
+
+Xem [hướng dẫn demo 20B](../DEMO-20B-HUONG-DAN.md), [TIP](../../research/vibecode-20b/TIP.md) và [báo cáo nghiệm thu](../../research/vibecode-20b/COMPLETION-REPORT.md).
+
+## Lịch sử — Architectural Hero Zone 20A
+
+## Bản hiện hành 20A — cảnh chủ đạo Nhà hát Thành phố
+
+Mở [Hero Zone Nhà hát](http://127.0.0.1:8768/hcmc-poc/?v=20a&view=hero20) hoặc [trailer lãnh đạo 53 giây](http://127.0.0.1:8768/hcmc-poc/?v=20a&view=executive19). Cảnh cận thay tấm ảnh phủ toàn khối bằng vỏ kiến trúc nổi: mái, mansard, vòm, cột, cửa, phào, lan can, ô cửa và bậc. Ảnh đúng địa điểm được giới hạn trong vùng nhận dạng ở vòm giữa; bản gốc Commons 3.920×2.208 px được hiệu chỉnh thành texture 1.600×1.600 px mà không sinh thêm chi tiết. Public realm có người, cây, đèn và vật thể tỷ lệ với LOD cự ly gần.
+
+Ba trạng thái **Ngày / Giờ vàng / Chạng vạng** giữ chung camera. Footprint và trục mặt đứng bám dữ liệu mở; hình học kiến trúc là `photo_derived_approximation`; sân và hoạt động là `illustrative_proxy`. Không có hình học quy hoạch tương lai. Xem [hướng dẫn demo](../DEMO-20A-HUONG-DAN.md) và [báo cáo nghiệm thu](../../research/vibecode-20a/COMPLETION-REPORT.md).
+
+# Lịch sử — Executive Visual Story 19
+
+## Bản hiện hành 19 — trình diễn trực quan cho lãnh đạo
+
+Mở [trailer 53 giây](http://127.0.0.1:8768/hcmc-poc/?v=19a&view=executive19) hoặc [toàn cảnh ban ngày](http://127.0.0.1:8768/hcmc-poc/?v=19a&view=overview) rồi bấm **Trình diễn thành phố**. Năm cảnh đi từ bối cảnh vùng đến Bạch Đằng, Nguyễn Huệ, ảnh Nhà hát Thành phố và kết bằng blue-hour minh họa. Có thể tiến/lùi, tạm dừng, chọn cảnh trực tiếp hoặc thoát về khám phá tự do.
+
+Ảnh Nhà hát đi cùng tác giả và giấy phép; hình học vẫn được ghi là gần đúng. Cảnh đêm chỉ là lớp trình diễn, không mô tả chiếu sáng tại một thời điểm thực. Batch 19 không mở hình học quy hoạch tương lai. Xem [hướng dẫn trình diễn](../DEMO-19-HUONG-DAN.md) và [Verify 19](../../research/vibecode-19/COMPLETION-REPORT.md).
 
 ## Bản hiện hành 18 — ảnh, địa hình và LOD theo vùng
 

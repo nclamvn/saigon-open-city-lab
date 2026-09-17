@@ -91,6 +91,8 @@
   function explore(){
     if(panelPlugins.has('surface18'))action('Ảnh & địa hình',()=>openPanel('surface18')).id='surface18Explore';
     paragraph('Chọn một điểm đến, rồi kéo để xoay và cuộn để tiến gần. Mũi tên / WASD để di chuyển.','l16-lead');
+    if(q('.views [data-view="district20"]'))action('Mở cụm Nhà hát · Lam Sơn',()=>navigate('district20')).id='hero20bExplore';
+    if(q('.views [data-view="hero20"]'))action('Cận cảnh · Nhà hát',()=>navigate('hero20')).id='hero20Explore';
     const grid=node('div',null,'l16-grid');content.append(grid);
     [['overview','Toàn khu vực'],['river','Bến Bạch Đằng'],['boulevard','Nguyễn Huệ'],['landmark','Landmark 81']].forEach(([id,name])=>action(name,()=>navigate(id),grid));
     content.append(node('h3','20 công trình · ảnh đối chiếu'));

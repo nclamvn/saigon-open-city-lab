@@ -1,0 +1,39 @@
+{
+  "version": "20a-hd1",
+  "asset": "Nhà hát Thành phố · central sourced identity patch",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_City_Opera_House.jpg",
+  "download_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ho%20Chi%20Minh%20City%20Opera%20House.jpg",
+  "author": "HĐ",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "photo_date": "2016-11-19",
+  "source_dimensions": [
+    3920,
+    2208
+  ],
+  "derived_dimensions": [
+    1600,
+    1600
+  ],
+  "source_sha256": "eb804540480bda3a107f92f89ae74b625404700b273a84eea29a6375d70c4210",
+  "derived_sha256": "f9cc8653b5616e3c862b253a09847d79149760c685460649adbfead7304c42cb",
+  "quad_normalized": [
+    [
+      0.158,
+      0.313
+    ],
+    [
+      0.415,
+      0.383
+    ],
+    [
+      0.423,
+      0.7
+    ],
+    [
+      0.12,
+      0.696
+    ]
+  ],
+  "transform": "Four-corner perspective rectification from original Commons pixels; no inpainting or generated fill."
+}

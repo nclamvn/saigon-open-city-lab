@@ -1,0 +1,124 @@
+{
+  "version": "20b-1",
+  "classification": "sourced_photos_and_open_map_anchors_with_explicit_approximations",
+  "assets": [
+    {
+      "key": "continental",
+      "building_id": 2000032897,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hotel_Continental_Saigon_(53668610570).jpg",
+      "author": "Hans Brian Brandsberg Berg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "photo_date": "2018-12-30 15:38:18",
+      "source_dimensions": [
+        5472,
+        3648
+      ],
+      "texture_dimensions": [
+        2048,
+        2048
+      ],
+      "reference_dimensions": [
+        1280,
+        853
+      ],
+      "source_sha256": "f456bd3b8d3e845fe8b2fb9c1f1c2c307b9a6f8733103302f389e91443f6ca53",
+      "texture_sha256": "cb7160b26c96ace5c7cc88f38fad9f42aa64b3d21531acde185c54d8ffd2bd04",
+      "quad_normalized": [
+        [
+          0.431,
+          0.1
+        ],
+        [
+          0.963,
+          0.001
+        ],
+        [
+          0.968,
+          0.605
+        ],
+        [
+          0.432,
+          0.703
+        ]
+      ],
+      "transform": "Four-corner perspective rectification from original Commons pixels; 3% contrast compensation; no inpainting or generated fill."
+    },
+    {
+      "key": "caravelle",
+      "building_id": 39598465,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Caravelle_Hotel_Saigon_2013-02.jpg",
+      "author": "BaonguyenCaravelas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "photo_date": "2014-02-18",
+      "source_dimensions": [
+        3385,
+        5000
+      ],
+      "texture_dimensions": [
+        1600,
+        1600
+      ],
+      "reference_dimensions": [
+        1083,
+        1600
+      ],
+      "source_sha256": "86c19540b5a30e5315b1232f4f12f3e4c33416b49ea43eabaf1a29c12527ff79",
+      "texture_sha256": "c1e94a1729d956e9c8fec62d71e4fec1944f60ede3f35e5b0ead7d10c8c26fde",
+      "quad_normalized": [
+        [
+          0.637,
+          0.482
+        ],
+        [
+          0.934,
+          0.463
+        ],
+        [
+          0.946,
+          0.703
+        ],
+        [
+          0.648,
+          0.735
+        ]
+      ],
+      "transform": "Four-corner perspective rectification from original Commons pixels; 3% contrast compensation; no inpainting or generated fill."
+    },
+    {
+      "key": "lamson-dongkhoi",
+      "road_source_ids": [
+        35112941,
+        35114970,
+        287132223,
+        1278461438,
+        1278461439,
+        1343964589
+      ],
+      "source_url": "https://commons.wikimedia.org/wiki/File:Streetview_of_Dong_Khoi_Street_and_Lam_Son_Square_in_Ho_Chi_Minh_City.jpg",
+      "author": "HĐ",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "photo_date": "2016-11-19 12:37:21",
+      "source_dimensions": [
+        3920,
+        2208
+      ],
+      "reference_dimensions": [
+        1280,
+        721
+      ],
+      "source_sha256": "910b68e2759828c99770c9fbff82adc8eb8a30e5fdacab0a0805029c7cca3609",
+      "reference_sha256": "b8fa8a972d224aa06eac2f33d4705d6ba1fcb9cd8427c56d746fbd2cd44cd100",
+      "transform": "Downsampled reference only; no pixel generation. Street geometry uses archived OSM linework."
+    }
+  ],
+  "geometry_policy": {
+    "continental": "Mapped facade and 24 m manifest envelope; facade relief is photo-derived approximation.",
+    "caravelle_low_wing": "Mapped facade and 30 m source height.",
+    "caravelle_tower": "24 storeys from Caravelle official history; visual dimensions and placement are approximate, not surveyed.",
+    "lamson_dongkhoi": "Archived OSM road centerlines; widths, paving, furniture and planting are illustrative proxies.",
+    "planning_geometry_enabled": false
+  }
+}
