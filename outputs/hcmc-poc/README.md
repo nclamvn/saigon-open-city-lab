@@ -1,18 +1,18 @@
-# Sài Gòn City Lab — IOC Flood 25D và WebGPU Material Engine
+# Sài Gòn City Lab — IOC Flood 25E và WebGPU Material Engine
 
-## Bản hiện hành 25D — điều hành ngập 3D và vật liệu đô thị
+## Bản hiện hành 25E — điều hành ngập 3D và vật liệu đô thị
 
-Mở [WebGPU Material Engine](http://127.0.0.1:8768/hcmc-poc/webgpu-materials-24.html?v=25d&view=bason). Bản này dùng Three.js r186, `WebGPURenderer`, TSL/NodeMaterial và WebGL 2 fallback để phủ 8 họ vật liệu lên toàn bộ 70.726 công trình trong vùng 38,57 km². Bản 24E khôi phục kết cấu dây văng cầu Ba Son, Marina Central Tower 55 tầng / 240 m, sửa bốn footprint Grand Marina thành cụm tháp 45–47 tầng, hạ tương phản ô kính ban ngày và tách hiệu chỉnh khỏi dữ liệu cảnh gốc.
+Mở [WebGPU Material Engine](http://127.0.0.1:8768/hcmc-poc/webgpu-materials-24.html?v=25e&view=bason). Bản này dùng Three.js r186, `WebGPURenderer`, TSL/NodeMaterial và WebGL 2 fallback để phủ 8 họ vật liệu lên toàn bộ 70.726 công trình trong vùng 38,57 km². Bản 24E khôi phục kết cấu dây văng cầu Ba Son, Marina Central Tower 55 tầng / 240 m, sửa bốn footprint Grand Marina thành cụm tháp 45–47 tầng, hạ tương phản ô kính ban ngày và tách hiệu chỉnh khỏi dữ liệu cảnh gốc.
 
-PoC 24A là renderer độc lập để không làm mất ổn định chuỗi hiệu ứng WebGL của bản 23A. Mở từ nút **WebGPU · vật liệu thật hóa** trong demo hiện hành. Xem [hướng dẫn demo](../DEMO-24A-HUONG-DAN.md), [hồ sơ kỹ thuật](../../research/vibecode-24-webgpu-materials/README.md), [kiến trúc mưa–ngập–triều](../../research/hcmc-flood-digital-twin/ARCHITECTURE-AND-SOURCES.md) và chạy `node scripts/qa-webgpu-materials-24.cjs` cùng `node scripts/qa-project-hygiene.cjs` để kiểm tra.
+PoC 25E dùng WebGPU Material Engine làm giao diện City Lab mặc định để demo chỉ còn một hệ thống chrome thống nhất. Shell WebGL cũ vẫn có thể mở bằng `?legacy=1` cho mục đích đối chiếu kỹ thuật. Xem [hướng dẫn demo](../DEMO-24A-HUONG-DAN.md), [hồ sơ kỹ thuật](../../research/vibecode-24-webgpu-materials/README.md), [kiến trúc mưa–ngập–triều](../../research/hcmc-flood-digital-twin/ARCHITECTURE-AND-SOURCES.md) và chạy `node scripts/qa-webgpu-materials-24.cjs` cùng `node scripts/qa-project-hygiene.cjs` để kiểm tra.
 
-Batch 25A đã dựng registry mưa–ngập–triều theo Refinery: 9 nguồn gốc chính thức, 64 claim có evidence span, raw snapshot và SHA-256. Catalog kịch bản khóa mọi điều khiển vô hạn và fail-closed khi thiếu hyetograph, hydrograph triều, hệ cao độ, DTM hoặc mạng thoát nước. [IOC Flood 25D](http://127.0.0.1:8768/hcmc-poc/webgpu-materials-24.html?v=25d&view=flood25) đưa camera đến Thảo Điền, thêm mưa–gió động 0–200 mm, triều tham chiếu 1,40–1,80 m, lớp nước proxy và cảnh báo 3D. Nút **Kịch bản xấu nhất** chuyển sang toàn cảnh, bật cảnh báo đỏ và các beacon tuyến đường; mọi giá trị vẫn được gắn nhãn stress test, không phải dự báo. Chạy `node scripts/qa-flood-25a.cjs` để kiểm tra hash, provenance, giới hạn mưa–triều và fail-closed solver UI.
+Batch 25A đã dựng registry mưa–ngập–triều theo Refinery: 9 nguồn gốc chính thức, 64 claim có evidence span, raw snapshot và SHA-256. Catalog kịch bản khóa mọi điều khiển vô hạn và fail-closed khi thiếu hyetograph, hydrograph triều, hệ cao độ, DTM hoặc mạng thoát nước. [IOC Flood 25E](http://127.0.0.1:8768/hcmc-poc/webgpu-materials-24.html?v=25e&view=flood25) đưa camera đến Thảo Điền, thêm mưa–gió động 0–200 mm, triều tham chiếu 1,40–1,80 m, lớp nước proxy và cảnh báo 3D. Nút **Kịch bản xấu nhất** chuyển sang toàn cảnh, bật cảnh báo đỏ và các beacon tuyến đường; mọi giá trị vẫn được gắn nhãn stress test, không phải dự báo. Chạy `node scripts/qa-flood-25a.cjs` để kiểm tra hash, provenance, giới hạn mưa–triều và fail-closed solver UI.
 
 # Lịch sử - PoC 23 Construction Change Lens
 
 ## Bản hiện hành 23A - biến động xây dựng có kiểm soát
 
-Mở [Construction Change Lens](http://127.0.0.1:8768/hcmc-poc/?v=23a&view=changes23). Chế độ này trình bày 7 footprint mới đã áp dụng, 87 chiều cao đã đối chiếu và 127 hình học đang chờ con người kiểm chứng. Nút **Trước snapshot / Sau đối chiếu** thay đổi hình học thật trong bộ nhớ; ba lớp màu, bộ lọc ưu tiên/thời gian và hành trình bốn điểm giúp trình bày nhanh cho lãnh đạo.
+Mở [Construction Change Lens](http://127.0.0.1:8768/hcmc-poc/?legacy=1&v=23a&view=changes23). Chế độ này trình bày 7 footprint mới đã áp dụng, 87 chiều cao đã đối chiếu và 127 hình học đang chờ con người kiểm chứng. Nút **Trước snapshot / Sau đối chiếu** thay đổi hình học thật trong bộ nhớ; ba lớp màu, bộ lọc ưu tiên/thời gian và hành trình bốn điểm giúp trình bày nhanh cho lãnh đạo.
 
 127 hình học màu đỏ chỉ là tín hiệu rà soát và không được nhập vào scene chính. Bộ dữ liệu máy đọc được, bảng CSV 127 đối tượng, phương pháp tái lập, cơ chế kiểm tra bản Overture và dự thảo công văn xin xác nhận GITC nằm trong [hồ sơ PoC 23](../../research/vibecode-23-change-lens/README.md).
 

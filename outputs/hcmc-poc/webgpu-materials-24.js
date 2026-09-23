@@ -46,7 +46,8 @@ try{
 
 $('#scene').append(renderer.domElement);
 const actualWebGPU=!!renderer.backend?.isWebGPUBackend;
-$('#backend').textContent=actualWebGPU?'WEBGPU / TSL':'WEBGL 2 / TSL FALLBACK';
+const backendElement=$('#backend');
+if(backendElement)backendElement.textContent=actualWebGPU?'WEBGPU / TSL':'WEBGL 2 / TSL FALLBACK';
 document.body.dataset.backend=actualWebGPU?'webgpu':'webgl2';
 setProgress(10,'Đang dựng hệ vật liệu PBR…');
 

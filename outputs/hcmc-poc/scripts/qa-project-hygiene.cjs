@@ -20,28 +20,33 @@ check('Accidental tile copies are ignored',()=>{
   assert(ignore.includes('outputs/hcmc-poc/data/tiles-18/**/* 2.json'));
 });
 
-check('Renderer assets are version-aligned at 25d',()=>{
+check('Renderer assets are version-aligned at 25e',()=>{
   const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
   const entry=fs.readFileSync(path.join(demo,'webgpu-entry-24.js'),'utf8');
   const manifest=JSON.parse(fs.readFileSync(path.join(demo,'data/webgpu-materials-24.json'),'utf8'));
   const evidence=JSON.parse(fs.readFileSync(path.join(demo,'data/ba-son-marina-24.json'),'utf8'));
   assert(!html.includes('?v=24d'));
-  assert(html.includes('webgpu-materials-24.js?v=25d'));
-  assert(entry.includes("version:'25d'"));
-  assert.equal(manifest.version,'25d');
+  assert(html.includes('webgpu-materials-24.js?v=25e'));
+  assert(entry.includes("version:'25e'"));
+  assert.equal(manifest.version,'25e');
   assert.equal(evidence.version,'24e');
 });
 
-check('Compact map-first shell keeps every information panel collapsible',()=>{
+check('Unified map-first shell keeps one canonical UI and aligned collapsible panels',()=>{
+  const index=fs.readFileSync(path.join(demo,'index.html'),'utf8');
   const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
   const css=fs.readFileSync(path.join(demo,'webgpu-materials-24.css'),'utf8');
   const renderer=fs.readFileSync(path.join(demo,'webgpu-materials-24.js'),'utf8');
   const flood=fs.readFileSync(path.join(demo,'flood-ui-25.js'),'utf8');
   for(const id of ['collapseStory','collapse','collapseSelection','collapseFloodLab'])assert(html.includes(`id="${id}"`));
   assert(html.includes('aria-controls="floodContent"'));
-  assert(css.includes('Compact edge shell · 25D'));
+  assert(index.includes("location.replace(`webgpu-materials-24.html?v=25e"));
+  assert(index.includes("q.get('legacy')==='1'"));
+  assert(css.includes('Unified map shell · 25E'));
   assert(css.includes('--rail:44px'));
   assert(css.includes('.collapsed>.panel-body'));
+  assert(css.includes('body.flood-open .story,body.flood-open .controls'));
+  assert(!html.includes('THREE.JS r186'));
   assert(renderer.includes("citylab.panel.story.collapsed"));
   assert(renderer.includes("citylab.panel.controls.collapsed"));
   assert(flood.includes("citylab.panel.flood.collapsed"));
