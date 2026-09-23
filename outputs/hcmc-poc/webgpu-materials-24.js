@@ -522,7 +522,26 @@ const compareDown=event=>{event.preventDefault();compareRestore=Number(realismIn
 const compareUp=()=>{if(!compare.classList.contains('active'))return;compare.classList.remove('active');setRealism(compareRestore);};
 compare.addEventListener('pointerdown',compareDown);window.addEventListener('pointerup',compareUp);window.addEventListener('pointercancel',compareUp);
 
-$('#collapse').onclick=()=>{$('#controls').classList.toggle('collapsed');$('#collapse').textContent=$('#controls').classList.contains('collapsed')?'+':'−';};
+function savedPanelState(key,fallback){
+  try{const value=localStorage.getItem(key);return value===null?fallback:value==='true';}catch{return fallback;}
+}
+function bindCollapsible(panel,button,key,defaultCollapsed){
+  const icon=button.querySelector('span'),label=button.querySelector('b');
+  const apply=collapsed=>{
+    panel.classList.toggle('collapsed',collapsed);
+    button.setAttribute('aria-expanded',String(!collapsed));
+    button.setAttribute('aria-label',collapsed?'Mở rộng bảng thông tin':'Thu gọn bảng thông tin');
+    if(icon)icon.textContent=collapsed?'⌄':'⌃';
+    if(label)label.textContent=collapsed?'Mở':'Gọn';
+    try{localStorage.setItem(key,String(collapsed));}catch{}
+  };
+  apply(savedPanelState(key,defaultCollapsed));
+  button.addEventListener('click',()=>apply(!panel.classList.contains('collapsed')));
+  return apply;
+}
+bindCollapsible($('#story'),$('#collapseStory'),'citylab.panel.story.collapsed',true);
+bindCollapsible($('#controls'),$('#collapse'),'citylab.panel.controls.collapsed',true);
+bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.panel.selection.collapsed',false);
 const toggleUi=()=>document.body.classList.toggle('ui-hidden');$('#toggleUi').onclick=toggleUi;
 
 const canvas=renderer.domElement;canvas.tabIndex=0;canvas.style.touchAction='none';

@@ -60,7 +60,7 @@ check('Curated corrections do not mutate the source city dataset',()=>{
   assert(js.includes('const renderBuildings=D.buildings.map'));
   assert(js.includes('const building=renderBuildings[low]'));
   assert(!js.includes('Object.assign(b,grandMarinaCorrection'));
-  assert(corrections.includes("version:'25c'"));
+  assert(corrections.includes("version:'25d'"));
   assert.equal(evidence.version,'24e');
 });
 check('Daytime glazing avoids black perforation while night retains depth',()=>{
@@ -74,7 +74,7 @@ check('Public entry from the stable demo exists',()=>{
   assert(read('index.html').includes('webgpu-entry-24.js'));
 });
 check('Manifest declares the rendered scope and limitations',()=>{
-  assert.equal(manifest.version,'25c');
+  assert.equal(manifest.version,'25d');
   assert.equal(manifest.scope.renderedBuildings,70726);
   assert.equal(manifest.scope.materialFamilies,8);
   assert(manifest.limits.length>=4);
@@ -86,7 +86,7 @@ check('Flood 25B focuses Thao Dien and renders bounded road-water proxies',()=>{
   assert(js.includes("{name:'Nguyễn Văn Hưởng',maxDepthM:.25"));
   assert(js.includes("Math.min(200,Number(amountMm)"));
 });
-check('IOC 25C exposes compound rain-tide stress state and map beacons',()=>{
+check('IOC 25D exposes compound rain-tide stress state, map beacons and compact shell',()=>{
   assert(js.includes("alertRoadNames=['Quốc Hương','Thảo Điền','Nguyễn Văn Hưởng'"));
   assert(js.includes('function setFloodScenario(amountMm,tideM=floodTideM)'));
   assert(js.includes("alertLevel=severity>=.78?'red'"));

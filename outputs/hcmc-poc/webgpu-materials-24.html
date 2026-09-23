@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <title>City Lab · WebGPU Material Engine</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="webgpu-materials-24.css?v=25c">
+  <link rel="stylesheet" href="webgpu-materials-24.css?v=25d">
   <script type="importmap">
     {
       "imports": {
@@ -25,30 +25,35 @@
     <canvas id="rainFx" aria-hidden="true"></canvas>
     <div id="labels" aria-hidden="true"></div>
 
-    <header class="topbar glass">
-      <a class="brand" href="./?v=24a&view=overview" aria-label="Về City Lab"><b>CITY LAB</b></a>
+    <header class="topbar glass" aria-label="Thanh trạng thái City Lab">
+      <a class="brand" href="./?v=25d&view=overview" aria-label="Về City Lab"><b>CITY LAB</b></a>
       <div class="engine"><span class="pulse"></span><span>THREE.JS r186</span><i></i><span id="backend">ĐANG KHỞI TẠO</span></div>
       <button id="toggleUi" class="icon-button" title="Ẩn giao diện (H)" aria-label="Ẩn giao diện">⌁</button>
     </header>
 
-    <section class="story glass" id="story">
-      <p class="kicker">MATERIAL ENGINE / 24E</p>
-      <h1>Thành phố<br><em>có chất liệu.</em></h1>
-      <p class="dek">Một lớp PBR thủ tục phủ toàn vùng hiện hành; cầu Ba Son, Marina Central và bốn tháp Grand Marina được bổ sung hình học nhận diện có neo nguồn.</p>
-      <div class="facts">
-        <div><strong id="buildingCount">—</strong><span>công trình</span></div>
-        <div><strong>8</strong><span>họ vật liệu</span></div>
-        <div><strong>3</strong><span>mức ánh sáng</span></div>
+    <section class="story glass collapsed" id="story" aria-labelledby="storyTitle">
+      <div class="panel-head story-head">
+        <div><p class="kicker">MATERIAL ENGINE / 25D</p><h2 id="storyTitle">Thành phố có chất liệu</h2></div>
+        <button id="collapseStory" class="panel-toggle" type="button" aria-expanded="false" aria-controls="storyBody"><span aria-hidden="true">⌄</span><b>Mở</b></button>
       </div>
-      <p class="evidence"><span></span>Màu có thẻ nguồn được ưu tiên; phần còn lại là suy luận PBR có đánh dấu, chưa phải ảnh mặt đứng khảo sát.</p>
+      <div class="story-body panel-body" id="storyBody">
+        <h1>Thành phố<br><em>có chất liệu.</em></h1>
+        <p class="dek">Một lớp PBR thủ tục phủ toàn vùng hiện hành; cầu Ba Son, Marina Central và bốn tháp Grand Marina được bổ sung hình học nhận diện có neo nguồn.</p>
+        <div class="facts">
+          <div><strong id="buildingCount">—</strong><span>công trình</span></div>
+          <div><strong>8</strong><span>họ vật liệu</span></div>
+          <div><strong>3</strong><span>mức ánh sáng</span></div>
+        </div>
+        <p class="evidence"><span></span>Màu có thẻ nguồn được ưu tiên; phần còn lại là suy luận PBR có đánh dấu, chưa phải ảnh mặt đứng khảo sát.</p>
+      </div>
     </section>
 
-    <aside class="controls glass" id="controls">
+    <aside class="controls glass collapsed" id="controls" aria-labelledby="controlsTitle">
       <div class="control-head">
-        <div><p>ĐIỀU KHIỂN CẢNH</p><h2>Vật liệu đô thị</h2></div>
-        <button id="collapse" class="icon-button" aria-label="Thu gọn">−</button>
+        <div><p>ĐIỀU KHIỂN CẢNH</p><h2 id="controlsTitle">Vật liệu đô thị</h2></div>
+        <button id="collapse" class="panel-toggle" type="button" aria-expanded="false" aria-controls="controlBody"><span aria-hidden="true">⌄</span><b>Mở</b></button>
       </div>
-      <div class="control-body">
+      <div class="control-body panel-body" id="controlBody">
         <label class="range-row" for="realism">
           <span><b>Độ thực hóa</b><output id="realismValue">100%</output></span>
           <input id="realism" type="range" min="0" max="100" value="100" step="1">
@@ -83,16 +88,21 @@
     </div>
 
     <div id="selection" class="selection glass" hidden>
-      <button id="closeSelection" class="icon-button" aria-label="Đóng">×</button>
-      <p>CÔNG TRÌNH</p><h2 id="selectedName"></h2><div id="selectedBody"></div>
+      <div class="selection-head">
+        <div><p>CÔNG TRÌNH</p><h2 id="selectedName"></h2></div>
+        <div class="panel-actions"><button id="collapseSelection" class="panel-toggle icon-only" type="button" aria-expanded="true" aria-controls="selectedBody" aria-label="Thu gọn thông tin công trình"><span aria-hidden="true">⌃</span></button><button id="closeSelection" class="icon-button" aria-label="Đóng">×</button></div>
+      </div>
+      <div id="selectedBody" class="panel-body"></div>
     </div>
 
     <aside id="floodLab" class="flood-lab glass" hidden aria-labelledby="floodTitle">
       <div class="flood-head">
-        <div><p>IOC FLOOD / 25C</p><h2 id="floodTitle">Điều hành ngập 3D</h2></div>
-        <button id="closeFloodLab" class="icon-button" aria-label="Đóng Flood Lab">×</button>
+        <div><p>IOC FLOOD / 25D</p><h2 id="floodTitle">Điều hành ngập 3D</h2></div>
+        <div class="panel-actions"><button id="collapseFloodLab" class="panel-toggle icon-only" type="button" aria-expanded="true" aria-controls="floodContent" aria-label="Thu gọn Flood Lab"><span aria-hidden="true">⌃</span></button><button id="closeFloodLab" class="icon-button" aria-label="Đóng Flood Lab">×</button></div>
       </div>
-      <div class="flood-scope">
+      <div class="flood-compact" aria-hidden="true"><span id="floodCompactLevel">Theo dõi</span><b id="floodCompactDepth">0 cm</b><small>proxy</small></div>
+      <div class="flood-content panel-body" id="floodContent">
+       <div class="flood-scope">
         <span>PHẠM VI ĐANG HIỂN THỊ</span><b>38,57 km²</b><small>Thảo Điền là lát cắt hiệu chỉnh; toàn TP.HCM là phạm vi đích</small>
       </div>
       <label class="flood-select" for="floodScenario">Kịch bản</label>
@@ -129,7 +139,8 @@
         </div>
         <p class="flood-note">*Các mốc 1,60 / 1,70 / 1,80 m là đề xuất nghiên cứu, chưa phải ngưỡng vận hành được phê duyệt. Độ sâu hiển thị là proxy stress test, không phải dự báo.</p>
         <a id="floodEvidence" class="flood-evidence" href="#" target="_blank" rel="noreferrer">Mở nguồn chứng cứ chính ↗</a>
-      </details>
+       </details>
+      </div>
     </aside>
 
     <div id="iocAlertBar" class="ioc-alert-bar" hidden>
@@ -144,12 +155,12 @@
     </div>
   </main>
   <script src="vendor/earcut.min.js"></script>
-  <script src="data/scene.js?v=25c"></script>
-  <script src="data/semantic-materials-08.js?v=25c"></script>
-  <script src="data/ba-son-bridge-detail.js?v=25c"></script>
-  <script src="data/webgpu-corrections-24.js?v=25c"></script>
+  <script src="data/scene.js?v=25d"></script>
+  <script src="data/semantic-materials-08.js?v=25d"></script>
+  <script src="data/ba-son-bridge-detail.js?v=25d"></script>
+  <script src="data/webgpu-corrections-24.js?v=25d"></script>
   <script>window.addEventListener('error',event=>{console.error('CITY24_ERROR',event.message,event.filename,event.lineno,event.colno);const text=document.getElementById('loaderText');if(text)text.textContent=`Lỗi dựng cảnh · ${event.message} · dòng ${event.lineno||'?'}`;});</script>
-  <script type="module" src="webgpu-materials-24.js?v=25c"></script>
-  <script type="module" src="flood-ui-25.js?v=25c"></script>
+  <script type="module" src="webgpu-materials-24.js?v=25d"></script>
+  <script type="module" src="flood-ui-25.js?v=25d"></script>
 </body>
 </html>
