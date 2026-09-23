@@ -1,0 +1,36 @@
+domain: hcmc-flood-sources
+entity_label: "nguồn dữ liệu/method cho mô hình ngập TP.HCM"
+
+schema:
+  type_field: role
+  fields:
+    - name
+    - publisher
+    - role
+    - temporal_resolution
+    - spatial_resolution
+    - access
+    - evidence_value
+    - limitation
+    - license
+
+rollup_field: role
+
+universe:
+  estimate: 9
+  basis: "Chín nguồn gốc chính thức được chụp trong Batch 25A; đây là mẫu nguồn đã rà soát, không phải toàn bộ nguồn tồn tại."
+
+refresh_days:
+  default: 90
+  evidence_value: 30
+  access: 30
+
+alias_map: {}
+ambiguous_clusters: []
+
+domain_gates:
+  no_inferred_fields:
+    - temporal_resolution
+    - spatial_resolution
+    - evidence_value
+    - license

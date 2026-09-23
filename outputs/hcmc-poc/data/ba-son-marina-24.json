@@ -1,0 +1,174 @@
+{
+  "version": "24e",
+  "scope": "Ba Son bridge and Marina Central Tower visual correction for the WebGPU renderer",
+  "bridge": {
+    "name": "Cầu Ba Son",
+    "formerName": "Cầu Thủ Thiêm 2",
+    "model": "data/ba-son-bridge-detail.json",
+    "rendered": {
+      "type": "asymmetric_cable_stayed",
+      "pylonHeightM": 113,
+      "cablePlanes": 2,
+      "stylisedCables": 28,
+      "supports": 4
+    },
+    "classification": "illustrative_structure_anchored_to_mapped_centerline",
+    "surveyedGeometry": false
+  },
+  "marinaCentral": {
+    "officialName": "Marina Central Tower",
+    "address": "No. 2 Ton Duc Thang Street, Ben Nghe Ward, District 1, Ho Chi Minh City",
+    "heightM": 240,
+    "floorsAboveGround": 55,
+    "floorsBelowGround": 5,
+    "siteAreaM2": 6000,
+    "grossFloorAreaM2": 106000,
+    "toppedOutDate": "2024-05-10",
+    "modelAnchor": {
+      "source": "OpenStreetMap building parts in the 2026-05-31 scene snapshot",
+      "wayIds": [
+        1432358258,
+        1432358259,
+        1432358260
+      ],
+      "partHeightsM": [
+        236,
+        19.2,
+        240
+      ],
+      "approximateCenterLonLat": [
+        106.707826,
+        10.782198
+      ]
+    },
+    "renderedDetail": {
+      "baseGeometry": "existing open building-part footprints",
+      "identityFeatures": [
+        "240 m crown reference",
+        "schematic stepped networking-floor bands from levels 36 to 44",
+        "schematic inclined retail canopy"
+      ],
+      "classification": "official_attributes_anchored_to_open_footprints",
+      "surveyedFacadeGeometry": false
+    }
+  },
+  "grandMarinaResidences": {
+    "relationship": "High-rise residential cluster immediately north of Marina Central Tower within the Grand Marina, Saigon masterplan",
+    "officialBuiltOrStructurallyRaisedTowers": [
+      "Lake",
+      "Sea",
+      "Cove",
+      "Lagoon"
+    ],
+    "openFootprintCorrections": [
+      {
+        "osmWayId": 1151026864,
+        "oldHeightM": 25.3,
+        "modelledHeightM": 170,
+        "storeys": 47
+      },
+      {
+        "osmWayId": 1151026865,
+        "oldHeightM": 22.7,
+        "modelledHeightM": 170,
+        "storeys": 47
+      },
+      {
+        "osmWayId": 1151026866,
+        "oldHeightM": 23.35,
+        "modelledHeightM": 170,
+        "storeys": 47
+      },
+      {
+        "osmWayId": 1151026867,
+        "oldHeightM": 24,
+        "modelledHeightM": 162,
+        "storeys": 45
+      }
+    ],
+    "heightClassification": "official_floor_count_proxy",
+    "nameToFootprintMapping": "withheld_pending_official_geospatial_site_plan",
+    "masterplanScope": "Official developer material describes eight residential towers in the full masterplan; only the four evidenced existing/raised towers are promoted from low proxy geometry in this correction."
+  },
+  "sources": [
+    {
+      "publisher": "Masterise Homes",
+      "type": "official project page",
+      "url": "https://masterisehomes.com/marina-central-tower/",
+      "supports": [
+        "official name",
+        "address",
+        "55-floor program",
+        "five-storey retail podium",
+        "networking floors 36 to 44"
+      ]
+    },
+    {
+      "publisher": "Masterise Homes",
+      "type": "official newsletter",
+      "url": "https://masterisehomes.com/storage/media/RC0kFMuMRGm6ld28g8nUfATY1ExyE85D4Dv1ammt.pdf",
+      "supports": [
+        "topped out on 2024-05-10",
+        "55 above-ground floors",
+        "5 basements",
+        "6000 m2 site",
+        "over 106000 m2 GFA"
+      ]
+    },
+    {
+      "publisher": "BM Windows",
+      "type": "facade contractor project record",
+      "url": "https://bmwindows.vn/en/completion-240m-high-fa%C3%A7ade-icon-marina-central-tower",
+      "supports": [
+        "240 m facade",
+        "terraced networking-zone facade at about 200 m",
+        "inclined canopy"
+      ]
+    },
+    {
+      "publisher": "Council on Tall Buildings and Urban Habitat",
+      "type": "tall-building database",
+      "url": "https://www.skyscrapercenter.com/building/b/45226",
+      "supports": [
+        "240 m architectural height",
+        "55 floors",
+        "2024 completion listing"
+      ]
+    },
+    {
+      "publisher": "Masterise Homes",
+      "type": "official Grand Marina project record",
+      "url": "https://www.masterisehomes.com/node/4?id=grand-marina-saigon",
+      "supports": [
+        "eight residential towers in the full masterplan",
+        "Lake superstructure completed at 47 floors"
+      ]
+    },
+    {
+      "publisher": "Masterise Homes",
+      "type": "official Sea Tower page",
+      "url": "https://masterisehomes.com/grand-marina-saigon/en/sea-tower",
+      "supports": [
+        "Sea comprises 47 storeys"
+      ]
+    },
+    {
+      "publisher": "Masterise Homes",
+      "type": "official progress newsletter",
+      "url": "https://masterisehomes.com/storage/media/tUztLr81EIDBwQU2QocO0E2OB6mZxxtIIJcu8Urt.pdf",
+      "supports": [
+        "Lake handed over",
+        "Sea topped out",
+        "Cove superstructure completed",
+        "Lagoon raised to level 42 at publication time"
+      ]
+    }
+  ],
+  "limitations": [
+    "The bridge pylon and stays are explanatory geometry, not construction drawings.",
+    "Marina Central facade bands and canopy are schematic identity cues, not a photogrammetric reconstruction.",
+    "The official attributes are stronger than the open footprint geometry; a surveyed BIM or UAV model should replace the proxy when licensed data becomes available.",
+    "The four residential heights are derived from official storey counts and neighborhood-scale floor modules, not surveyed roof elevations.",
+    "Individual Lake/Sea/Cove/Lagoon names are not assigned to specific open footprints until an authoritative georeferenced site plan is available."
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "version": "25a",
+  "status": "bounded_catalog_ready_solver_inputs_incomplete",
+  "registryDigest": "e79c5310a56569766c5b7881463f2150d482a284f2f4171b62b3e008da6f6b71",
+  "policy": {
+    "unboundedControls": false,
+    "observedPairsKeepTimestamps": true,
+    "syntheticPairsRequireJointProbability": true,
+    "stressTestsNeverPublishedAsForecasts": true,
+    "missingInputsDisableRun": true
+  },
+  "citywide": {
+    "targetCoverage": "official HCMC administrative extent",
+    "strategy": "multi-resolution catchment tiles",
+    "warningLevels": 3,
+    "warningThresholdStatus": "pending official matrix and vertical datum"
+  },
+  "scenarios": [
+    {
+      "id": "observed-thao-dien-2025-10-08",
+      "kind": "observed_compound_event",
+      "label": "Thảo Điền · 08/10/2025",
+      "status": "calibration_target_not_runnable",
+      "rain": {
+        "hyetograph": null,
+        "totalMm": null,
+        "sourceState": "not_published_in_captured_source"
+      },
+      "tide": {
+        "hydrograph": null,
+        "stageM": null,
+        "datum": null,
+        "sourceState": "not_published_in_captured_source"
+      },
+      "observed": {
+        "quocHuongDepthM": [
+          0.3,
+          0.5
+        ],
+        "thaoDienDepthM": 0.4
+      },
+      "blockedBy": [
+        "rain hyetograph",
+        "tide hydrograph",
+        "vertical datum",
+        "DTM",
+        "drainage network"
+      ],
+      "sourceIds": [
+        "Thao Dien compound flood event 2025-10-08"
+      ]
+    },
+    {
+      "id": "observed-thao-dien-august-report",
+      "kind": "historical_reconstruction",
+      "label": "Thảo Điền · trận mưa gần 200 mm",
+      "status": "calibration_target_not_runnable",
+      "rain": {
+        "totalApproxMm": 200,
+        "hyetograph": null,
+        "sourceState": "total_approximate"
+      },
+      "tide": {
+        "hydrograph": null,
+        "stageM": null,
+        "datum": null
+      },
+      "observed": {
+        "durationHoursLowerBound": 6,
+        "nguyenVanHuongDepthM": 0.25
+      },
+      "blockedBy": [
+        "exact event year/time",
+        "rain hyetograph",
+        "tide hydrograph",
+        "vertical datum",
+        "DTM",
+        "drainage network"
+      ],
+      "sourceIds": [
+        "HCMC AI urban flood early-warning report 2022"
+      ]
+    },
+    {
+      "id": "design-rain-plus-tide",
+      "kind": "design_scenario_family",
+      "label": "Mưa thiết kế + triều có xác suất đồng thời",
+      "status": "blocked_missing_official_curves",
+      "rain": {
+        "control": "approved return period",
+        "bounds": null
+      },
+      "tide": {
+        "control": "official alert hydrograph",
+        "bounds": null
+      },
+      "blockedBy": [
+        "station IDF/DDF curves",
+        "joint-probability method",
+        "official alert thresholds",
+        "vertical datum"
+      ],
+      "sourceIds": [
+        "HCMC warning-marker study 1990-2024"
+      ]
+    },
+    {
+      "id": "public-data-screening",
+      "kind": "screening_only",
+      "label": "Sàng lọc toàn thành phố bằng dữ liệu công khai",
+      "status": "forcing_sources_ready_terrain_insufficient",
+      "rain": {
+        "source": "NASA GPM IMERG V07",
+        "temporalResolution": "half-hourly"
+      },
+      "terrain": {
+        "source": "Copernicus DEM GLO-30",
+        "resolutionM": 30,
+        "surfaceType": "DSM"
+      },
+      "validation": {
+        "source": "Copernicus Sentinel-1 GRD"
+      },
+      "allowedUse": "regional screening and pipeline testing",
+      "forbiddenUse": "street-depth forecast or engineering design",
+      "sourceIds": [
+        "NASA GPM IMERG V07",
+        "Copernicus DEM GLO-30",
+        "Copernicus Sentinel-1 GRD"
+      ]
+    }
+  ],
+  "catalogDigest": "7dedea2656a4bc3f5e63a41967ee22baf02f57c675c2599038f17a13ce015f44"
+}

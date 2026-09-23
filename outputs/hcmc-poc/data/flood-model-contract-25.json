@@ -1,0 +1,134 @@
+{
+  "version": "25a",
+  "status": "architecture_ready_data_not_yet_ingested",
+  "purpose": "Contract for compound rainfall, urban drainage and tidal flooding scenarios in the HCMC digital twin",
+  "citywideScope": {
+    "coverage": "Entire official Ho Chi Minh City administrative extent",
+    "strategy": "Catchment-based multi-resolution 1D/2D model with citywide overview tiles and finer meshes for recurrent-flood basins",
+    "pilotRole": "Thao Dien is the first calibration and interaction slice, not the spatial limit of the product",
+    "requiredMapLayers": [
+      "time-varying flood depth",
+      "flow velocity and direction",
+      "inundation duration",
+      "road and building exposure",
+      "warning level",
+      "confidence and data quality"
+    ]
+  },
+  "pilotArea": {
+    "id": "thao-dien-compound-flood",
+    "status": "selected_pending_extent_and_datum_validation",
+    "corridors": [
+      "Quoc Huong",
+      "Thao Dien",
+      "Nguyen Van Huong",
+      "Tran Ngoc Dien"
+    ],
+    "hazards": [
+      "urban rainfall",
+      "drainage exceedance",
+      "Saigon River tidal backwater"
+    ],
+    "sceneRequirement": "Expand the current 3D extent north/east before hydraulic meshing",
+    "evidence": [
+      "HCMC Technical Infrastructure Management Centre flood early-warning report",
+      "HCMC People's Council report of the 2025-10-08 rain-plus-tide event"
+    ]
+  },
+  "excludedPilotArea": {
+    "name": "Nguyen Hue - Bach Dang - Ba Son",
+    "reason": "Not representative of recurrent flooding; retain as an urban visualisation scene unless event-specific observations support a flood layer"
+  },
+  "truthPolicy": {
+    "publicDemo": "Scenario/proxy until calibrated against observed water depth and duration",
+    "engineering": "Requires official drainage, bare-earth elevation, gauges and independent validation",
+    "forbidden": [
+      "Presenting satellite rainfall as street-scale measurement",
+      "Using a DSM as if it were a bare-earth DTM",
+      "Inventing missing drain capacity or inlet elevations",
+      "Publishing uncalibrated depth as a forecast"
+    ]
+  },
+  "scenarioPolicy": {
+    "controlsAreBounded": true,
+    "unboundedSlidersForbidden": true,
+    "rain": {
+      "mode": "event_catalog_and_design_frequency",
+      "boundsFrom": [
+        "quality-controlled HCMC gauge records",
+        "station-specific IDF/DDF curves",
+        "approved design return periods under TCVN 7957:2023",
+        "approved climate-change scenarios"
+      ],
+      "ui": "Select an observed event or approved return period; show total, duration, peak intensity and source"
+    },
+    "tide": {
+      "mode": "gauge_stage_hydrograph_and_alert_level",
+      "boundsFrom": [
+        "Phu An and Nha Be gauge records on a declared vertical datum",
+        "official three-level flood-warning thresholds",
+        "approved sea-level-rise scenarios"
+      ],
+      "ui": "Select an observed/approved hydrograph or warning level; never enter an arbitrary water level"
+    },
+    "compound": {
+      "mode": "joint_event_or_joint_probability_scenario",
+      "rule": "Observed rain and tide pairs retain their timestamps; synthetic pairs require an approved joint-probability method",
+      "stressTest": "A worst-case combination is allowed only when explicitly labelled stress test, not forecast"
+    }
+  },
+  "sources": [
+    {"id": "hcmc-rain-gauges", "role": "rainfall", "tier": "preferred_official", "resolution": "5-minute where licensed", "availability": "request_or_city_integration"},
+    {"id": "nasa-imerg-v07", "role": "rainfall", "tier": "public_fallback", "resolution": "0.1 degree / 30 minute", "availability": "public"},
+    {"id": "era5-land", "role": "rainfall_and_land", "tier": "public_historical", "resolution": "hourly", "availability": "public"},
+    {"id": "phu-an-nha-be-gauges", "role": "river_tide_boundary", "tier": "preferred_official", "resolution": "time_series", "availability": "request_or_city_integration"},
+    {"id": "copernicus-marine-sea-level", "role": "coastal_boundary_fallback", "tier": "public_fallback", "resolution": "product_dependent", "availability": "public"},
+    {"id": "city-lidar-dtm", "role": "bare_earth_surface", "tier": "required_engineering", "resolution": "0.5_to_2_m_target", "availability": "future_payload_or_city_data"},
+    {"id": "copernicus-dem-glo30", "role": "terrain_proxy", "tier": "public_demo_only", "resolution": "30_m_DSM", "availability": "public"},
+    {"id": "city-drainage-network", "role": "pipes_inlets_pumps_gates", "tier": "required_engineering", "resolution": "asset_level", "availability": "request_or_city_integration"},
+    {"id": "sentinel-1-grd", "role": "flood_extent_validation", "tier": "public_validation", "resolution": "event_dependent", "availability": "public"},
+    {"id": "official_flood_reports_and_cameras", "role": "depth_duration_validation", "tier": "preferred_official", "resolution": "point_and_event", "availability": "public_and_city_integration"}
+  ],
+  "solver": {
+    "drainage1d": "EPA SWMM",
+    "surface2d": "HEC-RAS 2D or equivalent shallow-water solver",
+    "coupling": "Exchange flow at inlets/manholes; downstream stage hydrograph carries tide/river level",
+    "visualisation": "Time-indexed depth and velocity textures streamed to Three.js/WebGPU"
+  },
+  "controls": [
+    "rain_total_mm",
+    "rain_duration_min",
+    "rain_temporal_pattern",
+    "tide_stage_m",
+    "drain_capacity_factor",
+    "pump_and_gate_state",
+    "sea_level_or_subsidence_adjustment"
+  ],
+  "outputs": [
+    "maximum_depth_m",
+    "velocity_m_s",
+    "time_to_inundation_min",
+    "inundation_duration_min",
+    "road_disruption",
+    "building_and_population_exposure"
+  ],
+  "warningPolicy": {
+    "status": "thresholds_pending_city_approval",
+    "basis": [
+      "depth",
+      "velocity",
+      "depth_velocity_product",
+      "duration",
+      "road_or_asset_vulnerability",
+      "forecast_lead_time",
+      "model_confidence"
+    ],
+    "levels": 3,
+    "rule": "Do not hard-code warning thresholds until the city-approved matrix and vertical datum are registered"
+  },
+  "qualityGates": [
+    {"id": "demo-proxy", "requires": ["public rainfall", "terrain proxy", "land cover", "known flood points"], "label": "Kịch bản minh họa — chưa hiệu chỉnh"},
+    {"id": "district-calibration", "requires": ["local gauges", "improved DTM", "observed flood extent", "sample drainage capacity"], "label": "Mô hình thử nghiệm đã hiệu chỉnh cục bộ"},
+    {"id": "engineering-calibration", "requires": ["surveyed DTM", "full drainage assets", "pump/gate operations", "independent events for validation"], "label": "Mô hình kỹ thuật — kèm sai số và biên bản hiệu chỉnh"}
+  ]
+}

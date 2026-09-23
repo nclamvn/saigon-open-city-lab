@@ -1,0 +1,116 @@
+════════════════════════════════════════════════════════════════
+REFINERY · domain=hcmc-flood-sources · nguồn dữ liệu/method cho mô hình ngập TP.HCM
+════════════════════════════════════════════════════════════════
+
+▸ Copernicus DEM GLO-30  (public_terrain_proxy)
+    name            : Copernicus DEM GLO-30 [✓A]
+    publisher       : Copernicus Data Space Ecosystem [✓A]
+    role            : public_terrain_proxy [✓A]
+    temporal_resolution: —
+    spatial_resolution: 30 m global coverage [✓A]
+    access          : free access to 30 m and 90 m instances [✓A]
+    evidence_value  : —
+    limitation      : DSM includes buildings, infrastructure and vegetation; it is not a bare-earth DTM [✓A]
+    license         : ESA User licence for CCM [✓A]
+
+▸ Copernicus Sentinel-1 GRD  (earth_observation_validation)
+    name            : Sentinel-1 GRD [✓A]
+    publisher       : Copernicus Data Space Ecosystem [✓A]
+    role            : earth_observation_validation [✓A]
+    temporal_resolution: —
+    spatial_resolution: high-resolution land and coastal imagery; product-dependent [✓A]
+    access          : GRD archive accessible through Copernicus Data Space [✓A]
+    evidence_value  : C-band SAR observes day/night and all weather [✓A]
+    limitation      : —
+    license         : —
+
+▸ EPA SWMM  (drainage_1d_solver)
+    name            : Storm Water Management Model (SWMM) [✓A]
+    publisher       : United States Environmental Protection Agency [✓A]
+    role            : drainage_1d_solver [✓A]
+    temporal_resolution: —
+    spatial_resolution: —
+    access          : open source and freely available worldwide [✓A]
+    evidence_value  : dynamic-wave drainage routing and heterogeneous subcatchments [✓A]
+    limitation      : —
+    license         : open source [✓A]
+
+▸ ERA5-Land  (historical_climate_fallback)
+    name            : ERA5-Land hourly data from 1950 to present [✓A]
+    publisher       : Copernicus Climate Data Store / ECMWF [✓A]
+    role            : historical_climate_fallback [✓A]
+    temporal_resolution: hourly [✓A]
+    spatial_resolution: 0.1 degree; native 9 km [✓A]
+    access          : downloadable analysis-ready data [✓A]
+    evidence_value  : —
+    limitation      : model estimates have uncertainty that grows back in time [✓A]
+    license         : CC-BY [✓A]
+
+▸ HCMC AI urban flood early-warning report 2022  (observed_event_and_model_calibration)
+    name            : Hệ thống cảnh báo sớm ngập lụt đô thị dựa trên AI tại TP.HCM [✓A]
+    publisher       : Đài Khí tượng Thủy văn khu vực Nam Bộ [✓A]
+    role            : observed_event_and_model_calibration [✓A]
+    temporal_resolution: event observations; project 2020-2022 [✓A]
+    spatial_resolution: road and station observations [✓A]
+    access          : public official research PDF [✓A]
+    evidence_value  : near-200 mm rainfall; flooding over 6 hours in Thao Dien corridor [✓A]
+    limitation      : 2022 research report; not a live operational feed [✓A]
+    license         : —
+
+▸ HCMC warning-marker study 1990-2024  (official_warning_method)
+    name            : Hệ thống mốc cảnh báo ngập lụt TP.HCM [✓A]
+    publisher       : Sở Khoa học và Công nghệ TP.HCM [✓A]
+    role            : official_warning_method [✓A]
+    temporal_resolution: historical series 1990-2024 [✓A]
+    spatial_resolution: digital flood map 1:50,000 [✓A]
+    access          : public official article [✓A]
+    evidence_value  : three alert levels from compound tide, flood and urban rainfall scenarios [✓A]
+    limitation      : —
+    license         : —
+
+▸ HEC-RAS 2D precipitation boundary  (surface_2d_solver_input)
+    name            : HEC-RAS 2D global boundary conditions [✓A]
+    publisher       : HEC-RAS [✓A]
+    role            : surface_2d_solver_input [✓A]
+    temporal_resolution: —
+    spatial_resolution: gridded or point-gage precipitation [✓A]
+    access          : public technical documentation [✓A]
+    evidence_value  : point gauges are interpolated to a grid for the computational engine [✓A]
+    limitation      : not recommended where coastal wave forcing is significant [✓A]
+    license         : —
+
+▸ NASA GPM IMERG V07  (public_rainfall_fallback)
+    name            : Integrated Multi-satellitE Retrievals for GPM (IMERG) [✓A]
+    publisher       : NASA Global Precipitation Measurement Mission [✓A]
+    role            : public_rainfall_fallback [✓A]
+    temporal_resolution: half-hourly [✓A]
+    spatial_resolution: —
+    access          : free Earthdata registration [✓A]
+    evidence_value  : Early Run nominal latency about 4 hours [✓A]
+    limitation      : regridding can suppress precipitation maxima and expand rain events [✓A]
+    license         : —
+
+▸ Thao Dien compound flood event 2025-10-08  (observed_compound_event)
+    name            : Mưa lớn kết hợp triều cường gây ngập nhiều nơi [✓A]
+    publisher       : Hội đồng nhân dân TP.HCM [✓A]
+    role            : observed_compound_event [✓A]
+    temporal_resolution: event on 2025-10-08 [✓A]
+    spatial_resolution: named road segments in Thao Dien [✓A]
+    access          : public official news page [✓A]
+    evidence_value  : Quoc Huong 0.30-0.50 m; Thao Dien about 0.40 m [✓A]
+    limitation      : event observation without a published rain hyetograph or tide hydrograph [✓A]
+    license         : —
+
+Phân bố theo role (n=9 / universe≈9 · coverage 100.0%):
+    drainage_1d_solver: 1
+    earth_observation_validation: 1
+    historical_climate_fallback: 1
+    observed_compound_event: 1
+    observed_event_and_model_calibration: 1
+    official_warning_method: 1
+    public_rainfall_fallback: 1
+    public_terrain_proxy: 1
+    surface_2d_solver_input: 1
+
+build digest = f5c1a0127d5446c0  · idempotent OK · auditor OK
+VALIDATION PASSED · 0 gate bites

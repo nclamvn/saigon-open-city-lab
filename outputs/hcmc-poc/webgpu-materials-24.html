@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>City Lab · WebGPU Material Engine</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="webgpu-materials-24.css?v=25c">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three186/three.webgpu.js",
+        "three/webgpu": "./vendor/three186/three.webgpu.js",
+        "three/tsl": "./vendor/three186/three.tsl.js",
+        "three/addons/": "./vendor/three186/addons/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main id="app">
+    <div id="scene" aria-label="Mô hình vật liệu đô thị WebGPU"></div>
+    <div class="atmosphere"></div>
+    <canvas id="rainFx" aria-hidden="true"></canvas>
+    <div id="labels" aria-hidden="true"></div>
+
+    <header class="topbar glass">
+      <a class="brand" href="./?v=24a&view=overview" aria-label="Về City Lab"><b>CITY LAB</b></a>
+      <div class="engine"><span class="pulse"></span><span>THREE.JS r186</span><i></i><span id="backend">ĐANG KHỞI TẠO</span></div>
+      <button id="toggleUi" class="icon-button" title="Ẩn giao diện (H)" aria-label="Ẩn giao diện">⌁</button>
+    </header>
+
+    <section class="story glass" id="story">
+      <p class="kicker">MATERIAL ENGINE / 24E</p>
+      <h1>Thành phố<br><em>có chất liệu.</em></h1>
+      <p class="dek">Một lớp PBR thủ tục phủ toàn vùng hiện hành; cầu Ba Son, Marina Central và bốn tháp Grand Marina được bổ sung hình học nhận diện có neo nguồn.</p>
+      <div class="facts">
+        <div><strong id="buildingCount">—</strong><span>công trình</span></div>
+        <div><strong>8</strong><span>họ vật liệu</span></div>
+        <div><strong>3</strong><span>mức ánh sáng</span></div>
+      </div>
+      <p class="evidence"><span></span>Màu có thẻ nguồn được ưu tiên; phần còn lại là suy luận PBR có đánh dấu, chưa phải ảnh mặt đứng khảo sát.</p>
+    </section>
+
+    <aside class="controls glass" id="controls">
+      <div class="control-head">
+        <div><p>ĐIỀU KHIỂN CẢNH</p><h2>Vật liệu đô thị</h2></div>
+        <button id="collapse" class="icon-button" aria-label="Thu gọn">−</button>
+      </div>
+      <div class="control-body">
+        <label class="range-row" for="realism">
+          <span><b>Độ thực hóa</b><output id="realismValue">100%</output></span>
+          <input id="realism" type="range" min="0" max="100" value="100" step="1">
+        </label>
+        <div class="segmented" role="group" aria-label="Ánh sáng">
+          <button data-light="day" class="active">Ngày</button>
+          <button data-light="golden">Giờ vàng</button>
+          <button data-light="night">Đêm</button>
+        </div>
+        <div class="view-grid" role="group" aria-label="Góc nhìn">
+          <button data-view="materials" class="active"><span>01</span>Vật liệu</button>
+          <button data-view="river"><span>02</span>Ven sông</button>
+          <button data-view="boulevard"><span>03</span>Nguyễn Huệ</button>
+          <button data-view="overview"><span>04</span>Toàn vùng</button>
+          <button data-view="bason"><span>05</span>Ba Son + Marina</button>
+        </div>
+        <button id="compare" class="compare"><span>◐</span><b>Giữ để xem khối nền</b></button>
+        <button id="openFloodLab" class="flood-launch"><span>≈</span><b>Ngập đô thị</b><small>25A · DATA GATE</small></button>
+        <div class="legend">
+          <p>HỌ VẬT LIỆU</p>
+          <div><i style="--c:#d1bda4"></i>Phổ thông</div><div><i style="--c:#d69c84"></i>Nhà ở</div>
+          <div><i style="--c:#6e929c"></i>Kính thương mại</div><div><i style="--c:#d6c294"></i>Công cộng</div>
+          <div><i style="--c:#8f887d"></i>Công nghiệp</div><div><i style="--c:#87a5a8"></i>Trung tâm</div>
+          <div><i style="--c:#d2ad75"></i>Tôn giáo</div><div><i style="--c:#aaa397"></i>Hỗn hợp</div>
+        </div>
+      </div>
+    </aside>
+
+    <div class="hud glass">
+      <span><i id="fps">—</i> FPS</span><span><i id="draws">—</i> MESH</span><span><i id="triangles">—</i> TRI</span>
+      <b id="viewLabel">MATERIAL DISTRICT</b>
+    </div>
+
+    <div id="selection" class="selection glass" hidden>
+      <button id="closeSelection" class="icon-button" aria-label="Đóng">×</button>
+      <p>CÔNG TRÌNH</p><h2 id="selectedName"></h2><div id="selectedBody"></div>
+    </div>
+
+    <aside id="floodLab" class="flood-lab glass" hidden aria-labelledby="floodTitle">
+      <div class="flood-head">
+        <div><p>IOC FLOOD / 25C</p><h2 id="floodTitle">Điều hành ngập 3D</h2></div>
+        <button id="closeFloodLab" class="icon-button" aria-label="Đóng Flood Lab">×</button>
+      </div>
+      <div class="flood-scope">
+        <span>PHẠM VI ĐANG HIỂN THỊ</span><b>38,57 km²</b><small>Thảo Điền là lát cắt hiệu chỉnh; toàn TP.HCM là phạm vi đích</small>
+      </div>
+      <label class="flood-select" for="floodScenario">Kịch bản</label>
+      <select id="floodScenario" aria-label="Chọn kịch bản ngập"></select>
+      <div id="floodState" class="flood-state"><i></i><span>Đang kiểm tra dữ liệu…</span></div>
+      <div class="ioc-kpis">
+        <div><span>Cấp cảnh báo</span><strong id="iocSeverity">Theo dõi</strong></div>
+        <div><span>Độ sâu proxy</span><strong id="proxyDepth">0 cm</strong></div>
+        <div><span>Gió hiệu ứng</span><strong id="windSpeed">0 km/h</strong></div>
+      </div>
+      <div class="rain-control">
+        <div class="rain-control-head"><label for="rainAmount">Mưa tích lũy tham chiếu</label><output id="rainAmountValue">0 mm</output></div>
+        <input id="rainAmount" type="range" min="0" max="200" value="0" step="1">
+        <div class="rain-scale"><span>Khô</span><span>Mưa vừa</span><span>Rất lớn · 200 mm</span></div>
+        <div class="rain-control-head tide-head"><label for="tideLevel">Mực triều tham chiếu*</label><output id="tideLevelValue">1,40 m</output></div>
+        <input id="tideLevel" type="range" min="1.40" max="1.80" value="1.40" step="0.01">
+        <div class="rain-scale"><span>1,40 m</span><span>BĐ I* · 1,60</span><span>BĐ III* · 1,80 m</span></div>
+        <div class="rain-actions">
+          <button id="toggleRain" type="button"><span>▶</span><b>Chạy mưa</b></button>
+          <button id="focusFloodRoads" type="button"><span>⌖</span><b>Zoom tuyến ngập</b></button>
+          <button id="worstCase" class="worst-case" type="button"><span>!</span><b>Kịch bản xấu nhất</b></button>
+        </div>
+        <p id="rainCaption">Kéo để xem diễn biến thị giác. Dừng mưa giữ nguyên lớp nước để kiểm tra đường.</p>
+      </div>
+      <div class="flood-observed" id="floodObserved"></div>
+      <details class="flood-audit">
+        <summary><span>Kiểm định và nguồn dữ liệu</span><b id="floodMissingCount">—</b></summary>
+        <div class="flood-section"><div id="floodMissing" class="flood-chips"></div></div>
+        <button id="runFloodScenario" class="flood-run" disabled><span>Chạy mô phỏng 1D/2D</span><small>Khóa đến khi qua cổng dữ liệu</small></button>
+        <div class="flood-proof">
+          <div><strong id="floodSources">—</strong><span>nguồn</span></div>
+          <div><strong id="floodClaims">—</strong><span>claim</span></div>
+          <div><strong>SHA-256</strong><span>ảnh chụp nguồn</span></div>
+        </div>
+        <p class="flood-note">*Các mốc 1,60 / 1,70 / 1,80 m là đề xuất nghiên cứu, chưa phải ngưỡng vận hành được phê duyệt. Độ sâu hiển thị là proxy stress test, không phải dự báo.</p>
+        <a id="floodEvidence" class="flood-evidence" href="#" target="_blank" rel="noreferrer">Mở nguồn chứng cứ chính ↗</a>
+      </details>
+    </aside>
+
+    <div id="iocAlertBar" class="ioc-alert-bar" hidden>
+      <span class="alert-pulse"></span><strong>CẢNH BÁO ĐỎ</strong><b>STRESS TEST · KHÔNG PHẢI DỰ BÁO</b>
+      <div><span id="alertRain">200 mm</span><span id="alertTide">1,80 m</span><span id="alertDepth">50 cm proxy</span></div>
+    </div>
+
+    <div id="loading">
+      <div class="loader-mark">CITY LAB</div>
+      <div class="loader-line"><span id="loaderProgress"></span></div>
+      <p id="loaderText">Đang khởi tạo WebGPU…</p>
+    </div>
+  </main>
+  <script src="vendor/earcut.min.js"></script>
+  <script src="data/scene.js?v=25c"></script>
+  <script src="data/semantic-materials-08.js?v=25c"></script>
+  <script src="data/ba-son-bridge-detail.js?v=25c"></script>
+  <script src="data/webgpu-corrections-24.js?v=25c"></script>
+  <script>window.addEventListener('error',event=>{console.error('CITY24_ERROR',event.message,event.filename,event.lineno,event.colno);const text=document.getElementById('loaderText');if(text)text.textContent=`Lỗi dựng cảnh · ${event.message} · dòng ${event.lineno||'?'}`;});</script>
+  <script type="module" src="webgpu-materials-24.js?v=25c"></script>
+  <script type="module" src="flood-ui-25.js?v=25c"></script>
+</body>
+</html>

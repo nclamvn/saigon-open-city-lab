@@ -1,0 +1,1163 @@
+{
+  "version": "25a",
+  "status": "refinery_verified",
+  "generatedBy": "hcmc-flood-sources/export_registry.py",
+  "sourceCount": 9,
+  "claimCount": 64,
+  "truthPolicy": {
+    "honestNull": true,
+    "disputedValuesNotAutoResolved": true,
+    "verbatimEvidenceRequired": true,
+    "rawCapturesBoundBySha256": true
+  },
+  "captureManifestDigest": "1392d8ea6560c9198e9aa76998098bc0a3977c151640627401f60b0d6381db68",
+  "entities": [
+    {
+      "id": "Copernicus DEM GLO-30",
+      "role": "public_terrain_proxy",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Copernicus DEM GLO-30",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": "GLO-30 offers global coverage at a resolution of 30 metres. GLO-90 offers global coverage at a resolution of 90 metres. Both datasets have a surface coverage of ~ 149 M km 2 .",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "Copernicus Data Space Ecosystem",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": "Copernicus DEM - Global and European Digital Elevation Model | Copernicus Data Space Ecosystem",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "public_terrain_proxy",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": "Digital Surface Model (DSM) provided in 3 different resolutions (90m, 30m, 10m) with varying geographical extent (EEA: European and GLO: global) and varying format (INSPIRE, DGED, DTED).",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "null",
+          "value": null
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "30 m global coverage",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": "GLO-30 offers global coverage at a resolution of 30 metres. GLO-90 offers global coverage at a resolution of 90 metres. Both datasets have a surface coverage of ~ 149 M km 2 .",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "free access to 30 m and 90 m instances",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": ") can freely access the 30m and 90m resolution instances of the Copernicus DEM.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "null",
+          "value": null
+        },
+        "limitation": {
+          "state": "sourced",
+          "value": "DSM includes buildings, infrastructure and vegetation; it is not a bare-earth DTM",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": "The Copernicus DEM is a Digital Surface Model (DSM) which represents the top-reflective surface of the Earth including buildings, infrastructure and vegetation. This DEM is derived from an edited DSM named WorldDEMTM , i.e. flattening of water bodies and consistent flow of rivers has been included. Editing of shore- and coastlines, special features such as airports and implausible terrain structures has also been applied.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "license": {
+          "state": "sourced",
+          "value": "ESA User licence for CCM",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "copernicus-dem-glo30.html",
+              "rawSha256": "2f982200fb6186b86662739c55a4bd39c28f288bec2e7e6bd4084232eaf4dd67",
+              "tier": "A",
+              "evidenceSpan": "ESA-User license for the use of CCM",
+              "extraction": "normalized"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Copernicus Sentinel-1 GRD",
+      "role": "earth_observation_validation",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Sentinel-1 GRD",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "sentinel-1-grd.html",
+              "rawSha256": "ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6",
+              "tier": "A",
+              "evidenceSpan": "Currently, users can access Sentinel-1 (RAW, GRD, SLC) data stored in native format and bundled (zipped files) for one month following their publication date within Data Space Catalogue.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "Copernicus Data Space Ecosystem",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "sentinel-1-grd.html",
+              "rawSha256": "ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6",
+              "tier": "A",
+              "evidenceSpan": "Sentinel-1 | Copernicus Data Space Ecosystem",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "earth_observation_validation",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "sentinel-1-grd.html",
+              "rawSha256": "ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6",
+              "tier": "A",
+              "evidenceSpan": "Synthetic Aperture Radar (SAR) has the advantage of operating at wavelengths that are not affected by cloud cover or lack of illumination, allowing it to acquire data over a site during both day and night time, and under all weather conditions. The C-SAR instrument of Sentinel-1 provides reliable and repeated wide area monitoring.",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "null",
+          "value": null
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "high-resolution land and coastal imagery; product-dependent",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "sentinel-1-grd.html",
+              "rawSha256": "ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6",
+              "tier": "A",
+              "evidenceSpan": "Sentinel-1 is designed to work in a pre-programmed, conflict-free operation mode. It captures high-resolution images of all landmasses, coastal zones, and shipping routes worldwide, and provides vignettes of the global ocean. This ensures the reliability of service required by operational services and ensures a consistent long-term data archive for applications based on long time series.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "GRD archive accessible through Copernicus Data Space",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "sentinel-1-grd.html",
+              "rawSha256": "ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6",
+              "tier": "A",
+              "evidenceSpan": "(***) Original Sentinel-1 GRD products older than one year will be accessible with deferred availability (DAD), while the entire archive of COG_SAFE products will be available immediately (IAD). In case original Sentinel-1 GRD products would be needed with immediate access, users can convert COG_SAFE products to the original SAFE products",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "C-band SAR observes day/night and all weather",
+          "sources": [
+            {
+              "source": "dataspace.copernicus.eu",
+              "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "sentinel-1-grd.html",
+              "rawSha256": "ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6",
+              "tier": "A",
+              "evidenceSpan": "The Sentinel-1 mission comprises a constellation of two polar-orbiting satellites, operating day and night. These satellites use C-band synthetic aperture radar imaging, which allows them to capture images in all weather conditions.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "null",
+          "value": null
+        },
+        "license": {
+          "state": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "id": "EPA SWMM",
+      "role": "drainage_1d_solver",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Storm Water Management Model (SWMM)",
+          "sources": [
+            {
+              "source": "www.epa.gov",
+              "url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "epa-swmm.html",
+              "rawSha256": "d3662ace07011687e6382f406de4f15ed318d2d83583c0d6800e6594ce0c5ff0",
+              "tier": "A",
+              "evidenceSpan": "Storm Water Management Model (SWMM) | US EPA",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "United States Environmental Protection Agency",
+          "sources": [
+            {
+              "source": "www.epa.gov",
+              "url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "epa-swmm.html",
+              "rawSha256": "d3662ace07011687e6382f406de4f15ed318d2d83583c0d6800e6594ce0c5ff0",
+              "tier": "A",
+              "evidenceSpan": "EPA's Storm Water Management Model (SWMM) is used throughout the world for decision support, emergency response, planning, analysis, and design related to stormwater, combined, and sanitary sewer systems as well as for other drainage systems. It can be used to evaluate gray infrastructure stormwater control strategies, such as pipes and storm drains, and is a useful tool for creating cost-effective hybrid green/gray stormwater control solutions. SWMM was developed to help support local, state, and national stormwater management objectives to reduce runoff through infiltration and retention and help to reduce discharges that cause impairment to receiving waterbodies.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "drainage_1d_solver",
+          "sources": [
+            {
+              "source": "www.epa.gov",
+              "url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "epa-swmm.html",
+              "rawSha256": "d3662ace07011687e6382f406de4f15ed318d2d83583c0d6800e6594ce0c5ff0",
+              "tier": "A",
+              "evidenceSpan": "SWMM provides a cross-platform desktop software and associated tools for drainage system modeling. It is an open source, publicly, and freely available software for use worldwide. SWMM 5 was originally developed through a joint development effort with CDM Smith Inc., and is currently maintained and advanced by the EPA's Office of Research and Development.",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "null",
+          "value": null
+        },
+        "spatial_resolution": {
+          "state": "null",
+          "value": null
+        },
+        "access": {
+          "state": "sourced",
+          "value": "open source and freely available worldwide",
+          "sources": [
+            {
+              "source": "www.epa.gov",
+              "url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "epa-swmm.html",
+              "rawSha256": "d3662ace07011687e6382f406de4f15ed318d2d83583c0d6800e6594ce0c5ff0",
+              "tier": "A",
+              "evidenceSpan": "SWMM provides a cross-platform desktop software and associated tools for drainage system modeling. It is an open source, publicly, and freely available software for use worldwide. SWMM 5 was originally developed through a joint development effort with CDM Smith Inc., and is currently maintained and advanced by the EPA's Office of Research and Development.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "dynamic-wave drainage routing and heterogeneous subcatchments",
+          "sources": [
+            {
+              "source": "www.epa.gov",
+              "url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "epa-swmm.html",
+              "rawSha256": "d3662ace07011687e6382f406de4f15ed318d2d83583c0d6800e6594ce0c5ff0",
+              "tier": "A",
+              "evidenceSpan": "Utilize either kinematic wave or full dynamic wave hydraulic flow routing methods.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "null",
+          "value": null
+        },
+        "license": {
+          "state": "sourced",
+          "value": "open source",
+          "sources": [
+            {
+              "source": "www.epa.gov",
+              "url": "https://www.epa.gov/water-research/storm-water-management-model-swmm",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "epa-swmm.html",
+              "rawSha256": "d3662ace07011687e6382f406de4f15ed318d2d83583c0d6800e6594ce0c5ff0",
+              "tier": "A",
+              "evidenceSpan": "SWMM provides a cross-platform desktop software and associated tools for drainage system modeling. It is an open source, publicly, and freely available software for use worldwide. SWMM 5 was originally developed through a joint development effort with CDM Smith Inc., and is currently maintained and advanced by the EPA's Office of Research and Development.",
+              "extraction": "normalized"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ERA5-Land",
+      "role": "historical_climate_fallback",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "ERA5-Land hourly data from 1950 to present",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "ERA5-Land hourly data from 1950 to present",
+              "extraction": "verbatim"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "Copernicus Climate Data Store / ECMWF",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "ERA5-Land is a reanalysis dataset providing a consistent view of the evolution of land variables over several decades at an enhanced resolution compared to ERA5. ERA5-Land has been produced by replaying the land component of the ECMWF ERA5 climate reanalysis. Reanalysis combines model data with observations from across the world into a globally complete and consistent dataset using the laws of physics. Reanalysis produces data that goes several decades back in time, providing an accurate description of the climate of the past.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "historical_climate_fallback",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "The temporal and spatial resolutions of ERA5-Land makes this dataset very useful for all kind of land surface applications such as flood or drought forecasting. The temporal and spatial resolution of this dataset, the period covered in time, as well as the fixed grid used for the data distribution at any period enables decisions makers, businesses and individuals to access and use more accurate information on land states.",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "sourced",
+          "value": "hourly",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "Hourly",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "0.1 degree; native 9 km",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "0.1° x 0.1°; Native resolution is 9 km.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "downloadable analysis-ready data",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "Analysis ready data",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "null",
+          "value": null
+        },
+        "limitation": {
+          "state": "sourced",
+          "value": "model estimates have uncertainty that grows back in time",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "The ERA5-Land dataset, as any other simulation, provides estimates which have some degree of uncertainty. Numerical models can only provide a more or less accurate representation of the real physical processes governing different components of the Earth System. In general, the uncertainty of model estimates grows as we go back in time, because the number of observations available to create a good quality atmospheric forcing is lower. ERA5-land parameter fields can currently be used in combination with the uncertainty of the equivalent ERA5 fields.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "license": {
+          "state": "sourced",
+          "value": "CC-BY",
+          "sources": [
+            {
+              "source": "cds.climate.copernicus.eu",
+              "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "era5-land.html",
+              "rawSha256": "01ed972849e7e70700e79ddd816967903a074481b61174e56888ba96a6bfee90",
+              "tier": "A",
+              "evidenceSpan": "CC-BY licence",
+              "extraction": "normalized"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "HCMC AI urban flood early-warning report 2022",
+      "role": "observed_event_and_model_calibration",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Hệ thống cảnh báo sớm ngập lụt đô thị dựa trên AI tại TP.HCM",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "ĐỀ TÀI: “NGHIÊN CỨU, XÂY DỰNG VÀ TRIỂN KHAI THỬ NGHIỆM HỆ\n THỐNG CẢNH BÁO SỚM NGẬP LỤT ĐÔ THỊ DỰA TRÊN NỀN TẢNG\n        TRÍ TUỆ NHÂN TẠO TẠI THÀNH PHỐ HỒ CHÍ MINH”",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "Đài Khí tượng Thủy văn khu vực Nam Bộ",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "Cơ quan chủ trì:      Đài Khí tượng Thuỷ văn khu vực Nam Bộ",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "observed_event_and_model_calibration",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "ĐỀ TÀI: “NGHIÊN CỨU, XÂY DỰNG VÀ TRIỂN KHAI THỬ NGHIỆM HỆ",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "sourced",
+          "value": "event observations; project 2020-2022",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "(Từ tháng: 12/2020 đến tháng 12/2022)",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "road and station observations",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "Hình 3.6. Đường Nguyễn Văn Hưởng ngập ngày 14/5/2020 .......................................... 92",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "public official research PDF",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "BÁO CÁO TỔNG HỢP",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "near-200 mm rainfall; flooding over 6 hours in Thao Dien corridor",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "Ngày 07/8, trận mưa lớn với lượng mưa đo được tại Thanh Đa gần 200mm,\n    Nguyễn Hữu Cảnh 195mm đã làm cho các tuyến đường trên địa bàn TPTĐ ngập sâu\n    như Nguyễn Văn Hưởng, Thảo Điền, Nguyễn Duy Trinh, Quốc Hương, thời gian ngập\n    kéo dài có nơi lên tới hơn 6 giờ.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "sourced",
+          "value": "2022 research report; not a live operational feed",
+          "sources": [
+            {
+              "source": "ttqlhtkt.hochiminhcity.gov.vn",
+              "url": "https://ttqlhtkt.hochiminhcity.gov.vn/documents/20197/31303/3.%2BBCTongHop_CanhBaoSomNgapLut-AI.pdf/5068c1da-04ed-4580-b7b6-127c7a40d74e",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-early-warning-report.html",
+              "rawSha256": "d4a1c1e427488deb8571c5371717d1b1c0cfb17d2b8d3e6fc68a34cc0605f694",
+              "tier": "A",
+              "evidenceSpan": "Thành phố Hồ Chí Minh, 11/2022",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "license": {
+          "state": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "id": "HCMC warning-marker study 1990-2024",
+      "role": "official_warning_method",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Hệ thống mốc cảnh báo ngập lụt TP.HCM",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "TP. Hồ Chí Minh xây dựng hệ thống mốc cảnh báo ngập lụt, tăng khả năng ứng phó thiên tai đô thị - Sở Khoa học và Công nghệ TPHCM",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "Sở Khoa học và Công nghệ TP.HCM",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "Sở Khoa học và Công nghệ TP. Hồ Chí Minh vừa tổ chức hội đồng tư vấn nghiệm thu nhiệm vụ khoa học và công nghệ \"Xây dựng hệ thống mốc cảnh báo lũ, ngập lụt và đề xuất mực nước tương ứng với cấp báo động tại một số vị trí thường xảy ra ngập lụt\".",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "official_warning_method",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "Sở Khoa học và Công nghệ TP. Hồ Chí Minh vừa tổ chức hội đồng tư vấn nghiệm thu nhiệm vụ khoa học và công nghệ \"Xây dựng hệ thống mốc cảnh báo lũ, ngập lụt và đề xuất mực nước tương ứng với cấp báo động tại một số vị trí thường xảy ra ngập lụt\".",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "sourced",
+          "value": "historical series 1990-2024",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "Theo đó, nhóm nghiên cứu đã khai thác chuỗi số liệu khí tượng thủy văn từ năm 1990 đến năm 2024, kết hợp khảo sát thực địa, đo đạc thủy văn, ứng dụng các mô hình MIKE 11, MIKE FLOOD để mô phỏng diễn biến ngập dưới tác động tổng hợp của triều cường, lũ và mưa đô thị. Đồng thời ứng dụng công nghệ GIS để xây dựng bản đồ ngập.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "digital flood map 1:50,000",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "Kết quả nhiệm vụ cũng xây dựng được bản đồ ngập lụt số hóa tỷ lệ 1/50.000, với đầy đủ các lớp dữ liệu hành chính, sông kênh rạch, vị trí mốc và mức ngập. Đây là cơ sở để các cơ quan quản lý lựa chọn phương án vận hành công trình, tổ chức cảnh báo, huy động lực lượng và triển khai các giải pháp ứng phó phù hợp với từng tình huống ngập lụt. Đáng chú ý, kết quả mô phỏng cho thấy khoảng 32,95% diện tích nội đô có nguy cơ chịu ảnh hưởng của ngập lụt theo các kịch bản nghiên cứu. Những thông tin này không chỉ phục vụ công tác phòng, chống thiên tai mà còn cung cấp cơ sở khoa học quan trọng cho quy hoạch hạ tầng thoát nước, quản lý phát triển đô thị và thích ứng với biến đổi khí hậu trong dài hạn.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "public official article",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "Tin hoạt động Sở",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "three alert levels from compound tide, flood and urban rainfall scenarios",
+          "sources": [
+            {
+              "source": "dost.hochiminhcity.gov.vn",
+              "url": "https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/tp-ho-chi-minh-xay-dung-he-thong-moc-canh-bao-ngap-lut-tang-kha-nang-ung-pho-thien-tai-do-thi/",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-warning-markers.html",
+              "rawSha256": "ce6d379d1dadedf25ab2fd523d5f0034e8c066169bcc3790448cfbe288e32cff",
+              "tier": "A",
+              "evidenceSpan": "Một trong những kết quả nổi bật của đề tài là xây dựng bộ cơ sở dữ liệu số hóa về khí tượng thủy văn, địa hình, hệ thống sông rạch và các mặt cắt thủy văn phục vụ công tác dự báo, quản lý ngập. Trên cơ sở đó, nhóm nghiên cứu đã lựa chọn và đề xuất 6 vị trí mốc cảnh báo tại các khu vực thường xuyên xảy ra ngập lụt, gồm Chợ Đệm, Cầu Chữ Y, Hiệp Phước, Tham Lương, Rạch Chiếc và Gò Dưa. Các mốc này được xác định là những điểm đại diện, có ý nghĩa trong việc theo dõi diễn biến ngập và truyền tải thông tin cảnh báo trực quan đến người dân. Tại mỗi vị trí, nhóm đề xuất mực nước tương ứng với ba cấp độ báo động dựa trên các kịch bản tổ hợp giữa triều cường, lũ và mưa, góp phần nâng cao độ chính xác của công tác cảnh báo tại từng khu vực.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "null",
+          "value": null
+        },
+        "license": {
+          "state": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "id": "HEC-RAS 2D precipitation boundary",
+      "role": "surface_2d_solver_input",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "HEC-RAS 2D global boundary conditions",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "Global Boundary Conditions",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "HEC-RAS",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "HEC-RAS 2D User's Manual",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "surface_2d_solver_input",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "HEC-RAS now has the capability to have spatially varying precipitation, evapotranspiration, and wind. Spatial precipitation, evapotranspiration, and wind data are added into the Unsteady Flow Boundary Conditions editor from the",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "null",
+          "value": null
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "gridded or point-gage precipitation",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "Spatial precipitation and evapotranspiration can be entered into HEC-RAS as either gridded data, point gage data, or a constant rate. The spatial precipitation and evapotranspiration data are added into HEC-RAS through the",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "public technical documentation",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "Download page",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "point gauges are interpolated to a grid for the computational engine",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "Users can also enter precipitation data as point gage data in HEC-RAS. This data is then interpolated in order to convert it to a gridded data form, which is how the computational engines use the data.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "sourced",
+          "value": "not recommended where coastal wave forcing is significant",
+          "sources": [
+            {
+              "source": "www.hec.usace.army.mil",
+              "url": "https://www.hec.usace.army.mil/confluence/rasdocs/r2dum/6.5/boundary-and-initial-conditions-for-2d-flow-areas/global-boundary-conditions",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hec-ras-2d-rainfall.html",
+              "rawSha256": "a1bcbdef30ab371591493a661d67a01a26b84dcd63549660a1bdd76fb7910bc5",
+              "tier": "A",
+              "evidenceSpan": "Gradients in atmospheric pressure act as a driving force for 2D flow models. Atmospheric pressure forcing is important when simulating coastal storms, hurricanes/cyclones when the gradients of atmospheric pressure can be significant. It is not recommended to use HEC-RAS as a coastal model since it does not have wave forcing and other processes. HEC-RAS should only be used for in areas where waves are not significant. Atmospheric pressure data can be entered in the",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "license": {
+          "state": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "id": "NASA GPM IMERG V07",
+      "role": "public_rainfall_fallback",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Integrated Multi-satellitE Retrievals for GPM (IMERG)",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "IMERG: Integrated Multi-satellitE Retrievals for GPM | NASA Global Precipitation Measurement Mission",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "NASA Global Precipitation Measurement Mission",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "IMERG: Integrated Multi-satellitE Retrievals for GPM | NASA Global Precipitation Measurement Mission",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "public_rainfall_fallback",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "to estimate precipitation over the majority of the Earth's surface. IMERG is particularly valuable over areas of Earth's surface that lack ground-based precipitation-measuring instruments, including oceans and remote areas.",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "sourced",
+          "value": "half-hourly",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "satellite’s operation (1998 - 2015) with recent precipitation estimates collected by the GPM mission (2014 - present) creating a continuous precipitation dataset spanning over two decades. This extended record allows scientists to compare past and present precipitation trends, enabling more accurate climate and weather models and a better understanding of Earth’s water cycle and extreme precipitation events. IMERG is available in near real-time with estimates of Earth’s precipitation updated every half-hour, enabling a wide range of",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "spatial_resolution": {
+          "state": "null",
+          "value": null
+        },
+        "access": {
+          "state": "sourced",
+          "value": "free Earthdata registration",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "Register for free with NASA Earthdata to view and analyze larger datasets:",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "Early Run nominal latency about 4 hours",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "IMERG Early Run provides the lowest latency available (4 hours), suitable for near real-time applications",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "sourced",
+          "value": "regridding can suppress precipitation maxima and expand rain events",
+          "sources": [
+            {
+              "source": "gpm.nasa.gov",
+              "url": "https://gpm.nasa.gov/data/imerg",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "nasa-imerg-v07.html",
+              "rawSha256": "d11e30e26c46deedbc8f258feab57904cdda0f495e6b2e607f0fe7e970d8bb01",
+              "tier": "A",
+              "evidenceSpan": "In the previous TMPA data set, each data value provided a precipitation rate based on one (or perhaps two) satellite snapshots during the TMPA’s 3-hour analysis period. IMERG values are based on a single microwave snapshot during its half-hour analysis period, or a morphed/Kalman filter interpolation if no microwave values are available. The values are expressed in the intensive units mm/hr; it is usually best to assume that this rate applies for the entire half-hour period. If you wish to regrid to a finer time and/or space grid, note that many interpolation schemes have the property of suppressing maxima in precipitation and expanding rain events into neighboring zero-amount periods, so it is critical that you examine this issue and state what scheme was used in documentation and papers.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "license": {
+          "state": "null",
+          "value": null
+        }
+      }
+    },
+    {
+      "id": "Thao Dien compound flood event 2025-10-08",
+      "role": "observed_compound_event",
+      "fields": {
+        "name": {
+          "state": "sourced",
+          "value": "Mưa lớn kết hợp triều cường gây ngập nhiều nơi",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "TPHCM: Mưa lớn kết hợp triều cường gây ngập nhiều nơi | CỔNG THÔNG TIN ĐIỆN TỬ - Hội đồng nhân dân Thành phố Hồ Chí Minh",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "publisher": {
+          "state": "sourced",
+          "value": "Hội đồng nhân dân TP.HCM",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "HĐND TP HỒ CHÍ MINH",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "role": {
+          "state": "sourced",
+          "value": "observed_compound_event",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "TPHCM: Mưa lớn kết hợp triều cường gây ngập nhiều nơi | CỔNG THÔNG TIN ĐIỆN TỬ - Hội đồng nhân dân Thành phố Hồ Chí Minh",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "temporal_resolution": {
+          "state": "sourced",
+          "value": "event on 2025-10-08",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "Cơn mưa lớn kéo dài từ chiều đến hơn 20 giờ 30 tối 8-10 khiến nhiều tuyến đường tại TPHCM rơi vào tình trạng ngập nặng, sinh hoạt người dân bị đảo lộn.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "spatial_resolution": {
+          "state": "sourced",
+          "value": "named road segments in Thao Dien",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "Ghi nhận hàng loạt tuyến đường ở phường An Khánh, TPHCM ngập sâu. Cụ thể, đường Quốc Hương ngập sâu từ 30-50cm, kéo dài khoảng 300m từ ngã ba Thảo Điền đến gần khu Masteri Thảo Điền. Nhiều xe chết máy, người dân phải dắt bộ trong dòng nước. Đường Nguyễn Văn Hưởng - nhiều đoạn sát bờ sông Sài Gòn ngập gần nửa bánh xe, sóng nước đánh mạnh vào nhà dân và quán cà phê ven đường. Đường Xuân Thủy, nước tràn qua vỉa hè, nhiều phương tiện không thể di chuyển, buộc phải quay đầu. Đường Tống Hữu Định, khu vực gần cầu Thảo Điền ngập sâu, nhiều ô tô bị nước tràn vào gầm, chết máy. Đường Thảo Điền, đoạn từ đường Nguyễn Văn Hưởng đến Quốc Hương bị ngập khoảng 40cm.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "access": {
+          "state": "sourced",
+          "value": "public official news page",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "TPHCM: Mưa lớn kết hợp triều cường gây ngập nhiều nơi | CỔNG THÔNG TIN ĐIỆN TỬ - Hội đồng nhân dân Thành phố Hồ Chí Minh",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "evidence_value": {
+          "state": "sourced",
+          "value": "Quoc Huong 0.30-0.50 m; Thao Dien about 0.40 m",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "Ghi nhận hàng loạt tuyến đường ở phường An Khánh, TPHCM ngập sâu. Cụ thể, đường Quốc Hương ngập sâu từ 30-50cm, kéo dài khoảng 300m từ ngã ba Thảo Điền đến gần khu Masteri Thảo Điền. Nhiều xe chết máy, người dân phải dắt bộ trong dòng nước. Đường Nguyễn Văn Hưởng - nhiều đoạn sát bờ sông Sài Gòn ngập gần nửa bánh xe, sóng nước đánh mạnh vào nhà dân và quán cà phê ven đường. Đường Xuân Thủy, nước tràn qua vỉa hè, nhiều phương tiện không thể di chuyển, buộc phải quay đầu. Đường Tống Hữu Định, khu vực gần cầu Thảo Điền ngập sâu, nhiều ô tô bị nước tràn vào gầm, chết máy. Đường Thảo Điền, đoạn từ đường Nguyễn Văn Hưởng đến Quốc Hương bị ngập khoảng 40cm.",
+              "extraction": "normalized"
+            }
+          ]
+        },
+        "limitation": {
+          "state": "sourced",
+          "value": "event observation without a published rain hyetograph or tide hydrograph",
+          "sources": [
+            {
+              "source": "hdnd.hochiminhcity.gov.vn",
+              "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/tphcm-mua-lon-ket-hop-trieu-cuong-gay-ngap-nhieu-noi",
+              "fetchedAt": "2026-09-23T03:40:19Z",
+              "snapshot": "hcmc-thao-dien-2025.html",
+              "rawSha256": "b2e2e56c05437e35bf503fa555d9ea733bff14fb770169dc772114ae59f67570",
+              "tier": "A",
+              "evidenceSpan": "Theo Đài Khí tượng Thủy văn Nam bộ và Tây Nguyên, rãnh áp thấp hoạt động mạnh gây mưa lớn trên diện rộng, kết hợp triều cường dâng cao, có nơi vượt báo động 3 khiến nhiều khu vực TPHCM bị ngập sâu.",
+              "extraction": "inferred"
+            }
+          ]
+        },
+        "license": {
+          "state": "null",
+          "value": null
+        }
+      }
+    }
+  ],
+  "registryDigest": "e79c5310a56569766c5b7881463f2150d482a284f2f4171b62b3e008da6f6b71"
+}

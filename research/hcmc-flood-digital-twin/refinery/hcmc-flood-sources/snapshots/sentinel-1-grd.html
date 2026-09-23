@@ -1,0 +1,272 @@
+CAPTURE_ID: sentinel-1-grd
+URL: https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1
+FETCHED_AT: 2026-09-23T03:40:19Z
+RAW_SHA256: ac571b67cbd4623b95851725f36ed389bbe5575d2e116f1f169a7b2b86391dc6
+CONTENT: normalized visible text; raw response retained beside snapshot
+---
+Sentinel-1 | Copernicus Data Space Ecosystem
+News
+Dashboard
+Cases
+Events
+Gallery
+Videos
+About
+Contact
+DATA
+Copernicus Sentinel Missions
+Copernicus Services
+Copernicus Contributing Missions
+Federated Data Sets
+Complementary Data
+STAC Browser
+ANALYSIS
+APIs
+Data Workspace
+Traceability
+JupyterLab
+openEO
+Sentinel Hub
+SERVICES
+ECOSYSTEM
+About the Ecosystem
+About the Ecosystem Services Registry
+Join the Ecosystem
+Explore Data
+Support
+FAQ
+Documentation portal
+Community forum
+Submit a request
+Video tutorials
+Data Availability
+Login
+Your profile
+openEO Algorithm Plaza
+Sentinel Hub
+News
+Dashboard
+Cases
+Events
+Gallery
+Videos
+About
+Contact
+DATA
+Copernicus Sentinel Missions
+Easy access to Earth observation data from the Copernicus Sentinel satellites.
+Copernicus Services
+Explore open datasets from the Copernicus Services to support environmental monitoring, disaster response, and climate analysis.
+Copernicus Contributing Missions
+High-resolution data complements Sentinel for better Earth observation coverage.
+Federated Data Sets
+New datasets from European providers enrich the Copernicus Data Space Ecosystem.
+Complementary Data
+Access complementary data collections that enhance Earth observation workflows with high-resolution imagery and curated datasets.
+STAC Browser
+Discover and search Earth observation data in the comprehensive and searchable STAC-compliant catalog.
+ANALYSIS
+APIs
+Use APIs like openEO for advanced data interaction.
+Data Workspace
+Create EO products on demand with a user-friendly interface.
+Traceability
+Track product integrity and availability from origin to download.
+JupyterLab
+Work with CDSE data instantly—no download required.
+openEO
+Build, run, and monitor EO workflows through a visual dashboard.
+Sentinel Hub
+Access and analyze Earth observation data without the need to develop or maintain their own infrastructure.
+SERVICES
+ECOSYSTEM
+About the Ecosystem
+The Copernicus Data Space Ecosystem offers flexible access, integration, and deployment options to help users turn Sentinel data into actionable applications.
+About the Ecosystem Services Registry
+The Ecosystem Services Registry offers flexible integration and federation options for both users and third-party providers to participate at varying levels based on their needs.
+Join the Ecosystem
+Join the Ecosystem Services Registry to increase the deployment and operation of your applications and services by making use of the Ecosystem resources.
+Explore Data
+Support
+FAQ
+Documentation portal
+Community forum
+Submit a request
+Video tutorials
+Data Availability
+Login
+Your profile
+Log in to your account to access all services or edit your profile.
+openEO Algorithm Plaza
+Log in to the openEO Algorithm Plaza and access ready-to-use algorithms that run directly on EO data.
+Sentinel Hub
+Access the Sentinel Hub dashboard, monitor processing units and generate OAuth clients.
+Home
+/
+Data Collections
+/
+Copernicus Sentinel Missions
+Sentinel-1
+The Sentinel-1 mission comprises a constellation of two polar-orbiting satellites, operating day and night. These satellites use C-band synthetic aperture radar imaging, which allows them to capture images in all weather conditions.
+Two polar-orbiting satellites
+The Sentinel-1 mission is the European Radar Observatory for the Copernicus joint initiative of the European Commission (EC) and the European Space Agency (ESA).
+Copernicus is a European initiative for the implementation of information services dealing with environment and security. It is based on observation data received from Earth Observation satellites and ground-based information.
+The Sentinel-1 mission includes C-band imaging operating in four exclusive imaging modes with different resolution (down to 5 m) and coverage (up to 400 km).
+It provides dual polarization capability, short revisit times and rapid product delivery. Additionally, precise measurements of spacecraft position and attitude are available for every observation.
+Following products are available in the data space:
+Product Type
+Spatial Extent
+Temporal Extent
+documenTation
+GRD (*) Packed or Unpacked (IAD)
+World
+Oct 2014 - Present
+Documentation
+GRD
+(**) Packed or Unpacked, SAFE with Cloud optimized GeoTIFF (IAD)
+World
+Oct 2014 - Present
+Documentation
+GRD
+(***) Packed, original SAFE (IAD)
+World
+Last one year
+Documentation
+SLC (*) Packed or Unpacked (IAD)
+Europe
+Oct 2014 - Present
+Documentation
+SLC (*) Packed or Unpacked (IAD)
+Except Europe (RoW)
+Feb 2021 - Present
+Documentation
+SLC
+Packed or Unpacked (IAD)
+World
+Oct 2014 - Present
+Documentation
+OCN (*) Unpacked (IAD)
+World
+Dec 2014 - Present
+Documentation
+OCN
+Unpacked (IAD)
+World
+Dec 2014 - Present
+Documentation
+Level 0
+Packed or Unpacked (IAD)
+World
+Jan 2021 - Present
+Documentation
+Level 0 Packed or Unpacked (IAD)
+Europe
+Oct 2014 - Present
+Documentation
+Level 0
+Packed or Unpacked (IAD)
+Except Europe (RoW)
+Last one year
+Documentation
+Level 3 Monthly Mosaics Packed or Unpacked
+World
+Oct 2014 - Present
+Documentation
+POD
+AUX_RESORB
+Documentation
+POD
+AUX_POEORB
+Documentation
+POD
+AUX_PREORB
+Documentation
+POD
+AUX_GNSSRD
+Documentation
+POD
+AUX_PROQUA
+Documentation
+(*) packed means data are available as bundle (zipped), unpacked means data is available as single files
+.
+(**) Conversion of Sentinel-1 GRD products to the SAFE with Cloud Optimized GeoTIFF (COG_SAFE) was performed in June 2023. Please refer to here for more information regarding how COG_SAFE is created and how to search for such products.
+(***) Original Sentinel-1 GRD products older than one year will be accessible with deferred availability (DAD), while the entire archive of COG_SAFE products will be available immediately (IAD). In case original Sentinel-1 GRD products would be needed with immediate access, users can convert COG_SAFE products to the original SAFE products
+using COG2GRD tool
+.
+SLC Bursts
+The SLC (Single Look Complex) Burst products capture data in bursts, which are segments of radar echoes acquired by cyclically switching the antenna beam across multiple sub-swaths. A burst cycle comprises three consecutive subswaths in IW mode (IW1, IW2, IW3) or five consecutive bursts in EW mode (EW1, EW2, EW3, EW4, EW5).
+The Copernicus Data Space Ecosystem provides access to Sentinel-1 SLC Bursts products which are extracted from the following Sentinel-1 product types:
+IW_SLC__1S
+EW_SLC__1S
+The OData interface allows for downloading of entire Sentinel-1 SLC Bursts products via
+Sentinel-1 SLC Bursts endpoint
+. More information about downloading SLC Bursts can be found on the
+documentation portal
+.
+Compressed products
+Copernicus Data Space Ecosystems offers access to packed products. Packed means that data are available in the original bundling (compressed zipping).
+Currently, users can access Sentinel-1 (RAW, GRD, SLC) data stored in native format and bundled (zipped files) for one month following their publication date within Data Space Catalogue.
+Within the Copernicus Data Space Ecosystem, Sentinel-1 (RAW, GRD, SLC) products are stored in their original compressed form as a single object within another location, alongside uncompressed products. Users can check the available product forms (compressed/uncompressed) and their locations using OData API by adding
+$expand=Locations
+at the end of the catalogue query.
+The OData interface also allows for downloading of entire Sentinel-1 (RAW, GRD, SLC) products in their original form. More information about downloading compressed products can be found on the
+documentation portal
+. The access to the original compressed products is not possible via S3 interface.
+© contains modified Copernicus Sentinel data (2019), processed by ESA, CC BY-SA 3.0 IGO
+Monitoring day and night, under all weather conditions
+Synthetic Aperture Radar (SAR) has the advantage of operating at wavelengths that are not affected by cloud cover or lack of illumination, allowing it to acquire data over a site during both day and night time, and under all weather conditions. The C-SAR instrument of Sentinel-1 provides reliable and repeated wide area monitoring.
+The mission consists of a constellation of two satellites, Sentinel-1A and Sentinel-1B, sharing the same orbital plane. Unfortunately, Sentinel-1B experienced a power failure on December 23, 2021, and is no longer operational. It was replaced by Sentinel-1C, whose data have been accessible through this ecosystem since January 2025.
+Sentinel-1 is designed to work in a pre-programmed, conflict-free operation mode. It captures high-resolution images of all landmasses, coastal zones, and shipping routes worldwide, and provides vignettes of the global ocean. This ensures the reliability of service required by operational services and ensures a consistent long-term data archive for applications based on long time series.
+More about Sentinel-1
+Sentinel-1
+Data access
+Sentinel-1 user data are available. Access restrictions may apply. More information is available in the documentation.
+read more
+Related news
+September 18, 2026
+Copernicus Sentinel-5P Unavailability on 16 September 2026
+Operational ESA news
+Sentinel-5P
+Read article
+September 17, 2026
+New Sentinel-5P Level-2 collections available in openEO on CDSE
+General
+New data
+Sentinel-5P
+Read article
+September 16, 2026
+openEO on CDSE expands access to land monitoring and Sentinel-5P data
+General
+New data
+Sentinel-5P
+Read article
+Data
+Sentinel
+Copernicus Services
+Complementary data
+Federated data sets
+Analysis
+APIs
+Data Workspace
+Traceability
+JupyterLab
+openEO
+Sentinel Hub
+Ecosystem & Services
+Services Registry
+Support & More
+Support
+Login
+News
+Dashboard
+Events
+Gallery
+Videos
+About
+Newsletter
+Do you have questions?
+Contact us via the
+about page
+Terms and conditions
+Cookie Policy
+Privacy policy

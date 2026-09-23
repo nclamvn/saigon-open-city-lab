@@ -1,0 +1,101 @@
+{
+  "version": "25c",
+  "engine": {
+    "library": "three.js",
+    "revision": "186",
+    "preferredBackend": "WebGPU",
+    "fallbackBackend": "WebGL 2",
+    "shaderSystem": "TSL / NodeMaterial"
+  },
+  "scope": {
+    "areaKm2": 38.57,
+    "renderedBuildings": 70726,
+    "materialFamilies": 8,
+    "lightingStates": [
+      "day",
+      "golden",
+      "night"
+    ]
+  },
+  "materialLogic": {
+    "directPriority": [
+      "building:colour",
+      "roof:colour",
+      "building:material",
+      "roof:material"
+    ],
+    "inferenceInputs": [
+      "building type",
+      "glass flag",
+      "height",
+      "central-area context",
+      "stable source id"
+    ],
+    "proceduralSignals": [
+      "wall weathering",
+      "floor and bay rhythm",
+      "window glazing",
+      "roof tint",
+      "ground-floor shop band",
+      "distance fade",
+      "night occupancy"
+    ],
+    "runtimeControls": [
+      "realism blend",
+      "baseline hold comparison",
+      "lighting state",
+      "camera presets"
+    ]
+  },
+  "provenance": {
+    "geometry": [
+      "OpenStreetMap",
+      "Overture Maps"
+    ],
+    "directMaterialTags": "data/semantic-materials-08.json",
+    "groundImagery": "EOX Cloudless, modified Copernicus Sentinel 2016/2017, CC BY 4.0",
+    "environmentLighting": "Poly Haven Venice Sunset 1K, CC0",
+    "software": "three.js r186, MIT",
+    "baSonAndMarina": "data/ba-son-marina-24.json"
+  },
+  "corrections24b": {
+    "baSonBridge": "113 m asymmetric cable-stayed pylon, two cable planes and 28 stylised stays restored in the WebGPU renderer",
+    "marinaCentralTower": "55 floors and 240 m official attributes anchored to OSM building parts 1432358258, 1432358259 and 1432358260"
+  },
+  "corrections24c": {
+    "grandMarinaResidences": "Four stale 22.7-25.3 m construction footprints are rendered as the existing high-rise residential cluster using official storey counts and explicitly marked height proxies",
+    "osmPartIds": [
+      1151026864,
+      1151026865,
+      1151026866,
+      1151026867
+    ],
+    "modelledHeightsM": [
+      170,
+      170,
+      170,
+      162
+    ]
+  },
+  "limits": [
+    "Material inference is not a building-by-building facade survey.",
+    "Most building heights remain estimated from open data.",
+    "Procedural windows do not assert the measured position or count of real windows.",
+    "The current scope is the 38.57 km2 demo region, not the full administrative area of Ho Chi Minh City.",
+    "WebGPU availability and performance depend on the browser, operating system, GPU and driver."
+  ],
+  "corrections24e": {
+    "dayGlass": "Raised minimum glazing luminance and reduced daytime window-mask blend from full replacement to 38%",
+    "nightGlass": "Preserved deeper glazing at a controlled 72% maximum blend",
+    "purpose": "Retain facade rhythm without the perforated black-window appearance"
+  },
+  "flood25c": {
+    "pilot": "Thao Dien - Quoc Huong - Nguyen Van Huong",
+    "rainControlMm": [0, 200],
+    "tideControlM": [1.4, 1.8],
+    "reference": "reported near-200 mm historical event",
+    "waterLayer": "bounded visual proxy on named OSM road centrelines with IOC beacons",
+    "hydraulicOutput": false,
+    "warning": "Not a forecast; requires DTM, drainage, rain/tide time series and calibration"
+  }
+}
