@@ -10,7 +10,7 @@ Kết quả này không chứng minh mọi góc nhìn TP.HCM đều sặc sỡ. 
 
 ## Cấu hình mặc định
 
-- Tường có 48 màu theo tám họ vật liệu; mái có 40 biến thể đỏ oxit, terracotta, tôn xanh, cyan và xám ấm.
+- Tường có 48 màu theo tám họ vật liệu; mái có 40 biến thể đỏ oxit, terracotta, tôn xanh, cyan và xám ấm. Công trình kính, công trình trung tâm và khối cao từ 45 m được giới hạn độ bão hòa riêng để hiện xám bạc–xám xanh nhạt thay vì thành các khối cyan.
 - Shader tăng bão hòa từ 1,06 ở xa đến 1,18 ở gần; tương phản từ 1,045 đến 1,10 trước ACES tone mapping.
 - Cây dùng biến thiên hue/saturation có hạt giống ổn định; công viên, mặt đường, vỉa hè, vạch đường và nước có dải màu tách lớp rõ hơn.
 - Ba trạng thái Ngày, Giờ vàng và Đêm vẫn là ánh sáng môi trường cần thiết, không phải chế độ color grade. Mỗi trạng thái có nền trời, sương, mặt trời, hemisphere light và exposure riêng.

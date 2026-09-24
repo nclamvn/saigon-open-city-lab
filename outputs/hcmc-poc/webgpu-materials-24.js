@@ -106,26 +106,26 @@ function classify(b){
   return b.h<22?families.GENERIC:families.MIXED;
 }
 
-// Broad HCMC aerial palette: warm masonry and roofs, cyan glass and water,
+// Broad HCMC aerial palette: warm masonry and roofs, neutral reflective towers,
 // several tropical greens. Distribution is deterministic per footprint so the
 // city remains stable between frames without claiming surveyed facade colours.
 const palettes=[
   ['#e4cfaa','#d4b98e','#f0dfbd','#c6d4b3','#c0d7d5','#dfb6a0'],
   ['#e29a78','#f0bd8c','#c96f55','#eed29a','#9ac7b2','#83bcc2'],
-  ['#5598aa','#397b91','#75b4b4','#557b9a','#83a8b6','#3f8990'],
+  ['#909b9c','#758388','#aab0ac','#7f8b90','#9ea8a8','#69777b'],
   ['#e3bd6c','#d89e55','#f0d59b','#d88368','#b8c78e','#f0c9ab'],
   ['#778989','#65787d','#9a9c8a','#586f78','#889b8c','#a39075'],
-  ['#56a0a7','#438495','#7ab8b1','#6783a2','#8bbeb4','#4f918c'],
+  ['#a3aaa4','#899494','#b3aea1','#859596','#a0aaa4','#79878a'],
   ['#dc8e47','#c96d3c','#edbd65','#f0d49a','#b77942','#d65b3f'],
   ['#c5b38f','#a7bc91','#d4a28c','#91babb','#bea8c3','#d9c47f']
 ];
 const roofPalettes=[
   ['#a15f46','#c4774d','#6f8379','#527e8c','#8c7766'],
   ['#ad4937','#d26842','#8e3840','#d9914c','#568575'],
-  ['#416d78','#4f8793','#536e8b','#72999b','#315c70'],
+  ['#5f6d70','#727f82','#66747a','#89918e','#505d62'],
   ['#b67c43','#d69b4a','#9d543e','#d2b66d','#6f8a78'],
   ['#586c70','#6d7770','#487584','#8b765f','#5f836e'],
-  ['#3f747d','#528c91','#46728e','#6ba09a','#335f6e'],
+  ['#5b696c','#6f7b7c','#637077','#858e89','#4f5d61'],
   ['#b64d32','#d66f39','#9e382f','#d69b43','#8e552e'],
   ['#837361','#9a5d48','#5f8178','#4e7f91','#8d6e82']
 ];
@@ -144,6 +144,11 @@ function baseColors(b,kind){
   const p=palettes[kind],rp=roofPalettes[kind];
   const wall=taggedColor(d['building:colour'],new THREE.Color(p[Math.floor(seed*p.length)]));
   const roof=taggedColor(d['roof:colour'],new THREE.Color(rp[Math.floor(hash01(Number(b.id)+913)*rp.length)]));
+  if(kind===families.GLASS||kind===families.CENTRAL||b.h>=45){
+    const wallHsl={h:0,s:0,l:0},roofHsl={h:0,s:0,l:0};wall.getHSL(wallHsl);roof.getHSL(roofHsl);
+    wall.setHSL(wallHsl.h,Math.min(kind===families.GLASS?.14:.2,wallHsl.s),Math.max(.34,Math.min(.7,wallHsl.l)));
+    roof.setHSL(roofHsl.h,Math.min(.16,roofHsl.s),Math.max(.24,Math.min(.58,roofHsl.l)));
+  }
   return {wall,roof,direct:!!(d['building:colour']||d['roof:colour']||d['building:material']||d['roof:material'])};
 }
 
@@ -226,10 +231,10 @@ const facadeNoise=fract(sin(dot(positionWorld.xz,vec2(.06711056,.00584731)).add(
 const verticalShade=mix(.83,1.05,smoothstep(1.5,85,facadeUv.y));
 const wallWeather=mix(.86,1.08,facadeNoise).mul(verticalShade);
 const wallColor=base.mul(wallWeather);
-const glassDay=mix(color('#58727a'),color('#91aaac'),smoothstep(.2,.86,roomRandom));
-const glassNight=mix(color('#29414a'),color('#667c7d'),roomRandom);
+const glassDay=mix(color('#687477'),color('#a8afad'),smoothstep(.2,.86,roomRandom));
+const glassNight=mix(color('#303c42'),color('#70797a'),roomRandom);
 const glassColor=mix(glassDay,glassNight,nightLevel.mul(.75));
-const concreteWindow=mix(color('#566b70'),color('#859693'),roomRandom.mul(.7));
+const concreteWindow=mix(color('#5f696b'),color('#909895'),roomRandom.mul(.7));
 const windowColor=select(isGlass,glassColor,concreteWindow);
 const windowBlend=windowMask.mul(mix(float(.38),float(.72),nightLevel));
 const floorBand=float(1).sub(smoothstep(.02,.095,cell.y)).mul(isWall).mul(detailFade);
