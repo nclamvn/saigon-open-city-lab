@@ -76,6 +76,15 @@ check('Visual 26 uses bounded haze, directional contact shading and separated PB
   assert(js.includes("scene.fog.density=Math.min(activeFogDensity,Math.max(.000018,.22/cameraDistance))"));
   assert(js.includes("sun.shadow.mapSize.set(4096,4096)"));
 });
+check('Urban motion 26B stays on audited roads and inside the river',()=>{
+  assert(js.includes("trafficGroup.name='Dense Vietnamese road traffic · illustrative'"));
+  assert(js.includes('trafficItems.length>=1800'));
+  assert(js.includes("kind=roll<.78?'motorbike':roll<.97?'car':'bus'"));
+  assert(js.includes('roadSegmentClear(segment.a,segment.b'));
+  assert(js.includes('vesselSamplesOutsideWater'));
+  assert(js.includes("vesselRoute:'illustrative Saigon River lane'"));
+  assert(js.includes('advanceUrbanMotion(now)'));
+});
 check('Public entry from the stable demo exists',()=>{
   assert(entry.includes('webgpu-materials-24.html'));
   assert(read('index.html').includes('webgpu-entry-24.js'));

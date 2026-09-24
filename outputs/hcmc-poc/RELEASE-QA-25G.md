@@ -4,7 +4,7 @@ Ngày kiểm tra: 24/09/2026. Phạm vi: shell WebGPU hiện hành tại `webgpu
 
 ## Kết quả
 
-- 5 bộ QA hiện hành vượt qua 40 kiểm tra: integrity, project hygiene, vật liệu WebGPU, Flood Lab và Construction Change data. Kiểm tra thứ 40 khóa Visual 26 vào sương có giới hạn, contact shading, PBR theo lớp và shadow map 4.096 px.
+- 5 bộ QA hiện hành vượt qua 41 kiểm tra: integrity, project hygiene, vật liệu WebGPU, Flood Lab và Construction Change data. Hai kiểm tra mới khóa Visual 26 và Urban Motion 26B vào sương có giới hạn, PBR theo lớp, giao thông bám tim đường và tàu nằm trong polygon nước.
 - `node --check` vượt qua cho renderer, Flood Lab và entry module.
 - Trình duyệt thật khởi tạo bằng WebGPU, không ghi warning/error vào console.
 - Bốn góc nhìn (`overview`, `river`, `boulevard`, `bason`) và ba trạng thái ánh sáng hoạt động, URL và trạng thái active đồng bộ.
