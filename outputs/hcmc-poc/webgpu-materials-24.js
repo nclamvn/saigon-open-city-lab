@@ -590,8 +590,11 @@ const vesselLengths=vesselNodes.slice(1).map((point,index)=>point.distanceTo(ves
 function vesselAt(u){let distance=u*vesselTotal,index=0;while(index<vesselLengths.length-1&&distance>vesselLengths[index])distance-=vesselLengths[index++];const a=vesselNodes[index],b=vesselNodes[index+1],q=Math.min(1,distance/vesselLengths[index]);return{point:a.clone().lerp(b,q),direction:b.clone().sub(a).normalize()};}
 function pointInWater(point){return D.water.some(rings=>contains(point,rings[0])&&!rings.slice(1).some(hole=>contains(point,hole)));}
 const vesselLanes=[-10,-5,0,5,10],vesselItems=Array.from({length:22},(_,index)=>({phase:index/22+motionRandom()*.025,speed:.0027+motionRandom()*.0024,lane:vesselLanes[index%vesselLanes.length],type:index%6===0?'barge':index%3===0?'ferry':'speedboat',reverse:index%2===1,colorSeed:motionRandom()}));
+function vesselProgress(item,timeSeconds){const cycle=(item.phase+timeSeconds*item.speed)%2,baseU=cycle<=1?cycle:2-cycle;return{u:item.reverse?1-baseU:baseU,backward:(cycle>1)!==item.reverse};}
 let vesselAuditSamples=0,vesselSamplesOutsideWater=0;
 for(let i=0;i<=1200;i++){const state=vesselAt(i/1200),nx=-state.direction.z,nz=state.direction.x;for(const lane of vesselLanes){vesselAuditSamples++;if(!pointInWater([state.point.x+nx*lane,state.point.z+nz*lane]))vesselSamplesOutsideWater++;}}
+let vesselHeadingMismatches=0;
+for(const item of vesselItems){for(const sampleTime of [17,43,79]){const a=vesselProgress(item,sampleTime),b=vesselProgress(item,sampleTime+.02),velocitySign=Math.sign(b.u-a.u),headingSign=a.backward?-1:1;if(velocitySign&&velocitySign!==headingSign)vesselHeadingMismatches++;}}
 const hullGeometry=new THREE.BufferGeometry();hullGeometry.setAttribute('position',new THREE.Float32BufferAttribute([-6,-1,-2.2,-6,-1,2.2,-5,1,-1.9,-5,1,1.9,7,-.4,0,5,1,-1.2,5,1,1.2],3));hullGeometry.setIndex([0,4,2,2,4,5,1,3,4,3,6,4,0,1,4,2,5,6,2,6,3,0,2,1,1,2,3,5,4,6]);hullGeometry.computeVertexNormals();
 const hullMaterial=new THREE.MeshStandardNodeMaterial({color:'#d8d3c5',roughness:.38,metalness:.13});
 const cabinMaterial=new THREE.MeshStandardNodeMaterial({color:'#d8dfdc',roughness:.3,metalness:.12});
@@ -634,7 +637,7 @@ function advanceUrbanMotion(now){
   }
   for(const mesh of [trafficBody,trafficTop,trafficLights])mesh.instanceMatrix.needsUpdate=true;
   for(let i=0;i<vesselItems.length;i++){
-    const item=vesselItems[i],cycle=(item.phase+timeSeconds*item.speed)%2,u=cycle<=1?cycle:2-cycle,backward=(cycle>1)!==item.reverse,state=vesselAt(u),direction=backward?state.direction.clone().multiplyScalar(-1):state.direction,nx=-direction.z,nz=direction.x;
+    const item=vesselItems[i],progress=vesselProgress(item,timeSeconds),state=vesselAt(progress.u),direction=progress.backward?state.direction.clone().multiplyScalar(-1):state.direction,nx=-direction.z,nz=direction.x;
     const x=state.point.x+nx*item.lane,z=state.point.z+nz*item.lane,rotation=-Math.atan2(direction.z,direction.x),scale=item.type==='barge'?1.55:item.type==='ferry'?1.2:.78;
     const specs=[[vesselHulls,0,3.05,scale,1,1],[vesselCabins,-1.2,5.0,6.4*scale,2.25,3.0],[vesselWindows,-.6,5.25,6.55*scale,1.1,3.08]];
     for(const [mesh,offset,y,sx,sy,sz] of specs){motionDummy.position.set(x+direction.x*offset,y,z+direction.z*offset);motionDummy.rotation.set(0,rotation,0);motionDummy.scale.set(sx,sy,sz);motionDummy.updateMatrix();mesh.setMatrixAt(i,motionDummy.matrix);}
@@ -644,8 +647,8 @@ function advanceUrbanMotion(now){
   for(const mesh of [vesselHulls,vesselCabins,vesselWindows,...vesselWakes])mesh.instanceMatrix.needsUpdate=true;
   materialStatus.motion.lastFrame=motionFrame;
 }
-materialStatus.motion={motorbikes:trafficItems.filter(item=>item.kind==='motorbike').length,cars:trafficItems.filter(item=>item.kind==='car').length,buses:trafficItems.filter(item=>item.kind==='bus').length,nearCore:trafficItems.filter(item=>Math.hypot((item.a[0]+item.b[0])*.5,(item.a[1]+item.b[1])*.5)<2200).length,vessels:vesselItems.length,roadSegments:trafficItems.length,roadSource:'OSM centerlines',vesselRoute:'illustrative Saigon River lane',vesselAuditSamples,vesselSamplesOutsideWater,classification:'procedural visual motion; not live traffic or AIS'};
-document.body.dataset.motionTraffic=String(trafficItems.length);document.body.dataset.motionMotorbikes=String(materialStatus.motion.motorbikes);document.body.dataset.motionCars=String(materialStatus.motion.cars);document.body.dataset.motionBuses=String(materialStatus.motion.buses);document.body.dataset.motionNearCore=String(materialStatus.motion.nearCore);document.body.dataset.motionVessels=String(vesselItems.length);document.body.dataset.motionVesselOutside=String(vesselSamplesOutsideWater);
+materialStatus.motion={motorbikes:trafficItems.filter(item=>item.kind==='motorbike').length,cars:trafficItems.filter(item=>item.kind==='car').length,buses:trafficItems.filter(item=>item.kind==='bus').length,nearCore:trafficItems.filter(item=>Math.hypot((item.a[0]+item.b[0])*.5,(item.a[1]+item.b[1])*.5)<2200).length,vessels:vesselItems.length,roadSegments:trafficItems.length,roadSource:'OSM centerlines',vesselRoute:'illustrative Saigon River lane',vesselAuditSamples,vesselSamplesOutsideWater,vesselHeadingMismatches,classification:'procedural visual motion; not live traffic or AIS'};
+document.body.dataset.motionTraffic=String(trafficItems.length);document.body.dataset.motionMotorbikes=String(materialStatus.motion.motorbikes);document.body.dataset.motionCars=String(materialStatus.motion.cars);document.body.dataset.motionBuses=String(materialStatus.motion.buses);document.body.dataset.motionNearCore=String(materialStatus.motion.nearCore);document.body.dataset.motionVessels=String(vesselItems.length);document.body.dataset.motionVesselOutside=String(vesselSamplesOutsideWater);document.body.dataset.motionVesselHeadingMismatch=String(vesselHeadingMismatches);
 
 const fixtureMaterial=new THREE.MeshStandardNodeMaterial({color:'#6d7772',roughness:.68,metalness:.2});
 const fixtures=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),fixtureMaterial,roofFixtures.length);
