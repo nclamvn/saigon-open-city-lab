@@ -59,15 +59,17 @@ check('Every navigation choice has a camera or lighting state',()=>{
   assert(renderer.includes('flood25:{'), 'Missing Flood Lab camera preset');
 });
 
-check('Reference and presentation profiles are synchronized and scientifically bounded',()=>{
-  const grades=[...html.matchAll(/data-grade="([^"]+)"/g)].map(match=>match[1]);
-  assert.equal(grades.filter(value=>value==='reference').length,2);
-  assert.equal(grades.filter(value=>value==='presentation').length,2);
-  assert(renderer.includes("visualProfile=['reference','presentation'].includes(requestedVisualProfile)"));
-  assert(renderer.includes("visualProfile==='presentation'?{saturation:1.1,contrast:1.075"));
-  assert(renderer.includes("presentation:{background:'#78a3ad',fog:'#8fadb2',fogDensity:.000095"));
-  assert(renderer.includes("reference:{background:'#9bb7bd',fog:'#9bb7bd',fogDensity:.000145"));
-  assert(renderer.includes("document.querySelectorAll('[data-grade]')"));
+check('Aerial colour system is a single bounded default with distance-aware grading',()=>{
+  assert(!html.includes('data-grade='));
+  assert(!renderer.includes('visualProfile'));
+  assert(!renderer.includes('visualGrade'));
+  assert(!renderer.includes('grade='));
+  assert(renderer.includes("const richSaturation=mix(float(1.06),float(1.18),detailFade)"));
+  assert(renderer.includes("const richContrast=mix(float(1.045),float(1.1),detailFade)"));
+  assert(renderer.includes("day:{background:'#6f9eaa',fog:'#86a9ae',fogDensity:.0001"));
+  assert(renderer.includes("golden:{background:'#8f7064',fog:'#a08878',fogDensity:.000105"));
+  assert(renderer.includes("const roadColors={edge:'#8c9188',asphalt:'#293534',pedestrian:'#c8ad84',marking:'#f4db80'}"));
+  assert(renderer.includes("const waterLow=color('#0c5068')"));
 });
 
 check('Release CSS contains no invalid units or retired component selectors',()=>{

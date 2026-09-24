@@ -8,12 +8,12 @@ Ngày kiểm tra: 24/09/2026. Phạm vi: shell WebGPU hiện hành tại `webgpu
 - `node --check` vượt qua cho renderer, Flood Lab và entry module.
 - Trình duyệt thật khởi tạo bằng WebGPU, không ghi warning/error vào console.
 - Bốn góc nhìn (`overview`, `river`, `boulevard`, `bason`) và ba trạng thái ánh sáng hoạt động, URL và trạng thái active đồng bộ.
-- Hai hồ sơ màu `reference` / `presentation` đồng bộ giữa hai vị trí điều khiển, lưu trạng thái và cập nhật URL; tham số URL được ưu tiên khi mở liên kết.
+- Một hệ màu trên cao duy nhất là mặc định: không còn nút, trạng thái lưu hay tham số URL `grade`; màu cận/trung cảnh được tăng có giới hạn và lớp xa dịu theo sương.
 - Ẩn/hiện toàn bộ UI, thu gọn/mở điều hướng, thu gọn/mở Flood Lab và chạy/dừng mưa hoạt động.
 - Kịch bản xấu nhất đặt đúng giới hạn 200 mm, triều 1,80 m, cảnh báo đỏ và độ sâu proxy 50 cm.
 - Desktop 1280×720 và mobile 390×844 không có va chạm giữa topbar, điều hướng, Flood Lab và HUD; chiều rộng tài liệu mobile đúng 390 px.
 - Nút chữ đang hiển thị có cỡ tối thiểu 12 px và chiều cao 40–44 px; nút icon là 32 px.
-- Visual Calibration chạy bằng shader/material và ánh sáng WebGPU, không phát sinh warning/error; kiểm tra ổn định đạt khoảng 30–33 FPS ở 1280×720 trên phiên QA.
+- Visual Calibration chạy bằng shader/material và ánh sáng WebGPU, không phát sinh warning/error; bảng màu mái–tường–kính–cây–đường–nước đã được mở rộng từ tập ảnh trên cao có provenance.
 
 ## Dọn mã và tài sản
 

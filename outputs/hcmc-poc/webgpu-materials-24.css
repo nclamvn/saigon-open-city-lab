@@ -220,7 +220,7 @@ body.ui-hidden .flood-lab,body.ui-hidden .ioc-alert-bar{opacity:0;pointer-events
 .nav-head h2{margin:0;font-size:13px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .nav-body{max-height:282px;margin-top:10px}
 .nav-views{display:grid;grid-template-columns:1fr 1fr;gap:6px}
-.nav-views button,.nav-light button,.nav-grade button,.nav-flood{
+.nav-views button,.nav-light button,.nav-flood{
   min-width:0;
   height:40px;
   border:1px solid rgba(220,237,232,.14);
@@ -231,20 +231,18 @@ body.ui-hidden .flood-lab,body.ui-hidden .ioc-alert-bar{opacity:0;pointer-events
   font-size:9px;
   font-weight:700;
 }
-.nav-views button:hover,.nav-views button:focus-visible,.nav-light button:hover,.nav-light button:focus-visible,.nav-grade button:hover,.nav-grade button:focus-visible,.nav-flood:hover,.nav-flood:focus-visible{
+.nav-views button:hover,.nav-views button:focus-visible,.nav-light button:hover,.nav-light button:focus-visible,.nav-flood:hover,.nav-flood:focus-visible{
   outline:none;
   border-color:rgba(121,211,189,.55);
   background:rgba(121,211,189,.1);
 }
-.nav-views button.active,.nav-light button.active,.nav-grade button.active,.nav-flood.active{
+.nav-views button.active,.nav-light button.active,.nav-flood.active{
   border-color:rgba(233,187,131,.62);
   background:rgba(233,187,131,.16);
   color:#fff3e4;
 }
 .nav-light{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:8px;padding:3px;border-radius:11px;background:rgba(1,13,17,.2)}
 .nav-light button{height:32px;border-color:transparent;border-radius:8px;font-size:8px}
-.nav-grade{display:grid;grid-template-columns:repeat(2,1fr);gap:3px;margin-top:6px;padding:3px;border-radius:11px;background:rgba(1,13,17,.2)}
-.nav-grade button{height:32px;border-color:transparent;border-radius:8px;font-size:8px}
 .nav-flood{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px}
 .ioc-alert-bar{
   left:calc(var(--edge) + 264px);
@@ -296,7 +294,7 @@ body.ui-hidden #toggleUi .toggle-show-icon{display:block}
   .nav-body::-webkit-scrollbar{display:none}
   .nav-views{display:flex;flex:0 0 auto;gap:6px}
   .nav-views button{flex:0 0 auto;height:36px;padding:0 12px}
-  .nav-light,.nav-grade{display:none}
+  .nav-light{display:none}
   .nav-flood{flex:0 0 auto;width:auto;height:36px;margin:0;padding:0 12px}
   .selection{bottom:102px}
   .ioc-alert-bar{display:none!important}
@@ -331,18 +329,12 @@ button:focus-visible,select:focus-visible,a:focus-visible{
 .nav-head p,.story .kicker,.control-head p,.selection-head p,.flood-head p{font-size:9px}
 .nav-head h2,.story-head h2,.control-head h2{font-size:14px}
 .flood-head h2{font-size:17px}
-.nav-views button,.nav-light button,.nav-grade button,.nav-flood{
+.nav-views button,.nav-light button,.nav-flood{
   min-height:40px;
   font-size:var(--button-text);
   line-height:1.2;
 }
 .nav-light button{height:40px;padding:0 4px;font-size:12px;white-space:nowrap}
-.nav-grade button{height:40px;padding:0 4px;font-size:12px;white-space:nowrap}
-.control-label{margin:13px 0 7px;color:var(--muted);font-size:10px;font-weight:750;letter-spacing:.08em;text-transform:uppercase}
-.grade-toggle{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;border-radius:13px;background:rgba(1,13,17,.3)}
-.grade-toggle button{min-height:40px;border:0;border-radius:10px;background:transparent;color:rgba(244,247,241,.72);font-size:12px;font-weight:700;cursor:pointer}
-.grade-toggle button:hover,.grade-toggle button:focus-visible{background:rgba(121,211,189,.1)}
-.grade-toggle button.active{background:rgba(233,187,131,.92);color:#173138}
 .segmented button,.view-grid button,.compare,.flood-launch{
   min-height:44px;
   font-size:var(--button-text);

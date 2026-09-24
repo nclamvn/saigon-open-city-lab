@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <title>City Lab · WebGPU Material Engine</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="webgpu-materials-24.css?v=25g-r10">
+  <link rel="stylesheet" href="webgpu-materials-24.css?v=25g-r11">
   <script type="importmap">
     {
       "imports": {
@@ -50,10 +50,6 @@
           <button type="button" data-light="golden">Giờ vàng</button>
           <button type="button" data-light="night">Đêm</button>
         </div>
-        <div class="nav-grade" role="group" aria-label="Chọn hồ sơ màu">
-          <button type="button" data-grade="reference">Tham chiếu</button>
-          <button type="button" data-grade="presentation" class="active">Trình diễn</button>
-        </div>
         <button class="nav-flood" type="button" data-open-flood><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2S15 6 17.4 6 19.8 8 22 8M3 13c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2M3 18c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2"/></svg><span>Ngập đô thị</span></button>
       </div>
     </nav>
@@ -90,11 +86,6 @@
           <button type="button" data-light="golden">Giờ vàng</button>
           <button type="button" data-light="night">Đêm</button>
         </div>
-        <p class="control-label">Hồ sơ màu</p>
-        <div class="grade-toggle" role="group" aria-label="Chọn hồ sơ màu">
-          <button type="button" data-grade="reference">Tham chiếu</button>
-          <button type="button" data-grade="presentation" class="active">Trình diễn</button>
-        </div>
         <div class="view-grid" role="group" aria-label="Góc nhìn">
           <button type="button" data-view="materials" class="active"><span>01</span>Vật liệu</button>
           <button type="button" data-view="river"><span>02</span>Ven sông</button>
@@ -106,10 +97,10 @@
         <button type="button" id="openFloodLab" class="flood-launch" data-open-flood><svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2S15 6 17.4 6 19.8 8 22 8M3 13c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2M3 18c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2"/></svg><b>Ngập đô thị</b><small>25A · DATA GATE</small></button>
         <div class="legend">
           <p>HỌ VẬT LIỆU</p>
-          <div><i style="--c:#d1bda4"></i>Phổ thông</div><div><i style="--c:#d69c84"></i>Nhà ở</div>
-          <div><i style="--c:#6e929c"></i>Kính thương mại</div><div><i style="--c:#d6c294"></i>Công cộng</div>
-          <div><i style="--c:#8f887d"></i>Công nghiệp</div><div><i style="--c:#87a5a8"></i>Trung tâm</div>
-          <div><i style="--c:#d2ad75"></i>Tôn giáo</div><div><i style="--c:#aaa397"></i>Hỗn hợp</div>
+          <div><i style="--c:#e0c59d"></i>Phổ thông</div><div><i style="--c:#df9879"></i>Nhà ở</div>
+          <div><i style="--c:#5797a7"></i>Kính thương mại</div><div><i style="--c:#e0bd70"></i>Công cộng</div>
+          <div><i style="--c:#728887"></i>Công nghiệp</div><div><i style="--c:#58a0a6"></i>Trung tâm</div>
+          <div><i style="--c:#d88c47"></i>Tôn giáo</div><div><i style="--c:#a9b997"></i>Hỗn hợp</div>
         </div>
       </div>
     </aside>
@@ -192,7 +183,7 @@
   <script src="data/ba-son-bridge-detail.js?v=25g"></script>
   <script src="data/webgpu-corrections-24.js?v=25g"></script>
   <script>window.addEventListener('error',event=>{console.error('CITY24_ERROR',event.message,event.filename,event.lineno,event.colno);const text=document.getElementById('loaderText');if(text)text.textContent=`Lỗi dựng cảnh · ${event.message} · dòng ${event.lineno||'?'}`;});</script>
-  <script type="module" src="webgpu-materials-24.js?v=25g-r10"></script>
-  <script type="module" src="flood-ui-25.js?v=25g-r10"></script>
+  <script type="module" src="webgpu-materials-24.js?v=25g-r11"></script>
+  <script type="module" src="flood-ui-25.js?v=25g-r11"></script>
 </body>
 </html>

@@ -14,9 +14,6 @@ const APP_VERSION=CORRECTIONS.version;
 const $=selector=>document.querySelector(selector);
 const params=new URLSearchParams(location.search);
 const forceWebGL=params.get('backend')==='webgl';
-const storedVisualProfile=(()=>{try{return localStorage.getItem('citylab.25g.visual-profile');}catch{return null;}})();
-const requestedVisualProfile=params.get('grade');
-let visualProfile=['reference','presentation'].includes(requestedVisualProfile)?requestedVisualProfile:(storedVisualProfile==='reference'?'reference':'presentation');
 let activeLight='day';
 const loading=$('#loading'),loaderText=$('#loaderText'),loaderProgress=$('#loaderProgress');
 const setProgress=(value,text)=>{loaderProgress.style.width=`${Math.max(3,Math.min(100,value))}%`;if(text)loaderText.textContent=text;};
@@ -50,14 +47,16 @@ try{
 
 $('#scene').append(renderer.domElement);
 const actualWebGPU=!!renderer.backend?.isWebGPUBackend;
+renderer.setPixelRatio(Math.min(devicePixelRatio,actualWebGPU?1.6:1.35));
+renderer.setSize(innerWidth,innerHeight);
 const backendElement=$('#backend');
 if(backendElement)backendElement.textContent=actualWebGPU?'WEBGPU / TSL':'WEBGL 2 / TSL FALLBACK';
 document.body.dataset.backend=actualWebGPU?'webgpu':'webgl2';
 setProgress(10,'Đang dựng hệ vật liệu PBR…');
 
 const scene=new THREE.Scene();
-scene.background=new THREE.Color('#9bb7bd');
-scene.fog=new THREE.FogExp2('#9bb7bd',0.000145);
+scene.background=new THREE.Color('#6f9eaa');
+scene.fog=new THREE.FogExp2('#86a9ae',0.0001);
 const camera=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,3,30000);
 
 const hemi=new THREE.HemisphereLight('#d9eef2','#806f59',1.5);
@@ -107,28 +106,35 @@ function classify(b){
   return b.h<22?families.GENERIC:families.MIXED;
 }
 
+// Broad HCMC aerial palette: warm masonry and roofs, cyan glass and water,
+// several tropical greens. Distribution is deterministic per footprint so the
+// city remains stable between frames without claiming surveyed facade colours.
 const palettes=[
-  ['#d6c7b2','#c3b4a1','#e0d2bd','#b9b3a8'],
-  ['#d8aa91','#e0c0a0','#c99078','#d8c7a8'],
-  ['#7396a0','#5c7f8d','#84a7a8','#6e8998'],
-  ['#dbc79a','#cbb27d','#e1d2ad','#c7b99f'],
-  ['#918a7d','#81796f','#a39b8a','#77766f'],
-  ['#88a6a8','#77969b','#9bb2ac','#6f8b94'],
-  ['#d5ad73','#c58a59','#e0c792','#bd7e55'],
-  ['#b5afa3','#c7bba8','#a6aaa4','#d0c4b0']
+  ['#e4cfaa','#d4b98e','#f0dfbd','#c6d4b3','#c0d7d5','#dfb6a0'],
+  ['#e29a78','#f0bd8c','#c96f55','#eed29a','#9ac7b2','#83bcc2'],
+  ['#5598aa','#397b91','#75b4b4','#557b9a','#83a8b6','#3f8990'],
+  ['#e3bd6c','#d89e55','#f0d59b','#d88368','#b8c78e','#f0c9ab'],
+  ['#778989','#65787d','#9a9c8a','#586f78','#889b8c','#a39075'],
+  ['#56a0a7','#438495','#7ab8b1','#6783a2','#8bbeb4','#4f918c'],
+  ['#dc8e47','#c96d3c','#edbd65','#f0d49a','#b77942','#d65b3f'],
+  ['#c5b38f','#a7bc91','#d4a28c','#91babb','#bea8c3','#d9c47f']
 ];
 const roofPalettes=[
-  ['#8a7565','#94867b','#776f68'],['#9d553b','#b46d48','#87503d'],
-  ['#526c71','#657b7d','#4f6067'],['#ab8f63','#8f775c','#b4a27f'],
-  ['#66645f','#74716b','#595b59'],['#687b7d','#758889','#596c70'],
-  ['#a5653f','#bd8051','#8e4f36'],['#79756e','#8b8377','#686b68']
+  ['#a15f46','#c4774d','#6f8379','#527e8c','#8c7766'],
+  ['#ad4937','#d26842','#8e3840','#d9914c','#568575'],
+  ['#416d78','#4f8793','#536e8b','#72999b','#315c70'],
+  ['#b67c43','#d69b4a','#9d543e','#d2b66d','#6f8a78'],
+  ['#586c70','#6d7770','#487584','#8b765f','#5f836e'],
+  ['#3f747d','#528c91','#46728e','#6ba09a','#335f6e'],
+  ['#b64d32','#d66f39','#9e382f','#d69b43','#8e552e'],
+  ['#837361','#9a5d48','#5f8178','#4e7f91','#8d6e82']
 ];
 
 function taggedColor(value,fallback){
   try{
     if(!value)return fallback;
     const parsed=new THREE.Color(value),hsl={h:0,s:0,l:0};parsed.getHSL(hsl);
-    parsed.setHSL(hsl.h,Math.min(.42,hsl.s),Math.max(.22,Math.min(.76,hsl.l)));
+    parsed.setHSL(hsl.h,Math.min(.58,hsl.s),Math.max(.2,Math.min(.8,hsl.l)));
     return parsed;
   }catch{return fallback;}
 }
@@ -199,7 +205,6 @@ geometry.computeVertexNormals();
 
 const realism=uniform(1);
 const nightLevel=uniform(0);
-const visualGrade=uniform(visualProfile==='presentation'?1:0);
 const base=varying(attribute('baseColor24','vec3'));
 const surface=varying(attribute('surface24','float'));
 const materialClass=varying(attribute('class24','float'));
@@ -238,8 +243,10 @@ rich=mix(rich,rich.mul(.66),floorBand.mul(.34));
 rich=mix(rich,color('#263d40'),shopMask.mul(.48));
 rich=mix(rich,base.mul(1.08),directTag.mul(.12));
 const richLuma=dot(rich,vec3(.2126,.7152,.0722));
-const richSaturation=mix(float(1),float(1.1),visualGrade);
-const richContrast=mix(float(1),float(1.075),visualGrade);
+// Full colour is concentrated in near/mid distance. The far field keeps a
+// softer aerial cue, matching the colour falloff seen in hazy wide HCMC views.
+const richSaturation=mix(float(1.06),float(1.18),detailFade);
+const richContrast=mix(float(1.045),float(1.1),detailFade);
 const gradedRich=mix(vec3(richLuma),rich,richSaturation).sub(.5).mul(richContrast).add(.5);
 
 const cityMaterial=new THREE.MeshStandardNodeMaterial({side:THREE.DoubleSide});
@@ -266,20 +273,20 @@ function mergeGeometry(items){
   const out=[];for(const g of items)out.push(...g.attributes.position.array);
   const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(out,3));g.computeVertexNormals();return g;
 }
-const groundMaterial=new THREE.MeshStandardNodeMaterial({color:'#b2b2a2',roughness:1});
+const groundMaterial=new THREE.MeshStandardNodeMaterial({color:'#d3c5a3',roughness:1});
 const ground=new THREE.Mesh(new THREE.PlaneGeometry(D.meta.width,D.meta.depth),groundMaterial);
 ground.geometry.rotateX(-Math.PI/2);ground.position.y=-1;ground.receiveShadow=true;scene.add(ground);
-new THREE.TextureLoader().load('data/sentinel-2016.jpg',texture=>{texture.colorSpace=THREE.SRGBColorSpace;ground.material.map=texture;ground.material.color.set(visualProfile==='presentation'?'#d0c6a9':'#c0c2b3');ground.material.needsUpdate=true;});
-const outsideMaterial=new THREE.MeshStandardNodeMaterial({color:'#758a7b',roughness:1});
+new THREE.TextureLoader().load('data/sentinel-2016.jpg',texture=>{texture.colorSpace=THREE.SRGBColorSpace;ground.material.map=texture;ground.material.color.set('#d3c5a3');ground.material.needsUpdate=true;});
+const outsideMaterial=new THREE.MeshStandardNodeMaterial({color:'#5f7d64',roughness:1});
 const outside=new THREE.Mesh(new THREE.PlaneGeometry(60000,60000),outsideMaterial);outside.rotation.x=-Math.PI/2;outside.position.y=-3;scene.add(outside);
-const parksMaterial=new THREE.MeshStandardNodeMaterial({color:'#47694b',roughness:.96,side:THREE.DoubleSide});
+const parksMaterial=new THREE.MeshStandardNodeMaterial({color:'#2d6e3a',roughness:.96,side:THREE.DoubleSide});
 const parks=new THREE.Mesh(mergeGeometry(D.green.map(r=>flatGeometry(r,.35))),parksMaterial);parks.receiveShadow=true;scene.add(parks);
 
 const waterMaterial=new THREE.MeshStandardNodeMaterial({roughness:.42,metalness:.04,side:THREE.DoubleSide});
 const waterWave=sin(positionWorld.x.mul(.018).add(time.mul(.42))).add(sin(positionWorld.z.mul(.026).sub(time.mul(.31)))).mul(.5).add(.5);
-const waterLow=mix(color('#244e59'),color('#19576b'),visualGrade);
-const waterHigh=mix(color('#4f7777'),color('#5b8e91'),visualGrade);
-waterMaterial.colorNode=mix(waterLow,waterHigh,waterWave.mul(mix(.24,.34,visualGrade)));
+const waterLow=color('#0c5068');
+const waterHigh=color('#62a3a1');
+waterMaterial.colorNode=mix(waterLow,waterHigh,waterWave.mul(.36));
 const water=new THREE.Mesh(mergeGeometry(D.water.map(r=>flatGeometry(r,.7))),waterMaterial);water.receiveShadow=true;scene.add(water);
 
 const roadGroups={edge:[],asphalt:[],pedestrian:[],marking:[]};
@@ -300,7 +307,7 @@ for(const road of D.roads){
   ribbon(road.c,width,y+.09,roadGroups[road.type==='pedestrian'||road.type==='footway'?'pedestrian':'asphalt']);
   if(['motorway','trunk','primary','secondary'].includes(road.type))ribbon(road.c,.16,y+.18,roadGroups.marking);
 }
-const roadColors={edge:'#aaa99f',asphalt:'#444b49',pedestrian:'#b6ab96',marking:'#decf9f'};
+const roadColors={edge:'#8c9188',asphalt:'#293534',pedestrian:'#c8ad84',marking:'#f4db80'};
 const roadMaterials={};
 for(const [name,data] of Object.entries(roadGroups)){
   const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(data,3));g.computeVertexNormals();
@@ -469,20 +476,20 @@ for(const rings of D.green){
   for(let i=0;i<count;i++){const p=[x0+random()*(x1-x0),z0+random()*(z1-z0)];if(contains(p,r)&&!rings.slice(1).some(h=>contains(p,h)))trees.push({x:p[0],z:p[1],h:5+random()*10,s:random()});}
 }
 const dummy=new THREE.Object3D();
-const trunkMaterial=new THREE.MeshStandardNodeMaterial({color:'#665343',roughness:.98});
-const leafMaterial=new THREE.MeshStandardNodeMaterial({color:'#315f3b',roughness:.92});
+const trunkMaterial=new THREE.MeshStandardNodeMaterial({color:'#55402f',roughness:.98});
+const leafMaterial=new THREE.MeshStandardNodeMaterial({color:'#226a35',roughness:.92});
 const trunks=new THREE.InstancedMesh(new THREE.CylinderGeometry(.32,.52,1,6),trunkMaterial,trees.length);
 const canopies=new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1,1),leafMaterial,trees.length*2);
 trees.forEach((tree,i)=>{
   dummy.position.set(tree.x,tree.h*.28,tree.z);dummy.rotation.set(0,tree.s*5,0);dummy.scale.set(1,tree.h*.56,1);dummy.updateMatrix();trunks.setMatrixAt(i,dummy.matrix);
   for(let l=0;l<2;l++){
     const scale=tree.h*(l?.28:.36);dummy.position.set(tree.x+(l?tree.s-.5:0)*2.2,tree.h*(l?.72:.62)+1,tree.z+(l?.5-tree.s:0)*2.1);dummy.rotation.set(tree.s*.3,tree.s*6+l,tree.s*.2);dummy.scale.set(scale*(1.05+l*.1),scale*.8,scale);dummy.updateMatrix();canopies.setMatrixAt(i*2+l,dummy.matrix);
-    canopies.setColorAt(i*2+l,new THREE.Color().setHSL(.25+tree.s*.055,.32+tree.s*.12,.22+l*.035));
+    canopies.setColorAt(i*2+l,new THREE.Color().setHSL(.255+tree.s*.075,.48+tree.s*.18,.205+l*.055));
   }
 });
 trunks.castShadow=canopies.castShadow=true;trunks.receiveShadow=canopies.receiveShadow=true;scene.add(trunks,canopies);
 
-const fixtureMaterial=new THREE.MeshStandardNodeMaterial({color:'#858c88',roughness:.68,metalness:.2});
+const fixtureMaterial=new THREE.MeshStandardNodeMaterial({color:'#6d7772',roughness:.68,metalness:.2});
 const fixtures=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),fixtureMaterial,roofFixtures.length);
 roofFixtures.forEach((item,i)=>{dummy.position.set(item.x,item.y,item.z);dummy.rotation.set(0,item.seed*5.3,0);dummy.scale.set(item.scale,1.4+item.seed*1.8,item.scale*.62);dummy.updateMatrix();fixtures.setMatrixAt(i,dummy.matrix);});
 fixtures.castShadow=true;scene.add(fixtures);
@@ -507,7 +514,7 @@ let target=initial.target.clone(),cameraDistance=initial.distance,azimuth=initia
 function selectView(key){
   const p=presets[key];if(!p)return;desired={...p,target:p.target.clone()};
   document.querySelectorAll('[data-view]').forEach(button=>button.classList.toggle('active',button.dataset.view===key));
-  $('#viewLabel').textContent=p.label;history.replaceState(null,'',`?v=${APP_VERSION}&view=${key}&grade=${visualProfile}${forceWebGL?'&backend=webgl':''}`);
+  $('#viewLabel').textContent=p.label;history.replaceState(null,'',`?v=${APP_VERSION}&view=${key}${forceWebGL?'&backend=webgl':''}`);
 }
 document.querySelectorAll('[data-view]').forEach(button=>button.onclick=()=>selectView(button.dataset.view));
 selectView(params.get('view') in presets?params.get('view'):'materials');
@@ -518,45 +525,19 @@ materialStatus.floodPresets={pilot:'flood25',referenceRainMm:200};
 setFloodRain(0);
 
 const lightStates={
-  day:{
-    reference:{background:'#9bb7bd',fog:'#9bb7bd',fogDensity:.000145,sun:'#fff0ce',sunIntensity:3.15,hemi:1.5,exposure:1.02,night:0,pos:[-2300,3500,1800]},
-    presentation:{background:'#78a3ad',fog:'#8fadb2',fogDensity:.000095,sun:'#fff0ce',sunIntensity:3.55,hemi:1.24,exposure:.98,night:0,pos:[-2300,3500,1800]}
-  },
-  golden:{
-    reference:{background:'#a89d94',fog:'#a89d94',fogDensity:.000145,sun:'#ffb66f',sunIntensity:3.8,hemi:1.05,exposure:.96,night:.12,pos:[-4200,1250,1700]},
-    presentation:{background:'#987d70',fog:'#a69386',fogDensity:.000105,sun:'#ffad59',sunIntensity:4.1,hemi:.88,exposure:.93,night:.12,pos:[-4200,1250,1700]}
-  },
-  night:{
-    reference:{background:'#071725',fog:'#071725',fogDensity:.000145,sun:'#7796c7',sunIntensity:.45,hemi:.46,exposure:.78,night:1,pos:[-1800,2600,900]},
-    presentation:{background:'#03101d',fog:'#091b29',fogDensity:.000105,sun:'#789bd5',sunIntensity:.55,hemi:.36,exposure:.82,night:1,pos:[-1800,2600,900]}
-  }
+  day:{background:'#6f9eaa',fog:'#86a9ae',fogDensity:.0001,sun:'#fff0ce',sunIntensity:3.7,hemi:1.15,exposure:.96,night:0,pos:[-2300,3500,1800]},
+  golden:{background:'#8f7064',fog:'#a08878',fogDensity:.000105,sun:'#ff9f4d',sunIntensity:4.3,hemi:.78,exposure:.92,night:.12,pos:[-4200,1250,1700]},
+  night:{background:'#03101d',fog:'#091b29',fogDensity:.000105,sun:'#789bd5',sunIntensity:.55,hemi:.36,exposure:.82,night:1,pos:[-1800,2600,900]}
 };
 function setLight(key){
-  const state=lightStates[key]?.[visualProfile];if(!state)return;activeLight=key;
+  const state=lightStates[key];if(!state)return;activeLight=key;
   scene.background.set(state.background);scene.fog.color.set(state.fog);scene.fog.density=state.fogDensity;sun.color.set(state.sun);sun.intensity=state.sunIntensity;hemi.intensity=state.hemi;renderer.toneMappingExposure=state.exposure;nightLevel.value=state.night;sun.position.set(...state.pos);
   document.querySelectorAll('[data-light]').forEach(button=>button.classList.toggle('active',button.dataset.light===key));
   materialStatus.light=key;
 }
-const contextProfiles={
-  reference:{ground:'#c0c2b3',outside:'#758a7b',parks:'#47694b',trunk:'#665343',leaf:'#315f3b',fixture:'#858c88',roads:{edge:'#aaa99f',asphalt:'#444b49',pedestrian:'#b6ab96',marking:'#decf9f'}},
-  presentation:{ground:'#d0c6a9',outside:'#66816c',parks:'#326b3d',trunk:'#5a4432',leaf:'#28683a',fixture:'#747e79',roads:{edge:'#969990',asphalt:'#303a39',pedestrian:'#c3ae8d',marking:'#f0d783'}}
-};
-function applyVisualProfile(name){
-  visualProfile=name==='reference'?'reference':'presentation';
-  const profile=contextProfiles[visualProfile];visualGrade.value=visualProfile==='presentation'?1:0;
-  groundMaterial.color.set(profile.ground);outsideMaterial.color.set(profile.outside);parksMaterial.color.set(profile.parks);trunkMaterial.color.set(profile.trunk);leafMaterial.color.set(profile.leaf);fixtureMaterial.color.set(profile.fixture);
-  for(const [key,material] of Object.entries(roadMaterials))material.color.set(profile.roads[key]);
-  renderer.setPixelRatio(Math.min(devicePixelRatio,actualWebGPU?(visualProfile==='presentation'?1.6:1.5):1.35));renderer.setSize(innerWidth,innerHeight);
-  document.body.dataset.visualProfile=visualProfile;
-  document.querySelectorAll('[data-grade]').forEach(button=>button.classList.toggle('active',button.dataset.grade===visualProfile));
-  try{localStorage.setItem('citylab.25g.visual-profile',visualProfile);}catch{}
-  const url=new URL(location.href);url.searchParams.set('grade',visualProfile);history.replaceState(null,'',url);
-  materialStatus.visualProfile=visualProfile;materialStatus.visualCalibration=visualProfile==='presentation'?{saturation:1.1,contrast:1.075,fogReduction:'28–34%',renderScale:Math.min(devicePixelRatio,1.6)}:{saturation:1,contrast:1,fogReduction:'0%',renderScale:Math.min(devicePixelRatio,actualWebGPU?1.5:1.35)};
-  setLight(activeLight);
-}
 document.querySelectorAll('[data-light]').forEach(button=>button.onclick=()=>setLight(button.dataset.light));
-document.querySelectorAll('[data-grade]').forEach(button=>button.onclick=()=>applyVisualProfile(button.dataset.grade));
-applyVisualProfile(visualProfile);
+materialStatus.visualCalibration={profile:'hcmc-aerial-default',saturation:'1.06–1.18 by distance',contrast:'1.045–1.10 by distance',renderScale:Math.min(devicePixelRatio,actualWebGPU?1.6:1.35)};
+setLight(activeLight);
 
 const realismInput=$('#realism'),realismValue=$('#realismValue');
 function setRealism(value){const number=Math.max(0,Math.min(100,Number(value)));realism.value=number/100;realismInput.value=number;realismValue.value=`${Math.round(number)}%`;materialStatus.realism=number;}
