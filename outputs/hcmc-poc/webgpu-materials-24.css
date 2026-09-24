@@ -67,6 +67,7 @@ body.ui-hidden .flood-lab{opacity:0;pointer-events:none}.flood-lab{transition:op
   background:rgba(121,211,189,.1);
 }
 #toggleUi{margin:0;font-size:9px;letter-spacing:.08em}
+.toggle-show-icon,.toggle-ui-label{display:none}
 .story,.controls,.flood-lab,.selection{border-radius:15px}
 .story{
   left:var(--edge);
@@ -257,6 +258,19 @@ body.ui-hidden .flood-lab,body.ui-hidden .ioc-alert-bar{opacity:0;pointer-events
 }
 body.ui-hidden .nav-dock{opacity:0;pointer-events:none}
 body.ui-hidden .topbar,body.ui-hidden .nav-dock,body.ui-hidden .controls,body.ui-hidden .hud,body.ui-hidden .selection{transition:opacity .25s,transform .25s}
+body.ui-hidden .topbar{
+  width:142px;
+  height:44px;
+  padding:6px;
+  opacity:1;
+  pointer-events:auto;
+  transform:none;
+}
+body.ui-hidden .topbar .brand{display:none}
+body.ui-hidden #toggleUi{width:100%;height:32px;display:flex;align-items:center;justify-content:center;gap:8px;padding:0 10px}
+body.ui-hidden #toggleUi .toggle-hide-icon{display:none}
+body.ui-hidden #toggleUi .toggle-show-icon,body.ui-hidden #toggleUi .toggle-ui-label{display:block}
+body.ui-hidden #toggleUi .toggle-ui-label{font-size:9px;font-weight:750;letter-spacing:.06em;white-space:nowrap}
 
 @media(max-width:540px){
   .nav-dock,.nav-dock.collapsed{

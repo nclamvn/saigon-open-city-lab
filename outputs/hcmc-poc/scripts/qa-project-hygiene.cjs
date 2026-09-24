@@ -47,6 +47,7 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   assert(css.includes('.collapsed>.panel-body'));
   assert(css.includes('.nav-dock'));
   assert(css.includes('.chrome-button svg,.panel-toggle svg,.nav-flood svg'));
+  assert(css.includes('body.ui-hidden #toggleUi .toggle-show-icon'));
   assert(css.includes('body.flood-open .story,body.flood-open .controls'));
   assert(!html.includes('THREE.JS r186'));
   assert(!html.includes('>×<'));
@@ -56,6 +57,7 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   assert(renderer.includes("citylab.25f.panel.story.collapsed"));
   assert(renderer.includes("citylab.25f.panel.controls.collapsed"));
   assert(renderer.includes("citylab.25f.panel.navigation.collapsed"));
+  assert(renderer.includes("hidden?'Mở giao diện':'Ẩn giao diện'"));
   assert(renderer.includes('function updateLabels()'));
   assert(flood.includes("querySelectorAll('[data-open-flood]')"));
   assert(flood.includes("querySelectorAll('.nav-views [data-view]')"));

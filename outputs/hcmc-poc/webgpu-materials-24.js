@@ -542,7 +542,13 @@ bindCollapsible($('#cityNav'),$('#collapseNav'),'citylab.25f.panel.navigation.co
 bindCollapsible($('#story'),$('#collapseStory'),'citylab.25f.panel.story.collapsed',true,{open:'Mở thông tin vật liệu',close:'Thu gọn thông tin vật liệu'});
 bindCollapsible($('#controls'),$('#collapse'),'citylab.25f.panel.controls.collapsed',true,{open:'Mở điều khiển cảnh',close:'Thu gọn điều khiển cảnh'});
 bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.25f.panel.selection.collapsed',false,{open:'Mở thông tin công trình',close:'Thu gọn thông tin công trình'});
-const toggleUi=()=>document.body.classList.toggle('ui-hidden');$('#toggleUi').onclick=toggleUi;
+const toggleUiButton=$('#toggleUi');
+const toggleUi=()=>{
+  const hidden=document.body.classList.toggle('ui-hidden');
+  toggleUiButton.setAttribute('aria-label',hidden?'Mở giao diện':'Ẩn giao diện');
+  toggleUiButton.title=hidden?'Mở giao diện (H)':'Ẩn giao diện (H)';
+};
+toggleUiButton.onclick=toggleUi;
 
 const canvas=renderer.domElement;canvas.tabIndex=0;canvas.style.touchAction='none';
 let pointerDown=false,panning=false,moved=false,lastX=0,lastY=0,startX=0,startY=0;

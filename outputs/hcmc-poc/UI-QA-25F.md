@@ -23,6 +23,7 @@ Giữ bản đồ là nội dung chính, khôi phục điều hướng tham quan
 - Mobile dùng dock ngang sát đáy; các nút không chồng nhau và có thể cuộn ngang khi cần.
 - Bảng vật liệu, Flood Lab và thông tin công trình cùng dùng một cơ chế collapse/expand.
 - Dấu X và chevron được thay bằng SVG cùng stroke, cùng kích thước và căn tâm hình học.
+- Chế độ Hide luôn giữ lại nút **Mở giao diện** ở góc trái; phím `H` là lối mở phụ.
 - Trạng thái panel được tách theo phiên bản 25F để bản demo khởi động với điều khiển cảnh thu gọn, dock tham quan mở.
 - Flood Lab mobile dừng trước dock và HUD; diện tích giao nhau đo được bằng 0.
 - Nhãn địa danh được xếp ưu tiên, tự ẩn khi va nhau hoặc va vào panel chrome.
