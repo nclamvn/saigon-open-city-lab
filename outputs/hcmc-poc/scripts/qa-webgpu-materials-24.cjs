@@ -64,10 +64,17 @@ check('Curated corrections do not mutate the source city dataset',()=>{
   assert.equal(evidence.version,'24e');
 });
 check('Daytime glazing avoids black perforation while night retains depth',()=>{
-  assert(js.includes("const glassDay=mix(color('#5c7480'),color('#91a9b1')"));
-  assert(js.includes("const concreteWindow=mix(color('#5f696b'),color('#909895')"));
+  assert(js.includes("const glassDay=mix(color('#526b77'),color('#8ca3aa')"));
+  assert(js.includes("const concreteWindow=mix(color('#566163'),color('#858d8b')"));
   assert(js.includes("const windowBlend=windowMask.mul(mix(float(.38),float(.72),nightLevel))"));
   assert(js.includes('rich=mix(rich,windowColor,windowBlend)'));
+});
+check('Visual 26 uses bounded haze, directional contact shading and separated PBR classes',()=>{
+  assert(js.includes("day:createSkyTexture('#78949b','#8da2a3','#b5b5a7')"));
+  assert(js.includes("const groundContact=mix(float(.7),float(1),smoothstep(1.5,22,positionWorld.y))"));
+  assert(js.includes("const materialRoughness=select(isGlass"));
+  assert(js.includes("scene.fog.density=Math.min(activeFogDensity,Math.max(.000018,.22/cameraDistance))"));
+  assert(js.includes("sun.shadow.mapSize.set(4096,4096)"));
 });
 check('Public entry from the stable demo exists',()=>{
   assert(entry.includes('webgpu-materials-24.html'));

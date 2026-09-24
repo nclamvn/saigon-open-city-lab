@@ -59,20 +59,22 @@ check('Every navigation choice has a camera or lighting state',()=>{
   assert(renderer.includes('flood25:{'), 'Missing Flood Lab camera preset');
 });
 
-check('Aerial colour system is a single bounded default with distance-aware grading',()=>{
+check('Aerial colour system is a single bounded default with Visual 26 material separation',()=>{
   assert(!html.includes('data-grade='));
   assert(!renderer.includes('visualProfile'));
   assert(!renderer.includes('visualGrade'));
   assert(!renderer.includes('grade='));
-  assert(renderer.includes("const richSaturation=mix(float(1.06),float(1.18),detailFade)"));
-  assert(renderer.includes("const richContrast=mix(float(1.045),float(1.1),detailFade)"));
-  assert(renderer.includes("day:{background:'#6f9eaa',fog:'#86a9ae',fogDensity:.0001"));
-  assert(renderer.includes("golden:{background:'#8f7064',fog:'#a08878',fogDensity:.000105"));
+  assert(renderer.includes("const richSaturation=mix(float(1.015),float(1.085),detailFade)"));
+  assert(renderer.includes("const richContrast=mix(float(1.06),float(1.13),detailFade)"));
+  assert(renderer.includes("day:{background:'#84999d',fog:'#a1aaa5',fogDensity:.000072"));
+  assert(renderer.includes("golden:{background:'#a17c69',fog:'#b09b86',fogDensity:.000076"));
   assert(renderer.includes("const roadColors={edge:'#8c9188',asphalt:'#293534',pedestrian:'#c8ad84',marking:'#f4db80'}"));
-  assert(renderer.includes("const waterLow=color('#0c5068')"));
+  assert(renderer.includes("const waterLow=color('#103f52')"));
   assert(renderer.includes("wall.lerp(new THREE.Color('#8faab5'),.22)"));
   assert(renderer.includes("wall.setHSL(wallHsl.h,Math.min(.22,wallHsl.s)"));
-  assert(renderer.includes("const glassDay=mix(color('#5c7480'),color('#91a9b1')"));
+  assert(renderer.includes("const glassDay=mix(color('#526b77'),color('#8ca3aa')"));
+  assert(renderer.includes("profile:'hcmc-aerial-default-26'"));
+  assert(!css.includes('mix-blend-mode:multiply'));
 });
 
 check('Release CSS contains no invalid units or retired component selectors',()=>{
