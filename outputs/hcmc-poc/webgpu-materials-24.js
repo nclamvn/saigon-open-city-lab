@@ -596,14 +596,28 @@ const hullGeometry=new THREE.BufferGeometry();hullGeometry.setAttribute('positio
 const hullMaterial=new THREE.MeshStandardNodeMaterial({color:'#d8d3c5',roughness:.38,metalness:.13});
 const cabinMaterial=new THREE.MeshStandardNodeMaterial({color:'#d8dfdc',roughness:.3,metalness:.12});
 const vesselWindowMaterial=new THREE.MeshStandardNodeMaterial({color:'#244651',roughness:.16,metalness:.42});
-const wakeMaterial=new THREE.MeshStandardNodeMaterial({color:'#c8e1de',emissive:'#5d8e92',emissiveIntensity:.18,transparent:true,opacity:.28,depthWrite:false,side:THREE.DoubleSide});
-const wakeGeometry=new THREE.BufferGeometry();wakeGeometry.setAttribute('position',new THREE.Float32BufferAttribute([0,-.05,0,-1,-.58,0,-.9,-.22,0,0,.05,0,-.9,.22,0,-1,.58,0,0,-.045,.01,-.82,-.13,.01,-.82,.13,.01,0,.045,.01],3));wakeGeometry.setIndex([0,1,2,3,4,5,6,7,8,6,8,9]);wakeGeometry.computeVertexNormals();
-wakeMaterial.color.set('#8fc3c8');wakeMaterial.opacity=.2;
-const vesselHulls=new THREE.InstancedMesh(hullGeometry,hullMaterial,vesselItems.length),vesselCabins=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),cabinMaterial,vesselItems.length),vesselWindows=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),vesselWindowMaterial,vesselItems.length),vesselWakes=new THREE.InstancedMesh(wakeGeometry,wakeMaterial,vesselItems.length);
+function createWakeBand(startX,endX,spread,width){
+  const y=.025,half=width*.5,geometry=new THREE.BufferGeometry();
+  geometry.setAttribute('position',new THREE.Float32BufferAttribute([
+    startX,y,-half,endX,y,spread-width,endX,y,spread+width,startX,y,half,
+    startX,y,-half,endX,y,-spread-width,endX,y,-spread+width,startX,y,half
+  ],3));
+  geometry.setIndex([0,1,2,0,2,3,4,5,6,4,6,7]);geometry.computeVertexNormals();return geometry;
+}
+const wakeLayers=[
+  {geometry:createWakeBand(-3.8,-17,6.8,.58),color:'#dff7f5',opacity:.3},
+  {geometry:createWakeBand(-6.5,-30,11.8,.78),color:'#bfe7e8',opacity:.16},
+  {geometry:createWakeBand(-10,-46,18,.98),color:'#96cdd2',opacity:.075}
+];
+const vesselHulls=new THREE.InstancedMesh(hullGeometry,hullMaterial,vesselItems.length),vesselCabins=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),cabinMaterial,vesselItems.length),vesselWindows=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),vesselWindowMaterial,vesselItems.length);
+const vesselWakes=wakeLayers.map(layer=>{
+  const material=new THREE.MeshBasicNodeMaterial({color:layer.color,transparent:true,opacity:layer.opacity,depthWrite:false,side:THREE.DoubleSide,blending:THREE.AdditiveBlending});
+  const mesh=new THREE.InstancedMesh(layer.geometry,material,vesselItems.length);mesh.renderOrder=3;return mesh;
+});
 const vesselPalette=['#d9d3c3','#e4e0d4','#a94438','#376a73','#d1aa58'];
 vesselItems.forEach((item,index)=>vesselHulls.setColorAt(index,new THREE.Color(vesselPalette[Math.floor(item.colorSeed*vesselPalette.length)])));
 vesselHulls.instanceColor.needsUpdate=true;
-for(const mesh of [vesselHulls,vesselCabins,vesselWindows,vesselWakes]){mesh.frustumCulled=false;mesh.castShadow=mesh!==vesselWakes;vesselGroup.add(mesh);}
+for(const mesh of [vesselHulls,vesselCabins,vesselWindows,...vesselWakes]){mesh.frustumCulled=false;mesh.castShadow=!vesselWakes.includes(mesh);vesselGroup.add(mesh);}
 
 const motionDummy=new THREE.Object3D();let motionFrame=0;
 function advanceUrbanMotion(now){
@@ -622,10 +636,12 @@ function advanceUrbanMotion(now){
   for(let i=0;i<vesselItems.length;i++){
     const item=vesselItems[i],cycle=(item.phase+timeSeconds*item.speed)%2,u=cycle<=1?cycle:2-cycle,backward=(cycle>1)!==item.reverse,state=vesselAt(u),direction=backward?state.direction.clone().multiplyScalar(-1):state.direction,nx=-direction.z,nz=direction.x;
     const x=state.point.x+nx*item.lane,z=state.point.z+nz*item.lane,rotation=-Math.atan2(direction.z,direction.x),scale=item.type==='barge'?1.55:item.type==='ferry'?1.2:.78;
-    const specs=[[0,3.05,scale,1,1],[-1.2,5.0,6.4*scale,2.25,3.0],[-.6,5.25,6.55*scale,1.1,3.08],[-5.8*scale,1.55,18*scale,10*scale,1]];
-    for(let part=0;part<4;part++){const spec=specs[part];motionDummy.position.set(x+direction.x*spec[0],spec[1],z+direction.z*spec[0]);motionDummy.rotation.set(part===3?-Math.PI/2:0,rotation,0);motionDummy.scale.set(spec[2],spec[3],spec[4]);motionDummy.updateMatrix();[vesselHulls,vesselCabins,vesselWindows,vesselWakes][part].setMatrixAt(i,motionDummy.matrix);}
+    const specs=[[vesselHulls,0,3.05,scale,1,1],[vesselCabins,-1.2,5.0,6.4*scale,2.25,3.0],[vesselWindows,-.6,5.25,6.55*scale,1.1,3.08]];
+    for(const [mesh,offset,y,sx,sy,sz] of specs){motionDummy.position.set(x+direction.x*offset,y,z+direction.z*offset);motionDummy.rotation.set(0,rotation,0);motionDummy.scale.set(sx,sy,sz);motionDummy.updateMatrix();mesh.setMatrixAt(i,motionDummy.matrix);}
+    const wakeBreath=1+Math.sin(timeSeconds*2.2+i*.83)*.035;
+    for(const wake of vesselWakes){motionDummy.position.set(x,1.55,z);motionDummy.rotation.set(0,rotation,0);motionDummy.scale.set(scale,1,scale*wakeBreath);motionDummy.updateMatrix();wake.setMatrixAt(i,motionDummy.matrix);}
   }
-  for(const mesh of [vesselHulls,vesselCabins,vesselWindows,vesselWakes])mesh.instanceMatrix.needsUpdate=true;
+  for(const mesh of [vesselHulls,vesselCabins,vesselWindows,...vesselWakes])mesh.instanceMatrix.needsUpdate=true;
   materialStatus.motion.lastFrame=motionFrame;
 }
 materialStatus.motion={motorbikes:trafficItems.filter(item=>item.kind==='motorbike').length,cars:trafficItems.filter(item=>item.kind==='car').length,buses:trafficItems.filter(item=>item.kind==='bus').length,nearCore:trafficItems.filter(item=>Math.hypot((item.a[0]+item.b[0])*.5,(item.a[1]+item.b[1])*.5)<2200).length,vessels:vesselItems.length,roadSegments:trafficItems.length,roadSource:'OSM centerlines',vesselRoute:'illustrative Saigon River lane',vesselAuditSamples,vesselSamplesOutsideWater,classification:'procedural visual motion; not live traffic or AIS'};

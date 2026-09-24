@@ -13,7 +13,7 @@ Ngày kiểm tra: 24/09/2026. Phạm vi: giao thông minh họa trong scene WebG
 
 ## Đường thủy
 
-- 22 tàu gồm speedboat, ferry và barge chạy hai chiều, có thân, cabin, kính và wake chữ V bằng các dải tam giác trong suốt.
+- 22 tàu gồm speedboat, ferry và barge chạy hai chiều, có thân, cabin và kính. Wake gồm ba dải chữ V nằm phẳng trên mặt nước, mở rộng từ đuôi tàu và giảm opacity theo khoảng cách để mô phỏng sóng lan mờ dần.
 - Tuyến chuyển động kế thừa dải giữa sông từng dùng ở PoC 06/13.
 - Năm offset làn được kiểm tra tại 1.201 lát cắt, tổng cộng 6.005 mẫu. Runtime QA ghi nhận `motionVesselOutside=0`.
 - Tuyến là mô phỏng trực quan bám polygon mặt nước, không phải luồng hàng hải chính thức và không dùng AIS thời gian thực.

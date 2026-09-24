@@ -81,7 +81,9 @@ check('Urban motion 26B stays on audited roads and inside the river',()=>{
   assert(js.includes('trafficItems.length>=3200'));
   assert(js.includes("kind=roll<.8?'motorbike':roll<.985?'car':'bus'"));
   assert(js.includes('roadSegmentClear(segment.a,segment.b'));
-  assert(js.includes("wakeGeometry.setIndex([0,1,2,3,4,5,6,7,8,6,8,9])"));
+  assert(js.includes('function createWakeBand(startX,endX,spread,width)'));
+  assert(js.includes("createWakeBand(-10,-46,18,.98)"));
+  assert(js.includes('opacity:.075'));
   assert(js.includes('vesselSamplesOutsideWater'));
   assert(js.includes("vesselRoute:'illustrative Saigon River lane'"));
   assert(js.includes('advanceUrbanMotion(now)'));
