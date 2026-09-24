@@ -59,6 +59,17 @@ check('Every navigation choice has a camera or lighting state',()=>{
   assert(renderer.includes('flood25:{'), 'Missing Flood Lab camera preset');
 });
 
+check('Reference and presentation profiles are synchronized and scientifically bounded',()=>{
+  const grades=[...html.matchAll(/data-grade="([^"]+)"/g)].map(match=>match[1]);
+  assert.equal(grades.filter(value=>value==='reference').length,2);
+  assert.equal(grades.filter(value=>value==='presentation').length,2);
+  assert(renderer.includes("visualProfile=['reference','presentation'].includes(requestedVisualProfile)"));
+  assert(renderer.includes("visualProfile==='presentation'?{saturation:1.1,contrast:1.075"));
+  assert(renderer.includes("presentation:{background:'#78a3ad',fog:'#8fadb2',fogDensity:.000095"));
+  assert(renderer.includes("reference:{background:'#9bb7bd',fog:'#9bb7bd',fogDensity:.000145"));
+  assert(renderer.includes("document.querySelectorAll('[data-grade]')"));
+});
+
 check('Release CSS contains no invalid units or retired component selectors',()=>{
   assert(!/[0-9](?:gr|xp|emx|remx)\b/.test(css),'Invalid CSS unit found');
   for(const retired of ['toggle-ui-label','.engine{','.pulse{','.icon-button{','.panel-toggle span','.rain-actions button span','.rain-actions .worst-case span']){

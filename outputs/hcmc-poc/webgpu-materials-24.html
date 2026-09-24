@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <title>City Lab · WebGPU Material Engine</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="webgpu-materials-24.css?v=25g-r8">
+  <link rel="stylesheet" href="webgpu-materials-24.css?v=25g-r10">
   <script type="importmap">
     {
       "imports": {
@@ -50,6 +50,10 @@
           <button type="button" data-light="golden">Giờ vàng</button>
           <button type="button" data-light="night">Đêm</button>
         </div>
+        <div class="nav-grade" role="group" aria-label="Chọn hồ sơ màu">
+          <button type="button" data-grade="reference">Tham chiếu</button>
+          <button type="button" data-grade="presentation" class="active">Trình diễn</button>
+        </div>
         <button class="nav-flood" type="button" data-open-flood><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2S15 6 17.4 6 19.8 8 22 8M3 13c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2M3 18c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2"/></svg><span>Ngập đô thị</span></button>
       </div>
     </nav>
@@ -85,6 +89,11 @@
           <button type="button" data-light="day" class="active">Ngày</button>
           <button type="button" data-light="golden">Giờ vàng</button>
           <button type="button" data-light="night">Đêm</button>
+        </div>
+        <p class="control-label">Hồ sơ màu</p>
+        <div class="grade-toggle" role="group" aria-label="Chọn hồ sơ màu">
+          <button type="button" data-grade="reference">Tham chiếu</button>
+          <button type="button" data-grade="presentation" class="active">Trình diễn</button>
         </div>
         <div class="view-grid" role="group" aria-label="Góc nhìn">
           <button type="button" data-view="materials" class="active"><span>01</span>Vật liệu</button>
@@ -183,7 +192,7 @@
   <script src="data/ba-son-bridge-detail.js?v=25g"></script>
   <script src="data/webgpu-corrections-24.js?v=25g"></script>
   <script>window.addEventListener('error',event=>{console.error('CITY24_ERROR',event.message,event.filename,event.lineno,event.colno);const text=document.getElementById('loaderText');if(text)text.textContent=`Lỗi dựng cảnh · ${event.message} · dòng ${event.lineno||'?'}`;});</script>
-  <script type="module" src="webgpu-materials-24.js?v=25g-r8"></script>
-  <script type="module" src="flood-ui-25.js?v=25g-r8"></script>
+  <script type="module" src="webgpu-materials-24.js?v=25g-r10"></script>
+  <script type="module" src="flood-ui-25.js?v=25g-r10"></script>
 </body>
 </html>
