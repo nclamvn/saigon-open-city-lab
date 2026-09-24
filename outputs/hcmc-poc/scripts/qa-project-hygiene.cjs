@@ -48,6 +48,8 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   assert(css.includes('.nav-dock'));
   assert(css.includes('.chrome-button svg,.panel-toggle svg,.nav-flood svg'));
   assert(css.includes('body.ui-hidden #toggleUi .toggle-show-icon'));
+  assert(css.includes('#toggleUi .toggle-show-icon{display:none}'));
+  assert(!html.includes('toggle-ui-label'));
   assert(css.includes('body.flood-open .story,body.flood-open .controls'));
   assert(!html.includes('THREE.JS r186'));
   assert(!html.includes('>×<'));
