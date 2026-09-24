@@ -1,6 +1,6 @@
 const $=selector=>document.querySelector(selector);
 const panel=$('#floodLab');
-const launch=$('#openFloodLab');
+const launches=[...document.querySelectorAll('[data-open-flood]')];
 const close=$('#closeFloodLab');
 const select=$('#floodScenario');
 const state=$('#floodState');
@@ -89,9 +89,9 @@ function updateIOC(){
   document.body.dataset.iocLevel=level;
   alertBar.hidden=level!=='red';
   $('#alertRain').textContent=`${Math.round(rainMm)} mm`;$('#alertTide').textContent=`${tideM.toFixed(2).replace('.',',')} m`;$('#alertDepth').textContent=`${Math.round(proxyDepthM*100)} cm proxy`;
-  if(level==='red'&&!redOverviewTriggered){redOverviewTriggered=true;focusOverview();history.replaceState(null,'','?v=25e&view=overview&scenario=stress-test');}
+  if(level==='red'&&!redOverviewTriggered){redOverviewTriggered=true;focusOverview();history.replaceState(null,'','?v=25f&view=overview&scenario=stress-test');}
   if(level!=='red')redOverviewTriggered=false;
-  window.floodIOC25={version:'25e',rainMm,tideM,severity,level,proxyDepthM,windKmh,mode:'bounded_visual_stress_test',forecast:false};
+  window.floodIOC25={version:'25f',rainMm,tideM,severity,level,proxyDepthM,windKmh,mode:'bounded_visual_stress_test',forecast:false};
   return{rainRatio,tideRatio,severity,level,proxyDepthM,windKmh};
 }
 function updateRain(value,{syncInput=true}={}){
@@ -179,24 +179,25 @@ function renderScenario(){
 
 function openPanel({focus=true}={}){
   panel.hidden=false;
-  launch.classList.add('active');
+  launches.forEach(button=>button.classList.add('active'));
   document.body.classList.add('flood-open');
-  if(focus){focusPilot();history.replaceState(null,'','?v=25e&view=flood25');}
+  if(focus){focusPilot();history.replaceState(null,'','?v=25f&view=flood25');}
 }
-function closePanel(){panel.hidden=true;launch.classList.remove('active');document.body.classList.remove('flood-open');}
+function closePanel(){panel.hidden=true;launches.forEach(button=>button.classList.remove('active'));document.body.classList.remove('flood-open');}
 
-function savedCollapsed(){try{return localStorage.getItem('citylab.panel.flood.collapsed')==='true';}catch{return false;}}
+function savedCollapsed(){try{return localStorage.getItem('citylab.25f.panel.flood.collapsed')==='true';}catch{return false;}}
 function setFloodCollapsed(collapsed){
   panel.classList.toggle('collapsed',collapsed);
+  collapsePanel.classList.toggle('is-collapsed',collapsed);
   collapsePanel.setAttribute('aria-expanded',String(!collapsed));
   collapsePanel.setAttribute('aria-label',collapsed?'Mở rộng Flood Lab':'Thu gọn Flood Lab');
-  collapsePanel.querySelector('span').textContent=collapsed?'⌄':'⌃';
-  try{localStorage.setItem('citylab.panel.flood.collapsed',String(collapsed));}catch{}
+  try{localStorage.setItem('citylab.25f.panel.flood.collapsed',String(collapsed));}catch{}
 }
 setFloodCollapsed(savedCollapsed());
 
-launch.addEventListener('click',openPanel);
+launches.forEach(button=>button.addEventListener('click',openPanel));
 close.addEventListener('click',closePanel);
+document.querySelectorAll('.nav-views [data-view]').forEach(button=>button.addEventListener('click',closePanel));
 collapsePanel.addEventListener('click',()=>setFloodCollapsed(!panel.classList.contains('collapsed')));
 select.addEventListener('change',renderScenario);
 rainInput.addEventListener('input',()=>updateRain(rainInput.value));
@@ -208,7 +209,7 @@ rainToggle.addEventListener('click',()=>{
 $('#focusFloodRoads').addEventListener('click',focusPilot);
 function activateWorstCase(){
   rainPlaying=true;updateRain(200);updateTide(1.8);updateRainButton();focusOverview();redOverviewTriggered=true;
-  history.replaceState(null,'','?v=25e&view=overview&scenario=stress-test');
+  history.replaceState(null,'','?v=25f&view=overview&scenario=stress-test');
 }
 $('#worstCase').addEventListener('click',activateWorstCase);
 window.addEventListener('citylab:renderer-ready',()=>{updateRain(rainMm);updateTide(tideM);});
@@ -224,7 +225,7 @@ try{
   $('#floodClaims').textContent=registry.claimCount;
   renderScenario();
   updateRain(0);updateTide(1.4);updateRainButton();
-  window.floodLab25={version:'25e',catalog,registry,mode:'fail-closed',state:'ready',visualProxy:'bounded_rain_tide'};
+  window.floodLab25={version:'25f',catalog,registry,mode:'fail-closed',state:'ready',visualProxy:'bounded_rain_tide'};
   const pageParams=new URLSearchParams(location.search);
   if(pageParams.get('scenario')==='stress-test'){openPanel({focus:false});activateWorstCase();}
   else if(pageParams.get('view')==='flood25')openPanel();
@@ -232,5 +233,5 @@ try{
   console.error('FLOOD25_ERROR',error);
   state.className='flood-state blocked';
   state.innerHTML='<i></i><span>Không nạp được registry · mô phỏng đã khóa</span>';
-  window.floodLab25={version:'25e',mode:'fail-closed',state:'error',error:String(error)};
+  window.floodLab25={version:'25f',mode:'fail-closed',state:'error',error:String(error)};
 }

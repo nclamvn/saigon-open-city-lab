@@ -526,23 +526,22 @@ compare.addEventListener('pointerdown',compareDown);window.addEventListener('poi
 function savedPanelState(key,fallback){
   try{const value=localStorage.getItem(key);return value===null?fallback:value==='true';}catch{return fallback;}
 }
-function bindCollapsible(panel,button,key,defaultCollapsed){
-  const icon=button.querySelector('span'),label=button.querySelector('b');
+function bindCollapsible(panel,button,key,defaultCollapsed,labels={}){
   const apply=collapsed=>{
     panel.classList.toggle('collapsed',collapsed);
+    button.classList.toggle('is-collapsed',collapsed);
     button.setAttribute('aria-expanded',String(!collapsed));
-    button.setAttribute('aria-label',collapsed?'Mở rộng bảng thông tin':'Thu gọn bảng thông tin');
-    if(icon)icon.textContent=collapsed?'⌄':'⌃';
-    if(label)label.textContent=collapsed?'Mở':'Gọn';
+    button.setAttribute('aria-label',collapsed?(labels.open||'Mở rộng bảng điều khiển'):(labels.close||'Thu gọn bảng điều khiển'));
     try{localStorage.setItem(key,String(collapsed));}catch{}
   };
   apply(savedPanelState(key,defaultCollapsed));
   button.addEventListener('click',()=>apply(!panel.classList.contains('collapsed')));
   return apply;
 }
-bindCollapsible($('#story'),$('#collapseStory'),'citylab.panel.story.collapsed',true);
-bindCollapsible($('#controls'),$('#collapse'),'citylab.panel.controls.collapsed',true);
-bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.panel.selection.collapsed',false);
+bindCollapsible($('#cityNav'),$('#collapseNav'),'citylab.25f.panel.navigation.collapsed',false,{open:'Mở điều hướng tham quan',close:'Thu gọn điều hướng tham quan'});
+bindCollapsible($('#story'),$('#collapseStory'),'citylab.25f.panel.story.collapsed',true,{open:'Mở thông tin vật liệu',close:'Thu gọn thông tin vật liệu'});
+bindCollapsible($('#controls'),$('#collapse'),'citylab.25f.panel.controls.collapsed',true,{open:'Mở điều khiển cảnh',close:'Thu gọn điều khiển cảnh'});
+bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.25f.panel.selection.collapsed',false,{open:'Mở thông tin công trình',close:'Thu gọn thông tin công trình'});
 const toggleUi=()=>document.body.classList.toggle('ui-hidden');$('#toggleUi').onclick=toggleUi;
 
 const canvas=renderer.domElement;canvas.tabIndex=0;canvas.style.touchAction='none';
@@ -585,12 +584,33 @@ Object.assign(materialStatus,{
 });
 
 let lastTime=performance.now(),frameCount=0,fpsTime=lastTime,lastLabel=0;
+const overlaps=(a,b,padding=6)=>a.left-padding<b.right&&a.right+padding>b.left&&a.top-padding<b.bottom&&a.bottom+padding>b.top;
+function updateLabels(){
+  const occupied=[...document.querySelectorAll('.topbar,.nav-dock,.controls,.flood-lab,.selection,.hud,.ioc-alert-bar')]
+    .filter(element=>{const style=getComputedStyle(element),rect=element.getBoundingClientRect();return !element.hidden&&style.display!=='none'&&style.visibility!=='hidden'&&Number(style.opacity)>0.05&&rect.width>0&&rect.height>0;})
+    .map(element=>element.getBoundingClientRect());
+  const candidates=[];
+  for(const label of labels){
+    const projected=label.pos.clone().project(camera),x=(projected.x*.5+.5)*innerWidth,y=(-projected.y*.5+.5)*innerHeight;
+    const visible=(label.active!==false)&&projected.z<1&&x>30&&x<innerWidth-30&&y>60&&y<innerHeight-48;
+    label.el.style.display='none';
+    if(visible)candidates.push({label,x,y,priority:label.active===true?0:1});
+  }
+  candidates.sort((a,b)=>a.priority-b.priority);
+  for(const candidate of candidates){
+    const {label,x,y}=candidate;
+    label.el.style.left=`${Math.round(x)}px`;label.el.style.top=`${Math.round(y)}px`;label.el.style.display='block';
+    const rect=label.el.getBoundingClientRect();
+    if(occupied.some(item=>overlaps(rect,item,7)))label.el.style.display='none';
+    else occupied.push(rect);
+  }
+}
 function render(now){
   const dt=Math.min(.05,(now-lastTime)/1000);lastTime=now;
   if(desired){const ease=1-Math.exp(-4.4*dt);target.lerp(desired.target,ease);cameraDistance+=(desired.distance-cameraDistance)*ease;azimuth+=(desired.az-azimuth)*ease;polar+=(desired.polar-polar)*ease;if(Math.abs(cameraDistance-desired.distance)<.4&&target.distanceTo(desired.target)<.2)desired=null;}
   camera.position.set(target.x+cameraDistance*Math.sin(polar)*Math.sin(azimuth),target.y+cameraDistance*Math.cos(polar),target.z+cameraDistance*Math.sin(polar)*Math.cos(azimuth));camera.lookAt(target);
   scene.fog.density=Math.min(.000145,.48/cameraDistance);
-  if(now-lastLabel>120){lastLabel=now;for(const label of labels){const projected=label.pos.clone().project(camera),x=(projected.x*.5+.5)*innerWidth,y=(-projected.y*.5+.5)*innerHeight;const visible=(label.active!==false)&&projected.z<1&&x>30&&x<innerWidth-30&&y>85&&y<innerHeight-55;label.el.style.display=visible?'block':'none';if(visible){label.el.style.left=`${Math.round(x)}px`;label.el.style.top=`${Math.round(y)}px`;}}}
+  if(now-lastLabel>120){lastLabel=now;updateLabels();}
   renderer.info?.reset?.();renderer.render(scene,camera);frameCount++;
   if(now-fpsTime>1000){const fps=Math.round(frameCount*1000/(now-fpsTime));frameCount=0;fpsTime=now;$('#fps').textContent=fps;const triangles=renderer.info?.render?.triangles??0;$('#triangles').textContent=triangles>1e6?`${(triangles/1e6).toFixed(1)}M`:Math.round(triangles/1000)+'K';materialStatus.fps=fps;materialStatus.meshes=sceneMeshCount;materialStatus.triangles=triangles||null;}
 }

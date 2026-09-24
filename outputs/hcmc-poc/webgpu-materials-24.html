@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark">
   <title>City Lab · WebGPU Material Engine</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="webgpu-materials-24.css?v=25e">
+  <link rel="stylesheet" href="webgpu-materials-24.css?v=25f-r2">
   <script type="importmap">
     {
       "imports": {
@@ -26,14 +26,35 @@
     <div id="labels" aria-hidden="true"></div>
 
     <header class="topbar glass" aria-label="Thanh trạng thái City Lab">
-      <a class="brand" href="./?v=25e&view=overview" aria-label="Về toàn cảnh City Lab"><b>CITY LAB</b></a>
-      <button id="toggleUi" class="chrome-button" title="Ẩn giao diện (H)" aria-label="Ẩn giao diện">H</button>
+      <a class="brand" href="./?v=25f&view=overview" aria-label="Về toàn cảnh City Lab"><b>CITY LAB</b></a>
+      <button id="toggleUi" class="chrome-button" title="Ẩn giao diện (H)" aria-label="Ẩn giao diện"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 10.7a2 2 0 002.7 2.7M9.9 4.2A10.5 10.5 0 0112 4c5.2 0 8.8 4 9.8 6.9a3.2 3.2 0 010 2.2 12 12 0 01-2 3.3M6.6 6.6A12.8 12.8 0 002.2 11a3.2 3.2 0 000 2.2C3.2 16 6.8 20 12 20a10 10 0 004-.8"/></svg></button>
     </header>
+
+    <nav id="cityNav" class="nav-dock glass" aria-label="Điều hướng tham quan thành phố">
+      <div class="nav-head">
+        <div><p>THAM QUAN</p><h2>Khu trung tâm</h2></div>
+        <button id="collapseNav" class="panel-toggle" type="button" aria-expanded="true" aria-controls="navBody" aria-label="Thu gọn điều hướng"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg></button>
+      </div>
+      <div id="navBody" class="nav-body panel-body">
+        <div class="nav-views" role="group" aria-label="Chọn khu vực tham quan">
+          <button data-view="overview">Toàn cảnh</button>
+          <button data-view="river">Ven sông</button>
+          <button data-view="boulevard">Nguyễn Huệ</button>
+          <button data-view="bason">Ba Son</button>
+        </div>
+        <div class="nav-light" role="group" aria-label="Chọn ánh sáng">
+          <button data-light="day" class="active">Ngày</button>
+          <button data-light="golden">Giờ vàng</button>
+          <button data-light="night">Đêm</button>
+        </div>
+        <button class="nav-flood" type="button" data-open-flood><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2S15 6 17.4 6 19.8 8 22 8M3 13c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2M3 18c2.4 0 2.4-2 4.8-2s2.4 2 4.8 2 2.4-2 4.8-2 2.4 2 4.6 2"/></svg><span>Ngập đô thị</span></button>
+      </div>
+    </nav>
 
     <section class="story glass collapsed" id="story" aria-labelledby="storyTitle">
       <div class="panel-head story-head">
         <div><p class="kicker">CITY MATERIALS</p><h2 id="storyTitle">Thành phố có chất liệu</h2></div>
-        <button id="collapseStory" class="panel-toggle" type="button" aria-expanded="false" aria-controls="storyBody" aria-label="Mở rộng bảng thông tin"><span aria-hidden="true">⌄</span></button>
+        <button id="collapseStory" class="panel-toggle" type="button" aria-expanded="false" aria-controls="storyBody" aria-label="Mở rộng bảng thông tin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg></button>
       </div>
       <div class="story-body panel-body" id="storyBody">
         <h1>Thành phố<br><em>có chất liệu.</em></h1>
@@ -50,7 +71,7 @@
     <aside class="controls glass collapsed" id="controls" aria-labelledby="controlsTitle">
       <div class="control-head">
         <div><p>ĐIỀU KHIỂN CẢNH</p><h2 id="controlsTitle">Vật liệu đô thị</h2></div>
-        <button id="collapse" class="panel-toggle" type="button" aria-expanded="false" aria-controls="controlBody" aria-label="Mở rộng điều khiển cảnh"><span aria-hidden="true">⌄</span></button>
+        <button id="collapse" class="panel-toggle" type="button" aria-expanded="false" aria-controls="controlBody" aria-label="Mở rộng điều khiển cảnh"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg></button>
       </div>
       <div class="control-body panel-body" id="controlBody">
         <label class="range-row" for="realism">
@@ -70,7 +91,7 @@
           <button data-view="bason"><span>05</span>Ba Son + Marina</button>
         </div>
         <button id="compare" class="compare"><span>◐</span><b>Giữ để xem khối nền</b></button>
-        <button id="openFloodLab" class="flood-launch"><span>≈</span><b>Ngập đô thị</b><small>25A · DATA GATE</small></button>
+        <button id="openFloodLab" class="flood-launch" data-open-flood><span>≈</span><b>Ngập đô thị</b><small>25A · DATA GATE</small></button>
         <div class="legend">
           <p>HỌ VẬT LIỆU</p>
           <div><i style="--c:#d1bda4"></i>Phổ thông</div><div><i style="--c:#d69c84"></i>Nhà ở</div>
@@ -89,7 +110,7 @@
     <div id="selection" class="selection glass" hidden>
       <div class="selection-head">
         <div><p>CÔNG TRÌNH</p><h2 id="selectedName"></h2></div>
-        <div class="panel-actions"><button id="collapseSelection" class="panel-toggle" type="button" aria-expanded="true" aria-controls="selectedBody" aria-label="Thu gọn thông tin công trình"><span aria-hidden="true">⌃</span></button><button id="closeSelection" class="chrome-button" aria-label="Đóng thông tin công trình">×</button></div>
+        <div class="panel-actions"><button id="collapseSelection" class="panel-toggle" type="button" aria-expanded="true" aria-controls="selectedBody" aria-label="Thu gọn thông tin công trình"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg></button><button id="closeSelection" class="chrome-button" aria-label="Đóng thông tin công trình"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
       </div>
       <div id="selectedBody" class="panel-body"></div>
     </div>
@@ -97,7 +118,7 @@
     <aside id="floodLab" class="flood-lab glass" hidden aria-labelledby="floodTitle">
       <div class="flood-head">
         <div><p>FLOOD LAB</p><h2 id="floodTitle">Điều hành ngập 3D</h2></div>
-        <div class="panel-actions"><button id="collapseFloodLab" class="panel-toggle" type="button" aria-expanded="true" aria-controls="floodContent" aria-label="Thu gọn Flood Lab"><span aria-hidden="true">⌃</span></button><button id="closeFloodLab" class="chrome-button" aria-label="Đóng Flood Lab">×</button></div>
+        <div class="panel-actions"><button id="collapseFloodLab" class="panel-toggle" type="button" aria-expanded="true" aria-controls="floodContent" aria-label="Thu gọn Flood Lab"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg></button><button id="closeFloodLab" class="chrome-button" aria-label="Đóng Flood Lab"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
       </div>
       <div class="flood-compact" aria-hidden="true"><span id="floodCompactLevel">Theo dõi</span><b id="floodCompactDepth">0 cm</b><small>proxy</small></div>
       <div class="flood-content panel-body" id="floodContent">
@@ -154,12 +175,12 @@
     </div>
   </main>
   <script src="vendor/earcut.min.js"></script>
-  <script src="data/scene.js?v=25e"></script>
-  <script src="data/semantic-materials-08.js?v=25e"></script>
-  <script src="data/ba-son-bridge-detail.js?v=25e"></script>
-  <script src="data/webgpu-corrections-24.js?v=25e"></script>
+  <script src="data/scene.js?v=25f"></script>
+  <script src="data/semantic-materials-08.js?v=25f"></script>
+  <script src="data/ba-son-bridge-detail.js?v=25f"></script>
+  <script src="data/webgpu-corrections-24.js?v=25f"></script>
   <script>window.addEventListener('error',event=>{console.error('CITY24_ERROR',event.message,event.filename,event.lineno,event.colno);const text=document.getElementById('loaderText');if(text)text.textContent=`Lỗi dựng cảnh · ${event.message} · dòng ${event.lineno||'?'}`;});</script>
-  <script type="module" src="webgpu-materials-24.js?v=25e"></script>
-  <script type="module" src="flood-ui-25.js?v=25e"></script>
+  <script type="module" src="webgpu-materials-24.js?v=25f-r2"></script>
+  <script type="module" src="flood-ui-25.js?v=25f-r2"></script>
 </body>
 </html>
