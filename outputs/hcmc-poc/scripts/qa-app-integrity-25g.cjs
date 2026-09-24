@@ -70,8 +70,9 @@ check('Aerial colour system is a single bounded default with distance-aware grad
   assert(renderer.includes("golden:{background:'#8f7064',fog:'#a08878',fogDensity:.000105"));
   assert(renderer.includes("const roadColors={edge:'#8c9188',asphalt:'#293534',pedestrian:'#c8ad84',marking:'#f4db80'}"));
   assert(renderer.includes("const waterLow=color('#0c5068')"));
-  assert(renderer.includes("Math.min(kind===families.GLASS?.18:.22,wallHsl.s)"));
-  assert(renderer.includes("const glassDay=mix(color('#56666c'),color('#879494')"));
+  assert(renderer.includes("wall.lerp(new THREE.Color('#8faab5'),.22)"));
+  assert(renderer.includes("wall.setHSL(wallHsl.h,Math.min(.22,wallHsl.s)"));
+  assert(renderer.includes("const glassDay=mix(color('#5c7480'),color('#91a9b1')"));
 });
 
 check('Release CSS contains no invalid units or retired component selectors',()=>{
