@@ -64,7 +64,7 @@ check('Curated corrections do not mutate the source city dataset',()=>{
   assert.equal(evidence.version,'24e');
 });
 check('Daytime glazing avoids black perforation while night retains depth',()=>{
-  assert(js.includes("const glassDay=mix(color('#687477'),color('#a8afad')"));
+  assert(js.includes("const glassDay=mix(color('#56666c'),color('#879494')"));
   assert(js.includes("const concreteWindow=mix(color('#5f696b'),color('#909895')"));
   assert(js.includes("const windowBlend=windowMask.mul(mix(float(.38),float(.72),nightLevel))"));
   assert(js.includes('rich=mix(rich,windowColor,windowBlend)'));

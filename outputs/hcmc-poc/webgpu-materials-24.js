@@ -112,10 +112,10 @@ function classify(b){
 const palettes=[
   ['#e4cfaa','#d4b98e','#f0dfbd','#c6d4b3','#c0d7d5','#dfb6a0'],
   ['#e29a78','#f0bd8c','#c96f55','#eed29a','#9ac7b2','#83bcc2'],
-  ['#909b9c','#758388','#aab0ac','#7f8b90','#9ea8a8','#69777b'],
+  ['#718186','#63747a','#899696','#687980','#7d8e91','#5b6c72'],
   ['#e3bd6c','#d89e55','#f0d59b','#d88368','#b8c78e','#f0c9ab'],
   ['#778989','#65787d','#9a9c8a','#586f78','#889b8c','#a39075'],
-  ['#a3aaa4','#899494','#b3aea1','#859596','#a0aaa4','#79878a'],
+  ['#8a9390','#758181','#9a978d','#728486','#87918d','#68777b'],
   ['#dc8e47','#c96d3c','#edbd65','#f0d49a','#b77942','#d65b3f'],
   ['#c5b38f','#a7bc91','#d4a28c','#91babb','#bea8c3','#d9c47f']
 ];
@@ -146,7 +146,8 @@ function baseColors(b,kind){
   const roof=taggedColor(d['roof:colour'],new THREE.Color(rp[Math.floor(hash01(Number(b.id)+913)*rp.length)]));
   if(kind===families.GLASS||kind===families.CENTRAL||b.h>=45){
     const wallHsl={h:0,s:0,l:0},roofHsl={h:0,s:0,l:0};wall.getHSL(wallHsl);roof.getHSL(roofHsl);
-    wall.setHSL(wallHsl.h,Math.min(kind===families.GLASS?.14:.2,wallHsl.s),Math.max(.34,Math.min(.7,wallHsl.l)));
+    const towerLike=b.h>=45;
+    wall.setHSL(wallHsl.h,Math.min(kind===families.GLASS?.18:.22,wallHsl.s),Math.max(towerLike?.28:.32,Math.min(towerLike?.58:.64,wallHsl.l)));
     roof.setHSL(roofHsl.h,Math.min(.16,roofHsl.s),Math.max(.24,Math.min(.58,roofHsl.l)));
   }
   return {wall,roof,direct:!!(d['building:colour']||d['roof:colour']||d['building:material']||d['roof:material'])};
@@ -231,7 +232,7 @@ const facadeNoise=fract(sin(dot(positionWorld.xz,vec2(.06711056,.00584731)).add(
 const verticalShade=mix(.83,1.05,smoothstep(1.5,85,facadeUv.y));
 const wallWeather=mix(.86,1.08,facadeNoise).mul(verticalShade);
 const wallColor=base.mul(wallWeather);
-const glassDay=mix(color('#687477'),color('#a8afad'),smoothstep(.2,.86,roomRandom));
+const glassDay=mix(color('#56666c'),color('#879494'),smoothstep(.2,.86,roomRandom));
 const glassNight=mix(color('#303c42'),color('#70797a'),roomRandom);
 const glassColor=mix(glassDay,glassNight,nightLevel.mul(.75));
 const concreteWindow=mix(color('#5f696b'),color('#909895'),roomRandom.mul(.7));
