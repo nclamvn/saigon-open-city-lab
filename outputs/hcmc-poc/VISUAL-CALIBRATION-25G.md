@@ -20,7 +20,7 @@ Kết quả này không chứng minh mọi góc nhìn TP.HCM đều sặc sỡ. 
 
 Đợt nâng cấp 26 giữ nguyên dữ liệu và giao diện nhưng thay toàn bộ cách scene mặc định tổ chức màu, sáng và chiều sâu:
 
-- Sương chuyển sang mật độ giới hạn theo khoảng cách, dùng nền trời gradient xám xanh–xám ấm; lớp phủ CSS bỏ chế độ hòa trộn `multiply` để xóa dải ngang và ám cyan ở đường chân trời.
+- Sương chuyển sang mật độ giới hạn theo khoảng cách. Ban ngày dùng gradient xanh lam–trắng với chân trời trắng lạnh, không còn ám vàng/xanh lá; ban đêm dùng nền xanh đen sâu. Lớp phủ CSS không dùng `multiply`, tránh dải ngang và ám màu ở đường chân trời.
 - Tường thấp tầng giảm saturation và độ ngẫu nhiên; mái vẫn giữ nhóm đỏ oxit, terracotta, tôn xanh và vàng nhạt. Shader chỉ tăng saturation 1,015–1,085 nhưng tăng contrast 1,06–1,13 để màu rõ mà không bị phát quang.
 - Mặt đứng có điều biến theo hướng mặt, độ cao và tiếp xúc nền. Hemisphere light giảm, mặt trời ấm hơn và shadow map tăng lên 4.096 px để khối công trình có cạnh sáng–tối rõ hơn.
 - Kính, tường xây và cửa sổ dùng roughness/metalness riêng. Cao ốc giữ dải blue-gray tối vừa phải thay cho cyan hoặc trắng xám.

@@ -66,7 +66,7 @@ check('Aerial colour system is a single bounded default with Visual 26 material 
   assert(!renderer.includes('grade='));
   assert(renderer.includes("const richSaturation=mix(float(1.015),float(1.085),detailFade)"));
   assert(renderer.includes("const richContrast=mix(float(1.06),float(1.13),detailFade)"));
-  assert(renderer.includes("day:{background:'#84999d',fog:'#a1aaa5',fogDensity:.000072"));
+  assert(renderer.includes("day:{background:'#5ca2cf',fog:'#dcebf2',fogDensity:.000056"));
   assert(renderer.includes("golden:{background:'#a17c69',fog:'#b09b86',fogDensity:.000076"));
   assert(renderer.includes("const roadColors={edge:'#8c9188',asphalt:'#293534',pedestrian:'#c8ad84',marking:'#f4db80'}"));
   assert(renderer.includes("const waterLow=color('#103f52')"));

@@ -63,9 +63,9 @@ function createSkyTexture(top,middle,bottom){
   const texture=new THREE.CanvasTexture(canvas);texture.colorSpace=THREE.SRGBColorSpace;texture.generateMipmaps=false;texture.minFilter=THREE.LinearFilter;return texture;
 }
 const skyTextures={
-  day:createSkyTexture('#78949b','#8da2a3','#b5b5a7'),
+  day:createSkyTexture('#287eb4','#79bfe2','#f3f8fb'),
   golden:createSkyTexture('#766f6b','#9b806f','#c6a079'),
-  night:createSkyTexture('#020b17','#07192a','#20313c')
+  night:createSkyTexture('#010610','#040d18','#0b1620')
 };
 scene.background=skyTextures.day;
 scene.fog=new THREE.FogExp2('#a1aaa5',0.000072);
@@ -565,13 +565,13 @@ for(const road of D.roads){
 trafficCandidates.sort((a,b)=>b.score-a.score);
 const trafficItems=[];
 for(const segment of trafficCandidates){
-  if(trafficItems.length>=1800)break;
+  if(trafficItems.length>=3200)break;
   if(!roadSegmentClear(segment.a,segment.b,segment.width*.22))continue;
-  const repeats=segment.length>95?3:segment.length>52?2:1;
-  for(let repeat=0;repeat<repeats&&trafficItems.length<1800;repeat++){
-    const roll=motionRandom(),kind=roll<.78?'motorbike':roll<.97?'car':'bus',side=motionRandom()>.5?1:-1;
+  const repeats=segment.length>95?5:segment.length>52?4:3;
+  for(let repeat=0;repeat<repeats&&trafficItems.length<3200;repeat++){
+    const roll=motionRandom(),kind=roll<.8?'motorbike':roll<.985?'car':'bus',side=motionRandom()>.5?1:-1;
     const speedMps=kind==='motorbike'?8+motionRandom()*7:kind==='car'?7+motionRandom()*6:5+motionRandom()*4;
-    trafficItems.push({...segment,kind,side,lane:Math.max(.85,Math.min(2.4,segment.width*.2)),phase:(motionRandom()+repeat*.43)%1,speed:speedMps/segment.length,colorSeed:motionRandom()});
+    trafficItems.push({...segment,kind,side,lane:Math.max(.85,Math.min(2.4,segment.width*.2)),phase:(repeat/repeats+motionRandom()*.16)%1,speed:speedMps/segment.length,colorSeed:motionRandom()});
   }
 }
 const trafficBodyMaterial=new THREE.MeshStandardNodeMaterial({color:'#b8c1bd',roughness:.34,metalness:.46});
@@ -597,7 +597,9 @@ const hullMaterial=new THREE.MeshStandardNodeMaterial({color:'#d8d3c5',roughness
 const cabinMaterial=new THREE.MeshStandardNodeMaterial({color:'#d8dfdc',roughness:.3,metalness:.12});
 const vesselWindowMaterial=new THREE.MeshStandardNodeMaterial({color:'#244651',roughness:.16,metalness:.42});
 const wakeMaterial=new THREE.MeshStandardNodeMaterial({color:'#c8e1de',emissive:'#5d8e92',emissiveIntensity:.18,transparent:true,opacity:.28,depthWrite:false,side:THREE.DoubleSide});
-const vesselHulls=new THREE.InstancedMesh(hullGeometry,hullMaterial,vesselItems.length),vesselCabins=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),cabinMaterial,vesselItems.length),vesselWindows=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),vesselWindowMaterial,vesselItems.length),vesselWakes=new THREE.InstancedMesh(new THREE.PlaneGeometry(1,1),wakeMaterial,vesselItems.length);
+const wakeGeometry=new THREE.BufferGeometry();wakeGeometry.setAttribute('position',new THREE.Float32BufferAttribute([0,-.05,0,-1,-.58,0,-.9,-.22,0,0,.05,0,-.9,.22,0,-1,.58,0,0,-.045,.01,-.82,-.13,.01,-.82,.13,.01,0,.045,.01],3));wakeGeometry.setIndex([0,1,2,3,4,5,6,7,8,6,8,9]);wakeGeometry.computeVertexNormals();
+wakeMaterial.color.set('#8fc3c8');wakeMaterial.opacity=.2;
+const vesselHulls=new THREE.InstancedMesh(hullGeometry,hullMaterial,vesselItems.length),vesselCabins=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),cabinMaterial,vesselItems.length),vesselWindows=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),vesselWindowMaterial,vesselItems.length),vesselWakes=new THREE.InstancedMesh(wakeGeometry,wakeMaterial,vesselItems.length);
 const vesselPalette=['#d9d3c3','#e4e0d4','#a94438','#376a73','#d1aa58'];
 vesselItems.forEach((item,index)=>vesselHulls.setColorAt(index,new THREE.Color(vesselPalette[Math.floor(item.colorSeed*vesselPalette.length)])));
 vesselHulls.instanceColor.needsUpdate=true;
@@ -605,7 +607,7 @@ for(const mesh of [vesselHulls,vesselCabins,vesselWindows,vesselWakes]){mesh.fru
 
 const motionDummy=new THREE.Object3D();let motionFrame=0;
 function advanceUrbanMotion(now){
-  motionFrame++;const timeSeconds=now*.001,far=cameraDistance>4800,updateFrame=!far||motionFrame%2===0;
+  motionFrame++;const timeSeconds=now*.001,updateStride=cameraDistance>4800?3:cameraDistance>900?2:1,updateFrame=motionFrame%updateStride===0;
   trafficGroup.visible=cameraDistance<8800;vesselGroup.visible=cameraDistance<10500;if(!updateFrame)return;
   for(let i=0;i<trafficItems.length;i++){
     const item=trafficItems[i],raw=(item.phase+timeSeconds*item.speed)%1,u=item.side>0?raw:1-raw,dx=item.b[0]-item.a[0],dz=item.b[1]-item.a[1],length=item.length,nx=-dz/length,nz=dx/length;
@@ -620,7 +622,7 @@ function advanceUrbanMotion(now){
   for(let i=0;i<vesselItems.length;i++){
     const item=vesselItems[i],cycle=(item.phase+timeSeconds*item.speed)%2,u=cycle<=1?cycle:2-cycle,backward=(cycle>1)!==item.reverse,state=vesselAt(u),direction=backward?state.direction.clone().multiplyScalar(-1):state.direction,nx=-direction.z,nz=direction.x;
     const x=state.point.x+nx*item.lane,z=state.point.z+nz*item.lane,rotation=-Math.atan2(direction.z,direction.x),scale=item.type==='barge'?1.55:item.type==='ferry'?1.2:.78;
-    const specs=[[0,3.05,scale,1,1],[-1.2,5.0,6.4*scale,2.25,3.0],[-.6,5.25,6.55*scale,1.1,3.08],[-11*scale,1.56,13*scale,7.2*scale,1]];
+    const specs=[[0,3.05,scale,1,1],[-1.2,5.0,6.4*scale,2.25,3.0],[-.6,5.25,6.55*scale,1.1,3.08],[-5.8*scale,1.55,18*scale,10*scale,1]];
     for(let part=0;part<4;part++){const spec=specs[part];motionDummy.position.set(x+direction.x*spec[0],spec[1],z+direction.z*spec[0]);motionDummy.rotation.set(part===3?-Math.PI/2:0,rotation,0);motionDummy.scale.set(spec[2],spec[3],spec[4]);motionDummy.updateMatrix();[vesselHulls,vesselCabins,vesselWindows,vesselWakes][part].setMatrixAt(i,motionDummy.matrix);}
   }
   for(const mesh of [vesselHulls,vesselCabins,vesselWindows,vesselWakes])mesh.instanceMatrix.needsUpdate=true;
@@ -666,13 +668,13 @@ setFloodRain(0);
 
 let activeFogDensity=.000072;
 const lightStates={
-  day:{background:'#84999d',fog:'#a1aaa5',fogDensity:.000072,sun:'#ffecd0',sunIntensity:4.05,hemi:.82,exposure:.91,night:0,pos:[-2300,3500,1800]},
-  golden:{background:'#a17c69',fog:'#b09b86',fogDensity:.000076,sun:'#ff9845',sunIntensity:4.65,hemi:.72,exposure:.94,night:.08,pos:[-4200,1450,1700]},
-  night:{background:'#03101d',fog:'#091b29',fogDensity:.00009,sun:'#789bd5',sunIntensity:.55,hemi:.32,exposure:.8,night:1,pos:[-1800,2600,900]}
+  day:{background:'#5ca2cf',fog:'#dcebf2',fogDensity:.000056,sun:'#fffaf0',sunIntensity:4.05,hemiSky:'#e4f3fa',hemiGround:'#69625b',hemi:.84,exposure:.92,night:0,pos:[-2300,3500,1800]},
+  golden:{background:'#a17c69',fog:'#b09b86',fogDensity:.000076,sun:'#ff9845',sunIntensity:4.65,hemiSky:'#e6c7a5',hemiGround:'#5d493e',hemi:.72,exposure:.94,night:.08,pos:[-4200,1450,1700]},
+  night:{background:'#010610',fog:'#06111b',fogDensity:.000082,sun:'#6686bd',sunIntensity:.34,hemiSky:'#263d60',hemiGround:'#071018',hemi:.2,exposure:.68,night:1,pos:[-1800,2600,900]}
 };
 function setLight(key){
   const state=lightStates[key];if(!state)return;activeLight=key;
-  activeFogDensity=state.fogDensity;scene.background=skyTextures[key];scene.fog.color.set(state.fog);scene.fog.density=state.fogDensity;sun.color.set(state.sun);sun.intensity=state.sunIntensity;hemi.intensity=state.hemi;renderer.toneMappingExposure=state.exposure;nightLevel.value=state.night;sun.position.set(...state.pos);
+  activeFogDensity=state.fogDensity;scene.background=skyTextures[key];scene.fog.color.set(state.fog);scene.fog.density=state.fogDensity;sun.color.set(state.sun);sun.intensity=state.sunIntensity;hemi.color.set(state.hemiSky);hemi.groundColor.set(state.hemiGround);hemi.intensity=state.hemi;renderer.toneMappingExposure=state.exposure;nightLevel.value=state.night;sun.position.set(...state.pos);
   document.querySelectorAll('[data-light]').forEach(button=>button.classList.toggle('active',button.dataset.light===key));
   materialStatus.light=key;
 }

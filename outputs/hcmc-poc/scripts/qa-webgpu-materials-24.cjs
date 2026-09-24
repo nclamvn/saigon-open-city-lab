@@ -70,7 +70,7 @@ check('Daytime glazing avoids black perforation while night retains depth',()=>{
   assert(js.includes('rich=mix(rich,windowColor,windowBlend)'));
 });
 check('Visual 26 uses bounded haze, directional contact shading and separated PBR classes',()=>{
-  assert(js.includes("day:createSkyTexture('#78949b','#8da2a3','#b5b5a7')"));
+  assert(js.includes("day:createSkyTexture('#287eb4','#79bfe2','#f3f8fb')"));
   assert(js.includes("const groundContact=mix(float(.7),float(1),smoothstep(1.5,22,positionWorld.y))"));
   assert(js.includes("const materialRoughness=select(isGlass"));
   assert(js.includes("scene.fog.density=Math.min(activeFogDensity,Math.max(.000018,.22/cameraDistance))"));
@@ -78,9 +78,10 @@ check('Visual 26 uses bounded haze, directional contact shading and separated PB
 });
 check('Urban motion 26B stays on audited roads and inside the river',()=>{
   assert(js.includes("trafficGroup.name='Dense Vietnamese road traffic · illustrative'"));
-  assert(js.includes('trafficItems.length>=1800'));
-  assert(js.includes("kind=roll<.78?'motorbike':roll<.97?'car':'bus'"));
+  assert(js.includes('trafficItems.length>=3200'));
+  assert(js.includes("kind=roll<.8?'motorbike':roll<.985?'car':'bus'"));
   assert(js.includes('roadSegmentClear(segment.a,segment.b'));
+  assert(js.includes("wakeGeometry.setIndex([0,1,2,3,4,5,6,7,8,6,8,9])"));
   assert(js.includes('vesselSamplesOutsideWater'));
   assert(js.includes("vesselRoute:'illustrative Saigon River lane'"));
   assert(js.includes('advanceUrbanMotion(now)'));
