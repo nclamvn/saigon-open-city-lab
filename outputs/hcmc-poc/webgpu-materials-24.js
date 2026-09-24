@@ -538,10 +538,10 @@ function bindCollapsible(panel,button,key,defaultCollapsed,labels={}){
   button.addEventListener('click',()=>apply(!panel.classList.contains('collapsed')));
   return apply;
 }
-bindCollapsible($('#cityNav'),$('#collapseNav'),'citylab.25f.panel.navigation.collapsed',false,{open:'Mở điều hướng tham quan',close:'Thu gọn điều hướng tham quan'});
-bindCollapsible($('#story'),$('#collapseStory'),'citylab.25f.panel.story.collapsed',true,{open:'Mở thông tin vật liệu',close:'Thu gọn thông tin vật liệu'});
-bindCollapsible($('#controls'),$('#collapse'),'citylab.25f.panel.controls.collapsed',true,{open:'Mở điều khiển cảnh',close:'Thu gọn điều khiển cảnh'});
-bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.25f.panel.selection.collapsed',false,{open:'Mở thông tin công trình',close:'Thu gọn thông tin công trình'});
+bindCollapsible($('#cityNav'),$('#collapseNav'),'citylab.25g.panel.navigation.collapsed',false,{open:'Mở điều hướng tham quan',close:'Thu gọn điều hướng tham quan'});
+bindCollapsible($('#story'),$('#collapseStory'),'citylab.25g.panel.story.collapsed',true,{open:'Mở thông tin vật liệu',close:'Thu gọn thông tin vật liệu'});
+bindCollapsible($('#controls'),$('#collapse'),'citylab.25g.panel.controls.collapsed',true,{open:'Mở điều khiển cảnh',close:'Thu gọn điều khiển cảnh'});
+bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.25g.panel.selection.collapsed',false,{open:'Mở thông tin công trình',close:'Thu gọn thông tin công trình'});
 const toggleUiButton=$('#toggleUi');
 const toggleUi=()=>{
   const hidden=document.body.classList.toggle('ui-hidden');

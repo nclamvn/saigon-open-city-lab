@@ -20,15 +20,15 @@ check('Accidental tile copies are ignored',()=>{
   assert(ignore.includes('outputs/hcmc-poc/data/tiles-18/**/* 2.json'));
 });
 
-check('Renderer assets are version-aligned at 25f',()=>{
+check('Renderer assets are version-aligned at 25g',()=>{
   const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
   const entry=fs.readFileSync(path.join(demo,'webgpu-entry-24.js'),'utf8');
   const manifest=JSON.parse(fs.readFileSync(path.join(demo,'data/webgpu-materials-24.json'),'utf8'));
   const evidence=JSON.parse(fs.readFileSync(path.join(demo,'data/ba-son-marina-24.json'),'utf8'));
   assert(!html.includes('?v=24d'));
-  assert(html.includes('webgpu-materials-24.js?v=25f'));
-  assert(entry.includes("version:'25f'"));
-  assert.equal(manifest.version,'25f');
+  assert(html.includes('webgpu-materials-24.js?v=25g'));
+  assert(entry.includes("version:'25g'"));
+  assert.equal(manifest.version,'25g');
   assert.equal(evidence.version,'24e');
 });
 
@@ -40,9 +40,9 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   const flood=fs.readFileSync(path.join(demo,'flood-ui-25.js'),'utf8');
   for(const id of ['cityNav','collapseNav','collapseStory','collapse','collapseSelection','collapseFloodLab'])assert(html.includes(`id="${id}"`));
   assert(html.includes('aria-controls="floodContent"'));
-  assert(index.includes("location.replace(`webgpu-materials-24.html?v=25f"));
+  assert(index.includes("location.replace(`webgpu-materials-24.html?v=25g"));
   assert(index.includes("q.get('legacy')==='1'"));
-  assert(css.includes('Unified map shell · 25F'));
+  assert(css.includes('Unified map shell · 25G'));
   assert(css.includes('--rail:44px'));
   assert(css.includes('.collapsed>.panel-body'));
   assert(css.includes('.nav-dock'));
@@ -56,24 +56,45 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   assert(!html.includes('>⌄<'));
   assert(html.includes('data-view="overview"'));
   assert(html.includes('data-light="day"'));
-  assert(renderer.includes("citylab.25f.panel.story.collapsed"));
-  assert(renderer.includes("citylab.25f.panel.controls.collapsed"));
-  assert(renderer.includes("citylab.25f.panel.navigation.collapsed"));
+  assert(renderer.includes("citylab.25g.panel.story.collapsed"));
+  assert(renderer.includes("citylab.25g.panel.controls.collapsed"));
+  assert(renderer.includes("citylab.25g.panel.navigation.collapsed"));
   assert(renderer.includes("hidden?'Mở giao diện':'Ẩn giao diện'"));
   assert(renderer.includes('function updateLabels()'));
   assert(flood.includes("querySelectorAll('[data-open-flood]')"));
   assert(flood.includes("querySelectorAll('.nav-views [data-view]')"));
-  assert(flood.includes("citylab.25f.panel.flood.collapsed"));
+  assert(flood.includes("citylab.25g.panel.flood.collapsed"));
 });
 
 check('Navigation remains available on compact screens with normalized control geometry',()=>{
+  const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
   const css=fs.readFileSync(path.join(demo,'webgpu-materials-24.css'),'utf8');
+  const buttons=html.match(/<button\b[^>]*>/g)||[];
+  assert(buttons.length>=25);
+  assert(buttons.every(button=>button.includes('type="button"')));
+  for(const glyph of ['◐','▶','⌖','Ⅱ'])assert(!html.includes(glyph));
   assert(css.includes('--control-size:32px'));
+  assert(css.includes('Legibility and interaction QA · 25G'));
+  assert(css.includes('--button-text:12px'));
+  assert(css.includes('grid-template-columns:1fr 1.25fr'));
+  assert(!css.includes('1.25gr'));
   assert(css.includes('height:40px'));
   assert(css.includes('.nav-dock.collapsed>.panel-body'));
   assert(css.includes('bottom:48px'));
   assert(css.includes('width:16px'));
   assert(css.includes('height:16px'));
+});
+
+check('Interactive markup has unique IDs, explicit button types and valid control targets',()=>{
+  const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
+  const css=fs.readFileSync(path.join(demo,'webgpu-materials-24.css'),'utf8');
+  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+  assert.equal(new Set(ids).size,ids.length);
+  const controls=[...html.matchAll(/\baria-controls="([^"]+)"/g)].map(match=>match[1]);
+  for(const target of controls)assert(ids.includes(target),`Missing aria-controls target: ${target}`);
+  const buttons=html.match(/<button\b[^>]*>/g)||[];
+  assert(buttons.every(button=>button.includes('type="button"')));
+  assert(!/[0-9](?:gr|xp|emx|remx)\b/.test(css));
 });
 
 check('Flood model contract has evidence tiers and calibration gates',()=>{
