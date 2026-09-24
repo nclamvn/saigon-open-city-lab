@@ -20,6 +20,14 @@ check('Accidental tile copies are ignored',()=>{
   assert(ignore.includes('outputs/hcmc-poc/data/tiles-18/**/* 2.json'));
 });
 
+check('Workspace cleanup is reproducible and leaves no allow-listed residue',()=>{
+  const cleanup=path.join(project,'scripts/clean_workspace.py');
+  assert(fs.existsSync(cleanup));
+  const dry=cp.execFileSync('python3',[cleanup],{cwd:project,encoding:'utf8'});
+  assert(dry.includes('candidates=0'));
+  for(const relative of ['work/archive-ui-pre-demo','work/v1-backup','work/RGBELoader.js','work/bitexco-model.html'])assert(!fs.existsSync(path.join(project,relative)));
+});
+
 check('Renderer assets are version-aligned at 25g',()=>{
   const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
   const entry=fs.readFileSync(path.join(demo,'webgpu-entry-24.js'),'utf8');
