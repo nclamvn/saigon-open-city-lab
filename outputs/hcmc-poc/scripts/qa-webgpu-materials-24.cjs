@@ -60,7 +60,7 @@ check('Curated corrections do not mutate the source city dataset',()=>{
   assert(js.includes('const renderBuildings=D.buildings.map'));
   assert(js.includes('const building=renderBuildings[low]'));
   assert(!js.includes('Object.assign(b,grandMarinaCorrection'));
-  assert(corrections.includes("version:'27a'"));
+  assert(corrections.includes("version:'30b'"));
   assert.equal(evidence.version,'24e');
 });
 check('Daytime glazing avoids black perforation while night retains depth',()=>{
@@ -76,24 +76,43 @@ check('Visual 26 uses bounded haze, directional contact shading and separated PB
   assert(js.includes("scene.fog.density=Math.min(activeFogDensity,Math.max(.000018,.22/cameraDistance))"));
   assert(js.includes("sun.shadow.mapSize.set(4096,4096)"));
 });
-check('Visual Runtime 27 is clean-room, adaptive and post-processed',()=>{
-  const runtime=read('city-visual-runtime-27.js');
-  assert(js.includes("from './city-visual-runtime-27.js'"));
-  assert(js.includes('createCityRenderPipeline(renderer,scene,camera)'));
+check('Visual Runtime 30B uses official temporal, AO and cascade primitives',()=>{
+  const runtime=read('city-visual-runtime-30.js');
+  const detail=read('city-detail-runtime-28.js');
+  const hero=read('city-hero-corridor-30.js');
+  assert(js.includes("from './city-visual-runtime-30.js?v=30b'"));
+  assert(js.includes("from './city-detail-runtime-28.js?v=30b'"));
+  assert(js.includes("from './city-hero-corridor-30.js?v=30b'"));
+  assert(js.includes("from './city-identity-facades-30.js?v=30b'"));
+  assert(js.includes('createCityRenderPipeline(renderer,scene,camera,visualQuality)'));
+  assert(js.includes('createCityDetailRuntime({scene,buildings:renderBuildings.filter'));
   assert(js.includes('createAdaptiveQuality(renderer'));
-  assert(js.includes('updateAdaptiveShadow(sun,target,cameraDistance)'));
+  assert(js.includes('createCityShadowSystem({renderer,light:sun,quality:visualQuality,camera})'));
+  assert(js.includes('shadowSystem.update(target,cameraDistance)'));
+  assert(js.includes('cityDetailRuntime.update(cameraDistance,nightLevel.value)'));
+  assert(js.includes("heroCorridor.update(cameraDistance,nightLevel.value,activeView==='corridor')"));
   assert(js.includes("licenseIsolation:'clean-room implementation; no SpiderBench source or assets'"));
   assert(runtime.includes('new THREE.RenderPipeline(renderer)'));
-  assert(runtime.includes('highlight spread'));
+  for(const primitive of ["from 'three/addons/tsl/display/GTAONode.js'","from 'three/addons/tsl/display/TRAANode.js'","from 'three/addons/tsl/display/BloomNode.js'","from 'three/addons/csm/CSMShadowNode.js'"])assert(runtime.includes(primitive));
+  assert(runtime.includes('Leave `camera` null here'));
+  assert(hero.includes('Opera sourced identity patch'));
+  assert(hero.includes('Continental sourced facade'));
+  assert(hero.includes('Caravelle sourced low wing'));
+  assert(hero.includes("classification:'site photos on approximate open-map envelopes'"));
+  for(const layer of ['Hero roof parapets','Hero facade ledges','Hero podium cornices','Street awnings','Ground-floor lightbox signs','Rooftop water and plant tanks','Street lamp poles'])assert(detail.includes(layer));
+  assert(detail.includes("classification:'inferred presentation geometry'"));
 });
 check('Facade, vegetation and water receive multi-scale detail',()=>{
   assert(js.includes('const frameMask='));
   assert(js.includes('const mullionMask='));
+  assert(js.includes('const semanticWindow='));
+  assert(js.includes('const towerFin='));
+  assert(js.includes('const glassSpandrel='));
   assert(js.includes('const residentialBalcony='));
   assert(js.includes('const farCanopies='));
   assert(js.includes('const currentBand='));
   assert(js.includes('const waterFresnel='));
-  assert(js.includes('createPropWash'));
+  assert(!js.includes('createPropWash'));
 });
 check('Urban motion 26B stays on audited roads and inside the river',()=>{
   assert(js.includes("trafficGroup.name='Dense Vietnamese road traffic · illustrative'"));
@@ -101,8 +120,11 @@ check('Urban motion 26B stays on audited roads and inside the river',()=>{
   assert(js.includes("kind=roll<.8?'motorbike':roll<.985?'car':'bus'"));
   assert(js.includes('roadSegmentClear(segment.a,segment.b'));
   assert(js.includes('function createWakeBand(startX,endX,spread,width)'));
-  assert(js.includes("createWakeBand(-10,-46,18,.98)"));
-  assert(js.includes('opacity:.075'));
+  assert(js.includes("createWakeBand(-11,-47,18,.82)"));
+  assert(js.includes('const wakeUv=uv(),headFade='));
+  assert(js.includes('headFade.mul(tailFade).mul(edgeFade)'));
+  assert(js.includes('blending:THREE.NormalBlending'));
+  assert(js.includes('motionDummy.position.set(x,.72,z)'));
   assert(js.includes('u:item.reverse?1-baseU:baseU'));
   assert(js.includes('vesselHeadingMismatches'));
   assert(js.includes('vesselSamplesOutsideWater'));
@@ -114,7 +136,7 @@ check('Public entry from the stable demo exists',()=>{
   assert(read('index.html').includes('webgpu-entry-24.js'));
 });
 check('Manifest declares the rendered scope and limitations',()=>{
-  assert.equal(manifest.version,'27a');
+  assert.equal(manifest.version,'30b');
   assert.equal(manifest.scope.renderedBuildings,70726);
   assert.equal(manifest.scope.materialFamilies,8);
   assert(manifest.limits.length>=4);
@@ -126,7 +148,7 @@ check('Flood 25B focuses Thao Dien and renders bounded road-water proxies',()=>{
   assert(js.includes("{name:'Nguyễn Văn Hưởng',maxDepthM:.25"));
   assert(js.includes("Math.min(200,Number(amountMm)"));
 });
-check('IOC 27A exposes compound rain-tide stress state, map beacons and compact shell',()=>{
+check('IOC 28B exposes compound rain-tide stress state, map beacons and compact shell',()=>{
   assert(js.includes("alertRoadNames=['Quốc Hương','Thảo Điền','Nguyễn Văn Hưởng'"));
   assert(js.includes('function setFloodScenario(amountMm,tideM=floodTideM)'));
   assert(js.includes("alertLevel=severity>=.78?'red'"));

@@ -6,9 +6,12 @@ import {
 } from 'three/tsl';
 import { HDRLoader } from 'three/addons/loaders/HDRLoader.js';
 import {
-  createAdaptiveQuality, createCityRenderPipeline, smoothDampScalar,
-  smoothDampVector, updateAdaptiveShadow
-} from './city-visual-runtime-27.js';
+  createAdaptiveQuality, createCityRenderPipeline, createCityShadowSystem,
+  resolveVisualQuality, smoothDampScalar, smoothDampVector
+} from './city-visual-runtime-30.js?v=30b';
+import { createCityDetailRuntime } from './city-detail-runtime-28.js?v=30b';
+import { createHeroCorridor30 } from './city-hero-corridor-30.js?v=30b';
+import { createIdentityFacades30 } from './city-identity-facades-30.js?v=30b';
 
 const D=window.CITY_DATA;
 const SM=window.SEMANTIC_MATERIALS_08||{records:{},directTaggedBuildings:0,directCoveragePercent:0};
@@ -18,6 +21,7 @@ const APP_VERSION=CORRECTIONS.version;
 const $=selector=>document.querySelector(selector);
 const params=new URLSearchParams(location.search);
 const forceWebGL=params.get('backend')==='webgl';
+const requestedQuality=params.get('quality')||'presentation';
 let activeLight='day';
 const loading=$('#loading'),loaderText=$('#loaderText'),loaderProgress=$('#loaderProgress');
 const setProgress=(value,text)=>{loaderProgress.style.width=`${Math.max(3,Math.min(100,value))}%`;if(text)loaderText.textContent=text;};
@@ -28,7 +32,7 @@ if(!D?.buildings?.length)throw new Error('CITY_DATA không khả dụng');
 
 let renderer;
 try{
-  renderer=new THREE.WebGPURenderer({antialias:true,forceWebGL,powerPreference:'high-performance'});
+  renderer=new THREE.WebGPURenderer({antialias:forceWebGL,forceWebGL,powerPreference:'high-performance'});
   renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));
   renderer.setSize(innerWidth,innerHeight);
   renderer.outputColorSpace=THREE.SRGBColorSpace;
@@ -51,11 +55,13 @@ try{
 
 $('#scene').append(renderer.domElement);
 const actualWebGPU=!!renderer.backend?.isWebGPUBackend;
-renderer.setPixelRatio(Math.min(devicePixelRatio,actualWebGPU?1.6:1.35));
+const visualQuality=resolveVisualQuality(requestedQuality,actualWebGPU);
+renderer.setPixelRatio(Math.min(devicePixelRatio,visualQuality.maxPixelRatio));
 renderer.setSize(innerWidth,innerHeight);
 const backendElement=$('#backend');
 if(backendElement)backendElement.textContent=actualWebGPU?'WEBGPU / TSL':'WEBGL 2 / TSL FALLBACK';
 document.body.dataset.backend=actualWebGPU?'webgpu':'webgl2';
+document.body.dataset.quality=visualQuality.id;
 setProgress(10,'Đang dựng hệ vật liệu PBR…');
 
 const scene=new THREE.Scene();
@@ -86,6 +92,7 @@ sun.shadow.bias=-0.0001;
 sun.shadow.normalBias=.85;
 sun.shadow.radius=1.35;
 scene.add(sun,sun.target);
+const shadowSystem=createCityShadowSystem({renderer,light:sun,quality:visualQuality,camera});
 
 // The HDRI is lighting context only and is never represented as captured HCMC imagery.
 new HDRLoader().load('data/venice_sunset_1k.hdr',texture=>{
@@ -177,6 +184,9 @@ function baseColors(b,kind){
 
 const positions=[],uvs=[],baseRgb=[],surfaces=[],classes=[],seeds=[],directs=[],faceEnds=[];
 const roofFixtures=[];
+// These three sourced hero envelopes replace their coarse merged proxies. The
+// original records remain in CITY_DATA and in the picking/evidence model.
+const heroEnvelopeIds=new Set([801710792,2000032897,39598465]);
 function vertex(p,tex,c,surface,kind,seed,direct){
   positions.push(p[0],p[1],p[2]);uvs.push(tex[0],tex[1]);baseRgb.push(c.r,c.g,c.b);
   surfaces.push(surface);classes.push(kind);seeds.push(seed);directs.push(direct?1:0);
@@ -187,6 +197,7 @@ function tri(a,b,c,ta,tb,tc,tint,surface,kind,seed,direct){
 
 for(let bi=0;bi<renderBuildings.length;bi++){
   const b=renderBuildings[bi];
+  if(heroEnvelopeIds.has(Number(b.id))){faceEnds.push(positions.length/9);continue;}
   const kind=classify(b),seed=hash01(b.id),tones=baseColors(b,kind);
   const y=b.h+1.5,base=b.min+1.5,ring=b.r[0];
   const flat=[],holes=[];let count=0;
@@ -245,14 +256,34 @@ const floorHeight=mix(float(3.05),float(4.15),fract(buildingSeed.mul(31.73)));
 const cell=fract(vec2(facadeUv.x.div(bayWidth),facadeUv.y.div(floorHeight)));
 const room=floor(vec2(facadeUv.x.div(bayWidth),facadeUv.y.div(floorHeight)));
 const roomRandom=fract(sin(dot(room.add(buildingSeed.mul(113.7)),vec2(12.9898,78.233))).mul(43758.5453));
+const isWall=surface.greaterThan(.5);
+const isGlass=surface.greaterThan(1.5).or(materialClass.equal(families.GLASS));
+const isResidential=materialClass.equal(families.RESIDENTIAL);
+const isCivic=materialClass.equal(families.CIVIC).or(materialClass.equal(families.RELIGIOUS));
 const insideX=smoothstep(.12,.2,cell.x).mul(float(1).sub(smoothstep(.78,.88,cell.x)));
 const insideY=smoothstep(.18,.28,cell.y).mul(float(1).sub(smoothstep(.67,.79,cell.y)));
 const innerX=smoothstep(.22,.28,cell.x).mul(float(1).sub(smoothstep(.7,.76,cell.x)));
 const innerY=smoothstep(.29,.34,cell.y).mul(float(1).sub(smoothstep(.61,.67,cell.y)));
-const isWall=surface.greaterThan(.5);
-const isGlass=surface.greaterThan(1.5).or(materialClass.equal(families.GLASS));
-const windowMask=insideX.mul(insideY).mul(isWall).mul(detailFade);
-const innerWindow=innerX.mul(innerY).mul(isWall).mul(detailFade);
+// Semantic facade kits break the repeated universal window grid. Curtain-wall
+// towers use broad glazing, housing keeps narrower punched openings, and civic
+// buildings use slower, wider bays. This is a deterministic visual inference,
+// never a claim that an individual facade has been surveyed.
+const curtainX=smoothstep(.035,.09,cell.x).mul(float(1).sub(smoothstep(.91,.965,cell.x)));
+const curtainY=smoothstep(.045,.1,cell.y).mul(float(1).sub(smoothstep(.9,.955,cell.y)));
+const curtainInnerX=smoothstep(.105,.15,cell.x).mul(float(1).sub(smoothstep(.85,.895,cell.x)));
+const curtainInnerY=smoothstep(.12,.16,cell.y).mul(float(1).sub(smoothstep(.84,.89,cell.y)));
+const residentialX=smoothstep(.2,.27,cell.x).mul(float(1).sub(smoothstep(.7,.8,cell.x)));
+const residentialY=smoothstep(.2,.27,cell.y).mul(float(1).sub(smoothstep(.66,.74,cell.y)));
+const residentialInnerX=smoothstep(.28,.33,cell.x).mul(float(1).sub(smoothstep(.64,.69,cell.x)));
+const residentialInnerY=smoothstep(.3,.35,cell.y).mul(float(1).sub(smoothstep(.58,.64,cell.y)));
+const civicX=smoothstep(.08,.16,cell.x).mul(float(1).sub(smoothstep(.84,.92,cell.x)));
+const civicY=smoothstep(.26,.34,cell.y).mul(float(1).sub(smoothstep(.62,.7,cell.y)));
+const civicInnerX=smoothstep(.18,.23,cell.x).mul(float(1).sub(smoothstep(.77,.82,cell.x)));
+const civicInnerY=smoothstep(.36,.41,cell.y).mul(float(1).sub(smoothstep(.55,.6,cell.y)));
+const semanticWindow=select(isGlass,curtainX.mul(curtainY),select(isResidential,residentialX.mul(residentialY),select(isCivic,civicX.mul(civicY),insideX.mul(insideY))));
+const semanticInner=select(isGlass,curtainInnerX.mul(curtainInnerY),select(isResidential,residentialInnerX.mul(residentialInnerY),select(isCivic,civicInnerX.mul(civicInnerY),innerX.mul(innerY))));
+const windowMask=semanticWindow.mul(isWall).mul(detailFade);
+const innerWindow=semanticInner.mul(isWall).mul(detailFade);
 const frameMask=max(float(0),windowMask.sub(innerWindow));
 const mullionX=float(1).sub(smoothstep(.012,.045,abs(cell.x.sub(.5)))).mul(innerWindow);
 const mullionY=float(1).sub(smoothstep(.012,.04,abs(cell.y.sub(.48)))).mul(innerWindow);
@@ -277,12 +308,17 @@ const floorBand=float(1).sub(smoothstep(.02,.095,cell.y)).mul(isWall).mul(detail
 const residentialBalcony=float(1).sub(smoothstep(.035,.105,abs(cell.y.sub(.86)))).mul(materialClass.equal(families.RESIDENTIAL)).mul(isWall).mul(detailFade);
 const lowerStorey=float(1).sub(smoothstep(5.5,9.5,positionWorld.y)).mul(isWall).mul(detailFade);
 const shopMask=insideX.mul(float(1).sub(smoothstep(.82,.94,cell.x))).mul(lowerStorey);
+const towerFinDistance=min(abs(cell.x.sub(.08)),abs(cell.x.sub(.92)));
+const towerFin=float(1).sub(smoothstep(.015,.055,towerFinDistance)).mul(isGlass).mul(isWall).mul(detailFade);
+const glassSpandrel=float(1).sub(smoothstep(.045,.12,abs(cell.y.sub(.08)))).mul(isGlass).mul(isWall).mul(detailFade);
 const roofWarm=select(materialClass.equal(families.RESIDENTIAL).or(materialClass.equal(families.RELIGIOUS)),color('#92573e'),base.mul(.63));
 const roofColor=mix(base.mul(.72),roofWarm,.72).mul(mix(.9,1.06,facadeNoise));
 let rich=mix(roofColor,wallColor,isWall);
 rich=mix(rich,windowColor,windowBlend);
 rich=mix(rich,color('#b4b9b3'),frameMask.mul(select(isGlass,float(.2),float(.38))));
 rich=mix(rich,color('#28383d'),mullionMask.mul(select(isGlass,float(.38),float(.16))));
+rich=mix(rich,color('#a9b7b8'),towerFin.mul(.36));
+rich=mix(rich,color('#344a52'),glassSpandrel.mul(.42));
 rich=mix(rich,rich.mul(.66),floorBand.mul(.34));
 rich=mix(rich,base.mul(.54),residentialBalcony.mul(.52));
 rich=mix(rich,color('#263d40'),shopMask.mul(.48));
@@ -646,22 +682,19 @@ function createWakeBand(startX,endX,spread,width){
   geometry.setAttribute('uv',new THREE.Float32BufferAttribute([0,0,1,0,1,1,0,1,0,0,1,0,1,1,0,1],2));
   geometry.setIndex([0,1,2,0,2,3,4,5,6,4,6,7]);geometry.computeVertexNormals();return geometry;
 }
-function createPropWash(startX,endX,width){
-  const geometry=new THREE.PlaneGeometry(Math.abs(endX-startX),width,8,1);geometry.rotateX(-Math.PI/2);geometry.rotateY(Math.PI/2);geometry.translate((startX+endX)*.5,.02,0);return geometry;
-}
 const wakeLayers=[
-  {geometry:createWakeBand(-3.8,-17,6.8,.58),color:'#dff7f5',opacity:.3},
-  {geometry:createWakeBand(-6.5,-30,11.8,.78),color:'#bfe7e8',opacity:.16},
-  {geometry:createWakeBand(-10,-46,18,.98),color:'#96cdd2',opacity:.075},
-  {geometry:createPropWash(-4,-34,2.2),color:'#e9ffff',opacity:.2,propWash:true}
+  {geometry:createWakeBand(-4.6,-18,6.9,.5),color:'#d8efee',opacity:.27},
+  {geometry:createWakeBand(-7.5,-31,11.8,.66),color:'#b5dadd',opacity:.145},
+  {geometry:createWakeBand(-11,-47,18,.82),color:'#8bbbc2',opacity:.065}
 ];
 const vesselHulls=new THREE.InstancedMesh(hullGeometry,hullMaterial,vesselItems.length),vesselCabins=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),cabinMaterial,vesselItems.length),vesselWindows=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),vesselWindowMaterial,vesselItems.length);
 const vesselWakes=wakeLayers.map(layer=>{
-  const material=new THREE.MeshBasicNodeMaterial({color:layer.color,transparent:true,opacity:layer.opacity,depthWrite:false,side:THREE.DoubleSide,blending:THREE.AdditiveBlending});
-  const wakeUv=uv(),tailFade=float(1).sub(smoothstep(.08,1,wakeUv.x));
-  const edgeFade=smoothstep(0,.28,wakeUv.y).mul(float(1).sub(smoothstep(.72,1,wakeUv.y)));
-  const foamBreak=mix(float(.55),float(1),sin(positionWorld.x.mul(.22).add(positionWorld.z.mul(.17)).add(time.mul(2.1))).mul(.5).add(.5));
-  material.opacityNode=tailFade.mul(layer.propWash?edgeFade.mul(foamBreak):foamBreak).mul(layer.opacity);
+  const material=new THREE.MeshBasicNodeMaterial({color:layer.color,transparent:true,opacity:layer.opacity,depthWrite:false,side:THREE.DoubleSide,blending:THREE.NormalBlending});
+  const wakeUv=uv(),headFade=smoothstep(0,.14,wakeUv.x),tailFade=float(1).sub(smoothstep(.16,1,wakeUv.x));
+  const edgeFade=smoothstep(0,.22,wakeUv.y).mul(float(1).sub(smoothstep(.78,1,wakeUv.y)));
+  const foamNoise=fract(sin(dot(positionWorld.xz,vec2(.127,.311)).add(time.mul(.09))).mul(43758.5453));
+  const organic=mix(float(.76),float(1),foamNoise);
+  material.opacityNode=headFade.mul(tailFade).mul(edgeFade).mul(organic).mul(layer.opacity);
   const mesh=new THREE.InstancedMesh(layer.geometry,material,vesselItems.length);mesh.renderOrder=3;return mesh;
 });
 const vesselPalette=['#d9d3c3','#e4e0d4','#a94438','#376a73','#d1aa58'];
@@ -689,7 +722,7 @@ function advanceUrbanMotion(now){
     const specs=[[vesselHulls,0,3.05,scale,1,1],[vesselCabins,-1.2,5.0,6.4*scale,2.25,3.0],[vesselWindows,-.6,5.25,6.55*scale,1.1,3.08]];
     for(const [mesh,offset,y,sx,sy,sz] of specs){motionDummy.position.set(x+direction.x*offset,y,z+direction.z*offset);motionDummy.rotation.set(0,rotation,0);motionDummy.scale.set(sx,sy,sz);motionDummy.updateMatrix();mesh.setMatrixAt(i,motionDummy.matrix);}
     const wakeBreath=1+Math.sin(timeSeconds*2.2+i*.83)*.035;
-    for(const wake of vesselWakes){motionDummy.position.set(x,1.55,z);motionDummy.rotation.set(0,rotation,0);motionDummy.scale.set(scale,1,scale*wakeBreath);motionDummy.updateMatrix();wake.setMatrixAt(i,motionDummy.matrix);}
+    for(const wake of vesselWakes){motionDummy.position.set(x,.72,z);motionDummy.rotation.set(0,rotation,0);motionDummy.scale.set(scale,1,scale*wakeBreath);motionDummy.updateMatrix();wake.setMatrixAt(i,motionDummy.matrix);}
   }
   for(const mesh of [vesselHulls,vesselCabins,vesselWindows,...vesselWakes])mesh.instanceMatrix.needsUpdate=true;
   materialStatus.motion.lastFrame=motionFrame;
@@ -701,32 +734,42 @@ const fixtureMaterial=new THREE.MeshStandardNodeMaterial({color:'#6d7772',roughn
 const fixtures=new THREE.InstancedMesh(new THREE.BoxGeometry(1,1,1),fixtureMaterial,roofFixtures.length);
 roofFixtures.forEach((item,i)=>{dummy.position.set(item.x,item.y,item.z);dummy.rotation.set(0,item.seed*5.3,0);dummy.scale.set(item.scale,1.4+item.seed*1.8,item.scale*.62);dummy.updateMatrix();fixtures.setMatrixAt(i,dummy.matrix);});
 fixtures.castShadow=true;scene.add(fixtures);
+materialStatus.heroDetail={};
+const cityDetailRuntime=createCityDetailRuntime({scene,buildings:renderBuildings.filter(building=>!heroEnvelopeIds.has(Number(building.id))),roads:D.roads,widths,hash01,nightLevel,status:materialStatus.heroDetail});
+materialStatus.heroCorridor={};
+const heroCorridor=createHeroCorridor30({scene,roads:D.roads,nightLevel,status:materialStatus.heroCorridor});
+materialStatus.identityFacades={};
+const identityFacades=createIdentityFacades30({scene,status:materialStatus.identityFacades});
 let sceneMeshCount=0;scene.traverse(object=>{if(object.isMesh)sceneMeshCount++;});$('#draws').textContent=sceneMeshCount;
 
 setProgress(84,'Đang hoàn tất cảnh và biên dịch pipeline…');
 
-const places=[['BITEXCO',106.70435,10.7716,278],['NGUYỄN HUỆ',106.7035,10.7751,18],['BẾN BẠCH ĐẰNG',106.7067,10.7762,16],['LANDMARK 81',106.7219,10.7949,470],['MARINA CENTRAL · 240 M',106.707826,10.782198,252],['GRAND MARINA · 4 THÁP',106.70895,10.78472,184],['CẦU BA SON',106.71073,10.77927,122],['THẢO ĐIỀN · VÙNG HIỆU CHỈNH',106.7312,10.8037,34],['QUỐC HƯƠNG',106.7322,10.8044,15],['NGUYỄN VĂN HƯỞNG',106.7282,10.8022,15]];
+const places=[['BITEXCO',106.70435,10.7716,278],['NGUYỄN HUỆ',106.7035,10.7751,18],['BẾN BẠCH ĐẰNG',106.7067,10.7762,16],['NHÀ HÁT THÀNH PHỐ',106.7033,10.7765,34],['QUẢNG TRƯỜNG LAM SƠN',106.7030,10.7768,16],['ĐỒNG KHỞI',106.7027,10.7776,18],['LANDMARK 81',106.7219,10.7949,470],['MARINA CENTRAL · 240 M',106.707826,10.782198,252],['GRAND MARINA · 4 THÁP',106.70895,10.78472,184],['CẦU BA SON',106.71073,10.77927,122],['THẢO ĐIỀN · VÙNG HIỆU CHỈNH',106.7312,10.8037,34],['QUỐC HƯƠNG',106.7322,10.8044,15],['NGUYỄN VĂN HƯỞNG',106.7282,10.8022,15]];
 const labels=places.map(place=>{const el=document.createElement('div');el.className='label';el.textContent=place[0];$('#labels').append(el);return{el,pos:xyz(place[1],place[2],place[3])};});
 floodAlertLabels=floodAlertPoints.map(point=>{const el=document.createElement('div');el.className='label alert-label';el.textContent=point.name;$('#labels').append(el);const item={el,pos:new THREE.Vector3(point.x,155,point.z),active:false};labels.push(item);return item;});
 
 const presets={
   materials:{target:xyz(106.7060,10.7764,68),distance:1120,az:.92,polar:1.08,label:'MATERIAL DISTRICT'},
-  river:{target:xyz(106.7022,10.7723,72),distance:2200,az:.92,polar:1.16,label:'BẾN BẠCH ĐẰNG'},
+  river:{target:xyz(106.7085,10.7738,28),distance:1180,az:.92,polar:1.05,label:'BẾN BẠCH ĐẰNG'},
   boulevard:{target:xyz(106.7039,10.7747,43),distance:1180,az:1.1,polar:1.05,label:'NGUYỄN HUỆ'},
+  corridor:{target:new THREE.Vector3(-924,13,249),distance:260,az:2.4,polar:1.28,fov:48,label:'LAM SƠN · ĐỒNG KHỞI · NHÀ HÁT'},
   overview:{target:new THREE.Vector3(0,0,0),distance:7600,az:.45,polar:.63,label:'TOÀN VÙNG · 38,57 KM²'},
   bason:{target:new THREE.Vector3(-300,76,-360),distance:930,az:2.43,polar:1.03,label:'BA SON · MARINA CENTRAL + GRAND MARINA'},
   flood25:{target:xyz(106.7305,10.8030,24),distance:1280,az:-.92,polar:1.01,label:'THẢO ĐIỀN · MÔ PHỎNG NGẬP 25A'}
 };
 const initial=presets[params.get('view')]||presets.materials;
+let activeView=params.get('view') in presets?params.get('view'):'materials';
 let target=initial.target.clone(),cameraDistance=initial.distance,azimuth=initial.az,polar=initial.polar,desired=null;
 const transitionVelocity=new THREE.Vector3();
 const transitionState={distance:cameraDistance,azimuth,polar};
 function selectView(key){
   const p=presets[key];if(!p)return;desired={...p,target:p.target.clone()};
+  activeView=key;
+  camera.fov=p.fov||42;camera.updateProjectionMatrix();
   transitionState.distance=cameraDistance;transitionState.azimuth=azimuth;transitionState.polar=polar;
   transitionState.distanceVelocity=transitionState.azimuthVelocity=transitionState.polarVelocity=0;transitionVelocity.set(0,0,0);
   document.querySelectorAll('[data-view]').forEach(button=>button.classList.toggle('active',button.dataset.view===key));
-  $('#viewLabel').textContent=p.label;history.replaceState(null,'',`?v=${APP_VERSION}&view=${key}${forceWebGL?'&backend=webgl':''}`);
+  $('#viewLabel').textContent=p.label;history.replaceState(null,'',`?v=${APP_VERSION}&view=${key}${forceWebGL?'&backend=webgl':''}${requestedQuality!=='presentation'?`&quality=${requestedQuality}`:''}`);
 }
 document.querySelectorAll('[data-view]').forEach(button=>button.onclick=()=>selectView(button.dataset.view));
 selectView(params.get('view') in presets?params.get('view'):'materials');
@@ -749,7 +792,7 @@ function setLight(key){
   materialStatus.light=key;
 }
 document.querySelectorAll('[data-light]').forEach(button=>button.onclick=()=>setLight(button.dataset.light));
-materialStatus.visualCalibration={profile:'hcmc-aerial-default-27',saturation:'1.015–1.085 by distance',contrast:'1.06–1.13 by distance',atmosphere:'distance-bounded neutral haze',materials:'class-separated physical PBR',renderScale:Math.min(devicePixelRatio,actualWebGPU?1.6:1.35)};
+materialStatus.visualCalibration={profile:'hcmc-aerial-default-30',saturation:'1.015–1.085 by distance',contrast:'1.06–1.13 by distance',atmosphere:'distance-bounded neutral haze',materials:'class-separated physical PBR + camera-scaled inferred relief',renderScale:Math.min(devicePixelRatio,visualQuality.maxPixelRatio)};
 setLight(activeLight);
 
 const realismInput=$('#realism'),realismValue=$('#realismValue');
@@ -775,10 +818,10 @@ function bindCollapsible(panel,button,key,defaultCollapsed,labels={}){
   button.addEventListener('click',()=>apply(!panel.classList.contains('collapsed')));
   return apply;
 }
-bindCollapsible($('#cityNav'),$('#collapseNav'),'citylab.27a.panel.navigation.collapsed',false,{open:'Mở điều hướng tham quan',close:'Thu gọn điều hướng tham quan'});
-bindCollapsible($('#story'),$('#collapseStory'),'citylab.27a.panel.story.collapsed',true,{open:'Mở thông tin vật liệu',close:'Thu gọn thông tin vật liệu'});
-bindCollapsible($('#controls'),$('#collapse'),'citylab.27a.panel.controls.collapsed',true,{open:'Mở điều khiển cảnh',close:'Thu gọn điều khiển cảnh'});
-bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.27a.panel.selection.collapsed',false,{open:'Mở thông tin công trình',close:'Thu gọn thông tin công trình'});
+bindCollapsible($('#cityNav'),$('#collapseNav'),'citylab.30b.panel.navigation.collapsed',false,{open:'Mở điều hướng tham quan',close:'Thu gọn điều hướng tham quan'});
+bindCollapsible($('#story'),$('#collapseStory'),'citylab.30b.panel.story.collapsed',true,{open:'Mở thông tin vật liệu',close:'Thu gọn thông tin vật liệu'});
+bindCollapsible($('#controls'),$('#collapse'),'citylab.30b.panel.controls.collapsed',true,{open:'Mở điều khiển cảnh',close:'Thu gọn điều khiển cảnh'});
+bindCollapsible($('#selection'),$('#collapseSelection'),'citylab.30b.panel.selection.collapsed',false,{open:'Mở thông tin công trình',close:'Thu gọn thông tin công trình'});
 const toggleUiButton=$('#toggleUi');
 const toggleUi=()=>{
   const hidden=document.body.classList.toggle('ui-hidden');
@@ -828,11 +871,12 @@ Object.assign(materialStatus,{
 });
 
 let visualPipeline=null,pipelineFault=false;
-try{visualPipeline=createCityRenderPipeline(renderer,scene,camera);}catch(error){pipelineFault=true;console.warn('City Visual Runtime 27 unavailable; direct rendering retained.',error);}
-const adaptiveQuality=createAdaptiveQuality(renderer,{minRatio:actualWebGPU?1.05:.9,maxRatio:actualWebGPU?1.6:1.35});
+try{visualPipeline=createCityRenderPipeline(renderer,scene,camera,visualQuality);}catch(error){pipelineFault=true;console.warn('City Visual Runtime 30 unavailable; direct rendering retained.',error);}
+const adaptiveQuality=createAdaptiveQuality(renderer,{minRatio:visualQuality.minPixelRatio,maxRatio:visualQuality.maxPixelRatio,lowFps:visualQuality.targetLowFps,highFps:visualQuality.targetHighFps});
 materialStatus.visualRuntime={
-  version:'27a',pipeline:visualPipeline?.name||'direct fallback',adaptiveResolution:true,
+  version:'30b',profile:visualQuality.id,pipeline:visualPipeline?.name||'direct fallback',effects:visualPipeline?.effects||[],shadows:{type:shadowSystem.type,cascades:shadowSystem.cascades,mapSize:shadowSystem.mapSize,maxFar:shadowSystem.maxFar},adaptiveResolution:true,
   facade:'semantic procedural depth + frames + mullions + weathering',
+  geometryLod:'district parapets + hero facade ledges/awnings + rooftop plant + public-realm lamps',
   vegetation:'near 3-lobe canopy + far HLOD',water:'multi-frequency current + Fresnel + animated Kelvin wake',
   camera:'critical-damped tour transitions + inertial orbit',licenseIsolation:'clean-room implementation; no SpiderBench source or assets'
 };
@@ -873,13 +917,16 @@ function render(now){
   }
   camera.position.set(target.x+cameraDistance*Math.sin(polar)*Math.sin(azimuth),target.y+cameraDistance*Math.cos(polar),target.z+cameraDistance*Math.sin(polar)*Math.cos(azimuth));camera.lookAt(target);
   scene.fog.density=Math.min(activeFogDensity,Math.max(.000018,.22/cameraDistance));
-  updateAdaptiveShadow(sun,target,cameraDistance);
+  shadowSystem.update(target,cameraDistance);
+  cityDetailRuntime.update(cameraDistance,nightLevel.value);
+  heroCorridor.update(cameraDistance,nightLevel.value,activeView==='corridor');
+  identityFacades.update(cameraDistance,activeView);
   const closeVegetation=cameraDistance<3400;trunks.visible=closeVegetation;canopies.visible=closeVegetation;farCanopies.visible=cameraDistance>2500;
   advanceUrbanMotion(now);
   if(now-lastLabel>120){lastLabel=now;updateLabels();}
   adaptiveQuality.update(dt,cameraDistance,pointerDown||!!desired);
   renderer.info?.reset?.();
-  if(visualPipeline&&!pipelineFault){try{visualPipeline.render();}catch(error){pipelineFault=true;materialStatus.visualRuntime.pipeline='direct fallback after compile failure';console.warn('City Visual Runtime 27 pipeline failed; switching to direct rendering.',error);renderer.render(scene,camera);}}
+  if(visualPipeline&&!pipelineFault){try{visualPipeline.render();}catch(error){pipelineFault=true;materialStatus.visualRuntime.pipeline='direct fallback after compile failure';materialStatus.visualRuntime.error=String(error?.message||error);console.warn('City Visual Runtime 30 pipeline failed; switching to direct rendering.',error);renderer.render(scene,camera);}}
   else renderer.render(scene,camera);
   frameCount++;
   if(now-fpsTime>1000){const fps=Math.round(frameCount*1000/(now-fpsTime));frameCount=0;fpsTime=now;$('#fps').textContent=fps;const triangles=renderer.info?.render?.triangles??0;$('#triangles').textContent=triangles>1e6?`${(triangles/1e6).toFixed(1)}M`:Math.round(triangles/1000)+'K';materialStatus.fps=fps;materialStatus.meshes=sceneMeshCount;materialStatus.triangles=triangles||null;}

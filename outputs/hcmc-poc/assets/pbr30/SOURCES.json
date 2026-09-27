@@ -1,0 +1,100 @@
+{
+  "schema": "rtr.city-lab.pbr-receipt.v1",
+  "license": "CC0 1.0",
+  "provider": "Poly Haven",
+  "provider_url": "https://polyhaven.com",
+  "assets": [
+    {
+      "id": "aerial_asphalt_01",
+      "name": "Aerial Asphalt 01",
+      "page": "https://polyhaven.com/a/aerial_asphalt_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "maps": [
+        {
+          "role": "Diffuse",
+          "file": "asphalt_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_asphalt_01/aerial_asphalt_01_diff_1k.jpg",
+          "source_md5": "b41fc0114556f15fe59b260cf0978b89",
+          "sha256": "28bfd71288b364f825e0feb750e487410422d80bf3c31d32da01cae3bf085b58",
+          "bytes": 635143
+        },
+        {
+          "role": "nor_gl",
+          "file": "asphalt_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_asphalt_01/aerial_asphalt_01_nor_gl_1k.jpg",
+          "source_md5": "4e57698a025ec6734d5d4fd025b4dfe9",
+          "sha256": "7a58cb4460f75b66359b8e19bc92585554a79c2b0009e2b9e21eccac0a58d3f6",
+          "bytes": 560227
+        },
+        {
+          "role": "Rough",
+          "file": "asphalt_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_asphalt_01/aerial_asphalt_01_rough_1k.jpg",
+          "source_md5": "086103ec0d34b82ba2def2d3584da8ed",
+          "sha256": "19ca745417e36a1cd1114411801933b3144a351d1409d0d9caa1046b9a20c0ec",
+          "bytes": 312445
+        },
+        {
+          "role": "AO",
+          "file": "asphalt_ao_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_asphalt_01/aerial_asphalt_01_ao_1k.jpg",
+          "source_md5": "3eb06f2dc623a312e46bc3466a5e2d57",
+          "sha256": "ae9b2fa67fae3c8e0cac4d6927dd3cae2f0cc25ceb497e2a464a0b49b421a1a5",
+          "bytes": 438015
+        }
+      ],
+      "physical_size_m": [
+        30.0,
+        30.0
+      ]
+    },
+    {
+      "id": "concrete_pavement_02",
+      "name": "Concrete Pavement 02",
+      "page": "https://polyhaven.com/a/concrete_pavement_02",
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "maps": [
+        {
+          "role": "Diffuse",
+          "file": "pavement_diff_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_02/concrete_pavement_02_diff_1k.jpg",
+          "source_md5": "bdee8d4deebb78609414453a5fb299e2",
+          "sha256": "e129ee6b59b6ed7f65b4c4c5ba9eb583d13d040ec26bef5d5d4e0080fe342e7a",
+          "bytes": 1052909
+        },
+        {
+          "role": "nor_gl",
+          "file": "pavement_nor_gl_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_02/concrete_pavement_02_nor_gl_1k.jpg",
+          "source_md5": "2c8ea332b4274e8728c5aa0ecf467d26",
+          "sha256": "26c09320b3373da7f55edb8165562f16d36c07161c9c715787a09daf5910450c",
+          "bytes": 1212387
+        },
+        {
+          "role": "Rough",
+          "file": "pavement_rough_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_02/concrete_pavement_02_rough_1k.jpg",
+          "source_md5": "13784e8a94bc8c6d4c34e908df7646b3",
+          "sha256": "966ee3d1a6d343e5e72d5536fde7c04ecd32e6e95efc879a102effc527f5b679",
+          "bytes": 541803
+        },
+        {
+          "role": "AO",
+          "file": "pavement_ao_1k.jpg",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_pavement_02/concrete_pavement_02_ao_1k.jpg",
+          "source_md5": "a6a002fd1b11d35a8ed87ccc34503fd3",
+          "sha256": "f648ea5b7421698fdc51404acfc3142aa8da82b24232cf3814a5c4e42c0d1bd4",
+          "bytes": 684440
+        }
+      ],
+      "physical_size_m": [
+        1.8,
+        1.8
+      ]
+    }
+  ]
+}

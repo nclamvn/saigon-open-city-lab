@@ -1,6 +1,6 @@
 import * as THREE from 'three/webgpu';
 import {
-  clamp, dot, float, fract, length as nodeLength, max, mix, pass, screenSize,
+  abs, clamp, dot, float, fract, length as nodeLength, max, mix, pass, screenSize,
   screenUV, sin, smoothstep, time, vec2, vec3, vec4
 } from 'three/tsl';
 
@@ -15,8 +15,10 @@ import {
 export function createCityRenderPipeline(renderer, scene, camera) {
   const scenePass = pass(scene, camera);
   const source = scenePass.getTextureNode();
+  const depthTexture = scenePass.getTextureNode('depth');
   const texel = vec2(float(1).div(screenSize.x), float(1).div(screenSize.y));
   const sample = (x, y) => source.sample(screenUV.add(texel.mul(vec2(x, y)))).rgb;
+  const sampleDepth = (x, y) => depthTexture.sample(screenUV.add(texel.mul(vec2(x, y)))).r;
 
   // A restrained nine-tap highlight spread. It gives lamps, sky reflections
   // and bright facades photographic shoulder roll without washing out roofs.
@@ -27,7 +29,23 @@ export function createCityRenderPipeline(renderer, scene, camera) {
     .add(sample(2.6, -2.6).mul(.07)).add(sample(-2.6, -2.6).mul(.07));
   const softLuma = dot(soft, vec3(.2126, .7152, .0722));
   const highlight = smoothstep(.72, 1.42, softLuma).mul(.16);
-  let graded = source.rgb.add(soft.mul(highlight));
+  // Edge-aware local contrast brings back facade relief after aerial haze. It
+  // is intentionally bounded: high-frequency detail is restored without the
+  // white halos produced by a conventional strong unsharp mask.
+  const localDetail = source.rgb.sub(soft).mul(.13);
+  let graded = source.rgb.add(soft.mul(highlight)).add(localDetail);
+
+  // A lightweight screen-depth cue darkens only discontinuities on foreground
+  // geometry. It is not advertised as survey-grade AO, but supplies the contact
+  // separation that procedural massing otherwise lacks at presentation scale.
+  const centerDepth = depthTexture.sample(screenUV).r;
+  const depthEdge = max(
+    max(abs(centerDepth.sub(sampleDepth(1.25, 0))), abs(centerDepth.sub(sampleDepth(-1.25, 0)))),
+    max(abs(centerDepth.sub(sampleDepth(0, 1.25))), abs(centerDepth.sub(sampleDepth(0, -1.25))))
+  );
+  const foreground = float(1).sub(smoothstep(.985, .9997, centerDepth));
+  const depthContact = smoothstep(.000025, .0018, depthEdge).mul(foreground).mul(.105);
+  graded = graded.mul(float(1).sub(depthContact));
 
   const luma = dot(graded, vec3(.2126, .7152, .0722));
   graded = mix(vec3(luma), graded, 1.035).sub(.5).mul(1.045).add(.5);
@@ -46,7 +64,7 @@ export function createCityRenderPipeline(renderer, scene, camera) {
   const pipeline = new THREE.RenderPipeline(renderer);
   pipeline.outputNode = vec4(graded, source.a);
   return {
-    name: 'City Visual Runtime 27 · HDR presentation pipeline',
+    name: 'City Visual Runtime 28 · depth-aware HDR presentation pipeline',
     scenePass,
     render: () => pipeline.render(),
     dispose: () => pipeline.dispose()

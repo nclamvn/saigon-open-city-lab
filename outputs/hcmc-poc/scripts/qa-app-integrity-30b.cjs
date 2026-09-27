@@ -11,9 +11,9 @@ const flood=read('flood-ui-25.js');
 const checks=[];
 const check=(name,fn)=>{fn();checks.push(name);};
 
-check('Canonical entry targets the 27A shell and preserves the legacy escape hatch',()=>{
+check('Canonical entry targets the 30B shell and preserves the legacy escape hatch',()=>{
   const index=read('index.html');
-  assert(index.includes('webgpu-materials-24.html?v=27a'));
+  assert(index.includes('webgpu-materials-24.html?v=30b'));
   assert(index.includes("q.get('legacy')==='1'"));
 });
 
@@ -27,12 +27,12 @@ check('Every local asset referenced by the canonical HTML exists',()=>{
   assert(local.length>=10,`Unexpectedly small asset graph: ${local.length}`);
 });
 
-check('Canonical cache keys and runtime data remain aligned to 27A',()=>{
+check('Canonical cache keys and runtime data remain aligned to 30B',()=>{
   const refs=[...html.matchAll(/(?:src|href)="([^"]+\?v=([^"]+))"/g)];
   assert(refs.length>=7);
-  for(const [,asset,version] of refs)assert(version.startsWith('27a'),`Stale cache key ${version}: ${asset}`);
+  for(const [,asset,version] of refs)assert(version.startsWith('30b'),`Stale cache key ${version}: ${asset}`);
   assert(renderer.includes("const APP_VERSION=CORRECTIONS.version"));
-  assert.equal(require(path.join(demo,'data/webgpu-materials-24.json')).version,'27a');
+  assert.equal(require(path.join(demo,'data/webgpu-materials-24.json')).version,'30b');
 });
 
 check('Interactive markup has unique IDs, explicit button types and valid control targets',()=>{
@@ -74,7 +74,7 @@ check('Aerial colour system is a single bounded default with Visual 26 material 
   assert(renderer.includes("wall.lerp(new THREE.Color('#8faab5'),.22)"));
   assert(renderer.includes("wall.setHSL(wallHsl.h,Math.min(.22,wallHsl.s)"));
   assert(renderer.includes("const glassDay=mix(color('#526b77'),color('#8ca3aa')"));
-  assert(renderer.includes("profile:'hcmc-aerial-default-27'"));
+  assert(renderer.includes("profile:'hcmc-aerial-default-30'"));
   assert(!css.includes('mix-blend-mode:multiply'));
 });
 
@@ -86,7 +86,7 @@ check('Release CSS contains no invalid units or retired component selectors',()=
 });
 
 check('No stale release label survives in active shell files',()=>{
-  const active=[html,css,renderer,flood,read('index.html')].join('\n');
+  const active=[html,css,renderer,flood,read('index.html'),read('city-detail-runtime-28.js')].join('\n');
   assert(!/\b25[ef]\b/i.test(active));
 });
 
@@ -103,4 +103,4 @@ check('Demo tree contains no common editor, Finder or duplicate-copy debris',()=
   assert.deepEqual(debris,[]);
 });
 
-console.log(JSON.stringify({suite:'app-integrity-27a',passed:checks.length,checks},null,2));
+console.log(JSON.stringify({suite:'app-integrity-30b',passed:checks.length,checks},null,2));
