@@ -25,8 +25,8 @@ check('Universal renderer prefers WebGPU and retains WebGL 2 fallback',()=>{
   assert(js.includes('forceWebGL:true'));
   assert(js.includes("renderer.backend?.isWebGPUBackend"));
 });
-check('City material is TSL NodeMaterial without WebGL shader patching',()=>{
-  assert(js.includes('new THREE.MeshStandardNodeMaterial'));
+check('City material is physical TSL NodeMaterial without WebGL shader patching',()=>{
+  assert(js.includes('new THREE.MeshPhysicalNodeMaterial'));
   assert(js.includes('cityMaterial.colorNode'));
   assert(!js.includes('onBeforeCompile'));
   assert(!js.includes('ShaderMaterial'));
@@ -60,7 +60,7 @@ check('Curated corrections do not mutate the source city dataset',()=>{
   assert(js.includes('const renderBuildings=D.buildings.map'));
   assert(js.includes('const building=renderBuildings[low]'));
   assert(!js.includes('Object.assign(b,grandMarinaCorrection'));
-  assert(corrections.includes("version:'25g'"));
+  assert(corrections.includes("version:'27a'"));
   assert.equal(evidence.version,'24e');
 });
 check('Daytime glazing avoids black perforation while night retains depth',()=>{
@@ -75,6 +75,25 @@ check('Visual 26 uses bounded haze, directional contact shading and separated PB
   assert(js.includes("const materialRoughness=select(isGlass"));
   assert(js.includes("scene.fog.density=Math.min(activeFogDensity,Math.max(.000018,.22/cameraDistance))"));
   assert(js.includes("sun.shadow.mapSize.set(4096,4096)"));
+});
+check('Visual Runtime 27 is clean-room, adaptive and post-processed',()=>{
+  const runtime=read('city-visual-runtime-27.js');
+  assert(js.includes("from './city-visual-runtime-27.js'"));
+  assert(js.includes('createCityRenderPipeline(renderer,scene,camera)'));
+  assert(js.includes('createAdaptiveQuality(renderer'));
+  assert(js.includes('updateAdaptiveShadow(sun,target,cameraDistance)'));
+  assert(js.includes("licenseIsolation:'clean-room implementation; no SpiderBench source or assets'"));
+  assert(runtime.includes('new THREE.RenderPipeline(renderer)'));
+  assert(runtime.includes('highlight spread'));
+});
+check('Facade, vegetation and water receive multi-scale detail',()=>{
+  assert(js.includes('const frameMask='));
+  assert(js.includes('const mullionMask='));
+  assert(js.includes('const residentialBalcony='));
+  assert(js.includes('const farCanopies='));
+  assert(js.includes('const currentBand='));
+  assert(js.includes('const waterFresnel='));
+  assert(js.includes('createPropWash'));
 });
 check('Urban motion 26B stays on audited roads and inside the river',()=>{
   assert(js.includes("trafficGroup.name='Dense Vietnamese road traffic · illustrative'"));
@@ -95,7 +114,7 @@ check('Public entry from the stable demo exists',()=>{
   assert(read('index.html').includes('webgpu-entry-24.js'));
 });
 check('Manifest declares the rendered scope and limitations',()=>{
-  assert.equal(manifest.version,'25g');
+  assert.equal(manifest.version,'27a');
   assert.equal(manifest.scope.renderedBuildings,70726);
   assert.equal(manifest.scope.materialFamilies,8);
   assert(manifest.limits.length>=4);
@@ -107,7 +126,7 @@ check('Flood 25B focuses Thao Dien and renders bounded road-water proxies',()=>{
   assert(js.includes("{name:'Nguyễn Văn Hưởng',maxDepthM:.25"));
   assert(js.includes("Math.min(200,Number(amountMm)"));
 });
-check('IOC 25G exposes compound rain-tide stress state, map beacons and compact shell',()=>{
+check('IOC 27A exposes compound rain-tide stress state, map beacons and compact shell',()=>{
   assert(js.includes("alertRoadNames=['Quốc Hương','Thảo Điền','Nguyễn Văn Hưởng'"));
   assert(js.includes('function setFloodScenario(amountMm,tideM=floodTideM)'));
   assert(js.includes("alertLevel=severity>=.78?'red'"));

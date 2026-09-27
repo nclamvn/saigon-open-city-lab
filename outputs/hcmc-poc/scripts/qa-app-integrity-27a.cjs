@@ -11,9 +11,9 @@ const flood=read('flood-ui-25.js');
 const checks=[];
 const check=(name,fn)=>{fn();checks.push(name);};
 
-check('Canonical entry targets the 25G shell and preserves the legacy escape hatch',()=>{
+check('Canonical entry targets the 27A shell and preserves the legacy escape hatch',()=>{
   const index=read('index.html');
-  assert(index.includes('webgpu-materials-24.html?v=25g'));
+  assert(index.includes('webgpu-materials-24.html?v=27a'));
   assert(index.includes("q.get('legacy')==='1'"));
 });
 
@@ -27,12 +27,12 @@ check('Every local asset referenced by the canonical HTML exists',()=>{
   assert(local.length>=10,`Unexpectedly small asset graph: ${local.length}`);
 });
 
-check('Canonical cache keys and runtime data remain aligned to 25G',()=>{
+check('Canonical cache keys and runtime data remain aligned to 27A',()=>{
   const refs=[...html.matchAll(/(?:src|href)="([^"]+\?v=([^"]+))"/g)];
   assert(refs.length>=7);
-  for(const [,asset,version] of refs)assert(version.startsWith('25g'),`Stale cache key ${version}: ${asset}`);
+  for(const [,asset,version] of refs)assert(version.startsWith('27a'),`Stale cache key ${version}: ${asset}`);
   assert(renderer.includes("const APP_VERSION=CORRECTIONS.version"));
-  assert.equal(require(path.join(demo,'data/webgpu-materials-24.json')).version,'25g');
+  assert.equal(require(path.join(demo,'data/webgpu-materials-24.json')).version,'27a');
 });
 
 check('Interactive markup has unique IDs, explicit button types and valid control targets',()=>{
@@ -69,11 +69,12 @@ check('Aerial colour system is a single bounded default with Visual 26 material 
   assert(renderer.includes("day:{background:'#5ca2cf',fog:'#dcebf2',fogDensity:.000056"));
   assert(renderer.includes("golden:{background:'#a17c69',fog:'#b09b86',fogDensity:.000076"));
   assert(renderer.includes("const roadColors={edge:'#8c9188',asphalt:'#293534',pedestrian:'#c8ad84',marking:'#f4db80'}"));
-  assert(renderer.includes("const waterLow=color('#103f52')"));
+  assert(renderer.includes("const waterLow=color('#0b3546')"));
+  assert(renderer.includes('const waterFresnel='));
   assert(renderer.includes("wall.lerp(new THREE.Color('#8faab5'),.22)"));
   assert(renderer.includes("wall.setHSL(wallHsl.h,Math.min(.22,wallHsl.s)"));
   assert(renderer.includes("const glassDay=mix(color('#526b77'),color('#8ca3aa')"));
-  assert(renderer.includes("profile:'hcmc-aerial-default-26'"));
+  assert(renderer.includes("profile:'hcmc-aerial-default-27'"));
   assert(!css.includes('mix-blend-mode:multiply'));
 });
 
@@ -102,4 +103,4 @@ check('Demo tree contains no common editor, Finder or duplicate-copy debris',()=
   assert.deepEqual(debris,[]);
 });
 
-console.log(JSON.stringify({suite:'app-integrity-25g',passed:checks.length,checks},null,2));
+console.log(JSON.stringify({suite:'app-integrity-27a',passed:checks.length,checks},null,2));

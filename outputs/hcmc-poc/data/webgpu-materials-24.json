@@ -1,5 +1,5 @@
 {
-  "version": "25g",
+  "version": "27a",
   "engine": {
     "library": "three.js",
     "revision": "186",
@@ -91,11 +91,41 @@
   },
   "flood25g": {
     "pilot": "Thao Dien - Quoc Huong - Nguyen Van Huong",
-    "rainControlMm": [0, 200],
-    "tideControlM": [1.4, 1.8],
+    "rainControlMm": [
+      0,
+      200
+    ],
+    "tideControlM": [
+      1.4,
+      1.8
+    ],
     "reference": "reported near-200 mm historical event",
     "waterLayer": "bounded visual proxy on named OSM road centrelines with IOC beacons",
     "hydraulicOutput": false,
     "warning": "Not a forecast; requires DTM, drainage, rain/tide time series and calibration"
+  },
+  "visualRuntime27": {
+    "implementation": "clean-room Three.js r186 WebGPU/TSL",
+    "pipeline": [
+      "HDR highlight spread",
+      "bounded colour separation",
+      "vignette",
+      "dither/grain",
+      "ACES output"
+    ],
+    "surface": [
+      "facade frames and mullions",
+      "interior depth cue",
+      "weathering",
+      "multi-frequency water",
+      "road aggregate"
+    ],
+    "runtime": [
+      "adaptive resolution",
+      "camera-relative shadow span",
+      "near/far vegetation HLOD",
+      "inertial executive camera"
+    ],
+    "licensing": "No SpiderBench source code or assets incorporated"
   }
 }

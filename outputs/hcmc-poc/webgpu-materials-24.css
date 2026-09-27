@@ -17,7 +17,7 @@ body.ui-hidden .flood-lab{opacity:0;pointer-events:none}.flood-lab{transition:op
 @media(max-width:900px){.ioc-alert-bar{top:84px;min-width:0;width:calc(100% - 48px)}.ioc-alert-bar>b{display:none}}@media(max-width:680px){.ioc-kpis{grid-template-columns:repeat(3,1fr)}.ioc-alert-bar{left:10px;right:10px;top:76px;width:auto;transform:none}.ioc-alert-bar>div span:nth-child(2){display:none}}
 @media(prefers-reduced-motion:reduce){.ioc-alert-bar .alert-pulse{animation:none}}
 
-/* Unified map shell · 25G */
+/* Unified map shell · 27A */
 :root{
   --edge:16px;
   --rail:44px;
@@ -189,7 +189,7 @@ body.ui-hidden .flood-lab,body.ui-hidden .ioc-alert-bar{opacity:0;pointer-events
 @media(max-width:360px){.story.collapsed{width:178px}.controls.collapsed{width:108px}}
 @media(prefers-reduced-motion:reduce){.panel-body,.panel-toggle svg{transition:none}}
 
-/* Navigation and control geometry · 25G */
+/* Navigation and control geometry · 27A */
 .story{display:none}
 .chrome-button svg,.panel-toggle svg,.nav-flood svg{
   display:block;
@@ -300,7 +300,7 @@ body.ui-hidden #toggleUi .toggle-show-icon{display:block}
   .ioc-alert-bar{display:none!important}
 }
 
-/* Legibility and interaction QA · 25G */
+/* Legibility and interaction QA · 27A */
 :root{
   --button-text:12px;
   --meta-text:9px;

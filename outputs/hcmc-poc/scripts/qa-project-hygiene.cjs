@@ -28,15 +28,15 @@ check('Workspace cleanup is reproducible and leaves no allow-listed residue',()=
   for(const relative of ['work/archive-ui-pre-demo','work/v1-backup','work/RGBELoader.js','work/bitexco-model.html'])assert(!fs.existsSync(path.join(project,relative)));
 });
 
-check('Renderer assets are version-aligned at 25g',()=>{
+check('Renderer assets are version-aligned at 27a',()=>{
   const html=fs.readFileSync(path.join(demo,'webgpu-materials-24.html'),'utf8');
   const entry=fs.readFileSync(path.join(demo,'webgpu-entry-24.js'),'utf8');
   const manifest=JSON.parse(fs.readFileSync(path.join(demo,'data/webgpu-materials-24.json'),'utf8'));
   const evidence=JSON.parse(fs.readFileSync(path.join(demo,'data/ba-son-marina-24.json'),'utf8'));
   assert(!html.includes('?v=24d'));
-  assert(html.includes('webgpu-materials-24.js?v=25g'));
-  assert(entry.includes("version:'25g'"));
-  assert.equal(manifest.version,'25g');
+  assert(html.includes('webgpu-materials-24.js?v=27a'));
+  assert(entry.includes("version:'27a'"));
+  assert.equal(manifest.version,'27a');
   assert.equal(evidence.version,'24e');
 });
 
@@ -48,9 +48,9 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   const flood=fs.readFileSync(path.join(demo,'flood-ui-25.js'),'utf8');
   for(const id of ['cityNav','collapseNav','collapseStory','collapse','collapseSelection','collapseFloodLab'])assert(html.includes(`id="${id}"`));
   assert(html.includes('aria-controls="floodContent"'));
-  assert(index.includes("location.replace(`webgpu-materials-24.html?v=25g"));
+  assert(index.includes("location.replace(`webgpu-materials-24.html?v=27a"));
   assert(index.includes("q.get('legacy')==='1'"));
-  assert(css.includes('Unified map shell · 25G'));
+  assert(css.includes('Unified map shell · 27A'));
   assert(css.includes('--rail:44px'));
   assert(css.includes('.collapsed>.panel-body'));
   assert(css.includes('.nav-dock'));
@@ -64,14 +64,14 @@ check('Unified map-first shell keeps one canonical UI and aligned collapsible pa
   assert(!html.includes('>⌄<'));
   assert(html.includes('data-view="overview"'));
   assert(html.includes('data-light="day"'));
-  assert(renderer.includes("citylab.25g.panel.story.collapsed"));
-  assert(renderer.includes("citylab.25g.panel.controls.collapsed"));
-  assert(renderer.includes("citylab.25g.panel.navigation.collapsed"));
+  assert(renderer.includes("citylab.27a.panel.story.collapsed"));
+  assert(renderer.includes("citylab.27a.panel.controls.collapsed"));
+  assert(renderer.includes("citylab.27a.panel.navigation.collapsed"));
   assert(renderer.includes("hidden?'Mở giao diện':'Ẩn giao diện'"));
   assert(renderer.includes('function updateLabels()'));
   assert(flood.includes("querySelectorAll('[data-open-flood]')"));
   assert(flood.includes("querySelectorAll('.nav-views [data-view]')"));
-  assert(flood.includes("citylab.25g.panel.flood.collapsed"));
+  assert(flood.includes("citylab.27a.panel.flood.collapsed"));
 });
 
 check('Navigation remains available on compact screens with normalized control geometry',()=>{
@@ -82,10 +82,10 @@ check('Navigation remains available on compact screens with normalized control g
   assert(buttons.every(button=>button.includes('type="button"')));
   for(const glyph of ['◐','▶','⌖','Ⅱ'])assert(!html.includes(glyph));
   assert(css.includes('--control-size:32px'));
-  assert(css.includes('Legibility and interaction QA · 25G'));
+  assert(css.includes('Legibility and interaction QA · 27A'));
   assert(css.includes('--button-text:12px'));
   assert(css.includes('grid-template-columns:1fr 1.25fr'));
-  assert(!css.includes('1.25gr'));
+  assert(!css.includes('1.27ar'));
   assert(css.includes('height:40px'));
   assert(css.includes('.nav-dock.collapsed>.panel-body'));
   assert(css.includes('bottom:48px'));
