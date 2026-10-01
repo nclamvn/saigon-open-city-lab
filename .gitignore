@@ -1,4 +1,19 @@
 .DS_Store
+# Local credentials must not enter a public checkout. Example templates remain reviewable.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+.ssh/
+.netrc
+.npmrc
+credentials.json
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+
 __pycache__/
 *.py[cod]
 .venv-building-gap/
