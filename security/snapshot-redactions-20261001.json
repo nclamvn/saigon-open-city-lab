@@ -1,0 +1,274 @@
+{
+  "schema": "public-snapshot-sanitation/v1",
+  "auditDate": "2026-10-01",
+  "baselineHead": "30608181e6d85c56a4fec4f3dccdb6cb89ca518d",
+  "purpose": "Remove unnecessary foreign website token values from retained research snapshots. No user-owned credential was confirmed and no credential was validated.",
+  "scope": "Research snapshots only; runtime code/assets, HCMGIS records/derived heights and licenses are unchanged. Original source fingerprints in receipts remain historical evidence; sanitized copies are not byte-identical provider responses.",
+  "history": "Earlier commits retain the original values. This forward commit does not revoke tokens or rewrite published history.",
+  "files": [
+    {
+      "path": "outputs/hcmc-poc/research/snapshots/copernicus.html",
+      "originalSourceSha256": "c6f6ce9ff957037429d89fa13e6a76f7b0284b9d78bd75566516593e94fe8c85",
+      "sanitizedCopySha256": "85a02474bc2de40995570f5e17bbcb7285110593fb24ce5366f435c4369f9a38",
+      "originalBytes": 102032,
+      "sanitizedBytes": 101997,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/hcmc-poc/research/snapshots/google-tiles-policy.html",
+      "originalSourceSha256": "9b59e7db11d35f9ff8e9108a1e3720025fa9b4ab712aba22c0c982a809e65a60",
+      "sanitizedCopySha256": "19f68fcd65255190050da4d862aac9831c955b50312d681b768bfab746870266",
+      "originalBytes": 203928,
+      "sanitizedBytes": 203649,
+      "replacementCount": 9,
+      "scannerCategories": {
+        "gcp-api-key": 9
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/hcmc-poc/research/snapshots/mapillary.html",
+      "originalSourceSha256": "455d13e58a9cb958c48d6a8011031baa912b5a076063c6c9f5f195ca80e01b56",
+      "sanitizedCopySha256": "3dcc2138c3c0ff1831ce43f5f84db915c5ad4416c42f395baed4af49b038e429",
+      "originalBytes": 130780,
+      "sanitizedBytes": 130736,
+      "replacementCount": 3,
+      "scannerCategories": {
+        "generic-api-key": 3
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/hcmc-poc/research/snapshots/oam.html",
+      "originalSourceSha256": "5176a114c669c18719a697ffbb4b79048ca648766bed081eff8b273312a714c8",
+      "sanitizedCopySha256": "8adc581d309869f022ea125a739edb8925fd3a4dc47c2e141b99fce11268b67b",
+      "originalBytes": 8588,
+      "sanitizedBytes": 8564,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/hcmc-poc/research/visual-14/snapshots/cgbookcase.html",
+      "originalSourceSha256": "dfd5696314ac21adfb4827c35c1ed9f0164426efb400c2b7b85080a25f156def",
+      "sanitizedCopySha256": "b7ee0e3e2dc2e4daf307fc8d4a3124e4222dc137702737682624ddc6ba35d6a9",
+      "originalBytes": 355043,
+      "sanitizedBytes": 355019,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/hcmc-poc/research/visual-14/snapshots/mapillary.html",
+      "originalSourceSha256": "280846e89e40ba581d7624b5791be32476ed797e3871945f015308bb1346d939",
+      "sanitizedCopySha256": "216740791b2f5b733345c62172a2ede6627b7a3ad9e666e423f159c7e3acc1a5",
+      "originalBytes": 130961,
+      "sanitizedBytes": 130917,
+      "replacementCount": 3,
+      "scannerCategories": {
+        "generic-api-key": 3
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-data-batch-01/sources/global/buildings-catalog.html",
+      "originalSourceSha256": "0dbaf5d61cc6ff5de9477920f99bb745e44818ba9b36ee29bfaf6b445a0d6bae",
+      "sanitizedCopySha256": "aaba50a59781dacd6fcb3599512bd1edc4b2c3417570e30d17f5e9055bf83af6",
+      "originalBytes": 103082,
+      "sanitizedBytes": 102803,
+      "replacementCount": 9,
+      "scannerCategories": {
+        "gcp-api-key": 9
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-data-batch-01/sources/global/lidar.html",
+      "originalSourceSha256": "a0d6b774ee2e5d38151e17facfb15a028b16c423d330e10620aab5cdd6bc8573",
+      "sanitizedCopySha256": "9203ef49adcbe774204d1259fc5ef1c3f2ae14c2e2840e1463961f1527da8c94",
+      "originalBytes": 41017,
+      "sanitizedBytes": 40982,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/baseline/providers/opentopography-developers.html",
+      "originalSourceSha256": "166ef460f361e1f7a11e2ec0c65112e6c74ef41465ac5e4d14c289ba6ea4afd8",
+      "sanitizedCopySha256": "9203ef49adcbe774204d1259fc5ef1c3f2ae14c2e2840e1463961f1527da8c94",
+      "originalBytes": 41017,
+      "sanitizedBytes": 40982,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/local/mapillary-docs.raw",
+      "originalSourceSha256": "2c47ec842fa826606762b6d0b24cde8375770783241de9217fbedb18df6fb368",
+      "sanitizedCopySha256": "32c442d737a74811067070c42a5f55cd2598f44452e1bddd2af6a49a1e26c392",
+      "originalBytes": 131230,
+      "sanitizedBytes": 131186,
+      "replacementCount": 3,
+      "scannerCategories": {
+        "generic-api-key": 3
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/optical/google-map-tiles-policies.html",
+      "originalSourceSha256": "2c2a2fea2398c65d646d8ea74e331766652e8d5644ccb35d5b39920c5057ec12",
+      "sanitizedCopySha256": "68e02e5d5293bc5e9f6e121cbf520ad95f7ace05ba94e66684eab4d90ab9e5e5",
+      "originalBytes": 203928,
+      "sanitizedBytes": 203649,
+      "replacementCount": 9,
+      "scannerCategories": {
+        "gcp-api-key": 9
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/optical/google-maps-platform-terms.html",
+      "originalSourceSha256": "5f93b2e873ee6bd0a846d5078c4202ccdc0b883e73048354971ceaa90bc29752",
+      "sanitizedCopySha256": "bf154ebf348c2246f3aa5cfe2084e15e17590dee694cf4bed9ac12c302c229af",
+      "originalBytes": 2353510,
+      "sanitizedBytes": 2353417,
+      "replacementCount": 3,
+      "scannerCategories": {
+        "gcp-api-key": 3
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/optical/nicfi-gee-asia.html",
+      "originalSourceSha256": "9a6eb0a8fe422e82efbc0d5fa8fedfb7334751f8766e07688acf7b1f6552cc29",
+      "sanitizedCopySha256": "90ef62413e59bcc08ad9b419790290ac85ef396ade6834dc03f2b9cbc07149e6",
+      "originalBytes": 100518,
+      "sanitizedBytes": 100239,
+      "replacementCount": 9,
+      "scannerCategories": {
+        "gcp-api-key": 9
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/blender-license.html",
+      "originalSourceSha256": "e3b97248683a3ed4f2823c472e2613771e8c27f4f444e112a0b0bdafdb7b2ede",
+      "sanitizedCopySha256": "057f7daad936bf271ed774c66134dbe65c359f23786dee779305a3cf503ec4ee",
+      "originalBytes": 62481,
+      "sanitizedBytes": 62457,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/blender-pbr.html",
+      "originalSourceSha256": "d1e05a39df3f9c321f9e288a0b25b0e8cf95241d1672fa9716b234489d7e06c3",
+      "sanitizedCopySha256": "39ed6cf50c10dec72b86c65fcd50ede73dbc5532d840644274031e2da8e2798a",
+      "originalBytes": 489892,
+      "sanitizedBytes": 489868,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/polyhaven-license.html",
+      "originalSourceSha256": "f530abb18e6317a9b0f2a128b94150e372c8456d7491a14e4860c4ed5f5fe69a",
+      "sanitizedCopySha256": "77d50cf780f6dc1aff9876f323beffdcd3475db79e0534a31563041c8513d7c5",
+      "originalBytes": 72336,
+      "sanitizedBytes": 72312,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "outputs/tayninh-imagery-campaign-05/evidence/techniques/reference-process.html",
+      "originalSourceSha256": "0d59f7e861d70c437e93456381aaed04c9407bf4f8b3fe564265a1b194708e3b",
+      "sanitizedCopySha256": "7804765b7894cec3867fe25ff2348ac6884fb48e8a3712df8c9890996d2346ae",
+      "originalBytes": 49900,
+      "sanitizedBytes": 49876,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "research/hcmc-visual-spectrum-26/snapshots/tuoitre-flycam.html",
+      "originalSourceSha256": "9518ef1039f7a3d675fdee823c0ab5aff63c253a4e49a135e5e5738550084440",
+      "sanitizedCopySha256": "d014705a43db1ddfb7ed3088fc3d2ee9aeab897e1cac2d4315e32b0862da6ba8",
+      "originalBytes": 224480,
+      "sanitizedBytes": 224072,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "research/hcmc-visual-spectrum-26/snapshots/tuoitre-traffic.html",
+      "originalSourceSha256": "5739d924ee764dd70cd22ead3f35bdfa858c40b63a1928694711c888cd451bcc",
+      "sanitizedCopySha256": "2763650ce2edd2ad7c517f1b5a97fcb874ff07c35fca526548cb426f4908007d",
+      "originalBytes": 468144,
+      "sanitizedBytes": 467736,
+      "replacementCount": 1,
+      "scannerCategories": {
+        "generic-api-key": 1
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/hcm-open-data-home.html",
+      "originalSourceSha256": "ca5e2ef037e83917ff16ad9c6505be3186eb561081db23d305c9fa487ea3bfbc",
+      "sanitizedCopySha256": "f5ad4d154e7b2a4df65342c828be39ba8954112b187778a6f35e7416e0f40173",
+      "originalBytes": 48990,
+      "sanitizedBytes": 48931,
+      "replacementCount": 2,
+      "scannerCategories": {
+        "generic-api-key": 2
+      },
+      "marker": "REDACTED"
+    },
+    {
+      "path": "research/vibecode-18/evidence-source-owned/hcm-public-dataset-page.html",
+      "originalSourceSha256": "e46f6222f82901f5a2a1408a6a3869f4121d963174d4edc03f0f8eb0f723cc2f",
+      "sanitizedCopySha256": "148615bfd98bcc3fe3ab1e954bdfdb9d39ad1f986602c4e16a3b7222a5a676e1",
+      "originalBytes": 80115,
+      "sanitizedBytes": 80056,
+      "replacementCount": 2,
+      "scannerCategories": {
+        "generic-api-key": 2
+      },
+      "marker": "REDACTED"
+    }
+  ],
+  "currentByteInventoryUpdated": [
+    "cgbookcase.html",
+    "mapillary.html"
+  ],
+  "preservedPublicOrNonCredentialFields": [
+    "Content checksums",
+    "Zenodo file identifiers",
+    "HCMGIS layer identifiers",
+    "Public bucket pagination cursors",
+    "Wikimedia public hCaptcha site identifier",
+    "DOSM parser/library constants"
+  ]
+}

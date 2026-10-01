@@ -1,6 +1,8 @@
 # Git data packaging — 14 September 2026
 
-The private repository contains the completed HCMC and Gia Lộc applications, shared core, operational cropped rasters/GLBs, retained photographs/material maps, source metadata/receipts, tests and research/runbooks through Batch 18. Keep the `outputs/hcmc-poc/` and `outputs/shared/digital-twin-core/` relative directory layout when serving HCMC.
+The public repository contains the completed HCMC and Gia Lộc applications, shared core, operational cropped rasters/GLBs, retained photographs/material maps, source metadata/receipts, tests and research/runbooks through Batch 18. Keep the `outputs/hcmc-poc/` and `outputs/shared/digital-twin-core/` relative directory layout when serving HCMC.
+
+Public access does not establish redistribution permission for every bundled source or dataset. See [publication review notes](SECURITY.md); HCMGIS reuse terms remain unresolved. Some retained research snapshots have foreign website token values replaced with `REDACTED`. Their original source and sanitized-copy fingerprints are recorded in `security/snapshot-redactions-20261001.json`; the sanitized copies are not unmodified provider responses.
 
 Run `python3 outputs/hcmc-poc/serve.py` from the repository root, then open `/hcmc-poc/?v=18b&view=overview` or `/tayninh-data-batch-04/`. The server requires port 8768 and HTTP Range for surface18. The historical standalone HTML/ZIP delivery bundles are not the current runtime.
 
